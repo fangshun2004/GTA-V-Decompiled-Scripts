@@ -903,7 +903,7 @@ void func_25(int iParam0, int iParam1, struct<3> Param2, float fParam5)
 	}
 	if (!iParam0 == 0)
 	{
-		SCRIPT::_TRIGGER_SCRIPT_EVENT_2(1, &Var0, 7, iParam0);
+		SCRIPT::TRIGGER_SCRIPT_EVENT(1, &Var0, 7, iParam0);
 	}
 }
 
@@ -1495,7 +1495,7 @@ void func_54(int iParam0, int iParam1, var uParam2, var uParam3, var uParam4)
 	Var0.f_5 = uParam4;
 	if (!iParam1 == 0)
 	{
-		SCRIPT::_TRIGGER_SCRIPT_EVENT_2(1, &Var0, 7, iParam1);
+		SCRIPT::TRIGGER_SCRIPT_EVENT(1, &Var0, 7, iParam1);
 	}
 }
 
@@ -4226,7 +4226,7 @@ void func_177(struct<3> Param0)
 	Var0.f_2 = Param0.f_0;
 	Var0.f_2.f_1 = Param0.f_1;
 	Var0.f_2.f_2 = Param0.f_2;
-	SCRIPT::_TRIGGER_SCRIPT_EVENT_2(1, &Var0, 5, func_26(1, 1));
+	SCRIPT::TRIGGER_SCRIPT_EVENT(1, &Var0, 5, func_26(1, 1));
 }
 
 int func_178(int iParam0)
@@ -15214,7 +15214,7 @@ void func_298(struct<3> Param0, var uParam3, int iParam4, var uParam5)
 	Var0.f_5 = uParam3;
 	Var0.f_6 = iParam4;
 	Var0.f_7 = *uParam5;
-	SCRIPT::_TRIGGER_SCRIPT_EVENT_2(1, &Var0, 8, func_26(1, 1));
+	SCRIPT::TRIGGER_SCRIPT_EVENT(1, &Var0, 8, func_26(1, 1));
 }
 
 int func_299(var uParam0, var uParam1, var uParam2)
@@ -21121,7 +21121,7 @@ void func_440(struct<2> Param0, int iParam2, var uParam3, struct<3> Param4, var 
 	iVar10 = func_26(1, 1);
 	if (!iVar10 == 0)
 	{
-		SCRIPT::_TRIGGER_SCRIPT_EVENT_2(1, &Var0, 10, iVar10);
+		SCRIPT::TRIGGER_SCRIPT_EVENT(1, &Var0, 10, iVar10);
 	}
 }
 
@@ -21445,7 +21445,7 @@ void func_465(int iParam0, struct<3> Param1)
 	ENTITY::SET_ENTITY_PROOFS(NETWORK::NET_TO_OBJ(Local_1363.f_2[iParam0]), true, true, false, true, true, true, true, false);
 	ENTITY::SET_ENTITY_LOAD_COLLISION_FLAG(NETWORK::NET_TO_ENT(Local_1363.f_2[iParam0]), true, 1);
 	ENTITY::_SET_ENTITY_CLEANUP_BY_ENGINE(NETWORK::NET_TO_ENT(Local_1363.f_2[iParam0]), true);
-	OBJECT::_0x641F272B52E2F0F8(NETWORK::NET_TO_OBJ(Local_1363.f_2[iParam0]), 1);
+	OBJECT::_0x641F272B52E2F0F8(NETWORK::NET_TO_OBJ(Local_1363.f_2[iParam0]), true);
 	OBJECT::SET_OBJECT_FORCE_VEHICLES_TO_AVOID(NETWORK::NET_TO_OBJ(Local_1363.f_2[iParam0]), true);
 	if (func_469())
 	{
@@ -21679,7 +21679,7 @@ int func_479()
 	}
 	func_491();
 	func_490();
-	Local_1363.f_93 = NETWORK::NETWORK_GET_NUM_SCRIPT_PARTICIPANTS(func_489(), -1, false);
+	Local_1363.f_93 = NETWORK::NETWORK_GET_NUM_SCRIPT_PARTICIPANTS(func_489(), -1, 0);
 	func_488();
 	func_485();
 	func_484();
@@ -25685,7 +25685,7 @@ void func_601(struct<67> Param0, var uParam67, var uParam68, var uParam69, var u
 	if (!iVar36 == 0)
 	{
 		func_602();
-		SCRIPT::_TRIGGER_SCRIPT_EVENT_2(1, &Var0, 36, iVar36);
+		SCRIPT::TRIGGER_SCRIPT_EVENT(1, &Var0, 36, iVar36);
 	}
 }
 
@@ -29615,7 +29615,7 @@ void func_762(struct<2> Param0, var uParam2, var uParam3, var uParam4, var uPara
 	Param0.f_1 = PLAYER::PLAYER_ID();
 	if (!iParam14 == 0)
 	{
-		SCRIPT::_TRIGGER_SCRIPT_EVENT_2(1, &Param0, 14, iParam14);
+		SCRIPT::TRIGGER_SCRIPT_EVENT(1, &Param0, 14, iParam14);
 	}
 }
 
@@ -32666,7 +32666,7 @@ int func_849(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 			if (BitTest(Global_77669[1 /*14*/].f_6, 6) && FILES::DOES_SHOP_PED_APPAREL_HAVE_RESTRICTION_TAG(Global_2883588, joaat("SHRINK_HAIR"), 1))
 			{
 			}
-			else if (FILES::_0x7796B21B76221BC5(iParam0, 1, joaat("HAIR_SHRINK")))
+			else if (FILES::_DOES_CUSTOMIZATION_COMPONENT_HAVE_RESTRICTION_TAG(iParam0, 1, joaat("HAIR_SHRINK")))
 			{
 				func_849(iParam0, 1, 0, 0, -1, 0, 0, 0, -1, -1, -1, 0, 0, 0);
 				Global_77669[1 /*14*/] = { func_1004(iVar5, iParam1, iParam2, -1) };
@@ -32736,7 +32736,7 @@ int func_849(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				iVar73 = func_967(iParam0, 11);
 				iVar74 = func_967(iParam0, 8);
 				iVar75 = func_967(iParam0, 4);
-				if (FILES::_0x7796B21B76221BC5(iParam0, 8, joaat("OVER_JACKET")))
+				if (FILES::_DOES_CUSTOMIZATION_COMPONENT_HAVE_RESTRICTION_TAG(iParam0, 8, joaat("OVER_JACKET")))
 				{
 					if (iVar5 == joaat("mp_m_freemode_01"))
 					{
@@ -33255,7 +33255,7 @@ int func_849(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					{
 						func_849(iParam0, 9, 0, 0, iParam4, 0, 0, 0, -1, -1, -1, 0, 0, 0);
 					}
-					if (FILES::_0x7796B21B76221BC5(iParam0, 8, joaat("OVER_JACKET")))
+					if (FILES::_DOES_CUSTOMIZATION_COMPONENT_HAVE_RESTRICTION_TAG(iParam0, 8, joaat("OVER_JACKET")))
 					{
 						func_849(iParam0, 9, 0, 0, iParam4, 0, 0, 0, -1, -1, -1, 0, 0, 0);
 					}
@@ -36897,7 +36897,7 @@ int func_872(int iParam0, int iParam1)
 
 int func_873(int iParam0)
 {
-	if (FILES::_0x7796B21B76221BC5(iParam0, 4, joaat("DUNGAREES")))
+	if (FILES::_DOES_CUSTOMIZATION_COMPONENT_HAVE_RESTRICTION_TAG(iParam0, 4, joaat("DUNGAREES")))
 	{
 		return 1;
 	}
@@ -38259,7 +38259,7 @@ int func_881(int iParam0, int iParam1, int iParam2, int iParam3)
 
 int func_882(int iParam0)
 {
-	if (FILES::_0x7796B21B76221BC5(iParam0, 8, joaat("X17_DRAW_6")))
+	if (FILES::_DOES_CUSTOMIZATION_COMPONENT_HAVE_RESTRICTION_TAG(iParam0, 8, joaat("X17_DRAW_6")))
 	{
 		return 1;
 	}
@@ -38270,7 +38270,7 @@ int func_883(int iParam0)
 {
 	if (!PED::IS_PED_INJURED(iParam0))
 	{
-		if (PED::GET_PED_DRAWABLE_VARIATION(iParam0, 9) != 0 && !FILES::_0x7796B21B76221BC5(iParam0, 9, -138631194))
+		if (PED::GET_PED_DRAWABLE_VARIATION(iParam0, 9) != 0 && !FILES::_DOES_CUSTOMIZATION_COMPONENT_HAVE_RESTRICTION_TAG(iParam0, 9, -138631194))
 		{
 			return 1;
 		}
@@ -105981,7 +105981,7 @@ void func_1104(int iParam0)
 	Var0.f_0 = -1981816062;
 	Var0.f_1 = PLAYER::PLAYER_ID();
 	Var0.f_2 = iParam0;
-	SCRIPT::_TRIGGER_SCRIPT_EVENT_2(1, &Var0, 3, func_26(1, 1));
+	SCRIPT::TRIGGER_SCRIPT_EVENT(1, &Var0, 3, func_26(1, 1));
 }
 
 var func_1105()
@@ -109616,7 +109616,7 @@ void func_1239(struct<29> Param0, var uParam29, var uParam30, var uParam31, var 
 	Var0.f_37 = uParam35;
 	Var0.f_38 = bParam36;
 	Var0.f_39 = iParam37;
-	SCRIPT::_TRIGGER_SCRIPT_EVENT_2(1, &Var0, 40, func_26(1, 1));
+	SCRIPT::TRIGGER_SCRIPT_EVENT(1, &Var0, 40, func_26(1, 1));
 }
 
 int func_1240(var uParam0, var uParam1, var uParam2, var uParam3)
@@ -123522,7 +123522,7 @@ void func_1502(struct<3> Param0)
 	Var0.f_0 = 145350701;
 	Var0.f_1 = PLAYER::PLAYER_ID();
 	Var0.f_2 = { Param0 };
-	SCRIPT::_TRIGGER_SCRIPT_EVENT_2(1, &Var0, 5, func_26(1, 1));
+	SCRIPT::TRIGGER_SCRIPT_EVENT(1, &Var0, 5, func_26(1, 1));
 }
 
 int func_1503()
@@ -133106,7 +133106,7 @@ void func_1634(int iParam0, int iParam1, float fParam2, int iParam3, int iParam4
 	Var0.f_8 = MISC::GET_FRAME_COUNT();
 	if (!iParam0 == 0)
 	{
-		SCRIPT::_TRIGGER_SCRIPT_EVENT_2(1, &Var0, 9, iParam0);
+		SCRIPT::TRIGGER_SCRIPT_EVENT(1, &Var0, 9, iParam0);
 	}
 }
 
@@ -138540,15 +138540,15 @@ bool func_1785(bool bParam0, int* iParam1, bool bParam2)
 {
 	if (bParam0)
 	{
-		*iParam1 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("mp_mm_card_freemode");
+		*iParam1 = unk_0x67D02A194A2FC2BD("mp_mm_card_freemode");
 	}
 	else if (bParam2)
 	{
-		*iParam1 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MP_SPECTATOR_CARD");
+		*iParam1 = unk_0x67D02A194A2FC2BD("MP_SPECTATOR_CARD");
 	}
 	else
 	{
-		*iParam1 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("mp_matchmaking_card");
+		*iParam1 = unk_0x67D02A194A2FC2BD("mp_matchmaking_card");
 	}
 	return GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*iParam1);
 }
@@ -144715,7 +144715,7 @@ void func_2099(int iParam0, int iParam1, var uParam2)
 	iVar5 = func_2100(1);
 	if (iVar5 != 0)
 	{
-		SCRIPT::_TRIGGER_SCRIPT_EVENT_2(1, &Var0, 5, iVar5);
+		SCRIPT::TRIGGER_SCRIPT_EVENT(1, &Var0, 5, iVar5);
 	}
 }
 
@@ -149449,7 +149449,7 @@ void func_2327(var uParam0, int iParam1)
 	iVar7 = func_2100(1);
 	if (iVar7 != 0)
 	{
-		SCRIPT::_TRIGGER_SCRIPT_EVENT_2(1, &Var0, 7, iVar7);
+		SCRIPT::TRIGGER_SCRIPT_EVENT(1, &Var0, 7, iVar7);
 	}
 }
 
@@ -153176,7 +153176,7 @@ void func_2604(int iParam0, int iParam1, var uParam2, var uParam3, var uParam4, 
 	Var0.f_6 = uParam5;
 	if (!iParam1 == 0)
 	{
-		SCRIPT::_TRIGGER_SCRIPT_EVENT_2(1, &Var0, 7, iParam1);
+		SCRIPT::TRIGGER_SCRIPT_EVENT(1, &Var0, 7, iParam1);
 	}
 }
 
