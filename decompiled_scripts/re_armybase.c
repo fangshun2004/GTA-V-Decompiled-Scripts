@@ -555,11 +555,11 @@ void func_1()
 			Local_430[2 /*3*/] = { 0f, -1.5f, 0f };
 			Local_430[3 /*3*/] = { -1f, -1.5f, 0f };
 			Local_430[4 /*3*/] = { -2f, -1.5f, 0f };
-			Local_446[0 /*3*/] = { OBJECT::_GET_OBJECT_OFFSET_FROM_COORDS(Local_421, 57.3018f, Local_430[0 /*3*/]) };
-			Local_446[1 /*3*/] = { OBJECT::_GET_OBJECT_OFFSET_FROM_COORDS(Local_421, 57.3018f, Local_430[1 /*3*/]) };
-			Local_446[2 /*3*/] = { OBJECT::_GET_OBJECT_OFFSET_FROM_COORDS(Local_421, 57.3018f, Local_430[2 /*3*/]) };
-			Local_446[3 /*3*/] = { OBJECT::_GET_OBJECT_OFFSET_FROM_COORDS(Local_421, 57.3018f, Local_430[3 /*3*/]) };
-			Local_446[4 /*3*/] = { OBJECT::_GET_OBJECT_OFFSET_FROM_COORDS(Local_421, 57.3018f, Local_430[4 /*3*/]) };
+			Local_446[0 /*3*/] = { OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(Local_421, 57.3018f, Local_430[0 /*3*/]) };
+			Local_446[1 /*3*/] = { OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(Local_421, 57.3018f, Local_430[1 /*3*/]) };
+			Local_446[2 /*3*/] = { OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(Local_421, 57.3018f, Local_430[2 /*3*/]) };
+			Local_446[3 /*3*/] = { OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(Local_421, 57.3018f, Local_430[3 /*3*/]) };
+			Local_446[4 /*3*/] = { OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(Local_421, 57.3018f, Local_430[4 /*3*/]) };
 			MISC::CLEAR_AREA_OF_VEHICLES(Local_421, 10f, false, false, false, false, false, false, 0);
 			iLocal_467 = 1;
 			break;
@@ -742,8 +742,8 @@ void func_3()
 		case 0:
 			Local_241[0 /*3*/] = { 1f, 0f, 0f };
 			Local_241[1 /*3*/] = { -1f, 0f, 0f };
-			Local_248[0 /*3*/] = { OBJECT::_GET_OBJECT_OFFSET_FROM_COORDS(Local_232, 140.0094f, 1f, 0f, 0f) };
-			Local_248[1 /*3*/] = { OBJECT::_GET_OBJECT_OFFSET_FROM_COORDS(Local_232, 140.0094f, -1f, 0f, 0f) };
+			Local_248[0 /*3*/] = { OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(Local_232, 140.0094f, 1f, 0f, 0f) };
+			Local_248[1 /*3*/] = { OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(Local_232, 140.0094f, -1f, 0f, 0f) };
 			iLocal_284 = 1;
 			break;
 		
@@ -1910,7 +1910,7 @@ void func_38()
 							{
 								Var0 = { ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true) };
 								fVar6 = ENTITY::GET_ENTITY_HEADING(PLAYER::PLAYER_PED_ID());
-								Var3 = { OBJECT::_GET_OBJECT_OFFSET_FROM_COORDS(Var0, fVar6, 0f, -150f, 0f) };
+								Var3 = { OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(Var0, fVar6, 0f, -150f, 0f) };
 								fVar7 = ENTITY::GET_ENTITY_HEADING(PLAYER::PLAYER_PED_ID());
 								fVar7 = fVar7;
 								if (!func_39(Var3))
@@ -1921,7 +1921,7 @@ void func_38()
 										fVar7 = ENTITY::GET_ENTITY_HEADING(iLocal_285);
 										ENTITY::SET_ENTITY_ROTATION(iLocal_285, 0f, 0f, fVar6, 2, true);
 										VEHICLE::CONTROL_LANDING_GEAR(iLocal_285, 3);
-										ENTITY::_SET_ENTITY_CLEANUP_BY_ENGINE(iLocal_285, false);
+										ENTITY::SET_ENTITY_SHOULD_FREEZE_WAITING_ON_COLLISION(iLocal_285, false);
 										iLocal_291 = PED::CREATE_PED_INSIDE_VEHICLE(iLocal_285, 5, joaat("s_m_y_marine_01"), -1, true, true);
 										PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_291, true);
 										if (!ENTITY::IS_ENTITY_DEAD(PLAYER::PLAYER_PED_ID(), false))
@@ -2932,7 +2932,7 @@ int func_64()
 	{
 		return 1;
 	}
-	if (!func_27(14) && SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("director_mode")) > 0)
+	if (!func_27(14) && SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("director_mode")) > 0)
 	{
 		return 1;
 	}

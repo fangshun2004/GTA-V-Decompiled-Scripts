@@ -222,7 +222,7 @@ void func_4()
 			func_12(7869, iVar1 + 1, -1, 1, 0);
 			Var2.f_1 = 1;
 			Var2.f_0 = 24;
-			STATS::_PLAYSTATS_GUNRUN_MISSION_ENDED(&Var2);
+			STATS::PLAYSTATS_GUNRUNNING_MISSION_ENDED(&Var2);
 			Local_16 = { ENTITY::GET_ENTITY_COORDS(iLocal_5, false) };
 			iLocal_19 = 0;
 		}
@@ -474,7 +474,7 @@ int func_18()
 	int iVar1;
 	float fVar2;
 	
-	MISC::_GET_WEATHER_TYPE_TRANSITION(&iVar0, &iVar1, &fVar2);
+	MISC::GET_CURR_WEATHER_STATE(&iVar0, &iVar1, &fVar2);
 	if (fVar2 < 0.5f)
 	{
 		if ((iVar0 == joaat("rain") || iVar0 == joaat("THUNDER")) || iVar1 == -1429616491)
@@ -500,7 +500,7 @@ bool func_20(int iParam0, int iParam1)
 	{
 		iParam1 = func_14();
 	}
-	return STATS::_GET_PACKED_STAT_BOOL(iParam0, iParam1);
+	return STATS::GET_PACKED_STAT_BOOL_CODE(iParam0, iParam1);
 }
 
 void func_21(var uParam0)
@@ -911,7 +911,7 @@ int func_41(int iParam0, var uParam1, int iParam2, bool bParam3)
 
 void func_42()
 {
-	if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("fm_mission_controller_2020")) > 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_mission_controller_2020")) > 0)
 	{
 		func_45();
 	}
@@ -934,7 +934,7 @@ void func_43()
 	{
 		if (BitTest(iLocal_28, bVar0))
 		{
-			AUDIO::_SET_RADIO_STATION_IS_VISIBLE(func_44(bVar0), false);
+			AUDIO::SET_RADIO_STATION_AS_FAVOURITE(func_44(bVar0), false);
 			MISC::CLEAR_BIT(&iLocal_28, bVar0);
 		}
 		bVar0++;
@@ -1049,7 +1049,7 @@ void func_45()
 			{
 			}
 			MISC::SET_BIT(&iLocal_29, bVar0);
-			AUDIO::_SET_RADIO_STATION_IS_VISIBLE(func_44(bVar0), true);
+			AUDIO::SET_RADIO_STATION_AS_FAVOURITE(func_44(bVar0), true);
 		}
 		if (!BitTest(uVar1, bVar0) && !BitTest(iLocal_28, bVar0))
 		{
@@ -1753,11 +1753,11 @@ Vector3 func_74(int iParam0, int iParam1)
 	switch (iParam0)
 	{
 		case 0:
-			return OBJECT::_GET_OBJECT_OFFSET_FROM_COORDS(func_76(iParam1, 0), func_75(iParam1, 0), 6.1458f, 3.6035f, 0.0002f);
+			return OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(func_76(iParam1, 0), func_75(iParam1, 0), 6.1458f, 3.6035f, 0.0002f);
 			break;
 		
 		case 1:
-			return OBJECT::_GET_OBJECT_OFFSET_FROM_COORDS(func_76(iParam1, 0), func_75(iParam1, 0), 9.8062f, -0.0547f, 2.8373f);
+			return OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(func_76(iParam1, 0), func_75(iParam1, 0), 9.8062f, -0.0547f, 2.8373f);
 			break;
 	}
 	return 0f, 0f, 0f;
@@ -2305,7 +2305,7 @@ int func_82()
 
 void func_83()
 {
-	if ((Global_112332 && SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("director_mode")) <= 0) && func_31())
+	if ((Global_112332 && SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("director_mode")) <= 0) && func_31())
 	{
 		NETWORK::SHUTDOWN_AND_LAUNCH_SINGLE_PLAYER_GAME();
 	}
