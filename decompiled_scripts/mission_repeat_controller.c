@@ -479,7 +479,7 @@ void func_17(int iParam0, bool bParam1, bool bParam2)
 	}
 	if (bParam2)
 	{
-		MISC::CLEAR_BIT(&(Global_100493.f_1393[iParam0]), iParam1);
+		MISC::CLEAR_BIT(&(Global_100493.f_1393[iParam0]), bParam1);
 	}
 	else if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
@@ -814,7 +814,7 @@ void func_24(int iParam0, bool bParam1, bool bParam2)
 	}
 	if (bParam2)
 	{
-		MISC::SET_BIT(&(Global_100493.f_1393[iParam0]), iParam1);
+		MISC::SET_BIT(&(Global_100493.f_1393[iParam0]), bParam1);
 	}
 	else if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
@@ -7286,7 +7286,7 @@ void func_146(int iParam0)
 void func_147(int iParam0, int iParam1, bool bParam2, bool bParam3, int iParam4)
 {
 	int iVar0;
-	int iVar1;
+	bool bVar1;
 	int iVar2;
 	int iVar3;
 	
@@ -7295,10 +7295,10 @@ void func_147(int iParam0, int iParam1, bool bParam2, bool bParam3, int iParam4)
 	{
 		iVar0 = iParam4;
 	}
-	if (func_148(iParam0, iParam1, &iVar2, &iVar1, bParam2, bParam3))
+	if (func_148(iParam0, iParam1, &iVar2, &bVar1, bParam2, bParam3))
 	{
 		iVar3 = func_21(iVar2, iVar0, 0);
-		MISC::SET_BIT(&iVar3, iVar1);
+		MISC::SET_BIT(&iVar3, bVar1);
 		func_18(iVar2, iVar3, iVar0, 1, 0);
 	}
 }
@@ -9784,7 +9784,7 @@ int func_149(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 	{
 		if (iParam5 == 1)
 		{
-			MISC::SET_BIT(&(Global_113386.f_2363[iParam1 /*164*/][iParam3]), iParam4);
+			MISC::SET_BIT(&(Global_113386.f_2363[iParam1 /*164*/][iParam3]), bParam4);
 		}
 		if (iParam6 == 1)
 		{
@@ -42947,7 +42947,7 @@ void func_339(int iParam0, bool bParam1)
 void func_340(int iParam0, var uParam1)
 {
 	int iVar0;
-	int iVar1;
+	bool bVar1;
 	int iVar2;
 	int iVar3;
 	struct<5> Var4;
@@ -42956,7 +42956,7 @@ void func_340(int iParam0, var uParam1)
 	struct<2> Var11;
 	struct<4> Var50;
 	int iVar72;
-	int iVar73;
+	bool bVar73;
 	
 	if (!PED::IS_PED_INJURED(iParam0))
 	{
@@ -42994,13 +42994,13 @@ void func_340(int iParam0, var uParam1)
 						}
 					}
 					(uParam1[iVar0 /*5*/])->f_1 = Var4.f_1;
-					iVar1 = 0;
-					iVar2 = func_343(Var4.f_0, iVar1);
+					bVar1 = false;
+					iVar2 = func_343(Var4.f_0, bVar1);
 					while (iVar2 != 0)
 					{
 						if (WEAPON::HAS_PED_GOT_WEAPON_COMPONENT(iParam0, Var4.f_0, iVar2))
 						{
-							MISC::SET_BIT(&(Var4.f_2), iVar1);
+							MISC::SET_BIT(&(Var4.f_2), bVar1);
 						}
 						bVar1++;
 						iVar2 = func_343(Var4.f_0, bVar1);
@@ -43043,7 +43043,7 @@ void func_340(int iParam0, var uParam1)
 						}
 					}
 					uParam1->f_221[iVar72 /*5*/].f_1 = Var4.f_1;
-					iVar73 = 0;
+					bVar73 = false;
 					bVar1 = false;
 					while (bVar1 < FILES::GET_NUM_DLC_WEAPON_COMPONENTS_SP(iVar9))
 					{
@@ -43053,7 +43053,7 @@ void func_340(int iParam0, var uParam1)
 							{
 								if (WEAPON::HAS_PED_GOT_WEAPON_COMPONENT(iParam0, Var4.f_0, Var50.f_3))
 								{
-									MISC::SET_BIT(&(Var4.f_2), iVar73);
+									MISC::SET_BIT(&(Var4.f_2), bVar73);
 								}
 								bVar73++;
 							}
@@ -104040,7 +104040,7 @@ void func_614(int iParam0, bool bParam1, bool bParam2)
 	}
 	if (bParam2)
 	{
-		MISC::SET_BIT(&(Global_113386.f_32749[iParam0]), iParam1);
+		MISC::SET_BIT(&(Global_113386.f_32749[iParam0]), bParam1);
 	}
 	else
 	{
@@ -104147,7 +104147,7 @@ void func_618(bool bParam0, bool bParam1)
 {
 	if (bParam1)
 	{
-		MISC::SET_BIT(&Global_112024, iParam0);
+		MISC::SET_BIT(&Global_112024, bParam0);
 	}
 	else
 	{
@@ -116441,16 +116441,16 @@ void func_775(bool bParam0, int iParam1, bool bParam2, bool bParam3)
 {
 	int iVar0;
 	int iVar1;
-	int iVar2;
+	bool bVar2;
 	
 	if (func_49(bParam0))
 	{
 		iVar0 = func_787(bParam0, iParam1);
 		iVar1 = func_785(iParam1);
-		iVar2 = func_447(iVar1);
+		bVar2 = func_447(iVar1);
 		if (bParam2)
 		{
-			MISC::SET_BIT(&iVar0, iVar2);
+			MISC::SET_BIT(&iVar0, bVar2);
 		}
 		else
 		{
@@ -116466,16 +116466,16 @@ void func_775(bool bParam0, int iParam1, bool bParam2, bool bParam3)
 
 void func_776(bool bParam0, int iParam1)
 {
-	int iVar0;
+	bool bVar0;
 	int iVar1;
 	
-	iVar0 = 0;
-	iVar1 = func_343(iParam1, iVar0);
+	bVar0 = false;
+	iVar1 = func_343(iParam1, bVar0);
 	while (iVar1 != 0)
 	{
 		func_777(bParam0, iParam1, iVar1, 1);
-		iVar0++;
-		iVar1 = func_343(iParam1, iVar0);
+		bVar0++;
+		iVar1 = func_343(iParam1, bVar0);
 	}
 }
 
@@ -116483,16 +116483,16 @@ void func_777(bool bParam0, int iParam1, int iParam2, bool bParam3)
 {
 	int iVar0;
 	int iVar1;
-	int iVar2;
+	bool bVar2;
 	
 	if (func_49(bParam0))
 	{
 		iVar0 = func_783(bParam0, iParam1, iParam2);
 		iVar1 = func_781(iParam2, iParam1);
-		iVar2 = func_780(iVar1);
+		bVar2 = func_780(iVar1);
 		if (bParam3)
 		{
-			MISC::SET_BIT(&iVar0, iVar2);
+			MISC::SET_BIT(&iVar0, bVar2);
 		}
 		else
 		{
@@ -126954,11 +126954,11 @@ void func_860(int iParam0, int iParam1, int iParam2, int iParam3)
 
 void func_861(bool bParam0, int iParam1, int iParam2, bool bParam3)
 {
-	Global_96316[iParam0 /*5*/] = iParam1;
-	Global_96316[iParam0 /*5*/].f_1 = iParam2;
+	Global_96316[bParam0 /*5*/] = iParam1;
+	Global_96316[bParam0 /*5*/].f_1 = iParam2;
 	if (bParam3)
 	{
-		MISC::SET_BIT(&(Global_113386.f_1.f_116), iParam0);
+		MISC::SET_BIT(&(Global_113386.f_1.f_116), bParam0);
 	}
 	else
 	{

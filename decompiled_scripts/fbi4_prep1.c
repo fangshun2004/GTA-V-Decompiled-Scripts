@@ -8972,7 +8972,7 @@ void func_282(int iParam0)
 
 void func_283(bool bParam0)
 {
-	MISC::SET_BIT(&Global_96296, iParam0);
+	MISC::SET_BIT(&Global_96296, bParam0);
 }
 
 void func_284()
@@ -14008,7 +14008,7 @@ void func_353(int iParam0, bool bParam1, bool bParam2)
 	}
 	if (bParam2)
 	{
-		MISC::SET_BIT(&(Global_100493.f_1393[iParam0]), iParam1);
+		MISC::SET_BIT(&(Global_100493.f_1393[iParam0]), bParam1);
 	}
 	else if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{

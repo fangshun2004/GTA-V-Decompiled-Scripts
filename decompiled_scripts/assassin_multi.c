@@ -25288,7 +25288,7 @@ void func_493(bool bParam0, bool bParam1)
 {
 	if (bParam1)
 	{
-		MISC::SET_BIT(&Global_32207, iParam0);
+		MISC::SET_BIT(&Global_32207, bParam0);
 	}
 	else
 	{

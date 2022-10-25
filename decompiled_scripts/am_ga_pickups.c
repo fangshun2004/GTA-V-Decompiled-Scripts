@@ -257,7 +257,7 @@ void func_3()
 			func_4(iVar0);
 			if (Local_114.f_2[iVar0 /*27*/].f_26 > 5)
 			{
-				MISC::SET_BIT(&(Local_114.f_2[iVar0 /*27*/].f_6), 1);
+				MISC::SET_BIT(&(Local_114.f_2[iVar0 /*27*/].f_6), true);
 			}
 			Local_114.f_2[iVar0 /*27*/].f_26++;
 		}
@@ -334,28 +334,28 @@ void func_6(var uParam0, struct<3> Param1)
 var func_7(int iParam0, bool bParam1)
 {
 	var uVar0;
-	int iVar1;
+	bool bVar1;
 	int iVar2;
 	
-	iVar1 = 0;
-	while (iVar1 < 32)
+	bVar1 = false;
+	while (bVar1 < 32)
 	{
-		iVar2 = PLAYER::INT_TO_PLAYERINDEX(iVar1);
+		iVar2 = PLAYER::INT_TO_PLAYERINDEX(bVar1);
 		if (func_11(iVar2, 0, 0))
 		{
 			if (iVar2 != PLAYER::PLAYER_ID() || iParam0)
 			{
 				if (bParam1)
 				{
-					MISC::SET_BIT(&uVar0, iVar1);
+					MISC::SET_BIT(&uVar0, bVar1);
 				}
 				else if (!func_8(iVar2, 0))
 				{
-					MISC::SET_BIT(&uVar0, iVar1);
+					MISC::SET_BIT(&uVar0, bVar1);
 				}
 			}
 		}
-		iVar1++;
+		bVar1++;
 	}
 	return uVar0;
 }
@@ -977,7 +977,7 @@ int func_43(struct<41> Param0, var uParam41, var uParam42, var uParam43, var uPa
 		{
 			if (!BitTest(Param0.f_5, 0))
 			{
-				MISC::SET_BIT(&(Local_114.f_2[iVar21 /*27*/].f_6), 0);
+				MISC::SET_BIT(&(Local_114.f_2[iVar21 /*27*/].f_6), false);
 			}
 			Local_114.f_2[iVar21 /*27*/].f_2 = { Param0.f_6[iVar21 /*3*/] };
 			Local_114.f_2[iVar21 /*27*/].f_5 = Param0.f_22[iVar21];

@@ -49547,7 +49547,7 @@ void func_656()
 
 void func_657(bool bParam0, int iParam1)
 {
-	MISC::SET_BIT(&(Global_1648034.f_1047), iParam0);
+	MISC::SET_BIT(&(Global_1648034.f_1047), bParam0);
 	switch (bParam0)
 	{
 		case 5:

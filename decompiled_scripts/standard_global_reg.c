@@ -234,7 +234,7 @@ void __EntryFunction__()
 			}
 			iVar2++;
 		}
-		MISC::SET_BIT(&(Global_113386.f_2363.f_4865), 0);
+		MISC::SET_BIT(&(Global_113386.f_2363.f_4865), false);
 	}
 	Var6 = 44;
 	Var6.f_221 = 51;
@@ -268,7 +268,7 @@ void __EntryFunction__()
 		}
 		else
 		{
-			MISC::SET_BIT(&(Global_113386.f_9085.f_2[27 /*3*/]), 1);
+			MISC::SET_BIT(&(Global_113386.f_9085.f_2[27 /*3*/]), true);
 		}
 	}
 	Global_113386.f_7229.f_31 = 1;
@@ -11843,18 +11843,18 @@ void func_114(int iParam0, bool bParam1, bool bParam2)
 	{
 		return;
 	}
-	if (iParam1 < 0 || iParam1 >= 32)
+	if (bParam1 < 0 || bParam1 >= 32)
 	{
 		return;
 	}
-	iVar0 = BitTest(Global_113386.f_9085.f_99.f_219[iParam0], iParam1);
+	iVar0 = BitTest(Global_113386.f_9085.f_99.f_219[iParam0], bParam1);
 	if (iVar0 == bParam2)
 	{
 		return;
 	}
 	if (bParam2)
 	{
-		MISC::SET_BIT(&(Global_113386.f_9085.f_99.f_219[iParam0]), iParam1);
+		MISC::SET_BIT(&(Global_113386.f_9085.f_99.f_219[iParam0]), bParam1);
 	}
 	else
 	{
@@ -11880,19 +11880,19 @@ int func_115(int iParam0, int iParam1)
 
 void func_116(int iParam0)
 {
-	int iVar0;
+	bool bVar0;
 	int iVar1;
 	
-	iVar0 = iParam0;
+	bVar0 = iParam0;
 	iVar1 = 0;
-	while (iVar0 > 31)
+	while (bVar0 > 31)
 	{
-		iVar0 = (iVar0 - 32);
+		bVar0 = (bVar0 - 32);
 		iVar1++;
 	}
 	if (iVar1 < 3)
 	{
-		MISC::CLEAR_BIT(&(Global_113386.f_20410.f_150[iVar1]), iVar0);
+		MISC::CLEAR_BIT(&(Global_113386.f_20410.f_150[iVar1]), bVar0);
 		MISC::CLEAR_BIT(&(Global_113386.f_20410.f_150[iVar1]), bVar0);
 	}
 }
@@ -12107,7 +12107,7 @@ int func_125(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 	{
 		if (iParam5 == 1)
 		{
-			MISC::SET_BIT(&(Global_113386.f_2363[iParam1 /*164*/][iParam3]), iParam4);
+			MISC::SET_BIT(&(Global_113386.f_2363[iParam1 /*164*/][iParam3]), bParam4);
 		}
 		if (iParam6 == 1)
 		{
@@ -68071,7 +68071,7 @@ int func_350(int iParam0, int iParam1, int iParam2)
 void func_351(int iParam0, int iParam1, bool bParam2, bool bParam3, int iParam4)
 {
 	int iVar0;
-	int iVar1;
+	bool bVar1;
 	int iVar2;
 	int iVar3;
 	
@@ -68080,10 +68080,10 @@ void func_351(int iParam0, int iParam1, bool bParam2, bool bParam3, int iParam4)
 	{
 		iVar0 = iParam4;
 	}
-	if (func_137(iParam0, iParam1, &iVar2, &iVar1, bParam2, bParam3))
+	if (func_137(iParam0, iParam1, &iVar2, &bVar1, bParam2, bParam3))
 	{
 		iVar3 = func_132(iVar2, iVar0, 0);
-		MISC::SET_BIT(&iVar3, iVar1);
+		MISC::SET_BIT(&iVar3, bVar1);
 		func_390(iVar2, iVar3, iVar0, 1, 0);
 	}
 }

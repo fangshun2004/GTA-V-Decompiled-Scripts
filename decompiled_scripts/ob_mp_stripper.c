@@ -850,27 +850,27 @@ void func_1()
 
 void func_2()
 {
-	int iVar0;
+	bool bVar0;
 	int iVar1;
 	
-	iVar0 = Global_1853184;
-	if (iVar0 > -1 && iVar0 != func_9())
+	bVar0 = Global_1853184;
+	if (bVar0 > -1 && bVar0 != func_9())
 	{
 		iVar1 = 0;
 		while (iVar1 < 29)
 		{
-			if (Global_1853348[PLAYER::PLAYER_ID() /*834*/].f_267.f_32 == Global_1853348[iVar0 /*834*/].f_267[iVar1])
+			if (Global_1853348[PLAYER::PLAYER_ID() /*834*/].f_267.f_32 == Global_1853348[bVar0 /*834*/].f_267[iVar1])
 			{
 				if (func_8(iVar1) != -1)
 				{
-					if (iVar0 == PLAYER::PLAYER_ID())
+					if (bVar0 == PLAYER::PLAYER_ID())
 					{
 						func_6(iVar1);
 						return;
 					}
-					else if (func_5(iVar0, 0, 1))
+					else if (func_5(bVar0, 0, 1))
 					{
-						func_3(func_4(iVar0), 0, 0, 1, iVar1);
+						func_3(func_4(bVar0), 0, 0, 1, iVar1);
 						return;
 					}
 				}
@@ -896,13 +896,13 @@ void func_3(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4)
 	}
 }
 
-int func_4(int iParam0)
+int func_4(bool bParam0)
 {
 	var uVar0;
 	
-	if (iParam0 != -1)
+	if (bParam0 != -1)
 	{
-		MISC::SET_BIT(&uVar0, iParam0);
+		MISC::SET_BIT(&uVar0, bParam0);
 	}
 	return uVar0;
 }
@@ -1131,10 +1131,10 @@ void func_20(bool bParam0)
 	func_21(16, -1);
 }
 
-void func_21(int iParam0, int iParam1)
+void func_21(bool bParam0, int iParam1)
 {
-	MISC::SET_BIT(&(Global_1648034.f_1047), iParam0);
-	switch (iParam0)
+	MISC::SET_BIT(&(Global_1648034.f_1047), bParam0);
+	switch (bParam0)
 	{
 		case 5:
 			if (iParam1 > -1)
@@ -1706,7 +1706,7 @@ void func_38(bool bParam0, int iParam1, int iParam2)
 						iVar1++;
 					}
 				}
-				MISC::SET_BIT(&(Global_2621446.f_67), 1);
+				MISC::SET_BIT(&(Global_2621446.f_67), true);
 			}
 		}
 		if (func_26(PLAYER::PLAYER_ID(), 0))
@@ -1748,7 +1748,7 @@ void func_40()
 				iVar0++;
 			}
 			MISC::SET_BIT(&(Global_2621446.f_67), 2);
-			MISC::SET_BIT(&(Global_2621446.f_67), 0);
+			MISC::SET_BIT(&(Global_2621446.f_67), false);
 		}
 	}
 }

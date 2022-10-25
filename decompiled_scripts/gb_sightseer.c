@@ -8991,7 +8991,7 @@ void func_235(bool bParam0)
 
 void func_236(bool bParam0)
 {
-	MISC::SET_BIT(&(Global_1892703[PLAYER::PLAYER_ID() /*599*/].f_10.f_4), iParam0);
+	MISC::SET_BIT(&(Global_1892703[PLAYER::PLAYER_ID() /*599*/].f_10.f_4), bParam0);
 }
 
 void func_237(bool bParam0)

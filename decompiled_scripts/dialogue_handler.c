@@ -153,7 +153,7 @@ void __EntryFunction__()
 			{
 				if (!BitTest(Global_20471, 1))
 				{
-					MISC::SET_BIT(&Global_20471, 1);
+					MISC::SET_BIT(&Global_20471, true);
 					if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 					{
 						iLocal_106 = NETWORK::GET_NETWORK_TIME();
@@ -4197,7 +4197,7 @@ void func_105()
 	Global_20249 = 0;
 	if (BitTest(Global_8136, 20))
 	{
-		MISC::SET_BIT(&Global_8137, 1);
+		MISC::SET_BIT(&Global_8137, true);
 	}
 	else
 	{

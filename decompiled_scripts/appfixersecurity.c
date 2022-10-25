@@ -293,28 +293,28 @@ var func_7()
 int func_8(int iParam0, bool bParam1)
 {
 	var uVar0;
-	int iVar1;
+	bool bVar1;
 	int iVar2;
 	
-	iVar1 = 0;
-	while (iVar1 < 32)
+	bVar1 = false;
+	while (bVar1 < 32)
 	{
-		iVar2 = PLAYER::INT_TO_PLAYERINDEX(iVar1);
+		iVar2 = PLAYER::INT_TO_PLAYERINDEX(bVar1);
 		if (func_12(iVar2, 0, 0))
 		{
 			if (iVar2 != PLAYER::PLAYER_ID() || iParam0)
 			{
 				if (bParam1)
 				{
-					MISC::SET_BIT(&uVar0, iVar1);
+					MISC::SET_BIT(&uVar0, bVar1);
 				}
 				else if (!func_9(iVar2, 0))
 				{
-					MISC::SET_BIT(&uVar0, iVar1);
+					MISC::SET_BIT(&uVar0, bVar1);
 				}
 			}
 		}
-		iVar1++;
+		bVar1++;
 	}
 	return uVar0;
 }
@@ -3829,19 +3829,19 @@ void func_108()
 	{
 		if (NETWORK::NETWORK_IS_PLAYER_ACTIVE(PLAYER::INT_TO_PLAYERINDEX(iVar0)))
 		{
-			if (PLAYER::INT_TO_PLAYERINDEX(iVar0) == PLAYER::PLAYER_ID())
+			if (PLAYER::INT_TO_PLAYERINDEX(bVar0) == PLAYER::PLAYER_ID())
 			{
 				if (!func_116(48))
 				{
-					NETWORK::SET_PLAYER_INVISIBLE_LOCALLY(PLAYER::INT_TO_PLAYERINDEX(iVar0), false);
+					NETWORK::SET_PLAYER_INVISIBLE_LOCALLY(PLAYER::INT_TO_PLAYERINDEX(bVar0), false);
 				}
 			}
 			else
 			{
-				NETWORK::SET_PLAYER_INVISIBLE_LOCALLY(PLAYER::INT_TO_PLAYERINDEX(iVar0), false);
+				NETWORK::SET_PLAYER_INVISIBLE_LOCALLY(PLAYER::INT_TO_PLAYERINDEX(bVar0), false);
 			}
 		}
-		iVar0++;
+		bVar0++;
 	}
 }
 
@@ -3850,10 +3850,10 @@ bool func_109()
 	return BitTest(Global_2714762.f_43.f_4, 0);
 }
 
-void func_110(int iParam0, int iParam1)
+void func_110(bool bParam0, int iParam1)
 {
-	MISC::SET_BIT(&(Global_1648034.f_1047), iParam0);
-	switch (iParam0)
+	MISC::SET_BIT(&(Global_1648034.f_1047), bParam0);
+	switch (bParam0)
 	{
 		case 5:
 			if (iParam1 > -1)
@@ -5071,7 +5071,7 @@ void func_185()
 	Global_2723612.f_1 = 0;
 }
 
-void func_186(int iParam0, int iParam1)
+void func_186(int iParam0, bool bParam1)
 {
 	int iVar0;
 	
@@ -5080,7 +5080,7 @@ void func_186(int iParam0, int iParam1)
 	{
 		iVar0 = DECORATOR::DECOR_GET_INT(PLAYER::GET_PLAYER_PED_SCRIPT_INDEX(iParam0), "MPBitset");
 	}
-	MISC::SET_BIT(&iVar0, iParam1);
+	MISC::SET_BIT(&iVar0, bParam1);
 	DECORATOR::DECOR_SET_INT(PLAYER::GET_PLAYER_PED_SCRIPT_INDEX(iParam0), "MPBitset", iVar0);
 }
 
@@ -5465,7 +5465,7 @@ void func_192(bool bParam0, int iParam1, int iParam2)
 						iVar1++;
 					}
 				}
-				MISC::SET_BIT(&(Global_2621446.f_67), 1);
+				MISC::SET_BIT(&(Global_2621446.f_67), true);
 			}
 		}
 		if (func_9(PLAYER::PLAYER_ID(), 0))
@@ -5507,7 +5507,7 @@ void func_194()
 				iVar0++;
 			}
 			MISC::SET_BIT(&(Global_2621446.f_67), 2);
-			MISC::SET_BIT(&(Global_2621446.f_67), 0);
+			MISC::SET_BIT(&(Global_2621446.f_67), false);
 		}
 	}
 }

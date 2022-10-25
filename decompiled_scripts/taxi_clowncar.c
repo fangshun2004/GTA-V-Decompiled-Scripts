@@ -3377,7 +3377,7 @@ void func_107(int* iParam0)
 void func_108(int* iParam0, float fParam1)
 {
 	iParam0->f_1 = (func_15(BitTest(*iParam0, 4)) - fParam1);
-	MISC::SET_BIT(iParam0, 1);
+	MISC::SET_BIT(iParam0, true);
 	MISC::CLEAR_BIT(iParam0, 2);
 	iParam0->f_2 = 0f;
 }
@@ -4983,7 +4983,7 @@ int func_169(var uParam0)
 		{
 			if (!BitTest(uLocal_458[iVar0], 1))
 			{
-				MISC::SET_BIT(&(uLocal_458[iVar0]), 1);
+				MISC::SET_BIT(&(uLocal_458[iVar0]), true);
 			}
 			if (VEHICLE::IS_VEHICLE_DOOR_DAMAGED(uParam0->f_4, iVar0))
 			{
@@ -5003,7 +5003,7 @@ int func_169(var uParam0)
 			iVar1 = 0;
 			if (!BitTest(uLocal_453[iVar0], 1))
 			{
-				MISC::SET_BIT(&(uLocal_453[iVar0]), 1);
+				MISC::SET_BIT(&(uLocal_453[iVar0]), true);
 			}
 			if (!iLocal_445)
 			{
@@ -5057,7 +5057,7 @@ void func_172(int* iParam0)
 void func_173(int* iParam0, float fParam1)
 {
 	iParam0->f_1 = (func_15(BitTest(*iParam0, 4)) + fParam1);
-	MISC::SET_BIT(iParam0, 1);
+	MISC::SET_BIT(iParam0, true);
 	MISC::CLEAR_BIT(iParam0, 2);
 	iParam0->f_2 = 0f;
 }
@@ -7358,7 +7358,7 @@ void func_273(var uParam0, var uParam1)
 		while (iVar0 < *uParam1)
 		{
 			uParam0->f_60[iVar0 /*3*/] = { *(uParam1[iVar0 /*3*/]) };
-			MISC::SET_BIT(&(uParam0->f_60[iVar0 /*3*/]), 1);
+			MISC::SET_BIT(&(uParam0->f_60[iVar0 /*3*/]), true);
 			MISC::CLEAR_BIT(&(uParam0->f_60[iVar0 /*3*/]), 2);
 			iVar0++;
 		}

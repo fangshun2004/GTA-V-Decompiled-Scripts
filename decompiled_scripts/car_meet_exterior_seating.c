@@ -1008,9 +1008,9 @@ bool func_23(var uParam0, int iParam1)
 	return BitTest(*uParam0, iParam1);
 }
 
-void func_24(int* iParam0, int iParam1)
+void func_24(int* iParam0, bool bParam1)
 {
-	MISC::SET_BIT(iParam0, iParam1);
+	MISC::SET_BIT(iParam0, bParam1);
 }
 
 int func_25(float fParam0, float fParam1, float fParam2)
@@ -1862,9 +1862,9 @@ int func_57(var uParam0)
 	return 0;
 }
 
-void func_58(int* iParam0, int iParam1)
+void func_58(int* iParam0, bool bParam1)
 {
-	MISC::CLEAR_BIT(iParam0, iParam1);
+	MISC::CLEAR_BIT(iParam0, bParam1);
 }
 
 void func_59(var uParam0)
@@ -1900,16 +1900,16 @@ void func_61(var uParam0)
 
 void func_62(int* iParam0, int iParam1, bool bParam2)
 {
-	int iVar0;
+	bool bVar0;
 	
-	iVar0 = iParam1;
+	bVar0 = iParam1;
 	if (bParam2)
 	{
-		MISC::SET_BIT(iParam0, iVar0);
+		MISC::SET_BIT(iParam0, bVar0);
 	}
 	else
 	{
-		MISC::CLEAR_BIT(iParam0, iVar0);
+		MISC::CLEAR_BIT(iParam0, bVar0);
 	}
 }
 

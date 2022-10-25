@@ -1135,7 +1135,7 @@ void func_44(var uParam0, char* sParam1, char* sParam2, int iParam3, int iParam4
 			iParam3 = 7;
 		}
 	}
-	MISC::SET_BIT(&Global_20471, 0);
+	MISC::SET_BIT(&Global_20471, false);
 	Global_21608 = iParam3;
 	StringCopy(&Global_21595, sParam2, 24);
 }

@@ -2466,7 +2466,7 @@ void func_40()
 
 void func_41(bool bParam0, bool bParam1, int iParam2)
 {
-	switch (iParam0)
+	switch (bParam0)
 	{
 		case 5:
 			if (iParam2 > -1)
@@ -2478,7 +2478,7 @@ void func_41(bool bParam0, bool bParam1, int iParam2)
 		default:
 			if (bParam1)
 			{
-				MISC::SET_BIT(&(Global_1648034.f_1046), iParam0);
+				MISC::SET_BIT(&(Global_1648034.f_1046), bParam0);
 			}
 			else
 			{

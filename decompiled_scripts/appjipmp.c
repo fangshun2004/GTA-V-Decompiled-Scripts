@@ -1464,7 +1464,7 @@ void func_14(bool bParam0, int iParam1, int iParam2)
 						iVar1++;
 					}
 				}
-				MISC::SET_BIT(&(Global_2621446.f_67), 1);
+				MISC::SET_BIT(&(Global_2621446.f_67), true);
 			}
 		}
 		if (func_18(PLAYER::PLAYER_ID(), 0))
@@ -1506,7 +1506,7 @@ void func_16()
 				iVar0++;
 			}
 			MISC::SET_BIT(&(Global_2621446.f_67), 2);
-			MISC::SET_BIT(&(Global_2621446.f_67), 0);
+			MISC::SET_BIT(&(Global_2621446.f_67), false);
 		}
 	}
 }
@@ -4502,7 +4502,7 @@ void func_95(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4)
 	switch (iParam1)
 	{
 		case 1704445500:
-			MISC::SET_BIT(&(Global_2689235[PLAYER::PLAYER_ID() /*453*/].f_124.f_71), 0);
+			MISC::SET_BIT(&(Global_2689235[PLAYER::PLAYER_ID() /*453*/].f_124.f_71), false);
 			break;
 	}
 	if (iParam0 != -1)
@@ -4683,13 +4683,13 @@ void func_103()
 	SCRIPT::REQUEST_SCRIPT("AM_ARENA_SHP");
 }
 
-var func_104(int iParam0)
+var func_104(bool bParam0)
 {
 	var uVar0;
 	
-	if (iParam0 != -1)
+	if (bParam0 != -1)
 	{
-		MISC::SET_BIT(&uVar0, iParam0);
+		MISC::SET_BIT(&uVar0, bParam0);
 	}
 	return uVar0;
 }
@@ -5421,7 +5421,7 @@ void func_139(int iParam0)
 	{
 		if (BitTest(Global_2715699.f_1.f_2809, 0))
 		{
-			MISC::CLEAR_BIT(&(Global_2715699.f_1.f_2809), 0);
+			MISC::CLEAR_BIT(&(Global_2715699.f_1.f_2809), false);
 		}
 	}
 }
@@ -6326,39 +6326,39 @@ void func_188(int iParam0, char* sParam1, int iParam2, char* sParam3, int iParam
 	func_189(3, iParam4, sParam5, 2, iParam6, -1);
 }
 
-void func_189(int iParam0, int iParam1, char* sParam2, int iParam3, int* iParam4, int iParam5)
+void func_189(int iParam0, int iParam1, char* sParam2, bool bParam3, int* iParam4, bool bParam5)
 {
 	if (iParam1 == 1)
 	{
 		func_204(Global_20247, "SET_SOFT_KEYS", SYSTEM::TO_FLOAT(iParam0), 0f, SYSTEM::TO_FLOAT(iParam1), -1f, -1f, 0, 0, 0, 0, 0);
-		MISC::CLEAR_BIT(iParam4, iParam3);
-		func_190(iParam5, 0);
+		MISC::CLEAR_BIT(iParam4, bParam3);
+		func_190(bParam5, 0);
 		return;
 	}
 	if (Global_20254)
 	{
 		func_204(Global_20247, "SET_SOFT_KEYS", SYSTEM::TO_FLOAT(iParam0), 1f, SYSTEM::TO_FLOAT(iParam1), -1f, -1f, sParam2, 0, 0, 0, 0);
-		MISC::SET_BIT(iParam4, iParam3);
-		func_190(iParam5, 1);
+		MISC::SET_BIT(iParam4, bParam3);
+		func_190(bParam5, 1);
 		return;
 	}
 	func_204(Global_20247, "SET_SOFT_KEYS", SYSTEM::TO_FLOAT(iParam0), 1f, SYSTEM::TO_FLOAT(iParam1), -1f, -1f, 0, 0, 0, 0, 0);
-	MISC::SET_BIT(iParam4, iParam3);
-	func_190(iParam5, 1);
+	MISC::SET_BIT(iParam4, bParam3);
+	func_190(bParam5, 1);
 }
 
-void func_190(int iParam0, bool bParam1)
+void func_190(bool bParam0, bool bParam1)
 {
-	if (iParam0 == -1)
+	if (bParam0 == -1)
 	{
 		return;
 	}
 	if (bParam1)
 	{
-		MISC::SET_BIT(&Global_8136, iParam0);
+		MISC::SET_BIT(&Global_8136, bParam0);
 		return;
 	}
-	MISC::CLEAR_BIT(&Global_8136, iParam0);
+	MISC::CLEAR_BIT(&Global_8136, bParam0);
 }
 
 void func_191(char* sParam0)

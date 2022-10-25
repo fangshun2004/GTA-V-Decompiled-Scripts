@@ -7838,12 +7838,12 @@ void func_192()
 {
 	if (!BitTest(Global_2703735.f_3576, 0))
 	{
-		MISC::SET_BIT(&(Global_2703735.f_3576), 0);
+		MISC::SET_BIT(&(Global_2703735.f_3576), false);
 		func_193();
 	}
 	else
 	{
-		MISC::SET_BIT(&(Global_2703735.f_3576), 1);
+		MISC::SET_BIT(&(Global_2703735.f_3576), true);
 	}
 }
 
@@ -8538,7 +8538,7 @@ int func_200()
 				Var0.f_10 = PLAYER::PLAYER_ID();
 				Var0.f_3 = uLocal_169;
 				func_201(Var0, func_202(1));
-				MISC::SET_BIT(&(Local_71[NETWORK::PARTICIPANT_ID_TO_INT() /*3*/].f_1), 0);
+				MISC::SET_BIT(&(Local_71[NETWORK::PARTICIPANT_ID_TO_INT() /*3*/].f_1), false);
 				return 1;
 			}
 		}
@@ -8560,19 +8560,19 @@ int func_202(int iParam0)
 {
 	var uVar0;
 	int iVar1;
-	int iVar2;
+	bool bVar2;
 	
 	iVar1 = 0;
 	while (iVar1 < NETWORK::NETWORK_GET_MAX_NUM_PARTICIPANTS())
 	{
 		if (NETWORK::NETWORK_IS_PARTICIPANT_ACTIVE(PLAYER::INT_TO_PARTICIPANTINDEX(iVar1)))
 		{
-			iVar2 = NETWORK::NETWORK_GET_PLAYER_INDEX(PLAYER::INT_TO_PARTICIPANTINDEX(iVar1));
-			if (func_26(iVar2, 0, 0))
+			bVar2 = NETWORK::NETWORK_GET_PLAYER_INDEX(PLAYER::INT_TO_PARTICIPANTINDEX(iVar1));
+			if (func_26(bVar2, 0, 0))
 			{
-				if (iVar2 != PLAYER::PLAYER_ID() || iParam0)
+				if (bVar2 != PLAYER::PLAYER_ID() || iParam0)
 				{
-					MISC::SET_BIT(&uVar0, iVar2);
+					MISC::SET_BIT(&uVar0, bVar2);
 				}
 			}
 		}

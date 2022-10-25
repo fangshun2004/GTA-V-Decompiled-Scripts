@@ -356,9 +356,9 @@ int func_23(bool bParam0, int iParam1, int iParam2)
 	return iParam2;
 }
 
-void func_24(int* iParam0, int iParam1)
+void func_24(int* iParam0, bool bParam1)
 {
-	MISC::SET_BIT(iParam0, iParam1);
+	MISC::SET_BIT(iParam0, bParam1);
 }
 
 void func_25(int* iParam0, int iParam1)
@@ -645,7 +645,7 @@ void func_44(int* iParam0)
 
 void func_45()
 {
-	MISC::SET_BIT(&(Global_1853348[PLAYER::PLAYER_ID() /*834*/].f_809), 1);
+	MISC::SET_BIT(&(Global_1853348[PLAYER::PLAYER_ID() /*834*/].f_809), true);
 }
 
 bool func_46(int* iParam0)

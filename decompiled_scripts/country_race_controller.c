@@ -313,7 +313,7 @@ void func_5(int iParam0, bool bParam1, bool bParam2)
 	}
 	if (bParam1)
 	{
-		MISC::SET_BIT(&(Global_32338[iVar0 /*23*/].f_11), 0);
+		MISC::SET_BIT(&(Global_32338[iVar0 /*23*/].f_11), false);
 		MISC::SET_BIT(&(Global_32338[iVar0 /*23*/].f_11), 15);
 		MISC::SET_BIT(&(Global_32338[iVar0 /*23*/].f_11), 3);
 	}
@@ -1739,7 +1739,7 @@ int func_57()
 				if (MISC::ARE_PROFILE_SETTINGS_VALID())
 				{
 					iVar0 = MISC::GET_PROFILE_SETTING(866);
-					MISC::SET_BIT(&iVar0, 0);
+					MISC::SET_BIT(&iVar0, false);
 					STATS::SET_HAS_SPECIALEDITION_CONTENT(iVar0);
 				}
 				return 1;

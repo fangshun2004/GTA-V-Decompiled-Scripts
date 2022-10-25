@@ -7072,17 +7072,17 @@ var func_137()
 
 void func_138(int iParam0)
 {
-	int iVar0;
+	bool bVar0;
 	int iVar1;
 	
-	iVar0 = iParam0;
+	bVar0 = iParam0;
 	iVar1 = 0;
-	while (iVar0 > 31)
+	while (bVar0 > 31)
 	{
-		iVar0 = (iVar0 - 32);
+		bVar0 = (bVar0 - 32);
 		iVar1++;
 	}
-	MISC::SET_BIT(&(Global_113386.f_10016.f_26[iVar1]), iVar0);
+	MISC::SET_BIT(&(Global_113386.f_10016.f_26[iVar1]), bVar0);
 }
 
 void func_139(int iParam0)

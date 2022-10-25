@@ -639,7 +639,7 @@ void func_2()
 			iLocal_332 = NETWORK::NETWORK_GET_LOCAL_SCENE_FROM_NETWORK_ID(iLocal_331);
 			if (PED::IS_SYNCHRONIZED_SCENE_RUNNING(iLocal_332))
 			{
-				MISC::SET_BIT(&uLocal_325, 0);
+				MISC::SET_BIT(&uLocal_325, false);
 				iLocal_327 = 4;
 			}
 			break;
@@ -673,7 +673,7 @@ void func_2()
 			iLocal_332 = NETWORK::NETWORK_GET_LOCAL_SCENE_FROM_NETWORK_ID(iLocal_331);
 			if (PED::IS_SYNCHRONIZED_SCENE_RUNNING(iLocal_332))
 			{
-				MISC::SET_BIT(&uLocal_325, 0);
+				MISC::SET_BIT(&uLocal_325, false);
 				PED::SET_SYNCHRONIZED_SCENE_LOOPED(iLocal_332, true);
 				if (!func_38("SA_BED_OUT"))
 				{
@@ -747,7 +747,7 @@ void func_2()
 			iLocal_332 = NETWORK::NETWORK_GET_LOCAL_SCENE_FROM_NETWORK_ID(iLocal_331);
 			if (PED::IS_SYNCHRONIZED_SCENE_RUNNING(iLocal_332))
 			{
-				MISC::SET_BIT(&uLocal_325, 0);
+				MISC::SET_BIT(&uLocal_325, false);
 				func_5(5);
 				iLocal_327 = 9;
 			}
@@ -876,10 +876,10 @@ void func_12(bool bParam0)
 	func_13(16, -1);
 }
 
-void func_13(int iParam0, int iParam1)
+void func_13(bool bParam0, int iParam1)
 {
-	MISC::SET_BIT(&(Global_1648034.f_1047), iParam0);
-	switch (iParam0)
+	MISC::SET_BIT(&(Global_1648034.f_1047), bParam0);
+	switch (bParam0)
 	{
 		case 5:
 			if (iParam1 > -1)
@@ -1461,7 +1461,7 @@ void func_32(bool bParam0, int iParam1, int iParam2)
 						iVar1++;
 					}
 				}
-				MISC::SET_BIT(&(Global_2621446.f_67), 1);
+				MISC::SET_BIT(&(Global_2621446.f_67), true);
 			}
 		}
 		if (func_19(PLAYER::PLAYER_ID(), 0))
@@ -1503,7 +1503,7 @@ void func_34()
 				iVar0++;
 			}
 			MISC::SET_BIT(&(Global_2621446.f_67), 2);
-			MISC::SET_BIT(&(Global_2621446.f_67), 0);
+			MISC::SET_BIT(&(Global_2621446.f_67), false);
 		}
 	}
 }

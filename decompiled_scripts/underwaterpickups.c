@@ -71,7 +71,7 @@ void func_1()
 			if (func_2(Var5, 0f, 0f, 0f, 0))
 			{
 				iVar8 = 0;
-				MISC::SET_BIT(&iVar8, 1);
+				MISC::SET_BIT(&iVar8, true);
 				MISC::SET_BIT(&iVar8, 4);
 				MISC::SET_BIT(&iVar8, 3);
 				if (iVar1 == joaat("pickup_money_case"))
@@ -103,7 +103,7 @@ void func_1()
 			else
 			{
 				iVar8 = 0;
-				MISC::SET_BIT(&iVar8, 1);
+				MISC::SET_BIT(&iVar8, true);
 				MISC::SET_BIT(&iVar8, 4);
 				if (iVar1 == joaat("pickup_money_case"))
 				{

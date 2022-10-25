@@ -871,7 +871,7 @@ void func_12(int* iParam0)
 void func_13(int* iParam0, float fParam1)
 {
 	iParam0->f_1 = (func_9(BitTest(*iParam0, 4)) - fParam1);
-	MISC::SET_BIT(iParam0, 1);
+	MISC::SET_BIT(iParam0, true);
 	MISC::CLEAR_BIT(iParam0, 2);
 	iParam0->f_2 = 0f;
 }
@@ -2669,11 +2669,11 @@ void func_59(var uParam0, int iParam1, int iParam2, char* sParam3, int iParam4, 
 	}
 }
 
-void func_60(int iParam0, int iParam1)
+void func_60(bool bParam0, int iParam1)
 {
-	MISC::SET_BIT(&Global_32118, iParam0);
-	StringCopy(&(Global_32119[iParam0 /*6*/]), SCRIPT::GET_THIS_SCRIPT_NAME(), 24);
-	Global_32174[iParam0] = iParam1;
+	MISC::SET_BIT(&Global_32118, bParam0);
+	StringCopy(&(Global_32119[bParam0 /*6*/]), SCRIPT::GET_THIS_SCRIPT_NAME(), 24);
+	Global_32174[bParam0] = iParam1;
 }
 
 void func_61(var uParam0, int iParam1)

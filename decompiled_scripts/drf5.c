@@ -3890,70 +3890,70 @@ int func_108(var uParam0, int iParam1)
 struct<4> func_109(var uParam0, var uParam1, int iParam2, bool bParam3)
 {
 	struct<4> Var0;
-	int iVar4;
+	bool bVar4;
 	
 	if (func_117() <= 0)
 	{
 		if (!func_116())
 		{
-			iVar4 = func_113(1, 2, 3, 4, 12);
+			bVar4 = func_113(1, 2, 3, 4, 12);
 		}
 		else if (func_112() >= 1)
 		{
-			iVar4 = func_113(5, 6, 7, 0, 0);
+			bVar4 = func_113(5, 6, 7, 0, 0);
 		}
 		else
 		{
-			iVar4 = func_113(5, 7, 0, 0, 0);
+			bVar4 = func_113(5, 7, 0, 0, 0);
 		}
 	}
 	else if (func_117() >= 2)
 	{
-		iVar4 = func_113(10, 11, 0, 0, 0);
+		bVar4 = func_113(10, 11, 0, 0, 0);
 	}
 	else if (!func_116())
 	{
 		if (iParam2 != 4)
 		{
-			iVar4 = func_113(8, 9, 0, 0, 0);
+			bVar4 = func_113(8, 9, 0, 0, 0);
 		}
 		else
 		{
-			iVar4 = 9;
+			bVar4 = 9;
 		}
 	}
 	else if (iParam2 != 4)
 	{
-		iVar4 = func_113(8, 9, 10, 0, 0);
+		bVar4 = func_113(8, 9, 10, 0, 0);
 	}
 	else
 	{
-		iVar4 = func_113(9, 10, 0, 0, 0);
+		bVar4 = func_113(9, 10, 0, 0, 0);
 	}
-	func_111(uParam0, iVar4);
+	func_111(uParam0, bVar4);
 	if (bParam3)
 	{
-		func_110(&(Global_113386.f_19961), iVar4, 1);
+		func_110(&(Global_113386.f_19961), bVar4, 1);
 	}
 	StringCopy(&Var0, "OBTSX", 16);
-	if (iVar4 < 10)
+	if (bVar4 < 10)
 	{
 		StringConCat(&Var0, "0", 16);
 	}
-	StringIntConCat(&Var0, iVar4, 16);
+	StringIntConCat(&Var0, bVar4, 16);
 	return Var0;
 }
 
 void func_110(var uParam0, bool bParam1, bool bParam2)
 {
-	if (iParam1 < 0 || iParam1 > 12)
+	if (bParam1 < 0 || bParam1 > 12)
 	{
 		return;
 	}
-	iParam1 += 11;
+	bParam1 += 11;
 	if (bParam2)
 	{
-		MISC::SET_BIT(&(uParam0->f_1), iParam1);
+		MISC::SET_BIT(&(uParam0->f_1), bParam1);
 	}
 	else
 	{
@@ -7825,7 +7825,7 @@ int func_157(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 	{
 		if (iParam5 == 1)
 		{
-			MISC::SET_BIT(&(Global_113386.f_2363[iParam1 /*164*/][iParam3]), iParam4);
+			MISC::SET_BIT(&(Global_113386.f_2363[iParam1 /*164*/][iParam3]), bParam4);
 		}
 		if (iParam6 == 1)
 		{

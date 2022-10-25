@@ -865,7 +865,7 @@ void func_7(int* iParam0)
 void func_8(int* iParam0, float fParam1)
 {
 	iParam0->f_1 = (func_9(BitTest(*iParam0, 4)) - fParam1);
-	MISC::SET_BIT(iParam0, 1);
+	MISC::SET_BIT(iParam0, true);
 	MISC::CLEAR_BIT(iParam0, 2);
 	iParam0->f_2 = 0f;
 }
@@ -3278,7 +3278,7 @@ int func_82(bool bParam0, char* sParam1, int iParam2, int iParam3, int iParam4, 
 			Global_8843 = iParam6;
 			Global_8746[3 /*6*/] = { func_83(bParam0) };
 			Global_8823 = bParam0;
-			MISC::SET_BIT(&Global_8136, 1);
+			MISC::SET_BIT(&Global_8136, true);
 			MISC::SET_BIT(&Global_8136, 7);
 		}
 		return 1;

@@ -664,7 +664,7 @@ void func_9()
 		if (Local_410.f_410 > 5 && !BitTest(uLocal_854, 0))
 		{
 			Local_410.f_17 = { Local_877 };
-			MISC::SET_BIT(&uLocal_854, 0);
+			MISC::SET_BIT(&uLocal_854, false);
 		}
 		if (Local_410.f_410 >= 5 && Local_410.f_410 < 10)
 		{
@@ -3532,7 +3532,7 @@ void func_100(int* iParam0)
 void func_101(int* iParam0, float fParam1)
 {
 	iParam0->f_1 = (func_13(BitTest(*iParam0, 4)) - fParam1);
-	MISC::SET_BIT(iParam0, 1);
+	MISC::SET_BIT(iParam0, true);
 	MISC::CLEAR_BIT(iParam0, 2);
 	iParam0->f_2 = 0f;
 }
@@ -3687,7 +3687,7 @@ float func_109(float fParam0)
 	return (fParam0 * 0.0006213712f);
 }
 
-void func_110(int iParam0, bool bParam1, int iParam2)
+void func_110(bool bParam0, bool bParam1, int iParam2)
 {
 	bool bVar0;
 	int iVar1;
@@ -3699,28 +3699,28 @@ void func_110(int iParam0, bool bParam1, int iParam2)
 	if (func_128(iParam2) == 4)
 	{
 	}
-	bVar0 = Global_113386.f_243[iParam2 /*53*/].f_2[iParam0 /*5*/].f_4;
+	bVar0 = Global_113386.f_243[iParam2 /*53*/].f_2[bParam0 /*5*/].f_4;
 	if (bVar0)
 	{
 		if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 		{
-			if (!func_126(func_127(iParam0), 3))
+			if (!func_126(func_127(bParam0), 3))
 			{
 				bVar0 = false;
 			}
 		}
-		else if (!func_126(func_127(iParam0), 4))
+		else if (!func_126(func_127(bParam0), 4))
 		{
 			bVar0 = false;
 		}
 	}
-	Global_113386.f_243[iParam2 /*53*/].f_2[iParam0 /*5*/].f_4 = bParam1;
+	Global_113386.f_243[iParam2 /*53*/].f_2[bParam0 /*5*/].f_4 = bParam1;
 	if (bParam1)
 	{
 		if (!bVar0)
 		{
-			func_125(iParam0, 0);
-			func_119(func_127(iParam0), func_128(iParam2), 1);
+			func_125(bParam0, 0);
+			func_119(func_127(bParam0), func_128(iParam2), 1);
 			iVar1 = MISC::GET_RANDOM_INT_IN_RANGE(1800000, 2100000);
 			switch (iParam2)
 			{
@@ -3729,18 +3729,18 @@ void func_110(int iParam0, bool bParam1, int iParam2)
 				case 5:
 				case 6:
 				case 7:
-					MISC::SET_BIT(&(Global_2359296[func_82() /*5567*/].f_681.f_1273), iParam0);
+					MISC::SET_BIT(&(Global_2359296[func_82() /*5567*/].f_681.f_1273), bParam0);
 					func_116(-60084924, 15, 0);
 					break;
 			}
 			func_115(iVar1);
-			func_114(iParam0, iVar1);
-			Global_112380.f_15[iParam0] = MISC::GET_GAME_TIMER();
+			func_114(bParam0, iVar1);
+			Global_112380.f_15[bParam0] = MISC::GET_GAME_TIMER();
 		}
 	}
 	else if (bVar0)
 	{
-		func_111(func_127(iParam0), func_128(iParam2));
+		func_111(func_127(bParam0), func_128(iParam2));
 	}
 }
 
@@ -3788,15 +3788,15 @@ void func_113(int iParam0, int iParam1, int iParam2)
 	}
 }
 
-void func_114(int iParam0, int iParam1)
+void func_114(bool bParam0, int iParam1)
 {
 	if (iParam1 > -1)
 	{
-		Global_112380.f_4[iParam0] = (MISC::GET_GAME_TIMER() + iParam1);
+		Global_112380.f_4[bParam0] = (MISC::GET_GAME_TIMER() + iParam1);
 	}
 	else
 	{
-		Global_112380.f_4[iParam0] = (MISC::GET_GAME_TIMER() + MISC::GET_RANDOM_INT_IN_RANGE(1200000, 2100000));
+		Global_112380.f_4[bParam0] = (MISC::GET_GAME_TIMER() + MISC::GET_RANDOM_INT_IN_RANGE(1200000, 2100000));
 	}
 }
 
@@ -4044,9 +4044,9 @@ int func_126(int iParam0, int iParam1)
 	return 0;
 }
 
-int func_127(int iParam0)
+int func_127(bool bParam0)
 {
-	switch (iParam0)
+	switch (bParam0)
 	{
 		case 0:
 			return 104;
@@ -5278,11 +5278,11 @@ void func_178(bool bParam0, bool bParam1)
 {
 	if (bParam1)
 	{
-		MISC::SET_BIT(&Global_32207, iParam0);
+		MISC::SET_BIT(&Global_32207, bParam0);
 	}
 	else
 	{
-		MISC::CLEAR_BIT(&Global_32207, iParam0);
+		MISC::CLEAR_BIT(&Global_32207, bParam0);
 	}
 }
 
@@ -8440,7 +8440,7 @@ void func_301(var uParam0, var uParam1)
 		while (iVar0 < *uParam1)
 		{
 			uParam0->f_60[iVar0 /*3*/] = { *(uParam1[iVar0 /*3*/]) };
-			MISC::SET_BIT(&(uParam0->f_60[iVar0 /*3*/]), 1);
+			MISC::SET_BIT(&(uParam0->f_60[iVar0 /*3*/]), true);
 			MISC::CLEAR_BIT(&(uParam0->f_60[iVar0 /*3*/]), 2);
 			iVar0++;
 		}

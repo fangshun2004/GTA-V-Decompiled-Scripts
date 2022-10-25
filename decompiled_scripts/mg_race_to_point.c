@@ -384,13 +384,13 @@ void func_4(struct<3> Param0, int iParam3, int iParam4)
 int func_5(int iParam0, int iParam1)
 {
 	var uVar0;
-	int iVar1;
+	bool bVar1;
 	int iVar2;
 	
-	iVar1 = 0;
-	while (iVar1 < 32)
+	bVar1 = false;
+	while (bVar1 < 32)
 	{
-		iVar2 = PLAYER::INT_TO_PLAYERINDEX(iVar1);
+		iVar2 = PLAYER::INT_TO_PLAYERINDEX(bVar1);
 		if (func_7(iVar2, 1, 1) && func_7(PLAYER::PLAYER_ID(), 1, 1))
 		{
 			if (PLAYER::GET_PLAYER_TEAM(iVar2) == iParam0 || (Global_1853348[PLAYER::PLAYER_ID() /*834*/] == 0 && func_6(iParam0, PLAYER::GET_PLAYER_TEAM(bVar2), 0)))
@@ -399,7 +399,7 @@ int func_5(int iParam0, int iParam1)
 				{
 					if (MISC::GET_DISTANCE_BETWEEN_COORDS(ENTITY::GET_ENTITY_COORDS(PLAYER::GET_PLAYER_PED(bVar2), true), ENTITY::GET_ENTITY_COORDS(PLAYER::GET_PLAYER_PED(PLAYER::PLAYER_ID()), true), true) <= IntToFloat(iParam1))
 					{
-						MISC::SET_BIT(&uVar0, iVar1);
+						MISC::SET_BIT(&uVar0, bVar1);
 					}
 				}
 			}
@@ -17616,7 +17616,7 @@ void func_464()
 				}
 			}
 		}
-		iVar0++;
+		bVar0++;
 	}
 	if (iVar1 == 0)
 	{
@@ -17626,16 +17626,16 @@ void func_464()
 	}
 	else
 	{
-		iVar0 = 0;
-		while (iVar0 < iVar1)
+		bVar0 = false;
+		while (bVar0 < iVar1)
 		{
-			func_256(iVar0, "PIM_PLNM", 1, 1, 0, 0, 0);
-			func_465(PLAYER::GET_PLAYER_NAME(iVar3[iVar0]), 0, 1, 1);
-			if (Local_294.f_14 == iVar0)
+			func_256(bVar0, "PIM_PLNM", 1, 1, 0, 0, 0);
+			func_465(PLAYER::GET_PLAYER_NAME(iVar3[bVar0]), 0, 1, 1);
+			if (Local_294.f_14 == bVar0)
 			{
-				iLocal_250 = iVar3[iVar0];
+				iLocal_250 = iVar3[bVar0];
 			}
-			iVar0++;
+			bVar0++;
 		}
 	}
 	iLocal_86 = iVar1;
@@ -18394,7 +18394,7 @@ int func_483()
 				iVar0++;
 			}
 		}
-		iVar1++;
+		bVar1++;
 	}
 	return iVar0;
 }
@@ -18899,19 +18899,19 @@ int func_501(int iParam0)
 {
 	var uVar0;
 	int iVar1;
-	int iVar2;
+	bool bVar2;
 	
 	iVar1 = 0;
 	while (iVar1 < NETWORK::NETWORK_GET_MAX_NUM_PARTICIPANTS())
 	{
 		if (NETWORK::NETWORK_IS_PARTICIPANT_ACTIVE(PLAYER::INT_TO_PARTICIPANTINDEX(iVar1)))
 		{
-			iVar2 = NETWORK::NETWORK_GET_PLAYER_INDEX(PLAYER::INT_TO_PARTICIPANTINDEX(iVar1));
-			if (func_7(iVar2, 0, 0))
+			bVar2 = NETWORK::NETWORK_GET_PLAYER_INDEX(PLAYER::INT_TO_PARTICIPANTINDEX(iVar1));
+			if (func_7(bVar2, 0, 0))
 			{
-				if (iVar2 != PLAYER::PLAYER_ID() || iParam0)
+				if (bVar2 != PLAYER::PLAYER_ID() || iParam0)
 				{
-					MISC::SET_BIT(&uVar0, iVar2);
+					MISC::SET_BIT(&uVar0, bVar2);
 				}
 			}
 		}

@@ -595,7 +595,7 @@ void func_15(int* iParam0)
 void func_16(int* iParam0, float fParam1)
 {
 	iParam0->f_1 = (func_12(BitTest(*iParam0, 4)) - fParam1);
-	MISC::SET_BIT(iParam0, 1);
+	MISC::SET_BIT(iParam0, true);
 	MISC::CLEAR_BIT(iParam0, 2);
 	iParam0->f_2 = 0f;
 }
@@ -2669,10 +2669,10 @@ void func_103()
 				{
 					if (!BitTest(Local_380.f_182, 1) && !BitTest(Local_380.f_182, 3))
 					{
-						MISC::SET_BIT(&(Local_380.f_182), 1);
+						MISC::SET_BIT(&(Local_380.f_182), true);
 					}
 				}
-				MISC::SET_BIT(&(Local_380.f_182), 0);
+				MISC::SET_BIT(&(Local_380.f_182), false);
 			}
 		}
 		else

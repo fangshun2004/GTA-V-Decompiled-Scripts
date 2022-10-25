@@ -639,7 +639,7 @@ void func_9()
 		if (Local_409.f_410 > 5 && !BitTest(uLocal_959, 0))
 		{
 			Local_409.f_17 = { 189.7825f, -3325.684f, 4.6697f };
-			MISC::SET_BIT(&uLocal_959, 0);
+			MISC::SET_BIT(&uLocal_959, false);
 		}
 		if (Local_409.f_410 > 2)
 		{
@@ -3395,7 +3395,7 @@ void func_103(int* iParam0)
 void func_104(int* iParam0, float fParam1)
 {
 	iParam0->f_1 = (func_14(BitTest(*iParam0, 4)) - fParam1);
-	MISC::SET_BIT(iParam0, 1);
+	MISC::SET_BIT(iParam0, true);
 	MISC::CLEAR_BIT(iParam0, 2);
 	iParam0->f_2 = 0f;
 }
@@ -3748,7 +3748,7 @@ int func_124()
 			if ((MISC::GET_GAME_TIMER() - iLocal_951) > 2500 && !BitTest(uLocal_959, 1))
 			{
 				func_228(&Local_409, 89, 1, 1, 0);
-				MISC::SET_BIT(&uLocal_959, 1);
+				MISC::SET_BIT(&uLocal_959, true);
 			}
 			if (((PED::GET_SYNCHRONIZED_SCENE_PHASE(iLocal_965) >= 0.838f && !PED::IS_PED_INJURED(Local_409.f_3)) && !PED::IS_PED_INJURED(Local_839.f_3[1])) && !BitTest(uLocal_959, 6))
 			{
@@ -6950,11 +6950,11 @@ void func_237(bool bParam0, bool bParam1)
 {
 	if (bParam1)
 	{
-		MISC::SET_BIT(&Global_32207, iParam0);
+		MISC::SET_BIT(&Global_32207, bParam0);
 	}
 	else
 	{
-		MISC::CLEAR_BIT(&Global_32207, iParam0);
+		MISC::CLEAR_BIT(&Global_32207, bParam0);
 	}
 }
 
@@ -8132,7 +8132,7 @@ void func_288(var uParam0, var uParam1)
 		while (iVar0 < *uParam1)
 		{
 			uParam0->f_60[iVar0 /*3*/] = { *(uParam1[iVar0 /*3*/]) };
-			MISC::SET_BIT(&(uParam0->f_60[iVar0 /*3*/]), 1);
+			MISC::SET_BIT(&(uParam0->f_60[iVar0 /*3*/]), true);
 			MISC::CLEAR_BIT(&(uParam0->f_60[iVar0 /*3*/]), 2);
 			iVar0++;
 		}

@@ -118,7 +118,7 @@ void func_3(int iParam0, int iParam1, struct<3> Param2, bool bParam5, bool bPara
 	
 	iVar0 = 0;
 	MISC::SET_BIT(&iVar0, 2);
-	MISC::SET_BIT(&iVar0, 1);
+	MISC::SET_BIT(&iVar0, true);
 	if (bParam6)
 	{
 		MISC::SET_BIT(&iVar0, 4);
@@ -165,7 +165,7 @@ void func_7(int iParam0, int iParam1, struct<3> Param2, bool bParam5, bool bPara
 	
 	iVar0 = 0;
 	MISC::SET_BIT(&iVar0, 2);
-	MISC::SET_BIT(&iVar0, 1);
+	MISC::SET_BIT(&iVar0, true);
 	if (bParam6)
 	{
 		MISC::SET_BIT(&iVar0, 4);
@@ -218,7 +218,7 @@ int func_9()
 				if (MISC::ARE_PROFILE_SETTINGS_VALID())
 				{
 					iVar0 = MISC::GET_PROFILE_SETTING(866);
-					MISC::SET_BIT(&iVar0, 0);
+					MISC::SET_BIT(&iVar0, false);
 					STATS::SET_HAS_SPECIALEDITION_CONTENT(iVar0);
 				}
 				return 1;
@@ -257,7 +257,7 @@ void func_11(int iParam0, int iParam1, struct<3> Param2, bool bParam5, bool bPar
 	{
 		MISC::SET_BIT(&iVar0, 2);
 		MISC::SET_BIT(&iVar0, 4);
-		MISC::SET_BIT(&iVar0, 1);
+		MISC::SET_BIT(&iVar0, true);
 		if (bParam5)
 		{
 			MISC::SET_BIT(&iVar0, 3);
@@ -266,7 +266,7 @@ void func_11(int iParam0, int iParam1, struct<3> Param2, bool bParam5, bool bPar
 	else
 	{
 		MISC::SET_BIT(&iVar0, 2);
-		MISC::SET_BIT(&iVar0, 1);
+		MISC::SET_BIT(&iVar0, true);
 		if (bParam6)
 		{
 			MISC::SET_BIT(&iVar0, 4);
@@ -648,7 +648,7 @@ void func_26(int iParam0, int iParam1, struct<3> Param2, bool bParam5, bool bPar
 	
 	iVar0 = 0;
 	MISC::SET_BIT(&iVar0, 2);
-	MISC::SET_BIT(&iVar0, 1);
+	MISC::SET_BIT(&iVar0, true);
 	if (bParam7)
 	{
 		MISC::SET_BIT(&iVar0, 4);
@@ -1495,7 +1495,7 @@ void func_30(int iParam0, struct<3> Param1, bool bParam4, bool bParam5)
 	
 	iVar0 = 0;
 	MISC::SET_BIT(&iVar0, 2);
-	MISC::SET_BIT(&iVar0, 1);
+	MISC::SET_BIT(&iVar0, true);
 	MISC::SET_BIT(&iVar0, 8);
 	MISC::SET_BIT(&iVar0, 4);
 	if (!bParam4)
@@ -2303,7 +2303,7 @@ void func_34(int iParam0, struct<3> Param1, bool bParam4)
 	iVar0 = 0;
 	MISC::SET_BIT(&iVar0, 2);
 	MISC::SET_BIT(&iVar0, 4);
-	MISC::SET_BIT(&iVar0, 1);
+	MISC::SET_BIT(&iVar0, true);
 	MISC::SET_BIT(&iVar0, 8);
 	if (bParam4)
 	{
@@ -2452,7 +2452,7 @@ void func_37(int iParam0, struct<3> Param1, bool bParam4, bool bParam5, bool bPa
 	iVar0 = 0;
 	MISC::SET_BIT(&iVar0, 2);
 	MISC::SET_BIT(&iVar0, 4);
-	MISC::SET_BIT(&iVar0, 1);
+	MISC::SET_BIT(&iVar0, true);
 	if (bParam6)
 	{
 		MISC::SET_BIT(&iVar0, 8);

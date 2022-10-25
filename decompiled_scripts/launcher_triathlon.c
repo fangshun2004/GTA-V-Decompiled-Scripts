@@ -1022,19 +1022,19 @@ void func_14(int iParam0)
 
 void func_15(int iParam0)
 {
-	int iVar0;
+	bool bVar0;
 	int iVar1;
 	
-	iVar0 = iParam0;
+	bVar0 = iParam0;
 	iVar1 = 0;
-	while (iVar0 > 31)
+	while (bVar0 > 31)
 	{
-		iVar0 = (iVar0 - 32);
+		bVar0 = (bVar0 - 32);
 		iVar1++;
 	}
 	if (iVar1 < 3)
 	{
-		MISC::SET_BIT(&(Global_113386.f_20410.f_150[iVar1]), iVar0);
+		MISC::SET_BIT(&(Global_113386.f_20410.f_150[iVar1]), bVar0);
 	}
 }
 
@@ -1148,20 +1148,20 @@ void func_18()
 
 void func_19(int iParam0)
 {
-	int iVar0;
+	bool bVar0;
 	int iVar1;
 	
-	iVar0 = iParam0;
+	bVar0 = iParam0;
 	iVar1 = 0;
-	while (iVar0 > 31)
+	while (bVar0 > 31)
 	{
-		iVar0 = (iVar0 - 32);
+		bVar0 = (bVar0 - 32);
 		iVar1++;
 	}
 	if (iVar1 < 3)
 	{
-		MISC::CLEAR_BIT(&(Global_113386.f_20410.f_150[iVar1]), iVar0);
-		MISC::CLEAR_BIT(&(Global_113386.f_20410.f_150[iVar1]), iVar0);
+		MISC::CLEAR_BIT(&(Global_113386.f_20410.f_150[iVar1]), bVar0);
+		MISC::CLEAR_BIT(&(Global_113386.f_20410.f_150[iVar1]), bVar0);
 	}
 }
 
@@ -1251,15 +1251,15 @@ void func_21(int iParam0, int iParam1)
 	}
 }
 
-void func_22(int iParam0, bool bParam1)
+void func_22(bool bParam0, bool bParam1)
 {
 	if (bParam1)
 	{
-		MISC::SET_BIT(&Global_112024, iParam0);
+		MISC::SET_BIT(&Global_112024, bParam0);
 	}
 	else
 	{
-		MISC::CLEAR_BIT(&Global_112024, iParam0);
+		MISC::CLEAR_BIT(&Global_112024, bParam0);
 	}
 	Global_112023 = 1;
 }
@@ -3514,7 +3514,7 @@ void func_44(int* iParam0)
 void func_45(int* iParam0, float fParam1)
 {
 	iParam0->f_1 = (func_35(BitTest(*iParam0, 4)) - fParam1);
-	MISC::SET_BIT(iParam0, 1);
+	MISC::SET_BIT(iParam0, true);
 	MISC::CLEAR_BIT(iParam0, 2);
 	iParam0->f_2 = 0f;
 }
@@ -5102,13 +5102,13 @@ void func_114(int iParam0, bool bParam1, bool bParam2)
 	}
 	if (bParam1)
 	{
-		MISC::SET_BIT(&(Global_32338[iVar0 /*23*/].f_11), 0);
+		MISC::SET_BIT(&(Global_32338[iVar0 /*23*/].f_11), false);
 		MISC::SET_BIT(&(Global_32338[iVar0 /*23*/].f_11), 15);
 		MISC::SET_BIT(&(Global_32338[iVar0 /*23*/].f_11), 3);
 	}
 	else
 	{
-		MISC::CLEAR_BIT(&(Global_32338[iVar0 /*23*/].f_11), 0);
+		MISC::CLEAR_BIT(&(Global_32338[iVar0 /*23*/].f_11), false);
 		MISC::CLEAR_BIT(&(Global_32338[iVar0 /*23*/].f_11), 15);
 	}
 	if (!BitTest(Global_32338[iVar0 /*23*/].f_11, 0))

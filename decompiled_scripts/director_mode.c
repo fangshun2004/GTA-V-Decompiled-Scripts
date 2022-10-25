@@ -4871,7 +4871,7 @@ void func_43()
 
 void func_44(bool bParam0)
 {
-	MISC::CLEAR_BIT(&Global_1836145, iParam0);
+	MISC::CLEAR_BIT(&Global_1836145, bParam0);
 }
 
 void func_45(int iParam0)
@@ -121491,7 +121491,7 @@ void func_805(bool bParam0, bool bParam1)
 {
 	if (bParam1)
 	{
-		MISC::SET_BIT(&Global_32207, iParam0);
+		MISC::SET_BIT(&Global_32207, bParam0);
 	}
 	else
 	{
@@ -121616,7 +121616,7 @@ void func_811(int iParam0, bool bParam1, bool bParam2)
 	}
 	if (bParam2)
 	{
-		MISC::CLEAR_BIT(&(Global_100493.f_1393[iParam0]), iParam1);
+		MISC::CLEAR_BIT(&(Global_100493.f_1393[iParam0]), bParam1);
 	}
 	else if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
@@ -121885,7 +121885,7 @@ void func_813(int iParam0, bool bParam1, bool bParam2)
 	}
 	if (bParam2)
 	{
-		MISC::SET_BIT(&(Global_100493.f_1393[iParam0]), iParam1);
+		MISC::SET_BIT(&(Global_100493.f_1393[iParam0]), bParam1);
 	}
 	else if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
@@ -125816,7 +125816,7 @@ void func_867(bool bParam0, bool bParam1)
 {
 	if (bParam1)
 	{
-		MISC::SET_BIT(&Global_112024, iParam0);
+		MISC::SET_BIT(&Global_112024, bParam0);
 	}
 	else
 	{
@@ -166575,29 +166575,29 @@ int func_1446(int iParam0)
 
 int func_1447(int iParam0, int iParam1, bool bParam2)
 {
-	int iVar0;
+	bool bVar0;
 	int iVar1;
 	int iVar2;
 	
-	iVar0 = 4;
+	bVar0 = 4;
 	if (iParam1 == 0)
 	{
-		iVar0 = 0;
+		bVar0 = false;
 	}
 	else if (iParam1 == 2)
 	{
-		iVar0 = 2;
+		bVar0 = 2;
 	}
 	else if (iParam1 == 1)
 	{
-		iVar0 = 1;
+		bVar0 = true;
 	}
 	else if (iParam1 == 145)
 	{
-		iVar0 = 3;
+		bVar0 = 3;
 		return 0;
 	}
-	if (ENTITY::DOES_ENTITY_EXIST(Global_97919[iVar0]))
+	if (ENTITY::DOES_ENTITY_EXIST(Global_97919[bVar0]))
 	{
 		iVar1 = -1;
 		iVar2 = 0;
@@ -166616,7 +166616,7 @@ int func_1447(int iParam0, int iParam1, bool bParam2)
 		{
 			iVar1 = 0;
 		}
-		Global_100366[iVar1] = Global_97919[iVar0];
+		Global_100366[iVar1] = Global_97919[bVar0];
 		if (bParam2)
 		{
 			if (!PED::IS_PED_INJURED(Global_100366[iVar1]))
@@ -166632,13 +166632,13 @@ int func_1447(int iParam0, int iParam1, bool bParam2)
 			}
 		}
 	}
-	Global_97919[iVar0] = iParam0;
+	Global_97919[bVar0] = iParam0;
 	Global_113386.f_2363.f_539.f_2296[iParam1] = func_1141();
 	Global_113386.f_2363.f_539.f_2300[iParam1 /*3*/] = { ENTITY::GET_ENTITY_COORDS(iParam0, true) };
 	Global_113386.f_2363.f_539.f_2310[iParam1] = ENTITY::GET_ENTITY_HEADING(iParam0);
 	if (bParam2)
 	{
-		MISC::SET_BIT(&(Global_97919.f_47), iVar0);
+		MISC::SET_BIT(&(Global_97919.f_47), bVar0);
 	}
 	return 1;
 }
@@ -166897,7 +166897,7 @@ void func_1456(var uParam0, int iParam1)
 
 void func_1457()
 {
-	int iVar0;
+	bool bVar0;
 	int iVar1;
 	int iVar2;
 	int iVar3;
@@ -166907,13 +166907,13 @@ void func_1457()
 	Var4.f_1 = 13;
 	Var4.f_15 = 11;
 	Var4 = { Var4 };
-	iVar0 = 0;
-	while (iVar0 < Local_12921.f_0)
+	bVar0 = false;
+	while (bVar0 < Local_12921.f_0)
 	{
 		iVar1 = 0;
 		while (iVar1 < Var4.f_1)
 		{
-			iVar2 = Local_12921[iVar0 /*32*/].f_1[iVar1];
+			iVar2 = Local_12921[bVar0 /*32*/].f_1[iVar1];
 			func_1459(&(Global_113386.f_26434.f_6), iVar3, 6, iVar2);
 			iVar3++;
 			iVar1++;
@@ -166921,16 +166921,16 @@ void func_1457()
 		iVar1 = 0;
 		while (iVar1 < Var4.f_15)
 		{
-			iVar2 = Local_12921[iVar0 /*32*/].f_15[iVar1];
+			iVar2 = Local_12921[bVar0 /*32*/].f_15[iVar1];
 			func_1459(&(Global_113386.f_26434.f_6), iVar3, 6, iVar2);
 			iVar3++;
 			iVar1++;
 		}
-		Global_113386.f_26434.f_107[iVar0] = Local_12921[iVar0 /*32*/];
-		Global_113386.f_26434.f_128[iVar0] = Local_12921[iVar0 /*32*/].f_27;
-		if (Local_12921[iVar0 /*32*/].f_29)
+		Global_113386.f_26434.f_107[bVar0] = Local_12921[bVar0 /*32*/];
+		Global_113386.f_26434.f_128[bVar0] = Local_12921[bVar0 /*32*/].f_27;
+		if (Local_12921[bVar0 /*32*/].f_29)
 		{
-			MISC::SET_BIT(&(Global_113386.f_26434.f_149), iVar0);
+			MISC::SET_BIT(&(Global_113386.f_26434.f_149), bVar0);
 		}
 		else
 		{

@@ -32,7 +32,7 @@ void __EntryFunction__()
 						ENTITY::FREEZE_ENTITY_POSITION(iLocal_1, true);
 						ENTITY::SET_ENTITY_PROOFS(iLocal_1, true, true, true, true, true, false, false, false);
 					}
-					MISC::SET_BIT(&uLocal_2, 0);
+					MISC::SET_BIT(&uLocal_2, false);
 				}
 			}
 		}
@@ -43,16 +43,16 @@ void __EntryFunction__()
 				fVar0 = SYSTEM::VDIST2(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), ENTITY::GET_ENTITY_COORDS(iLocal_0, true));
 				if (fVar0 > 90000f)
 				{
-					MISC::SET_BIT(&uLocal_2, 1);
+					MISC::SET_BIT(&uLocal_2, true);
 				}
 				else if (fVar0 > 40000f && !ENTITY::IS_ENTITY_ON_SCREEN(iLocal_0))
 				{
-					MISC::SET_BIT(&uLocal_2, 1);
+					MISC::SET_BIT(&uLocal_2, true);
 				}
 			}
 			else
 			{
-				MISC::SET_BIT(&uLocal_2, 1);
+				MISC::SET_BIT(&uLocal_2, true);
 			}
 		}
 		SYSTEM::WAIT(0);

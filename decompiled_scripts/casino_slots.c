@@ -1681,7 +1681,7 @@ void func_39(int iParam0, int iParam1)
 void func_40(var uParam0, int iParam1, int iParam2, int iParam3)
 {
 	int iVar0;
-	int iVar1;
+	bool bVar1;
 	int iVar2;
 	int iVar3;
 	int iVar4;
@@ -1708,12 +1708,12 @@ void func_40(var uParam0, int iParam1, int iParam2, int iParam3)
 		{
 			iVar8 = (iParam2 - bVar6);
 		}
-		iVar1 = iVar7;
-		while (iVar1 <= ((iVar7 + iVar8) - 1))
+		bVar1 = iVar7;
+		while (bVar1 <= ((iVar7 + iVar8) - 1))
 		{
 			if (BitTest(iParam3, bVar6))
 			{
-				MISC::SET_BIT(uParam0[(iVar4 + iVar0)], iVar1);
+				MISC::SET_BIT(uParam0[(iVar4 + iVar0)], bVar1);
 			}
 			else
 			{
@@ -1743,7 +1743,7 @@ int func_41(var uParam0, int iParam1, int iParam2)
 	int iVar4;
 	int iVar5;
 	int iVar6;
-	int iVar7;
+	bool bVar7;
 	int iVar8;
 	int iVar9;
 	
@@ -1755,22 +1755,22 @@ int func_41(var uParam0, int iParam1, int iParam2)
 	{
 		return 0;
 	}
-	iVar7 = 0;
+	bVar7 = false;
 	iVar8 = (iVar4 % 32);
 	iVar0 = 0;
 	while (iVar0 < iVar6)
 	{
 		iVar9 = (32 - iVar8);
-		if (iVar9 > (iParam2 - iVar7))
+		if (iVar9 > (iParam2 - bVar7))
 		{
-			iVar9 = (iParam2 - iVar7);
+			iVar9 = (iParam2 - bVar7);
 		}
 		bVar1 = iVar8;
 		while (bVar1 <= ((iVar8 + iVar9) - 1))
 		{
 			if (BitTest((*uParam0)[(iVar5 + iVar0)], bVar1))
 			{
-				MISC::SET_BIT(&uVar2, iVar7);
+				MISC::SET_BIT(&uVar2, bVar7);
 			}
 			bVar7++;
 			bVar1++;

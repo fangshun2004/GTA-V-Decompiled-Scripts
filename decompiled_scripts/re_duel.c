@@ -262,7 +262,7 @@ int func_5(bool bParam0)
 	return BitTest(Global_78567, 0);
 }
 
-void func_6(int iParam0, int iParam1)
+void func_6(int iParam0, bool bParam1)
 {
 	if (iParam0 == -1)
 	{
@@ -272,9 +272,9 @@ void func_6(int iParam0, int iParam1)
 	{
 		return;
 	}
-	if (iParam1 <= func_29(iParam0))
+	if (bParam1 <= func_29(iParam0))
 	{
-		func_28(iParam0, iParam1);
+		func_28(iParam0, bParam1);
 		if (!func_27(51))
 		{
 			func_17("RE_REWARD", 1, 0, 4000, 10000, func_20(), 0, 138, 0);
@@ -284,11 +284,11 @@ void func_6(int iParam0, int iParam1)
 		{
 			Global_113386.f_24995.f_2 = 3;
 		}
-		if (func_14(iParam0, iParam1) != 322)
+		if (func_14(iParam0, bParam1) != 322)
 		{
-			func_8(func_14(iParam0, iParam1), Local_43.f_0, Local_43.f_1);
+			func_8(func_14(iParam0, bParam1), Local_43.f_0, Local_43.f_1);
 		}
-		Global_113374 = iParam1;
+		Global_113374 = bParam1;
 		if (Global_113372 == 0)
 		{
 			if (((Global_113375 == 1 || Global_113375 == 5) || Global_113375 == 11) || Global_113375 == 25)
@@ -587,7 +587,7 @@ int func_13()
 	return Global_1574918;
 }
 
-int func_14(int iParam0, int iParam1)
+int func_14(int iParam0, bool bParam1)
 {
 	switch (iParam0)
 	{
@@ -612,11 +612,11 @@ int func_14(int iParam0, int iParam1)
 			break;
 		
 		case 5:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 281;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 282;
 			}
@@ -631,43 +631,43 @@ int func_14(int iParam0, int iParam1)
 			break;
 		
 		case 9:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 271;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 272;
 			}
-			if (iParam1 == 3)
+			if (bParam1 == 3)
 			{
 				return 273;
 			}
-			if (iParam1 == 4)
+			if (bParam1 == 4)
 			{
 				return 274;
 			}
-			if (iParam1 == 5)
+			if (bParam1 == 5)
 			{
 				return 275;
 			}
-			if (iParam1 == 6)
+			if (bParam1 == 6)
 			{
 				return 276;
 			}
-			if (iParam1 == 7)
+			if (bParam1 == 7)
 			{
 				return 277;
 			}
-			if (iParam1 == 8)
+			if (bParam1 == 8)
 			{
 				return 278;
 			}
-			if (iParam1 == 9)
+			if (bParam1 == 9)
 			{
 				return 279;
 			}
-			if (iParam1 == 10)
+			if (bParam1 == 10)
 			{
 				return 280;
 			}
@@ -678,19 +678,19 @@ int func_14(int iParam0, int iParam1)
 			break;
 		
 		case 11:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 246;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 247;
 			}
-			if (iParam1 == 3)
+			if (bParam1 == 3)
 			{
 				return 248;
 			}
-			if (iParam1 == 4)
+			if (bParam1 == 4)
 			{
 				return 249;
 			}
@@ -701,19 +701,19 @@ int func_14(int iParam0, int iParam1)
 			break;
 		
 		case 13:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 260;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 261;
 			}
-			if (iParam1 == 3)
+			if (bParam1 == 3)
 			{
 				return 262;
 			}
-			if (iParam1 == 4)
+			if (bParam1 == 4)
 			{
 				return 264;
 			}
@@ -724,11 +724,11 @@ int func_14(int iParam0, int iParam1)
 			break;
 		
 		case 15:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 224;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 225;
 			}
@@ -739,11 +739,11 @@ int func_14(int iParam0, int iParam1)
 			break;
 		
 		case 17:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 244;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 245;
 			}
@@ -766,22 +766,22 @@ int func_14(int iParam0, int iParam1)
 			break;
 		
 		case 22:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 221;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 222;
 			}
 			break;
 		
 		case 23:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 213;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 214;
 			}
@@ -792,15 +792,15 @@ int func_14(int iParam0, int iParam1)
 			break;
 		
 		case 25:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 267;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 268;
 			}
-			if (iParam1 == 3)
+			if (bParam1 == 3)
 			{
 				return 269;
 			}
@@ -811,22 +811,22 @@ int func_14(int iParam0, int iParam1)
 			break;
 		
 		case 26:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 227;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 228;
 			}
 			break;
 		
 		case 27:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 257;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 258;
 			}
@@ -837,15 +837,15 @@ int func_14(int iParam0, int iParam1)
 			break;
 		
 		case 29:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 229;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 230;
 			}
-			if (iParam1 == 3)
+			if (bParam1 == 3)
 			{
 				return 231;
 			}
@@ -886,19 +886,19 @@ int func_15(int iParam0)
 
 void func_16(int iParam0)
 {
-	int iVar0;
+	bool bVar0;
 	int iVar1;
 	
-	iVar0 = iParam0;
+	bVar0 = iParam0;
 	iVar1 = 0;
-	while (iVar0 > 31)
+	while (bVar0 > 31)
 	{
-		iVar0 = (iVar0 - 32);
+		bVar0 = (bVar0 - 32);
 		iVar1++;
 	}
 	if (iVar1 < 3)
 	{
-		MISC::SET_BIT(&(Global_113386.f_20410.f_150[iVar1]), iVar0);
+		MISC::SET_BIT(&(Global_113386.f_20410.f_150[iVar1]), bVar0);
 	}
 }
 
@@ -1129,9 +1129,9 @@ int func_27(int iParam0)
 	return 0;
 }
 
-void func_28(int iParam0, int iParam1)
+void func_28(int iParam0, bool bParam1)
 {
-	MISC::SET_BIT(&(Global_113386.f_24995.f_8[iParam0]), iParam1);
+	MISC::SET_BIT(&(Global_113386.f_24995.f_8[iParam0]), bParam1);
 }
 
 int func_29(int iParam0)
@@ -4243,7 +4243,7 @@ int func_50()
 				if (MISC::ARE_PROFILE_SETTINGS_VALID())
 				{
 					iVar0 = MISC::GET_PROFILE_SETTING(866);
-					MISC::SET_BIT(&iVar0, 0);
+					MISC::SET_BIT(&iVar0, false);
 					STATS::SET_HAS_SPECIALEDITION_CONTENT(iVar0);
 				}
 				return 1;
@@ -4483,7 +4483,7 @@ void func_58(int iParam0, bool bParam1)
 	}
 }
 
-void func_59(int iParam0, int iParam1, bool bParam2)
+void func_59(int iParam0, bool bParam1, bool bParam2)
 {
 	if (iParam0 == -1)
 	{
@@ -4491,11 +4491,11 @@ void func_59(int iParam0, int iParam1, bool bParam2)
 	}
 	if (bParam2)
 	{
-		MISC::SET_BIT(&(Global_113386.f_32749[iParam0]), iParam1);
+		MISC::SET_BIT(&(Global_113386.f_32749[iParam0]), bParam1);
 	}
 	else
 	{
-		MISC::CLEAR_BIT(&(Global_113386.f_32749[iParam0]), iParam1);
+		MISC::CLEAR_BIT(&(Global_113386.f_32749[iParam0]), bParam1);
 	}
 }
 
@@ -4854,9 +4854,9 @@ void func_64(int iParam0, int iParam1, var uParam2)
 	}
 }
 
-void func_65(int iParam0, int iParam1)
+void func_65(int iParam0, bool bParam1)
 {
-	MISC::SET_BIT(&(Local_49[iParam0 /*5*/].f_2), iParam1);
+	MISC::SET_BIT(&(Local_49[iParam0 /*5*/].f_2), bParam1);
 }
 
 int func_66(struct<3> Param0)
@@ -4979,9 +4979,9 @@ int func_70(int iParam0)
 	return 0;
 }
 
-void func_71(int iParam0)
+void func_71(bool bParam0)
 {
-	MISC::CLEAR_BIT(&iLocal_156, iParam0);
+	MISC::CLEAR_BIT(&iLocal_156, bParam0);
 }
 
 int func_72(int iParam0, bool bParam1)
@@ -5936,7 +5936,7 @@ void func_98(int iParam0)
 				{
 					func_99(func_100(iParam0), -1);
 					Global_113386.f_24995.f_2++;
-					MISC::SET_BIT(&Global_113382, 0);
+					MISC::SET_BIT(&Global_113382, false);
 				}
 			}
 			break;
@@ -5948,7 +5948,7 @@ void func_98(int iParam0)
 				{
 					func_99(func_100(iParam0), -1);
 					Global_113386.f_24995.f_3++;
-					MISC::SET_BIT(&Global_113382, 1);
+					MISC::SET_BIT(&Global_113382, true);
 				}
 			}
 			break;
@@ -6533,9 +6533,9 @@ void func_110(int iParam0)
 	}
 }
 
-void func_111(int iParam0)
+void func_111(bool bParam0)
 {
-	MISC::SET_BIT(&iLocal_156, iParam0);
+	MISC::SET_BIT(&iLocal_156, bParam0);
 }
 
 void func_112()
@@ -6580,7 +6580,7 @@ void func_114(int iParam0, bool bParam1)
 	}
 }
 
-void func_115(int iParam0, int iParam1, bool bParam2)
+void func_115(int iParam0, bool bParam1, bool bParam2)
 {
 	int iVar0;
 	
@@ -6590,20 +6590,20 @@ void func_115(int iParam0, int iParam1, bool bParam2)
 	}
 	if (bParam2)
 	{
-		MISC::CLEAR_BIT(&(Global_100493.f_1393[iParam0]), iParam1);
+		MISC::CLEAR_BIT(&(Global_100493.f_1393[iParam0]), bParam1);
 	}
 	else if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
 		if (func_10() == 0)
 		{
 			iVar0 = func_118(func_119(iParam0), -1, 0);
-			MISC::CLEAR_BIT(&iVar0, iParam1);
+			MISC::CLEAR_BIT(&iVar0, bParam1);
 			func_116(func_119(iParam0), iVar0, -1, 1, 0);
 		}
 	}
 	else
 	{
-		MISC::CLEAR_BIT(&(Global_113386.f_668[iParam0]), iParam1);
+		MISC::CLEAR_BIT(&(Global_113386.f_668[iParam0]), bParam1);
 	}
 }
 
@@ -6905,7 +6905,7 @@ int func_119(int iParam0)
 	return 13122;
 }
 
-void func_120(int iParam0, int iParam1, bool bParam2)
+void func_120(int iParam0, bool bParam1, bool bParam2)
 {
 	int iVar0;
 	
@@ -6915,20 +6915,20 @@ void func_120(int iParam0, int iParam1, bool bParam2)
 	}
 	if (bParam2)
 	{
-		MISC::SET_BIT(&(Global_100493.f_1393[iParam0]), iParam1);
+		MISC::SET_BIT(&(Global_100493.f_1393[iParam0]), bParam1);
 	}
 	else if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
 		if (func_10() == 0)
 		{
 			iVar0 = func_118(func_119(iParam0), -1, 0);
-			MISC::SET_BIT(&iVar0, iParam1);
+			MISC::SET_BIT(&iVar0, bParam1);
 			func_116(func_119(iParam0), iVar0, -1, 1, 0);
 		}
 	}
 	else
 	{
-		MISC::SET_BIT(&(Global_113386.f_668[iParam0]), iParam1);
+		MISC::SET_BIT(&(Global_113386.f_668[iParam0]), bParam1);
 	}
 }
 
@@ -7148,9 +7148,9 @@ void func_125(int* iParam0)
 	}
 }
 
-void func_126(int iParam0, int iParam1)
+void func_126(int iParam0, bool bParam1)
 {
-	MISC::CLEAR_BIT(&(Local_49[iParam0 /*5*/].f_2), iParam1);
+	MISC::CLEAR_BIT(&(Local_49[iParam0 /*5*/].f_2), bParam1);
 }
 
 int func_127(int iParam0)
@@ -9678,7 +9678,7 @@ void func_201(int iParam0)
 	}
 	else if (BitTest(Global_113382, 0) && Global_113386.f_24995.f_2 < 3)
 	{
-		MISC::CLEAR_BIT(&Global_113382, 0);
+		MISC::CLEAR_BIT(&Global_113382, false);
 	}
 	func_202(&Global_32019);
 	Global_113376 = 0;
@@ -10271,15 +10271,15 @@ void func_221(bool bParam0)
 	}
 }
 
-void func_222(int iParam0, bool bParam1)
+void func_222(bool bParam0, bool bParam1)
 {
 	if (bParam1)
 	{
-		MISC::SET_BIT(&Global_32207, iParam0);
+		MISC::SET_BIT(&Global_32207, bParam0);
 	}
 	else
 	{
-		MISC::CLEAR_BIT(&Global_32207, iParam0);
+		MISC::CLEAR_BIT(&Global_32207, bParam0);
 	}
 }
 

@@ -596,7 +596,7 @@ int func_10(int* iParam0, char* sParam1, int iParam2, int iParam3, int iParam4, 
 		iParam0->f_2[iVar1 /*15*/].f_3[0 /*2*/].f_1 = iParam3;
 		if (iParam4 == 1)
 		{
-			MISC::SET_BIT(&(iParam0->f_2[iVar1 /*15*/].f_13), 0);
+			MISC::SET_BIT(&(iParam0->f_2[iVar1 /*15*/].f_13), false);
 		}
 		iParam0->f_2[iVar1 /*15*/].f_14++;
 		iParam0->f_123++;

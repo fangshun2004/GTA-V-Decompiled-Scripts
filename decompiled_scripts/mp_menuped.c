@@ -184,7 +184,7 @@ void __EntryFunction__()
 {
 	int iVar0;
 	struct<13> Var1;
-	int iVar14;
+	bool bVar14;
 	var* uVar15;
 	int iVar28;
 	int iVar29;
@@ -282,8 +282,8 @@ void __EntryFunction__()
 			{
 				if (NETWORK::NETWORK_GET_CURRENTLY_SELECTED_GAMER_HANDLE_FROM_INVITE_MENU(&Var1))
 				{
-					iVar14 = NETWORK::NETWORK_GET_PLAYER_FROM_GAMER_HANDLE(&Var1);
-					if (iVar14 != PLAYER::PLAYER_ID())
+					bVar14 = NETWORK::NETWORK_GET_PLAYER_FROM_GAMER_HANDLE(&Var1);
+					if (bVar14 != PLAYER::PLAYER_ID())
 					{
 						if (func_47(Var1))
 						{
@@ -305,8 +305,8 @@ void __EntryFunction__()
 				func_43(1);
 				if (NETWORK::NETWORK_GET_CURRENTLY_SELECTED_GAMER_HANDLE_FROM_INVITE_MENU(&Var1))
 				{
-					iVar14 = NETWORK::NETWORK_GET_PLAYER_FROM_GAMER_HANDLE(&Var1);
-					if (iVar14 != PLAYER::PLAYER_ID())
+					bVar14 = NETWORK::NETWORK_GET_PLAYER_FROM_GAMER_HANDLE(&Var1);
+					if (bVar14 != PLAYER::PLAYER_ID())
 					{
 						if (func_47(Var1))
 						{
@@ -320,15 +320,15 @@ void __EntryFunction__()
 							}
 							else
 							{
-								iVar14 = NETWORK::NETWORK_GET_PLAYER_FROM_GAMER_HANDLE(&Var1);
-								if (iVar14 != func_42())
+								bVar14 = NETWORK::NETWORK_GET_PLAYER_FROM_GAMER_HANDLE(&Var1);
+								if (bVar14 != func_42())
 								{
-									if (func_41(iVar14, 0, 1))
+									if (func_41(bVar14, 0, 1))
 									{
 										if (NETWORK::NETWORK_CAN_SEND_LOCAL_INVITE(&Var1))
 										{
-											func_39(func_40(iVar14), Global_2101638, Global_2101638.f_1, 0, Global_2101638.f_2, Global_2101638.f_5);
-											func_23(0, &Var1, PLAYER::GET_PLAYER_NAME(iVar14), 0, 3, 1, 0);
+											func_39(func_40(bVar14), Global_2101638, Global_2101638.f_1, 0, Global_2101638.f_2, Global_2101638.f_5);
+											func_23(0, &Var1, PLAYER::GET_PLAYER_NAME(bVar14), 0, 3, 1, 0);
 										}
 										else
 										{
@@ -1198,9 +1198,9 @@ int func_40(bool bParam0)
 {
 	var uVar0;
 	
-	if (iParam0 != -1)
+	if (bParam0 != -1)
 	{
-		MISC::SET_BIT(&uVar0, iParam0);
+		MISC::SET_BIT(&uVar0, bParam0);
 	}
 	return uVar0;
 }
@@ -35770,7 +35770,7 @@ bool func_216(int iParam0, int iParam1, var uParam2)
 void func_217(int iParam0, int iParam1, bool bParam2, bool bParam3, int iParam4)
 {
 	int iVar0;
-	int iVar1;
+	bool bVar1;
 	int iVar2;
 	int iVar3;
 	
@@ -35779,10 +35779,10 @@ void func_217(int iParam0, int iParam1, bool bParam2, bool bParam3, int iParam4)
 	{
 		iVar0 = iParam4;
 	}
-	if (func_218(iParam0, iParam1, &iVar2, &iVar1, bParam2, bParam3))
+	if (func_218(iParam0, iParam1, &iVar2, &bVar1, bParam2, bParam3))
 	{
 		iVar3 = func_165(iVar2, iVar0, 0);
-		MISC::SET_BIT(&iVar3, iVar1);
+		MISC::SET_BIT(&iVar3, bVar1);
 		func_52(iVar2, iVar3, iVar0, 1, 0);
 	}
 }
@@ -38598,8 +38598,8 @@ void func_223(var uParam0, int iParam1, int iParam2, char* sParam3, int iParam4,
 		}
 		if (FILES::IS_CONTENT_ITEM_LOCKED(Global_2883589))
 		{
-			MISC::CLEAR_BIT(&(uParam0->f_6), 1);
-			MISC::CLEAR_BIT(&(uParam0->f_6), 0);
+			MISC::CLEAR_BIT(&(uParam0->f_6), true);
+			MISC::CLEAR_BIT(&(uParam0->f_6), false);
 		}
 	}
 	else if (uParam0->f_5 >= 0 && uParam0->f_5 < 3)
@@ -39233,7 +39233,7 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 	{
 		if (iParam5 == 1)
 		{
-			MISC::SET_BIT(&(Global_113386.f_2363[iParam1 /*164*/][iParam3]), iParam4);
+			MISC::SET_BIT(&(Global_113386.f_2363[iParam1 /*164*/][iParam3]), bParam4);
 		}
 		if (iParam6 == 1)
 		{
@@ -89652,7 +89652,7 @@ int func_402(int iParam0, int iParam1, int iParam2, bool bParam3, int iParam4)
 void func_403(int iParam0, int iParam1, bool bParam2, bool bParam3, int iParam4)
 {
 	int iVar0;
-	int iVar1;
+	bool bVar1;
 	int iVar2;
 	int iVar3;
 	
@@ -89661,10 +89661,10 @@ void func_403(int iParam0, int iParam1, bool bParam2, bool bParam3, int iParam4)
 	{
 		iVar0 = iParam4;
 	}
-	if (func_218(iParam0, iParam1, &iVar2, &iVar1, bParam2, bParam3))
+	if (func_218(iParam0, iParam1, &iVar2, &bVar1, bParam2, bParam3))
 	{
 		iVar3 = func_165(iVar2, iVar0, 0);
-		MISC::CLEAR_BIT(&iVar3, iVar1);
+		MISC::CLEAR_BIT(&iVar3, bVar1);
 		func_52(iVar2, iVar3, iVar0, 1, 0);
 	}
 }

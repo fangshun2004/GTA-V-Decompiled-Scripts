@@ -1453,7 +1453,7 @@ void func_18(bool bParam0, int iParam1, int iParam2)
 						iVar1++;
 					}
 				}
-				MISC::SET_BIT(&(Global_2621446.f_67), 1);
+				MISC::SET_BIT(&(Global_2621446.f_67), true);
 			}
 		}
 		if (func_22(PLAYER::PLAYER_ID(), 0))
@@ -1495,7 +1495,7 @@ void func_20()
 				iVar0++;
 			}
 			MISC::SET_BIT(&(Global_2621446.f_67), 2);
-			MISC::SET_BIT(&(Global_2621446.f_67), 0);
+			MISC::SET_BIT(&(Global_2621446.f_67), false);
 		}
 	}
 }
@@ -1910,7 +1910,7 @@ void func_51(var uParam0)
 				MISC::SET_BIT(&(uParam0->f_10), 2);
 				GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("helicopterhud", false);
 				func_6(uParam0, 3);
-				MISC::SET_BIT(&(Global_2689235[PLAYER::PLAYER_ID() /*453*/].f_416), 0);
+				MISC::SET_BIT(&(Global_2689235[PLAYER::PLAYER_ID() /*453*/].f_416), false);
 			}
 			break;
 		
@@ -1929,12 +1929,12 @@ void func_51(var uParam0)
 			if (!func_218())
 			{
 				func_217();
-				MISC::SET_BIT(&(uParam0->f_5), 0);
+				MISC::SET_BIT(&(uParam0->f_5), false);
 			}
 			if (!func_216())
 			{
 				func_215();
-				MISC::SET_BIT(&(uParam0->f_5), 1);
+				MISC::SET_BIT(&(uParam0->f_5), true);
 			}
 			STREAMING::SUPPRESS_HD_MAP_STREAMING_THIS_FRAME();
 			STREAMING::OVERRIDE_LODSCALE_THIS_FRAME(1f);
@@ -4692,8 +4692,8 @@ int func_125(var uParam0)
 				MISC::SET_OVERRIDE_WEATHER("Clear");
 				GRAPHICS::CLEAR_TIMECYCLE_MODIFIER();
 				GRAPHICS::CASCADE_SHADOWS_SET_AIRCRAFT_MODE(true);
-				MISC::SET_BIT(&(uParam0->f_8), 0);
-				MISC::SET_BIT(&(uParam0->f_8), 1);
+				MISC::SET_BIT(&(uParam0->f_8), false);
+				MISC::SET_BIT(&(uParam0->f_8), true);
 				func_151(uParam0);
 				func_53(&(uParam0->f_727), 0, 0);
 			}
@@ -4728,7 +4728,7 @@ int func_125(var uParam0)
 		case 3:
 			if (BitTest(uParam0->f_10, 3))
 			{
-				MISC::SET_BIT(&(uParam0->f_10), 0);
+				MISC::SET_BIT(&(uParam0->f_10), false);
 				MISC::CLEAR_BIT(&(uParam0->f_5), 4);
 				GRAPHICS::SET_SCALEFORM_MOVIE_AS_NO_LONGER_NEEDED(&(uParam0->f_22));
 				uParam0->f_736 = { ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), false) };
@@ -4755,7 +4755,7 @@ int func_125(var uParam0)
 						{
 							CAM::DESTROY_CAM(uParam0->f_4, false);
 						}
-						MISC::SET_BIT(&(uParam0->f_10), 0);
+						MISC::SET_BIT(&(uParam0->f_10), false);
 						MISC::SET_BIT(&(uParam0->f_5), 4);
 						uParam0->f_4 = CAM::CREATE_CAM("DEFAULT_SCRIPTED_CAMERA", false);
 						uParam0->f_736 = { Var4.f_1 };
@@ -4794,7 +4794,7 @@ int func_125(var uParam0)
 			{
 				STREAMING::NEW_LOAD_SCENE_START(uParam0->f_736, uParam0->f_733, 300f, 0);
 			}
-			MISC::SET_BIT(&(uParam0->f_10), 1);
+			MISC::SET_BIT(&(uParam0->f_10), true);
 			STREAMING::SET_FOCUS_POS_AND_VEL(uParam0->f_736, -90f, 0f, 0f);
 			NETWORK::NETWORK_SET_IN_FREE_CAM_MODE(true);
 			MISC::SET_BIT(&(uParam0->f_5), 3);
@@ -4965,7 +4965,7 @@ int func_125(var uParam0)
 						GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD(uParam0->f_22, "SET_CHARGING_LEVEL");
 						GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_FLOAT(1f);
 						GRAPHICS::END_SCALEFORM_MOVIE_METHOD();
-						MISC::SET_BIT(&(uParam0->f_9), 0);
+						MISC::SET_BIT(&(uParam0->f_9), false);
 						if (BitTest(uParam0->f_9, 1))
 						{
 							MISC::CLEAR_BIT(&(uParam0->f_9), 1);
@@ -5456,7 +5456,7 @@ void func_152(int iParam0, int iParam1)
 				bVar2 = true;
 			}
 			GRAPHICS::SET_NIGHTVISION(bVar0);
-			MISC::SET_BIT(&(Global_1924338[PLAYER::PLAYER_ID() /*199*/].f_198), 0);
+			MISC::SET_BIT(&(Global_1924338[PLAYER::PLAYER_ID() /*199*/].f_198), false);
 		}
 		else
 		{
@@ -5735,7 +5735,7 @@ void func_165()
 
 void func_166()
 {
-	MISC::SET_BIT(&(Global_2714762.f_3), 1);
+	MISC::SET_BIT(&(Global_2714762.f_3), true);
 }
 
 void func_167()
@@ -6095,7 +6095,7 @@ void func_211(bool bParam0)
 {
 	if (bParam0)
 	{
-		MISC::SET_BIT(&(Global_1853348[PLAYER::PLAYER_ID() /*834*/].f_11.f_1), 0);
+		MISC::SET_BIT(&(Global_1853348[PLAYER::PLAYER_ID() /*834*/].f_11.f_1), false);
 	}
 	else
 	{
@@ -6176,7 +6176,7 @@ int func_220(var uParam0)
 			func_8(&(uParam0->f_18));
 			if (!BitTest(Global_2689235[PLAYER::PLAYER_ID() /*453*/].f_425, 1))
 			{
-				MISC::SET_BIT(&(Global_2689235[PLAYER::PLAYER_ID() /*453*/].f_425), 1);
+				MISC::SET_BIT(&(Global_2689235[PLAYER::PLAYER_ID() /*453*/].f_425), true);
 			}
 			return 1;
 		}

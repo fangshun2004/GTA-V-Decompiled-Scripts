@@ -1589,7 +1589,7 @@ void func_34(int* iParam0, float fParam1)
 void func_35(int* iParam0, float fParam1)
 {
 	iParam0->f_1 = (func_36(BitTest(*iParam0, 4)) - fParam1);
-	MISC::SET_BIT(iParam0, 1);
+	MISC::SET_BIT(iParam0, true);
 	MISC::CLEAR_BIT(iParam0, 2);
 	iParam0->f_2 = 0f;
 }

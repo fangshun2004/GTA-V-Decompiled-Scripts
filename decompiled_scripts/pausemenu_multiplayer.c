@@ -7841,24 +7841,24 @@ bool func_280()
 	return Global_2725911;
 }
 
-void func_281(int iParam0)
+void func_281(bool bParam0)
 {
-	func_282(iParam0, 1);
+	func_282(bParam0, 1);
 }
 
 void func_282(bool bParam0, bool bParam1)
 {
 	if (GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD_ON_FRONTEND("SHOW_COLUMN"))
 	{
-		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(iParam0);
+		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(bParam0);
 		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_BOOL(bParam1);
 		GRAPHICS::END_SCALEFORM_MOVIE_METHOD();
 	}
-	if (iParam0 == 2)
+	if (bParam0 == 2)
 	{
 		if (bParam1)
 		{
-			MISC::CLEAR_BIT(&Global_1574941, iParam0);
+			MISC::CLEAR_BIT(&Global_1574941, bParam0);
 		}
 		else
 		{
@@ -7867,7 +7867,7 @@ void func_282(bool bParam0, bool bParam1)
 	}
 }
 
-void func_283(int iParam0, int iParam1, bool bParam2, bool bParam3)
+void func_283(bool bParam0, bool bParam1, bool bParam2, bool bParam3)
 {
 	if (iParam1 == -1)
 	{
@@ -7883,7 +7883,7 @@ void func_283(int iParam0, int iParam1, bool bParam2, bool bParam3)
 	}
 }
 
-void func_284(bool bParam0, int iParam1, int iParam2, char* sParam3, char* sParam4, int iParam5, char* sParam6, char* sParam7, int iParam8, int iParam9, bool bParam10)
+void func_284(bool bParam0, bool bParam1, bool bParam2, char* sParam3, char* sParam4, bool bParam5, char* sParam6, char* sParam7, int iParam8, bool bParam9, bool bParam10)
 {
 	if (GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD_ON_FRONTEND("SHOW_WARNING_MESSAGE"))
 	{
@@ -7960,7 +7960,7 @@ void func_289()
 	func_290(0, "", 0, -1, 0);
 }
 
-void func_290(int iParam0, char* sParam1, bool bParam2, int iParam3, char* sParam4)
+void func_290(bool bParam0, char* sParam1, bool bParam2, int iParam3, char* sParam4)
 {
 	if (GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD_ON_FRONTEND("SET_DESCRIPTION"))
 	{
@@ -14309,24 +14309,24 @@ void func_422()
 
 void func_423()
 {
-	int iVar0;
+	bool bVar0;
 	
 	HUD::BUSYSPINNER_OFF();
 	MISC::CLEAR_BIT(&uLocal_1054, 8);
-	iVar0 = 0;
-	while (iVar0 < 5)
+	bVar0 = false;
+	while (bVar0 < 5)
 	{
-		func_424(iVar0, 0);
-		iVar0++;
+		func_424(bVar0, 0);
+		bVar0++;
 	}
 }
 
 void func_424(bool bParam0, bool bParam1)
 {
-	HUD::PAUSE_MENU_SET_BUSY_SPINNER(bParam1, iParam0, 0);
+	HUD::PAUSE_MENU_SET_BUSY_SPINNER(bParam1, bParam0, 0);
 	if (bParam1)
 	{
-		MISC::SET_BIT(&uLocal_1155, iParam0);
+		MISC::SET_BIT(&uLocal_1155, bParam0);
 	}
 	else
 	{
@@ -26356,16 +26356,16 @@ int func_598(int iParam0)
 	return iLocal_230[iParam0];
 }
 
-void func_599(int iParam0)
+void func_599(bool bParam0)
 {
 	if (GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD_ON_FRONTEND("DISPLAY_DATA_SLOT"))
 	{
-		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(iParam0);
+		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(bParam0);
 		GRAPHICS::END_SCALEFORM_MOVIE_METHOD();
 	}
 }
 
-void func_600(int iParam0, bool bParam1, bool bParam2, bool bParam3, bool bParam4, bool bParam5, bool bParam6, int iParam7, int iParam8, bool bParam9, bool bParam10, int iParam11)
+void func_600(bool bParam0, bool bParam1, bool bParam2, bool bParam3, bool bParam4, bool bParam5, bool bParam6, int iParam7, int iParam8, bool bParam9, bool bParam10, int iParam11)
 {
 	struct<8> Var0;
 	int iVar16;
@@ -26700,7 +26700,7 @@ int func_606(int iParam0, var uParam1, int iParam2)
 	return 0;
 }
 
-void func_607(int iParam0, int iParam1)
+void func_607(bool bParam0, int iParam1)
 {
 	int iVar0;
 	int iVar1;
@@ -26708,9 +26708,9 @@ void func_607(int iParam0, int iParam1)
 	char[] cVar3[8];
 	struct<8> Var4;
 	
-	if (iParam0 == 1)
+	if (bParam0 == 1)
 	{
-		func_603(iParam0, "PM_TPLAYL", "");
+		func_603(bParam0, "PM_TPLAYL", "");
 	}
 	iVar0 = 0;
 	while (iVar0 < 16)
@@ -26735,7 +26735,7 @@ void func_607(int iParam0, int iParam1)
 			{
 				iVar2 = 0;
 			}
-			if (func_630(iVar0, iParam0))
+			if (func_630(iVar0, bParam0))
 			{
 				cVar3 = 1;
 			}
@@ -26743,28 +26743,28 @@ void func_607(int iParam0, int iParam1)
 			{
 				cVar3 = 0;
 			}
-			func_600(iParam0, iVar0, iLocal_1151, iVar0, 1, &Var4, cVar3, Global_1050140.f_74[iVar0 /*69*/].f_54, Global_1050140.f_74[iVar0 /*69*/].f_55, BitTest(Global_1050140.f_74[iVar0 /*69*/].f_64, 14), iVar2, Global_1050140.f_74[iVar0 /*69*/].f_66);
+			func_600(bParam0, iVar0, iLocal_1151, iVar0, 1, &Var4, cVar3, Global_1050140.f_74[iVar0 /*69*/].f_54, Global_1050140.f_74[iVar0 /*69*/].f_55, BitTest(Global_1050140.f_74[iVar0 /*69*/].f_64, 14), iVar2, Global_1050140.f_74[iVar0 /*69*/].f_66);
 		}
 		iVar0++;
 	}
 	Global_1050140.f_67 = iVar1;
-	func_608(iParam0);
+	func_608(bParam0);
 }
 
-void func_608(int iParam0)
+void func_608(bool bParam0)
 {
-	func_281(iParam0);
-	func_599(iParam0);
+	func_281(bParam0);
+	func_599(bParam0);
 }
 
-void func_609(int iParam0, int iParam1, struct<3> Param2, int iParam5, char* sParam6, char* sParam7, char* sParam8, int iParam9, int iParam10, int iParam11, int iParam12, int iParam13, int iParam14, int iParam15, bool bParam16, struct<6> Param17, var uParam23, int iParam24, bool bParam25, int iParam26, bool bParam27, bool bParam28, int iParam29, int iParam30, int iParam31)
+void func_609(bool bParam0, int iParam1, struct<3> Param2, int iParam5, char* sParam6, char* sParam7, char* sParam8, int iParam9, int iParam10, int iParam11, int iParam12, int iParam13, int iParam14, int iParam15, bool bParam16, struct<6> Param17, var uParam23, int iParam24, bool bParam25, int iParam26, bool bParam27, bool bParam28, int iParam29, int iParam30, int iParam31)
 {
 	int iVar0;
 	int iVar1;
 	char* sVar2;
 	int iVar3;
 	
-	*uParam23 = iParam0;
+	*uParam23 = bParam0;
 	uParam23->f_1 = iParam12;
 	uParam23->f_2 = sParam7;
 	uParam23->f_3 = bParam16;
@@ -26797,99 +26797,99 @@ void func_609(int iParam0, int iParam1, struct<3> Param2, int iParam5, char* sPa
 		iVar0 = 9;
 	}
 	func_626(iParam12, iParam13, &sVar2, iParam31);
-	func_3(iParam0, "", sParam7, iVar1, "", "", 1, 1, iParam12, iParam13, &Param17, bParam28, iParam30, iParam31);
+	func_3(bParam0, "", sParam7, iVar1, "", "", 1, 1, iParam12, iParam13, &Param17, bParam28, iParam30, iParam31);
 	if (iParam12 == 134)
 	{
 		iVar0 = 29;
-		func_625(iParam0, 0, iParam1, 0, "PM_PLAYERS", iParam10, iParam11);
-		func_623(iParam0, 1, iParam1, 1, "PM_TYPE", func_624(iParam12, iParam13, iParam14, iParam15, 0, iParam31), sVar2, iVar0, BitTest(iParam14, 14));
-		func_619(iParam0, 2, iParam1, 2, "PM_PTIME", "STRTNM1", func_620(func_621()));
-		func_616(iParam0, 3, iParam1, 3, 0, "PM_AREA", ZONE::GET_NAME_OF_ZONE(Param2), 0, 0, 0, 0);
-		func_615(iParam0, 4, iParam1, 4, 0, " ", 0, 4);
-		func_615(iParam0, 5, iParam1, 5, 0, sParam8, iParam29, 5);
+		func_625(bParam0, 0, iParam1, 0, "PM_PLAYERS", iParam10, iParam11);
+		func_623(bParam0, 1, iParam1, 1, "PM_TYPE", func_624(iParam12, iParam13, iParam14, iParam15, 0, iParam31), sVar2, iVar0, BitTest(iParam14, 14));
+		func_619(bParam0, 2, iParam1, 2, "PM_PTIME", "STRTNM1", func_620(func_621()));
+		func_616(bParam0, 3, iParam1, 3, 0, "PM_AREA", ZONE::GET_NAME_OF_ZONE(Param2), 0, 0, 0, 0);
+		func_615(bParam0, 4, iParam1, 4, 0, " ", 0, 4);
+		func_615(bParam0, 5, iParam1, 5, 0, sParam8, iParam29, 5);
 	}
 	else if (iParam12 == 254)
 	{
 		iVar0 = 29;
-		func_625(iParam0, 0, iParam1, 0, "PM_PLAYERS", iParam10, iParam11);
-		func_623(iParam0, 1, iParam1, 1, "PM_TYPE", func_624(iParam12, iParam13, iParam14, iParam15, 0, iParam31), sVar2, iVar0, BitTest(iParam14, 14));
-		func_619(iParam0, 2, iParam1, 2, "PM_PTIME", "STRTNM1", func_613(func_614()));
-		func_616(iParam0, 3, iParam1, 3, 0, "PM_AREA", ZONE::GET_NAME_OF_ZONE(func_612(func_614())), 0, 0, 0, 0);
-		func_615(iParam0, 4, iParam1, 4, 0, " ", 0, 4);
-		func_615(iParam0, 5, iParam1, 5, 0, sParam8, iParam29, 5);
+		func_625(bParam0, 0, iParam1, 0, "PM_PLAYERS", iParam10, iParam11);
+		func_623(bParam0, 1, iParam1, 1, "PM_TYPE", func_624(iParam12, iParam13, iParam14, iParam15, 0, iParam31), sVar2, iVar0, BitTest(iParam14, 14));
+		func_619(bParam0, 2, iParam1, 2, "PM_PTIME", "STRTNM1", func_613(func_614()));
+		func_616(bParam0, 3, iParam1, 3, 0, "PM_AREA", ZONE::GET_NAME_OF_ZONE(func_612(func_614())), 0, 0, 0, 0);
+		func_615(bParam0, 4, iParam1, 4, 0, " ", 0, 4);
+		func_615(bParam0, 5, iParam1, 5, 0, sParam8, iParam29, 5);
 	}
 	else
 	{
 		iVar3 = 0;
 		if (iParam5 == -1)
 		{
-			func_616(iParam0, iVar3, iParam1, iVar3, 1, "PM_RATING", "PM_RATING_N", 0, 0, 0, 0);
+			func_616(bParam0, iVar3, iParam1, iVar3, 1, "PM_RATING", "PM_RATING_N", 0, 0, 0, 0);
 		}
 		else
 		{
-			func_616(iParam0, iVar3, iParam1, iVar3, 1, "PM_RATING", "PM_RATING_V", iParam5, 0, 0, 0);
+			func_616(bParam0, iVar3, iParam1, iVar3, 1, "PM_RATING", "PM_RATING_V", iParam5, 0, 0, 0);
 		}
 		iVar3++;
-		func_616(iParam0, iVar3, iParam1, iVar3, 0, "PM_CREATED", sParam6, 0, 1, 1, bParam27);
+		func_616(bParam0, iVar3, iParam1, iVar3, 0, "PM_CREATED", sParam6, 0, 1, 1, bParam27);
 		iVar3++;
-		func_611(iParam0, iVar3, iParam1, iVar3, "PM_RANK", "NUMBER", iParam9);
+		func_611(bParam0, iVar3, iParam1, iVar3, "PM_RANK", "NUMBER", iParam9);
 		iVar3++;
 		if (iParam11 > func_610())
 		{
 			iParam11 = func_610();
 		}
-		func_625(iParam0, iVar3, iParam1, iVar3, "PM_PLAYERS", iParam10, iParam11);
+		func_625(bParam0, iVar3, iParam1, iVar3, "PM_PLAYERS", iParam10, iParam11);
 		iVar3++;
 		if (iParam26 > 1)
 		{
-			func_611(iParam0, iVar3, iParam1, iVar3, "PM_TEAMS", "NUMBER", iParam26);
+			func_611(bParam0, iVar3, iParam1, iVar3, "PM_TEAMS", "NUMBER", iParam26);
 			iVar3++;
-			func_623(iParam0, iVar3, iParam1, iVar3, "PM_TYPE", func_624(iParam12, iParam13, iParam14, iParam15, 0, iParam31), sVar2, iVar0, BitTest(iParam14, 14));
+			func_623(bParam0, iVar3, iParam1, iVar3, "PM_TYPE", func_624(iParam12, iParam13, iParam14, iParam15, 0, iParam31), sVar2, iVar0, BitTest(iParam14, 14));
 			iVar3++;
-			func_616(iParam0, iVar3, iParam1, iVar3, 0, "PM_AREA", ZONE::GET_NAME_OF_ZONE(Param2), 0, 0, 0, 0);
+			func_616(bParam0, iVar3, iParam1, iVar3, 0, "PM_AREA", ZONE::GET_NAME_OF_ZONE(Param2), 0, 0, 0, 0);
 			iVar3++;
 			if (!MISC::IS_STRING_NULL_OR_EMPTY(sParam8))
 			{
-				func_615(iParam0, iVar3, iParam1, iVar3, 0, " ", 0, 4);
+				func_615(bParam0, iVar3, iParam1, iVar3, 0, " ", 0, 4);
 				iVar3++;
-				func_615(iParam0, iVar3, iParam1, iVar3, 0, sParam8, 1, 5);
+				func_615(bParam0, iVar3, iParam1, iVar3, 0, sParam8, 1, 5);
 				iVar3++;
 			}
 			else
 			{
-				func_615(iParam0, iVar3, iParam1, iVar3, 0, "", 1, 5);
+				func_615(bParam0, iVar3, iParam1, iVar3, 0, "", 1, 5);
 				iVar3++;
-				func_615(iParam0, iVar3, iParam1, iVar3, 0, "", 1, 5);
+				func_615(bParam0, iVar3, iParam1, iVar3, 0, "", 1, 5);
 				iVar3++;
 			}
 		}
 		else
 		{
-			func_623(iParam0, iVar3, iParam1, iVar3, "PM_TYPE", func_624(iParam12, iParam13, iParam14, iParam15, 0, iParam31), sVar2, iVar0, BitTest(iParam14, 14));
+			func_623(bParam0, iVar3, iParam1, iVar3, "PM_TYPE", func_624(iParam12, iParam13, iParam14, iParam15, 0, iParam31), sVar2, iVar0, BitTest(iParam14, 14));
 			iVar3++;
-			func_616(iParam0, iVar3, iParam1, iVar3, 0, "PM_AREA", ZONE::GET_NAME_OF_ZONE(Param2), 0, 0, 0, 0);
+			func_616(bParam0, iVar3, iParam1, iVar3, 0, "PM_AREA", ZONE::GET_NAME_OF_ZONE(Param2), 0, 0, 0, 0);
 			iVar3++;
 			if (!MISC::IS_STRING_NULL_OR_EMPTY(sParam8))
 			{
-				func_615(iParam0, iVar3, iParam1, iVar3, 0, " ", 0, 4);
+				func_615(bParam0, iVar3, iParam1, iVar3, 0, " ", 0, 4);
 				iVar3++;
-				func_615(iParam0, iVar3, iParam1, iVar3, 0, sParam8, 1, 5);
+				func_615(bParam0, iVar3, iParam1, iVar3, 0, sParam8, 1, 5);
 				iVar3++;
-				func_615(iParam0, iVar3, iParam1, iVar3, 0, "", 1, 5);
+				func_615(bParam0, iVar3, iParam1, iVar3, 0, "", 1, 5);
 				iVar3++;
 			}
 			else
 			{
-				func_615(iParam0, iVar3, iParam1, iVar3, 0, "", 1, 5);
+				func_615(bParam0, iVar3, iParam1, iVar3, 0, "", 1, 5);
 				iVar3++;
-				func_615(iParam0, iVar3, iParam1, iVar3, 0, "", 1, 5);
+				func_615(bParam0, iVar3, iParam1, iVar3, 0, "", 1, 5);
 				iVar3++;
-				func_615(iParam0, iVar3, iParam1, iVar3, 0, "", 1, 5);
+				func_615(bParam0, iVar3, iParam1, iVar3, 0, "", 1, 5);
 				iVar3++;
 			}
 		}
 	}
-	func_599(iParam0);
+	func_599(bParam0);
 	if (GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD_ON_FRONTEND("SET_DESCRIPTION"))
 	{
 		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_BOOL(true);
@@ -43465,7 +43465,7 @@ void func_887(var uParam0)
 	int iVar0;
 	int iVar1;
 	int iVar2;
-	int iVar3;
+	bool bVar3;
 	
 	if (func_536())
 	{
@@ -43494,10 +43494,10 @@ void func_887(var uParam0)
 				{
 					iVar2 = 16;
 				}
-				iVar3 = iVar1;
-				while (iVar3 <= iVar2)
+				bVar3 = iVar1;
+				while (bVar3 <= iVar2)
 				{
-					MISC::SET_BIT(&(uParam0->f_13[iVar0 /*4*/].f_3), iVar3);
+					MISC::SET_BIT(&(uParam0->f_13[iVar0 /*4*/].f_3), bVar3);
 					bVar3++;
 				}
 			}
@@ -54253,7 +54253,7 @@ void func_967(int iParam0)
 	int iVar194;
 	int iVar195;
 	int iVar196;
-	int iVar197;
+	bool bVar197;
 	int iVar198;
 	struct<2> Var199;
 	int iVar203;
@@ -54577,10 +54577,10 @@ void func_967(int iParam0)
 				}
 				if (iVar60 != 0 && DATAFILE::DATAARRAY_GET_TYPE(iVar60, bVar0) == 2)
 				{
-					iVar197 = DATAFILE::DATAARRAY_GET_INT(iVar60, bVar0);
-					if ((iVar197 >= 0 && iVar197 < 32) && Global_4718592.f_117098[bVar0 /*210*/].f_53 == 0)
+					bVar197 = DATAFILE::DATAARRAY_GET_INT(iVar60, bVar0);
+					if ((bVar197 >= 0 && bVar197 < 32) && Global_4718592.f_117098[bVar0 /*210*/].f_53 == 0)
 					{
-						MISC::SET_BIT(&(Global_4718592.f_117098[bVar0 /*210*/].f_53), iVar197);
+						MISC::SET_BIT(&(Global_4718592.f_117098[bVar0 /*210*/].f_53), bVar197);
 					}
 				}
 				if (iVar63 != 0 && DATAFILE::DATAARRAY_GET_TYPE(iVar63, bVar0) == 2)
@@ -77475,7 +77475,7 @@ int func_1233(int iParam0)
 	return 0;
 }
 
-int func_1234(int iParam0, int iParam1, int iParam2, bool bParam3, bool bParam4, bool bParam5, bool bParam6, bool bParam7, bool bParam8, bool bParam9, bool bParam10, bool bParam11)
+int func_1234(int iParam0, bool bParam1, int iParam2, bool bParam3, bool bParam4, bool bParam5, bool bParam6, bool bParam7, bool bParam8, bool bParam9, bool bParam10, bool bParam11)
 {
 	int iVar0;
 	bool bVar1;
@@ -77483,7 +77483,7 @@ int func_1234(int iParam0, int iParam1, int iParam2, bool bParam3, bool bParam4,
 	int iVar3;
 	
 	iVar0 = iLocal_1151;
-	if (iParam1 == 0)
+	if (bParam1 == 0)
 	{
 		iVar0 = bLocal_1150;
 		func_1428(0);
@@ -77603,7 +77603,7 @@ int func_1234(int iParam0, int iParam1, int iParam2, bool bParam3, bool bParam4,
 								{
 									bVar2 = false;
 								}
-								func_600(iParam1, iLocal_1165, iVar0, iVar3, bVar2, &(Global_1036842.f_33[iVar3 /*88*/].f_22), func_630(iVar3, 0), Global_1036842.f_33[iVar3 /*88*/].f_65, Global_1036842.f_33[iVar3 /*88*/].f_68, BitTest(Global_1036842.f_33[iVar3 /*88*/].f_76, 14), func_633(iVar3), Global_1036842.f_33[iVar3 /*88*/].f_80);
+								func_600(bParam1, iLocal_1165, iVar0, iVar3, bVar2, &(Global_1036842.f_33[iVar3 /*88*/].f_22), func_630(iVar3, 0), Global_1036842.f_33[iVar3 /*88*/].f_65, Global_1036842.f_33[iVar3 /*88*/].f_68, BitTest(Global_1036842.f_33[iVar3 /*88*/].f_76, 14), func_633(iVar3), Global_1036842.f_33[iVar3 /*88*/].f_80);
 								if (iLocal_1165 == 0)
 								{
 									iLocal_259 = iVar3;
@@ -77633,7 +77633,7 @@ int func_1234(int iParam0, int iParam1, int iParam2, bool bParam3, bool bParam4,
 		}
 		*iParam0 = 1;
 		MISC::SET_BIT(&uLocal_265, 16);
-		func_608(iParam1);
+		func_608(bParam1);
 		return 1;
 	}
 	else
@@ -77689,7 +77689,7 @@ int func_1235(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, 
 	return 1;
 }
 
-int func_1236(int iParam0, int iParam1, int iParam2, bool bParam3, bool bParam4, bool bParam5, bool bParam6, bool bParam7, int iParam8, bool bParam9, int iParam10, int iParam11)
+int func_1236(int iParam0, bool bParam1, int iParam2, bool bParam3, bool bParam4, bool bParam5, bool bParam6, bool bParam7, int iParam8, bool bParam9, int iParam10, int iParam11)
 {
 	int iVar0;
 	bool bVar1;
@@ -77699,7 +77699,7 @@ int func_1236(int iParam0, int iParam1, int iParam2, bool bParam3, bool bParam4,
 	int iVar5;
 	
 	iVar0 = iLocal_1151;
-	if (iParam1 == 0)
+	if (bParam1 == 0)
 	{
 		iVar0 = bLocal_1150;
 		func_1428(0);
@@ -77813,7 +77813,7 @@ int func_1236(int iParam0, int iParam1, int iParam2, bool bParam3, bool bParam4,
 							{
 								iVar2 = 1;
 							}
-							func_600(iParam1, iLocal_1161, iVar0, iVar3, iVar2, &(Global_1031312.f_5[iVar4 /*88*/].f_22), func_630(iVar4, 0), Global_1031312.f_5[iVar4 /*88*/].f_65, Global_1031312.f_5[iVar4 /*88*/].f_68, BitTest(Global_1031312.f_5[iVar4 /*88*/].f_76, 14), func_633(iVar4), Global_1031312.f_5[iVar4 /*88*/].f_80);
+							func_600(bParam1, iLocal_1161, iVar0, iVar3, iVar2, &(Global_1031312.f_5[iVar4 /*88*/].f_22), func_630(iVar4, 0), Global_1031312.f_5[iVar4 /*88*/].f_65, Global_1031312.f_5[iVar4 /*88*/].f_68, BitTest(Global_1031312.f_5[iVar4 /*88*/].f_76, 14), func_633(iVar4), Global_1031312.f_5[iVar4 /*88*/].f_80);
 							if (iLocal_1161 == 0)
 							{
 								iLocal_259 = iVar3;
@@ -77844,7 +77844,7 @@ int func_1236(int iParam0, int iParam1, int iParam2, bool bParam3, bool bParam4,
 		}
 		*iParam0 = 1;
 		MISC::SET_BIT(&uLocal_265, 12);
-		func_608(iParam1);
+		func_608(bParam1);
 		return 1;
 	}
 	else
@@ -77922,7 +77922,7 @@ void func_1239()
 	}
 }
 
-int func_1240(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, bool bParam5, bool bParam6)
+int func_1240(int iParam0, bool bParam1, int iParam2, int iParam3, bool bParam4, bool bParam5, bool bParam6)
 {
 	int iVar0;
 	int iVar1;
@@ -77937,7 +77937,7 @@ int func_1240(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, 
 	if (func_352())
 	{
 		iVar0 = iLocal_1151;
-		if (iParam1 == 0)
+		if (bParam1 == 0)
 		{
 			iVar0 = bLocal_1150;
 			func_1428(0);
@@ -78024,7 +78024,7 @@ int func_1240(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, 
 												iVar6 = 1;
 												func_1241(Global_1025782.f_5[iVar3 /*88*/].f_22, Global_1025782.f_5[iVar3 /*88*/].f_65);
 											}
-											func_600(iParam1, iLocal_1162, iVar0, iVar3, 1, &(Global_1025782.f_5[iVar3 /*88*/].f_22), 0, Global_1025782.f_5[iVar3 /*88*/].f_65, Global_1025782.f_5[iVar3 /*88*/].f_68, BitTest(Global_1025782.f_5[iVar3 /*88*/].f_76, 14), iVar6, Global_1025782.f_5[iVar3 /*88*/].f_80);
+											func_600(bParam1, iLocal_1162, iVar0, iVar3, 1, &(Global_1025782.f_5[iVar3 /*88*/].f_22), 0, Global_1025782.f_5[iVar3 /*88*/].f_65, Global_1025782.f_5[iVar3 /*88*/].f_68, BitTest(Global_1025782.f_5[iVar3 /*88*/].f_76, 14), iVar6, Global_1025782.f_5[iVar3 /*88*/].f_80);
 											if (iLocal_1162 == 0)
 											{
 												iLocal_259 = iVar3;
@@ -78046,7 +78046,7 @@ int func_1240(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, 
 					func_1196();
 				}
 				*iParam0 = 1;
-				func_608(iParam1);
+				func_608(bParam1);
 				MISC::SET_BIT(&uLocal_265, true);
 			}
 			else
@@ -82543,7 +82543,7 @@ bool func_1379()
 	return BitTest(Global_1835445, 5);
 }
 
-void func_1380(int iParam0, bool bParam1)
+void func_1380(bool bParam0, bool bParam1)
 {
 	HUD::PAUSE_MENU_SET_BUSY_SPINNER(bParam1, iParam0, 0);
 }
@@ -84716,7 +84716,7 @@ int func_1404(int iParam0, bool bParam1, int iParam2)
 	return 0;
 }
 
-int func_1405(int iParam0, int iParam1)
+int func_1405(int iParam0, bool bParam1)
 {
 	int iVar0;
 	char[] cVar1[8];
@@ -84725,8 +84725,8 @@ int func_1405(int iParam0, int iParam1)
 	
 	if (Global_1036842 > 0)
 	{
-		func_1428(iParam1);
-		func_603(iParam1, "PM_TRECENT", "");
+		func_1428(bParam1);
+		func_603(bParam1, "PM_TRECENT", "");
 		iVar3 = (Global_1036842 - 1);
 		iVar2 = 0;
 		while (iVar2 <= iVar3)
@@ -84749,18 +84749,18 @@ int func_1405(int iParam0, int iParam1)
 			}
 			if (iLocal_1219)
 			{
-				func_1406(iParam1, (iVar3 - iVar2), bLocal_1150, (iVar3 - iVar2), func_1235(Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_65, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_69, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_71, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_70, 1, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_68, &(Global_1036842.f_33[(iVar3 - iVar2) /*88*/])), &(Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_22), cVar1, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_65, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_68, BitTest(Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_76, 14), iVar0, 0);
+				func_1406(bParam1, (iVar3 - iVar2), bLocal_1150, (iVar3 - iVar2), func_1235(Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_65, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_69, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_71, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_70, 1, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_68, &(Global_1036842.f_33[(iVar3 - iVar2) /*88*/])), &(Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_22), cVar1, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_65, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_68, BitTest(Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_76, 14), iVar0, 0);
 			}
 			else
 			{
-				func_600(iParam1, (iVar3 - iVar2), bLocal_1150, (iVar3 - iVar2), func_1235(Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_65, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_69, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_71, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_70, 1, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_68, &(Global_1036842.f_33[(iVar3 - iVar2) /*88*/])), &(Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_22), cVar1, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_65, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_68, BitTest(Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_76, 14), iVar0, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_80);
+				func_600(bParam1, (iVar3 - iVar2), bLocal_1150, (iVar3 - iVar2), func_1235(Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_65, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_69, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_71, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_70, 1, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_68, &(Global_1036842.f_33[(iVar3 - iVar2) /*88*/])), &(Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_22), cVar1, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_65, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_68, BitTest(Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_76, 14), iVar0, Global_1036842.f_33[(iVar3 - iVar2) /*88*/].f_80);
 			}
 			iVar2++;
 		}
 		iLocal_1219 = 0;
 		*iParam0 = 1;
-		func_608(iParam1);
-		if (iParam1 == 1)
+		func_608(bParam1);
+		if (bParam1 == 1)
 		{
 			func_288(2);
 			iLocal_259 = 0;
@@ -85583,7 +85583,7 @@ char* func_1425(int iParam0)
 
 void func_1426(bool bParam0)
 {
-	MISC::SET_BIT(&uLocal_1053, iParam0);
+	MISC::SET_BIT(&uLocal_1053, bParam0);
 }
 
 void func_1427(bool bParam0, bool bParam1)
@@ -87638,7 +87638,7 @@ int func_1450(int iParam0)
 void func_1451(var uParam0, int iParam1, int iParam2, bool bParam3, bool bParam4, bool bParam5)
 {
 	int iVar0;
-	int iVar1;
+	bool bVar1;
 	int iVar2;
 	struct<13> Var3;
 	
@@ -87658,9 +87658,9 @@ void func_1451(var uParam0, int iParam1, int iParam2, bool bParam3, bool bParam4
 		{
 			if (bParam5 && func_287())
 			{
-				iVar1 = (iVar0 % 32);
+				bVar1 = (iVar0 % 32);
 				iVar2 = SYSTEM::FLOOR((SYSTEM::TO_FLOAT(iVar0) / 32f));
-				MISC::SET_BIT(&(Global_1835448[iVar2]), iVar1);
+				MISC::SET_BIT(&(Global_1835448[iVar2]), bVar1);
 				Var3 = { func_844(NETWORK::UGC_GET_CONTENT_USER_ID(uParam0->f_7)) };
 				if (bParam4)
 				{
@@ -89126,7 +89126,7 @@ int func_1466(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, 
 	{
 		if (iParam5 == 1)
 		{
-			MISC::SET_BIT(&(Global_113386.f_2363[iParam1 /*164*/][iParam3]), iParam4);
+			MISC::SET_BIT(&(Global_113386.f_2363[iParam1 /*164*/][iParam3]), bParam4);
 		}
 		if (iParam6 == 1)
 		{
@@ -121956,9 +121956,9 @@ void func_1609()
 	Global_2723612.f_1 = 0;
 }
 
-void func_1610(int iParam0)
+void func_1610(bool bParam0)
 {
-	func_282(iParam0, 0);
+	func_282(bParam0, 0);
 }
 
 void func_1611(bool bParam0, bool bParam1)

@@ -532,8 +532,8 @@ int func_1(int* iParam0, int* iParam1)
 					func_152(14, 0);
 					iParam0->f_6 = 1;
 					*iParam0 = 0;
-					MISC::CLEAR_BIT(iParam0, 0);
-					MISC::CLEAR_BIT(iParam0, 1);
+					MISC::CLEAR_BIT(iParam0, false);
+					MISC::CLEAR_BIT(iParam0, true);
 					MISC::CLEAR_BIT(iParam0, 2);
 					MISC::CLEAR_BIT(iParam0, 9);
 					MISC::SET_BIT(iParam0, 7);
@@ -3774,7 +3774,7 @@ int func_46(char* sParam0, int iParam1, bool bParam2)
 		{
 			MISC::CLEAR_BIT(&Global_8136, 20);
 			MISC::CLEAR_BIT(&Global_8137, 17);
-			MISC::CLEAR_BIT(&Global_8138, 0);
+			MISC::CLEAR_BIT(&Global_8138, false);
 			if (bParam2)
 			{
 				func_55();
@@ -6049,28 +6049,28 @@ void func_121(int* iParam0, int iParam1)
 
 void func_122(var uParam0, bool bParam1, struct<3> Param2, float fParam5, int* iParam6, bool bParam7)
 {
-	if (VEHICLE::IS_VEHICLE_DRIVEABLE(uParam0->f_58[iParam1], false) && !PED::IS_PED_INJURED(uParam0->f_74[iParam1]))
+	if (VEHICLE::IS_VEHICLE_DRIVEABLE(uParam0->f_58[bParam1], false) && !PED::IS_PED_INJURED(uParam0->f_74[bParam1]))
 	{
-		ENTITY::FREEZE_ENTITY_POSITION(uParam0->f_58[iParam1], false);
-		ENTITY::SET_ENTITY_COLLISION(uParam0->f_58[iParam1], true, false);
-		ENTITY::SET_ENTITY_COORDS(uParam0->f_58[iParam1], Param2, true, false, false, true);
-		ENTITY::SET_ENTITY_HEADING(uParam0->f_58[iParam1], fParam5);
-		VEHICLE::SET_VEHICLE_ON_GROUND_PROPERLY(uParam0->f_58[iParam1], 5f);
-		VEHICLE::SET_VEHICLE_FIXED(uParam0->f_58[iParam1]);
+		ENTITY::FREEZE_ENTITY_POSITION(uParam0->f_58[bParam1], false);
+		ENTITY::SET_ENTITY_COLLISION(uParam0->f_58[bParam1], true, false);
+		ENTITY::SET_ENTITY_COORDS(uParam0->f_58[bParam1], Param2, true, false, false, true);
+		ENTITY::SET_ENTITY_HEADING(uParam0->f_58[bParam1], fParam5);
+		VEHICLE::SET_VEHICLE_ON_GROUND_PROPERLY(uParam0->f_58[bParam1], 5f);
+		VEHICLE::SET_VEHICLE_FIXED(uParam0->f_58[bParam1]);
 		if (bParam7)
 		{
-			TASK::TASK_VEHICLE_MISSION(uParam0->f_74[iParam1], uParam0->f_58[iParam1], 0, 1, 35f, 786603, 5f, 5f, true);
-			VEHICLE::SET_VEHICLE_FORWARD_SPEED(uParam0->f_58[iParam1], 30f);
+			TASK::TASK_VEHICLE_MISSION(uParam0->f_74[bParam1], uParam0->f_58[bParam1], 0, 1, 35f, 786603, 5f, 5f, true);
+			VEHICLE::SET_VEHICLE_FORWARD_SPEED(uParam0->f_58[bParam1], 30f);
 		}
 		else
 		{
-			TASK::TASK_VEHICLE_MISSION(uParam0->f_74[iParam1], uParam0->f_58[iParam1], 0, 1, 15f, 786603, 5f, 5f, true);
-			VEHICLE::SET_VEHICLE_FORWARD_SPEED(uParam0->f_58[iParam1], 10f);
+			TASK::TASK_VEHICLE_MISSION(uParam0->f_74[bParam1], uParam0->f_58[bParam1], 0, 1, 15f, 786603, 5f, 5f, true);
+			VEHICLE::SET_VEHICLE_FORWARD_SPEED(uParam0->f_58[bParam1], 10f);
 		}
-		PED::SET_PED_KEEP_TASK(uParam0->f_74[iParam1], true);
-		ENTITY::SET_ENTITY_VISIBLE(uParam0->f_58[iParam1], true, false);
-		ENTITY::SET_ENTITY_VISIBLE(uParam0->f_74[iParam1], true, false);
-		MISC::SET_BIT(iParam6, iParam1);
+		PED::SET_PED_KEEP_TASK(uParam0->f_74[bParam1], true);
+		ENTITY::SET_ENTITY_VISIBLE(uParam0->f_58[bParam1], true, false);
+		ENTITY::SET_ENTITY_VISIBLE(uParam0->f_74[bParam1], true, false);
+		MISC::SET_BIT(iParam6, bParam1);
 	}
 }
 
@@ -6527,7 +6527,7 @@ void func_143(bool bParam0, bool bParam1, bool bParam2)
 
 void func_144(bool bParam0, bool bParam1, int iParam2)
 {
-	switch (iParam0)
+	switch (bParam0)
 	{
 		case 5:
 			if (iParam2 > -1)
@@ -6539,7 +6539,7 @@ void func_144(bool bParam0, bool bParam1, int iParam2)
 		default:
 			if (bParam1)
 			{
-				MISC::SET_BIT(&(Global_1648034.f_1046), iParam0);
+				MISC::SET_BIT(&(Global_1648034.f_1046), bParam0);
 			}
 			else
 			{

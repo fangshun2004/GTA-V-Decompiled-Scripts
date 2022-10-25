@@ -70,7 +70,7 @@
 	char* sLocal_80 = NULL;
 	int iLocal_81 = 0;
 	struct<3> Local_82 = { 0, 0, 0 } ;
-	int iLocal_85 = 0;
+	bool bLocal_85 = 0;
 	int iLocal_86 = 0;
 	int iLocal_87 = 0;
 	char* sLocal_88 = NULL;
@@ -142,7 +142,7 @@ void __EntryFunction__()
 	Local_68 = { -596.05f, 2088.56f, 130.59f };
 	sLocal_79 = "FOUND_CLUE";
 	sLocal_80 = "NOIR_FILTER_SOUNDS";
-	iLocal_85 = 7;
+	bLocal_85 = 7;
 	sLocal_88 = "missmurder";
 	sLocal_89 = "idle";
 	sLocal_90 = "MM_LETREAD";
@@ -169,13 +169,13 @@ void __EntryFunction__()
 
 void func_1()
 {
-	switch (iLocal_85)
+	switch (bLocal_85)
 	{
 		case 0:
 		case 1:
 		case 2:
 		case 3:
-			if (!func_76(iLocal_85))
+			if (!func_76(bLocal_85))
 			{
 				if (((func_73() && !func_72()) && func_71()) && !func_70(0))
 				{
@@ -183,7 +183,7 @@ void func_1()
 					{
 						if (GRAPHICS::IS_TRACKED_POINT_VISIBLE(iLocal_87))
 						{
-							func_68(iLocal_85, 1, 0);
+							func_68(bLocal_85, 1, 0);
 						}
 					}
 				}
@@ -450,7 +450,7 @@ void func_8()
 		HUD::ADD_TEXT_COMPONENT_SUBSTRING_TEXT_LABEL(&(Global_8746[1 /*6*/]));
 		HUD::END_TEXT_COMMAND_THEFEED_POST_MESSAGETEXT(&cVar0, &cVar0, false, 3, "", 0);
 	}
-	MISC::CLEAR_BIT(&Global_8136, 0);
+	MISC::CLEAR_BIT(&Global_8136, false);
 }
 
 struct<4> func_9(int iParam0)
@@ -1053,15 +1053,15 @@ void func_32(int iParam0)
 	}
 }
 
-void func_33(int iParam0, bool bParam1)
+void func_33(bool bParam0, bool bParam1)
 {
 	if (bParam1)
 	{
-		MISC::SET_BIT(&uLocal_92, iParam0);
+		MISC::SET_BIT(&uLocal_92, bParam0);
 	}
 	else
 	{
-		MISC::CLEAR_BIT(&uLocal_92, iParam0);
+		MISC::CLEAR_BIT(&uLocal_92, bParam0);
 	}
 }
 
@@ -3567,11 +3567,11 @@ int func_67(int iParam0)
 	return 0;
 }
 
-void func_68(int iParam0, bool bParam1, bool bParam2)
+void func_68(bool bParam0, bool bParam1, bool bParam2)
 {
 	if (bParam1)
 	{
-		MISC::SET_BIT(&(Global_113386.f_10049.f_133), iParam0);
+		MISC::SET_BIT(&(Global_113386.f_10049.f_133), bParam0);
 		if (!bParam2)
 		{
 			AUDIO::PLAY_SOUND_FRONTEND(iLocal_81, sLocal_79, sLocal_80, false);
@@ -3580,7 +3580,7 @@ void func_68(int iParam0, bool bParam1, bool bParam2)
 	}
 	else
 	{
-		MISC::CLEAR_BIT(&(Global_113386.f_10049.f_133), iParam0);
+		MISC::CLEAR_BIT(&(Global_113386.f_10049.f_133), bParam0);
 	}
 }
 
@@ -3630,7 +3630,7 @@ int func_72()
 
 bool func_73()
 {
-	return SYSTEM::VDIST2(func_75(iLocal_85), Local_82) < func_74(iLocal_85);
+	return SYSTEM::VDIST2(func_75(bLocal_85), Local_82) < func_74(bLocal_85);
 }
 
 float func_74(int iParam0)
@@ -3710,19 +3710,19 @@ bool func_76(int iParam0)
 
 int func_77()
 {
-	switch (iLocal_85)
+	switch (bLocal_85)
 	{
 		case 0:
 		case 1:
 		case 2:
 		case 3:
-			return (!func_76(iLocal_85) && func_79());
+			return (!func_76(bLocal_85) && func_79());
 		
 		case 4:
 			return func_79();
 		
 		case 5:
-			return ((((func_22(iLocal_85) && func_79()) || iLocal_72 == 1) || iLocal_72 == 3) || iLocal_72 == 2);
+			return ((((func_22(bLocal_85) && func_79()) || iLocal_72 == 1) || iLocal_72 == 3) || iLocal_72 == 2);
 		
 		case 6:
 			return (func_79() || (func_34(2) && func_78(Local_68)));
@@ -3742,7 +3742,7 @@ bool func_78(struct<3> Param0)
 
 bool func_79()
 {
-	return SYSTEM::VDIST2(func_81(iLocal_85), Local_82) < func_80(iLocal_85);
+	return SYSTEM::VDIST2(func_81(bLocal_85), Local_82) < func_80(bLocal_85);
 }
 
 float func_80(int iParam0)
@@ -3837,12 +3837,12 @@ void func_83(struct<3> Param0)
 		SCRIPT::TERMINATE_THIS_THREAD();
 	}
 	iVar0 = 0;
-	while (iVar0 < 7 && iLocal_85 == 7)
+	while (iVar0 < 7 && bLocal_85 == 7)
 	{
 		iVar1 = iVar0;
 		if (func_88(Param0, func_81(iVar1), 1056964608))
 		{
-			iLocal_85 = iVar1;
+			bLocal_85 = iVar1;
 		}
 		iVar0++;
 	}
@@ -3851,13 +3851,13 @@ void func_83(struct<3> Param0)
 
 void func_84()
 {
-	switch (iLocal_85)
+	switch (bLocal_85)
 	{
 		case 0:
 		case 1:
 		case 2:
 		case 3:
-			func_87(&iLocal_87, func_75(iLocal_85), 0.2f);
+			func_87(&iLocal_87, func_75(bLocal_85), 0.2f);
 			break;
 		
 		case 4:
@@ -3962,7 +3962,7 @@ int func_89()
 				if (MISC::ARE_PROFILE_SETTINGS_VALID())
 				{
 					iVar0 = MISC::GET_PROFILE_SETTING(866);
-					MISC::SET_BIT(&iVar0, 0);
+					MISC::SET_BIT(&iVar0, false);
 					STATS::SET_HAS_SPECIALEDITION_CONTENT(iVar0);
 				}
 				return 1;
@@ -3988,7 +3988,7 @@ void func_90()
 
 void func_91()
 {
-	switch (iLocal_85)
+	switch (bLocal_85)
 	{
 		case 0:
 		case 1:

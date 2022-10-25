@@ -1175,7 +1175,7 @@ void func_11(int* iParam0)
 void func_12(int* iParam0, float fParam1)
 {
 	iParam0->f_1 = (func_13(BitTest(*iParam0, 4)) - fParam1);
-	MISC::SET_BIT(iParam0, 1);
+	MISC::SET_BIT(iParam0, true);
 	MISC::CLEAR_BIT(iParam0, 2);
 	iParam0->f_2 = 0f;
 }
@@ -3625,7 +3625,7 @@ int func_87(bool bParam0, char* sParam1, int iParam2, int iParam3, int iParam4, 
 			Global_8843 = iParam6;
 			Global_8746[3 /*6*/] = { func_88(bParam0) };
 			Global_8823 = bParam0;
-			MISC::SET_BIT(&Global_8136, 1);
+			MISC::SET_BIT(&Global_8136, true);
 			MISC::SET_BIT(&Global_8136, 7);
 		}
 		return 1;
@@ -10492,7 +10492,7 @@ int func_164()
 				if (MISC::ARE_PROFILE_SETTINGS_VALID())
 				{
 					iVar0 = MISC::GET_PROFILE_SETTING(866);
-					MISC::SET_BIT(&iVar0, 0);
+					MISC::SET_BIT(&iVar0, false);
 					STATS::SET_HAS_SPECIALEDITION_CONTENT(iVar0);
 				}
 				return 1;

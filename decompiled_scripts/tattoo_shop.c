@@ -13137,7 +13137,7 @@ int func_98(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, in
 	{
 		if (iParam5 == 1)
 		{
-			MISC::SET_BIT(&(Global_113386.f_2363[iParam1 /*164*/][iParam3]), iParam4);
+			MISC::SET_BIT(&(Global_113386.f_2363[iParam1 /*164*/][iParam3]), bParam4);
 		}
 		if (iParam6 == 1)
 		{
@@ -42945,7 +42945,7 @@ void func_182()
 
 void func_183(bool bParam0, bool bParam1, int iParam2)
 {
-	switch (iParam0)
+	switch (bParam0)
 	{
 		case 5:
 			if (iParam2 > -1)
@@ -42957,7 +42957,7 @@ void func_183(bool bParam0, bool bParam1, int iParam2)
 		default:
 			if (bParam1)
 			{
-				MISC::SET_BIT(&(Global_1648034.f_1046), iParam0);
+				MISC::SET_BIT(&(Global_1648034.f_1046), bParam0);
 			}
 			else
 			{
@@ -43772,7 +43772,7 @@ void func_215(int iParam0, bool bParam1, bool bParam2)
 	}
 	if (bParam2)
 	{
-		MISC::SET_BIT(&(Global_100493.f_1393[iParam0]), iParam1);
+		MISC::SET_BIT(&(Global_100493.f_1393[iParam0]), bParam1);
 	}
 	else if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
@@ -109966,7 +109966,7 @@ void func_711(int iParam0)
 void func_712(int iParam0, int iParam1, bool bParam2, bool bParam3, int iParam4)
 {
 	int iVar0;
-	int iVar1;
+	bool bVar1;
 	int iVar2;
 	int iVar3;
 	
@@ -109975,10 +109975,10 @@ void func_712(int iParam0, int iParam1, bool bParam2, bool bParam3, int iParam4)
 	{
 		iVar0 = iParam4;
 	}
-	if (func_100(iParam0, iParam1, &iVar2, &iVar1, bParam2, bParam3))
+	if (func_100(iParam0, iParam1, &iVar2, &bVar1, bParam2, bParam3))
 	{
 		iVar3 = func_16(iVar2, iVar0, 0);
-		MISC::SET_BIT(&iVar3, iVar1);
+		MISC::SET_BIT(&iVar3, bVar1);
 		func_216(iVar2, iVar3, iVar0, 1, 0);
 	}
 }
@@ -130814,7 +130814,7 @@ void func_917()
 
 void func_918(int iParam0, bool bParam1)
 {
-	int iVar0;
+	bool bVar0;
 	int iVar1;
 	
 	if (bParam1)
@@ -130823,13 +130823,13 @@ void func_918(int iParam0, bool bParam1)
 		{
 			func_215(iParam0, 2, 0);
 			func_214(iParam0);
-			iVar0 = func_330(iParam0);
+			bVar0 = func_330(iParam0);
 			if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 			{
 				if (func_20() == 0)
 				{
 					iVar1 = func_16(827, -1, 0);
-					MISC::SET_BIT(&iVar1, iVar0);
+					MISC::SET_BIT(&iVar1, bVar0);
 					func_216(827, iVar1, -1, 1, 0);
 				}
 			}

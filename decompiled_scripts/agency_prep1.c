@@ -4514,7 +4514,7 @@ void func_100(int iParam0)
 
 void func_101(bool bParam0)
 {
-	MISC::SET_BIT(&Global_96296, iParam0);
+	MISC::SET_BIT(&Global_96296, bParam0);
 }
 
 void func_102(int iParam0, int iParam1, int iParam2)

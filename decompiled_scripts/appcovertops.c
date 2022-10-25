@@ -1241,7 +1241,7 @@ void func_46(char* sParam0, char* sParam1, char* sParam2, char* sParam3, int iPa
 	func_48(sParam2);
 	func_48(sParam3);
 	GRAPHICS::END_SCALEFORM_MOVIE_METHOD();
-	MISC::SET_BIT(&uLocal_129, 1);
+	MISC::SET_BIT(&uLocal_129, true);
 	func_47(iParam5);
 }
 
@@ -2376,7 +2376,7 @@ void func_85(bool bParam0, int iParam1, int iParam2)
 						iVar1++;
 					}
 				}
-				MISC::SET_BIT(&(Global_2621446.f_67), 1);
+				MISC::SET_BIT(&(Global_2621446.f_67), true);
 			}
 		}
 		if (func_148(PLAYER::PLAYER_ID(), 0))
@@ -2418,7 +2418,7 @@ void func_87()
 				iVar0++;
 			}
 			MISC::SET_BIT(&(Global_2621446.f_67), 2);
-			MISC::SET_BIT(&(Global_2621446.f_67), 0);
+			MISC::SET_BIT(&(Global_2621446.f_67), false);
 		}
 	}
 }
@@ -3962,10 +3962,10 @@ bool func_101()
 	return BitTest(Global_2714762.f_43.f_4, 0);
 }
 
-void func_102(int iParam0, int iParam1)
+void func_102(bool bParam0, int iParam1)
 {
-	MISC::SET_BIT(&(Global_1648034.f_1047), iParam0);
-	switch (iParam0)
+	MISC::SET_BIT(&(Global_1648034.f_1047), bParam0);
+	switch (bParam0)
 	{
 		case 5:
 			if (iParam1 > -1)
@@ -5320,7 +5320,7 @@ int func_179(int iParam0)
 	return 0;
 }
 
-void func_180(int iParam0, int iParam1)
+void func_180(int iParam0, bool bParam1)
 {
 	int iVar0;
 	
@@ -5329,7 +5329,7 @@ void func_180(int iParam0, int iParam1)
 	{
 		iVar0 = DECORATOR::DECOR_GET_INT(PLAYER::GET_PLAYER_PED_SCRIPT_INDEX(iParam0), "MPBitset");
 	}
-	MISC::SET_BIT(&iVar0, iParam1);
+	MISC::SET_BIT(&iVar0, bParam1);
 	DECORATOR::DECOR_SET_INT(PLAYER::GET_PLAYER_PED_SCRIPT_INDEX(iParam0), "MPBitset", iVar0);
 }
 
@@ -5465,7 +5465,7 @@ void func_191()
 			iLocal_439 = GRAPHICS::END_SCALEFORM_MOVIE_METHOD_RETURN_VALUE();
 			GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD(iLocal_438, "GET_CURRENT_SCREEN_ID");
 			iLocal_440 = GRAPHICS::END_SCALEFORM_MOVIE_METHOD_RETURN_VALUE();
-			MISC::SET_BIT(&uLocal_129, 0);
+			MISC::SET_BIT(&uLocal_129, false);
 		}
 	}
 }

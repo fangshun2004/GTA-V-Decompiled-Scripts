@@ -2399,16 +2399,16 @@ void func_68(int iParam0, bool bParam1)
 
 void func_69(int iParam0, bool bParam1)
 {
-	int iVar0;
+	bool bVar0;
 	
-	iVar0 = iParam0;
-	if (iVar0 >= 0 && iVar0 <= 31)
+	bVar0 = iParam0;
+	if (bVar0 >= 0 && bVar0 <= 31)
 	{
 		if (func_78(iParam0))
 		{
 			if (!func_76(iParam0))
 			{
-				MISC::SET_BIT(&(Global_113386.f_26434.f_2), iVar0);
+				MISC::SET_BIT(&(Global_113386.f_26434.f_2), bVar0);
 				if (!bParam1)
 				{
 					func_74(func_75(iParam0));

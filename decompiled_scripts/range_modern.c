@@ -1869,7 +1869,7 @@ int func_6(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, int
 	{
 		if (iParam5 == 1)
 		{
-			MISC::SET_BIT(&(Global_113386.f_2363[iParam1 /*164*/][iParam3]), iParam4);
+			MISC::SET_BIT(&(Global_113386.f_2363[iParam1 /*164*/][iParam3]), bParam4);
 		}
 		if (iParam6 == 1)
 		{
@@ -59316,7 +59316,7 @@ int func_244(int iParam0, int iParam1, int iParam2)
 void func_245(int iParam0, int iParam1, bool bParam2, bool bParam3, int iParam4)
 {
 	int iVar0;
-	int iVar1;
+	bool bVar1;
 	int iVar2;
 	int iVar3;
 	
@@ -59325,10 +59325,10 @@ void func_245(int iParam0, int iParam1, bool bParam2, bool bParam3, int iParam4)
 	{
 		iVar0 = iParam4;
 	}
-	if (func_18(iParam0, iParam1, &iVar2, &iVar1, bParam2, bParam3))
+	if (func_18(iParam0, iParam1, &iVar2, &bVar1, bParam2, bParam3))
 	{
 		iVar3 = func_13(iVar2, iVar0, 0);
-		MISC::SET_BIT(&iVar3, iVar1);
+		MISC::SET_BIT(&iVar3, bVar1);
 		func_284(iVar2, iVar3, iVar0, 1, 0);
 	}
 }
@@ -103904,8 +103904,8 @@ void func_684(var uParam0)
 
 void func_685(int iParam0, int iParam1, int iParam2, float fParam3, bool bParam4)
 {
-	int iVar0;
-	int iVar1;
+	bool bVar0;
+	bool bVar1;
 	
 	if (!bParam4)
 	{
@@ -103915,17 +103915,17 @@ void func_685(int iParam0, int iParam1, int iParam2, float fParam3, bool bParam4
 	{
 		Global_2097157.f_142 = iParam0;
 		Global_2097157.f_142.f_1 = STATS::LEADERBOARDS_GET_NUMBER_OF_COLUMNS(Global_2097157.f_142, 0);
-		iVar1 = 0;
-		while (iVar1 < 32)
+		bVar1 = false;
+		while (bVar1 < 32)
 		{
-			if (iVar1 < Global_2097157.f_142.f_1)
+			if (bVar1 < Global_2097157.f_142.f_1)
 			{
 				if (iParam1 == 156)
 				{
 				}
-				else if (func_679(iParam0, 4, iVar1))
+				else if (func_679(iParam0, 4, bVar1))
 				{
-					MISC::SET_BIT(&(Global_2097157.f_142.f_2), iVar1);
+					MISC::SET_BIT(&(Global_2097157.f_142.f_2), bVar1);
 				}
 				else
 				{
@@ -103945,16 +103945,16 @@ void func_685(int iParam0, int iParam1, int iParam2, float fParam3, bool bParam4
 	{
 		if (iParam1 == STATS::LEADERBOARDS_GET_COLUMN_ID(iParam0, 4, bVar1))
 		{
-			iVar0 = bVar1;
+			bVar0 = bVar1;
 			bVar1 = 32;
 		}
 		bVar1++;
 	}
-	Global_2097157.f_142.f_36[iVar0] = iParam2;
-	Global_2097157.f_142.f_3[iVar0] = fParam3;
+	Global_2097157.f_142.f_36[bVar0] = iParam2;
+	Global_2097157.f_142.f_3[bVar0] = fParam3;
 	if (iParam2 != 0)
 	{
-		MISC::SET_BIT(&(Global_2097157.f_142.f_2), iVar0);
+		MISC::SET_BIT(&(Global_2097157.f_142.f_2), bVar0);
 	}
 	else if (fParam3 != 0f)
 	{
@@ -111188,7 +111188,7 @@ void func_836(int iParam0, bool bParam1, bool bParam2)
 	}
 	if (bParam2)
 	{
-		MISC::CLEAR_BIT(&(Global_100493.f_1393[iParam0]), iParam1);
+		MISC::CLEAR_BIT(&(Global_100493.f_1393[iParam0]), bParam1);
 	}
 	else if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
@@ -111457,7 +111457,7 @@ void func_838(int iParam0, bool bParam1, bool bParam2)
 	}
 	if (bParam2)
 	{
-		MISC::SET_BIT(&(Global_100493.f_1393[iParam0]), iParam1);
+		MISC::SET_BIT(&(Global_100493.f_1393[iParam0]), bParam1);
 	}
 	else if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
@@ -114180,7 +114180,7 @@ void func_902(bool bParam0, bool bParam1)
 {
 	if (bParam1)
 	{
-		MISC::SET_BIT(&Global_32207, iParam0);
+		MISC::SET_BIT(&Global_32207, bParam0);
 	}
 	else
 	{

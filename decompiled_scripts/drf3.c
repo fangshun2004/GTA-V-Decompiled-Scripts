@@ -2089,7 +2089,7 @@ void func_11(bool bParam0, int iParam1)
 			return;
 		}
 		MISC::SET_BIT(&(Global_91193[iVar0 /*5*/].f_1), 4);
-		MISC::SET_BIT(&Global_78567, 1);
+		MISC::SET_BIT(&Global_78567, true);
 		Global_78583 = uVar2;
 		Global_78584 = MISC::GET_GAME_TIMER();
 	}
@@ -3518,7 +3518,7 @@ void func_70(int* iParam0)
 void func_71(int* iParam0, float fParam1)
 {
 	iParam0->f_1 = (func_66(BitTest(*iParam0, 4)) - fParam1);
-	MISC::SET_BIT(iParam0, 1);
+	MISC::SET_BIT(iParam0, true);
 	MISC::CLEAR_BIT(iParam0, 2);
 	iParam0->f_2 = 0f;
 }
@@ -4386,53 +4386,53 @@ void func_92(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, va
 struct<4> func_93(var uParam0, var uParam1, int iParam2, bool bParam3)
 {
 	struct<4> Var0;
-	int iVar4;
+	bool bVar4;
 	
 	if (func_101() <= 0)
 	{
 		if (!func_100())
 		{
-			iVar4 = func_97(1, 2, 3, 4, 12);
+			bVar4 = func_97(1, 2, 3, 4, 12);
 		}
 		else if (func_96() >= 1)
 		{
-			iVar4 = func_97(5, 6, 7, 0, 0);
+			bVar4 = func_97(5, 6, 7, 0, 0);
 		}
 		else
 		{
-			iVar4 = func_97(5, 7, 0, 0, 0);
+			bVar4 = func_97(5, 7, 0, 0, 0);
 		}
 	}
 	else if (func_101() >= 2)
 	{
-		iVar4 = func_97(10, 11, 0, 0, 0);
+		bVar4 = func_97(10, 11, 0, 0, 0);
 	}
 	else if (!func_100())
 	{
 		if (iParam2 != 4)
 		{
-			iVar4 = func_97(8, 9, 0, 0, 0);
+			bVar4 = func_97(8, 9, 0, 0, 0);
 		}
 		else
 		{
-			iVar4 = 9;
+			bVar4 = 9;
 		}
 	}
 	else if (iParam2 != 4)
 	{
-		iVar4 = func_97(8, 9, 10, 0, 0);
+		bVar4 = func_97(8, 9, 10, 0, 0);
 	}
 	else
 	{
-		iVar4 = func_97(9, 10, 0, 0, 0);
+		bVar4 = func_97(9, 10, 0, 0, 0);
 	}
-	func_95(uParam0, iVar4);
+	func_95(uParam0, bVar4);
 	if (bParam3)
 	{
-		func_94(&(Global_113386.f_19961), iVar4, 1);
+		func_94(&(Global_113386.f_19961), bVar4, 1);
 	}
 	StringCopy(&Var0, "DRF_PR_", 16);
-	switch (iVar4)
+	switch (bVar4)
 	{
 		case 1:
 			StringConCat(&Var0, "1_A", 16);
@@ -4499,18 +4499,18 @@ struct<4> func_93(var uParam0, var uParam1, int iParam2, bool bParam3)
 
 void func_94(var uParam0, bool bParam1, bool bParam2)
 {
-	if (iParam1 < 0 || iParam1 > 12)
+	if (bParam1 < 0 || bParam1 > 12)
 	{
 		return;
 	}
-	iParam1 += 11;
+	bParam1 += 11;
 	if (bParam2)
 	{
-		MISC::SET_BIT(&(uParam0->f_1), iParam1);
+		MISC::SET_BIT(&(uParam0->f_1), bParam1);
 	}
 	else
 	{
-		MISC::CLEAR_BIT(&(uParam0->f_1), iParam1);
+		MISC::CLEAR_BIT(&(uParam0->f_1), bParam1);
 	}
 }
 
@@ -4735,7 +4735,7 @@ struct<4> func_104(int iParam0, int iParam1, bool bParam2, var uParam3)
 	{
 		if (!func_109(&(Global_113386.f_19961), 1) && func_107(5) > 0)
 		{
-			MISC::SET_BIT(&uVar5, 1);
+			MISC::SET_BIT(&uVar5, true);
 			iVar6++;
 		}
 		if (!func_109(&(Global_113386.f_19961), 2) && func_107(7) >= 2)

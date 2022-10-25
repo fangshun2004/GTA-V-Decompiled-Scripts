@@ -2539,7 +2539,7 @@ void func_53()
 		}
 		StringCopy(&cVar17, HUD::GET_FILENAME_FOR_AUDIO_CONVERSATION(&(Global_1998[Global_4539964[Global_4541213 /*104*/].f_17 /*29*/].f_3)), 64);
 		iLocal_64 = HUD::END_TEXT_COMMAND_THEFEED_POST_MESSAGETEXT(&cVar0, &cVar0, false, 2, &cVar17, 0);
-		MISC::SET_BIT(&Global_4541229, 1);
+		MISC::SET_BIT(&Global_4541229, true);
 		Global_22663 = 1;
 		Global_22662 = iLocal_64;
 		Global_22666 = 0;
@@ -2617,7 +2617,7 @@ void func_53()
 			StringConCat(&cVar33, &Global_8824, 64);
 			StringConCat(&cVar33, "</C>", 64);
 			iLocal_64 = HUD::END_TEXT_COMMAND_THEFEED_POST_MESSAGETEXT(&cVar0, &cVar0, false, 2, &cVar33, 0);
-			MISC::SET_BIT(&Global_4541229, 1);
+			MISC::SET_BIT(&Global_4541229, true);
 			Global_22663 = 1;
 			Global_22662 = iLocal_64;
 		}
@@ -2634,7 +2634,7 @@ void func_53()
 			{
 				iLocal_64 = HUD::END_TEXT_COMMAND_THEFEED_POST_MESSAGETEXT(&cVar0, &cVar0, false, 2, &cVar49, 0);
 			}
-			MISC::SET_BIT(&Global_4541229, 1);
+			MISC::SET_BIT(&Global_4541229, true);
 			Global_22663 = 1;
 			Global_22662 = iLocal_64;
 			Global_22666 = 0;
@@ -3321,7 +3321,7 @@ int func_65(int iParam0, char* sParam1, int iParam2, int iParam3, var uParam4, v
 			Global_8843 = iParam6;
 			Global_8746[3 /*6*/] = { func_66(iParam0) };
 			Global_8823 = iParam0;
-			MISC::SET_BIT(&Global_8136, 1);
+			MISC::SET_BIT(&Global_8136, true);
 			MISC::SET_BIT(&Global_8136, 7);
 		}
 		return 1;

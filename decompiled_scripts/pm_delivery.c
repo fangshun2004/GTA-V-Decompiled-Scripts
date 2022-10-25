@@ -264,70 +264,70 @@ void func_3(int iParam0, int iParam1, char* sParam2, int iParam3, int iParam4, i
 
 void func_4(var uParam0, var uParam1, char* sParam2, var uParam3, var uParam4, var uParam5, float fParam6, float fParam7, int iParam8, var uParam9, int iParam10, int iParam11, int iParam12, int iParam13, int iParam14, int iParam15, int iParam16, int iParam17, int iParam18, int iParam19, int iParam20, int iParam21, int iParam22, int iParam23, int iParam24, int iParam25, int iParam26, int iParam27, int iParam28, int iParam29, int iParam30, int iParam31, int iParam32, int iParam33, int iParam34, int iParam35, int iParam36)
 {
-	int iVar0;
+	bool bVar0;
 	int iVar1;
 	
-	iVar0 = -1;
+	bVar0 = -1;
 	iVar1 = 0;
 	while (iVar1 <= 9)
 	{
-		if (iVar0 == -1)
+		if (bVar0 == -1)
 		{
 			if (func_6(0, iVar1) == 0)
 			{
-				iVar0 = iVar1;
+				bVar0 = iVar1;
 			}
 		}
 		iVar1++;
 	}
-	if (iVar0 > -1)
+	if (bVar0 > -1)
 	{
 		Global_1649593.f_1 = 1;
-		func_5(0, iVar0);
-		Global_1649593.f_1177[iVar0] = uParam0;
-		Global_1649593.f_1177.f_11[iVar0] = uParam1;
-		StringCopy(&(Global_1649593.f_1177.f_22[iVar0 /*16*/]), sParam2, 64);
-		Global_1649593.f_1177.f_194[iVar0] = uParam3;
-		Global_1649593.f_1177.f_183[iVar0] = uParam4;
-		Global_1649593.f_1177.f_216[iVar0] = uParam5;
-		Global_1649593.f_1177.f_227[iVar0 /*3*/] = fParam6;
-		Global_1649593.f_1177.f_227[iVar0 /*3*/].f_1 = fParam7;
-		Global_1649593.f_1177.f_258[iVar0] = iParam8;
-		Global_1649593.f_1177.f_269[iVar0] = uParam9;
-		Global_1649593.f_1177.f_312[iVar0] = iParam10;
-		Global_1649593.f_1177.f_323[iVar0] = iParam11;
-		Global_1649593.f_1177.f_334[iVar0] = iParam12;
-		Global_1649593.f_1177.f_345[iVar0] = iParam13;
+		func_5(0, bVar0);
+		Global_1649593.f_1177[bVar0] = uParam0;
+		Global_1649593.f_1177.f_11[bVar0] = uParam1;
+		StringCopy(&(Global_1649593.f_1177.f_22[bVar0 /*16*/]), sParam2, 64);
+		Global_1649593.f_1177.f_194[bVar0] = uParam3;
+		Global_1649593.f_1177.f_183[bVar0] = uParam4;
+		Global_1649593.f_1177.f_216[bVar0] = uParam5;
+		Global_1649593.f_1177.f_227[bVar0 /*3*/] = fParam6;
+		Global_1649593.f_1177.f_227[bVar0 /*3*/].f_1 = fParam7;
+		Global_1649593.f_1177.f_258[bVar0] = iParam8;
+		Global_1649593.f_1177.f_269[bVar0] = uParam9;
+		Global_1649593.f_1177.f_312[bVar0] = iParam10;
+		Global_1649593.f_1177.f_323[bVar0] = iParam11;
+		Global_1649593.f_1177.f_334[bVar0] = iParam12;
+		Global_1649593.f_1177.f_345[bVar0] = iParam13;
 		Global_1649593.f_1172 = 1;
-		Global_1649593.f_1177.f_356[iVar0] = iParam14;
-		Global_1649593.f_1177.f_367[iVar0] = iParam15;
-		Global_1649593.f_1177.f_378[iVar0] = iParam16;
-		Global_1649593.f_1177.f_389[iVar0] = iParam17;
-		Global_1649593.f_1177.f_400[iVar0] = iParam18;
-		Global_1649593.f_1177.f_411[iVar0] = iParam19;
-		Global_1649593.f_1177.f_422[iVar0] = iParam20;
-		Global_1649593.f_1177.f_433[iVar0] = iParam21;
-		Global_1649593.f_1177.f_444[iVar0] = iParam22;
-		Global_1649593.f_1177.f_455[iVar0] = iParam23;
-		Global_1649593.f_1177.f_466[iVar0] = iParam24;
-		Global_1649593.f_1177.f_205[iVar0] = iParam25;
-		Global_1649593.f_1177.f_477[iVar0] = iParam26;
-		Global_1649593.f_1177.f_488[iVar0] = iParam27;
-		Global_1649593.f_1177.f_499[iVar0] = iParam28;
-		Global_1649593.f_1177.f_510[iVar0] = iParam29;
-		Global_1649593.f_1177.f_521[iVar0] = iParam30;
-		Global_1649593.f_1177.f_532[iVar0] = iParam31;
-		Global_1649593.f_1177.f_543[iVar0] = iParam32;
-		Global_1649593.f_1177.f_554[iVar0] = iParam33;
-		Global_1649593.f_1177.f_565[iVar0] = iParam34;
-		Global_1649593.f_1177.f_576[iVar0] = iParam35;
-		Global_1649593.f_1177.f_587[iVar0] = iParam36;
+		Global_1649593.f_1177.f_356[bVar0] = iParam14;
+		Global_1649593.f_1177.f_367[bVar0] = iParam15;
+		Global_1649593.f_1177.f_378[bVar0] = iParam16;
+		Global_1649593.f_1177.f_389[bVar0] = iParam17;
+		Global_1649593.f_1177.f_400[bVar0] = iParam18;
+		Global_1649593.f_1177.f_411[bVar0] = iParam19;
+		Global_1649593.f_1177.f_422[bVar0] = iParam20;
+		Global_1649593.f_1177.f_433[bVar0] = iParam21;
+		Global_1649593.f_1177.f_444[bVar0] = iParam22;
+		Global_1649593.f_1177.f_455[bVar0] = iParam23;
+		Global_1649593.f_1177.f_466[bVar0] = iParam24;
+		Global_1649593.f_1177.f_205[bVar0] = iParam25;
+		Global_1649593.f_1177.f_477[bVar0] = iParam26;
+		Global_1649593.f_1177.f_488[bVar0] = iParam27;
+		Global_1649593.f_1177.f_499[bVar0] = iParam28;
+		Global_1649593.f_1177.f_510[bVar0] = iParam29;
+		Global_1649593.f_1177.f_521[bVar0] = iParam30;
+		Global_1649593.f_1177.f_532[bVar0] = iParam31;
+		Global_1649593.f_1177.f_543[bVar0] = iParam32;
+		Global_1649593.f_1177.f_554[bVar0] = iParam33;
+		Global_1649593.f_1177.f_565[bVar0] = iParam34;
+		Global_1649593.f_1177.f_576[bVar0] = iParam35;
+		Global_1649593.f_1177.f_587[bVar0] = iParam36;
 	}
 }
 
-void func_5(int iParam0, int iParam1)
+void func_5(int iParam0, bool bParam1)
 {
-	MISC::SET_BIT(&(Global_1649593.f_7009[iParam0]), iParam1);
+	MISC::SET_BIT(&(Global_1649593.f_7009[iParam0]), bParam1);
 }
 
 int func_6(int iParam0, int iParam1)
@@ -493,44 +493,44 @@ void func_7()
 
 void func_8(int iParam0, char* sParam1, int iParam2, int iParam3, int iParam4, int iParam5, int iParam6, int iParam7, int iParam8, int iParam9, int iParam10, int iParam11, int iParam12, int iParam13, int iParam14, int iParam15, int iParam16, int iParam17)
 {
-	int iVar0;
+	bool bVar0;
 	int iVar1;
 	
-	iVar0 = -1;
+	bVar0 = -1;
 	iVar1 = 0;
 	while (iVar1 <= 9)
 	{
-		if (iVar0 == -1)
+		if (bVar0 == -1)
 		{
 			if (func_6(7, iVar1) == 0)
 			{
-				iVar0 = iVar1;
+				bVar0 = iVar1;
 			}
 		}
 		iVar1++;
 	}
-	if (iVar0 > -1)
+	if (bVar0 > -1)
 	{
 		Global_1649593.f_1 = 1;
-		func_5(7, iVar0);
-		Global_1649593.f_4659[iVar0] = iParam0;
-		StringCopy(&(Global_1649593.f_4659.f_11[iVar0 /*16*/]), sParam1, 64);
-		Global_1649593.f_4659.f_172[iVar0] = iParam2;
-		Global_1649593.f_4659.f_216[iVar0] = iParam3;
-		Global_1649593.f_4659.f_183[iVar0] = iParam4;
-		Global_1649593.f_4659.f_194[iVar0] = iParam5;
-		Global_1649593.f_4659.f_249[iVar0] = iParam6;
-		Global_1649593.f_4659.f_260[iVar0] = iParam7;
-		Global_1649593.f_4659.f_205[iVar0] = iParam8;
-		Global_1649593.f_4659.f_314[iVar0] = iParam9;
-		Global_1649593.f_4659.f_325[iVar0] = iParam10;
-		Global_1649593.f_4659.f_357[iVar0] = iParam11;
-		Global_1649593.f_4659.f_238[iVar0] = iParam12;
-		Global_1649593.f_4659.f_271[iVar0] = iParam13;
-		Global_1649593.f_4659.f_368[iVar0] = iParam14;
-		Global_1649593.f_4659.f_379[iVar0] = iParam15;
-		Global_1649593.f_4659.f_390[iVar0] = iParam16;
-		Global_1649593.f_4659.f_227[iVar0] = iParam17;
+		func_5(7, bVar0);
+		Global_1649593.f_4659[bVar0] = iParam0;
+		StringCopy(&(Global_1649593.f_4659.f_11[bVar0 /*16*/]), sParam1, 64);
+		Global_1649593.f_4659.f_172[bVar0] = iParam2;
+		Global_1649593.f_4659.f_216[bVar0] = iParam3;
+		Global_1649593.f_4659.f_183[bVar0] = iParam4;
+		Global_1649593.f_4659.f_194[bVar0] = iParam5;
+		Global_1649593.f_4659.f_249[bVar0] = iParam6;
+		Global_1649593.f_4659.f_260[bVar0] = iParam7;
+		Global_1649593.f_4659.f_205[bVar0] = iParam8;
+		Global_1649593.f_4659.f_314[bVar0] = iParam9;
+		Global_1649593.f_4659.f_325[bVar0] = iParam10;
+		Global_1649593.f_4659.f_357[bVar0] = iParam11;
+		Global_1649593.f_4659.f_238[bVar0] = iParam12;
+		Global_1649593.f_4659.f_271[bVar0] = iParam13;
+		Global_1649593.f_4659.f_368[bVar0] = iParam14;
+		Global_1649593.f_4659.f_379[bVar0] = iParam15;
+		Global_1649593.f_4659.f_390[bVar0] = iParam16;
+		Global_1649593.f_4659.f_227[bVar0] = iParam17;
 	}
 }
 
@@ -976,7 +976,7 @@ int func_22(int* iParam0, struct<3> Param1, struct<3> Param4, struct<3> Param7, 
 								func_32(iParam0->f_17[0], "VEHICLE_POLICE_PURSUIT", 3);
 							}
 						}
-						MISC::SET_BIT(&(iParam0->f_13), 0);
+						MISC::SET_BIT(&(iParam0->f_13), false);
 						MISC::CLEAR_BIT(&(iParam0->f_13), 1);
 					}
 				}
@@ -986,7 +986,7 @@ int func_22(int* iParam0, struct<3> Param1, struct<3> Param4, struct<3> Param7, 
 					{
 						func_43("LOSE_WANTED");
 						MISC::CLEAR_BIT(&(iParam0->f_13), 0);
-						MISC::SET_BIT(&(iParam0->f_13), 1);
+						MISC::SET_BIT(&(iParam0->f_13), true);
 					}
 					if (BitTest(iParam0->f_13, 1))
 					{
@@ -1137,7 +1137,7 @@ int func_22(int* iParam0, struct<3> Param1, struct<3> Param4, struct<3> Param7, 
 								func_32(iParam0->f_17[0], "VEHICLE_POLICE_PURSUIT", 3);
 							}
 						}
-						MISC::SET_BIT(&(iParam0->f_13), 0);
+						MISC::SET_BIT(&(iParam0->f_13), false);
 						MISC::CLEAR_BIT(&(iParam0->f_13), 1);
 					}
 				}
@@ -1147,7 +1147,7 @@ int func_22(int* iParam0, struct<3> Param1, struct<3> Param4, struct<3> Param7, 
 					{
 						func_43("LOSE_WANTED");
 						MISC::CLEAR_BIT(&(iParam0->f_13), 0);
-						MISC::SET_BIT(&(iParam0->f_13), 1);
+						MISC::SET_BIT(&(iParam0->f_13), true);
 					}
 					if (BitTest(iParam0->f_13, 1))
 					{
@@ -7613,7 +7613,7 @@ int func_134()
 				if (MISC::ARE_PROFILE_SETTINGS_VALID())
 				{
 					iVar0 = MISC::GET_PROFILE_SETTING(866);
-					MISC::SET_BIT(&iVar0, 0);
+					MISC::SET_BIT(&iVar0, false);
 					STATS::SET_HAS_SPECIALEDITION_CONTENT(iVar0);
 				}
 				return 1;

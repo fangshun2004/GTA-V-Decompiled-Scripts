@@ -11028,11 +11028,11 @@ int func_342(int iParam0, var uParam1)
 	return uVar0[iVar28];
 }
 
-int func_343(int iParam0, var uParam1, var uParam2, int* iParam3)
+bool func_343(int iParam0, var uParam1, var uParam2, int* iParam3)
 {
 	int iVar0;
-	int iVar1;
-	int iVar2;
+	bool bVar1;
+	bool bVar2;
 	int iVar3;
 	int iVar4;
 	bool bVar5;
@@ -11060,16 +11060,16 @@ int func_343(int iParam0, var uParam1, var uParam2, int* iParam3)
 	{
 		return 0;
 	}
-	iVar1 = 0;
+	bVar1 = false;
 	iVar0 = 0;
 	while (iVar0 < Global_2666787)
 	{
 		if (Global_2666436[iVar0 /*14*/].f_13)
 		{
-			(*uParam2)[iVar1] = iVar0;
+			(*uParam2)[bVar1] = iVar0;
 			if (!func_344(iVar0))
 			{
-				MISC::SET_BIT(iParam3, iVar1);
+				MISC::SET_BIT(iParam3, bVar1);
 			}
 			else
 			{
@@ -11079,8 +11079,8 @@ int func_343(int iParam0, var uParam1, var uParam2, int* iParam3)
 		}
 		iVar0++;
 	}
-	iVar2 = bVar1;
-	if (iVar2 > 1)
+	bVar2 = bVar1;
+	if (bVar2 > 1)
 	{
 		iVar3 = 0;
 		iVar4 = 0;
@@ -11117,7 +11117,7 @@ int func_343(int iParam0, var uParam1, var uParam2, int* iParam3)
 					break;
 			}
 			bVar8 = true;
-			if (bVar5 >= iVar2 || iVar4 == -1)
+			if (bVar5 >= bVar2 || iVar4 == -1)
 			{
 				bVar8 = false;
 			}
@@ -11157,7 +11157,7 @@ int func_343(int iParam0, var uParam1, var uParam2, int* iParam3)
 				if (bVar8)
 				{
 					bVar5++;
-					if (bVar5 >= iVar2)
+					if (bVar5 >= bVar2)
 					{
 						bVar8 = false;
 					}
@@ -11166,7 +11166,7 @@ int func_343(int iParam0, var uParam1, var uParam2, int* iParam3)
 			iVar3++;
 		}
 	}
-	return iVar2;
+	return bVar2;
 }
 
 int func_344(int iParam0)

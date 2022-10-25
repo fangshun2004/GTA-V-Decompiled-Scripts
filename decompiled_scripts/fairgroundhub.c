@@ -1494,15 +1494,15 @@ void func_55(int iParam0, int iParam1)
 	}
 }
 
-void func_56(int iParam0, bool bParam1)
+void func_56(bool bParam0, bool bParam1)
 {
 	if (bParam1)
 	{
-		MISC::SET_BIT(&Global_112024, iParam0);
+		MISC::SET_BIT(&Global_112024, bParam0);
 	}
 	else
 	{
-		MISC::CLEAR_BIT(&Global_112024, iParam0);
+		MISC::CLEAR_BIT(&Global_112024, bParam0);
 	}
 	Global_112023 = 1;
 }

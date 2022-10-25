@@ -3151,7 +3151,7 @@ void func_85(int iParam0, bool bParam1, bool bParam2)
 	}
 	if (bParam2)
 	{
-		MISC::SET_BIT(&(Global_113386.f_32749[iParam0]), iParam1);
+		MISC::SET_BIT(&(Global_113386.f_32749[iParam0]), bParam1);
 	}
 	else
 	{
@@ -3255,13 +3255,13 @@ void func_93()
 
 void func_94()
 {
-	int iVar0;
+	bool bVar0;
 	
 	iLocal_99 = 0;
-	iVar0 = 0;
-	while (iVar0 < 5)
+	bVar0 = false;
+	while (bVar0 < 5)
 	{
-		MISC::SET_BIT(&iLocal_99, iVar0);
+		MISC::SET_BIT(&iLocal_99, bVar0);
 		bVar0++;
 	}
 }

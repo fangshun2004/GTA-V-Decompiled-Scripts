@@ -12979,7 +12979,7 @@ int func_381()
 
 void func_382(bool bParam0)
 {
-	MISC::SET_BIT(&(Global_1892703[PLAYER::PLAYER_ID() /*599*/].f_10.f_4), iParam0);
+	MISC::SET_BIT(&(Global_1892703[PLAYER::PLAYER_ID() /*599*/].f_10.f_4), bParam0);
 }
 
 int func_383()
@@ -14067,7 +14067,7 @@ void func_431()
 
 void func_432(bool bParam0)
 {
-	MISC::SET_BIT(&(Global_2815059.f_5195.f_47), iParam0);
+	MISC::SET_BIT(&(Global_2815059.f_5195.f_47), bParam0);
 }
 
 void func_433(int iParam0)

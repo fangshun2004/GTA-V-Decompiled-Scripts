@@ -2082,7 +2082,7 @@ void func_40(bool bParam0, int iParam1)
 			return;
 		}
 		MISC::SET_BIT(&(Global_91193[iVar0 /*5*/].f_1), 4);
-		MISC::SET_BIT(&Global_78567, 1);
+		MISC::SET_BIT(&Global_78567, true);
 		Global_78583 = uVar2;
 		Global_78584 = MISC::GET_GAME_TIMER();
 	}

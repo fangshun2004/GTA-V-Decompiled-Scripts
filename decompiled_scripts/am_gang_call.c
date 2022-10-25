@@ -1116,19 +1116,19 @@ int func_21(int iParam0)
 {
 	var uVar0;
 	int iVar1;
-	int iVar2;
+	bool bVar2;
 	
 	iVar1 = 0;
 	while (iVar1 < NETWORK::NETWORK_GET_MAX_NUM_PARTICIPANTS())
 	{
 		if (NETWORK::NETWORK_IS_PARTICIPANT_ACTIVE(PLAYER::INT_TO_PARTICIPANTINDEX(iVar1)))
 		{
-			iVar2 = NETWORK::NETWORK_GET_PLAYER_INDEX(PLAYER::INT_TO_PARTICIPANTINDEX(iVar1));
-			if (func_6(iVar2, 0, 0))
+			bVar2 = NETWORK::NETWORK_GET_PLAYER_INDEX(PLAYER::INT_TO_PARTICIPANTINDEX(iVar1));
+			if (func_6(bVar2, 0, 0))
 			{
-				if (iVar2 != PLAYER::PLAYER_ID() || iParam0)
+				if (bVar2 != PLAYER::PLAYER_ID() || iParam0)
 				{
-					MISC::SET_BIT(&uVar0, iVar2);
+					MISC::SET_BIT(&uVar0, bVar2);
 				}
 			}
 		}
@@ -12695,9 +12695,9 @@ var func_333(bool bParam0)
 {
 	var uVar0;
 	
-	if (iParam0 != -1)
+	if (bParam0 != -1)
 	{
-		MISC::SET_BIT(&uVar0, iParam0);
+		MISC::SET_BIT(&uVar0, bParam0);
 	}
 	return uVar0;
 }
@@ -17945,7 +17945,7 @@ void func_516(int iParam0, bool bParam1)
 	{
 		iVar0 = DECORATOR::DECOR_GET_INT(iParam0, "AttributeDamage");
 	}
-	MISC::SET_BIT(&iVar0, iParam1);
+	MISC::SET_BIT(&iVar0, bParam1);
 	DECORATOR::DECOR_SET_INT(iParam0, "AttributeDamage", iVar0);
 }
 
@@ -18528,16 +18528,16 @@ void func_535(var uParam0, var uParam1)
 int func_536()
 {
 	int iVar0;
-	int iVar1;
+	bool bVar1;
 	
 	iVar0 = 0;
-	iVar1 = 0;
-	iVar1 = 0;
-	while (iVar1 < 32)
+	bVar1 = false;
+	bVar1 = false;
+	while (bVar1 < 32)
 	{
 		if (bLocal_286 == 1 || bLocal_286 == 0)
 		{
-			if (iLocal_287 == PLAYER::INT_TO_PLAYERINDEX(iVar1))
+			if (iLocal_287 == PLAYER::INT_TO_PLAYERINDEX(bVar1))
 			{
 				MISC::SET_BIT(&iVar0, bVar1);
 			}

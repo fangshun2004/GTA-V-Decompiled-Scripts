@@ -31859,15 +31859,15 @@ char* func_877(bool bParam0, char* sParam1, char* sParam2)
 
 void func_878(int iParam0, int iParam1, char* sParam2, var uParam3)
 {
-	int iVar0;
+	bool bVar0;
 	
 	if (uParam3->f_693 >= 12)
 	{
 		return;
 	}
-	iVar0 = uParam3->f_693;
-	StringCopy(&(uParam3->f_1[iVar0 /*57*/].f_32), sParam2, 16);
-	MISC::SET_BIT(&(uParam3->f_689), iVar0);
+	bVar0 = uParam3->f_693;
+	StringCopy(&(uParam3->f_1[bVar0 /*57*/].f_32), sParam2, 16);
+	MISC::SET_BIT(&(uParam3->f_689), bVar0);
 	uParam3->f_1[bVar0 /*57*/].f_54 = iParam0;
 	uParam3->f_1[bVar0 /*57*/].f_55 = iParam1;
 	MISC::SET_BIT(&(uParam3->f_690), bVar0);
@@ -31876,15 +31876,15 @@ void func_878(int iParam0, int iParam1, char* sParam2, var uParam3)
 
 void func_879(int iParam0, int iParam1, char* sParam2, var uParam3, bool bParam4, int iParam5)
 {
-	int iVar0;
+	bool bVar0;
 	
 	if (uParam3->f_693 >= 12)
 	{
 		return;
 	}
-	iVar0 = uParam3->f_693;
-	StringCopy(&(uParam3->f_1[iVar0 /*57*/].f_32), sParam2, 16);
-	MISC::SET_BIT(&(uParam3->f_689), iVar0);
+	bVar0 = uParam3->f_693;
+	StringCopy(&(uParam3->f_1[bVar0 /*57*/].f_32), sParam2, 16);
+	MISC::SET_BIT(&(uParam3->f_689), bVar0);
 	uParam3->f_1[bVar0 /*57*/].f_54 = iParam0;
 	uParam3->f_1[bVar0 /*57*/].f_55 = iParam1;
 	uParam3->f_1[bVar0 /*57*/].f_56 = iParam5;

@@ -4462,14 +4462,14 @@ void func_122(int iParam0, int* iParam1, int* iParam2)
 void func_123(struct<2>[] Param0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, var uParam12, var uParam13, var uParam14, var uParam15, var uParam16, var uParam17, var uParam18, var uParam19, var uParam20, int* iParam21, int* iParam22)
 {
 	int iVar0;
-	int iVar1;
+	bool bVar1;
 	
 	iVar0 = 0;
 	while (iVar0 < 10)
 	{
-		iVar1 = iVar0 * 3;
-		func_124(iParam21, Param0[iVar0 /*2*/], iVar1);
-		func_124(iParam22, Param0[iVar0 /*2*/].f_1, iVar1);
+		bVar1 = iVar0 * 3;
+		func_124(iParam21, Param0[iVar0 /*2*/], bVar1);
+		func_124(iParam22, Param0[iVar0 /*2*/].f_1, bVar1);
 		iVar0++;
 	}
 }
@@ -4479,7 +4479,7 @@ void func_124(int* iParam0, int iParam1, bool bParam2)
 	switch (iParam1)
 	{
 		case 0:
-			MISC::CLEAR_BIT(iParam0, iParam2);
+			MISC::CLEAR_BIT(iParam0, bParam2);
 			MISC::CLEAR_BIT(iParam0, bParam2 + 1);
 			MISC::CLEAR_BIT(iParam0, bParam2 + 2);
 			break;

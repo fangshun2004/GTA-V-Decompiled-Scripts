@@ -1188,7 +1188,7 @@ void func_9(int iParam0, bool bParam1, bool bParam2)
 	}
 	if (bParam2)
 	{
-		MISC::CLEAR_BIT(&(Global_100493.f_1393[iParam0]), iParam1);
+		MISC::CLEAR_BIT(&(Global_100493.f_1393[iParam0]), bParam1);
 	}
 	else if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
@@ -1523,7 +1523,7 @@ void func_16(int iParam0, bool bParam1, bool bParam2)
 	}
 	if (bParam2)
 	{
-		MISC::SET_BIT(&(Global_100493.f_1393[iParam0]), iParam1);
+		MISC::SET_BIT(&(Global_100493.f_1393[iParam0]), bParam1);
 	}
 	else if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
@@ -1973,30 +1973,30 @@ void func_32()
 
 void func_33(int* iParam0, bool bParam1, bool bParam2)
 {
-	int iVar0;
+	bool bVar0;
 	
 	if (BitTest(iParam0->f_13, 30))
 	{
 		bParam1 = true;
 	}
 	func_37(iParam0);
-	iVar0 = 0;
-	while (iVar0 < 3)
+	bVar0 = false;
+	while (bVar0 < 3)
 	{
-		if (HUD::DOES_BLIP_EXIST(iParam0->f_1[iVar0]))
+		if (HUD::DOES_BLIP_EXIST(iParam0->f_1[bVar0]))
 		{
-			HUD::REMOVE_BLIP(&(iParam0->f_1[iVar0]));
+			HUD::REMOVE_BLIP(&(iParam0->f_1[bVar0]));
 		}
-		func_36(iVar0, iParam0);
-		func_35(iVar0, iParam0);
-		iVar0++;
+		func_36(bVar0, iParam0);
+		func_35(bVar0, iParam0);
+		bVar0++;
 	}
-	iVar0 = 0;
-	while (iVar0 < 31)
+	bVar0 = false;
+	while (bVar0 < 31)
 	{
-		if (iVar0 != 8)
+		if (bVar0 != 8)
 		{
-			MISC::CLEAR_BIT(&(iParam0->f_13), iVar0);
+			MISC::CLEAR_BIT(&(iParam0->f_13), bVar0);
 			MISC::CLEAR_BIT(&(iParam0->f_14), bVar0);
 		}
 		bVar0++;
@@ -103804,7 +103804,7 @@ void func_614(bool bParam0, bool bParam1)
 {
 	if (bParam1)
 	{
-		MISC::SET_BIT(&Global_32207, iParam0);
+		MISC::SET_BIT(&Global_32207, bParam0);
 	}
 	else
 	{
@@ -110245,7 +110245,7 @@ void func_682(int iParam0, bool bParam1, bool bParam2)
 	}
 	if (bParam2)
 	{
-		MISC::SET_BIT(&(Global_113386.f_32749[iParam0]), iParam1);
+		MISC::SET_BIT(&(Global_113386.f_32749[iParam0]), bParam1);
 	}
 	else
 	{
@@ -125206,7 +125206,7 @@ void func_996(bool bParam0, bool bParam1)
 {
 	if (bParam1)
 	{
-		MISC::SET_BIT(&Global_112024, iParam0);
+		MISC::SET_BIT(&Global_112024, bParam0);
 	}
 	else
 	{

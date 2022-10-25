@@ -1932,7 +1932,7 @@ void func_41(int iParam0, bool bParam1, bool bParam2)
 	}
 	if (bParam2)
 	{
-		MISC::SET_BIT(&(Global_100493.f_1393[iParam0]), iParam1);
+		MISC::SET_BIT(&(Global_100493.f_1393[iParam0]), bParam1);
 	}
 	else if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
@@ -106583,16 +106583,16 @@ var func_644(int iParam0)
 void func_645()
 {
 	int iVar0;
-	int iVar1;
+	bool bVar1;
 	
 	iVar0 = 0;
 	while (iVar0 < 4)
 	{
-		iVar1 = 0;
-		while (iVar1 < func_622(iVar0))
+		bVar1 = false;
+		while (bVar1 < func_622(iVar0))
 		{
-			func_646(iVar0, iVar1);
-			iVar1++;
+			func_646(iVar0, bVar1);
+			bVar1++;
 		}
 		iVar0++;
 	}
@@ -106600,7 +106600,7 @@ void func_645()
 
 void func_646(int iParam0, bool bParam1)
 {
-	MISC::SET_BIT(&(uLocal_1337[iParam0]), iParam1);
+	MISC::SET_BIT(&(uLocal_1337[iParam0]), bParam1);
 }
 
 void func_647()

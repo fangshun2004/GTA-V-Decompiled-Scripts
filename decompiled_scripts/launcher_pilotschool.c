@@ -1029,7 +1029,7 @@ void func_24(int* iParam0)
 void func_25(int* iParam0, float fParam1)
 {
 	iParam0->f_1 = (func_14(BitTest(*iParam0, 4)) - fParam1);
-	MISC::SET_BIT(iParam0, 1);
+	MISC::SET_BIT(iParam0, true);
 	MISC::CLEAR_BIT(iParam0, 2);
 	iParam0->f_2 = 0f;
 }
@@ -2012,7 +2012,7 @@ void func_82(int iParam0, bool bParam1, bool bParam2)
 	}
 	if (bParam1)
 	{
-		MISC::SET_BIT(&(Global_32338[iVar0 /*23*/].f_11), 0);
+		MISC::SET_BIT(&(Global_32338[iVar0 /*23*/].f_11), false);
 		MISC::SET_BIT(&(Global_32338[iVar0 /*23*/].f_11), 15);
 		MISC::SET_BIT(&(Global_32338[iVar0 /*23*/].f_11), 3);
 	}

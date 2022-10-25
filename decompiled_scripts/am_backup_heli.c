@@ -593,13 +593,13 @@ void func_14()
 	}
 }
 
-void func_15(int iParam0, int iParam1)
+void func_15(bool bParam0, int iParam1)
 {
-	if (Global_2703735.f_3572[iParam0] < iParam1)
+	if (Global_2703735.f_3572[bParam0] < iParam1)
 	{
-		Global_2703735.f_3572[iParam0] = iParam1;
+		Global_2703735.f_3572[bParam0] = iParam1;
 	}
-	MISC::SET_BIT(&(Global_2703735.f_3571), iParam0);
+	MISC::SET_BIT(&(Global_2703735.f_3571), bParam0);
 }
 
 void func_16()
@@ -995,7 +995,7 @@ int func_32(var uParam0, int iParam1, int iParam2, int iParam3, int iParam4, boo
 	return 0;
 }
 
-void func_33(int iParam0, int iParam1)
+void func_33(int iParam0, bool bParam1)
 {
 	int iVar0;
 	
@@ -1004,7 +1004,7 @@ void func_33(int iParam0, int iParam1)
 	{
 		iVar0 = DECORATOR::DECOR_GET_INT(iParam0, "AttributeDamage");
 	}
-	MISC::SET_BIT(&iVar0, iParam1);
+	MISC::SET_BIT(&iVar0, bParam1);
 	DECORATOR::DECOR_SET_INT(iParam0, "AttributeDamage", iVar0);
 }
 
@@ -2737,28 +2737,28 @@ void func_98(int iParam0, int iParam1, var uParam2)
 int func_99(int iParam0, bool bParam1)
 {
 	var uVar0;
-	int iVar1;
+	bool bVar1;
 	int iVar2;
 	
-	iVar1 = 0;
-	while (iVar1 < 32)
+	bVar1 = false;
+	while (bVar1 < 32)
 	{
-		iVar2 = PLAYER::INT_TO_PLAYERINDEX(iVar1);
+		iVar2 = PLAYER::INT_TO_PLAYERINDEX(bVar1);
 		if (func_47(iVar2, 0, 0))
 		{
 			if (iVar2 != PLAYER::PLAYER_ID() || iParam0)
 			{
 				if (bParam1)
 				{
-					MISC::SET_BIT(&uVar0, iVar1);
+					MISC::SET_BIT(&uVar0, bVar1);
 				}
 				else if (!func_42(iVar2, 0))
 				{
-					MISC::SET_BIT(&uVar0, iVar1);
+					MISC::SET_BIT(&uVar0, bVar1);
 				}
 			}
 		}
-		iVar1++;
+		bVar1++;
 	}
 	return uVar0;
 }

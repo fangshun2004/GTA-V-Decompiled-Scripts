@@ -1471,7 +1471,7 @@ int func_40(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, in
 	{
 		if (iParam5 == 1)
 		{
-			MISC::SET_BIT(&(Global_113386.f_2363[iParam1 /*164*/][iParam3]), iParam4);
+			MISC::SET_BIT(&(Global_113386.f_2363[iParam1 /*164*/][iParam3]), bParam4);
 		}
 		if (iParam6 == 1)
 		{
@@ -58891,7 +58891,7 @@ int func_274(int iParam0, int iParam1, int iParam2)
 void func_275(int iParam0, int iParam1, bool bParam2, bool bParam3, int iParam4)
 {
 	int iVar0;
-	int iVar1;
+	bool bVar1;
 	int iVar2;
 	int iVar3;
 	
@@ -58900,10 +58900,10 @@ void func_275(int iParam0, int iParam1, bool bParam2, bool bParam3, int iParam4)
 	{
 		iVar0 = iParam4;
 	}
-	if (func_52(iParam0, iParam1, &iVar2, &iVar1, bParam2, bParam3))
+	if (func_52(iParam0, iParam1, &iVar2, &bVar1, bParam2, bParam3))
 	{
 		iVar3 = func_47(iVar2, iVar0, 0);
-		MISC::SET_BIT(&iVar3, iVar1);
+		MISC::SET_BIT(&iVar3, bVar1);
 		func_314(iVar2, iVar3, iVar0, 1, 0);
 	}
 }
@@ -112284,7 +112284,7 @@ int func_839(int iParam0)
 
 void func_840(bool bParam0, int iParam1)
 {
-	MISC::SET_BIT(&Global_32118, iParam0);
+	MISC::SET_BIT(&Global_32118, bParam0);
 	StringCopy(&(Global_32119[bParam0 /*6*/]), SCRIPT::GET_THIS_SCRIPT_NAME(), 24);
 	Global_32174[bParam0] = iParam1;
 }

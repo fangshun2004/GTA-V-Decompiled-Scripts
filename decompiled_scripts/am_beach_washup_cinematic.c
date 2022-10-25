@@ -546,10 +546,10 @@ void func_30(bool bParam0)
 	func_31(16, -1);
 }
 
-void func_31(int iParam0, int iParam1)
+void func_31(bool bParam0, int iParam1)
 {
-	MISC::SET_BIT(&(Global_1648034.f_1047), iParam0);
-	switch (iParam0)
+	MISC::SET_BIT(&(Global_1648034.f_1047), bParam0);
+	switch (bParam0)
 	{
 		case 5:
 			if (iParam1 > -1)

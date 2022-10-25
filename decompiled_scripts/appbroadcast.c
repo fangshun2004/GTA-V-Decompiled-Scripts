@@ -286,28 +286,28 @@ void func_10(int iParam0, int iParam1)
 int func_11(int iParam0, bool bParam1)
 {
 	var uVar0;
-	int iVar1;
+	bool bVar1;
 	int iVar2;
 	
-	iVar1 = 0;
-	while (iVar1 < 32)
+	bVar1 = false;
+	while (bVar1 < 32)
 	{
-		iVar2 = PLAYER::INT_TO_PLAYERINDEX(iVar1);
+		iVar2 = PLAYER::INT_TO_PLAYERINDEX(bVar1);
 		if (func_15(iVar2, 0, 0))
 		{
 			if (iVar2 != PLAYER::PLAYER_ID() || iParam0)
 			{
 				if (bParam1)
 				{
-					MISC::SET_BIT(&uVar0, iVar1);
+					MISC::SET_BIT(&uVar0, bVar1);
 				}
 				else if (!func_12(iVar2, 0))
 				{
-					MISC::SET_BIT(&uVar0, iVar1);
+					MISC::SET_BIT(&uVar0, bVar1);
 				}
 			}
 		}
-		iVar1++;
+		bVar1++;
 	}
 	return uVar0;
 }
@@ -675,39 +675,39 @@ void func_37(int iParam0, char* sParam1, int iParam2, char* sParam3, int iParam4
 	func_38(3, iParam4, sParam5, 2, iParam6, -1);
 }
 
-void func_38(int iParam0, int iParam1, char* sParam2, int iParam3, int* iParam4, int iParam5)
+void func_38(int iParam0, int iParam1, char* sParam2, bool bParam3, int* iParam4, bool bParam5)
 {
 	if (iParam1 == 1)
 	{
 		func_43(Global_20247, "SET_SOFT_KEYS", SYSTEM::TO_FLOAT(iParam0), 0f, SYSTEM::TO_FLOAT(iParam1), -1f, -1f, 0, 0, 0, 0, 0);
-		MISC::CLEAR_BIT(iParam4, iParam3);
-		func_39(iParam5, 0);
+		MISC::CLEAR_BIT(iParam4, bParam3);
+		func_39(bParam5, 0);
 		return;
 	}
 	if (Global_20254)
 	{
 		func_43(Global_20247, "SET_SOFT_KEYS", SYSTEM::TO_FLOAT(iParam0), 1f, SYSTEM::TO_FLOAT(iParam1), -1f, -1f, sParam2, 0, 0, 0, 0);
-		MISC::SET_BIT(iParam4, iParam3);
-		func_39(iParam5, 1);
+		MISC::SET_BIT(iParam4, bParam3);
+		func_39(bParam5, 1);
 		return;
 	}
 	func_43(Global_20247, "SET_SOFT_KEYS", SYSTEM::TO_FLOAT(iParam0), 1f, SYSTEM::TO_FLOAT(iParam1), -1f, -1f, 0, 0, 0, 0, 0);
-	MISC::SET_BIT(iParam4, iParam3);
-	func_39(iParam5, 1);
+	MISC::SET_BIT(iParam4, bParam3);
+	func_39(bParam5, 1);
 }
 
-void func_39(int iParam0, bool bParam1)
+void func_39(bool bParam0, bool bParam1)
 {
-	if (iParam0 == -1)
+	if (bParam0 == -1)
 	{
 		return;
 	}
 	if (bParam1)
 	{
-		MISC::SET_BIT(&Global_8136, iParam0);
+		MISC::SET_BIT(&Global_8136, bParam0);
 		return;
 	}
-	MISC::CLEAR_BIT(&Global_8136, iParam0);
+	MISC::CLEAR_BIT(&Global_8136, bParam0);
 }
 
 void func_40(char* sParam0)

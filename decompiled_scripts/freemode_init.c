@@ -7678,17 +7678,17 @@ void func_257(bool bParam0)
 	}
 }
 
-void func_258(int iParam0, bool bParam1, int iParam2)
+void func_258(bool bParam0, bool bParam1, int iParam2)
 {
 	if (bParam1)
 	{
-		MISC::SET_BIT(&(Global_1648034.f_1048), iParam0);
+		MISC::SET_BIT(&(Global_1648034.f_1048), bParam0);
 	}
 	else
 	{
-		MISC::CLEAR_BIT(&(Global_1648034.f_1048), iParam0);
+		MISC::CLEAR_BIT(&(Global_1648034.f_1048), bParam0);
 	}
-	switch (iParam0)
+	switch (bParam0)
 	{
 		case 5:
 			if (iParam2 > -1)
@@ -8786,9 +8786,9 @@ void func_318()
 	MISC::CLEAR_BIT(&(Global_2621446.f_1), 5);
 	if (func_319(PLAYER::PLAYER_ID(), 1, 1))
 	{
-		MISC::CLEAR_BIT(&(Global_1853348[PLAYER::NETWORK_PLAYER_ID_TO_INT() /*834*/].f_768), 1);
-		MISC::CLEAR_BIT(&(Global_1853348[PLAYER::NETWORK_PLAYER_ID_TO_INT() /*834*/].f_768), 0);
-		MISC::CLEAR_BIT(&Global_1836095, 0);
+		MISC::CLEAR_BIT(&(Global_1853348[PLAYER::NETWORK_PLAYER_ID_TO_INT() /*834*/].f_768), true);
+		MISC::CLEAR_BIT(&(Global_1853348[PLAYER::NETWORK_PLAYER_ID_TO_INT() /*834*/].f_768), false);
+		MISC::CLEAR_BIT(&Global_1836095, false);
 		MISC::CLEAR_BIT(&(Global_1853348[PLAYER::PLAYER_ID() /*834*/].f_833), 7);
 	}
 }

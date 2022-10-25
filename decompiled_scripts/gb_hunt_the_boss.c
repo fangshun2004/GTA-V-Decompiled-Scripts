@@ -2220,7 +2220,7 @@ bool func_79()
 
 void func_80(bool bParam0)
 {
-	MISC::SET_BIT(&(Global_1892703[PLAYER::PLAYER_ID() /*599*/].f_10.f_4), iParam0);
+	MISC::SET_BIT(&(Global_1892703[PLAYER::PLAYER_ID() /*599*/].f_10.f_4), bParam0);
 }
 
 int func_81()
@@ -46111,11 +46111,11 @@ var func_281(bool bParam0)
 void func_282(int iParam0)
 {
 	int iVar0;
-	int iVar1;
+	bool bVar1;
 	
 	iVar0 = (iParam0 / 32);
-	iVar1 = (iParam0 % 32);
-	MISC::SET_BIT(&(Global_2815059.f_5195.f_7[iVar0]), iVar1);
+	bVar1 = (iParam0 % 32);
+	MISC::SET_BIT(&(Global_2815059.f_5195.f_7[iVar0]), bVar1);
 }
 
 int func_283(char* sParam0, bool bParam1, int iParam2, int iParam3, bool bParam4, int iParam5)
@@ -70196,10 +70196,10 @@ bool func_764(int* iParam0, bool bParam1, int iParam2)
 {
 	var uVar0;
 	
-	uVar0 = BitTest(*iParam0, iParam1);
+	uVar0 = BitTest(*iParam0, bParam1);
 	if (iParam2 == 0)
 	{
-		MISC::CLEAR_BIT(iParam0, iParam1);
+		MISC::CLEAR_BIT(iParam0, bParam1);
 	}
 	else if (iParam2 == 1)
 	{
@@ -73002,7 +73002,7 @@ void func_844(bool bParam0)
 
 void func_845(bool bParam0)
 {
-	MISC::SET_BIT(&Global_1835493, iParam0);
+	MISC::SET_BIT(&Global_1835493, bParam0);
 }
 
 void func_846(bool bParam0, bool bParam1)
@@ -73329,7 +73329,7 @@ void func_850(int iParam0, bool bParam1, bool bParam2)
 	}
 	if (bParam2)
 	{
-		MISC::SET_BIT(&(Global_100493.f_1393[iParam0]), iParam1);
+		MISC::SET_BIT(&(Global_100493.f_1393[iParam0]), bParam1);
 	}
 	else if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
@@ -74220,7 +74220,7 @@ void func_896()
 
 void func_897(bool bParam0)
 {
-	MISC::SET_BIT(&(Global_2815059.f_5195.f_47), iParam0);
+	MISC::SET_BIT(&(Global_2815059.f_5195.f_47), bParam0);
 }
 
 void func_898(int iParam0)
@@ -74901,13 +74901,13 @@ void func_922()
 void func_923(int iParam0)
 {
 	int iVar0;
-	int iVar1;
+	bool bVar1;
 	
 	iVar0 = func_28(3794, -1, 0);
-	iVar1 = func_924(iParam0);
-	if (iVar1 != -1)
+	bVar1 = func_924(iParam0);
+	if (bVar1 != -1)
 	{
-		MISC::SET_BIT(&iVar0, iVar1);
+		MISC::SET_BIT(&iVar0, bVar1);
 		func_25(3794, iVar0, -1, 1, 0);
 	}
 }
@@ -76126,7 +76126,7 @@ void func_969(bool bParam0)
 
 void func_970(bool bParam0)
 {
-	MISC::SET_BIT(&(Global_1892703[PLAYER::PLAYER_ID() /*599*/].f_10.f_5), iParam0);
+	MISC::SET_BIT(&(Global_1892703[PLAYER::PLAYER_ID() /*599*/].f_10.f_5), bParam0);
 }
 
 bool func_971(int iParam0, int iParam1)

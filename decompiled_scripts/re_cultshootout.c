@@ -846,7 +846,7 @@ int func_28(bool bParam0)
 	return BitTest(Global_78567, 0);
 }
 
-void func_29(int iParam0, int iParam1)
+void func_29(int iParam0, bool bParam1)
 {
 	if (iParam0 == -1)
 	{
@@ -856,9 +856,9 @@ void func_29(int iParam0, int iParam1)
 	{
 		return;
 	}
-	if (iParam1 <= func_52(iParam0))
+	if (bParam1 <= func_52(iParam0))
 	{
-		func_51(iParam0, iParam1);
+		func_51(iParam0, bParam1);
 		if (!func_50(51))
 		{
 			func_40("RE_REWARD", 1, 0, 4000, 10000, func_43(), 0, 138, 0);
@@ -868,11 +868,11 @@ void func_29(int iParam0, int iParam1)
 		{
 			Global_113386.f_24995.f_2 = 3;
 		}
-		if (func_37(iParam0, iParam1) != 322)
+		if (func_37(iParam0, bParam1) != 322)
 		{
-			func_31(func_37(iParam0, iParam1), Local_43.f_0, Local_43.f_1);
+			func_31(func_37(iParam0, bParam1), Local_43.f_0, Local_43.f_1);
 		}
-		Global_113374 = iParam1;
+		Global_113374 = bParam1;
 		if (Global_113372 == 0)
 		{
 			if (((Global_113375 == 1 || Global_113375 == 5) || Global_113375 == 11) || Global_113375 == 25)
@@ -1171,7 +1171,7 @@ int func_36()
 	return Global_1574918;
 }
 
-int func_37(int iParam0, int iParam1)
+int func_37(int iParam0, bool bParam1)
 {
 	switch (iParam0)
 	{
@@ -1196,11 +1196,11 @@ int func_37(int iParam0, int iParam1)
 			break;
 		
 		case 5:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 281;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 282;
 			}
@@ -1215,43 +1215,43 @@ int func_37(int iParam0, int iParam1)
 			break;
 		
 		case 9:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 271;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 272;
 			}
-			if (iParam1 == 3)
+			if (bParam1 == 3)
 			{
 				return 273;
 			}
-			if (iParam1 == 4)
+			if (bParam1 == 4)
 			{
 				return 274;
 			}
-			if (iParam1 == 5)
+			if (bParam1 == 5)
 			{
 				return 275;
 			}
-			if (iParam1 == 6)
+			if (bParam1 == 6)
 			{
 				return 276;
 			}
-			if (iParam1 == 7)
+			if (bParam1 == 7)
 			{
 				return 277;
 			}
-			if (iParam1 == 8)
+			if (bParam1 == 8)
 			{
 				return 278;
 			}
-			if (iParam1 == 9)
+			if (bParam1 == 9)
 			{
 				return 279;
 			}
-			if (iParam1 == 10)
+			if (bParam1 == 10)
 			{
 				return 280;
 			}
@@ -1262,19 +1262,19 @@ int func_37(int iParam0, int iParam1)
 			break;
 		
 		case 11:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 246;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 247;
 			}
-			if (iParam1 == 3)
+			if (bParam1 == 3)
 			{
 				return 248;
 			}
-			if (iParam1 == 4)
+			if (bParam1 == 4)
 			{
 				return 249;
 			}
@@ -1285,19 +1285,19 @@ int func_37(int iParam0, int iParam1)
 			break;
 		
 		case 13:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 260;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 261;
 			}
-			if (iParam1 == 3)
+			if (bParam1 == 3)
 			{
 				return 262;
 			}
-			if (iParam1 == 4)
+			if (bParam1 == 4)
 			{
 				return 264;
 			}
@@ -1308,11 +1308,11 @@ int func_37(int iParam0, int iParam1)
 			break;
 		
 		case 15:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 224;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 225;
 			}
@@ -1323,11 +1323,11 @@ int func_37(int iParam0, int iParam1)
 			break;
 		
 		case 17:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 244;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 245;
 			}
@@ -1350,22 +1350,22 @@ int func_37(int iParam0, int iParam1)
 			break;
 		
 		case 22:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 221;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 222;
 			}
 			break;
 		
 		case 23:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 213;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 214;
 			}
@@ -1376,15 +1376,15 @@ int func_37(int iParam0, int iParam1)
 			break;
 		
 		case 25:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 267;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 268;
 			}
-			if (iParam1 == 3)
+			if (bParam1 == 3)
 			{
 				return 269;
 			}
@@ -1395,22 +1395,22 @@ int func_37(int iParam0, int iParam1)
 			break;
 		
 		case 26:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 227;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 228;
 			}
 			break;
 		
 		case 27:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 257;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 258;
 			}
@@ -1421,15 +1421,15 @@ int func_37(int iParam0, int iParam1)
 			break;
 		
 		case 29:
-			if (iParam1 == 1)
+			if (bParam1 == 1)
 			{
 				return 229;
 			}
-			if (iParam1 == 2)
+			if (bParam1 == 2)
 			{
 				return 230;
 			}
-			if (iParam1 == 3)
+			if (bParam1 == 3)
 			{
 				return 231;
 			}
@@ -1470,19 +1470,19 @@ int func_38(int iParam0)
 
 void func_39(int iParam0)
 {
-	int iVar0;
+	bool bVar0;
 	int iVar1;
 	
-	iVar0 = iParam0;
+	bVar0 = iParam0;
 	iVar1 = 0;
-	while (iVar0 > 31)
+	while (bVar0 > 31)
 	{
-		iVar0 = (iVar0 - 32);
+		bVar0 = (bVar0 - 32);
 		iVar1++;
 	}
 	if (iVar1 < 3)
 	{
-		MISC::SET_BIT(&(Global_113386.f_20410.f_150[iVar1]), iVar0);
+		MISC::SET_BIT(&(Global_113386.f_20410.f_150[iVar1]), bVar0);
 	}
 }
 
@@ -1713,9 +1713,9 @@ int func_50(int iParam0)
 	return 0;
 }
 
-void func_51(int iParam0, int iParam1)
+void func_51(int iParam0, bool bParam1)
 {
-	MISC::SET_BIT(&(Global_113386.f_24995.f_8[iParam0]), iParam1);
+	MISC::SET_BIT(&(Global_113386.f_24995.f_8[iParam0]), bParam1);
 }
 
 int func_52(int iParam0)
@@ -1980,7 +1980,7 @@ void func_59(int iParam0)
 				{
 					func_57(func_60(iParam0), -1);
 					Global_113386.f_24995.f_2++;
-					MISC::SET_BIT(&Global_113382, 0);
+					MISC::SET_BIT(&Global_113382, false);
 				}
 			}
 			break;
@@ -1992,7 +1992,7 @@ void func_59(int iParam0)
 				{
 					func_57(func_60(iParam0), -1);
 					Global_113386.f_24995.f_3++;
-					MISC::SET_BIT(&Global_113382, 1);
+					MISC::SET_BIT(&Global_113382, true);
 				}
 			}
 			break;
@@ -3299,7 +3299,7 @@ void func_96()
 		ENTITY::SET_ENTITY_AS_MISSION_ENTITY(iLocal_110[1], true, false);
 		VEHICLE::SET_VEHICLE_EXTRA(iLocal_110[1], 1, false);
 		iVar0 = 0;
-		MISC::SET_BIT(&iVar0, 1);
+		MISC::SET_BIT(&iVar0, true);
 		iLocal_113 = OBJECT::CREATE_PICKUP_ROTATE(joaat("pickup_money_case"), Local_51, -1.368082f, 0.230633f, 176.8749f, iVar0, MISC::GET_RANDOM_INT_IN_RANGE(40000, 100000), 2, true, joaat("prop_cash_case_01"));
 		Local_54[0 /*3*/] = { 2205.769f, 5631.985f, 55.553f };
 		fLocal_80[0] = 352.2203f;
@@ -5255,7 +5255,7 @@ int func_141()
 				if (MISC::ARE_PROFILE_SETTINGS_VALID())
 				{
 					iVar0 = MISC::GET_PROFILE_SETTING(866);
-					MISC::SET_BIT(&iVar0, 0);
+					MISC::SET_BIT(&iVar0, false);
 					STATS::SET_HAS_SPECIALEDITION_CONTENT(iVar0);
 				}
 				return 1;

@@ -330,7 +330,7 @@ void func_1()
 			break;
 		
 		case 3:
-			MISC::SET_BIT(&(Global_113386.f_10049.f_99), 0);
+			MISC::SET_BIT(&(Global_113386.f_10049.f_99), false);
 			func_2();
 			break;
 	}
@@ -395,7 +395,7 @@ void func_5(int iParam0, bool bParam1)
 	}
 }
 
-void func_6(int iParam0, int iParam1, bool bParam2)
+void func_6(int iParam0, bool bParam1, bool bParam2)
 {
 	if (iParam0 == -1)
 	{
@@ -403,11 +403,11 @@ void func_6(int iParam0, int iParam1, bool bParam2)
 	}
 	if (bParam2)
 	{
-		MISC::SET_BIT(&(Global_113386.f_32749[iParam0]), iParam1);
+		MISC::SET_BIT(&(Global_113386.f_32749[iParam0]), bParam1);
 	}
 	else
 	{
-		MISC::CLEAR_BIT(&(Global_113386.f_32749[iParam0]), iParam1);
+		MISC::CLEAR_BIT(&(Global_113386.f_32749[iParam0]), bParam1);
 	}
 }
 
@@ -1583,7 +1583,7 @@ int func_26()
 	iVar0 = func_27();
 	if (iVar0 == 20)
 	{
-		MISC::SET_BIT(&(Global_113386.f_10049.f_99), 1);
+		MISC::SET_BIT(&(Global_113386.f_10049.f_99), true);
 	}
 	return iVar0;
 }
@@ -1729,7 +1729,7 @@ void func_35(int* iParam0)
 void func_36(int* iParam0, float fParam1)
 {
 	iParam0->f_1 = (func_18(BitTest(*iParam0, 4)) - fParam1);
-	MISC::SET_BIT(iParam0, 1);
+	MISC::SET_BIT(iParam0, true);
 	MISC::CLEAR_BIT(iParam0, 2);
 	iParam0->f_2 = 0f;
 }
@@ -3245,7 +3245,7 @@ int func_81()
 				if (MISC::ARE_PROFILE_SETTINGS_VALID())
 				{
 					iVar0 = MISC::GET_PROFILE_SETTING(866);
-					MISC::SET_BIT(&iVar0, 0);
+					MISC::SET_BIT(&iVar0, false);
 					STATS::SET_HAS_SPECIALEDITION_CONTENT(iVar0);
 				}
 				return 1;

@@ -1223,7 +1223,7 @@ void func_25(int* iParam0)
 void func_26(int* iParam0, float fParam1)
 {
 	iParam0->f_1 = (func_13(BitTest(*iParam0, 4)) - fParam1);
-	MISC::SET_BIT(iParam0, 1);
+	MISC::SET_BIT(iParam0, true);
 	MISC::CLEAR_BIT(iParam0, 2);
 	iParam0->f_2 = 0f;
 }
@@ -1367,15 +1367,15 @@ void func_31(int iParam0, int iParam1)
 	}
 }
 
-void func_32(int iParam0, bool bParam1)
+void func_32(bool bParam0, bool bParam1)
 {
 	if (bParam1)
 	{
-		MISC::SET_BIT(&Global_112024, iParam0);
+		MISC::SET_BIT(&Global_112024, bParam0);
 	}
 	else
 	{
-		MISC::CLEAR_BIT(&Global_112024, iParam0);
+		MISC::CLEAR_BIT(&Global_112024, bParam0);
 	}
 	Global_112023 = 1;
 }
@@ -3821,7 +3821,7 @@ void func_53()
 						{
 							func_80(&uLocal_122, "OJBJAUD", func_100(iLocal_121), 8, 0, 0, 0);
 							TASK::TASK_LOOK_AT_ENTITY(Local_287.f_3, PLAYER::PLAYER_PED_ID(), 6000, 0, 2);
-							MISC::SET_BIT(&(Local_287.f_169), 0);
+							MISC::SET_BIT(&(Local_287.f_169), false);
 						}
 					}
 				}
@@ -4264,15 +4264,15 @@ void func_67(int iParam0, bool bParam1, int iParam2)
 	func_68(23, 1);
 }
 
-void func_68(int iParam0, bool bParam1)
+void func_68(bool bParam0, bool bParam1)
 {
 	if (bParam1)
 	{
-		MISC::SET_BIT(&Global_32207, iParam0);
+		MISC::SET_BIT(&Global_32207, bParam0);
 	}
 	else
 	{
-		MISC::CLEAR_BIT(&Global_32207, iParam0);
+		MISC::CLEAR_BIT(&Global_32207, bParam0);
 	}
 }
 
@@ -4564,7 +4564,7 @@ int func_81(char* sParam0, int iParam1, bool bParam2)
 		{
 			MISC::CLEAR_BIT(&Global_8136, 20);
 			MISC::CLEAR_BIT(&Global_8137, 17);
-			MISC::CLEAR_BIT(&Global_8138, 0);
+			MISC::CLEAR_BIT(&Global_8138, false);
 			if (bParam2)
 			{
 				func_90();
@@ -6192,13 +6192,13 @@ void func_155(int iParam0, bool bParam1, bool bParam2)
 	}
 	if (bParam1)
 	{
-		MISC::SET_BIT(&(Global_32338[iVar0 /*23*/].f_11), 0);
+		MISC::SET_BIT(&(Global_32338[iVar0 /*23*/].f_11), false);
 		MISC::SET_BIT(&(Global_32338[iVar0 /*23*/].f_11), 15);
 		MISC::SET_BIT(&(Global_32338[iVar0 /*23*/].f_11), 3);
 	}
 	else
 	{
-		MISC::CLEAR_BIT(&(Global_32338[iVar0 /*23*/].f_11), 0);
+		MISC::CLEAR_BIT(&(Global_32338[iVar0 /*23*/].f_11), false);
 		MISC::CLEAR_BIT(&(Global_32338[iVar0 /*23*/].f_11), 15);
 	}
 	if (!BitTest(Global_32338[iVar0 /*23*/].f_11, 0))

@@ -453,13 +453,13 @@ void func_16()
 	}
 }
 
-void func_17(int iParam0, int iParam1)
+void func_17(bool bParam0, int iParam1)
 {
-	if (Global_2703735.f_3572[iParam0] < iParam1)
+	if (Global_2703735.f_3572[bParam0] < iParam1)
 	{
-		Global_2703735.f_3572[iParam0] = iParam1;
+		Global_2703735.f_3572[bParam0] = iParam1;
 	}
-	MISC::SET_BIT(&(Global_2703735.f_3571), iParam0);
+	MISC::SET_BIT(&(Global_2703735.f_3571), bParam0);
 }
 
 void func_18()
@@ -859,7 +859,7 @@ int func_34(var uParam0, int iParam1, int iParam2, int iParam3, int iParam4, boo
 	return 0;
 }
 
-void func_35(int iParam0, int iParam1)
+void func_35(int iParam0, bool bParam1)
 {
 	int iVar0;
 	
@@ -868,7 +868,7 @@ void func_35(int iParam0, int iParam1)
 	{
 		iVar0 = DECORATOR::DECOR_GET_INT(iParam0, "AttributeDamage");
 	}
-	MISC::SET_BIT(&iVar0, iParam1);
+	MISC::SET_BIT(&iVar0, bParam1);
 	DECORATOR::DECOR_SET_INT(iParam0, "AttributeDamage", iVar0);
 }
 

@@ -1270,7 +1270,7 @@ int func_32(int iParam0, char* sParam1, int iParam2, int iParam3, int iParam4, i
 			Global_8843 = iParam6;
 			Global_8746[3 /*6*/] = { func_33(iParam0) };
 			Global_8823 = iParam0;
-			MISC::SET_BIT(&Global_8136, 1);
+			MISC::SET_BIT(&Global_8136, true);
 			MISC::SET_BIT(&Global_8136, 7);
 		}
 		return 1;
@@ -2740,28 +2740,28 @@ void func_89(struct<2> Param0, var uParam2, var uParam3, var uParam4, var uParam
 int func_90(int iParam0, bool bParam1)
 {
 	var uVar0;
-	int iVar1;
+	bool bVar1;
 	int iVar2;
 	
-	iVar1 = 0;
-	while (iVar1 < 32)
+	bVar1 = false;
+	while (bVar1 < 32)
 	{
-		iVar2 = PLAYER::INT_TO_PLAYERINDEX(iVar1);
+		iVar2 = PLAYER::INT_TO_PLAYERINDEX(bVar1);
 		if (func_10(iVar2, 0, 0))
 		{
 			if (iVar2 != PLAYER::PLAYER_ID() || iParam0)
 			{
 				if (bParam1)
 				{
-					MISC::SET_BIT(&uVar0, iVar1);
+					MISC::SET_BIT(&uVar0, bVar1);
 				}
 				else if (!func_62(iVar2, 0))
 				{
-					MISC::SET_BIT(&uVar0, iVar1);
+					MISC::SET_BIT(&uVar0, bVar1);
 				}
 			}
 		}
-		iVar1++;
+		bVar1++;
 	}
 	return uVar0;
 }
@@ -2778,11 +2778,11 @@ int func_91(int iParam0)
 void func_92(int iParam0)
 {
 	int iVar0;
-	int iVar1;
+	bool bVar1;
 	
 	iVar0 = (iParam0 / 32);
-	iVar1 = (iParam0 % 32);
-	MISC::SET_BIT(&(Global_2815059.f_5195.f_7[iVar0]), iVar1);
+	bVar1 = (iParam0 % 32);
+	MISC::SET_BIT(&(Global_2815059.f_5195.f_7[iVar0]), bVar1);
 }
 
 void func_93()
@@ -2812,9 +2812,9 @@ void func_93()
 	}
 }
 
-void func_94(int iParam0)
+void func_94(bool bParam0)
 {
-	MISC::SET_BIT(&(Global_1892703[PLAYER::PLAYER_ID() /*599*/].f_10.f_4), iParam0);
+	MISC::SET_BIT(&(Global_1892703[PLAYER::PLAYER_ID() /*599*/].f_10.f_4), bParam0);
 }
 
 void func_95(bool bParam0)
@@ -3444,9 +3444,9 @@ void func_128(int iParam0, int iParam1, int iParam2, bool bParam3, bool bParam4)
 	}
 }
 
-void func_129(int iParam0)
+void func_129(bool bParam0)
 {
-	MISC::SET_BIT(&(Global_2653164.f_2), iParam0);
+	MISC::SET_BIT(&(Global_2653164.f_2), bParam0);
 	if (Global_2653164)
 	{
 		return;
@@ -3650,7 +3650,7 @@ void func_142()
 				func_143(bVar1);
 			}
 		}
-		iVar0++;
+		bVar0++;
 	}
 }
 
@@ -4002,7 +4002,7 @@ int func_168()
 				iVar1++;
 			}
 		}
-		iVar0++;
+		bVar0++;
 	}
 	return iVar1;
 }

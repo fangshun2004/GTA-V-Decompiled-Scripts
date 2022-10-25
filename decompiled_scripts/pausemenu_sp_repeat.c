@@ -227,7 +227,7 @@ void func_1(int iParam0, int iParam1)
 			Global_112473[iParam0 /*10*/].f_3 = 1;
 		}
 	}
-	MISC::SET_BIT(&Global_78567, 0);
+	MISC::SET_BIT(&Global_78567, false);
 }
 
 void func_2(int iParam0, int iParam1)

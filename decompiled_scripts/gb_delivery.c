@@ -116917,7 +116917,7 @@ void func_1254(int iParam0)
 
 void func_1255(bool bParam0, bool bParam1, int iParam2)
 {
-	switch (iParam0)
+	switch (bParam0)
 	{
 		case 5:
 			if (iParam2 > -1)
@@ -116929,7 +116929,7 @@ void func_1255(bool bParam0, bool bParam1, int iParam2)
 		default:
 			if (bParam1)
 			{
-				MISC::SET_BIT(&(Global_1648034.f_1046), iParam0);
+				MISC::SET_BIT(&(Global_1648034.f_1046), bParam0);
 			}
 			else
 			{
@@ -117479,7 +117479,7 @@ void func_1271(bool bParam0, int iParam1, bool bParam2, bool bParam3)
 void func_1272()
 {
 	bool bVar0;
-	int iVar1;
+	bool bVar1;
 	
 	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS() && func_5(&Global_2824370))
 	{
@@ -117522,10 +117522,10 @@ void func_1272()
 		{
 			if (BitTest(Global_2824374, bVar0))
 			{
-				iVar1 = PLAYER::INT_TO_PLAYERINDEX(bVar0);
-				if (func_8(iVar1, 1, 1))
+				bVar1 = PLAYER::INT_TO_PLAYERINDEX(bVar0);
+				if (func_8(bVar1, 1, 1))
 				{
-					func_1273(iVar1);
+					func_1273(bVar1);
 				}
 			}
 			bVar0++;
@@ -117535,9 +117535,9 @@ void func_1272()
 
 void func_1273(bool bParam0)
 {
-	if (BitTest(Global_2824374, iParam0) && NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
+	if (BitTest(Global_2824374, bParam0) && NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
-		if (!func_70(&(Global_2824375[iParam0 /*2*/]), 3500, 1) || NETWORK::NETWORK_IS_PLAYER_FADING(iParam0))
+		if (!func_70(&(Global_2824375[bParam0 /*2*/]), 3500, 1) || NETWORK::NETWORK_IS_PLAYER_FADING(bParam0))
 		{
 			if (!func_797())
 			{
@@ -194302,7 +194302,7 @@ void func_2260()
 
 void func_2261(bool bParam0)
 {
-	MISC::CLEAR_BIT(&(Global_1892703[PLAYER::PLAYER_ID() /*599*/].f_10.f_5), iParam0);
+	MISC::CLEAR_BIT(&(Global_1892703[PLAYER::PLAYER_ID() /*599*/].f_10.f_5), bParam0);
 }
 
 void func_2262(var uParam0)

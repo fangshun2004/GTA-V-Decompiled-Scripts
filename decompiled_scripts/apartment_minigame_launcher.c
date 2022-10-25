@@ -455,17 +455,17 @@ void func_3()
 	int iVar1;
 	int iVar2;
 	bool bVar3;
-	int iVar4;
+	bool bVar4;
 	int iVar5;
 	bool bVar6;
 	bool bVar7;
-	int iVar8;
+	bool bVar8;
 	bool bVar9;
-	int iVar10;
+	bool bVar10;
 	int iVar11;
 	int iVar12;
 	int iVar13;
-	int iVar14;
+	bool bVar14;
 	bool bVar15;
 	bool bVar16;
 	
@@ -507,11 +507,11 @@ void func_3()
 		}
 		iVar2++;
 	}
-	iVar4 = 0;
-	iVar4 = 0;
-	while (iVar4 < 2)
+	bVar4 = false;
+	bVar4 = false;
+	while (bVar4 < 2)
 	{
-		iLocal_377[iVar4] = func_20(&Local_380, iVar4);
+		iLocal_377[bVar4] = func_20(&Local_380, bVar4);
 		bVar6 = false;
 		bVar7 = false;
 		bVar3 = false;
@@ -520,17 +520,17 @@ void func_3()
 			iVar5 = PLAYER::INT_TO_PARTICIPANTINDEX(bVar3);
 			if (NETWORK::NETWORK_IS_PARTICIPANT_ACTIVE(iVar5))
 			{
-				if ((func_19(&(Local_380[bVar3 /*5*/]), 1) && func_19(&(Local_380[bVar3 /*5*/]), 7)) && Local_380[bVar3 /*5*/].f_1 == iVar4)
+				if ((func_19(&(Local_380[bVar3 /*5*/]), 1) && func_19(&(Local_380[bVar3 /*5*/]), 7)) && Local_380[bVar3 /*5*/].f_1 == bVar4)
 				{
 					bVar7 = true;
 				}
-				if (iLocal_377[iVar4] > Local_334[iVar4 /*21*/].f_11)
+				if (iLocal_377[bVar4] > Local_334[bVar4 /*21*/].f_11)
 				{
 					if (!bVar6)
 					{
-						if (Local_380[bVar3 /*5*/].f_1 == iVar4 && func_19(&(Local_380[bVar3 /*5*/]), 1))
+						if (Local_380[bVar3 /*5*/].f_1 == bVar4 && func_19(&(Local_380[bVar3 /*5*/]), 1))
 						{
-							func_18(1473310688, NETWORK::NETWORK_GET_PLAYER_INDEX(iVar5), iVar4);
+							func_18(1473310688, NETWORK::NETWORK_GET_PLAYER_INDEX(iVar5), bVar4);
 							bVar6 = true;
 						}
 					}
@@ -538,10 +538,10 @@ void func_3()
 			}
 			bVar3++;
 		}
-		func_17(&(Local_254.f_3), iVar4, bVar7);
-		func_17(&(Local_254.f_1), iVar4, iLocal_377[iVar4] < Local_334[iVar4 /*21*/].f_11);
-		func_17(&(Local_254.f_2), iVar4, iLocal_377[iVar4] >= Local_334[iVar4 /*21*/].f_10);
-		if (iLocal_377[iVar4] > 0)
+		func_17(&(Local_254.f_3), bVar4, bVar7);
+		func_17(&(Local_254.f_1), bVar4, iLocal_377[bVar4] < Local_334[bVar4 /*21*/].f_11);
+		func_17(&(Local_254.f_2), bVar4, iLocal_377[bVar4] >= Local_334[bVar4 /*21*/].f_10);
+		if (iLocal_377[bVar4] > 0)
 		{
 			if (!func_174(&iLocal_331))
 			{
@@ -550,16 +550,16 @@ void func_3()
 			else if (func_14(&iLocal_331) >= 1f)
 			{
 				func_11(&iLocal_331);
-				iVar8 = -1;
+				bVar8 = -1;
 				bVar9 = false;
 				bVar3 = false;
 				while (bVar3 < NETWORK::NETWORK_GET_MAX_NUM_PARTICIPANTS())
 				{
 					if (NETWORK::NETWORK_IS_PARTICIPANT_ACTIVE(PLAYER::INT_TO_PARTICIPANTINDEX(bVar3)))
 					{
-						if (Local_380[bVar3 /*5*/].f_1 == iVar4 && func_19(&(Local_380[bVar3 /*5*/]), 1))
+						if (Local_380[bVar3 /*5*/].f_1 == bVar4 && func_19(&(Local_380[bVar3 /*5*/]), 1))
 						{
-							iVar8 = bVar3;
+							bVar8 = bVar3;
 							if (func_19(&(Local_380[bVar3 /*5*/]), 0))
 							{
 								bVar9 = true;
@@ -567,7 +567,7 @@ void func_3()
 						}
 						else
 						{
-							switch (iVar4)
+							switch (bVar4)
 							{
 								case 0:
 									if (BitTest(Local_254.f_5, bVar3))
@@ -589,46 +589,46 @@ void func_3()
 				}
 				if (!bVar9)
 				{
-					if (!func_10(iVar4, &Local_254, iVar8))
+					if (!func_10(bVar4, &Local_254, bVar8))
 					{
 					}
 				}
 			}
 		}
-		if (iVar4 == iVar0)
+		if (bVar4 == iVar0)
 		{
-			if (iLocal_377[iVar4] >= Local_334[iVar4 /*21*/].f_10)
+			if (iLocal_377[bVar4] >= Local_334[bVar4 /*21*/].f_10)
 			{
-				func_9(&Local_121, iLocal_324, iVar4);
-				iVar10 = func_7(&Local_380, Local_121, iVar4);
+				func_9(&Local_121, iLocal_324, bVar4);
+				bVar10 = func_7(&Local_380, Local_121, bVar4);
 				iVar11 = 0;
-				iVar12 = Local_334[iVar4 /*21*/].f_11;
+				iVar12 = Local_334[bVar4 /*21*/].f_11;
 				iVar13 = MISC::GET_RANDOM_INT_IN_RANGE(0, 65535);
 				bVar3 = false;
 				while (bVar3 < NETWORK::NETWORK_GET_MAX_NUM_PARTICIPANTS())
 				{
 					if (NETWORK::NETWORK_IS_PARTICIPANT_ACTIVE(PLAYER::INT_TO_PARTICIPANTINDEX(bVar3)))
 					{
-						iVar14 = NETWORK::NETWORK_GET_PLAYER_INDEX(PLAYER::INT_TO_PARTICIPANTINDEX(bVar3));
-						if (func_19(&(Local_380[bVar3 /*5*/]), 1) && Local_380[bVar3 /*5*/].f_1 == iVar4)
+						bVar14 = NETWORK::NETWORK_GET_PLAYER_INDEX(PLAYER::INT_TO_PARTICIPANTINDEX(bVar3));
+						if (func_19(&(Local_380[bVar3 /*5*/]), 1) && Local_380[bVar3 /*5*/].f_1 == bVar4)
 						{
 							if (iVar11 <= iVar12)
 							{
 								bVar15 = false;
-								if (iVar14 == iVar1)
+								if (bVar14 == iVar1)
 								{
 									bVar15 = true;
-									if (iVar10 == -1)
+									if (bVar10 == -1)
 									{
-										iVar10 = iVar14;
+										bVar10 = bVar14;
 									}
 								}
 								bVar16 = false;
-								if (iVar10 == iVar14)
+								if (bVar10 == bVar14)
 								{
 									bVar16 = true;
 								}
-								func_4(iVar13, iVar14, iVar4, 0, bVar15, bVar16);
+								func_4(iVar13, bVar14, bVar4, 0, bVar15, bVar16);
 								iVar11++;
 							}
 						}
@@ -637,11 +637,11 @@ void func_3()
 				}
 			}
 		}
-		iVar4++;
+		bVar4++;
 	}
 }
 
-void func_4(int iParam0, int iParam1, int iParam2, bool bParam3, bool bParam4, bool bParam5)
+void func_4(int iParam0, bool bParam1, bool bParam2, bool bParam3, bool bParam4, bool bParam5)
 {
 	struct<6> Var0;
 	
@@ -650,19 +650,19 @@ void func_4(int iParam0, int iParam1, int iParam2, bool bParam3, bool bParam4, b
 	func_6(&(Var0.f_2), 4, bParam3);
 	func_6(&(Var0.f_2), 2, bParam4);
 	func_6(&(Var0.f_2), 5, bParam5);
-	Var0.f_4 = iParam1;
-	Var0.f_3 = iParam2;
+	Var0.f_4 = bParam1;
+	Var0.f_3 = bParam2;
 	Var0.f_5 = iParam0;
-	SCRIPT::TRIGGER_SCRIPT_EVENT(1, &Var0, 6, func_5(iParam1));
+	SCRIPT::TRIGGER_SCRIPT_EVENT(1, &Var0, 6, func_5(bParam1));
 }
 
-var func_5(int iParam0)
+var func_5(bool bParam0)
 {
 	var uVar0;
 	
-	if (iParam0 != -1)
+	if (bParam0 != -1)
 	{
-		MISC::SET_BIT(&uVar0, iParam0);
+		MISC::SET_BIT(&uVar0, bParam0);
 	}
 	return uVar0;
 }
@@ -671,25 +671,25 @@ void func_6(int* iParam0, bool bParam1, bool bParam2)
 {
 	bool bVar0;
 	
-	bVar0 = BitTest(*iParam0, iParam1);
+	bVar0 = BitTest(*iParam0, bParam1);
 	if (bParam2)
 	{
 		if (!bVar0)
 		{
-			MISC::SET_BIT(iParam0, iParam1);
+			MISC::SET_BIT(iParam0, bParam1);
 		}
 	}
 	else if (bVar0)
 	{
-		MISC::CLEAR_BIT(iParam0, iParam1);
+		MISC::CLEAR_BIT(iParam0, bParam1);
 	}
 }
 
-int func_7(var uParam0, struct<13>[] Param1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, var uParam12, var uParam13, var uParam14, var uParam15, var uParam16, var uParam17, var uParam18, var uParam19, var uParam20, var uParam21, var uParam22, var uParam23, var uParam24, var uParam25, var uParam26, var uParam27, var uParam28, var uParam29, var uParam30, var uParam31, var uParam32, var uParam33, var uParam34, var uParam35, var uParam36, var uParam37, var uParam38, var uParam39, var uParam40, var uParam41, var uParam42, var uParam43, var uParam44, var uParam45, var uParam46, var uParam47, var uParam48, var uParam49, var uParam50, var uParam51, var uParam52, var uParam53, var uParam54, var uParam55, var uParam56, var uParam57, var uParam58, var uParam59, var uParam60, int iParam61)
+bool func_7(var uParam0, struct<13>[] Param1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, var uParam12, var uParam13, var uParam14, var uParam15, var uParam16, var uParam17, var uParam18, var uParam19, var uParam20, var uParam21, var uParam22, var uParam23, var uParam24, var uParam25, var uParam26, var uParam27, var uParam28, var uParam29, var uParam30, var uParam31, var uParam32, var uParam33, var uParam34, var uParam35, var uParam36, var uParam37, var uParam38, var uParam39, var uParam40, var uParam41, var uParam42, var uParam43, var uParam44, var uParam45, var uParam46, var uParam47, var uParam48, var uParam49, var uParam50, var uParam51, var uParam52, var uParam53, var uParam54, var uParam55, var uParam56, var uParam57, var uParam58, var uParam59, var uParam60, bool bParam61)
 {
 	int iVar0;
 	float fVar1;
-	int iVar2;
+	bool bVar2;
 	int iVar3;
 	int iVar4;
 	int iVar5;
@@ -703,10 +703,10 @@ int func_7(var uParam0, struct<13>[] Param1, var uParam2, var uParam3, var uPara
 		iVar5 = PLAYER::INT_TO_PARTICIPANTINDEX(iVar4);
 		if (NETWORK::NETWORK_IS_PARTICIPANT_ACTIVE(iVar5))
 		{
-			iVar2 = NETWORK::NETWORK_GET_PLAYER_INDEX(PLAYER::INT_TO_PARTICIPANTINDEX(bVar4));
-			if ((uParam0[bVar4 /*5*/])->f_1 == iParam61 && func_19(uParam0[bVar4 /*5*/], 1))
+			bVar2 = NETWORK::NETWORK_GET_PLAYER_INDEX(PLAYER::INT_TO_PARTICIPANTINDEX(bVar4));
+			if ((uParam0[bVar4 /*5*/])->f_1 == bParam61 && func_19(uParam0[bVar4 /*5*/], 1))
 			{
-				iVar3 = PLAYER::GET_PLAYER_PED(iVar2);
+				iVar3 = PLAYER::GET_PLAYER_PED(bVar2);
 				if (func_8(iVar3))
 				{
 					if (func_8(iVar3))
@@ -733,9 +733,9 @@ int func_7(var uParam0, struct<13>[] Param1, var uParam2, var uParam3, var uPara
 	}
 	if (iVar0 >= 0)
 	{
-		iVar2 = NETWORK::NETWORK_GET_PLAYER_INDEX(PLAYER::INT_TO_PARTICIPANTINDEX(iVar0));
+		bVar2 = NETWORK::NETWORK_GET_PLAYER_INDEX(PLAYER::INT_TO_PARTICIPANTINDEX(iVar0));
 	}
-	return iVar2;
+	return bVar2;
 }
 
 int func_8(int iParam0)
@@ -750,12 +750,12 @@ int func_8(int iParam0)
 	return 0;
 }
 
-void func_9(var uParam0, int iParam1, int iParam2)
+void func_9(var uParam0, int iParam1, bool bParam2)
 {
 	switch (iParam1)
 	{
 		case 0:
-			switch (iParam2)
+			switch (bParam2)
 			{
 				case 0:
 					uParam0->f_59 = 1;
@@ -796,7 +796,7 @@ void func_9(var uParam0, int iParam1, int iParam2)
 			break;
 		
 		case 1:
-			switch (iParam2)
+			switch (bParam2)
 			{
 				case 0:
 					uParam0->f_59 = 1;
@@ -836,7 +836,7 @@ void func_9(var uParam0, int iParam1, int iParam2)
 			break;
 		
 		case 2:
-			switch (iParam2)
+			switch (bParam2)
 			{
 				case 0:
 					uParam0->f_59 = 1;
@@ -860,19 +860,19 @@ void func_9(var uParam0, int iParam1, int iParam2)
 	}
 }
 
-int func_10(int iParam0, var uParam1, int iParam2)
+int func_10(bool bParam0, var uParam1, bool bParam2)
 {
-	switch (iParam0)
+	switch (bParam0)
 	{
 		case 0:
-			if (func_17(&(uParam1->f_5), iParam2, 1))
+			if (func_17(&(uParam1->f_5), bParam2, 1))
 			{
 				return 1;
 			}
 			break;
 		
 		case 1:
-			if (func_17(&(uParam1->f_6), iParam2, 1))
+			if (func_17(&(uParam1->f_6), bParam2, 1))
 			{
 				return 1;
 			}
@@ -889,7 +889,7 @@ void func_11(int* iParam0)
 void func_12(int* iParam0, float fParam1)
 {
 	iParam0->f_1 = (func_13(BitTest(*iParam0, 4)) - fParam1);
-	MISC::SET_BIT(iParam0, 1);
+	MISC::SET_BIT(iParam0, true);
 	MISC::CLEAR_BIT(iParam0, 2);
 	iParam0->f_2 = 0f;
 }
@@ -951,32 +951,32 @@ int func_17(int* iParam0, bool bParam1, bool bParam2)
 {
 	bool bVar0;
 	
-	bVar0 = BitTest(*iParam0, iParam1);
+	bVar0 = BitTest(*iParam0, bParam1);
 	if (bParam2)
 	{
 		if (!bVar0)
 		{
-			MISC::SET_BIT(iParam0, iParam1);
+			MISC::SET_BIT(iParam0, bParam1);
 			return 1;
 		}
 	}
 	else if (bVar0)
 	{
-		MISC::CLEAR_BIT(iParam0, iParam1);
+		MISC::CLEAR_BIT(iParam0, bParam1);
 		return 1;
 	}
 	return 0;
 }
 
-void func_18(int iParam0, int iParam1, int iParam2)
+void func_18(int iParam0, bool bParam1, int iParam2)
 {
 	struct<5> Var0;
 	
 	Var0.f_0 = iParam0;
 	Var0.f_1 = PLAYER::PLAYER_ID();
-	Var0.f_4 = iParam1;
+	Var0.f_4 = bParam1;
 	Var0.f_3 = iParam2;
-	SCRIPT::TRIGGER_SCRIPT_EVENT(1, &Var0, 6, func_5(iParam1));
+	SCRIPT::TRIGGER_SCRIPT_EVENT(1, &Var0, 6, func_5(bParam1));
 }
 
 bool func_19(var uParam0, int iParam1)
@@ -1019,7 +1019,7 @@ int func_20(var uParam0, int iParam1)
 	return iVar0;
 }
 
-void func_21(int iParam0, var uParam1, bool bParam2)
+void func_21(bool bParam0, var uParam1, bool bParam2)
 {
 	struct<5> Var0;
 	
@@ -1027,9 +1027,9 @@ void func_21(int iParam0, var uParam1, bool bParam2)
 	Var0.f_1 = PLAYER::PLAYER_ID();
 	func_6(&(Var0.f_2), 0, bParam2);
 	func_6(&(Var0.f_2), 3, 0);
-	Var0.f_4 = iParam0;
+	Var0.f_4 = bParam0;
 	Var0.f_3 = uParam1;
-	SCRIPT::TRIGGER_SCRIPT_EVENT(1, &Var0, 6, func_5(iParam0));
+	SCRIPT::TRIGGER_SCRIPT_EVENT(1, &Var0, 6, func_5(bParam0));
 }
 
 bool func_22(var uParam0, int iParam1)
@@ -1627,7 +1627,7 @@ int func_35(char* sParam0, int iParam1, var uParam2, bool bParam3, bool bParam4,
 	Var0.f_20 = -1;
 	if (bParam3)
 	{
-		MISC::SET_BIT(&(Var0.f_18), 1);
+		MISC::SET_BIT(&(Var0.f_18), true);
 	}
 	if (bParam4)
 	{
@@ -1697,7 +1697,7 @@ int func_36(char* sParam0, int iParam1, struct<17> Param2, var uParam19, var uPa
 			SCRIPT::SET_SCRIPT_AS_NO_LONGER_NEEDED(sParam0);
 			if (!bParam26)
 			{
-				MISC::SET_BIT(&(Global_1853348[PLAYER::PLAYER_ID() /*834*/].f_36.f_18), 0);
+				MISC::SET_BIT(&(Global_1853348[PLAYER::PLAYER_ID() /*834*/].f_36.f_18), false);
 			}
 			MISC::CLEAR_BIT(&(Global_1853348[PLAYER::PLAYER_ID() /*834*/].f_36.f_18), 4);
 			if (bParam25)
@@ -1770,18 +1770,18 @@ int func_44(var uParam0, bool bParam1, bool bParam2)
 {
 	bool bVar0;
 	
-	bVar0 = func_19(uParam0, iParam1);
+	bVar0 = func_19(uParam0, bParam1);
 	if (bParam2)
 	{
 		if (!bVar0)
 		{
-			MISC::SET_BIT(&(uParam0->f_3), iParam1);
+			MISC::SET_BIT(&(uParam0->f_3), bParam1);
 			return 1;
 		}
 	}
 	else if (bVar0)
 	{
-		MISC::CLEAR_BIT(&(uParam0->f_3), iParam1);
+		MISC::CLEAR_BIT(&(uParam0->f_3), bParam1);
 		return 1;
 	}
 	return 0;
@@ -2261,15 +2261,15 @@ var func_49()
 {
 	var uVar0;
 	int iVar1;
-	int iVar2;
+	bool bVar2;
 	
 	iVar1 = NETWORK::NETWORK_GET_HOST_OF_THIS_SCRIPT();
 	if (NETWORK::NETWORK_IS_PARTICIPANT_ACTIVE(iVar1))
 	{
-		iVar2 = NETWORK::NETWORK_GET_PLAYER_INDEX(iVar1);
-		if (func_50(iVar2, 0, 0))
+		bVar2 = NETWORK::NETWORK_GET_PLAYER_INDEX(iVar1);
+		if (func_50(bVar2, 0, 0))
 		{
-			MISC::SET_BIT(&uVar0, iVar2);
+			MISC::SET_BIT(&uVar0, bVar2);
 		}
 	}
 	return uVar0;
@@ -5960,7 +5960,7 @@ void func_119(var uParam0)
 			Var0.f_19 = -1;
 			Var0.f_20 = -1;
 			Var0.f_16 = uParam0->f_3;
-			MISC::SET_BIT(&(Var0.f_18), 1);
+			MISC::SET_BIT(&(Var0.f_18), true);
 			if (func_120())
 			{
 				if (NETWORK::NETWORK_IS_SCRIPT_ACTIVE(uParam0->f_1, uParam0->f_3, false, 0) && !NETWORK::NETWORK_IS_SCRIPT_ACTIVE(uParam0->f_1, uParam0->f_3, true, 0))
@@ -6393,11 +6393,11 @@ void func_137(int* iParam0)
 	}
 }
 
-void func_138(int* iParam0, int iParam1, bool bParam2)
+void func_138(int* iParam0, bool bParam1, bool bParam2)
 {
-	if (BitTest(*iParam0, iParam1) != bParam2)
+	if (BitTest(*iParam0, bParam1) != bParam2)
 	{
-		func_17(iParam0, iParam1, bParam2);
+		func_17(iParam0, bParam1, bParam2);
 	}
 }
 

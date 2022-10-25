@@ -102173,17 +102173,17 @@ int func_762()
 void func_763(int iParam0, bool bParam1, int iParam2)
 {
 	int iVar0;
-	int iVar1;
+	bool bVar1;
 	
 	iVar0 = (iParam0 / 32);
-	iVar1 = (iParam0 % 32);
+	bVar1 = (iParam0 % 32);
 	if (iParam2 != -2)
 	{
 		Global_1574938 = iParam2;
 	}
 	if (bParam1)
 	{
-		MISC::SET_BIT(&(Global_1574935[iVar0]), iVar1);
+		MISC::SET_BIT(&(Global_1574935[iVar0]), bVar1);
 	}
 	else
 	{

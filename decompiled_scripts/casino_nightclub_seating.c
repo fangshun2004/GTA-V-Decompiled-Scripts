@@ -1435,9 +1435,9 @@ Vector3 func_31(var uParam0)
 	return uParam0->f_16[uParam0->f_9 /*14*/];
 }
 
-void func_32(int* iParam0, int iParam1)
+void func_32(int* iParam0, bool bParam1)
 {
-	MISC::SET_BIT(iParam0, iParam1);
+	MISC::SET_BIT(iParam0, bParam1);
 }
 
 bool func_33(var uParam0, int iParam1)
@@ -2216,9 +2216,9 @@ void func_59(var uParam0, int iParam1)
 	uParam0->f_13 = iParam1;
 }
 
-void func_60(int* iParam0, int iParam1)
+void func_60(int* iParam0, bool bParam1)
 {
-	MISC::CLEAR_BIT(iParam0, iParam1);
+	MISC::CLEAR_BIT(iParam0, bParam1);
 }
 
 void func_61(var uParam0)
@@ -2254,16 +2254,16 @@ void func_63(var uParam0)
 
 void func_64(int* iParam0, int iParam1, bool bParam2)
 {
-	int iVar0;
+	bool bVar0;
 	
-	iVar0 = iParam1;
+	bVar0 = iParam1;
 	if (bParam2)
 	{
-		MISC::SET_BIT(iParam0, iVar0);
+		MISC::SET_BIT(iParam0, bVar0);
 	}
 	else
 	{
-		MISC::CLEAR_BIT(iParam0, iVar0);
+		MISC::CLEAR_BIT(iParam0, bVar0);
 	}
 }
 
@@ -3110,7 +3110,7 @@ void func_90(bool bParam0, int iParam1, int iParam2)
 						iVar1++;
 					}
 				}
-				MISC::SET_BIT(&(Global_2621446.f_67), 1);
+				MISC::SET_BIT(&(Global_2621446.f_67), true);
 			}
 		}
 		if (func_94(PLAYER::PLAYER_ID(), 0))
@@ -3152,7 +3152,7 @@ void func_92()
 				iVar0++;
 			}
 			MISC::SET_BIT(&(Global_2621446.f_67), 2);
-			MISC::SET_BIT(&(Global_2621446.f_67), 0);
+			MISC::SET_BIT(&(Global_2621446.f_67), false);
 		}
 	}
 }

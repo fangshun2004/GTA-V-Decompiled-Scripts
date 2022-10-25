@@ -5482,9 +5482,9 @@ int func_78()
 	return 1;
 }
 
-void func_79(int iParam0, int iParam1)
+void func_79(bool bParam0, int iParam1)
 {
-	MISC::SET_BIT(&Global_32210, iParam0);
+	MISC::SET_BIT(&Global_32210, bParam0);
 	Global_32211 = iParam1;
 }
 
@@ -5532,7 +5532,7 @@ int func_82()
 				if (MISC::ARE_PROFILE_SETTINGS_VALID())
 				{
 					iVar0 = MISC::GET_PROFILE_SETTING(866);
-					MISC::SET_BIT(&iVar0, 0);
+					MISC::SET_BIT(&iVar0, false);
 					STATS::SET_HAS_SPECIALEDITION_CONTENT(iVar0);
 				}
 				return 1;
@@ -9338,7 +9338,7 @@ void func_164()
 	if (func_163(2, Global_20234, 0))
 	{
 		iLocal_108 = 0;
-		MISC::SET_BIT(&Global_8137, 0);
+		MISC::SET_BIT(&Global_8137, false);
 		func_84();
 		Global_20244 = 1;
 		if (Global_78319)
@@ -13958,7 +13958,7 @@ void func_277(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4)
 	switch (iParam1)
 	{
 		case 1704445500:
-			MISC::SET_BIT(&(Global_2689235[PLAYER::PLAYER_ID() /*453*/].f_124.f_71), 0);
+			MISC::SET_BIT(&(Global_2689235[PLAYER::PLAYER_ID() /*453*/].f_124.f_71), false);
 			break;
 	}
 	if (iParam0 != -1)
@@ -14139,13 +14139,13 @@ void func_285()
 	SCRIPT::REQUEST_SCRIPT("AM_ARENA_SHP");
 }
 
-var func_286(int iParam0)
+var func_286(bool bParam0)
 {
 	var uVar0;
 	
-	if (iParam0 != -1)
+	if (bParam0 != -1)
 	{
-		MISC::SET_BIT(&uVar0, iParam0);
+		MISC::SET_BIT(&uVar0, bParam0);
 	}
 	return uVar0;
 }

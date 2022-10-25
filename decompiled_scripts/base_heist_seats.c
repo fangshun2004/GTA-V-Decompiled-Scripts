@@ -105,7 +105,7 @@ void __EntryFunction__()
 
 void func_1()
 {
-	MISC::CLEAR_BIT(&Global_1836144, 1);
+	MISC::CLEAR_BIT(&Global_1836144, true);
 	func_3(&Local_47);
 	func_2();
 }
@@ -227,7 +227,7 @@ void func_11()
 		}
 		if (func_18(&Local_47, 0, 0))
 		{
-			MISC::SET_BIT(&Global_1836144, 1);
+			MISC::SET_BIT(&Global_1836144, true);
 			if ((((((iLocal_484 == 0 && !BitTest(Global_1888862[PLAYER::NETWORK_PLAYER_ID_TO_INT() /*120*/].f_38.f_27, 3)) && !func_16()) && !HUD::IS_PAUSE_MENU_ACTIVE()) && !func_15(0)) && !func_14()) && PAD::IS_DISABLED_CONTROL_JUST_PRESSED(0, 225))
 			{
 				func_12(&Local_47);
@@ -235,21 +235,21 @@ void func_11()
 		}
 		else
 		{
-			MISC::CLEAR_BIT(&Global_1836144, 1);
+			MISC::CLEAR_BIT(&Global_1836144, true);
 		}
 	}
 	else
 	{
-		MISC::CLEAR_BIT(&Global_1836144, 1);
+		MISC::CLEAR_BIT(&Global_1836144, true);
 	}
 	iLocal_484 = 0;
 	if (BitTest(Global_1888862[PLAYER::NETWORK_PLAYER_ID_TO_INT() /*120*/].f_38.f_27, 3))
 	{
-		MISC::SET_BIT(&iLocal_484, 0);
+		MISC::SET_BIT(&iLocal_484, false);
 	}
 	if (func_16())
 	{
-		MISC::SET_BIT(&iLocal_484, 1);
+		MISC::SET_BIT(&iLocal_484, true);
 	}
 	if (HUD::IS_PAUSE_MENU_ACTIVE())
 	{
@@ -270,9 +270,9 @@ void func_12(int iParam0)
 	func_13(&(iParam0->f_421), 10);
 }
 
-void func_13(int* iParam0, int iParam1)
+void func_13(int* iParam0, bool bParam1)
 {
-	MISC::SET_BIT(iParam0, iParam1);
+	MISC::SET_BIT(iParam0, bParam1);
 }
 
 bool func_14()
@@ -1304,9 +1304,9 @@ void func_58(var uParam0, int iParam1)
 	uParam0->f_421.f_4 = iParam1;
 }
 
-void func_59(int* iParam0, int iParam1)
+void func_59(int* iParam0, bool bParam1)
 {
-	MISC::CLEAR_BIT(iParam0, iParam1);
+	MISC::CLEAR_BIT(iParam0, bParam1);
 }
 
 void func_60(var uParam0)
@@ -1362,16 +1362,16 @@ void func_62(var uParam0)
 
 void func_63(int* iParam0, int iParam1, bool bParam2)
 {
-	int iVar0;
+	bool bVar0;
 	
-	iVar0 = iParam1;
+	bVar0 = iParam1;
 	if (bParam2)
 	{
-		MISC::SET_BIT(iParam0, iVar0);
+		MISC::SET_BIT(iParam0, bVar0);
 	}
 	else
 	{
-		MISC::CLEAR_BIT(iParam0, iVar0);
+		MISC::CLEAR_BIT(iParam0, bVar0);
 	}
 }
 

@@ -331,7 +331,7 @@ void __EntryFunction__()
 					ENTITY::SET_ENTITY_INVINCIBLE(iLocal_48, true);
 					ENTITY::SET_ENTITY_PROOFS(iLocal_48, true, true, true, true, true, false, false, false);
 					STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(joaat("prop_laptop_lester2"));
-					MISC::SET_BIT(&uLocal_216, 0);
+					MISC::SET_BIT(&uLocal_216, false);
 				}
 			}
 		}
@@ -369,7 +369,7 @@ void __EntryFunction__()
 				func_1();
 				if (fVar6 > 2500f)
 				{
-					MISC::SET_BIT(&uLocal_216, 1);
+					MISC::SET_BIT(&uLocal_216, true);
 				}
 			}
 		}
@@ -403,30 +403,30 @@ int func_2()
 
 void func_3(int iParam0, bool bParam1)
 {
-	int iVar0;
+	bool bVar0;
 	
-	iVar0 = iParam0;
-	if (iVar0 < 31)
+	bVar0 = iParam0;
+	if (bVar0 < 31)
 	{
 		if (bParam1)
 		{
-			MISC::SET_BIT(&(Global_113386.f_24995), iVar0);
+			MISC::SET_BIT(&(Global_113386.f_24995), bVar0);
 		}
 		else
 		{
-			MISC::CLEAR_BIT(&(Global_113386.f_24995), iVar0);
+			MISC::CLEAR_BIT(&(Global_113386.f_24995), bVar0);
 		}
 	}
 	else
 	{
-		iVar0 = (iVar0 - 31);
+		bVar0 = (bVar0 - 31);
 		if (bParam1)
 		{
-			MISC::SET_BIT(&(Global_113386.f_24995.f_1), iVar0);
+			MISC::SET_BIT(&(Global_113386.f_24995.f_1), bVar0);
 		}
 		else
 		{
-			MISC::CLEAR_BIT(&(Global_113386.f_24995.f_1), iVar0);
+			MISC::CLEAR_BIT(&(Global_113386.f_24995.f_1), bVar0);
 		}
 	}
 }
@@ -513,7 +513,7 @@ int func_5(char* sParam0, int iParam1, bool bParam2)
 		{
 			MISC::CLEAR_BIT(&Global_8136, 20);
 			MISC::CLEAR_BIT(&Global_8137, 17);
-			MISC::CLEAR_BIT(&Global_8138, 0);
+			MISC::CLEAR_BIT(&Global_8138, false);
 			if (bParam2)
 			{
 				func_15();

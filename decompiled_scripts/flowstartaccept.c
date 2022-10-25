@@ -93,7 +93,7 @@ void __EntryFunction__()
 		func_1();
 	}
 	Global_78588.f_1 = 0;
-	MISC::SET_BIT(&(Global_113386.f_10016.f_25), 0);
+	MISC::SET_BIT(&(Global_113386.f_10016.f_25), false);
 	func_6();
 }
 

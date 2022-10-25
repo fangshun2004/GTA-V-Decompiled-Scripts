@@ -618,7 +618,7 @@ void func_11(int iParam0, bool bParam1)
 		return;
 	}
 	func_183(iVar0, 0);
-	MISC::SET_BIT(&Global_78567, 1);
+	MISC::SET_BIT(&Global_78567, true);
 	if (Global_112473[iVar0 /*10*/].f_9 == -1)
 	{
 	}
@@ -4845,7 +4845,7 @@ void func_75(int iParam0)
 void func_76(int iParam0, int iParam1, bool bParam2, bool bParam3, int iParam4)
 {
 	int iVar0;
-	int iVar1;
+	bool bVar1;
 	int iVar2;
 	int iVar3;
 	
@@ -4854,10 +4854,10 @@ void func_76(int iParam0, int iParam1, bool bParam2, bool bParam3, int iParam4)
 	{
 		iVar0 = iParam4;
 	}
-	if (func_80(iParam0, iParam1, &iVar2, &iVar1, bParam2, bParam3))
+	if (func_80(iParam0, iParam1, &iVar2, &bVar1, bParam2, bParam3))
 	{
 		iVar3 = func_79(iVar2, iVar0, 0);
-		MISC::SET_BIT(&iVar3, iVar1);
+		MISC::SET_BIT(&iVar3, bVar1);
 		func_77(iVar2, iVar3, iVar0, 1, 0);
 	}
 }
@@ -7399,11 +7399,11 @@ int func_81(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, in
 	{
 		if (iParam5 == 1)
 		{
-			MISC::SET_BIT(&(Global_113386.f_2363[iParam1 /*164*/][iParam3]), iParam4);
+			MISC::SET_BIT(&(Global_113386.f_2363[iParam1 /*164*/][iParam3]), bParam4);
 		}
 		if (iParam6 == 1)
 		{
-			MISC::CLEAR_BIT(&(Global_113386.f_2363[iParam1 /*164*/][iParam3]), iParam4);
+			MISC::CLEAR_BIT(&(Global_113386.f_2363[iParam1 /*164*/][iParam3]), bParam4);
 		}
 		return BitTest(Global_113386.f_2363[iParam1 /*164*/][iParam3], bParam4);
 	}
@@ -34041,14 +34041,14 @@ void func_201(int iParam0, bool bParam1)
 
 void func_202(int iParam0, bool bParam1)
 {
-	int iVar0;
+	bool bVar0;
 	
-	iVar0 = iParam0;
-	if (iVar0 >= 0 && iVar0 <= 31)
+	bVar0 = iParam0;
+	if (bVar0 >= 0 && bVar0 <= 31)
 	{
 		if (!func_209(iParam0))
 		{
-			MISC::SET_BIT(&(Global_113386.f_26434), iVar0);
+			MISC::SET_BIT(&(Global_113386.f_26434), bVar0);
 			if (!bParam1)
 			{
 				func_207(func_208(iParam0));

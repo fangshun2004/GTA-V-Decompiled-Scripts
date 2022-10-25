@@ -1674,11 +1674,11 @@ void func_26(var uParam0)
 				uParam0->f_8 = func_45(0, -1);
 				if (func_42(10))
 				{
-					MISC::SET_BIT(&(uParam0->f_9), 0);
+					MISC::SET_BIT(&(uParam0->f_9), false);
 				}
 				if (func_39(10))
 				{
-					MISC::SET_BIT(&(uParam0->f_9), 1);
+					MISC::SET_BIT(&(uParam0->f_9), true);
 				}
 				if (func_36(10))
 				{
@@ -1783,7 +1783,7 @@ void func_26(var uParam0)
 				if (func_42(10))
 				{
 					STATS::PRESENCE_EVENT_UPDATESTAT_INT(joaat("mp0_awd_50_vehicles_blownup"), func_46(10, -1), 0);
-					MISC::SET_BIT(&(uParam0->f_9), 0);
+					MISC::SET_BIT(&(uParam0->f_9), false);
 				}
 			}
 			else if (!BitTest(uParam0->f_9, 1))
@@ -1791,7 +1791,7 @@ void func_26(var uParam0)
 				if (func_39(10))
 				{
 					STATS::PRESENCE_EVENT_UPDATESTAT_INT(joaat("mp0_awd_50_vehicles_blownup"), func_46(10, -1), 0);
-					MISC::SET_BIT(&(uParam0->f_9), 1);
+					MISC::SET_BIT(&(uParam0->f_9), true);
 				}
 			}
 			else if (!BitTest(uParam0->f_9, 2))
@@ -3113,7 +3113,7 @@ int func_68(int iParam0, char* sParam1, char* sParam2, var uParam3, char* sParam
 
 void func_69(int iParam0)
 {
-	MISC::SET_BIT(&(Global_1641031.f_15[iParam0 /*24*/]), 0);
+	MISC::SET_BIT(&(Global_1641031.f_15[iParam0 /*24*/]), false);
 }
 
 void func_70(int iParam0, int iParam1)
@@ -5850,7 +5850,7 @@ void func_167(struct<36> Param0, int iParam36)
 					if (!BitTest(Global_113386.f_10194.f_3856, 0))
 					{
 						func_168(Param0, "CELL_FEED_WEB_CAR");
-						MISC::SET_BIT(&(Global_113386.f_10194.f_3856), 0);
+						MISC::SET_BIT(&(Global_113386.f_10194.f_3856), false);
 					}
 				}
 				if (Param0.f_17 == 20)
@@ -5858,7 +5858,7 @@ void func_167(struct<36> Param0, int iParam36)
 					if (!BitTest(Global_113386.f_10194.f_3856, 1))
 					{
 						func_168(Param0, "CELL_FEED_WEB_RHINO");
-						MISC::SET_BIT(&(Global_113386.f_10194.f_3856), 1);
+						MISC::SET_BIT(&(Global_113386.f_10194.f_3856), true);
 					}
 				}
 				if (Param0.f_17 == 30)
@@ -8248,11 +8248,11 @@ void func_201(int iParam0)
 			iVar242 = 0;
 			if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS() || BitTest(Global_1585857[iLocal_76 /*142*/].f_103, 17))
 			{
-				MISC::SET_BIT(&iVar242, 0);
+				MISC::SET_BIT(&iVar242, false);
 			}
 			if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS() || BitTest(Global_1585857[iLocal_76 /*142*/].f_103, 18))
 			{
-				MISC::SET_BIT(&iVar242, 1);
+				MISC::SET_BIT(&iVar242, true);
 			}
 			func_198("newItemUnlocks", iVar242);
 		}
@@ -11307,16 +11307,16 @@ struct<7> func_244(int iParam0)
 int func_245()
 {
 	var uVar0;
-	int iVar1;
+	bool bVar1;
 	
-	iVar1 = 0;
-	while (iVar1 < 32)
+	bVar1 = false;
+	while (bVar1 < 32)
 	{
 		if (MISC::GET_RANDOM_INT_IN_RANGE(0, 2) == 0)
 		{
-			MISC::SET_BIT(&uVar0, iVar1);
+			MISC::SET_BIT(&uVar0, bVar1);
 		}
-		iVar1++;
+		bVar1++;
 	}
 	return uVar0;
 }
@@ -11857,7 +11857,7 @@ int func_260(int iParam0, char* sParam1, int iParam2, char* sParam3, int iParam4
 			Global_8746[3 /*6*/] = { func_261(iParam0) };
 			Global_8823 = iParam0;
 			StringCopy(&Global_8824, sParam5, 64);
-			MISC::SET_BIT(&Global_8136, 1);
+			MISC::SET_BIT(&Global_8136, true);
 			MISC::SET_BIT(&Global_8136, 7);
 		}
 		return 1;
@@ -12797,7 +12797,7 @@ int func_282(int iParam0, char* sParam1, int iParam2, int iParam3, int iParam4, 
 			Global_8843 = iParam6;
 			Global_8746[3 /*6*/] = { func_261(iParam0) };
 			Global_8823 = iParam0;
-			MISC::SET_BIT(&Global_8136, 1);
+			MISC::SET_BIT(&Global_8136, true);
 			MISC::SET_BIT(&Global_8136, 7);
 		}
 		return 1;
@@ -13623,7 +13623,7 @@ int func_305(int iParam0, char* sParam1, int iParam2, int iParam3, int iParam4, 
 		if (bParam7 == 1)
 		{
 			Global_8843 = iParam6;
-			MISC::SET_BIT(&Global_4541229, 0);
+			MISC::SET_BIT(&Global_4541229, false);
 		}
 		return 1;
 	}
@@ -14035,7 +14035,7 @@ int func_312(int iParam0, char* sParam1, int iParam2, char* sParam3, var uParam4
 		if (bParam11 == 1)
 		{
 			Global_8843 = iParam10;
-			MISC::SET_BIT(&Global_4541229, 0);
+			MISC::SET_BIT(&Global_4541229, false);
 		}
 		return 1;
 	}
@@ -14483,7 +14483,7 @@ void func_332(int iParam0)
 {
 	if (iParam0 == 1)
 	{
-		MISC::SET_BIT(&Global_8138, 0);
+		MISC::SET_BIT(&Global_8138, false);
 	}
 	else
 	{
@@ -29656,11 +29656,11 @@ void func_414(int* iParam0)
 	*iParam0 = 0;
 	if (func_415(-1, -1, 0, -1))
 	{
-		MISC::SET_BIT(iParam0, 0);
+		MISC::SET_BIT(iParam0, false);
 	}
 	if (func_415(5, -1, 0, -1))
 	{
-		MISC::SET_BIT(iParam0, 1);
+		MISC::SET_BIT(iParam0, true);
 	}
 	if (func_415(6, -1, 0, -1))
 	{
@@ -30569,11 +30569,11 @@ void func_445(int* iParam0)
 	*iParam0 = 0;
 	if (func_415(-1, -1, 0, -1))
 	{
-		MISC::SET_BIT(iParam0, 0);
+		MISC::SET_BIT(iParam0, false);
 	}
 	if (func_415(-1, -1, 0, -1))
 	{
-		MISC::SET_BIT(iParam0, 1);
+		MISC::SET_BIT(iParam0, true);
 	}
 	if (func_415(43, -1, 0, -1))
 	{
@@ -31621,11 +31621,11 @@ void func_470(int* iParam0)
 {
 	if (func_471(18, 1) || func_415(61, -1, 0, -1))
 	{
-		MISC::SET_BIT(iParam0, 0);
+		MISC::SET_BIT(iParam0, false);
 	}
 	if (func_471(11, 0))
 	{
-		MISC::SET_BIT(iParam0, 1);
+		MISC::SET_BIT(iParam0, true);
 	}
 	if (func_471(11, 1) || func_415(47, -1, 0, -1))
 	{
@@ -32811,16 +32811,16 @@ bool func_474(int iParam0, int iParam1, int iParam2, var uParam3)
 var func_475(int iParam0)
 {
 	var uVar0;
-	int iVar1;
+	bool bVar1;
 	
-	iVar1 = 0;
-	while (iVar1 < 25)
+	bVar1 = false;
+	while (bVar1 < 25)
 	{
-		if (func_476(iParam0, iVar1, 0))
+		if (func_476(iParam0, bVar1, 0))
 		{
-			MISC::SET_BIT(&uVar0, iVar1);
+			MISC::SET_BIT(&uVar0, bVar1);
 		}
-		iVar1++;
+		bVar1++;
 	}
 	return uVar0;
 }
@@ -34373,7 +34373,7 @@ void func_487(int iParam0, int iParam1, char* sParam2, int iParam3, int iParam4,
 	int iVar10;
 	int iVar11;
 	int iVar12;
-	int iVar13;
+	bool bVar13;
 	
 	if (func_493(iParam0) && func_415(iParam1, -1, 0, -1))
 	{
@@ -34503,33 +34503,33 @@ void func_487(int iParam0, int iParam1, char* sParam2, int iParam3, int iParam4,
 		if (iVar11 != -1)
 		{
 			iVar12 = (iVar11 * 4 + (iParam1 / 32));
-			iVar13 = (iParam1 % 32);
+			bVar13 = (iParam1 % 32);
 			if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 			{
 				if ((((iParam0 == joaat("avarus") || iParam0 == joaat("chimera")) || iParam0 == joaat("esskey")) && iParam1 == 1) || ((iParam1 == 72 || iParam1 == 66) && iParam0 == joaat("esskey")))
 				{
-					iVar13 = (iVar13 - 1);
+					bVar13 = (bVar13 - 1);
 				}
 				if (iParam0 == joaat("specter2") && (iParam1 == 21 || iParam1 == 72))
 				{
-					iVar13 = (iVar13 - 1);
+					bVar13 = (bVar13 - 1);
 				}
 				if (iParam0 == joaat("trailerlarge") && iParam1 == 85)
 				{
-					iVar13++;
+					bVar13++;
 				}
 				if (iParam0 == joaat("bombushka") && iParam1 == 21)
 				{
-					iVar13 = (iVar13 - 1);
+					bVar13 = (bVar13 - 1);
 				}
-				if (iVar13 >= 0)
+				if (bVar13 >= 0)
 				{
-					MISC::SET_BIT(&(Global_2359296[func_191() /*5567*/].f_681.f_47[iVar12]), iVar13);
+					MISC::SET_BIT(&(Global_2359296[func_191() /*5567*/].f_681.f_47[iVar12]), bVar13);
 				}
 			}
 			else
 			{
-				MISC::SET_BIT(&(Global_113386.f_668.f_87[iVar12]), iVar13);
+				MISC::SET_BIT(&(Global_113386.f_668.f_87[iVar12]), bVar13);
 			}
 		}
 	}
@@ -47320,7 +47320,7 @@ void func_496(int iParam0, int iParam1, bool bParam2)
 	}
 }
 
-void func_497(int iParam0, int iParam1, bool bParam2)
+void func_497(int iParam0, bool bParam1, bool bParam2)
 {
 	int iVar0;
 	
@@ -47330,20 +47330,20 @@ void func_497(int iParam0, int iParam1, bool bParam2)
 	}
 	if (bParam2)
 	{
-		MISC::SET_BIT(&(Global_100493.f_1393[iParam0]), iParam1);
+		MISC::SET_BIT(&(Global_100493.f_1393[iParam0]), bParam1);
 	}
 	else if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
 		if (func_81() == 0)
 		{
 			iVar0 = func_47(func_258(iParam0), -1, 0);
-			MISC::SET_BIT(&iVar0, iParam1);
+			MISC::SET_BIT(&iVar0, bParam1);
 			func_130(func_258(iParam0), iVar0, -1, 1, 0);
 		}
 	}
 	else
 	{
-		MISC::SET_BIT(&(Global_113386.f_668[iParam0]), iParam1);
+		MISC::SET_BIT(&(Global_113386.f_668[iParam0]), bParam1);
 	}
 }
 
@@ -48100,7 +48100,7 @@ int func_505()
 				if (MISC::ARE_PROFILE_SETTINGS_VALID())
 				{
 					iVar0 = MISC::GET_PROFILE_SETTING(866);
-					MISC::SET_BIT(&iVar0, 0);
+					MISC::SET_BIT(&iVar0, false);
 					STATS::SET_HAS_SPECIALEDITION_CONTENT(iVar0);
 				}
 				return 1;

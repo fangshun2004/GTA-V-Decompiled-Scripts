@@ -37,7 +37,7 @@ void func_1()
 						Global_112038[iVar0 /*28*/].f_21 = (Global_112038[iVar0 /*28*/].f_21 + SYSTEM::ROUND((MISC::GET_FRAME_TIME() * 1000f)));
 						if (HUD::IS_FLOATING_HELP_TEXT_ON_SCREEN(iVar1))
 						{
-							MISC::SET_BIT(&(Global_112038[iVar0 /*28*/].f_27), 0);
+							MISC::SET_BIT(&(Global_112038[iVar0 /*28*/].f_27), false);
 						}
 					}
 				}

@@ -167,24 +167,24 @@ int func_6(int* iParam0)
 	return 1;
 }
 
-void func_7(int* iParam0, int iParam1)
+void func_7(int* iParam0, bool bParam1)
 {
-	func_8(iParam0, iParam1);
+	func_8(iParam0, bParam1);
 }
 
-void func_8(int* iParam0, int iParam1)
+void func_8(int* iParam0, bool bParam1)
 {
-	MISC::CLEAR_BIT(iParam0, iParam1);
+	MISC::CLEAR_BIT(iParam0, bParam1);
 }
 
-void func_9(int* iParam0, int iParam1)
+void func_9(int* iParam0, bool bParam1)
 {
-	func_10(iParam0, iParam1);
+	func_10(iParam0, bParam1);
 }
 
-void func_10(int* iParam0, int iParam1)
+void func_10(int* iParam0, bool bParam1)
 {
-	MISC::SET_BIT(iParam0, iParam1);
+	MISC::SET_BIT(iParam0, bParam1);
 }
 
 int func_11(int* iParam0)
@@ -2210,15 +2210,15 @@ void func_100(var uParam0, char* sParam1, bool bParam2)
 	func_101(uParam0, 6, bParam2);
 }
 
-void func_101(var uParam0, int iParam1, bool bParam2)
+void func_101(var uParam0, bool bParam1, bool bParam2)
 {
 	if (bParam2)
 	{
-		func_10(&(uParam0->f_7), iParam1);
+		func_10(&(uParam0->f_7), bParam1);
 	}
 	else
 	{
-		func_8(&(uParam0->f_7), iParam1);
+		func_8(&(uParam0->f_7), bParam1);
 	}
 }
 

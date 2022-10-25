@@ -22266,29 +22266,29 @@ void func_290(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, v
 var func_291(bool bParam0, bool bParam1)
 {
 	var uVar0;
-	int iVar1;
-	int iVar2;
+	bool bVar1;
+	bool bVar2;
 	int iVar3;
 	
 	if (func_64(PLAYER::PLAYER_ID()))
 	{
-		iVar2 = PLAYER::PLAYER_ID();
+		bVar2 = PLAYER::PLAYER_ID();
 	}
 	else
 	{
-		iVar2 = func_75();
+		bVar2 = func_75();
 	}
-	if (iVar2 == PLAYER::PLAYER_ID() || func_2(iVar2, bParam0, 1))
+	if (bVar2 == PLAYER::PLAYER_ID() || func_2(bVar2, bParam0, 1))
 	{
-		MISC::SET_BIT(&uVar0, iVar2);
+		MISC::SET_BIT(&uVar0, bVar2);
 	}
-	iVar1 = 0;
-	while (iVar1 < 32)
+	bVar1 = false;
+	while (bVar1 < 32)
 	{
-		iVar3 = iVar1;
+		iVar3 = bVar1;
 		if ((bVar2 != iVar3 && func_292(iVar3, bVar2)) && func_2(iVar3, bParam0, 1))
 		{
-			MISC::SET_BIT(&uVar0, iVar1);
+			MISC::SET_BIT(&uVar0, bVar1);
 		}
 		bVar1++;
 	}
@@ -22299,14 +22299,14 @@ var func_291(bool bParam0, bool bParam1)
 	return uVar0;
 }
 
-int func_292(int iParam0, int iParam1)
+int func_292(int iParam0, bool bParam1)
 {
 	int iVar0;
 	
 	iVar0 = func_73(iParam0);
 	if (!iVar0 == func_3())
 	{
-		if (iVar0 == func_73(iParam1))
+		if (iVar0 == func_73(bParam1))
 		{
 			return 1;
 		}
@@ -23205,7 +23205,7 @@ void func_330(int* iParam0, var uParam1, var uParam2, int iParam3)
 	int iVar0;
 	int iVar1;
 	bool bVar2;
-	int iVar3;
+	bool bVar3;
 	
 	iVar0 = uParam2;
 	if (iParam3 > 3)
@@ -23216,15 +23216,15 @@ void func_330(int* iParam0, var uParam1, var uParam2, int iParam3)
 	while (iVar1 < iParam3)
 	{
 		bVar2 = false;
-		iVar3 = (iVar0 + iVar1);
-		if (iVar3 > 31)
+		bVar3 = (iVar0 + iVar1);
+		if (bVar3 > 31)
 		{
 			bVar2 = true;
-			iVar3 = (iVar3 - 32);
+			bVar3 = (bVar3 - 32);
 		}
 		if (!bVar2)
 		{
-			MISC::SET_BIT(iParam0, iVar3);
+			MISC::SET_BIT(iParam0, bVar3);
 		}
 		else
 		{
@@ -24035,7 +24035,7 @@ void func_362(bool bParam0)
 
 void func_363(bool bParam0, int iParam1)
 {
-	MISC::SET_BIT(&(Global_1648034.f_1047), iParam0);
+	MISC::SET_BIT(&(Global_1648034.f_1047), bParam0);
 	switch (bParam0)
 	{
 		case 5:

@@ -605,13 +605,13 @@ void func_12(int iParam0, bool bParam1, bool bParam2)
 	}
 	if (bParam1)
 	{
-		MISC::SET_BIT(&(Global_32338[iVar0 /*23*/].f_11), 0);
+		MISC::SET_BIT(&(Global_32338[iVar0 /*23*/].f_11), false);
 		MISC::SET_BIT(&(Global_32338[iVar0 /*23*/].f_11), 15);
 		MISC::SET_BIT(&(Global_32338[iVar0 /*23*/].f_11), 3);
 	}
 	else
 	{
-		MISC::CLEAR_BIT(&(Global_32338[iVar0 /*23*/].f_11), 0);
+		MISC::CLEAR_BIT(&(Global_32338[iVar0 /*23*/].f_11), false);
 		MISC::CLEAR_BIT(&(Global_32338[iVar0 /*23*/].f_11), 15);
 	}
 	if (!BitTest(Global_32338[iVar0 /*23*/].f_11, 0))
@@ -995,19 +995,19 @@ void func_28(int iParam0, int iParam1, int iParam2, int iParam3)
 	Global_96316[iParam0 /*5*/].f_3 = iParam3;
 }
 
-void func_29(int iParam0, int iParam1, int iParam2, bool bParam3)
+void func_29(bool bParam0, int iParam1, int iParam2, bool bParam3)
 {
-	Global_96316[iParam0 /*5*/] = iParam1;
-	Global_96316[iParam0 /*5*/].f_1 = iParam2;
+	Global_96316[bParam0 /*5*/] = iParam1;
+	Global_96316[bParam0 /*5*/].f_1 = iParam2;
 	if (bParam3)
 	{
-		MISC::SET_BIT(&(Global_113386.f_1.f_116), iParam0);
+		MISC::SET_BIT(&(Global_113386.f_1.f_116), bParam0);
 	}
 	else
 	{
-		MISC::CLEAR_BIT(&(Global_113386.f_1.f_116), iParam0);
+		MISC::CLEAR_BIT(&(Global_113386.f_1.f_116), bParam0);
 	}
-	MISC::CLEAR_BIT(&(Global_113386.f_1.f_118), iParam0);
+	MISC::CLEAR_BIT(&(Global_113386.f_1.f_118), bParam0);
 }
 
 void func_30()

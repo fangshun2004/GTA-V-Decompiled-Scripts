@@ -1649,7 +1649,7 @@ void func_45(bool bParam0, bool bParam1)
 {
 	if (bParam1)
 	{
-		MISC::SET_BIT(&Global_112024, iParam0);
+		MISC::SET_BIT(&Global_112024, bParam0);
 	}
 	else
 	{
@@ -33206,34 +33206,34 @@ int func_199(var uParam0, bool bParam1)
 
 int func_200(var uParam0, bool bParam1)
 {
-	if (BitTest(uParam0->f_113, iParam1) || BitTest(uParam0->f_114, iParam1))
+	if (BitTest(uParam0->f_113, bParam1) || BitTest(uParam0->f_114, bParam1))
 	{
 		return 1;
 	}
-	switch ((*uParam0)[iParam1 /*7*/])
+	switch ((*uParam0)[bParam1 /*7*/])
 	{
 		case 1:
-			PED::REQUEST_ACTION_MODE_ASSET((uParam0[iParam1 /*7*/])->f_3);
+			PED::REQUEST_ACTION_MODE_ASSET((uParam0[bParam1 /*7*/])->f_3);
 			break;
 		
 		case 2:
-			STREAMING::REQUEST_ANIM_DICT((uParam0[iParam1 /*7*/])->f_3);
+			STREAMING::REQUEST_ANIM_DICT((uParam0[bParam1 /*7*/])->f_3);
 			break;
 		
 		case 3:
-			STREAMING::REQUEST_ANIM_SET((uParam0[iParam1 /*7*/])->f_3);
+			STREAMING::REQUEST_ANIM_SET((uParam0[bParam1 /*7*/])->f_3);
 			break;
 		
 		case 4:
-			AUDIO::REQUEST_SCRIPT_AUDIO_BANK((uParam0[iParam1 /*7*/])->f_3, false, -1);
+			AUDIO::REQUEST_SCRIPT_AUDIO_BANK((uParam0[bParam1 /*7*/])->f_3, false, -1);
 			break;
 		
 		case 5:
-			AUDIO::LOAD_STREAM((uParam0[iParam1 /*7*/])->f_3, (uParam0[iParam1 /*7*/])->f_4);
+			AUDIO::LOAD_STREAM((uParam0[bParam1 /*7*/])->f_3, (uParam0[bParam1 /*7*/])->f_4);
 			break;
 		
 		case 6:
-			STREAMING::REQUEST_MODEL((uParam0[iParam1 /*7*/])->f_1);
+			STREAMING::REQUEST_MODEL((uParam0[bParam1 /*7*/])->f_1);
 			break;
 		
 		case 7:
@@ -33241,29 +33241,29 @@ int func_200(var uParam0, bool bParam1)
 			break;
 		
 		case 8:
-			HUD::REQUEST_ADDITIONAL_TEXT((uParam0[iParam1 /*7*/])->f_3, (uParam0[iParam1 /*7*/])->f_5);
+			HUD::REQUEST_ADDITIONAL_TEXT((uParam0[bParam1 /*7*/])->f_3, (uParam0[bParam1 /*7*/])->f_5);
 			break;
 		
 		case 9:
-			GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT((uParam0[iParam1 /*7*/])->f_3, false);
+			GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT((uParam0[bParam1 /*7*/])->f_3, false);
 			break;
 		
 		case 10:
-			VEHICLE::REQUEST_VEHICLE_RECORDING((uParam0[iParam1 /*7*/])->f_5, (uParam0[iParam1 /*7*/])->f_3);
+			VEHICLE::REQUEST_VEHICLE_RECORDING((uParam0[bParam1 /*7*/])->f_5, (uParam0[bParam1 /*7*/])->f_3);
 			break;
 		
 		case 11:
-			TASK::REQUEST_WAYPOINT_RECORDING((uParam0[iParam1 /*7*/])->f_3);
+			TASK::REQUEST_WAYPOINT_RECORDING((uParam0[bParam1 /*7*/])->f_3);
 			break;
 		
 		case 12:
-			WEAPON::REQUEST_WEAPON_ASSET((uParam0[iParam1 /*7*/])->f_2, 31, 0);
+			WEAPON::REQUEST_WEAPON_ASSET((uParam0[bParam1 /*7*/])->f_2, 31, 0);
 			break;
 		
 		default:
 			return 0;
 	}
-	switch ((*uParam0)[iParam1 /*7*/])
+	switch ((*uParam0)[bParam1 /*7*/])
 	{
 		case 6:
 			break;
@@ -33281,8 +33281,8 @@ int func_200(var uParam0, bool bParam1)
 			break;
 	}
 	uParam0->f_117 = 0;
-	(uParam0[iParam1 /*7*/])->f_6 = MISC::GET_GAME_TIMER() + 10000;
-	MISC::SET_BIT(&(uParam0->f_113), iParam1);
+	(uParam0[bParam1 /*7*/])->f_6 = MISC::GET_GAME_TIMER() + 10000;
+	MISC::SET_BIT(&(uParam0->f_113), bParam1);
 	return 1;
 }
 

@@ -1113,19 +1113,19 @@ var func_20(int iParam0)
 {
 	var uVar0;
 	int iVar1;
-	int iVar2;
+	bool bVar2;
 	
 	iVar1 = 0;
 	while (iVar1 < NETWORK::NETWORK_GET_MAX_NUM_PARTICIPANTS())
 	{
 		if (NETWORK::NETWORK_IS_PARTICIPANT_ACTIVE(PLAYER::INT_TO_PARTICIPANTINDEX(iVar1)))
 		{
-			iVar2 = NETWORK::NETWORK_GET_PLAYER_INDEX(PLAYER::INT_TO_PARTICIPANTINDEX(iVar1));
-			if (func_21(iVar2, 0, 0))
+			bVar2 = NETWORK::NETWORK_GET_PLAYER_INDEX(PLAYER::INT_TO_PARTICIPANTINDEX(iVar1));
+			if (func_21(bVar2, 0, 0))
 			{
-				if (iVar2 != PLAYER::PLAYER_ID() || iParam0)
+				if (bVar2 != PLAYER::PLAYER_ID() || iParam0)
 				{
-					MISC::SET_BIT(&uVar0, iVar2);
+					MISC::SET_BIT(&uVar0, bVar2);
 				}
 			}
 		}
@@ -2661,7 +2661,7 @@ void func_79(bool bParam0)
 	MISC::CLEAR_BIT(&(Local_380[iLocal_232 /*2*/].f_1), 2);
 	MISC::CLEAR_BIT(&(Local_380[iLocal_232 /*2*/].f_1), 3);
 	MISC::CLEAR_BIT(&(Local_380[iLocal_232 /*2*/].f_1), 4);
-	MISC::SET_BIT(&(Local_380[iLocal_232 /*2*/].f_1), iParam0);
+	MISC::SET_BIT(&(Local_380[iLocal_232 /*2*/].f_1), bParam0);
 }
 
 void func_80(var uParam0)
@@ -8240,7 +8240,7 @@ void func_206()
 
 void func_207(bool bParam0, int iParam1)
 {
-	MISC::SET_BIT(&(Global_1648034.f_1047), iParam0);
+	MISC::SET_BIT(&(Global_1648034.f_1047), bParam0);
 	switch (bParam0)
 	{
 		case 5:

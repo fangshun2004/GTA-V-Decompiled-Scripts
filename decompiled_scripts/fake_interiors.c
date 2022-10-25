@@ -128,7 +128,7 @@ void func_1()
 				if (!BitTest(uLocal_34, 0))
 				{
 					HUD::SET_MINIMAP_COMPONENT(15, true, -1);
-					MISC::SET_BIT(&uLocal_34, 0);
+					MISC::SET_BIT(&uLocal_34, false);
 				}
 			}
 			else if (BitTest(uLocal_34, 0))
@@ -141,7 +141,7 @@ void func_1()
 		{
 			HUD::SET_MINIMAP_COMPONENT(15, false, -1);
 			MISC::CLEAR_BIT(&uLocal_34, 0);
-			MISC::SET_BIT(&uLocal_34, 1);
+			MISC::SET_BIT(&uLocal_34, true);
 		}
 	}
 }

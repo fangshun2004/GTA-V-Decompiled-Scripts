@@ -929,7 +929,7 @@ void func_12(int iParam0, int iParam1)
 	{
 		func_14(0, 0);
 		GRAPHICS::ANIMPOSTFX_PLAY("DeathFailOut", 0, false);
-		MISC::SET_BIT(&iLocal_48, 1);
+		MISC::SET_BIT(&iLocal_48, true);
 		func_13(1, 2, 0);
 		CAM::SET_CAM_DEATH_FAIL_EFFECT_STATE(2);
 	}
@@ -998,7 +998,7 @@ void func_14(int iParam0, int iParam1)
 		if (!BitTest(iLocal_48, 0) || iParam1)
 		{
 			GRAPHICS::ANIMPOSTFX_PLAY(sVar0, 0, false);
-			MISC::SET_BIT(&iLocal_48, 0);
+			MISC::SET_BIT(&iLocal_48, false);
 			func_13(1, 1, 0);
 			CAM::SET_CAM_DEATH_FAIL_EFFECT_STATE(1);
 		}
@@ -1545,7 +1545,7 @@ void func_34(int* iParam0)
 void func_35(int* iParam0, float fParam1)
 {
 	iParam0->f_1 = (func_36(BitTest(*iParam0, 4)) - fParam1);
-	MISC::SET_BIT(iParam0, 1);
+	MISC::SET_BIT(iParam0, true);
 	MISC::CLEAR_BIT(iParam0, 2);
 	iParam0->f_2 = 0f;
 }
@@ -1854,7 +1854,7 @@ int func_50(var uParam0, char* sParam1, int iParam2, int iParam3, int iParam4, i
 		uParam0->f_2[iVar1 /*15*/].f_3[0 /*2*/].f_1 = iParam3;
 		if (iParam4 == 1)
 		{
-			MISC::SET_BIT(&(uParam0->f_2[iVar1 /*15*/].f_13), 0);
+			MISC::SET_BIT(&(uParam0->f_2[iVar1 /*15*/].f_13), false);
 		}
 		uParam0->f_2[iVar1 /*15*/].f_14++;
 		uParam0->f_123++;
@@ -3847,7 +3847,7 @@ void func_116()
 				func_99(&uLocal_411, 0, PLAYER::PLAYER_PED_ID(), "TREVOR", 0, 1);
 				func_99(&uLocal_411, 3, iLocal_196[11], "ACULTMaster", 0, 1);
 				func_99(&uLocal_411, 4, 0, "ACULTGroup", 0, 1);
-				MISC::SET_BIT(&iVar0, 1);
+				MISC::SET_BIT(&iVar0, true);
 				MISC::SET_BIT(&iVar0, 3);
 				MISC::SET_BIT(&iVar0, 4);
 				if (!bLocal_172)
@@ -3924,7 +3924,7 @@ void func_118(int iParam0)
 				{
 					func_119(func_120(iParam0), -1);
 					Global_113386.f_24995.f_2++;
-					MISC::SET_BIT(&Global_113382, 0);
+					MISC::SET_BIT(&Global_113382, false);
 				}
 			}
 			break;
@@ -3936,7 +3936,7 @@ void func_118(int iParam0)
 				{
 					func_119(func_120(iParam0), -1);
 					Global_113386.f_24995.f_3++;
-					MISC::SET_BIT(&Global_113382, 1);
+					MISC::SET_BIT(&Global_113382, true);
 				}
 			}
 			break;

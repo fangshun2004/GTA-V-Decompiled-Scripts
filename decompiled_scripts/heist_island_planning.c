@@ -12162,15 +12162,15 @@ int func_418(var uParam0, int iParam1)
 
 void func_419(int iParam0, int iParam1, char* sParam2, var uParam3)
 {
-	int iVar0;
+	bool bVar0;
 	
 	if (uParam3->f_693 >= 12)
 	{
 		return;
 	}
-	iVar0 = uParam3->f_693;
-	StringCopy(&(uParam3->f_1[iVar0 /*57*/].f_32), sParam2, 16);
-	MISC::SET_BIT(&(uParam3->f_689), iVar0);
+	bVar0 = uParam3->f_693;
+	StringCopy(&(uParam3->f_1[bVar0 /*57*/].f_32), sParam2, 16);
+	MISC::SET_BIT(&(uParam3->f_689), bVar0);
 	uParam3->f_1[bVar0 /*57*/].f_54 = iParam0;
 	uParam3->f_1[bVar0 /*57*/].f_55 = iParam1;
 	MISC::SET_BIT(&(uParam3->f_690), bVar0);
@@ -12179,15 +12179,15 @@ void func_419(int iParam0, int iParam1, char* sParam2, var uParam3)
 
 void func_420(int iParam0, int iParam1, char* sParam2, var uParam3, bool bParam4, int iParam5)
 {
-	int iVar0;
+	bool bVar0;
 	
 	if (uParam3->f_693 >= 12)
 	{
 		return;
 	}
-	iVar0 = uParam3->f_693;
-	StringCopy(&(uParam3->f_1[iVar0 /*57*/].f_32), sParam2, 16);
-	MISC::SET_BIT(&(uParam3->f_689), iVar0);
+	bVar0 = uParam3->f_693;
+	StringCopy(&(uParam3->f_1[bVar0 /*57*/].f_32), sParam2, 16);
+	MISC::SET_BIT(&(uParam3->f_689), bVar0);
 	uParam3->f_1[bVar0 /*57*/].f_54 = iParam0;
 	uParam3->f_1[bVar0 /*57*/].f_55 = iParam1;
 	uParam3->f_1[bVar0 /*57*/].f_56 = iParam5;
@@ -12220,18 +12220,18 @@ int func_421(int iParam0)
 
 void func_422(char* sParam0, char* sParam1, var uParam2, var uParam3, char* sParam4)
 {
-	int iVar0;
+	bool bVar0;
 	
 	if (uParam3->f_693 >= 12)
 	{
 		return;
 	}
-	iVar0 = uParam3->f_693;
-	StringCopy(&(uParam3->f_1[iVar0 /*57*/]), sParam0, 64);
-	StringCopy(&(uParam3->f_1[iVar0 /*57*/].f_16), sParam4, 64);
-	StringCopy(&(uParam3->f_1[iVar0 /*57*/].f_32), sParam1, 16);
-	uParam3->f_1[iVar0 /*57*/].f_36 = uParam2;
-	MISC::SET_BIT(&(uParam3->f_686), iVar0);
+	bVar0 = uParam3->f_693;
+	StringCopy(&(uParam3->f_1[bVar0 /*57*/]), sParam0, 64);
+	StringCopy(&(uParam3->f_1[bVar0 /*57*/].f_16), sParam4, 64);
+	StringCopy(&(uParam3->f_1[bVar0 /*57*/].f_32), sParam1, 16);
+	uParam3->f_1[bVar0 /*57*/].f_36 = uParam2;
+	MISC::SET_BIT(&(uParam3->f_686), bVar0);
 	uParam3->f_694 = bVar0;
 	uParam3->f_693++;
 }

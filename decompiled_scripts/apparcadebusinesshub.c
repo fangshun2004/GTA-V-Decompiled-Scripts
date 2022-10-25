@@ -2536,65 +2536,65 @@ void func_95(int iParam0, int iParam1, bool bParam2)
 
 void func_96(int iParam0, int iParam1, bool bParam2)
 {
-	int iVar0;
+	bool bVar0;
 	
 	switch (iParam0)
 	{
 		case 1:
-			iVar0 = 0;
+			bVar0 = false;
 			break;
 		
 		case 2:
-			iVar0 = 1;
+			bVar0 = true;
 			break;
 		
 		case 3:
-			iVar0 = 2;
+			bVar0 = 2;
 			break;
 		
 		case 4:
-			iVar0 = 3;
+			bVar0 = 3;
 			break;
 		
 		case 5:
-			iVar0 = 4;
+			bVar0 = 4;
 			break;
 		
 		case 6:
-			iVar0 = 5;
+			bVar0 = 5;
 			break;
 		
 		case 7:
-			iVar0 = 6;
+			bVar0 = 6;
 			break;
 		
 		case 10:
-			iVar0 = 7;
+			bVar0 = 7;
 			break;
 		
 		case 8:
 			if (bParam2)
 			{
-				iVar0 = 8;
+				bVar0 = 8;
 			}
 			else
 			{
-				iVar0 = 9;
+				bVar0 = 9;
 			}
 			break;
 		
 		case 9:
 			if (bParam2)
 			{
-				iVar0 = 10;
+				bVar0 = 10;
 			}
 			else
 			{
-				iVar0 = (11 + iParam1);
+				bVar0 = (11 + iParam1);
 			}
 			break;
 	}
-	MISC::SET_BIT(&iLocal_112, iVar0);
+	MISC::SET_BIT(&iLocal_112, bVar0);
 }
 
 int func_97(int iParam0, int iParam1)
@@ -2753,7 +2753,7 @@ void func_101(char* sParam0, char* sParam1, char* sParam2, char* sParam3, bool b
 	{
 		AUDIO::PLAY_SOUND_FRONTEND(-1, "Click_Fail", "GTAO_SMG_Hangar_Computer_Sounds", true);
 	}
-	MISC::SET_BIT(&uLocal_109, 0);
+	MISC::SET_BIT(&uLocal_109, false);
 	func_3(iParam6);
 	func_90();
 }
@@ -3916,10 +3916,10 @@ void func_153(bool bParam0)
 	func_154(16, -1);
 }
 
-void func_154(int iParam0, int iParam1)
+void func_154(bool bParam0, int iParam1)
 {
-	MISC::SET_BIT(&(Global_1648034.f_1047), iParam0);
-	switch (iParam0)
+	MISC::SET_BIT(&(Global_1648034.f_1047), bParam0);
+	switch (bParam0)
 	{
 		case 5:
 			if (iParam1 > -1)
@@ -5344,7 +5344,7 @@ int func_220(int iParam0, char* sParam1, int iParam2, int iParam3, int iParam4, 
 			Global_8843 = iParam6;
 			Global_8746[3 /*6*/] = { func_221(iParam0) };
 			Global_8823 = iParam0;
-			MISC::SET_BIT(&Global_8136, 1);
+			MISC::SET_BIT(&Global_8136, true);
 			MISC::SET_BIT(&Global_8136, 7);
 		}
 		return 1;
@@ -6558,28 +6558,28 @@ void func_260(struct<2> Param0, var uParam2, var uParam3, var uParam4, var uPara
 int func_261(int iParam0, bool bParam1)
 {
 	var uVar0;
-	int iVar1;
+	bool bVar1;
 	int iVar2;
 	
-	iVar1 = 0;
-	while (iVar1 < 32)
+	bVar1 = false;
+	while (bVar1 < 32)
 	{
-		iVar2 = PLAYER::INT_TO_PLAYERINDEX(iVar1);
+		iVar2 = PLAYER::INT_TO_PLAYERINDEX(bVar1);
 		if (func_52(iVar2, 0, 0))
 		{
 			if (iVar2 != PLAYER::PLAYER_ID() || iParam0)
 			{
 				if (bParam1)
 				{
-					MISC::SET_BIT(&uVar0, iVar1);
+					MISC::SET_BIT(&uVar0, bVar1);
 				}
 				else if (!func_217(iVar2, 0))
 				{
-					MISC::SET_BIT(&uVar0, iVar1);
+					MISC::SET_BIT(&uVar0, bVar1);
 				}
 			}
 		}
-		iVar1++;
+		bVar1++;
 	}
 	return uVar0;
 }
@@ -6587,11 +6587,11 @@ int func_261(int iParam0, bool bParam1)
 void func_262(int iParam0)
 {
 	int iVar0;
-	int iVar1;
+	bool bVar1;
 	
 	iVar0 = (iParam0 / 32);
-	iVar1 = (iParam0 % 32);
-	MISC::SET_BIT(&(Global_2815059.f_5195.f_7[iVar0]), iVar1);
+	bVar1 = (iParam0 % 32);
+	MISC::SET_BIT(&(Global_2815059.f_5195.f_7[iVar0]), bVar1);
 }
 
 void func_263()
@@ -6956,9 +6956,9 @@ void func_281()
 	}
 }
 
-void func_282(int iParam0)
+void func_282(bool bParam0)
 {
-	MISC::SET_BIT(&(Global_1892703[PLAYER::PLAYER_ID() /*599*/].f_10.f_4), iParam0);
+	MISC::SET_BIT(&(Global_1892703[PLAYER::PLAYER_ID() /*599*/].f_10.f_4), bParam0);
 }
 
 int func_283()
@@ -7166,9 +7166,9 @@ void func_292(int iParam0, int iParam1, int iParam2, bool bParam3, bool bParam4)
 	}
 }
 
-void func_293(int iParam0)
+void func_293(bool bParam0)
 {
-	MISC::SET_BIT(&(Global_2653164.f_2), iParam0);
+	MISC::SET_BIT(&(Global_2653164.f_2), bParam0);
 	if (Global_2653164)
 	{
 		return;
@@ -7392,7 +7392,7 @@ void func_307()
 				func_308(bVar1);
 			}
 		}
-		iVar0++;
+		bVar0++;
 	}
 }
 
@@ -7977,7 +7977,7 @@ int func_334(char* sParam0)
 					return 1;
 				}
 			}
-			iVar1++;
+			bVar1++;
 		}
 	}
 	return 0;

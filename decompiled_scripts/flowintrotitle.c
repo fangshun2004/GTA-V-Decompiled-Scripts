@@ -48,7 +48,7 @@ void __EntryFunction__()
 			}
 			else if (MISC::GET_GAME_TIMER() > iLocal_1)
 			{
-				MISC::SET_BIT(&(Global_113386.f_10016.f_25), 1);
+				MISC::SET_BIT(&(Global_113386.f_10016.f_25), true);
 				if (MISC::HAS_GAME_INSTALLED_THIS_SESSION() || MISC::IS_PC_VERSION())
 				{
 					func_4(1, 1);
@@ -152,7 +152,7 @@ void func_9()
 
 void func_10()
 {
-	MISC::SET_BIT(&(Global_113386.f_10016.f_25), 1);
+	MISC::SET_BIT(&(Global_113386.f_10016.f_25), true);
 	if (iLocal_0 != 0)
 	{
 		GRAPHICS::SET_SCALEFORM_MOVIE_AS_NO_LONGER_NEEDED(&iLocal_0);
