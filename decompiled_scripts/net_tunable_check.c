@@ -2039,7 +2039,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 16f;
 			uParam1->f_2 = 4;
 			uParam1->f_3 = 16;
-			uParam1->f_5 = -140847750;
+			uParam1->f_5 = joaat("TDM_MAX_PLAYERS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -2048,7 +2048,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 16f;
 			uParam1->f_2 = 4;
 			uParam1->f_3 = 16;
-			uParam1->f_5 = -190820730;
+			uParam1->f_5 = joaat("TDM_RP_MAX_PLAYERS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -3094,7 +3094,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1024f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1024;
-			uParam1->f_5 = 872194479;
+			uParam1->f_5 = joaat("BADSPORT_NUMDAYS_10TH_OFFENCE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -6238,7 +6238,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 1914127564;
+			uParam1->f_5 = joaat("TATTOO_MP_FM_04_EXPENDITURE_TUNABLE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -6247,7 +6247,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 983218273;
+			uParam1->f_5 = joaat("TATTOO_MP_FM_05_EXPENDITURE_TUNABLE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -6256,7 +6256,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 178678567;
+			uParam1->f_5 = joaat("TATTOO_MP_FM_06_EXPENDITURE_TUNABLE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -6301,7 +6301,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 1411998323;
+			uParam1->f_5 = joaat("TATTOO_MP_FM_20_EXPENDITURE_TUNABLE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -6798,7 +6798,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 193513430;
+			uParam1->f_5 = joaat("PLAYERKIT_GOLD_DLC_PISTOL50_EXPENDITURE_TUNABLE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -6807,7 +6807,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 1232863007;
+			uParam1->f_5 = joaat("PLAYERKIT_PLATINUM_DLC_PISTOL50_EXPENDITURE_TUNABLE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -7605,7 +7605,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 39600;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 1630934099;
+			uParam1->f_5 = joaat("DLC_VEHICLE_OCELOT_F620");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -9802,7 +9802,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = SYSTEM::TO_FLOAT(32);
 			uParam1->f_2 = 2;
 			uParam1->f_3 = func_3();
-			uParam1->f_5 = 869147615;
+			uParam1->f_5 = joaat("MAX_NG_TRANSITION_SESSION_SIZE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -9811,7 +9811,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 25;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = 1414317463;
+			uParam1->f_5 = joaat("XP_REWARD_EVENT_DISTRACT_COPS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10254,7 +10254,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -1467004393;
+			uParam1->f_5 = joaat("MAX_HEIST_CUT_AMOUNT");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -10274,7 +10274,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2500000f;
 			uParam1->f_2 = 300000;
 			uParam1->f_3 = 2500000;
-			uParam1->f_5 = -1877970625;
+			uParam1->f_5 = joaat("VEHICLES_HEIST_LAMPADATI_CASCO");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10283,7 +10283,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 250000f;
 			uParam1->f_2 = 60000;
 			uParam1->f_3 = 250000;
-			uParam1->f_5 = 639828788;
+			uParam1->f_5 = joaat("VEHICLES_HEIST_NAGASAKI_DINGHY");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10301,7 +10301,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 30000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 290523077;
+			uParam1->f_5 = joaat("VEHICLES_HEIST_DECLASSE_GANG_BURRITO");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10310,7 +10310,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 185000;
 			uParam1->f_3 = 1000000;
-			uParam1->f_5 = -768747205;
+			uParam1->f_5 = joaat("VEHICLES_HEIST_VAPID_GUADIAN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10346,7 +10346,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 250000f;
 			uParam1->f_2 = 35000;
 			uParam1->f_3 = 250000;
-			uParam1->f_5 = -644832470;
+			uParam1->f_5 = joaat("VEHICLES_HEIST_KARIN_KURUMA");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10355,7 +10355,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = 65000;
 			uParam1->f_3 = 600000;
-			uParam1->f_5 = -842117179;
+			uParam1->f_5 = joaat("VEHICLES_HEIST_KARIN_KURUMA_ARMORED");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10409,7 +10409,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 200000;
 			uParam1->f_3 = 1000000;
-			uParam1->f_5 = 1531297517;
+			uParam1->f_5 = joaat("VEHICLES_HEIST_VELUM");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10418,7 +10418,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 500000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 500000;
-			uParam1->f_5 = -1369228807;
+			uParam1->f_5 = joaat("HEIST_FIRST_TIME_BONUS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10427,7 +10427,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000000;
-			uParam1->f_5 = 15605478;
+			uParam1->f_5 = joaat("HEIST_ORDER_BONUS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10436,7 +10436,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000000;
-			uParam1->f_5 = 40165126;
+			uParam1->f_5 = joaat("HEIST_SAME_TEAM_BONUS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10445,7 +10445,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2E+07f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20000000;
-			uParam1->f_5 = 1109954891;
+			uParam1->f_5 = joaat("HEIST_ULTIMATE_CHALLENGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10454,7 +10454,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -1779378572;
+			uParam1->f_5 = joaat("LEADER_DEFAULT_HEIST_TUTORIAL_FINALE_CUT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10463,7 +10463,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 300000;
-			uParam1->f_5 = -736791602;
+			uParam1->f_5 = joaat("HEIST_FLEECA_JOB_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10472,7 +10472,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000000;
-			uParam1->f_5 = -1697146966;
+			uParam1->f_5 = joaat("HEIST_PRISON_BREAK_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10481,7 +10481,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = -478542030;
+			uParam1->f_5 = joaat("HEIST_HUMANE_LABS_RAID_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10499,7 +10499,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2500000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2500000;
-			uParam1->f_5 = -1535523991;
+			uParam1->f_5 = joaat("HEIST_PACIFIC_STANDARD_JOB_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10534,7 +10534,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 25;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = 1414317463;
+			uParam1->f_5 = joaat("XP_REWARD_EVENT_DISTRACT_COPS");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -10545,7 +10545,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 200000f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 200000;
-			uParam1->f_5 = -1108389569;
+			uParam1->f_5 = joaat("CASH_REWARD_OVERRIDE_ELITE_OBJECTIVES_FLEECA");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10554,7 +10554,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 200000f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 200000;
-			uParam1->f_5 = -927762540;
+			uParam1->f_5 = joaat("CASH_REWARD_OVERRIDE_ELITE_OBJECTIVES_HUMANE_LABS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10563,7 +10563,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 200000f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 200000;
-			uParam1->f_5 = -691376018;
+			uParam1->f_5 = joaat("CASH_REWARD_OVERRIDE_ELITE_OBJECTIVES_PRISON_BREAK");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10581,7 +10581,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 200000f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 200000;
-			uParam1->f_5 = -1188165573;
+			uParam1->f_5 = joaat("CASH_REWARD_OVERRIDE_ELITE_OBJECTIVES_PACIFIC_STANDARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10590,7 +10590,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 600000;
-			uParam1->f_5 = -461998205;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_FLEECA_TIME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10599,7 +10599,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 732304828;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_FLEECA_VEHICLE_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10608,7 +10608,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 1749060561;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_FLEECA_PED_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10617,7 +10617,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 300f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 300;
-			uParam1->f_5 = -489806450;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_FLEECA_ENEMY_KILLS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10626,7 +10626,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 1236345409;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_FLEECA_HEALTH_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10635,7 +10635,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 1200000;
-			uParam1->f_5 = -1140254079;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_HUMANE_LABS_TIME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10644,7 +10644,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 201975816;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_HUMANE_LABS_VEHICLE_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10653,7 +10653,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = -36998299;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_HUMANE_LABS_PED_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10662,7 +10662,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 300f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 300;
-			uParam1->f_5 = 862138175;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_HUMANE_LABS_ENEMY_KILLS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10671,7 +10671,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 1056121904;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_HUMANE_LABS_HEALTH_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10680,7 +10680,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 600000;
-			uParam1->f_5 = 241292275;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_PRISON_TIME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10689,7 +10689,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 140847792;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_PRISON_VEHICLE_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10698,7 +10698,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = -1910687798;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_PRISON_PED_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10707,7 +10707,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 300f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 300;
-			uParam1->f_5 = -1964597960;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_PRISON_ENEMY_KILLS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10716,7 +10716,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = -2014262411;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_PRISON_HEALTH_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10725,7 +10725,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 600000;
-			uParam1->f_5 = 1026862599;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_PRISON_EXTRACTION");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10734,7 +10734,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 1200000;
-			uParam1->f_5 = 1305296770;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_SERIES_A_TIME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10743,7 +10743,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 1536718037;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_SERIES_A_VEHICLE_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10752,7 +10752,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 331939322;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_SERIES_A_PED_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10761,7 +10761,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 300f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 300;
-			uParam1->f_5 = -2098242609;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_SERIES_A_ENEMY_KILLS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10770,7 +10770,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = -367313129;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_SERIES_A_HEALTH_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10779,7 +10779,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 1200000;
-			uParam1->f_5 = -1868925097;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_PACIFIC_TIME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10788,7 +10788,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = -707243232;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_PACIFIC_VEHICLE_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10797,7 +10797,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = -1669356470;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_PACIFIC_PED_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10806,7 +10806,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 300f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 300;
-			uParam1->f_5 = -1138011519;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_PACIFIC_ENEMY_KILLS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10815,7 +10815,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = -1944119143;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_PACIFIC_HEALTH_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10824,7 +10824,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 72000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 72000;
-			uParam1->f_5 = -365813198;
+			uParam1->f_5 = joaat("HEIST_MONEY_GRAB_CASH_DROP_THRESHOLD_HIGH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10833,7 +10833,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 36000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 36000;
-			uParam1->f_5 = -118287201;
+			uParam1->f_5 = joaat("HEIST_MONEY_GRAB_CASH_DROP_THRESHOLD_LOW");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10842,7 +10842,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = 1241897426;
+			uParam1->f_5 = joaat("HEIST_SETUP_CASH_CALCULATION_MAX_TAKE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10851,7 +10851,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -284978087;
+			uParam1->f_5 = joaat("MAX_HEIST_CASH_LOSS_PERCENTAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10860,7 +10860,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -76405223;
+			uParam1->f_5 = joaat("DEFAULT_STACK_CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10869,7 +10869,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -1215175122;
+			uParam1->f_5 = joaat("BONUS_STACK_CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10878,7 +10878,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 45f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 45;
-			uParam1->f_5 = -527933388;
+			uParam1->f_5 = joaat("BONUS_STACK_NUMBER_PER_TROLLEY");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10887,7 +10887,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 500000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 500000;
-			uParam1->f_5 = 1596686975;
+			uParam1->f_5 = joaat("AMOUNT_HEIST_MEMBERS_BONUS");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -10898,7 +10898,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = 1949822091;
+			uParam1->f_5 = joaat("MEMBER_MIN_HEIST_FINALE_TAKE_PERCENTAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10907,7 +10907,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -1282713733;
+			uParam1->f_5 = joaat("LEADER_MIN_HEIST_FINALE_TAKE_PERCENTAGE");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -10918,7 +10918,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 20790;
 			uParam1->f_3 = 150000;
-			uParam1->f_5 = -682446881;
+			uParam1->f_5 = joaat("CGTONG_DINKA_BLISTA_COMPACT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10927,7 +10927,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 247500;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = 116463396;
+			uParam1->f_5 = joaat("CGTONG_DODO");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10936,7 +10936,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 30690;
 			uParam1->f_3 = 150000;
-			uParam1->f_5 = 715349067;
+			uParam1->f_5 = joaat("CGTONG_IMPONTE_DUKES");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10954,7 +10954,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 35145;
 			uParam1->f_3 = 150000;
-			uParam1->f_5 = -575136563;
+			uParam1->f_5 = joaat("CGTONG_DECLASSE_STALLION");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10963,7 +10963,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000000f;
 			uParam1->f_2 = 655875;
 			uParam1->f_3 = 2000000;
-			uParam1->f_5 = -1711319395;
+			uParam1->f_5 = joaat("CGTONG_SUBMERSIBLE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10972,7 +10972,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 200;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = -1885561778;
+			uParam1->f_5 = joaat("CGTONG_HATCHET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10981,7 +10981,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -64032203;
+			uParam1->f_5 = joaat("MP_DAILY_OBJECTIVE_BONUS_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10990,7 +10990,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 563884031;
+			uParam1->f_5 = joaat("MP_DAILY_OBJECTIVE_BONUS_RP_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -10999,7 +10999,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 500000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 500000;
-			uParam1->f_5 = 833422834;
+			uParam1->f_5 = joaat("MP_WEEKLY_OBJECTIVE_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11008,7 +11008,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 675628469;
+			uParam1->f_5 = joaat("MP_WEEKLY_OBJECTIVE_RP_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11017,7 +11017,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000000;
-			uParam1->f_5 = 1942782413;
+			uParam1->f_5 = joaat("MP_MONTHLY_OBJECTIVE_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11026,7 +11026,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 1012074199;
+			uParam1->f_5 = joaat("MP_MONTHLY_OBJECTIVE_RP_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11035,7 +11035,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -1060446307;
+			uParam1->f_5 = joaat("MP_10_OBJECTIVES_COMPLETE_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11044,7 +11044,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = 2120301072;
+			uParam1->f_5 = joaat("MP_10_OBJECTIVES_COMPLETE_RP_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11053,7 +11053,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -863377025;
+			uParam1->f_5 = joaat("MP_20_OBJECTIVES_COMPLETE_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11062,7 +11062,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = 79198076;
+			uParam1->f_5 = joaat("MP_20_OBJECTIVES_COMPLETE_RP_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11071,7 +11071,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = -222535300;
+			uParam1->f_5 = joaat("MP_50_OBJECTIVES_COMPLETE_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11080,7 +11080,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30000;
-			uParam1->f_5 = -1942366844;
+			uParam1->f_5 = joaat("MP_50_OBJECTIVES_COMPLETE_RP_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11089,7 +11089,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 200000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 200000;
-			uParam1->f_5 = -441395635;
+			uParam1->f_5 = joaat("MP_100_OBJECTIVES_COMPLETE_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11098,7 +11098,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -633145824;
+			uParam1->f_5 = joaat("MP_100_OBJECTIVES_COMPLETE_RP_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11107,7 +11107,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 275702167;
+			uParam1->f_5 = joaat("CAR_MODS_HORN_SAD_TROMBONE");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -11318,7 +11318,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -326111676;
+			uParam1->f_5 = joaat("HEIST_RP_TIME_PERIOD_1_PERCENTAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11327,7 +11327,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 1656333677;
+			uParam1->f_5 = joaat("HEIST_RP_TIME_PERIOD_2_PERCENTAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11336,7 +11336,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1852964703;
+			uParam1->f_5 = joaat("HEIST_RP_TIME_PERIOD_3_PERCENTAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11345,7 +11345,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 1787114410;
+			uParam1->f_5 = joaat("HEIST_RP_TIME_PERIOD_4_PERCENTAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11354,7 +11354,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -849109764;
+			uParam1->f_5 = joaat("HEIST_RP_TIME_PERIOD_5_PERCENTAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11363,7 +11363,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 4f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 4;
-			uParam1->f_5 = 599942040;
+			uParam1->f_5 = joaat("HEIST_RP_TIME_PERIOD_6_PERCENTAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11372,7 +11372,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 4.5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = 1189510226;
+			uParam1->f_5 = joaat("HEIST_RP_TIME_PERIOD_7_PERCENTAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11381,7 +11381,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = 633502183;
+			uParam1->f_5 = joaat("HEIST_RP_TIME_PERIOD_8_PERCENTAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11390,7 +11390,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5.5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 6;
-			uParam1->f_5 = -1019356302;
+			uParam1->f_5 = joaat("HEIST_RP_TIME_PERIOD_9_PERCENTAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11399,7 +11399,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 6f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 6;
-			uParam1->f_5 = -217455654;
+			uParam1->f_5 = joaat("HEIST_RP_TIME_PERIOD_10_PERCENTAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11435,7 +11435,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -1585383603;
+			uParam1->f_5 = joaat("HEIST_RP_BASE_MULTIPLIER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11444,7 +11444,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 500;
-			uParam1->f_5 = 1667263936;
+			uParam1->f_5 = joaat("HEIST_RP_BASIC_VALUE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11453,7 +11453,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = -662029971;
+			uParam1->f_5 = joaat("HEIST_RP_RANK_CAP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11462,7 +11462,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 500;
-			uParam1->f_5 = 1479256181;
+			uParam1->f_5 = joaat("HEIST_FAIL_RP_MINIMUM");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11471,7 +11471,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = 2116066248;
+			uParam1->f_5 = joaat("HEIST_FAIL_RP_TIME_PERIOD_2_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11480,7 +11480,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = -1062623225;
+			uParam1->f_5 = joaat("HEIST_FAIL_RP_TIME_PERIOD_3_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11489,7 +11489,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = -397274584;
+			uParam1->f_5 = joaat("HEIST_FAIL_RP_TIME_PERIOD_4_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11498,7 +11498,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = -170073122;
+			uParam1->f_5 = joaat("HEIST_FAIL_RP_TIME_PERIOD_5_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11507,7 +11507,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = 2131625723;
+			uParam1->f_5 = joaat("HEIST_FAIL_RP_TIME_PERIOD_6_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11516,7 +11516,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = -1821454383;
+			uParam1->f_5 = joaat("HEIST_FAIL_RP_TIME_PERIOD_7_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11525,7 +11525,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = 1138422695;
+			uParam1->f_5 = joaat("HEIST_FAIL_RP_TIME_PERIOD_8_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -11536,7 +11536,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = -1269060505;
+			uParam1->f_5 = joaat("HEIST_FAIL_RP_TIME_PERIOD_9_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11545,7 +11545,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = -1954484836;
+			uParam1->f_5 = joaat("HEIST_FAIL_RP_TIME_PERIOD_10_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11554,7 +11554,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 281319684;
+			uParam1->f_5 = joaat("HEIST_RP_STAGE_PREP_BONUS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11563,7 +11563,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -262054156;
+			uParam1->f_5 = joaat("HEIST_RP_STAGE_FINALE_BONUS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11572,7 +11572,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -247589881;
+			uParam1->f_5 = joaat("HEIST_RP_ROLE_PREP_BONUS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11581,7 +11581,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1308507187;
+			uParam1->f_5 = joaat("HEIST_RP_ROLE_FINALE_BONUS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11599,7 +11599,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 60;
-			uParam1->f_5 = 420923772;
+			uParam1->f_5 = joaat("HEIST_FAIL_CASH_TIME_PERIOD_1");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11608,7 +11608,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 60;
-			uParam1->f_5 = -1886472598;
+			uParam1->f_5 = joaat("HEIST_FAIL_CASH_TIME_PERIOD_2");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11617,7 +11617,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 60;
-			uParam1->f_5 = 2133726633;
+			uParam1->f_5 = joaat("HEIST_FAIL_CASH_TIME_PERIOD_3");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11626,7 +11626,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 60;
-			uParam1->f_5 = -199819395;
+			uParam1->f_5 = joaat("HEIST_FAIL_CASH_TIME_PERIOD_4");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11635,7 +11635,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 60;
-			uParam1->f_5 = -507946302;
+			uParam1->f_5 = joaat("HEIST_FAIL_CASH_TIME_PERIOD_5");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11644,7 +11644,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 60;
-			uParam1->f_5 = 1039930178;
+			uParam1->f_5 = joaat("HEIST_FAIL_CASH_TIME_PERIOD_6");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11653,7 +11653,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1;
-			uParam1->f_5 = 596116364;
+			uParam1->f_5 = joaat("HEISTS_FINALE_FAIL_CASH_PERCENTAGE_PERIOD_1");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11662,7 +11662,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1;
-			uParam1->f_5 = 475493675;
+			uParam1->f_5 = joaat("HEISTS_FINALE_FAIL_CASH_PERCENTAGE_PERIOD_2");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11671,7 +11671,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1;
-			uParam1->f_5 = 118835879;
+			uParam1->f_5 = joaat("HEISTS_FINALE_FAIL_CASH_PERCENTAGE_PERIOD_3");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11680,7 +11680,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 537918616;
+			uParam1->f_5 = joaat("HEISTS_FINALE_FAIL_CASH_PERCENTAGE_PERIOD_4");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11689,7 +11689,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 164679706;
+			uParam1->f_5 = joaat("HEISTS_FINALE_FAIL_CASH_PERCENTAGE_PERIOD_5");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11698,7 +11698,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1005337439;
+			uParam1->f_5 = joaat("HEISTS_FINALE_FAIL_CASH_PERCENTAGE_PERIOD_6");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11707,7 +11707,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -177821882;
+			uParam1->f_5 = joaat("HEISTS_FINALE_FAIL_CASH_PERCENTAGE_PERIOD_7");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11716,7 +11716,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = 605775880;
+			uParam1->f_5 = joaat("HEISTS_PREP_FAIL_CASH_PERCENTAGE_PERIOD_1");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11725,7 +11725,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = 994350686;
+			uParam1->f_5 = joaat("HEISTS_PREP_FAIL_CASH_PERCENTAGE_PERIOD_2");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11734,7 +11734,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = 703591349;
+			uParam1->f_5 = joaat("HEISTS_PREP_FAIL_CASH_PERCENTAGE_PERIOD_3");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11743,7 +11743,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = 386584043;
+			uParam1->f_5 = joaat("HEISTS_PREP_FAIL_CASH_PERCENTAGE_PERIOD_4");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11752,7 +11752,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = 89860748;
+			uParam1->f_5 = joaat("HEISTS_PREP_FAIL_CASH_PERCENTAGE_PERIOD_5");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11761,7 +11761,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -263389072;
+			uParam1->f_5 = joaat("HEISTS_PREP_FAIL_CASH_PERCENTAGE_PERIOD_6");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11770,7 +11770,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -553198108;
+			uParam1->f_5 = joaat("HEISTS_PREP_FAIL_CASH_PERCENTAGE_PERIOD_7");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11788,7 +11788,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -528257471;
+			uParam1->f_5 = joaat("HEISTS_LEADER_DEFAULT_HEIST_FINALE_CUT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11797,7 +11797,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = -1499559503;
+			uParam1->f_5 = joaat("time_start_value");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11806,7 +11806,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10;
-			uParam1->f_5 = 1946052474;
+			uParam1->f_5 = joaat("time_multiplier");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11815,7 +11815,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = -1708744574;
+			uParam1->f_5 = joaat("kills_multiplier");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11824,7 +11824,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = -2064452993;
+			uParam1->f_5 = joaat("max_kills");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11833,7 +11833,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = 2039519006;
+			uParam1->f_5 = joaat("ambient_cop_kills_multiplier");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11842,7 +11842,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1187949946;
+			uParam1->f_5 = joaat("max_ambient_cop_kills");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11851,7 +11851,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = -1440816611;
+			uParam1->f_5 = joaat("head_shot_multiplier");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11860,7 +11860,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 1542235699;
+			uParam1->f_5 = joaat("max_headshots");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11869,7 +11869,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 1721859582;
+			uParam1->f_5 = joaat("safe_drive_time_multiplier");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11878,7 +11878,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = -17216460;
+			uParam1->f_5 = joaat("accuracy_multiplier");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -11889,7 +11889,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = 2135517534;
+			uParam1->f_5 = joaat("civillian_kills_start_value");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11898,7 +11898,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000;
-			uParam1->f_5 = -2013854817;
+			uParam1->f_5 = joaat("civillian_kills_multiplier");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11907,7 +11907,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = 1299723789;
+			uParam1->f_5 = joaat("max_civillian_kills");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11916,7 +11916,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 1343230522;
+			uParam1->f_5 = joaat("health_score_start_value");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11925,7 +11925,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 1006143612;
+			uParam1->f_5 = joaat("health_score_multiplier_0");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11934,7 +11934,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10;
-			uParam1->f_5 = 1310928081;
+			uParam1->f_5 = joaat("health_score_multiplier_1");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11943,7 +11943,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 1145413714;
+			uParam1->f_5 = joaat("hack_score_start_value");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11952,7 +11952,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = -91243912;
+			uParam1->f_5 = joaat("hack_score_multiplier");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11961,7 +11961,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = -1471181088;
+			uParam1->f_5 = joaat("max_hacks");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11970,7 +11970,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = -1537238317;
+			uParam1->f_5 = joaat("max_wanted_level");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11979,7 +11979,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = -236186605;
+			uParam1->f_5 = joaat("wanted_level_multiplier");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11988,7 +11988,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = 1845534777;
+			uParam1->f_5 = joaat("wanted_level_time_multiplier");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -11997,7 +11997,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 4f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 4;
-			uParam1->f_5 = 1432380296;
+			uParam1->f_5 = joaat("objective_max_team_players");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12006,7 +12006,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = -815423306;
+			uParam1->f_5 = joaat("objective_multiplier");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12015,7 +12015,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 12000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 12000;
-			uParam1->f_5 = 542824547;
+			uParam1->f_5 = joaat("JOB_HEIST_RP_CAP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12024,7 +12024,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -1651561769;
+			uParam1->f_5 = joaat("HEIST_HEAVY_ARMOUR_AFFECT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12033,7 +12033,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1.5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 373723198;
+			uParam1->f_5 = joaat("HEIST_HEAVY_ARMOUR_SPEED");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12042,7 +12042,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 1964434213;
+			uParam1->f_5 = joaat("RP_HEISTS_PLATINUM_MEDAL_RP_MULTIPLIER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12051,7 +12051,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 1;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -2110655325;
+			uParam1->f_5 = joaat("EXPENSES_HEIST_COST_PERCENTAGE_FLEECA");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12060,7 +12060,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 1;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -945941977;
+			uParam1->f_5 = joaat("EXPENSES_HEIST_COST_PERCENTAGE_HUMANE_LABS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12069,7 +12069,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 1;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -1543624979;
+			uParam1->f_5 = joaat("EXPENSES_HEIST_COST_PERCENTAGE_PRISON_BREAK");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12087,7 +12087,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 1;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = 162756378;
+			uParam1->f_5 = joaat("EXPENSES_HEIST_COST_PERCENTAGE_PACIFIC_STANDARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12096,7 +12096,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = -1198047495;
+			uParam1->f_5 = joaat("HEISTS_PREP_PERCENTAGE_CUT_FLEECA");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12105,7 +12105,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = -1236056555;
+			uParam1->f_5 = joaat("HEISTS_PREP_PERCENTAGE_CUT_HUMANE_LABS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12114,7 +12114,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = 1805291589;
+			uParam1->f_5 = joaat("HEISTS_PREP_PERCENTAGE_CUT_PRISON_BREAK");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12132,7 +12132,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = 268818202;
+			uParam1->f_5 = joaat("HEISTS_PREP_PERCENTAGE_CUT_PACIFIC_STANDARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12141,7 +12141,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 16f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 16;
-			uParam1->f_5 = -1770038462;
+			uParam1->f_5 = joaat("MAX_SKILL_MATCHED_INVITES_LG");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12150,7 +12150,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 32f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 32;
-			uParam1->f_5 = -1757323514;
+			uParam1->f_5 = joaat("MAX_SKILL_MATCHED_INVITES_NG");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -12161,7 +12161,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 3000;
 			uParam1->f_3 = 18000;
-			uParam1->f_5 = -1729596367;
+			uParam1->f_5 = joaat("LUXE1_MALE_SHOES_GOLDEN_HI_TOPS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12170,7 +12170,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 39000f;
 			uParam1->f_2 = 6500;
 			uParam1->f_3 = 39000;
-			uParam1->f_5 = -1718001628;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_BROWN_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12179,7 +12179,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 38000f;
 			uParam1->f_2 = 6250;
 			uParam1->f_3 = 38000;
-			uParam1->f_5 = -1575846672;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_TAN_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12188,7 +12188,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 36000f;
 			uParam1->f_2 = 5900;
 			uParam1->f_3 = 36000;
-			uParam1->f_5 = 823111805;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_BLACK_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12197,7 +12197,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 37000f;
 			uParam1->f_2 = 6150;
 			uParam1->f_3 = 37000;
-			uParam1->f_5 = -8427937;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_OCHRE_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12206,7 +12206,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 35000f;
 			uParam1->f_2 = 5750;
 			uParam1->f_3 = 35000;
-			uParam1->f_5 = -871806160;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_WHITE_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12215,7 +12215,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 37000f;
 			uParam1->f_2 = 6050;
 			uParam1->f_3 = 37000;
-			uParam1->f_5 = -463233030;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_LEOPARD_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12224,7 +12224,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 34000f;
 			uParam1->f_2 = 5650;
 			uParam1->f_3 = 34000;
-			uParam1->f_5 = -193691263;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_FALL_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12233,7 +12233,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 35000f;
 			uParam1->f_2 = 5850;
 			uParam1->f_3 = 35000;
-			uParam1->f_5 = -397055287;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_HUNTER_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12242,7 +12242,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 34000f;
 			uParam1->f_2 = 5600;
 			uParam1->f_3 = 34000;
-			uParam1->f_5 = -661216548;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_GRAY_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12251,7 +12251,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 36000f;
 			uParam1->f_2 = 6000;
 			uParam1->f_3 = 36000;
-			uParam1->f_5 = -536846871;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_ALL_BLACK_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12260,7 +12260,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 38000f;
 			uParam1->f_2 = 6300;
 			uParam1->f_3 = 38000;
-			uParam1->f_5 = 1037974626;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_BURGUNDY_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12269,7 +12269,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 39000f;
 			uParam1->f_2 = 6400;
 			uParam1->f_3 = 39000;
-			uParam1->f_5 = -758174303;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_DARK_GRAY_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12278,7 +12278,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 4950;
 			uParam1->f_3 = 30000;
-			uParam1->f_5 = 1566897804;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_BEIGE_WOOL_COAT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12287,7 +12287,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 31000f;
 			uParam1->f_2 = 5050;
 			uParam1->f_3 = 31000;
-			uParam1->f_5 = -2111510718;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_GRAY_WOOL_COAT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12296,7 +12296,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 31000f;
 			uParam1->f_2 = 5150;
 			uParam1->f_3 = 31000;
-			uParam1->f_5 = -1028732531;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_BLACK_WOOL_COAT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12305,7 +12305,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 4950;
 			uParam1->f_3 = 30000;
-			uParam1->f_5 = -46284235;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_NAVY_WOOL_COAT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12314,7 +12314,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 28000f;
 			uParam1->f_2 = 4650;
 			uParam1->f_3 = 28000;
-			uParam1->f_5 = -237381221;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_CLASSIC_SN_BOMBER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12323,7 +12323,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 26000f;
 			uParam1->f_2 = 4400;
 			uParam1->f_3 = 26000;
-			uParam1->f_5 = 242573637;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_BROWN_P_WING_BOMBER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12332,7 +12332,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 28000f;
 			uParam1->f_2 = 4650;
 			uParam1->f_3 = 28000;
-			uParam1->f_5 = 1022653368;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_BLACK_SN_BOMBER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12341,7 +12341,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 28000f;
 			uParam1->f_2 = 4700;
 			uParam1->f_3 = 28000;
-			uParam1->f_5 = -201919806;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_COLOR_SN_BOMBER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12350,7 +12350,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 28000f;
 			uParam1->f_2 = 4600;
 			uParam1->f_3 = 28000;
-			uParam1->f_5 = -1431057455;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_BROWN_DIAMOND_BOMBER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12359,7 +12359,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 3550;
 			uParam1->f_3 = 21000;
-			uParam1->f_5 = 1549920548;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_GOLD_COIN_BOMBER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12368,7 +12368,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 3500;
 			uParam1->f_3 = 21000;
-			uParam1->f_5 = 2102711115;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_BRIGHT_NEON_BOMBER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12377,7 +12377,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 22000f;
 			uParam1->f_2 = 3700;
 			uParam1->f_3 = 22000;
-			uParam1->f_5 = 438329486;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_BLACK_PRINT_BOMBER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12386,7 +12386,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3400;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = 738158216;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_BLACK_DIX_BOMBER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12395,7 +12395,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 4150;
 			uParam1->f_3 = 25000;
-			uParam1->f_5 = -918926708;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_BLACK_LINK_BOMBER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12404,7 +12404,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 4100;
 			uParam1->f_3 = 25000;
-			uParam1->f_5 = -1373128818;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_RED_LINK_BOMBER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12413,7 +12413,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 28000f;
 			uParam1->f_2 = 4650;
 			uParam1->f_3 = 28000;
-			uParam1->f_5 = 494546616;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_CLASSIC_SN_ZIPPED_BOMBER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12422,7 +12422,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 26000f;
 			uParam1->f_2 = 4400;
 			uParam1->f_3 = 26000;
-			uParam1->f_5 = -1284435538;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_BROWN_P_WING_ZIPPED_BOMBER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12431,7 +12431,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 28000f;
 			uParam1->f_2 = 4650;
 			uParam1->f_3 = 28000;
-			uParam1->f_5 = -365514956;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_BLACK_SN_ZIPPED_BOMBER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12440,7 +12440,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 28000f;
 			uParam1->f_2 = 4700;
 			uParam1->f_3 = 28000;
-			uParam1->f_5 = -1943656460;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_COLOR_SN_ZIPPED_BOMBER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12449,7 +12449,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 28000f;
 			uParam1->f_2 = 4600;
 			uParam1->f_3 = 28000;
-			uParam1->f_5 = 1061694457;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_BROWN_DIAMOND_ZIPPED_BOMBER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12458,7 +12458,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 3550;
 			uParam1->f_3 = 21000;
-			uParam1->f_5 = -462275974;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_GOLD_COIN_ZIPPED_BOMBER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12467,7 +12467,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 3500;
 			uParam1->f_3 = 21000;
-			uParam1->f_5 = 174638335;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_BRIGHT_NEON_ZIPPED_BOMBER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12476,7 +12476,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 22000f;
 			uParam1->f_2 = 3700;
 			uParam1->f_3 = 22000;
-			uParam1->f_5 = -466789562;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_BLACK_PRINT_ZIPPED_BOMBER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12485,7 +12485,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3400;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = -1266026401;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_BLACK_DIX_ZIPPED_BOMBER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12494,7 +12494,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 4150;
 			uParam1->f_3 = 25000;
-			uParam1->f_5 = 844534447;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_BLACK_LINK_ZIPPED_BOMBER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12503,7 +12503,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 4100;
 			uParam1->f_3 = 25000;
-			uParam1->f_5 = -1044673943;
+			uParam1->f_5 = joaat("LUXE1_MALE_UPPERS_RED_LINK_ZIPPED_BOMBER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12512,7 +12512,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 64000f;
 			uParam1->f_2 = 10650;
 			uParam1->f_3 = 64000;
-			uParam1->f_5 = -1850514921;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_GOLD_SN_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12521,7 +12521,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 70000f;
 			uParam1->f_2 = 11600;
 			uParam1->f_3 = 70000;
-			uParam1->f_5 = 1756201683;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_PLATINUM_SN_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12530,7 +12530,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 41000f;
 			uParam1->f_2 = 6750;
 			uParam1->f_3 = 41000;
-			uParam1->f_5 = 372185970;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_GOLD_SKULL_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12539,7 +12539,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 47000f;
 			uParam1->f_2 = 7800;
 			uParam1->f_3 = 47000;
-			uParam1->f_5 = 1562446673;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_PLATINUM_SKULL_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12548,7 +12548,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 72000f;
 			uParam1->f_2 = 11950;
 			uParam1->f_3 = 72000;
-			uParam1->f_5 = 1431347163;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_PLATINUM_BALACLAVA_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12557,7 +12557,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 97000f;
 			uParam1->f_2 = 16050;
 			uParam1->f_3 = 97000;
-			uParam1->f_5 = -2018857623;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_GOLD_ZORSE_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12566,7 +12566,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 98000f;
 			uParam1->f_2 = 16200;
 			uParam1->f_3 = 98000;
-			uParam1->f_5 = 1121234308;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_PLATINUM_ZORSE_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12575,7 +12575,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 83000f;
 			uParam1->f_2 = 13750;
 			uParam1->f_3 = 83000;
-			uParam1->f_5 = 16087852;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_GOLD_LC_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12584,7 +12584,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 90000f;
 			uParam1->f_2 = 14950;
 			uParam1->f_3 = 90000;
-			uParam1->f_5 = -1506306818;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_PLATINUM_LC_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12593,7 +12593,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 41000f;
 			uParam1->f_2 = 6850;
 			uParam1->f_3 = 41000;
-			uParam1->f_5 = 615535070;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_GOLD_DIX_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12602,7 +12602,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 45000f;
 			uParam1->f_2 = 7450;
 			uParam1->f_3 = 45000;
-			uParam1->f_5 = 1420361769;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_PLATINUM_DIX_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12611,7 +12611,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 62000f;
 			uParam1->f_2 = 10300;
 			uParam1->f_3 = 62000;
-			uParam1->f_5 = 1354405463;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_GOLD_LE_CHIEN_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12620,7 +12620,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 68000f;
 			uParam1->f_2 = 11200;
 			uParam1->f_3 = 68000;
-			uParam1->f_5 = 588752792;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_PLATINUM_LE_CHIEN_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12629,7 +12629,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 39000f;
 			uParam1->f_2 = 6450;
 			uParam1->f_3 = 39000;
-			uParam1->f_5 = -45476468;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_GOLD_ILLUSION_SQUARE_STUDS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12638,7 +12638,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 42000f;
 			uParam1->f_2 = 6900;
 			uParam1->f_3 = 42000;
-			uParam1->f_5 = 951218996;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_GOLD_GRID_SQUARE_STUDS");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -12649,7 +12649,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 35000f;
 			uParam1->f_2 = 5800;
 			uParam1->f_3 = 35000;
-			uParam1->f_5 = 1006612972;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_GOLD_NOIR_SQUARE_STUDS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12658,7 +12658,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 53000f;
 			uParam1->f_2 = 8700;
 			uParam1->f_3 = 53000;
-			uParam1->f_5 = -1591209532;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_PLATINUM_GRID_SQUARE_STUDS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12667,7 +12667,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 8350;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -1643342144;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_PLATINUM_NOIR_SQUARE_STUDS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12676,7 +12676,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2700;
 			uParam1->f_3 = 16000;
-			uParam1->f_5 = 387600112;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_PLATINUM_GAULLE_RETRO_HEX");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12685,7 +12685,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 2500;
 			uParam1->f_3 = 15000;
-			uParam1->f_5 = -630209226;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_GOLD_GAULLE_RETRO_HEX");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12694,7 +12694,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2600;
 			uParam1->f_3 = 16000;
-			uParam1->f_5 = -1518640763;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_GOLD_COVGARI_SUPERNOVA");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12703,7 +12703,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2800;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = 147778759;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_PINK_GOLD_COVGARI_SUPERNOVA");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12712,7 +12712,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3250;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = -623557692;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_GOLD_CROWEX_CHROMOSPHERE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12721,7 +12721,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 4100;
 			uParam1->f_3 = 25000;
-			uParam1->f_5 = -457563433;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_GOLD_IFRUIT_LINK");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12730,7 +12730,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 2500;
 			uParam1->f_3 = 15000;
-			uParam1->f_5 = 1272142809;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_SILVER_IFRUIT_LINK");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12739,7 +12739,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 27000f;
 			uParam1->f_2 = 4450;
 			uParam1->f_3 = 27000;
-			uParam1->f_5 = 868761443;
+			uParam1->f_5 = joaat("LUXE1_MALE_ACCESSORIES_PINK_GOLD_IFRUIT_LINK");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12748,7 +12748,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 3000;
 			uParam1->f_3 = 18000;
-			uParam1->f_5 = -530226293;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_SHOES_GOLDEN_HI_TOPS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12757,7 +12757,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 4950;
 			uParam1->f_3 = 30000;
-			uParam1->f_5 = -1177716250;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_UPPERS_CREAM_PEACOAT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12766,7 +12766,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 30000;
-			uParam1->f_5 = 1397316083;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_UPPERS_BLACK_PEACOAT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12775,7 +12775,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 4900;
 			uParam1->f_3 = 30000;
-			uParam1->f_5 = -1814667424;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_UPPERS_NAVY_PEACOAT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12784,7 +12784,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 4950;
 			uParam1->f_3 = 30000;
-			uParam1->f_5 = -92922076;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_UPPERS_GRAY_PEACOAT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12793,7 +12793,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 29000f;
 			uParam1->f_2 = 4800;
 			uParam1->f_3 = 29000;
-			uParam1->f_5 = -325789041;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_UPPERS_GREEN_PEACOAT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12802,7 +12802,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 44000f;
 			uParam1->f_2 = 7400;
 			uParam1->f_3 = 44000;
-			uParam1->f_5 = 1079257332;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_UPPERS_RED_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12811,7 +12811,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 43000f;
 			uParam1->f_2 = 7150;
 			uParam1->f_3 = 43000;
-			uParam1->f_5 = 390774800;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_UPPERS_BROWN_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12820,7 +12820,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 41000f;
 			uParam1->f_2 = 6800;
 			uParam1->f_3 = 41000;
-			uParam1->f_5 = 1348540931;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_UPPERS_TAN_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12829,7 +12829,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 42000f;
 			uParam1->f_2 = 7050;
 			uParam1->f_3 = 42000;
-			uParam1->f_5 = -607564288;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_UPPERS_BLACK_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12838,7 +12838,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 6650;
 			uParam1->f_3 = 40000;
-			uParam1->f_5 = 646238916;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_UPPERS_WHITE_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12847,7 +12847,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 42000f;
 			uParam1->f_2 = 6950;
 			uParam1->f_3 = 42000;
-			uParam1->f_5 = 168933341;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_UPPERS_LEOPARD_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12856,7 +12856,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 6550;
 			uParam1->f_3 = 40000;
-			uParam1->f_5 = 240704550;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_UPPERS_FALL_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12865,7 +12865,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 41000f;
 			uParam1->f_2 = 6750;
 			uParam1->f_3 = 41000;
-			uParam1->f_5 = 1870450114;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_UPPERS_BLUE_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12874,7 +12874,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 39000f;
 			uParam1->f_2 = 6500;
 			uParam1->f_3 = 39000;
-			uParam1->f_5 = 1659202257;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_UPPERS_HUNTER_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12883,7 +12883,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 42000f;
 			uParam1->f_2 = 6900;
 			uParam1->f_3 = 42000;
-			uParam1->f_5 = 1719875364;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_UPPERS_GREEN_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12892,7 +12892,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 43000f;
 			uParam1->f_2 = 7200;
 			uParam1->f_3 = 43000;
-			uParam1->f_5 = -206626676;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_UPPERS_GRAY_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12901,7 +12901,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 44000f;
 			uParam1->f_2 = 7300;
 			uParam1->f_3 = 44000;
-			uParam1->f_5 = -858654121;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_UPPERS_ALL_BLACK_LEATHER_FUR_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12910,7 +12910,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 32000f;
 			uParam1->f_2 = 5400;
 			uParam1->f_3 = 32000;
-			uParam1->f_5 = 1362868671;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_UPPERS_BLACK_DEEP_BELTED_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12919,7 +12919,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 34000f;
 			uParam1->f_2 = 5650;
 			uParam1->f_3 = 34000;
-			uParam1->f_5 = 1318738727;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_UPPERS_BROWN_DEEP_BELTED_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12928,7 +12928,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 32000f;
 			uParam1->f_2 = 5250;
 			uParam1->f_3 = 32000;
-			uParam1->f_5 = -696473003;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_UPPERS_RED_DEEP_BELTED_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12937,7 +12937,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 33000f;
 			uParam1->f_2 = 5550;
 			uParam1->f_3 = 33000;
-			uParam1->f_5 = 1073348675;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_UPPERS_TEAL_DEEP_BELTED_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12946,7 +12946,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 64000f;
 			uParam1->f_2 = 10650;
 			uParam1->f_3 = 64000;
-			uParam1->f_5 = -985532639;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_GOLD_SN_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12955,7 +12955,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 70000f;
 			uParam1->f_2 = 11600;
 			uParam1->f_3 = 70000;
-			uParam1->f_5 = 183500134;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_PLATINUM_SN_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -12966,7 +12966,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 41000f;
 			uParam1->f_2 = 6750;
 			uParam1->f_3 = 41000;
-			uParam1->f_5 = -164210352;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_GOLD_SKULL_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12975,7 +12975,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 47000f;
 			uParam1->f_2 = 7800;
 			uParam1->f_3 = 47000;
-			uParam1->f_5 = 1872053592;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_PLATINUM_SKULL_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12984,7 +12984,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 72000f;
 			uParam1->f_2 = 11950;
 			uParam1->f_3 = 72000;
-			uParam1->f_5 = -1375849199;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_PLATINUM_BALACLAVA_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -12993,7 +12993,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 97000f;
 			uParam1->f_2 = 16050;
 			uParam1->f_3 = 97000;
-			uParam1->f_5 = -1589468666;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_GOLD_ZORSE_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13002,7 +13002,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 98000f;
 			uParam1->f_2 = 16200;
 			uParam1->f_3 = 98000;
-			uParam1->f_5 = -931642865;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_PLATINUM_ZORSE_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13011,7 +13011,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 83000f;
 			uParam1->f_2 = 13750;
 			uParam1->f_3 = 83000;
-			uParam1->f_5 = -192875152;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_GOLD_LC_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13020,7 +13020,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 90000f;
 			uParam1->f_2 = 14950;
 			uParam1->f_3 = 90000;
-			uParam1->f_5 = -1805484546;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_PLATINUM_LC_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13029,7 +13029,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 41000f;
 			uParam1->f_2 = 6850;
 			uParam1->f_3 = 41000;
-			uParam1->f_5 = -1252693940;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_GOLD_DIX_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13038,7 +13038,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 45000f;
 			uParam1->f_2 = 7450;
 			uParam1->f_3 = 45000;
-			uParam1->f_5 = 1188109527;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_PLATINUM_DIX_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13047,7 +13047,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 62000f;
 			uParam1->f_2 = 10300;
 			uParam1->f_3 = 62000;
-			uParam1->f_5 = 1887430707;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_GOLD_LE_CHIEN_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13056,7 +13056,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 68000f;
 			uParam1->f_2 = 11200;
 			uParam1->f_3 = 68000;
-			uParam1->f_5 = 1348348209;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_PLATINUM_LE_CHIEN_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13065,7 +13065,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 53000f;
 			uParam1->f_2 = 8700;
 			uParam1->f_3 = 53000;
-			uParam1->f_5 = 416578167;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_PLATINUM_PENDULUMS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13074,7 +13074,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 42000f;
 			uParam1->f_2 = 6900;
 			uParam1->f_3 = 42000;
-			uParam1->f_5 = 844638271;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_GOLD_PENDULUMS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13083,7 +13083,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 38000f;
 			uParam1->f_2 = 6300;
 			uParam1->f_3 = 38000;
-			uParam1->f_5 = -27925398;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_GOLD_DIAMOND_ROUNDS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13092,7 +13092,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 45000f;
 			uParam1->f_2 = 7450;
 			uParam1->f_3 = 45000;
-			uParam1->f_5 = -97710512;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_GOLD_DIAMOND_DROPS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13101,7 +13101,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 57000f;
 			uParam1->f_2 = 9450;
 			uParam1->f_3 = 57000;
-			uParam1->f_5 = -1560965010;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_PLATINUM_DIAMOND_DROPS_");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13110,7 +13110,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 38000f;
 			uParam1->f_2 = 6300;
 			uParam1->f_3 = 38000;
-			uParam1->f_5 = 628262743;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_BLACK_GOLD_DIAMOND_DROPS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13119,7 +13119,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2650;
 			uParam1->f_3 = 16000;
-			uParam1->f_5 = 499519505;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_PLATINUM_WATERFALLS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13128,7 +13128,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2750;
 			uParam1->f_3 = 16000;
-			uParam1->f_5 = 202689733;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_PLATINUM_TOTEMS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13137,7 +13137,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2850;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = -1722815609;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_PLATINUM_SUN_DROPS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13146,7 +13146,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 4100;
 			uParam1->f_3 = 25000;
-			uParam1->f_5 = -1991533546;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_GOLD_IFRUIT_LINK");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13155,7 +13155,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 2500;
 			uParam1->f_3 = 15000;
-			uParam1->f_5 = -1791754603;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_SILVER_IFRUIT_LINK");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13164,7 +13164,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 27000f;
 			uParam1->f_2 = 4450;
 			uParam1->f_3 = 27000;
-			uParam1->f_5 = 1813423691;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_ACCESSORIES_PINK_GOLD_IFRUIT_LINK");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13173,7 +13173,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -1623792009;
+			uParam1->f_5 = joaat("LUXE1_MALE_OUTFITS_THE_MIDAS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13182,7 +13182,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 2073796128;
+			uParam1->f_5 = joaat("LUXE1_MALE_OUTFITS_THE_DELUXE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13191,7 +13191,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -1992504606;
+			uParam1->f_5 = joaat("LUXE1_MALE_OUTFITS_THE_EXCLUSIVE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13200,7 +13200,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 867076051;
+			uParam1->f_5 = joaat("LUXE1_MALE_OUTFITS_THE_PERSEUS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13209,7 +13209,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 2086339040;
+			uParam1->f_5 = joaat("LUXE1_MALE_OUTFITS_THE_FLASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13218,7 +13218,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 2054389455;
+			uParam1->f_5 = joaat("LUXE1_MALE_OUTFITS_THE_PIMP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13227,7 +13227,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -1893802109;
+			uParam1->f_5 = joaat("LUXE1_MALE_OUTFITS_THE_TALENT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13236,7 +13236,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -1185920970;
+			uParam1->f_5 = joaat("LUXE1_MALE_OUTFITS_THE_LUXOR");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13245,7 +13245,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -1077619944;
+			uParam1->f_5 = joaat("LUXE1_MALE_OUTFITS_THE_REFINED");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13254,7 +13254,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -232563180;
+			uParam1->f_5 = joaat("LUXE1_MALE_OUTFITS_THE_SESSANTA_NOVE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13263,7 +13263,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 1025128029;
+			uParam1->f_5 = joaat("LUXE1_MALE_OUTFITS_THE_GRAND");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13272,7 +13272,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 1184224905;
+			uParam1->f_5 = joaat("LUXE1_MALE_OUTFITS_THE_VOGUE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13281,7 +13281,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 1;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 1837989889;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_OUTFITS_THE_SOCIALITE");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -13292,7 +13292,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 1468325815;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_OUTFITS_THE_ACCESSORY");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13301,7 +13301,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 1489577493;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_OUTFITS_THE_WEALTH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13310,7 +13310,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -1442218045;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_OUTFITS_THE_STATUS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13319,7 +13319,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -270424695;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_OUTFITS_THE_PERSEUS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13328,7 +13328,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 1554855494;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_OUTFITS_THE_ELITE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13337,7 +13337,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -419251367;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_OUTFITS_THE_CHIC");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13346,7 +13346,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -1156096398;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_OUTFITS_THE_GOLDEN_GIRL");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13355,7 +13355,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -301512982;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_OUTFITS_THE_LAVISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13364,7 +13364,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 2078262605;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_OUTFITS_THE_CLASS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13373,7 +13373,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -113903074;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_OUTFITS_THE_SHINE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13382,7 +13382,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 145823683;
+			uParam1->f_5 = joaat("LUXE1_FEMALE_OUTFITS_THE_PUMA");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13391,7 +13391,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 150000;
-			uParam1->f_5 = -1778646383;
+			uParam1->f_5 = joaat("LUXE1_CAR_MODS_PERSEUS_GREEN_WINGS_MONOGRAM");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13400,7 +13400,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 215034897;
+			uParam1->f_5 = joaat("LUXE1_KIT_ASSAULT_RIFLE_YUSUF_AMIR_LUXURY_FINISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13409,7 +13409,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = -1898021273;
+			uParam1->f_5 = joaat("LUXE1_ADDONSADVANCED_RIFLE_GILDED_GUN_METAL_FINISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13418,7 +13418,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 571859420;
+			uParam1->f_5 = joaat("LUXE1_ADDONSCARBINE_RIFLE_YUSUF_AMIR_LUXURY_FINISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13427,7 +13427,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 2061753098;
+			uParam1->f_5 = joaat("LUXE1_ADDONSAP_PISTOL_GILDED_GUN_METAL_FINISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13436,7 +13436,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 310707750;
+			uParam1->f_5 = joaat("LUXE1_ADDONSHEAVY_PISTOL_ETCHED_WOOD_GRIP_FINISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13445,7 +13445,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 1096195218;
+			uParam1->f_5 = joaat("LUXE1_ADDONSPISTOL_YUSUF_AMIR_LUXURY_FINISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13454,7 +13454,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = -1303464864;
+			uParam1->f_5 = joaat("LUXE1_ADDONSPISTOL_50_PLATINUM_PEARL_DELUXE_FINISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13463,7 +13463,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 332547550;
+			uParam1->f_5 = joaat("LUXE1_ADDONSSMG_YUSUF_AMIR_LUXURY_FINISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13472,7 +13472,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = -1109079635;
+			uParam1->f_5 = joaat("LUXE1_ADDONSMARKSMAN_RIFLE_YUSUF_AMIR_LUXURY_FINISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13481,7 +13481,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = -501042997;
+			uParam1->f_5 = joaat("LUXE1_ADDONSMICRO_SMG_YUSUF_AMIR_LUXURY_FINISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13490,7 +13490,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 1829780298;
+			uParam1->f_5 = joaat("LUXE1_ADDONSSAWED_OFF_SHOTGUN_GILDED_GUN_METAL_FINISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13499,7 +13499,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 1466060103;
+			uParam1->f_5 = joaat("LUXE1_ADDONSSNIPER_RIFLE_ETCHED_WOOD_GRIP_FINISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13508,7 +13508,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 5900;
 			uParam1->f_3 = 18000;
-			uParam1->f_5 = -693611144;
+			uParam1->f_5 = joaat("LUXE1_BOTH_GENDERS_SERPENT_OF_DEATH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13517,7 +13517,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 22000f;
 			uParam1->f_2 = 7100;
 			uParam1->f_3 = 22000;
-			uParam1->f_5 = 1924117099;
+			uParam1->f_5 = joaat("LUXE1_BOTH_GENDERS_ELABORATE_LOS_MUERTOS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13526,7 +13526,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 6050;
 			uParam1->f_3 = 18000;
-			uParam1->f_5 = 1153855224;
+			uParam1->f_5 = joaat("LUXE1_BOTH_GENDERS_FLORAL_RAVEN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13535,7 +13535,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 38000f;
 			uParam1->f_2 = 12400;
 			uParam1->f_3 = 38000;
-			uParam1->f_5 = -1623493982;
+			uParam1->f_5 = joaat("LUXE1_BOTH_GENDERS_ADORNED_WOLF");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13544,7 +13544,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 6150;
 			uParam1->f_3 = 19000;
-			uParam1->f_5 = 1433836543;
+			uParam1->f_5 = joaat("LUXE1_BOTH_GENDERS_EYE_OF_THE_GRIFFIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13553,7 +13553,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 27000f;
 			uParam1->f_2 = 8900;
 			uParam1->f_3 = 27000;
-			uParam1->f_5 = 399093662;
+			uParam1->f_5 = joaat("LUXE1_BOTH_GENDERS_FLYING_EYE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13562,7 +13562,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 29000f;
 			uParam1->f_2 = 9500;
 			uParam1->f_3 = 29000;
-			uParam1->f_5 = -1230281035;
+			uParam1->f_5 = joaat("LUXE1_BOTH_GENDERS_FLORAL_SYMMETRY");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13571,7 +13571,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 8350;
 			uParam1->f_3 = 25000;
-			uParam1->f_5 = 1574338118;
+			uParam1->f_5 = joaat("LUXE1_BOTH_GENDERS_MERMAID_HARPIST");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13580,7 +13580,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 27000f;
 			uParam1->f_2 = 9000;
 			uParam1->f_3 = 27000;
-			uParam1->f_5 = -280547334;
+			uParam1->f_5 = joaat("LUXE1_BOTH_GENDERS_ANCIENT_QUEEN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13589,7 +13589,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 24000f;
 			uParam1->f_2 = 8050;
 			uParam1->f_3 = 24000;
-			uParam1->f_5 = 295997592;
+			uParam1->f_5 = joaat("LUXE1_BOTH_GENDERS_SMOKING_SISTERS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13598,7 +13598,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 8350;
 			uParam1->f_3 = 25000;
-			uParam1->f_5 = -1693174653;
+			uParam1->f_5 = joaat("LUXE1_BOTH_GENDERS_GEISHA_BLOOM");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13607,7 +13607,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 34000f;
 			uParam1->f_2 = 11150;
 			uParam1->f_3 = 34000;
-			uParam1->f_5 = -245039713;
+			uParam1->f_5 = joaat("LUXE1_BOTH_GENDERS_ARCHANGEL_AND_MARY");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13616,7 +13616,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 6350;
 			uParam1->f_3 = 19000;
-			uParam1->f_5 = 258805324;
+			uParam1->f_5 = joaat("LUXE1_BOTH_GENDERS_GABRIEL_");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13625,7 +13625,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 41000f;
 			uParam1->f_2 = 13500;
 			uParam1->f_3 = 41000;
-			uParam1->f_5 = -1421508725;
+			uParam1->f_5 = joaat("LUXE1_BOTH_GENDERS_FEATHER_MURAL");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -13636,7 +13636,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1463000f;
 			uParam1->f_2 = 480000;
 			uParam1->f_3 = 1463000;
-			uParam1->f_5 = 1325082693;
+			uParam1->f_5 = joaat("LUXE1_WEBSITE_BENEFACTOR_STIRLING_GT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13654,7 +13654,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2925000f;
 			uParam1->f_2 = 950000;
 			uParam1->f_3 = 2925000;
-			uParam1->f_5 = -644339642;
+			uParam1->f_5 = joaat("LUXE1_WEBSITE_PEGASSI_OSIRIS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13663,7 +13663,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 7725000f;
 			uParam1->f_2 = 2500000;
 			uParam1->f_3 = 7725000;
-			uParam1->f_5 = -1809229921;
+			uParam1->f_5 = joaat("LUXE1_WEBSITE_BUCKINGHAM_SWIFT_DELUXE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13672,7 +13672,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 293000f;
 			uParam1->f_2 = 95000;
 			uParam1->f_3 = 293000;
-			uParam1->f_5 = 1992732606;
+			uParam1->f_5 = joaat("LUXE1_WEBSITE_ALBANY_VIRGO");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13681,7 +13681,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1268000f;
 			uParam1->f_2 = 400000;
 			uParam1->f_3 = 1268000;
-			uParam1->f_5 = 956103291;
+			uParam1->f_5 = joaat("LUXE1_WEBSITE_ENUS_WINDSOR");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13690,7 +13690,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 150000;
-			uParam1->f_5 = 1213298425;
+			uParam1->f_5 = joaat("LUXE1_CAR_MODS_SESSANTA_NOVE_MONOGRAM");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13699,7 +13699,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 150000;
-			uParam1->f_5 = -1701382164;
+			uParam1->f_5 = joaat("LUXE1_CAR_MODS_SESSANTA_NOVE_MULTI_COLOR");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13708,7 +13708,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 150000;
-			uParam1->f_5 = -2116304043;
+			uParam1->f_5 = joaat("LUXE1_CAR_MODS_SESSANTA_NOVE_GEOMETRIC");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13717,7 +13717,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 150000;
-			uParam1->f_5 = 1525818559;
+			uParam1->f_5 = joaat("LUXE1_CAR_MODS_PERSEUS_WINGS_MONOGRAM");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13726,7 +13726,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 150000;
-			uParam1->f_5 = 473787773;
+			uParam1->f_5 = joaat("LUXE1_CAR_MODS_SANTO_CAPRA_PYTHON");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13735,7 +13735,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 150000;
-			uParam1->f_5 = -2079394194;
+			uParam1->f_5 = joaat("LUXE1_CAR_MODS_SANTO_CAPRA_CHEETAH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13744,7 +13744,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 150000;
-			uParam1->f_5 = 1995714857;
+			uParam1->f_5 = joaat("LUXE1_CAR_MODS_YETI_MALL_NINJA");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13753,7 +13753,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 5800;
 			uParam1->f_3 = 18000;
-			uParam1->f_5 = -273899566;
+			uParam1->f_5 = joaat("LUXE1_PRIMARY_COMBAT_PDW");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -13764,7 +13764,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3200;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = -622253716;
+			uParam1->f_5 = joaat("LUXE2_MALE_UPPERS_BEIGE_TRENCH_COAT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13773,7 +13773,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3200;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = -1627691056;
+			uParam1->f_5 = joaat("LUXE2_MALE_UPPERS_BLACK_TRENCH_COAT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13782,7 +13782,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3150;
 			uParam1->f_3 = 19000;
-			uParam1->f_5 = 399246382;
+			uParam1->f_5 = joaat("LUXE2_MALE_UPPERS_NAVY_TRENCH_COAT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13791,7 +13791,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3200;
 			uParam1->f_3 = 19000;
-			uParam1->f_5 = -1793368988;
+			uParam1->f_5 = joaat("LUXE2_MALE_UPPERS_GRAY_TRENCH_COAT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13800,7 +13800,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3050;
 			uParam1->f_3 = 19000;
-			uParam1->f_5 = 1364365401;
+			uParam1->f_5 = joaat("LUXE2_MALE_UPPERS_GREEN_TRENCH_COAT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13809,7 +13809,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2650;
 			uParam1->f_3 = 16000;
-			uParam1->f_5 = 2044461341;
+			uParam1->f_5 = joaat("LUXE2_MALE_UPPERS_GOLD_GEO_PRINT_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13818,7 +13818,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2600;
 			uParam1->f_3 = 16000;
-			uParam1->f_5 = -1731591700;
+			uParam1->f_5 = joaat("LUXE2_MALE_UPPERS_LE_CHIEN_PRINT_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13827,7 +13827,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 2500;
 			uParam1->f_3 = 15000;
-			uParam1->f_5 = 511542655;
+			uParam1->f_5 = joaat("LUXE2_MALE_UPPERS_TEAL_TWEED_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13836,7 +13836,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2700;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = 1937886234;
+			uParam1->f_5 = joaat("LUXE2_MALE_UPPERS_CLASSIC_P_PRINT_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13845,7 +13845,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2750;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = -770984932;
+			uParam1->f_5 = joaat("LUXE2_MALE_UPPERS_BROWN_P_PRINT_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13854,7 +13854,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2800;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = 1730028949;
+			uParam1->f_5 = joaat("LUXE2_MALE_UPPERS_SWORD_AND_SHIELD_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13863,7 +13863,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3250;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = -1594317759;
+			uParam1->f_5 = joaat("LUXE2_MALE_UPPERS_BLACK_SN_PRINT_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13872,7 +13872,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2800;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = 1746078541;
+			uParam1->f_5 = joaat("LUXE2_MALE_UPPERS_BROWN_P_WI_NG_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13881,7 +13881,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3200;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = 420790512;
+			uParam1->f_5 = joaat("LUXE2_MALE_UPPERS_CLASSIC_SN_PRINT_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13890,7 +13890,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3200;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = 67637077;
+			uParam1->f_5 = joaat("LUXE2_MALE_UPPERS_COLOR_DIAMOND_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13899,7 +13899,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3200;
 			uParam1->f_3 = 19000;
-			uParam1->f_5 = 1081069775;
+			uParam1->f_5 = joaat("LUXE2_MALE_UPPERS_GOLD_DIAMOND_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13908,7 +13908,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3300;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = -1477118872;
+			uParam1->f_5 = joaat("LUXE2_MALE_UPPERS_COLOR_SN_PRINT_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13917,7 +13917,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3300;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = 396035835;
+			uParam1->f_5 = joaat("LUXE2_MALE_UPPERS_COLOR_GEO_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13926,7 +13926,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 2500;
 			uParam1->f_3 = 15000;
-			uParam1->f_5 = -535591151;
+			uParam1->f_5 = joaat("LUXE2_MALE_ACCESSORIES_GOLD_LOOSE_LINK_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13935,7 +13935,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2650;
 			uParam1->f_3 = 16000;
-			uParam1->f_5 = -277350803;
+			uParam1->f_5 = joaat("LUXE2_MALE_ACCESSORIES_PLATINUM_LOOSE_LINK_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13944,7 +13944,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2700;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = 1866753085;
+			uParam1->f_5 = joaat("LUXE2_MALE_ACCESSORIES_GOLD_BELCHER_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13953,7 +13953,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 2850;
 			uParam1->f_3 = 18000;
-			uParam1->f_5 = -279851098;
+			uParam1->f_5 = joaat("LUXE2_MALE_ACCESSORIES_PLATINUM_BELCHER_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13962,7 +13962,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2700;
 			uParam1->f_3 = 16000;
-			uParam1->f_5 = 1701979727;
+			uParam1->f_5 = joaat("LUXE2_MALE_ACCESSORIES_GOLD_PRETZEL_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13971,7 +13971,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2850;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = -1894272120;
+			uParam1->f_5 = joaat("LUXE2_MALE_ACCESSORIES_PLATINUM_PRETZEL_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13980,7 +13980,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2650;
 			uParam1->f_3 = 16000;
-			uParam1->f_5 = 325995035;
+			uParam1->f_5 = joaat("LUXE2_MALE_ACCESSORIES_GOLD_CURB_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13989,7 +13989,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2800;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = 1834923172;
+			uParam1->f_5 = joaat("LUXE2_MALE_ACCESSORIES_PLATINUM_CURB_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -13998,7 +13998,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2850;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = 1226561546;
+			uParam1->f_5 = joaat("LUXE2_MALE_ACCESSORIES_GOLD_DIAMOND_CURB_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14007,7 +14007,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 3000;
 			uParam1->f_3 = 18000;
-			uParam1->f_5 = -821205110;
+			uParam1->f_5 = joaat("LUXE2_MALE_ACCESSORIES_PLATINUM_DIAMOND_CURB_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14016,7 +14016,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 35000f;
 			uParam1->f_2 = 5700;
 			uParam1->f_3 = 35000;
-			uParam1->f_5 = -132197608;
+			uParam1->f_5 = joaat("LUXE2_MALE_ACCESSORIES_GOLD_HEAVY_CURB_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14025,7 +14025,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 37000f;
 			uParam1->f_2 = 6000;
 			uParam1->f_3 = 37000;
-			uParam1->f_5 = 415703263;
+			uParam1->f_5 = joaat("LUXE2_MALE_ACCESSORIES_PLATINUM_HEAVY_CURB_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -14036,7 +14036,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 33000f;
 			uParam1->f_2 = 5400;
 			uParam1->f_3 = 33000;
-			uParam1->f_5 = 1385217028;
+			uParam1->f_5 = joaat("LUXE2_MALE_ACCESSORIES_GOLD_HEAVY_SQUARE_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14045,7 +14045,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 35000f;
 			uParam1->f_2 = 5700;
 			uParam1->f_3 = 35000;
-			uParam1->f_5 = 642554522;
+			uParam1->f_5 = joaat("LUXE2_MALE_ACCESSORIES_PLATINUM_HEAVY_SQUARE_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14054,7 +14054,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2700;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = 1723307126;
+			uParam1->f_5 = joaat("LUXE2_MALE_ACCESSORIES_GOLD_SQUARE_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14063,7 +14063,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2850;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = 1571556859;
+			uParam1->f_5 = joaat("LUXE2_MALE_ACCESSORIES_PLATINUM_SQUARE_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14072,7 +14072,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2800;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = 1697982160;
+			uParam1->f_5 = joaat("LUXE2_MALE_ACCESSORIES_GOLD_POPCORN_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14081,7 +14081,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 2950;
 			uParam1->f_3 = 18000;
-			uParam1->f_5 = 491458810;
+			uParam1->f_5 = joaat("LUXE2_MALE_ACCESSORIES_PLATINUM_POPCORN_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14090,7 +14090,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 2900;
 			uParam1->f_3 = 18000;
-			uParam1->f_5 = 1636412319;
+			uParam1->f_5 = joaat("LUXE2_MALE_ACCESSORIES_GOLD_ROPE_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14099,7 +14099,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3050;
 			uParam1->f_3 = 19000;
-			uParam1->f_5 = 876551036;
+			uParam1->f_5 = joaat("LUXE2_MALE_ACCESSORIES_PLATINUM_ROPE_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14108,7 +14108,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 2500;
 			uParam1->f_3 = 15000;
-			uParam1->f_5 = 2091744836;
+			uParam1->f_5 = joaat("LUXE2_MALE_ACCESSORIES_PINK_GOLD_COVGARI_EXPLORER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14117,7 +14117,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3100;
 			uParam1->f_3 = 19000;
-			uParam1->f_5 = -1105659840;
+			uParam1->f_5 = joaat("LUXE2_MALE_ACCESSORIES_GOLD_COVGARI_UNIVERSE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14126,7 +14126,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2600;
 			uParam1->f_3 = 16000;
-			uParam1->f_5 = 1649856226;
+			uParam1->f_5 = joaat("LUXE2_MALE_ACCESSORIES_SILVER_COVGARI_UNIVERSE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14135,7 +14135,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 8150;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 1340584067;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_PADDED_LEATHER_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14144,7 +14144,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3150;
 			uParam1->f_3 = 19000;
-			uParam1->f_5 = 29001067;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_CREAM_TRENCH_COAT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14153,7 +14153,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3150;
 			uParam1->f_3 = 19000;
-			uParam1->f_5 = 1638852953;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_BLACK_TRENCH_COAT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14162,7 +14162,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3100;
 			uParam1->f_3 = 19000;
-			uParam1->f_5 = 1611179743;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_NAVY_TRENCH_COAT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14171,7 +14171,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3100;
 			uParam1->f_3 = 19000;
-			uParam1->f_5 = 18325263;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_GRAY_TRENCH_COAT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14180,7 +14180,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 3000;
 			uParam1->f_3 = 18000;
-			uParam1->f_5 = -837168973;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_GREEN_TRENCH_COAT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14189,7 +14189,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2650;
 			uParam1->f_3 = 16000;
-			uParam1->f_5 = 1053240799;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_GOLD_GEO_PRINT_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14198,7 +14198,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2600;
 			uParam1->f_3 = 16000;
-			uParam1->f_5 = 223375334;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_LE_CHIEN_PRINT_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14207,7 +14207,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 2500;
 			uParam1->f_3 = 15000;
-			uParam1->f_5 = -1655754048;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_TEAL_TWEED_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14216,7 +14216,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2700;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = -836299130;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_CLASSIC_P_PRINT_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14225,7 +14225,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2750;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = 782279512;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_BROWN_P_PRINT_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14234,7 +14234,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2800;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = 1369424797;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_SWORD_AND_SHIELD_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14243,7 +14243,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3250;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = 1041382958;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_BLACK_SN_PRINT_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14252,7 +14252,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2800;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = -1748895312;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_BROWN_P_WI_NG_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14261,7 +14261,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3200;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = 190102475;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_CLASSIC_SN_PRINT_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14270,7 +14270,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3200;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = 1102060585;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_COLOR_DIAMOND_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14279,7 +14279,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3200;
 			uParam1->f_3 = 19000;
-			uParam1->f_5 = -1936071814;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_GOLD_DIAMOND_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14288,7 +14288,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3300;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = 1083353164;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_COLOR_SN_PRINT_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14297,7 +14297,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3300;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = -417660330;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_COLOR_GEO_SWEATER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14306,7 +14306,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 2500;
 			uParam1->f_3 = 15000;
-			uParam1->f_5 = 1932743496;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_GOLD_LOOSE_LINK_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14315,7 +14315,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2650;
 			uParam1->f_3 = 16000;
-			uParam1->f_5 = -72691188;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_PLATINUM_LOOSE_LINK_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14324,7 +14324,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2700;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = -602293245;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_GOLD_BELCHER_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14333,7 +14333,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 2850;
 			uParam1->f_3 = 18000;
-			uParam1->f_5 = 1398134415;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_PLATINUM_BELCHER_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14342,7 +14342,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2700;
 			uParam1->f_3 = 16000;
-			uParam1->f_5 = 413711434;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_UPPERS_GOLD_PRETZEL_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14351,7 +14351,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2850;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = 803677525;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_LOWERS_PLATINUM_PRETZEL_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -14362,7 +14362,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2650;
 			uParam1->f_3 = 16000;
-			uParam1->f_5 = -620078051;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_LOWERS_GOLD_CURB_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14371,7 +14371,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2800;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = -628103623;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_LOWERS_PLATINUM_CURB_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14380,7 +14380,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2850;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = -66304196;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_LOWERS_GOLD_DIAMOND_CURB_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14389,7 +14389,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 3000;
 			uParam1->f_3 = 18000;
-			uParam1->f_5 = 800556459;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_LOWERS_PLATINUM_DIAMOND_CURB_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14398,7 +14398,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 35000f;
 			uParam1->f_2 = 5700;
 			uParam1->f_3 = 35000;
-			uParam1->f_5 = -824264527;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_ACCESSORIES_GOLD_HEAVY_CURB_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14407,7 +14407,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 37000f;
 			uParam1->f_2 = 6000;
 			uParam1->f_3 = 37000;
-			uParam1->f_5 = 755031110;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_ACCESSORIES_PLATINUM_HEAVY_CURB_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14416,7 +14416,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 33000f;
 			uParam1->f_2 = 5400;
 			uParam1->f_3 = 33000;
-			uParam1->f_5 = -1068587067;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_ACCESSORIES_GOLD_HEAVY_SQUARE_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14425,7 +14425,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 35000f;
 			uParam1->f_2 = 5700;
 			uParam1->f_3 = 35000;
-			uParam1->f_5 = 1875074953;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_ACCESSORIES_PLATINUM_HEAVY_SQUARE_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14434,7 +14434,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2700;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = 99755424;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_ACCESSORIES_GOLD_SQUARE_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14443,7 +14443,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2850;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = -476349454;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_ACCESSORIES_PLATINUM_SQUARE_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14452,7 +14452,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2800;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = 1115705246;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_ACCESSORIES_GOLD_POPCORN_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14461,7 +14461,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 2950;
 			uParam1->f_3 = 18000;
-			uParam1->f_5 = -8245662;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_ACCESSORIES_PLATINUM_POPCORN_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14470,7 +14470,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 2900;
 			uParam1->f_3 = 18000;
-			uParam1->f_5 = 1380386970;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_ACCESSORIES_GOLD_ROPE_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14479,7 +14479,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3050;
 			uParam1->f_3 = 19000;
-			uParam1->f_5 = 1063931600;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_ACCESSORIES_PLATINUM_ROPE_CHAIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14488,7 +14488,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 49000f;
 			uParam1->f_2 = 8000;
 			uParam1->f_3 = 49000;
-			uParam1->f_5 = 467758279;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_ACCESSORIES_GOLD_SNAKE_CUFF");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14497,7 +14497,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 60000f;
 			uParam1->f_2 = 9800;
 			uParam1->f_3 = 60000;
-			uParam1->f_5 = -1319543371;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_ACCESSORIES_GOLD_DIAMOND_CUFF");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14506,7 +14506,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 43000f;
 			uParam1->f_2 = 6950;
 			uParam1->f_3 = 43000;
-			uParam1->f_5 = -215858403;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_ACCESSORIES_GOLD_PLAIN_CUFF");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14515,7 +14515,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 37000f;
 			uParam1->f_2 = 5950;
 			uParam1->f_3 = 37000;
-			uParam1->f_5 = -1081958808;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_ACCESSORIES_GOLD_LE_CHIEN_CUFF");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14524,7 +14524,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 47000f;
 			uParam1->f_2 = 7750;
 			uParam1->f_3 = 47000;
-			uParam1->f_5 = -1413988397;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_ACCESSORIES_GOLD_DETAIL_CUFF");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14533,7 +14533,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 8250;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 1656371392;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_ACCESSORIES_GOLD_SWIRL_CUFF");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14542,7 +14542,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 58000f;
 			uParam1->f_2 = 9500;
 			uParam1->f_3 = 58000;
-			uParam1->f_5 = -272486755;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_ACCESSORIES_GOLD_TEXTURED_CUFF");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14551,7 +14551,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -1242936773;
+			uParam1->f_5 = joaat("LUXE2_MALE_OUTFITS_THE_INVESTOR");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14560,7 +14560,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -330255991;
+			uParam1->f_5 = joaat("LUXE2_MALE_OUTFITS_THE_MAC");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14569,7 +14569,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -1403743541;
+			uParam1->f_5 = joaat("LUXE2_MALE_OUTFITS_THE_BULLION");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14578,7 +14578,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -853299791;
+			uParam1->f_5 = joaat("LUXE2_MALE_OUTFITS_THE_BALLER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14587,7 +14587,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -342699350;
+			uParam1->f_5 = joaat("LUXE2_MALE_OUTFITS_THE_BENEFACTOR");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14596,7 +14596,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 546969328;
+			uParam1->f_5 = joaat("LUXE2_MALE_OUTFITS_THE_STACKS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14605,7 +14605,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 1436767744;
+			uParam1->f_5 = joaat("LUXE2_MALE_OUTFITS_THE_LEISURE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14614,7 +14614,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -1142176347;
+			uParam1->f_5 = joaat("LUXE2_MALE_OUTFITS_THE_VIP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14623,7 +14623,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 1989937423;
+			uParam1->f_5 = joaat("LUXE2_MALE_OUTFITS_THE_JET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14632,7 +14632,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -367171541;
+			uParam1->f_5 = joaat("LUXE2_MALE_OUTFITS_THE_PLATINUM");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14641,7 +14641,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -1489565880;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_OUTFITS_THE_VAMP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14650,7 +14650,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 99570882;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_OUTFITS_THE_TREASURE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14659,7 +14659,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -2115936932;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_OUTFITS_THE_MANOR");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14668,7 +14668,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -1967937907;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_OUTFITS_THE_ROSE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14677,7 +14677,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -1870797418;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_OUTFITS_THE_SESSANTA_NOVE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14686,7 +14686,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -588103474;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_OUTFITS_THE_SWANK");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14695,7 +14695,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 825754880;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_OUTFITS_THE_CRUISE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14704,7 +14704,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -591343606;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_OUTFITS_THE_GRACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14713,7 +14713,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 761909348;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_OUTFITS_THE_HEIR");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14722,7 +14722,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 688997908;
+			uParam1->f_5 = joaat("LUXE2_FEMALE_OUTFITS_THE_ACCOUNT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14731,7 +14731,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 350000;
 			uParam1->f_3 = 1000000;
-			uParam1->f_5 = -1778850088;
+			uParam1->f_5 = joaat("LUXE2_COIL_BRAWLER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14740,7 +14740,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 340000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 340000;
-			uParam1->f_5 = 145064713;
+			uParam1->f_5 = joaat("LUXE2_VAPID_CHINO");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14749,7 +14749,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 340000;
 			uParam1->f_3 = 1000000;
-			uParam1->f_5 = 215838966;
+			uParam1->f_5 = joaat("LUXE2_INVETERO_COQUETTE_BLACKFIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14758,7 +14758,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3300000f;
 			uParam1->f_2 = 1000000;
 			uParam1->f_3 = 3300000;
-			uParam1->f_5 = 1145833376;
+			uParam1->f_5 = joaat("LUXE2_PROGEN_T20");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14767,7 +14767,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2625000f;
 			uParam1->f_2 = 850000;
 			uParam1->f_3 = 2625000;
-			uParam1->f_5 = -486041956;
+			uParam1->f_5 = joaat("LUXE2_LAMPADATI_TORO");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14830,7 +14830,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 2500;
 			uParam1->f_3 = 21000;
-			uParam1->f_5 = -173149373;
+			uParam1->f_5 = joaat("LUXE2_THE_PIMP_KNUCKLE_DUSTER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14839,7 +14839,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 2500;
 			uParam1->f_3 = 21000;
-			uParam1->f_5 = 1449657666;
+			uParam1->f_5 = joaat("LUXE2_THE_BALLAS_KNUCKLE_DUSTER");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -14850,7 +14850,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 2500;
 			uParam1->f_3 = 21000;
-			uParam1->f_5 = 1038396324;
+			uParam1->f_5 = joaat("LUXE2_THE_HUSTLER_KNUCKLE_DUSTER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14859,7 +14859,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 2500;
 			uParam1->f_3 = 21000;
-			uParam1->f_5 = 1750327899;
+			uParam1->f_5 = joaat("LUXE2_THE_ROCK_KNUCKLE_DUSTER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14868,7 +14868,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 2500;
 			uParam1->f_3 = 21000;
-			uParam1->f_5 = -1059335443;
+			uParam1->f_5 = joaat("LUXE2_THE_HATER_KNUCKLE_DUSTER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14877,7 +14877,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 2500;
 			uParam1->f_3 = 21000;
-			uParam1->f_5 = 763836153;
+			uParam1->f_5 = joaat("LUXE2_THE_LOVER_KNUCKLE_DUSTER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14886,7 +14886,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 2500;
 			uParam1->f_3 = 21000;
-			uParam1->f_5 = -537772567;
+			uParam1->f_5 = joaat("LUXE2_THE_PLAYER_KNUCKLE_DUSTER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14895,7 +14895,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 2500;
 			uParam1->f_3 = 21000;
-			uParam1->f_5 = -1976352020;
+			uParam1->f_5 = joaat("LUXE2_THE_KING_KNUCKLE_DUSTER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14904,7 +14904,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 2500;
 			uParam1->f_3 = 21000;
-			uParam1->f_5 = -1568393457;
+			uParam1->f_5 = joaat("LUXE2_THE_VAGOS_KNUCKLE_DUSTER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14913,7 +14913,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 5450;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = 1537969659;
+			uParam1->f_5 = joaat("LUXE2_THE_HOWLER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14922,7 +14922,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 5050;
 			uParam1->f_3 = 15000;
-			uParam1->f_5 = 2052881604;
+			uParam1->f_5 = joaat("LUXE2_FATAL_DAGGER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14931,7 +14931,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 22000f;
 			uParam1->f_2 = 7250;
 			uParam1->f_3 = 22000;
-			uParam1->f_5 = 1657765060;
+			uParam1->f_5 = joaat("LUXE2_INTROMETRIC");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14940,7 +14940,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 6550;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = 118699681;
+			uParam1->f_5 = joaat("LUXE2_CROSS_OF_ROSES");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14949,7 +14949,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 13100;
 			uParam1->f_3 = 40000;
-			uParam1->f_5 = -93488432;
+			uParam1->f_5 = joaat("LUXE2_GEOMETRIC_GALAXY");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14958,7 +14958,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 28000f;
 			uParam1->f_2 = 9200;
 			uParam1->f_3 = 28000;
-			uParam1->f_5 = -111901410;
+			uParam1->f_5 = joaat("LUXE2_EGYPTIAN_MURAL");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14967,7 +14967,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 32000f;
 			uParam1->f_2 = 10650;
 			uParam1->f_3 = 32000;
-			uParam1->f_5 = -776037061;
+			uParam1->f_5 = joaat("LUXE2_HEAVENLY_DEITY");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14976,7 +14976,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 35000f;
 			uParam1->f_2 = 11600;
 			uParam1->f_3 = 35000;
-			uParam1->f_5 = 1850662394;
+			uParam1->f_5 = joaat("LUXE2_DIVINE_GODDESS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14985,7 +14985,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 43000f;
 			uParam1->f_2 = 14100;
 			uParam1->f_3 = 43000;
-			uParam1->f_5 = 249366521;
+			uParam1->f_5 = joaat("LUXE2_CLOAKED_ANGEL");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -14994,7 +14994,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 23000f;
 			uParam1->f_2 = 7700;
 			uParam1->f_3 = 23000;
-			uParam1->f_5 = -1861456710;
+			uParam1->f_5 = joaat("LUXE2_STARMETRIC");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15003,7 +15003,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 5700;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = 721710253;
+			uParam1->f_5 = joaat("LUXE2_REAPER_SWAY");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15012,7 +15012,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 22000f;
 			uParam1->f_2 = 7300;
 			uParam1->f_3 = 22000;
-			uParam1->f_5 = 648351172;
+			uParam1->f_5 = joaat("LUXE2_FLORAL_PRINT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15021,7 +15021,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 6300;
 			uParam1->f_3 = 19000;
-			uParam1->f_5 = 811933701;
+			uParam1->f_5 = joaat("LUXE2_COBRA_DAWN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15030,7 +15030,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 5600;
 			uParam1->f_3 = 17000;
-			uParam1->f_5 = 600606008;
+			uParam1->f_5 = joaat("LUXE2_PYTHON_SKULL");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15039,7 +15039,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 45000f;
 			uParam1->f_2 = 14850;
 			uParam1->f_3 = 45000;
-			uParam1->f_5 = 444644043;
+			uParam1->f_5 = joaat("LUXE2_GEOMETRIC_DESIGN");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -15050,7 +15050,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 600000;
-			uParam1->f_5 = -1796142600;
+			uParam1->f_5 = joaat("CHALLENGE_EVENT_START_COUNTDOWN_TIME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15059,7 +15059,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 2;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = -2083994968;
+			uParam1->f_5 = joaat("CHALLENGE_MINIMUM_PARTICIPANTS_LAUNCH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15068,7 +15068,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 1180975104;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_LONGEST_FREEFALL");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15077,7 +15077,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 1214377042;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_LOWEST_PARACHUTE_DEPLOY");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15086,7 +15086,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1188197228;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_HIGHEST_VEHICLES_STOLEN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15095,7 +15095,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1626249723;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_LONGEST_FALL_WITHOUT_DYING");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15104,7 +15104,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -839874448;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_LONGEST_VEHICLE_BAIL_WITHOUT_DYING");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15113,7 +15113,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 1519843898;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_LONGEST_TIME_LOW_FLYING_UNDER_20M");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15122,7 +15122,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -598150985;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_LONGEST_TIME_LOW_FLYING_INVERTED_UNDER_100M");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15131,7 +15131,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 1720731272;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_BRIDGES_FLOWN_UNDER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15140,7 +15140,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 50604843;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_REVERSE_DRIVING_WITHOUT_CRASHING");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15149,7 +15149,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -439842609;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_PVP_HIGHEST_NO_OF_PLAYERS_SET_ON_FIRE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15158,7 +15158,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1194098350;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_PVP_HIGHEST_NO_OF_PLAYER_HEADSHOTS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15167,7 +15167,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 637649026;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_PVP_HIGHEST_NO_OF_PLAYER_DRIVE_BY_KILLS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15176,7 +15176,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 1487989945;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_PVP_HIGHEST_NO_OF_PLAYER_MELEE_KILLS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15185,7 +15185,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 551445108;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_PVP_SNIPER_PLAYER_KILLS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15194,7 +15194,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = 1407964436;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_LONGEST_FREEFALL");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15203,7 +15203,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -151795864;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_LOWEST_PARACHUTE_DEPLOY");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15212,7 +15212,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = 1936047123;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_HIGHEST_VEHICLES_STOLEN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15221,7 +15221,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -1945014605;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_LONGEST_FALL_WITHOUT_DYING");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15230,7 +15230,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -524766832;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_LONGEST_VEHICLE_BAIL_WITHOUT_DYING");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15239,7 +15239,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = 1757338906;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_BULLET_MIN_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15248,7 +15248,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30000;
-			uParam1->f_5 = 495363390;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_BULLET_MAX_CASH");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -15259,7 +15259,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -1929693776;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_LONGEST_TIME_LOW_FLYING_UNDER_20M");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15268,7 +15268,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = 890993601;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_LONGEST_TIME_LOW_FLYING_INVERTED_UNDER_100M");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15277,7 +15277,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -1711057271;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_BRIDGES_FLOWN_UNDER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15286,7 +15286,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -308103488;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_REVERSE_DRIVING_WITHOUT_CRASHING");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15295,7 +15295,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -859948801;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_PVP_HIGHEST_NO_OF_PLAYERS_SET_ON_FIRE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15304,7 +15304,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -675019553;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_PVP_HIGHEST_NO_OF_PLAYER_HEADSHOTS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15313,7 +15313,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = 143457223;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_PVP_HIGHEST_NO_OF_PLAYER_DRIVE_BY_KILLS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15322,7 +15322,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = 955337218;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_PVP_HIGHEST_NO_OF_PLAYER_MELEE_KILLS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15331,7 +15331,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -1584234058;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_PVP_SNIPER_PLAYER_KILLS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15340,7 +15340,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = 886307808;
+			uParam1->f_5 = joaat("HOT_TARGET_EVENT_TIME_LIMIT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15349,7 +15349,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -1141546862;
+			uParam1->f_5 = joaat("HOT_TARGET_EVENT_EXPIRY_TIME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15358,7 +15358,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 2;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = 889332592;
+			uParam1->f_5 = joaat("HOT_TARGET_MINIMUM_PARTICIPANTS_LAUNCH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15367,7 +15367,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -655241405;
+			uParam1->f_5 = joaat("HOT_TARGET_VEHICLE_HEALTH_MODIFIER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15376,7 +15376,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 600000;
-			uParam1->f_5 = 1192321747;
+			uParam1->f_5 = joaat("HOT_TARGET_PLAYER_WAIT_TIMER_2_PLAYER_VEHICLES");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15711,7 +15711,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = 1580158853;
+			uParam1->f_5 = joaat("CHECKPOINT_EVENT_TIME_LIMIT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15720,7 +15720,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 600000;
-			uParam1->f_5 = 1121013465;
+			uParam1->f_5 = joaat("CHECKPOINT_EVENT_START_COUNTDOWN_TIME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15729,7 +15729,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 2;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = 1388995326;
+			uParam1->f_5 = joaat("CHECKPOINT_MINIMUM_PARTICIPANTS_LAUNCH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15738,7 +15738,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 1;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = -65551831;
+			uParam1->f_5 = joaat("CHECKPOINT_CHECKPOINT_PLAYER_THRESHOLD_1");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15747,7 +15747,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 1;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = -295033138;
+			uParam1->f_5 = joaat("CHECKPOINT_CHECKPOINT_PLAYER_THRESHOLD_2");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15756,7 +15756,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 1;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = -489943150;
+			uParam1->f_5 = joaat("CHECKPOINT_CHECKPOINT_PLAYER_THRESHOLD_3");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15765,7 +15765,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 1;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = 1390734977;
+			uParam1->f_5 = joaat("TIME_TRIAL_MINIMUM_PARTICIPANTS_LAUNCH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15774,7 +15774,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 300000;
-			uParam1->f_5 = 211099614;
+			uParam1->f_5 = joaat("TIME_TRIAL_RETURN_TO_CAR_TIME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15783,7 +15783,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 300000;
-			uParam1->f_5 = -578889034;
+			uParam1->f_5 = joaat("TIME_TRIAL_RETURN_TO_BIKE_TIME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15792,7 +15792,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 600000;
-			uParam1->f_5 = -1186161278;
+			uParam1->f_5 = joaat("PENNED_IN_EVENT_START_COUNTDOWN_TIME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15801,7 +15801,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -334499479;
+			uParam1->f_5 = joaat("PENNED_IN_EVENT_EXPIRY_TIME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15810,7 +15810,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 2;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = 880085553;
+			uParam1->f_5 = joaat("PENNED_IN_MINIMUM_PARTICIPANTS_LAUNCH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15819,7 +15819,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = 1722324857;
+			uParam1->f_5 = joaat("PENNED_IN_PEN_MOVEMENT_SPEED_MODIFIER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15837,7 +15837,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 1;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -263258563;
+			uParam1->f_5 = joaat("PENNED_IN_PERCENTAGE_OF_SESSION_REQUIRED_FOR_QUICK_LAUNCH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15846,7 +15846,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 300000;
-			uParam1->f_5 = -1917431628;
+			uParam1->f_5 = joaat("PENNED_IN_QUICK_LAUNCH_TIMER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15855,7 +15855,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 300000;
-			uParam1->f_5 = 1897633070;
+			uParam1->f_5 = joaat("PENNED_IN_KNOCKOUT_TIMER");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -15866,7 +15866,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = 557283307;
+			uParam1->f_5 = joaat("PASS_THE_PARCEL_EVENT_TIME_LIMIT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15875,7 +15875,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -60314277;
+			uParam1->f_5 = joaat("PASS_THE_PARCEL_EVENT_EXPIRY_TIME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15884,7 +15884,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 2;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = -1310549886;
+			uParam1->f_5 = joaat("PASS_THE_PARCEL_MINIMUM_PARTICIPANTS_LAUNCH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15893,7 +15893,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 2086896008;
+			uParam1->f_5 = joaat("PASS_THE_PARCEL_VEHICLE_HEALTH_MODIFIER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15902,7 +15902,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 300000;
-			uParam1->f_5 = -26109514;
+			uParam1->f_5 = joaat("PASS_THE_PARCEL_SUDDEN_DEATH_TIME_LIMIT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15911,7 +15911,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -1290137458;
+			uParam1->f_5 = joaat("HOT_PROPERTY_EVENT_TIME_LIMIT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15920,7 +15920,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 2;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = 1382916859;
+			uParam1->f_5 = joaat("HOT_PROPERTY_MINIMUM_PARTICIPANTS_LAUNCH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15929,7 +15929,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -1218910284;
+			uParam1->f_5 = joaat("DEAD_DROP_EVENT_TIME_LIMIT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15938,7 +15938,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -525178140;
+			uParam1->f_5 = joaat("DEAD_DROP_EVENT_EXPIRY_TIME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15947,7 +15947,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 2;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = 1628079583;
+			uParam1->f_5 = joaat("DEAD_DROP_MINIMUM_PARTICIPANTS_LAUNCH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15956,7 +15956,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = 1916279352;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_EVENT_TIME_LIMIT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15965,7 +15965,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -1289675913;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_EVENT_EXPIRY_TIME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15974,7 +15974,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 2;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = 1128513602;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_MINIMUM_PARTICIPANTS_LAUNCH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15983,7 +15983,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 28832192;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_POINTS_PER_X_SECONDS_AS_KING");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -15992,7 +15992,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = -1492550833;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_SECONDS_AS_KING_TO_EARN_POINTS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16001,7 +16001,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 1268568013;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_POINTS_PER_PLAYER_KILL_AS_KING");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16010,7 +16010,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -8124520;
+			uParam1->f_5 = joaat("Criminal_Damage_EVENT_TIME_LIMIT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16019,7 +16019,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 600000;
-			uParam1->f_5 = 561455601;
+			uParam1->f_5 = joaat("Criminal_Damage_EVENT_START_COUNTDOWN_TIME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16028,7 +16028,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 2;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = 621349432;
+			uParam1->f_5 = joaat("Criminal_Damage_MINIMUM_PARTICIPANTS_LAUNCH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16037,7 +16037,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = -989671040;
+			uParam1->f_5 = joaat("Criminal_Damage_BASE_VALUE_APPLIED_TO_PROPS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16046,7 +16046,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 554717096;
+			uParam1->f_5 = joaat("Criminal_Damage_BASE_VALUE_MODIFIER_APPLIED_TO_PROPS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16055,7 +16055,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 1575349005;
+			uParam1->f_5 = joaat("Criminal_Damage_BASE_VALUE_MODIFIER_APPLIED_TO_VEHICLES");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16064,7 +16064,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -665347075;
+			uParam1->f_5 = joaat("Criminal_Damage_BASE_VALUE_MODIFIER_APPLIED_TO_CLOTHING");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16073,7 +16073,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -887233685;
+			uParam1->f_5 = joaat("Criminal_Damage_DAMAGE_VALUE_MODIFIER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16082,7 +16082,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 1917136479;
+			uParam1->f_5 = joaat("Criminal_Damage_DESTRUCTION_VALUE_MODIFIER");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -16093,7 +16093,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3600000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3600000;
-			uParam1->f_5 = 200947888;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_EVENT_TIME_LIMIT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16102,7 +16102,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 600000;
-			uParam1->f_5 = -443330993;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_EVENT_START_COUNTDOWN_TIME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16111,7 +16111,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 2;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = -1912384101;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_MINIMUM_PARTICIPANTS_LAUNCH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16120,7 +16120,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1105000653;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_AMBIENT_WEIGHTING_HUNT_THE_BEAST");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16129,7 +16129,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 100;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = -535325223;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_BEAST_HEALTH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16138,7 +16138,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1.15f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 1757252586;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_BEAST_SPEED");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16147,7 +16147,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 60000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 60000;
-			uParam1->f_5 = -593534965;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_BEAST_BLIP_FLASH_DURATION_BASE_VALUE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16156,7 +16156,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 60000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 60000;
-			uParam1->f_5 = 438768970;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_BEAST_BLIP_FLASH_DURATION_INCREASE_VALUE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16165,7 +16165,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 15f;
 			uParam1->f_2 = 3;
 			uParam1->f_3 = 15;
-			uParam1->f_5 = -70115571;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_NUMBER_OF_ACTIVE_LANDMARKS");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -16176,7 +16176,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 49022266;
+			uParam1->f_5 = joaat("HOT_TARGET_HOT_TARGET_DEFAULT_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16185,7 +16185,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000;
-			uParam1->f_5 = -1371345779;
+			uParam1->f_5 = joaat("HOT_TARGET_HOT_TARGET_DEFAULT_RP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16194,7 +16194,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 1839842279;
+			uParam1->f_5 = joaat("HOT_TARGET_CHASER_DEFAULT_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16203,7 +16203,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000;
-			uParam1->f_5 = 2002824917;
+			uParam1->f_5 = joaat("HOT_TARGET_CHASER_DEFAULT_RP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16212,7 +16212,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = -794980589;
+			uParam1->f_5 = joaat("HOT_TARGET_MINIMUM_PARTICIPATION_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16230,7 +16230,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = 112600253;
+			uParam1->f_5 = joaat("HOT_TARGET_PARTICIPATION_THRESHOLD_DISTANCE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16293,7 +16293,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = -1149870437;
+			uParam1->f_5 = joaat("CHECKPOINT_BONUS_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16302,7 +16302,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000;
-			uParam1->f_5 = 1125084275;
+			uParam1->f_5 = joaat("CHECKPOINT_BONUS_RP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16311,7 +16311,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 174922285;
+			uParam1->f_5 = joaat("CHECKPOINT_AIR_CHECKPOINT_MULTIPLIER_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16320,7 +16320,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 706669832;
+			uParam1->f_5 = joaat("CHECKPOINT_AIR_CHECKPOINT_MULTIPLIER_RP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16329,7 +16329,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3000;
-			uParam1->f_5 = -1033159501;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_1CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16338,7 +16338,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3000;
-			uParam1->f_5 = -906430342;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_2_CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16347,7 +16347,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3000;
-			uParam1->f_5 = -1396097979;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_3_CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16356,7 +16356,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3000;
-			uParam1->f_5 = -1103964256;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_4_CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16365,7 +16365,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3000;
-			uParam1->f_5 = -527353388;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_5_CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16374,7 +16374,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3000;
-			uParam1->f_5 = -1671652413;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_6_CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16383,7 +16383,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3000;
-			uParam1->f_5 = -1291271460;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_7_CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16392,7 +16392,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3000;
-			uParam1->f_5 = -1256504408;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_8_CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16401,7 +16401,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3000;
-			uParam1->f_5 = 1194826691;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_9_CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16410,7 +16410,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3000;
-			uParam1->f_5 = 163433928;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_10_CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16419,7 +16419,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 500;
-			uParam1->f_5 = -1929874458;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_1_RP_VALUE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16428,7 +16428,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 500;
-			uParam1->f_5 = -1121408659;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_2_RP_VALUE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16437,7 +16437,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 500;
-			uParam1->f_5 = 457527056;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_3_RP_VALUE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16446,7 +16446,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 500;
-			uParam1->f_5 = -958784577;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_4_RP_VALUE");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -16457,7 +16457,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = -1350123057;
+			uParam1->f_5 = joaat("CHECKPOINT_PARTICIPATION_THRESHOLD_MIN_CHECKPOINTS_COLLECTED");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16466,7 +16466,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = -1468556153;
+			uParam1->f_5 = joaat("CHECKPOINT_MINIMUM_PARTICIPATION_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16520,7 +16520,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -550389908;
+			uParam1->f_5 = joaat("HELICOPTER_HOT_TARGET_HOT_TARGET_DEFAULT_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16529,7 +16529,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000;
-			uParam1->f_5 = -817636381;
+			uParam1->f_5 = joaat("HELICOPTER_HOT_TARGET_HOT_TARGET_DEFAULT_RP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16538,7 +16538,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -1500983243;
+			uParam1->f_5 = joaat("HELICOPTER_HOT_TARGET_CHASER_DEFAULT_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16547,7 +16547,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000;
-			uParam1->f_5 = -1809499441;
+			uParam1->f_5 = joaat("HELICOPTER_HOT_TARGET_CHASER_DEFAULT_RP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16556,7 +16556,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 1903299406;
+			uParam1->f_5 = joaat("HELICOPTER_HOT_TARGET_MINIMUM_PARTICIPATION_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16574,7 +16574,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = -543373498;
+			uParam1->f_5 = joaat("HELICOPTER_HOT_TARGET_PARTICIPATION_THRESHOLD_DISTANCE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16583,7 +16583,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = -138800758;
+			uParam1->f_5 = joaat("PENNED_IN_BASE_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16592,7 +16592,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = -784376595;
+			uParam1->f_5 = joaat("PENNED_IN_BASE_RP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16601,7 +16601,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = -1029433510;
+			uParam1->f_5 = joaat("PENNED_IN_SCALE_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16610,7 +16610,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 500;
-			uParam1->f_5 = 1551148962;
+			uParam1->f_5 = joaat("PENNED_IN_SCALE_RP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16619,7 +16619,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = -624029344;
+			uParam1->f_5 = joaat("PENNED_IN_T_WEIGHT_TIME_THRESHOLD_1");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16628,7 +16628,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = -317409811;
+			uParam1->f_5 = joaat("PENNED_IN_T_WEIGHT_TIME_THRESHOLD_2");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16637,7 +16637,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = 1056823742;
+			uParam1->f_5 = joaat("PENNED_IN_T_WEIGHT_TIME_THRESHOLD_3");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16646,7 +16646,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = 1353743651;
+			uParam1->f_5 = joaat("PENNED_IN_T_WEIGHT_TIME_THRESHOLD_4");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16655,7 +16655,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = 1117888762;
+			uParam1->f_5 = joaat("PENNED_IN_T_WEIGHT_THRESHOLD_VALUE_1");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16664,7 +16664,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = 877134919;
+			uParam1->f_5 = joaat("PENNED_IN_T_WEIGHT_THRESHOLD_VALUE_2");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16673,7 +16673,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = 916916489;
+			uParam1->f_5 = joaat("PENNED_IN_T_WEIGHT_THRESHOLD_VALUE_3");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16682,7 +16682,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = 1760619932;
+			uParam1->f_5 = joaat("PENNED_IN_T_WEIGHT_THRESHOLD_VALUE_4");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16691,7 +16691,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = 1380696146;
+			uParam1->f_5 = joaat("PENNED_IN_T_WEIGHT_THRESHOLD_VALUE_5");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16700,7 +16700,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 1356372648;
+			uParam1->f_5 = joaat("PENNED_IN_P_WEIGHT");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -16711,7 +16711,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = 400510769;
+			uParam1->f_5 = joaat("PENNED_IN_P_CAP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16720,7 +16720,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = -36074459;
+			uParam1->f_5 = joaat("PENNED_IN_MINIMUM_PARTICIPATION_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16729,7 +16729,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = 66985186;
+			uParam1->f_5 = joaat("PENNED_IN_MINIMUM_PARTICIPATION_RP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16738,7 +16738,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 2137376174;
+			uParam1->f_5 = joaat("DEAD_DROP_DEFAULT_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16747,7 +16747,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000;
-			uParam1->f_5 = -552608155;
+			uParam1->f_5 = joaat("DEAD_DROP_DEFAULT_RP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16756,7 +16756,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 200f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 200;
-			uParam1->f_5 = -1324158733;
+			uParam1->f_5 = joaat("DEAD_DROP_CARRIER_KILLS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16765,7 +16765,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = 1247126551;
+			uParam1->f_5 = joaat("DEAD_DROP_CARRIER_KILL_CAP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16774,7 +16774,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = 1024539497;
+			uParam1->f_5 = joaat("DEAD_DROP_PARTICIPATION_THRESHOLD_DISTANCE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16783,7 +16783,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 764734914;
+			uParam1->f_5 = joaat("DEAD_DROP_MINIMUM_PARTICIPATION_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16855,7 +16855,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000;
-			uParam1->f_5 = 646169103;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_EXTENDED_WANTED_REDUCTION_DISTANCE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16864,7 +16864,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1;
-			uParam1->f_5 = -1433029493;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_EXTENDED_WANTED_REDUCTION_MULTIPLER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16873,7 +16873,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 2;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = 1972582119;
+			uParam1->f_5 = joaat("PENNED_IN_MAX_PLAYERS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16882,7 +16882,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = -813381895;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_PLAYER_BULLET_MIN_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16891,7 +16891,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 713981593;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_PLAYER_BULLET_MAX_CASH");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -16902,7 +16902,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = -2099399271;
+			uParam1->f_5 = joaat("CHALLENGE_CASH_REWARD_BASE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16911,7 +16911,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = 1625031529;
+			uParam1->f_5 = joaat("CHALLENGE_RP_REWARD_BASE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16920,7 +16920,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = 807391048;
+			uParam1->f_5 = joaat("CHALLENGE_EOM_DEFAULT_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16938,7 +16938,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -146856185;
+			uParam1->f_5 = joaat("CHALLENGE_POSITION_MODIFIER_IN_PLACE_0");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16947,7 +16947,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 293886865;
+			uParam1->f_5 = joaat("CHALLENGE_POSITION_MODIFIER_IN_PLACE_1");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16956,7 +16956,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 581631454;
+			uParam1->f_5 = joaat("CHALLENGE_POSITION_MODIFIER_IN_PLACE_2");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16965,7 +16965,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1393028486;
+			uParam1->f_5 = joaat("CHALLENGE_POSITION_MODIFIER_IN_PLACE_3");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16974,7 +16974,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10;
-			uParam1->f_5 = 1278747742;
+			uParam1->f_5 = joaat("CHALLENGE_REWARD_TIME_WEIGHTING");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16983,7 +16983,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -424169619;
+			uParam1->f_5 = joaat("CHALLENGE_REWARD_PLAYER_WEIGHTING");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -16992,7 +16992,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = -415366945;
+			uParam1->f_5 = joaat("CHALLENGE_REWARD_PLAYER_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17001,7 +17001,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = -219790116;
+			uParam1->f_5 = joaat("CHALLENGE_CASH_REWARD_SCALE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17010,7 +17010,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = -896971152;
+			uParam1->f_5 = joaat("CHALLENGE_RP_REWARD_SCALE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17019,7 +17019,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 1949103279;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_GET_CASH_REWARD_BASE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17028,7 +17028,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = 1157887976;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_GET_RP_REWARD_BASE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17037,7 +17037,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = 1271557296;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_GET_EOM_DEFAULT_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17046,7 +17046,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 500;
-			uParam1->f_5 = 167772523;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_GET_EOM_DEFAULT_RP_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17055,7 +17055,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -581450675;
+			uParam1->f_5 = joaat("Criminal_Damage_POSITION_MODIFIER_IN_PLACE_1");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17064,7 +17064,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1432658223;
+			uParam1->f_5 = joaat("Criminal_Damage_POSITION_MODIFIER_IN_PLACE_2");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17073,7 +17073,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1713062556;
+			uParam1->f_5 = joaat("Criminal_Damage_POSITION_MODIFIER_IN_PLACE_3");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17082,7 +17082,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10;
-			uParam1->f_5 = -695013579;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_GET_REWARD_TIME_WEIGHTING");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -17093,7 +17093,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = 225483868;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_GET_CASH_REWARD_SCALE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17102,7 +17102,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = 1853185507;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_GET_RP_REWARD_SCALE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17111,7 +17111,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 1135746193;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_GET_REWARD_PLAYER_WEIGHTING");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17120,7 +17120,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = -762430062;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_GET_REWARD_PLAYER_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17129,7 +17129,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 962395548;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_GET_REWARD_PLAYER_THRESHOLD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17138,7 +17138,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 2067457727;
+			uParam1->f_5 = joaat("HOT_PROPERTY_EOM_DEFAULT_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17156,7 +17156,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = -7571418;
+			uParam1->f_5 = joaat("HOT_PROPERTY_CASH_REWARD_SCALE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17165,7 +17165,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 500;
-			uParam1->f_5 = 578748666;
+			uParam1->f_5 = joaat("HOT_PROPERTY_RP_REWARD_SCALE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17174,7 +17174,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1063006106;
+			uParam1->f_5 = joaat("HOT_PROPERTY_POSITION_MODIFIER_IN_PLACE_0");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17183,7 +17183,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -553513706;
+			uParam1->f_5 = joaat("HOT_PROPERTY_POSITION_MODIFIER_IN_PLACE_1");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17192,7 +17192,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -314791541;
+			uParam1->f_5 = joaat("HOT_PROPERTY_POSITION_MODIFIER_IN_PLACE_2");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17201,7 +17201,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -71612792;
+			uParam1->f_5 = joaat("HOT_PROPERTY_POSITION_MODIFIER_IN_PLACE_3");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17210,7 +17210,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10;
-			uParam1->f_5 = -79804119;
+			uParam1->f_5 = joaat("HOT_PROPERTY_REWARD_TIME_WEIGHTING");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17219,7 +17219,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -304493237;
+			uParam1->f_5 = joaat("HOT_PROPERTY_REWARD_PLAYER_WEIGHTING");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17228,7 +17228,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 489654460;
+			uParam1->f_5 = joaat("HOT_PROPERTY_REWARD_PLAYER_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17237,7 +17237,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 200f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 200;
-			uParam1->f_5 = -423979231;
+			uParam1->f_5 = joaat("HOT_PROPERTY_RP_REWARD_KILLED_CARRIER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17246,7 +17246,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -434735387;
+			uParam1->f_5 = joaat("HOT_PROPERTY_RP_REWARD_KILLED_CARRIER_CAP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17255,7 +17255,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 286235315;
+			uParam1->f_5 = joaat("HOT_PROPERTY_CASH_REWARD_BASE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17264,7 +17264,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = 2147162014;
+			uParam1->f_5 = joaat("HOT_PROPERTY_RP_REWARD_BASE");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -17275,7 +17275,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 1832115227;
+			uParam1->f_5 = joaat("PASS_THE_PARCEL_CASH_REWARD_BASE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17284,7 +17284,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000;
-			uParam1->f_5 = -1557405435;
+			uParam1->f_5 = joaat("PASS_THE_PARCEL_RP_REWARD_BASE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17293,7 +17293,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 200f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 200;
-			uParam1->f_5 = -2058524347;
+			uParam1->f_5 = joaat("PASS_THE_PARCEL_RP_REWARD_KILL_CARRIER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17302,7 +17302,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -970674872;
+			uParam1->f_5 = joaat("PASS_THE_PARCEL_RP_REWARD_KILL_CARRIER_CAP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17311,7 +17311,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = -462230490;
+			uParam1->f_5 = joaat("PASS_THE_PARCEL_REWARD_PARTICIPATION_RANGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17320,7 +17320,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = -34324859;
+			uParam1->f_5 = joaat("PASS_THE_PARCEL_EOM_DEFAULT_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17338,7 +17338,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = -2045844833;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_EOM_DEFAULT_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17356,7 +17356,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = 360636588;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_CASH_REWARD_SCALE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17365,7 +17365,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 500;
-			uParam1->f_5 = 703165455;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_RP_REWARD_SCALE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17374,7 +17374,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 484294612;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_MODIFIER_IN_PLACE_1");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17383,7 +17383,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 705976897;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_MODIFIER_IN_PLACE_2");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17392,7 +17392,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 1601225977;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_MODIFIER_IN_PLACE_3");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17401,7 +17401,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10;
-			uParam1->f_5 = 1445334380;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_REWARD_TIME_WEIGHTING");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17410,7 +17410,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 1909784936;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_REWARD_PLAYER_WEIGHTING");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17419,7 +17419,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 1185039747;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_REWARD_PLAYER_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17428,7 +17428,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 200f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 200;
-			uParam1->f_5 = -1727860393;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_RP_REWARD_KILLED_KING");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17437,7 +17437,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 200f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 200;
-			uParam1->f_5 = 453017200;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_RP_REWARD_KILL_AS_KING");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17446,7 +17446,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -703666841;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_RP_REWARD_KILLED_KING_CAP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17455,7 +17455,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = 387221552;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_RP_REWARD_KILL_AS_KING_CAP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17464,7 +17464,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 1966994651;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_CASH_REWARD_BASE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17473,7 +17473,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = 61329934;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_RP_REWARD_BASE");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -17484,7 +17484,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 819896056;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_B_BASE_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17493,7 +17493,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000;
-			uParam1->f_5 = 2046086243;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_B_BASE_RP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17502,7 +17502,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -504543012;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_H_BASE_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17511,7 +17511,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000;
-			uParam1->f_5 = 1226949810;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_H_BASE_RP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17520,7 +17520,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000;
-			uParam1->f_5 = -139507733;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_SCALE_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17529,7 +17529,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = 1584620117;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_SCALE_RP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17538,7 +17538,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = -1639547578;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_V_CAP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17547,7 +17547,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = 1070896653;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_P_WEIGHT_PLAYER_THRESHOLD_1");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17556,7 +17556,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = 572414621;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_P_WEIGHT_PLAYER_THRESHOLD_2");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17565,7 +17565,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = 763457891;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_P_WEIGHT_PLAYER_THRESHOLD_3");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17574,7 +17574,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = 1741317624;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_P_WEIGHT_PLAYER_THRESHOLD_4");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17583,7 +17583,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = 292665668;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_P_WEIGHT_PLAYER_THRESHOLD_5");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17592,7 +17592,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = -893112419;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_P_WEIGHT_THRESHOLD_VALUE_1");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17601,7 +17601,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = -579185399;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_P_WEIGHT_THRESHOLD_VALUE_2");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17610,7 +17610,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = -298322300;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_P_WEIGHT_THRESHOLD_VALUE_3");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17619,7 +17619,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = -2125980506;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_P_WEIGHT_THRESHOLD_VALUE_4");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17628,7 +17628,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = -1895122901;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_P_WEIGHT_THRESHOLD_VALUE_5");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17637,7 +17637,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = 1186342787;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_P_WEIGHT_THRESHOLD_VALUE_6");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17646,7 +17646,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = -849702794;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_MINIMUM_PARTICIPATION_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17664,7 +17664,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 1192171372;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_PARTICIPATION_THRESHOLD_DISTANCE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17673,7 +17673,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 60000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 60000;
-			uParam1->f_5 = 1323155669;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_BEAST_BLIP_START_VISIBILITY");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17682,7 +17682,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = 1554381493;
+			uParam1->f_5 = joaat("CHALLENGE_T_CAP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17691,7 +17691,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -1326045406;
+			uParam1->f_5 = joaat("CHALLENGE_P_CAP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17700,7 +17700,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = 2029199907;
+			uParam1->f_5 = joaat("Criminal_Damage_T_CAP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17709,7 +17709,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -476954019;
+			uParam1->f_5 = joaat("Criminal_Damage_P_CAP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17718,7 +17718,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = -333815755;
+			uParam1->f_5 = joaat("HOT_PROPERTY_T_CAP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17727,7 +17727,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -408264973;
+			uParam1->f_5 = joaat("HOT_PROPERTY_P_CAP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17736,7 +17736,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = -238750388;
+			uParam1->f_5 = joaat("HOT_PROPERTY_PARTICIPATION_THRESHOLD_DISTANCE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17745,7 +17745,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = -1987740489;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_T_CAP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17754,7 +17754,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = 1419650767;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_P_CAP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17763,7 +17763,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3600f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3600;
-			uParam1->f_5 = 1663231217;
+			uParam1->f_5 = joaat("SHARED_CASH_COOLDOWN_TUNABLE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17772,7 +17772,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3600f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3600;
-			uParam1->f_5 = -1618562503;
+			uParam1->f_5 = joaat("RECEIVE_SHARED_CASH_COOLDOWN_TUNABLE");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -17783,7 +17783,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_1 = 3f;
-			uParam1->f_5 = 484538711;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_LONGEST_JUMP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17792,7 +17792,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_1 = 3f;
-			uParam1->f_5 = 1934376194;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_MOST_NEAR_MISSES");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17801,7 +17801,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_1 = 3f;
-			uParam1->f_5 = 1558507414;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_LONGEST_STOPPIE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17810,7 +17810,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_1 = 3f;
-			uParam1->f_5 = -1233079339;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_LONGEST_WHEELIE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17819,7 +17819,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_1 = 3f;
-			uParam1->f_5 = -1202419739;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_HIGHEST_SPEED");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17828,7 +17828,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_1 = 3f;
-			uParam1->f_5 = -279448462;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_LONGEST_NO_CRASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17837,7 +17837,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3600000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3600000;
-			uParam1->f_5 = 1567687456;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_NO_LANDMARKS_BLIP_TIME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17846,7 +17846,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3600000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3600000;
-			uParam1->f_5 = 511788735;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_NO_LANDMARKS_BLIP_DURATION");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17855,7 +17855,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 60;
-			uParam1->f_5 = 1186198366;
+			uParam1->f_5 = joaat("PARTICIPATION_T_CAP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17864,7 +17864,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1720254891;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_EVENT_MULTIPLIER_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17882,7 +17882,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1268775162;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_EVENT_MULTIPLIER_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17900,7 +17900,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1419158012;
+			uParam1->f_5 = joaat("KILL_LIST_EVENT_MULTIPLIER_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17918,7 +17918,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 1195650876;
+			uParam1->f_5 = joaat("KILL_LIST_COMPETITIVE_EVENT_MULTIPLIER_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17936,7 +17936,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 874154398;
+			uParam1->f_5 = joaat("PENNED_IN_EVENT_MULTIPLIER_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17954,7 +17954,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 1389028830;
+			uParam1->f_5 = joaat("CHECKPOINTS_EVENT_MULTIPLIER_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17972,7 +17972,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 1435050690;
+			uParam1->f_5 = joaat("CHALLENGE_EVENT_MULTIPLIER_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17990,7 +17990,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 1185535624;
+			uParam1->f_5 = joaat("TIME_TRIAL_EVENT_MULTIPLIER_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -17999,7 +17999,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1673351342;
+			uParam1->f_5 = joaat("TIME_TRIAL_EVENT_MULTIPLIER_RP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18008,7 +18008,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -882173420;
+			uParam1->f_5 = joaat("MOVING_TARGET_EVENT_MULTIPLIER_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18026,7 +18026,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 520648049;
+			uParam1->f_5 = joaat("HELI_MOVING_TARGET_EVENT_MULTIPLIER_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18044,7 +18044,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1888029212;
+			uParam1->f_5 = joaat("HOLD_THE_WHEEL_EVENT_MULTIPLIER_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18062,7 +18062,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1979201435;
+			uParam1->f_5 = joaat("HOT_PROPERTY_EVENT_MULTIPLIER_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18080,7 +18080,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 357772325;
+			uParam1->f_5 = joaat("DEAD_DROP_EVENT_MULTIPLIER_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18098,7 +18098,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -233932265;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_EVENT_MULTIPLIER_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18116,7 +18116,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1;
-			uParam1->f_5 = -876619479;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_PERCENT_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18125,7 +18125,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1;
-			uParam1->f_5 = 1287440918;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_PERCENT_RP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18134,7 +18134,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30000;
-			uParam1->f_5 = -1068097748;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_BONUS_CASH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18143,7 +18143,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000;
-			uParam1->f_5 = 885071385;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_BONUS_RP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18152,7 +18152,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5000000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000000;
-			uParam1->f_5 = 992776116;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_S_CAP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18161,7 +18161,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5000000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000000;
-			uParam1->f_5 = 548442192;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_VEHICLE_VALUE_CAP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18170,7 +18170,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10;
-			uParam1->f_5 = -1759580058;
+			uParam1->f_5 = joaat("TIME_TRIAL_PARTICIPATION_T_CAP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18179,7 +18179,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 1;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -1943297345;
+			uParam1->f_5 = joaat("LOWRIDER_FLOW_MISSION_REWARD_RANK_OVERRIDE");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -18190,7 +18190,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = -173922587;
+			uParam1->f_5 = joaat("MALE_UPPERS_CREW_VARSITY_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18199,7 +18199,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 907276681;
+			uParam1->f_5 = joaat("MALE_ACCESSORIES_GOLD_MAGNETICS_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18208,7 +18208,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -2137268844;
+			uParam1->f_5 = joaat("MALE_ACCESSORIES_PLATINUM_MAGNETICS_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18217,7 +18217,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 332150836;
+			uParam1->f_5 = joaat("FEMALE_UPPERS_CREW_VARSITY_JACKET");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18226,7 +18226,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 2138856017;
+			uParam1->f_5 = joaat("FEMALE_ACCESSORIES_ASSAULT_HOOPS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18235,7 +18235,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -1324812423;
+			uParam1->f_5 = joaat("FEMALE_ACCESSORIES_CHUNKY_HOOPS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18244,7 +18244,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 724415285;
+			uParam1->f_5 = joaat("FEMALE_ACCESSORIES_CLASSIC_HOOPS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18253,7 +18253,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 43990373;
+			uParam1->f_5 = joaat("FEMALE_ACCESSORIES_GOLD_MAGNETICS_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18262,7 +18262,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -267783003;
+			uParam1->f_5 = joaat("FEMALE_ACCESSORIES_PLATINUM_MAGNETICS_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18271,7 +18271,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 250000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 250000;
-			uParam1->f_5 = -1753871973;
+			uParam1->f_5 = joaat("WEBSITE_WILLARD_FACTION");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18280,7 +18280,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 250000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 250000;
-			uParam1->f_5 = -165238417;
+			uParam1->f_5 = joaat("WEBSITE_DECLASSE_MOONBEAM");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18289,7 +18289,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 250000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 250000;
-			uParam1->f_5 = 1766325229;
+			uParam1->f_5 = joaat("WEBSITE_ALBANY_BUCCANEER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18298,7 +18298,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 250000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 250000;
-			uParam1->f_5 = 672597852;
+			uParam1->f_5 = joaat("WEBSITE_DECLASSE_VOODOO");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18307,7 +18307,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 250000f;
 			uParam1->f_2 = 3000;
 			uParam1->f_3 = 250000;
-			uParam1->f_5 = 555019835;
+			uParam1->f_5 = joaat("WEBSITE_ALBANY_PRIMO");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18316,7 +18316,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 340000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 340000;
-			uParam1->f_5 = 2089809122;
+			uParam1->f_5 = joaat("WEBSITE_VAPID_CHINO__BENNYS_WEBSITE_");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18325,7 +18325,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 468000f;
 			uParam1->f_2 = 195000;
 			uParam1->f_3 = 468000;
-			uParam1->f_5 = 1784942865;
+			uParam1->f_5 = joaat("MOD_SHOP_UPGRADE_ALBANY_BUCCANEER_CUSTOM");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18334,7 +18334,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 222000f;
 			uParam1->f_2 = 92500;
 			uParam1->f_3 = 222000;
-			uParam1->f_5 = -16605981;
+			uParam1->f_5 = joaat("MOD_SHOP_UPGRADE_VAPID_CHINO_CUSTOM");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18343,7 +18343,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 402000f;
 			uParam1->f_2 = 167500;
 			uParam1->f_3 = 402000;
-			uParam1->f_5 = 1416295068;
+			uParam1->f_5 = joaat("MOD_SHOP_UPGRADE_WILLARD_FACTION_CUSTOM");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18352,7 +18352,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 444000f;
 			uParam1->f_2 = 185000;
 			uParam1->f_3 = 444000;
-			uParam1->f_5 = -890111734;
+			uParam1->f_5 = joaat("MOD_SHOP_UPGRADE_DECLASSE_MOONBEAM_CUSTOM");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18361,7 +18361,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 480000f;
 			uParam1->f_2 = 200000;
 			uParam1->f_3 = 480000;
-			uParam1->f_5 = 1098098280;
+			uParam1->f_5 = joaat("MOD_SHOP_UPGRADE_ALBANY_PRIMO_CUSTOM");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18370,7 +18370,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 504000f;
 			uParam1->f_2 = 210000;
 			uParam1->f_3 = 504000;
-			uParam1->f_5 = -725430499;
+			uParam1->f_5 = joaat("MOD_SHOP_UPGRADE_DECLASSE_VOODOO_CUSTOM");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18379,7 +18379,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 15000;
 			uParam1->f_3 = 150000;
-			uParam1->f_5 = 547394594;
+			uParam1->f_5 = joaat("CAR_MODS_SAN_ANDREAS_LOOP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18388,7 +18388,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 15000;
 			uParam1->f_3 = 150000;
-			uParam1->f_5 = 1826680801;
+			uParam1->f_5 = joaat("CAR_MODS_LIBERTY_CITY_LOOP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18397,7 +18397,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 7000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 1118450116;
+			uParam1->f_5 = joaat("CAR_MODS_SUPERMOD_SLOT_STOCK_HYDRAULICS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18415,7 +18415,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = 1072594687;
+			uParam1->f_5 = joaat("PRIMARY_MACHETE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18424,7 +18424,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = -478571293;
+			uParam1->f_5 = joaat("WEAPONADDONPUMP_SHOTGUN_YUSUF_AMIR_LUXURY_FINISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18433,7 +18433,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 848801415;
+			uParam1->f_5 = joaat("WEAPONADDONASSAULT_SMG_YUSUF_AMIR_LUXURY_FINISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18442,7 +18442,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = -1300863920;
+			uParam1->f_5 = joaat("WEAPONADDONSNS_PISTOL_ETCHED_WOOD_GRIP_FINISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18451,7 +18451,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = -534709815;
+			uParam1->f_5 = joaat("WEAPONADDONCOMBAT_PISTOL_YUSUF_AMIR_LUXURY_FINISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18460,7 +18460,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = -1421023232;
+			uParam1->f_5 = joaat("WEAPONADDONMG_YUSUF_AMIR_LUXURY_FINISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18469,7 +18469,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = -1602715547;
+			uParam1->f_5 = joaat("WEAPONADDONCOMBAT_MG_ETCHED_GUN_METAL_FINISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18478,7 +18478,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = -340008193;
+			uParam1->f_5 = joaat("WEAPONADDONSPECIAL_CARBINE_ETCHED_GUN_METAL_FINISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18487,7 +18487,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 1588734453;
+			uParam1->f_5 = joaat("WEAPONADDONBULLPUP_RIFLE_GILDED_GUN_METAL_FINISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18496,7 +18496,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 1614892838;
+			uParam1->f_5 = joaat("BOTH_GENDERS_HOLY_MARY");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18505,7 +18505,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -1617486606;
+			uParam1->f_5 = joaat("BOTH_GENDERS_BAD_ANGEL");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18514,7 +18514,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -256649283;
+			uParam1->f_5 = joaat("BOTH_GENDERS_LOVE_IS_BLIND");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18523,7 +18523,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -256341759;
+			uParam1->f_5 = joaat("BOTH_GENDERS_SAD_ANGEL");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18532,7 +18532,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -340095595;
+			uParam1->f_5 = joaat("BOTH_GENDERS_CITY_SORROW");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -18543,7 +18543,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 497433617;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_EVIL_PUMPKIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18552,7 +18552,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 1296657880;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_ROTTEN_PUMPKIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18561,7 +18561,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 1849579795;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_NASTY_WATERMELON");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18570,7 +18570,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 2114589303;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_CREEPY_BUTLER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18579,7 +18579,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = -606965109;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_DEAD_BUTLER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18588,7 +18588,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 1489214832;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_ROTTEN_BUTLER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18597,7 +18597,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 286015615;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_WHITE_SCALDED_PSYCHO");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18606,7 +18606,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = -202932451;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_BLOODY_SCALDED_PSYCHO");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18615,7 +18615,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = -963220399;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_BLACK_SCALDED_PSYCHO");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18624,7 +18624,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 1330763176;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_RED_FLAYED_DEMON");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18633,7 +18633,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = -1851865533;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_GREEN_FLAYED_DEMON");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18642,7 +18642,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 1321035761;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_GRAY_FLAYED_DEMON");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18651,7 +18651,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 621347832;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_WHITE_SKULL_BURST");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18660,7 +18660,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = -775260672;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_RED_SKULL_BURST");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18669,7 +18669,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 55277820;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_CREAM_SKULL_BURST");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18678,7 +18678,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 1246261725;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_PALE_LYCANTHROPE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18687,7 +18687,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 301082109;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_DARK_LYCANTHROPE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18696,7 +18696,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = -1653556941;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_GRAY_LYCANTHROPE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18705,7 +18705,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = -257446039;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_GREEN_TOXIC_INSECT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18714,7 +18714,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = -1641192032;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_RED_TOXIC_INSECT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18723,7 +18723,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = -148487088;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_PURPLE_TOXIC_INSECT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18732,7 +18732,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = -1197550925;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_DIRTY_SEWER_CREATURE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18741,7 +18741,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 1665703549;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_ROTTEN_SEWER_CREATURE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18750,7 +18750,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = -1090593685;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_SCABBY_SEWER_CREATURE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18759,7 +18759,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 2028142545;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_RED_CLASSIC_LUCIFER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18768,7 +18768,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 1889431274;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_ORANGE_CLASSIC_LUCIFER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18777,7 +18777,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 931114659;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_BLACK_CLASSIC_LUCIFER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18786,7 +18786,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 1387883820;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_CLASSIC_SACK_SLASHER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18795,7 +18795,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = -366147552;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_BLOODY_SACK_SLASHER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18804,7 +18804,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 191681310;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_BLACK_SACK_SLASHER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18813,7 +18813,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = -1974666408;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_BLUE_HYPNOTIC_ALIEN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18822,7 +18822,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 1381329009;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_GREEN_HYPNOTIC_ALIEN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18831,7 +18831,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = -1052600052;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_RED_HYPNOTIC_ALIEN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18840,7 +18840,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 1780143083;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_YELLOW_HAGGARD_WITCH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18849,7 +18849,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 1101275009;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_GRAY_HAGGARD_WITCH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18858,7 +18858,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = -773558617;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_WHITE_HAGGARD_WITCH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18867,7 +18867,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 1571011756;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_RED_BEARDED_LUCIFER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18876,7 +18876,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 50829484;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_ORANGE_BEARDED_LUCIFER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18885,7 +18885,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 75000;
-			uParam1->f_5 = 398774745;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_BLACK_BEARDED_LUCIFER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18894,7 +18894,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = 565873505;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_ALBANY_FRANKEN_STANGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18903,7 +18903,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = -1800793302;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_CHARIOT_LURCHER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18912,7 +18912,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 15000;
 			uParam1->f_3 = 150000;
-			uParam1->f_5 = 202807229;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_HALLOWEEN_LOOP_1");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18921,7 +18921,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 15000;
 			uParam1->f_3 = 150000;
-			uParam1->f_5 = -795238204;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_HALLOWEEN_LOOP_2");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18930,7 +18930,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 1000;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = -1337774198;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_FLASHLIGHT");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -18941,7 +18941,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 1510202222;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_OG_HUNNETS_CHROME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18950,7 +18950,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 1218770498;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_OG_HUNNETS_PAINTED");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18959,7 +18959,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 798687242;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_KNOCK-OFFS_CHROME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18968,7 +18968,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 1749452099;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_KNOCK-OFFS_PAINTED");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18977,7 +18977,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = -1750226859;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_SPOKED_OUT_CHROME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18986,7 +18986,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = -794271288;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_SPOKED_OUT_PAINTED");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -18995,7 +18995,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = -216557143;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_VINTAGE_WIRE_CHROME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19004,7 +19004,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = -420844818;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_VINTAGE_WIRE_PAINTED");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19013,7 +19013,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = -1553770841;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_SMOOTHIE_CHROME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19022,7 +19022,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = -705177366;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_SMOOTHIE_CHROME_LIP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19031,7 +19031,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 549151207;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_SMOOTHIE_PAINTED");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19040,7 +19040,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = -728771457;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_ROD_ME_UP_CHROME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19049,7 +19049,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 1843944390;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_ROD_ME_UP_CHROME_LIP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19058,7 +19058,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 1265223998;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_ROD_ME_UP_PAINTED");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19067,7 +19067,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = -375534719;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_CLEAN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19076,7 +19076,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 114956437;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_LOTTA_CHROME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19085,7 +19085,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = -659896376;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_SPINDLES");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19094,7 +19094,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = -899294946;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_VIKING_");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19103,7 +19103,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 2057613080;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_TRIPLE_SPOKE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19112,7 +19112,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = -1224836558;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_PHAROHE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19121,7 +19121,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = -1781437997;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_TIGER_STYLE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19130,7 +19130,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 1279962792;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_THREE_WHEELIN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19139,7 +19139,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = -1928359499;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_BIG_BAR");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19148,7 +19148,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 656071312;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_BIOHAZARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19157,7 +19157,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 174262507;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_WAVES");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19166,7 +19166,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 386867214;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_LICK_LICK");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19175,7 +19175,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = -493128385;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_SPIRALIZER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19184,7 +19184,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 1790886836;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_HYPOTICS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19193,7 +19193,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = -34681602;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_PSYCHO-DELIC");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19202,7 +19202,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 339047683;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_HALF_CUT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19211,7 +19211,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = -182233353;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_SUPER ELECTRIC");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -19222,7 +19222,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -1195141826;
+			uParam1->f_5 = joaat("LOWRIDER_1_CREW_EMBLEM_FRONT_AND_BACK");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19231,7 +19231,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 1000;
 			uParam1->f_3 = 40000;
-			uParam1->f_5 = -2124076705;
+			uParam1->f_5 = joaat("CAR_MODS_LOWRIDER_1_BENNYS_TIRE_DESIGN_WHITE_LINES");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19240,7 +19240,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 1000;
 			uParam1->f_3 = 40000;
-			uParam1->f_5 = -1135080970;
+			uParam1->f_5 = joaat("CAR_MODS_LOWRIDER_1_BENNYS_TIRE_DESIGN_CLASSIC_WHITE_WALL");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19249,7 +19249,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 1000;
 			uParam1->f_3 = 40000;
-			uParam1->f_5 = -163516679;
+			uParam1->f_5 = joaat("CAR_MODS_LOWRIDER_1_BENNYS_TIRE_DESIGN_RETRO_WHITE_WALL");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19258,7 +19258,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 1000;
 			uParam1->f_3 = 40000;
-			uParam1->f_5 = -1845867885;
+			uParam1->f_5 = joaat("CAR_MODS_LOWRIDER_1_BENNYS_TIRE_DESIGN_RED_LINES");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19267,7 +19267,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 1000;
 			uParam1->f_3 = 40000;
-			uParam1->f_5 = -1617351994;
+			uParam1->f_5 = joaat("CAR_MODS_LOWRIDER_1_BENNYS_TIRE_DESIGN_BLUE_LINES");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19276,7 +19276,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 1000;
 			uParam1->f_3 = 40000;
-			uParam1->f_5 = -2104712890;
+			uParam1->f_5 = joaat("CAR_MODS_LOWRIDER_1_BENNYS_TIRE_DESIGN_ATOMIC");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19285,7 +19285,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = -1425310186;
+			uParam1->f_5 = joaat("CAR_MODS_HALLOWEEN_2015_FRANKEN_STANGE_LIVERY_BLAZING_DEATH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19294,7 +19294,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = -1804383882;
+			uParam1->f_5 = joaat("CAR_MODS_HALLOWEEN_2015_FRANKEN_STANGE_LIVERY_HELLS_FURNACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19303,7 +19303,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = -1955030355;
+			uParam1->f_5 = joaat("CAR_MODS_HALLOWEEN_2015_FRANKEN_STANGE_LIVERY_SPIDER_TRAP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19312,7 +19312,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 1436099355;
+			uParam1->f_5 = joaat("CAR_MODS_HALLOWEEN_2015_FRANKEN_STANGE_LIVERY_MIDNIGHT_POTION");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19321,7 +19321,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 930951930;
+			uParam1->f_5 = joaat("CAR_MODS_HALLOWEEN_2015_LURCHER_LIVERY_THE_RIPPER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19330,7 +19330,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 1574934541;
+			uParam1->f_5 = joaat("CAR_MODS_HALLOWEEN_2015_LURCHER_LIVERY_HANGMANS_GRAVE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19339,7 +19339,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = 1883243522;
+			uParam1->f_5 = joaat("SUPERMOD_SLOT_HYDRAULICS_1ST_MOD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19348,7 +19348,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = -1673844906;
+			uParam1->f_5 = joaat("SUPERMOD_SLOT_HYDRAULICS_2ND_MOD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19357,7 +19357,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = 611348408;
+			uParam1->f_5 = joaat("SUPERMOD_SLOT_HYDRAULICS_3RD_MOD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19366,7 +19366,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = -1741768512;
+			uParam1->f_5 = joaat("SUPERMOD_SLOT_HYDRAULICS_4TH_MOD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19375,7 +19375,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = -308338968;
+			uParam1->f_5 = joaat("SUPERMOD_SLOT_HYDRAULICS_5TH_MOD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19384,7 +19384,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 1000000;
-			uParam1->f_5 = -1605272146;
+			uParam1->f_5 = joaat("LOWRIDER_FACTION2_LIVERY_SPECIAL10");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19393,7 +19393,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 1;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -518171772;
+			uParam1->f_5 = joaat("GB_NUMBER_OF_GOONS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19429,7 +19429,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_3 = 100000;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = -478393512;
+			uParam1->f_5 = joaat("BENNYSWEBSITE_KARIN_SULTAN_BENNYS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19438,7 +19438,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_3 = 2000000;
 			uParam1->f_2 = 200000;
 			uParam1->f_3 = 2000000;
-			uParam1->f_5 = -1449462873;
+			uParam1->f_5 = joaat("BENNYSWEBSITE_KARIN_SULTAN_RS_UPGRADE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19447,7 +19447,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_3 = 500000;
 			uParam1->f_2 = 50000;
 			uParam1->f_3 = 500000;
-			uParam1->f_5 = -1799704196;
+			uParam1->f_5 = joaat("UPGRADE_BRAVADO_BANSHEE_BENNYS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19456,7 +19456,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_3 = 2000000;
 			uParam1->f_2 = 200000;
 			uParam1->f_3 = 2000000;
-			uParam1->f_5 = -1781440390;
+			uParam1->f_5 = joaat("UPGRADE_BRAVADO_BANSHEE_900R_UPGRADE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19465,7 +19465,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_3 = 4000000;
 			uParam1->f_2 = 200000;
 			uParam1->f_3 = 4000000;
-			uParam1->f_5 = -1739834394;
+			uParam1->f_5 = joaat("WEBSITE_VALENTINES2016_ALBANY_ROOSEVELT_VALOR");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -19476,7 +19476,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 2000000;
-			uParam1->f_5 = -1500441824;
+			uParam1->f_5 = joaat("APARTMENT_WEBSITE_GALLIVANTER_BALLER_LE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19485,7 +19485,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 50000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = -124124851;
+			uParam1->f_5 = joaat("APARTMENT_WEBSITE_GALLIVANTER_BALLER_LE_ARMORED");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19494,7 +19494,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 2000000;
-			uParam1->f_5 = 500606852;
+			uParam1->f_5 = joaat("APARTMENT_WEBSITE_GALLIVANTER_BALLER_LE_LWB");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19503,7 +19503,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 50000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = 1580321384;
+			uParam1->f_5 = joaat("APARTMENT_WEBSITE_GALLIVANTER_BALLER_LWB_ARMORED");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19512,7 +19512,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 2000000;
-			uParam1->f_5 = -348526927;
+			uParam1->f_5 = joaat("APARTMENT_WEBSITE_ENUS_COGNOSCENTI_55");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19521,7 +19521,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 50000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = 1795576843;
+			uParam1->f_5 = joaat("APARTMENT_WEBSITE_ENUS_COGNOSCENTI_55_ARMORED");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19530,7 +19530,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 2000000;
-			uParam1->f_5 = 1136731901;
+			uParam1->f_5 = joaat("APARTMENT_WEBSITE_ENUS_COGNOSCENTI");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19539,7 +19539,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 50000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = 331669480;
+			uParam1->f_5 = joaat("APARTMENT_WEBSITE_ENUS_COGNOSCENTI_ARMORED");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19557,7 +19557,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 50000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = 491770944;
+			uParam1->f_5 = joaat("APARTMENT_WEBSITE_DECLASSE_MAMBA");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19566,7 +19566,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = -868533286;
+			uParam1->f_5 = joaat("APARTMENT_WEBSITE_IMPONTE_NIGHT_SHADE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19575,7 +19575,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 2000000;
-			uParam1->f_5 = 1573736830;
+			uParam1->f_5 = joaat("APARTMENT_WEBSITE_BENEFACTOR_SCHAFTER_V12");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19584,7 +19584,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 50000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = -1484532217;
+			uParam1->f_5 = joaat("APARTMENT_WEBSITE_BENEFACTOR_SCHAFTER_V12_ARMORED");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19593,7 +19593,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 2000000;
-			uParam1->f_5 = 925865262;
+			uParam1->f_5 = joaat("APARTMENT_WEBSITE_BENEFACTOR_SCHAFTER_LWB");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19602,7 +19602,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 50000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = 667281475;
+			uParam1->f_5 = joaat("APARTMENT_WEBSITE_BENEFACTOR_SCHAFTER_LWB_ARMORED");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19611,7 +19611,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 50000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = -1636766480;
+			uParam1->f_5 = joaat("APARTMENT_WEBSITE_BRAVADO_VERLIERER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19638,7 +19638,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = -71038278;
+			uParam1->f_5 = joaat("APARTMENT_ADDONS_HEAVY_REVOLVER_ENGRAVED_BOSS_VARIANT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19647,7 +19647,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 1400761675;
+			uParam1->f_5 = joaat("APARTMENT_ADDONS_HEAVY_REVOLVER_ENGRAVED_GOON_VARIANT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19656,7 +19656,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 1375110520;
+			uParam1->f_5 = joaat("APARTMENT_ADDONS_SWITCHBLADE_ENGRAVED_BOSS_VARIANT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19665,7 +19665,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3E+07f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 30000000;
-			uParam1->f_5 = -976367201;
+			uParam1->f_5 = joaat("APARTMENT_PURCHASE_MODEL_THE_ORION_FIRST_PURCHASE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19674,7 +19674,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2500000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 2500000;
-			uParam1->f_5 = 1587047182;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_MODEL_THE_ORION_MOD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19683,7 +19683,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3.5E+07f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 35000000;
-			uParam1->f_5 = -1112039416;
+			uParam1->f_5 = joaat("APARTMENT_PURCHASE_MODEL_THE_PISCES_FIRST_PURCHASE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19692,7 +19692,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 5000000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 5000000;
-			uParam1->f_5 = 1577150952;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_MODEL_THE_PISCES_MOD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19701,7 +19701,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 4E+07f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 40000000;
-			uParam1->f_5 = -1946823177;
+			uParam1->f_5 = joaat("APARTMENT_PURCHASE_MODEL_THE_AQUARIUS_FIRST_PURCHASE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19710,7 +19710,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1E+07f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 10000000;
-			uParam1->f_5 = 1262037594;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_MODEL_THE_AQUARIUS_MOD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19719,7 +19719,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 500000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 500000;
-			uParam1->f_5 = -70960120;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_CHROME_FITTINGS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19728,7 +19728,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3750000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 3750000;
-			uParam1->f_5 = 1831571379;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_GOLD_FITTINGS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19737,7 +19737,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1750000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 1750000;
-			uParam1->f_5 = 530533026;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_LIGHTS_PRESIDENTIAL_GOLD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19746,7 +19746,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1575000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 1575000;
-			uParam1->f_5 = 1734623841;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_LIGHTS_PRESIDENTIAL_BLUE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19755,7 +19755,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1650000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 1650000;
-			uParam1->f_5 = 1717802375;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_LIGHTS_PRESIDENTIAL_ROSE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19764,7 +19764,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = 1162246131;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_LIGHTS_PRESIDENTIAL_GREEN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19773,7 +19773,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = -1402096652;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_VIVACIOUS_GOLD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19782,7 +19782,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2625000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 2625000;
-			uParam1->f_5 = -1669355876;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_VIVACIOUS_BLUE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19791,7 +19791,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2750000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 2750000;
-			uParam1->f_5 = -1667338230;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_VIVACIOUS_ROSE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19800,7 +19800,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2500000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 2500000;
-			uParam1->f_5 = 1360163048;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_VIVACIOUS_GREEN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19809,7 +19809,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 500000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 500000;
-			uParam1->f_5 = -386504470;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_YACHT_COLOR_PACIFIC");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19818,7 +19818,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = -1373873834;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_YACHT_COLOR_AZURE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19827,7 +19827,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 675000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 675000;
-			uParam1->f_5 = 1484028079;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_YACHT_COLOR_NAUTICAL");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19836,7 +19836,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2250000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 2250000;
-			uParam1->f_5 = 1376975486;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_YACHT_COLOR_CONTINENTAL");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19845,7 +19845,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2375000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 2375000;
-			uParam1->f_5 = 229408028;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_YACHT_COLOR_BATTLESHIP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19854,7 +19854,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3175000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 3175000;
-			uParam1->f_5 = -1083613953;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_YACHT_COLOR_INTREPID");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19863,7 +19863,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1575000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 1575000;
-			uParam1->f_5 = -2118994523;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_YACHT_COLOR_UNIFORM");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19872,7 +19872,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3100000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 3100000;
-			uParam1->f_5 = -2030136040;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_YACHT_COLOR_CLASSICO");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19881,7 +19881,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1825000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 1825000;
-			uParam1->f_5 = -852462379;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_YACHT_COLOR_MEDITERRANEAN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19890,7 +19890,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2475000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 2475000;
-			uParam1->f_5 = 1443511899;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_YACHT_COLOR_COMMAND");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19899,7 +19899,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 850000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 850000;
-			uParam1->f_5 = -1026918136;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_YACHT_COLOR_MARINER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19908,7 +19908,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1700000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 1700000;
-			uParam1->f_5 = -1329392565;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_YACHT_COLOR_RUBY");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19917,7 +19917,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2125000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 2125000;
-			uParam1->f_5 = 1520256615;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_YACHT_COLOR_VINTAGE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19926,7 +19926,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1100000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 1100000;
-			uParam1->f_5 = 1027802695;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_YACHT_COLOR_PRISTINE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19935,7 +19935,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 975000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 975000;
-			uParam1->f_5 = 448700919;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_YACHT_COLOR_MERCHANT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19944,7 +19944,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3250000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 3250000;
-			uParam1->f_5 = 2126507810;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_YACHT_COLOR_VOYAGER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -19953,7 +19953,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1250000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 1250000;
-			uParam1->f_5 = 196821080;
+			uParam1->f_5 = joaat("APARTMENT_MOD_UPGRADE_NAME_YACHT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20079,7 +20079,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = -660218489;
+			uParam1->f_5 = joaat("APARTMENT_CAR_MODSHIGH_END_INTERIOR_MODERN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20088,7 +20088,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = 780521842;
+			uParam1->f_5 = joaat("APARTMENT_CAR_MODSHIGH_END_INTERIOR_MOODY");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20097,7 +20097,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = 1052138724;
+			uParam1->f_5 = joaat("APARTMENT_CAR_MODSHIGH_END_INTERIOR_VIBRANT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20106,7 +20106,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = -258328892;
+			uParam1->f_5 = joaat("APARTMENT_CAR_MODSHIGH_END_INTERIOR_SHARP");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20115,7 +20115,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = -552995245;
+			uParam1->f_5 = joaat("APARTMENT_CAR_MODSHIGH_END_INTERIOR_MONOCHROME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20124,7 +20124,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = -1950302737;
+			uParam1->f_5 = joaat("APARTMENT_CAR_MODSHIGH_END_INTERIOR_SEDUCTIVE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20133,7 +20133,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = -1924310762;
+			uParam1->f_5 = joaat("APARTMENT_CAR_MODSHIGH_END_INTERIOR_REGAL");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20142,7 +20142,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = 1248618798;
+			uParam1->f_5 = joaat("APARTMENT_CAR_MODSHIGH_END_INTERIOR_AQUA");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20151,7 +20151,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2000000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 2000000;
-			uParam1->f_5 = 472317652;
+			uParam1->f_5 = joaat("XMAS2015_DECLASSE_TAMPA");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20189,7 +20189,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 858646893;
+			uParam1->f_5 = joaat("MALE_UPPERS_TAN_CHORE_COAT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20198,7 +20198,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -1141300700;
+			uParam1->f_5 = joaat("MALE_ACCESSORIES_GOLD_RIM_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20207,7 +20207,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 1221648951;
+			uParam1->f_5 = joaat("MALE_ACCESSORIES_PLATINUM_RIM_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20216,7 +20216,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -1007917739;
+			uParam1->f_5 = joaat("MALE_ACCESSORIES_GOLD_ALLOY_NECKALCE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20225,7 +20225,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 979155635;
+			uParam1->f_5 = joaat("MALE_ACCESSORIES_PLATINUM_ALLOY_NECKALCE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20234,7 +20234,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 532759465;
+			uParam1->f_5 = joaat("FEMALE_UPPERS_TAN_CHORE_COAT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20243,7 +20243,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -896121855;
+			uParam1->f_5 = joaat("FEMALE_ACCESSORIES_FU_HOOPS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20252,7 +20252,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -1007669447;
+			uParam1->f_5 = joaat("FEMALE_ACCESSORIES_SCREW_YOU_HOOPS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20261,7 +20261,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 402655953;
+			uParam1->f_5 = joaat("FEMALE_ACCESSORIES_GOLD_RIM_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20270,7 +20270,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -1614852695;
+			uParam1->f_5 = joaat("FEMALE_ACCESSORIES_PLATINUM_RIM_NECKLACE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20279,7 +20279,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -1653410894;
+			uParam1->f_5 = joaat("FEMALE_ACCESSORIES_GOLD_ALLOY_NECKALCE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20288,7 +20288,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -1084038466;
+			uParam1->f_5 = joaat("FEMALE_ACCESSORIES_PLATINUM_ALLOY_NECKALCE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20297,7 +20297,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 500000f;
 			uParam1->f_2 = 50000;
 			uParam1->f_3 = 500000;
-			uParam1->f_5 = -1431316553;
+			uParam1->f_5 = joaat("WEBSITE_BENNYS_DUNDREARY_VIRGO_CLASSIC");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20306,7 +20306,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 250000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 250000;
-			uParam1->f_5 = -1713083858;
+			uParam1->f_5 = joaat("WEBSITE_BENNYS_DECLASSE_SABRE_TURBO");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20315,7 +20315,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 250000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 250000;
-			uParam1->f_5 = -129342669;
+			uParam1->f_5 = joaat("WEBSITE_BENNYS_DECLASSE_TORNADO");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20324,7 +20324,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 250000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 250000;
-			uParam1->f_5 = -973497615;
+			uParam1->f_5 = joaat("WEBSITE_BENNYS_VAPID_MINIVAN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20333,7 +20333,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 250000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 250000;
-			uParam1->f_5 = 1023107911;
+			uParam1->f_5 = joaat("WEBSITE_BENNYS_VAPID_SLAMVAN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20342,7 +20342,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2500000f;
 			uParam1->f_2 = 170000;
 			uParam1->f_3 = 2500000;
-			uParam1->f_5 = -1000293354;
+			uParam1->f_5 = joaat("CAR_MODS_WILLARD_FACTION_CUSTOM_DONK_UPGRADE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20351,7 +20351,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 80000;
 			uParam1->f_3 = 1000000;
-			uParam1->f_5 = -322801741;
+			uParam1->f_5 = joaat("CAR_MODS_VAPID_MINIVAN_CUSTOM_UPGRADE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20360,7 +20360,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 120000;
 			uParam1->f_3 = 1000000;
-			uParam1->f_5 = -1779270360;
+			uParam1->f_5 = joaat("CAR_MODS_DECLASSE_SABRE_TURBO_CUSTOM_UPGRADE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20369,7 +20369,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 1000000;
-			uParam1->f_5 = -595438251;
+			uParam1->f_5 = joaat("CAR_MODS_VAPID_SLAMVAN_CUSTOM_UPGRADE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20378,7 +20378,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 90000;
 			uParam1->f_3 = 1000000;
-			uParam1->f_5 = 1608836980;
+			uParam1->f_5 = joaat("CAR_MODS_DECLASSE_TORNADO_CUSTOM_UPGRADE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20387,7 +20387,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 55000;
 			uParam1->f_3 = 1000000;
-			uParam1->f_5 = -1800957270;
+			uParam1->f_5 = joaat("CAR_MODS_DUNDREARY_VIRGO_CLASSIC_CUSTOM_UPGRADE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20396,7 +20396,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 226750252;
+			uParam1->f_5 = joaat("CAR_MODS_BENNYS_BESPOKE_WHEELS_CHROME_OG_HUNNETS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20405,7 +20405,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 565896526;
+			uParam1->f_5 = joaat("CAR_MODS_BENNYS_BESPOKE_WHEELS_GOLD_OG_HUNNETS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20414,7 +20414,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 1891985936;
+			uParam1->f_5 = joaat("CAR_MODS_BENNYS_BESPOKE_WHEELS_CHROME_WIRES");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20423,7 +20423,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 422023516;
+			uParam1->f_5 = joaat("CAR_MODS_BENNYS_BESPOKE_WHEELS_GOLD_WIRES");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20432,7 +20432,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 1719817002;
+			uParam1->f_5 = joaat("CAR_MODS_BENNYS_BESPOKE_WHEELS_CHROME_SPOKED_OUT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20441,7 +20441,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 1112332780;
+			uParam1->f_5 = joaat("CAR_MODS_BENNYS_BESPOKE_WHEELS_GOLD_SPOKED_OUT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20450,7 +20450,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 1111805910;
+			uParam1->f_5 = joaat("CAR_MODS_BENNYS_BESPOKE_WHEELS_CHROME_KNOCKOFFS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20459,7 +20459,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = -1161309987;
+			uParam1->f_5 = joaat("CAR_MODS_BENNYS_BESPOKE_WHEELS_GOLD_KNOCKOFFS");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20468,7 +20468,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 564419787;
+			uParam1->f_5 = joaat("CAR_MODS_BENNYS_BESPOKE_WHEELS_CHROME_BIGGER_WORM");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20477,7 +20477,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = -1988086665;
+			uParam1->f_5 = joaat("CAR_MODS_BENNYS_BESPOKE_WHEELS_GOLD_BIGGER_WORM");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20486,7 +20486,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 407270079;
+			uParam1->f_5 = joaat("CAR_MODS_BENNYS_BESPOKE_WHEELS_CHROME_VINTAGE_WIRE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20495,7 +20495,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 227974550;
+			uParam1->f_5 = joaat("CAR_MODS_BENNYS_BESPOKE_WHEELS_GOLD_VINTAGE_WIRE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20504,7 +20504,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 8444166;
+			uParam1->f_5 = joaat("CAR_MODS_BENNYS_BESPOKE_WHEELS_CHROME_CLASSIC_WIRE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20513,7 +20513,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 1352855437;
+			uParam1->f_5 = joaat("CAR_MODS_BENNYS_BESPOKE_WHEELS_GOLD_CLASSIC_WIRE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20522,7 +20522,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = -1123558353;
+			uParam1->f_5 = joaat("CAR_MODS_BENNYS_BESPOKE_WHEELS_CHROME_SMOOTHIE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20531,7 +20531,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 265222133;
+			uParam1->f_5 = joaat("CAR_MODS_BENNYS_BESPOKE_WHEELS_GOLD_SMOOTHIE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20540,7 +20540,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 431081889;
+			uParam1->f_5 = joaat("CAR_MODS_BENNYS_BESPOKE_WHEELS_CHROME_CLASSIC_ROD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20549,7 +20549,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = -651139583;
+			uParam1->f_5 = joaat("CAR_MODS_BENNYS_BESPOKE_WHEELS_GOLD_CLASSIC_ROD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20558,7 +20558,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 489413612;
+			uParam1->f_5 = joaat("CAR_MODS_BENNYS_BESPOKE_WHEELS_CHROME_DOLLAR");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20567,7 +20567,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 1883688394;
+			uParam1->f_5 = joaat("CAR_MODS_BENNYS_BESPOKE_WHEELS_GOLD_DOLLAR");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20576,7 +20576,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = 215000849;
+			uParam1->f_5 = joaat("CAR_MODS_SUPERMOD_SLOT_HYDRAULICS_6TH_MOD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20585,7 +20585,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 30000;
-			uParam1->f_5 = 1816070514;
+			uParam1->f_5 = joaat("PRIMARY_COMPACT_RIFLE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20594,7 +20594,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 30000;
-			uParam1->f_5 = 117408879;
+			uParam1->f_5 = joaat("PRIMARY_DOUBLE_BARREL_SHOTGUN");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20603,7 +20603,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 1309603139;
+			uParam1->f_5 = joaat("TATTOO_SA_ASSAULT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20612,7 +20612,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -793692562;
+			uParam1->f_5 = joaat("TATTOO_LOVE_THE_GAME");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20621,7 +20621,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 168631431;
+			uParam1->f_5 = joaat("TATTOO_SKELETON_PARTY");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20630,7 +20630,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -104499381;
+			uParam1->f_5 = joaat("TATTOO_DEAD_PRETTY");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20639,7 +20639,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -1634707666;
+			uParam1->f_5 = joaat("TATTOO_REIGN_OVER");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20648,7 +20648,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 1018805699;
+			uParam1->f_5 = joaat("BENNYS_BESPOKE_WHEELS_CHROME_MIGHTY_STAR");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20657,7 +20657,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 1573512647;
+			uParam1->f_5 = joaat("BENNYS_BESPOKE_WHEELS_GOLD_MIGHTY_STAR");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20666,7 +20666,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 1647104739;
+			uParam1->f_5 = joaat("BENNYS_BESPOKE_WHEELS_CHROME_DECADENT_DISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20675,7 +20675,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = -1259976497;
+			uParam1->f_5 = joaat("BENNYS_BESPOKE_WHEELS_GOLD_DECADENT_DISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20684,7 +20684,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 189438753;
+			uParam1->f_5 = joaat("BENNYS_BESPOKE_WHEELS_CHROME_RAZOR_STYLE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20693,7 +20693,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 1910275663;
+			uParam1->f_5 = joaat("BENNYS_BESPOKE_WHEELS_GOLD_RAZOR_STYLE");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20702,7 +20702,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = -497136012;
+			uParam1->f_5 = joaat("BENNYS_BESPOKE_WHEELS_CHROME_CELTIC_KNOT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20711,7 +20711,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 1670170118;
+			uParam1->f_5 = joaat("BENNYS_BESPOKE_WHEELS_GOLD_CELTIC_KNOT");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20720,7 +20720,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 470206542;
+			uParam1->f_5 = joaat("BENNYS_BESPOKE_WHEELS_CHROME_WARRIOR_DISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20729,7 +20729,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 1125064346;
+			uParam1->f_5 = joaat("BENNYS_BESPOKE_WHEELS_GOLD_WARRIOR_DISH");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -20738,7 +20738,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 613457149;
+			uParam1->f_5 = joaat("BENNYS_BESPOKE_WHEELS_GOLD_BIG_DOG_SPOKES");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -21323,7 +21323,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 1625000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1625000;
-			uParam1->f_5 = 419800513;
+			uParam1->f_5 = joaat("GANGOPS_THE_IAA_JOB_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -21332,7 +21332,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 2375000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2375000;
-			uParam1->f_5 = -829097151;
+			uParam1->f_5 = joaat("GANGOPS_THE_SUBMARINE_JOB_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
@@ -21341,7 +21341,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = 287993374;
+			uParam1->f_5 = joaat("GANGOPS_THE_MISSILE_SILO_JOB_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 	}

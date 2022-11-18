@@ -8128,7 +8128,7 @@ int func_336(int iParam0, char* sParam1)
 		case -1075435881:
 		case 1028923773:
 		case 999169521:
-		case 1239258034:
+		case joaat(" "):
 		case joaat("a"):
 		case joaat("b"):
 		case joaat("c"):
@@ -8274,7 +8274,7 @@ int func_336(int iParam0, char* sParam1)
 		case -1075435881:
 		case 1028923773:
 		case 999169521:
-		case 1239258034:
+		case joaat(" "):
 		case joaat("a"):
 		case joaat("b"):
 		case joaat("c"):

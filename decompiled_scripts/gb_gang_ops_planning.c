@@ -28451,21 +28451,21 @@ int func_789(int iParam0, bool bParam1)
 		switch (iParam0)
 		{
 			case 21:
-				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_Global"), -1535523991, &iVar0))
+				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_Global"), joaat("HEIST_PACIFIC_STANDARD_JOB_CASH_REWARD"), &iVar0))
 				{
 					return iVar0;
 				}
 				return Global_262145.f_9131;
 			
 			case 22:
-				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_Global"), -1697146966, &iVar0))
+				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_Global"), joaat("HEIST_PRISON_BREAK_CASH_REWARD"), &iVar0))
 				{
 					return iVar0;
 				}
 				return Global_262145.f_9128;
 			
 			case 23:
-				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_Global"), -478542030, &iVar0))
+				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_Global"), joaat("HEIST_HUMANE_LABS_RAID_CASH_REWARD"), &iVar0))
 				{
 					return iVar0;
 				}
@@ -28479,28 +28479,28 @@ int func_789(int iParam0, bool bParam1)
 				return Global_262145.f_9130;
 			
 			case 25:
-				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_Global"), -736791602, &iVar0))
+				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_Global"), joaat("HEIST_FLEECA_JOB_CASH_REWARD"), &iVar0))
 				{
 					return iVar0;
 				}
 				return Global_262145.f_9127;
 			
 			case 26:
-				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_Global"), 419800513, &iVar0))
+				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_Global"), joaat("GANGOPS_THE_IAA_JOB_CASH_REWARD"), &iVar0))
 				{
 					return iVar0;
 				}
 				return Global_262145.f_9132;
 			
 			case 27:
-				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_Global"), -829097151, &iVar0))
+				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_Global"), joaat("GANGOPS_THE_SUBMARINE_JOB_CASH_REWARD"), &iVar0))
 				{
 					return iVar0;
 				}
 				return Global_262145.f_9133;
 			
 			case 28:
-				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_Global"), 287993374, &iVar0))
+				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_Global"), joaat("GANGOPS_THE_MISSILE_SILO_JOB_CASH_REWARD"), &iVar0))
 				{
 					return iVar0;
 				}

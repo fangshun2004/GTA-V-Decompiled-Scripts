@@ -96025,7 +96025,7 @@ void func_866(int iParam0, int iParam1)
 	Global_262145.f_8725 = 0;
 	Global_262145.f_8726 = 0;
 	func_870(iParam0, iParam1, joaat("CASH_REWARD_BET_STAKE_GIFT"), &(Global_262145.f_8728), 1);
-	func_870(iParam0, iParam1, -228877647, &(Global_262145.f_8729), 1);
+	func_870(iParam0, iParam1, joaat("ARMOUR_REWARD_GIFT"), &(Global_262145.f_8729), 1);
 	func_867(iParam0, iParam1, joaat("toggle_on_bet_stake_gift_DM"), &(Global_262145.f_8718), 1);
 	func_867(iParam0, iParam1, joaat("toggle_on_bet_stake_gift_RACES_CAR"), &(Global_262145.f_8719), 1);
 	func_867(iParam0, iParam1, joaat("toggle_on_bet_stake_gift_RACES_CYCLE"), &(Global_262145.f_8720), 1);
@@ -96035,7 +96035,7 @@ void func_866(int iParam0, int iParam1)
 	func_867(iParam0, iParam1, joaat("toggle_on_bet_stake_gift_SURVIAL"), &(Global_262145.f_8724), 1);
 	func_867(iParam0, iParam1, joaat("toggle_on_bet_stake_gift_BASEJUMP"), &(Global_262145.f_8725), 1);
 	func_867(iParam0, iParam1, joaat("toggle_on_bet_stake_gift_CAPTURE"), &(Global_262145.f_8726), 1);
-	func_867(iParam0, iParam1, -585916570, &(Global_262145.f_8572), 1);
+	func_867(iParam0, iParam1, joaat("DISABLE_MODIFIER_BADGES"), &(Global_262145.f_8572), 1);
 	func_867(iParam0, iParam1, joaat("toggle_on_bet_stake_gift_LTS"), &(Global_262145.f_8727), 1);
 	func_867(iParam0, iParam1, joaat("PLAYLIST_EVENT_GIFT_ACTIVE"), &(Global_262145.f_7123), 1);
 }

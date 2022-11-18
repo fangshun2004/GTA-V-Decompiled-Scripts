@@ -57710,31 +57710,31 @@ int func_512(int iParam0)
 			return 8;
 			break;
 		
-		case -1518694851:
+		case joaat("HORN_CNOTE_C0"):
 			return 9;
 			break;
 		
-		case 685937731:
+		case joaat("HORN_CNOTE_D0"):
 			return 10;
 			break;
 		
-		case 1107182854:
+		case joaat("HORN_CNOTE_E0"):
 			return 11;
 			break;
 		
-		case 1795528252:
+		case joaat("HORN_CNOTE_F0"):
 			return 12;
 			break;
 		
-		case 963431690:
+		case joaat("HORN_CNOTE_G0"):
 			return 13;
 			break;
 		
-		case 7683469:
+		case joaat("HORN_CNOTE_A0"):
 			return 14;
 			break;
 		
-		case -1485567420:
+		case joaat("HORN_CNOTE_B0"):
 			return 15;
 			break;
 		
