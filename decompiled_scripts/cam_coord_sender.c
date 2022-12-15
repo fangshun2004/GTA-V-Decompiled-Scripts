@@ -19,7 +19,7 @@
 	int iLocal_17 = 0;
 #endregion
 
-void __EntryFunction__()
+void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
 {
 	iLocal_2 = 1;
 	iLocal_3 = 134;
@@ -33,13 +33,15 @@ void __EntryFunction__()
 	iLocal_11 = 12;
 	fLocal_14 = 0.001f;
 	iLocal_17 = -1;
+
 	if (!PED::IS_PED_INJURED(PLAYER::PLAYER_PED_ID()))
-	{
 		ENTITY::SET_ENTITY_INVINCIBLE(PLAYER::PLAYER_PED_ID(), true);
-	}
+
 	while (true)
 	{
 		SYSTEM::WAIT(0);
 	}
+
+	return;
 }
 

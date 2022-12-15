@@ -18,7 +18,7 @@
 	var uLocal_16 = 0;
 	var uLocal_17 = 0;
 	int iLocal_18 = 0;
-	char* sLocal_19 = NULL;
+	char* sLocal_19 = 0;
 	var uLocal_20 = 0;
 	var uLocal_21 = 0;
 	var uLocal_22 = 0;
@@ -67,7 +67,7 @@
 	var uLocal_65 = 0;
 #endregion
 
-void __EntryFunction__()
+void main() // Position - 0x0 Hash - 0x17B4681A ^0x17B4681A
 {
 	iLocal_0 = 3;
 	iLocal_3 = 1;
@@ -93,6 +93,7 @@ void __EntryFunction__()
 	iLocal_41 = 65;
 	iLocal_42 = 49;
 	iLocal_43 = 64;
-	fLocal_62 = ((0.05f + 0.275f) - 0.01f);
+	fLocal_62 = (0.05f + 0.275f) - 0.01f;
+	return;
 }
 

@@ -22,7 +22,7 @@
 	var uLocal_20 = 0;
 #endregion
 
-void __EntryFunction__()
+void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
 {
 	iLocal_2 = 1;
 	iLocal_3 = 134;
@@ -36,9 +36,10 @@ void __EntryFunction__()
 	iLocal_11 = 12;
 	fLocal_14 = 0.001f;
 	iLocal_17 = -1;
+
 	if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(34))
-	{
 		SCRIPT::TERMINATE_THIS_THREAD();
-	}
+
+	return;
 }
 

@@ -17,12 +17,20 @@
 	var uLocal_15 = 0;
 	var uLocal_16 = 0;
 	int iLocal_17 = 0;
-	int iLocal_18 = 0;
-	struct<3> Local_19[2];
-	float fLocal_26[2] = { 0f, 0f };
+	Vehicle veLocal_18 = 0;
+	var uLocal_19 = 2;
+	var uLocal_20 = 0;
+	var uLocal_21 = 0;
+	var uLocal_22 = 0;
+	var uLocal_23 = 0;
+	var uLocal_24 = 0;
+	var uLocal_25 = 0;
+	var uLocal_26 = 2;
+	var uLocal_27 = 0;
+	var uLocal_28 = 0;
 #endregion
 
-void __EntryFunction__()
+void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
 {
 	iLocal_2 = 1;
 	iLocal_3 = 134;
@@ -36,50 +44,53 @@ void __EntryFunction__()
 	iLocal_11 = 12;
 	fLocal_14 = 0.001f;
 	iLocal_17 = -1;
+
 	if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(3))
-	{
 		func_1();
-	}
+
 	MISC::SET_MISSION_FLAG(true);
-	STREAMING::REQUEST_MODEL(joaat("cuban800"));
-	while (!STREAMING::HAS_MODEL_LOADED(joaat("cuban800")))
+	STREAMING::REQUEST_MODEL(-644710429);
+
+	while (!STREAMING::HAS_MODEL_LOADED(-644710429))
 	{
 		SYSTEM::WAIT(0);
 	}
-	Local_19[0 /*3*/] = { 1169.976f, 3592.572f, 32.6481f };
-	Local_19[1 /*3*/] = { 1215.738f, 3586.608f, 33.5131f };
-	fLocal_26[0] = 277.7043f;
-	fLocal_26[1] = 77.1113f;
+
+	uLocal_19[0 /*3*/] = { 1169.9758f, 3592.5715f, 32.6481f };
+	uLocal_19[1 /*3*/] = { 1215.738f, 3586.6077f, 33.5131f };
+	uLocal_26[0] = 277.7043f;
+	uLocal_26[1] = 77.1113f;
+
 	if (!ENTITY::IS_ENTITY_DEAD(PLAYER::PLAYER_PED_ID(), false))
-	{
-		ENTITY::SET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), 1220.202f, 3596.281f, 33.259f, true, false, false, true);
-	}
-	STREAMING::LOAD_SCENE(1220.202f, 3596.281f, 33.259f);
-	iLocal_18 = VEHICLE::CREATE_VEHICLE(joaat("cuban800"), Local_19[0 /*3*/], fLocal_26[0], true, true, false);
-	VEHICLE::SET_VEHICLE_ON_GROUND_PROPERLY(iLocal_18, 5f);
-	STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(joaat("cuban800"));
+		ENTITY::SET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), 1220.2024f, 3596.2805f, 33.259f, true, false, false, true);
+
+	STREAMING::LOAD_SCENE(1220.2024f, 3596.2805f, 33.259f);
+	veLocal_18 = VEHICLE::CREATE_VEHICLE(-644710429, uLocal_19[0 /*3*/], uLocal_26[0], true, true, false);
+	VEHICLE::SET_VEHICLE_ON_GROUND_PROPERLY(veLocal_18, 1084227584);
+	STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(-644710429);
+
 	if (!ENTITY::IS_ENTITY_DEAD(PLAYER::PLAYER_PED_ID(), false))
-	{
-		PED::SET_PED_INTO_VEHICLE(PLAYER::PLAYER_PED_ID(), iLocal_18, -1);
-	}
+		PED::SET_PED_INTO_VEHICLE(PLAYER::PLAYER_PED_ID(), veLocal_18, -1);
+
 	while (true)
 	{
 		func_1();
 		SYSTEM::WAIT(0);
 	}
+
+	return;
 }
 
-void func_1()
+void func_1() // Position - 0x136 Hash - 0x943CFC05 ^0xF17B05FB
 {
 	if (!ENTITY::IS_ENTITY_DEAD(PLAYER::PLAYER_PED_ID(), false))
-	{
 		TASK::CLEAR_PED_TASKS_IMMEDIATELY(PLAYER::PLAYER_PED_ID());
-	}
-	if (ENTITY::DOES_ENTITY_EXIST(iLocal_18))
-	{
-		VEHICLE::DELETE_VEHICLE(&iLocal_18);
-	}
-	STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(joaat("cuban800"));
+
+	if (ENTITY::DOES_ENTITY_EXIST(veLocal_18))
+		VEHICLE::DELETE_VEHICLE(&veLocal_18);
+
+	STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(-644710429);
 	SCRIPT::TERMINATE_THIS_THREAD();
+	return;
 }
 

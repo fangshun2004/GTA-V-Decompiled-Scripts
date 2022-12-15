@@ -19,7 +19,7 @@
 	int iLocal_17 = 0;
 	var uLocal_18 = 0;
 	var uLocal_19 = 0;
-	char* sLocal_20 = NULL;
+	char* sLocal_20 = 0;
 	float fLocal_21 = 0f;
 	var uLocal_22 = 0;
 	var uLocal_23 = 0;
@@ -46,10 +46,10 @@
 	var uLocal_44 = 0;
 #endregion
 
-void __EntryFunction__()
+void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
 {
-	int iVar0;
-	
+	Ped playerPed;
+
 	iLocal_2 = 1;
 	iLocal_3 = 134;
 	iLocal_4 = 134;
@@ -74,22 +74,25 @@ void __EntryFunction__()
 	iLocal_40 = 65;
 	iLocal_41 = 49;
 	iLocal_42 = 64;
-	iVar0 = PLAYER::GET_PLAYER_PED(PLAYER::GET_PLAYER_INDEX());
-	if (!ENTITY::IS_ENTITY_DEAD(iVar0, false))
+	playerPed = PLAYER::GET_PLAYER_PED(PLAYER::GET_PLAYER_INDEX());
+
+	if (!ENTITY::IS_ENTITY_DEAD(playerPed, false))
 	{
-		ENTITY::SET_ENTITY_COORDS(iVar0, 2119.159f, 4813.522f, 40.2223f, true, false, false, true);
-		ENTITY::SET_ENTITY_HEADING(iVar0, 225.2837f);
+		ENTITY::SET_ENTITY_COORDS(playerPed, 2119.1587f, 4813.5225f, 40.2223f, true, false, false, true);
+		ENTITY::SET_ENTITY_HEADING(playerPed, 225.2837f);
 	}
+
 	func_1(19, 0);
+	return;
 }
 
-void func_1(int iParam0, int iParam1)
+void func_1(int iParam0, int iParam1) // Position - 0xB1 Hash - 0xEFDF2B54 ^0x1CE7BA3B
 {
 	if (iParam0 == 235 || iParam0 == 0)
-	{
 		return;
-	}
-	Global_113386.f_8613[iParam0] = 1;
-	Global_113386.f_8613.f_236[iParam0] = (MISC::GET_GAME_TIMER() + iParam1);
+
+	Global_113648.f_8615[iParam0] = 1;
+	Global_113648.f_8615.f_236[iParam0] = MISC::GET_GAME_TIMER() + iParam1;
+	return;
 }
 

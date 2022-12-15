@@ -19,11 +19,11 @@
 	int iLocal_17 = 0;
 #endregion
 
-void __EntryFunction__()
+void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
 {
-	int iVar0;
-	bool bVar1;
-	
+	int gameTimer;
+	BOOL flag;
+
 	iLocal_2 = 1;
 	iLocal_3 = 134;
 	iLocal_4 = 134;
@@ -36,15 +36,15 @@ void __EntryFunction__()
 	iLocal_11 = 12;
 	fLocal_14 = 0.001f;
 	iLocal_17 = -1;
-	iVar0 = -1;
-	bVar1 = false;
+	gameTimer = -1;
+	flag = false;
+
 	if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(3))
-	{
 		func_5();
-	}
+
 	while (true)
 	{
-		if (!bVar1)
+		if (!flag)
 		{
 			switch (func_1(PLAYER::PLAYER_PED_ID()))
 			{
@@ -52,85 +52,85 @@ void __EntryFunction__()
 					if (AUDIO::LOAD_STREAM("MISSION_COMPLETE_FRANKLIN_SMALL", 0))
 					{
 						AUDIO::PLAY_STREAM_FRONTEND();
-						bVar1 = true;
+						flag = true;
 					}
 					break;
-				
+			
 				case 2:
 					if (AUDIO::LOAD_STREAM("MISSION_COMPLETE_TREVOR_SMALL", 0))
 					{
 						AUDIO::PLAY_STREAM_FRONTEND();
-						bVar1 = true;
+						flag = true;
 					}
 					break;
-				
+			
 				default:
 					if (AUDIO::LOAD_STREAM("MISSION_COMPLETE_MICHAEL_SMALL", 0))
 					{
 						AUDIO::PLAY_STREAM_FRONTEND();
-						bVar1 = true;
+						flag = true;
 					}
 					break;
 			}
 		}
-		else if (iVar0 == -1)
+		else if (gameTimer == -1)
 		{
-			iVar0 = MISC::GET_GAME_TIMER();
+			gameTimer = MISC::GET_GAME_TIMER();
 		}
-		else if (MISC::GET_GAME_TIMER() > iVar0 + 8000)
+		else if (MISC::GET_GAME_TIMER() > gameTimer + 8000)
 		{
 			func_5();
 		}
+	
 		SYSTEM::WAIT(0);
 	}
+
+	return;
 }
 
-int func_1(int iParam0)
+int func_1(Ped pedParam0) // Position - 0xD2 Hash - 0xAC4E9801 ^0xB379A75F
 {
-	int iVar0;
-	int iVar1;
-	
-	if (ENTITY::DOES_ENTITY_EXIST(iParam0))
+	int i;
+	Hash entityModel;
+
+	if (ENTITY::DOES_ENTITY_EXIST(pedParam0))
 	{
-		iVar1 = ENTITY::GET_ENTITY_MODEL(iParam0);
-		iVar0 = 0;
-		while (iVar0 <= 2)
+		entityModel = ENTITY::GET_ENTITY_MODEL(pedParam0);
+	
+		for (i = 0; i <= 2; i = i + 1)
 		{
-			if (func_2(iVar0) == iVar1)
-			{
-				return iVar0;
-			}
-			iVar0++;
+			if (func_2(i) == entityModel)
+				return i;
 		}
 	}
+
 	return 145;
 }
 
-int func_2(int iParam0)
+Hash func_2(int iParam0) // Position - 0x10F Hash - 0xADCB9755 ^0xADCB9755
 {
 	if (func_4(iParam0))
-	{
 		return func_3(iParam0);
-	}
-	else if (iParam0 != 145)
-	{
-	}
+	else
+		iParam0 != 145;
+
 	return 0;
 }
 
-var func_3(int iParam0)
+Hash func_3(int iParam0) // Position - 0x134 Hash - 0xE4CEEC2C ^0xE4CEEC2C
 {
-	return Global_1998[iParam0 /*29*/];
+	return Global_2028[iParam0 /*29*/];
 }
 
-bool func_4(int iParam0)
+BOOL func_4(int iParam0) // Position - 0x143 Hash - 0x8907F004 ^0x8907F004
 {
 	return iParam0 < 3;
 }
 
-void func_5()
+void func_5() // Position - 0x14F Hash - 0x96997D50 ^0xB102C97B
 {
 	AUDIO::STOP_STREAM();
 	SCRIPT::TERMINATE_THIS_THREAD();
+	return;
 }
 
