@@ -285,7 +285,7 @@
 	BOOL bLocal_283 = 0;
 #endregion
 
-void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
+void main() // Hash - 0x5D84F89F ^0x5D84F89F
 {
 	iLocal_2 = 1;
 	iLocal_3 = 134;
@@ -321,7 +321,7 @@ void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
 	return;
 }
 
-void func_1() // Position - 0x87 Hash - 0x9DA0233D ^0x9DA0233D
+void func_1() // Hash - 0x9DA0233D ^0x9DA0233D
 {
 	if (!bLocal_276)
 	{
@@ -359,15 +359,15 @@ void func_1() // Position - 0x87 Hash - 0x9DA0233D ^0x9DA0233D
 	return;
 }
 
-void func_2() // Position - 0xE5 Hash - 0x7EADEB77 ^0x208E6BE5
+void func_2() // Hash - 0x7EADEB77 ^0x208E6BE5
 {
 	if (func_9())
-		func_3(0, 1311775952, 156.24f, 0f, 71.2f, true, true);
+		func_3(0, joaat("PICKUP_WEAPON_HATCHET"), 156.24f, 0f, 71.2f, true, true);
 
 	return;
 }
 
-void func_3(int iParam0, Hash hParam1, float fParam2, float fParam3, float fParam4, BOOL bParam5, BOOL bParam6) // Position - 0x10B Hash - 0xC2B672FE ^0x851464
+void func_3(int iParam0, Hash hParam1, float fParam2, float fParam3, float fParam4, BOOL bParam5, BOOL bParam6) // Hash - 0xC2B672FE ^0x851464
 {
 	int address;
 
@@ -386,7 +386,7 @@ void func_3(int iParam0, Hash hParam1, float fParam2, float fParam3, float fPara
 	return;
 }
 
-Vector3 func_4(int iParam0) // Position - 0x168 Hash - 0xAFF7D00F ^0xAFF7D00F
+Vector3 func_4(int iParam0) // Hash - 0xAFF7D00F ^0xAFF7D00F
 {
 	switch (iParam0)
 	{
@@ -397,7 +397,7 @@ Vector3 func_4(int iParam0) // Position - 0x168 Hash - 0xAFF7D00F ^0xAFF7D00F
 	return 0f, 0f, 0f;
 }
 
-BOOL func_5(int iParam0) // Position - 0x195 Hash - 0x35F9F9C ^0x35F9F9C
+BOOL func_5(int iParam0) // Hash - 0x35F9F9C ^0x35F9F9C
 {
 	if (iParam0 == 94 || iParam0 == -1)
 		return false;
@@ -405,15 +405,15 @@ BOOL func_5(int iParam0) // Position - 0x195 Hash - 0x35F9F9C ^0x35F9F9C
 	return Global_113648.f_9087.f_330[iParam0 /*6*/];
 }
 
-void func_6() // Position - 0x1C1 Hash - 0x7EADEB77 ^0xE39A50A2
+void func_6() // Hash - 0x7EADEB77 ^0xE39A50A2
 {
 	if (func_9())
-		func_7(0, -462548556, 156.24f, 0f, 166.2f, true, true);
+		func_7(0, joaat("PICKUP_WEAPON_RAILGUN"), 156.24f, 0f, 166.2f, true, true);
 
 	return;
 }
 
-void func_7(int iParam0, Hash hParam1, float fParam2, float fParam3, float fParam4, BOOL bParam5, BOOL bParam6) // Position - 0x1E7 Hash - 0xC2B672FE ^0x851464
+void func_7(int iParam0, Hash hParam1, float fParam2, float fParam3, float fParam4, BOOL bParam5, BOOL bParam6) // Hash - 0xC2B672FE ^0x851464
 {
 	int address;
 
@@ -432,7 +432,7 @@ void func_7(int iParam0, Hash hParam1, float fParam2, float fParam3, float fPara
 	return;
 }
 
-Vector3 func_8(int iParam0) // Position - 0x244 Hash - 0xAFF7D00F ^0xAFF7D00F
+Vector3 func_8(int iParam0) // Hash - 0xAFF7D00F ^0xAFF7D00F
 {
 	switch (iParam0)
 	{
@@ -443,7 +443,7 @@ Vector3 func_8(int iParam0) // Position - 0x244 Hash - 0xAFF7D00F ^0xAFF7D00F
 	return 0f, 0f, 0f;
 }
 
-BOOL func_9() // Position - 0x271 Hash - 0x44DD83CC ^0x6D2C8335
+BOOL func_9() // Hash - 0x44DD83CC ^0x7B62A376
 {
 	int profileSetting;
 
@@ -452,20 +452,20 @@ BOOL func_9() // Position - 0x271 Hash - 0x44DD83CC ^0x6D2C8335
 	else if (Global_152523 == 3)
 		return false;
 
-	if (NETWORK::NETWORK_HAS_VALID_ROS_CREDENTIALS())
+	if (NETWORK::NETWORK_IS_SIGNED_IN())
 	{
-		if (unk_0x8BD41D5945F5762B())
+		if (NETWORK::NETWORK_HAS_VALID_ROS_CREDENTIALS())
 		{
 			if (NETWORK::NETWORK_HAS_ROS_PRIVILEGE_PLAYED_LAST_GEN())
 			{
-				STATS::STAT_GET_INT(1571103992, &profileSetting, -1);
+				STATS::STAT_GET_INT(joaat("SP_UNLOCK_EXCLUS_CONTENT"), &profileSetting, -1);
 				MISC::SET_BIT(&profileSetting, 2);
 				MISC::SET_BIT(&profileSetting, 4);
 				MISC::SET_BIT(&profileSetting, 6);
 				MISC::SET_BIT(&Global_25, 2);
 				MISC::SET_BIT(&Global_25, 4);
 				MISC::SET_BIT(&Global_25, 6);
-				STATS::STAT_SET_INT(1571103992, profileSetting, true);
+				STATS::STAT_SET_INT(joaat("SP_UNLOCK_EXCLUS_CONTENT"), profileSetting, true);
 			
 				if (MISC::ARE_PROFILE_SETTINGS_VALID())
 				{
@@ -486,27 +486,27 @@ BOOL func_9() // Position - 0x271 Hash - 0x44DD83CC ^0x6D2C8335
 	return false;
 }
 
-void func_10() // Position - 0x329 Hash - 0x776BA021 ^0x8517AB1E
+void func_10() // Hash - 0x776BA021 ^0x8517AB1E
 {
-	func_11(0, 779501861, 156.24f, 0f, 25.2f, true, true);
-	func_11(1, 1295434569, -92.68f, 62.64f, -264.24f, true, true);
-	func_11(2, -1298986476, -70f, 0f, -40f, true, true);
-	func_11(3, 1274757841, -71f, 0f, 168.48f, true, true);
-	func_11(4, 996550793, -100.8f, 92.8f, 0f, true, true);
-	func_11(5, -1456120371, 77.76f, 10.08f, -17.28f, true, true);
-	func_11(6, -30788308, 97.92f, 0f, 100.8f, true, true);
-	func_11(7, 2081529176, 0f, 0f, 0f, true, true);
-	func_11(8, 2081529176, 0f, 0f, 0f, true, true);
+	func_11(0, joaat("PICKUP_WEAPON_GRENADELAUNCHER"), 156.24f, 0f, 25.2f, true, true);
+	func_11(1, joaat("PICKUP_WEAPON_RPG"), -92.68f, 62.64f, -264.24f, true, true);
+	func_11(2, joaat("PICKUP_WEAPON_COMBATMG"), -70f, 0f, -40f, true, true);
+	func_11(3, joaat("PICKUP_ARMOUR_STANDARD"), -71f, 0f, 168.48f, true, true);
+	func_11(4, joaat("PICKUP_WEAPON_APPISTOL"), -100.8f, 92.8f, 0f, true, true);
+	func_11(5, joaat("PICKUP_WEAPON_PUMPSHOTGUN"), 77.76f, 10.08f, -17.28f, true, true);
+	func_11(6, joaat("PICKUP_WEAPON_SNIPERRIFLE"), 97.92f, 0f, 100.8f, true, true);
+	func_11(7, joaat("PICKUP_WEAPON_STICKYBOMB"), 0f, 0f, 0f, true, true);
+	func_11(8, joaat("PICKUP_WEAPON_STICKYBOMB"), 0f, 0f, 0f, true, true);
 	return;
 }
 
-void func_11(int iParam0, Hash hParam1, float fParam2, float fParam3, float fParam4, BOOL bParam5, BOOL bParam6) // Position - 0x3F9 Hash - 0xC11DCB6B ^0x22FCA86F
+void func_11(int iParam0, Hash hParam1, float fParam2, float fParam3, float fParam4, BOOL bParam5, BOOL bParam6) // Hash - 0xC11DCB6B ^0x22FCA86F
 {
 	int address;
 
 	address = 0;
 
-	if (hParam1 == 1274757841)
+	if (hParam1 == joaat("PICKUP_ARMOUR_STANDARD"))
 	{
 		MISC::SET_BIT(&address, 2);
 		MISC::SET_BIT(&address, 4);
@@ -532,7 +532,7 @@ void func_11(int iParam0, Hash hParam1, float fParam2, float fParam3, float fPar
 	return;
 }
 
-Vector3 func_12(int iParam0) // Position - 0x484 Hash - 0xCBED323 ^0xCBED323
+Vector3 func_12(int iParam0) // Hash - 0xCBED323 ^0xCBED323
 {
 	switch (iParam0)
 	{
@@ -567,7 +567,7 @@ Vector3 func_12(int iParam0) // Position - 0x484 Hash - 0xCBED323 ^0xCBED323
 	return 0f, 0f, 0f;
 }
 
-BOOL func_13(int iParam0) // Position - 0x589 Hash - 0xB6246282 ^0x2350A449
+BOOL func_13(int iParam0) // Hash - 0xB6246282 ^0x2350A449
 {
 	if (iParam0 == 146 || iParam0 == -1)
 		return false;
@@ -575,7 +575,7 @@ BOOL func_13(int iParam0) // Position - 0x589 Hash - 0xB6246282 ^0x2350A449
 	return Global_113648.f_9087.f_99.f_58[iParam0];
 }
 
-void func_14() // Position - 0x5B6 Hash - 0x53673223 ^0xED94A966
+void func_14() // Hash - 0x53673223 ^0xED94A966
 {
 	switch (Global_32408)
 	{
@@ -627,7 +627,7 @@ void func_14() // Position - 0x5B6 Hash - 0x53673223 ^0xED94A966
 	return;
 }
 
-void func_15() // Position - 0x6A5 Hash - 0xD4516DEC ^0xD4516DEC
+void func_15() // Hash - 0xD4516DEC ^0xD4516DEC
 {
 	func_22();
 	func_21();
@@ -647,7 +647,7 @@ void func_15() // Position - 0x6A5 Hash - 0xD4516DEC ^0xD4516DEC
 	return;
 }
 
-void func_16() // Position - 0x6DF Hash - 0xDBB621BF ^0x4DDA5A56
+void func_16() // Hash - 0xDBB621BF ^0x4DDA5A56
 {
 	int i;
 
@@ -661,7 +661,7 @@ void func_16() // Position - 0x6DF Hash - 0xDBB621BF ^0x4DDA5A56
 	return;
 }
 
-void func_17() // Position - 0x716 Hash - 0xDBB621BF ^0x4DDA5A56
+void func_17() // Hash - 0xDBB621BF ^0x4DDA5A56
 {
 	int i;
 
@@ -675,7 +675,7 @@ void func_17() // Position - 0x716 Hash - 0xDBB621BF ^0x4DDA5A56
 	return;
 }
 
-void func_18() // Position - 0x74D Hash - 0xE0A39898 ^0xE2F2C2B6
+void func_18() // Hash - 0xE0A39898 ^0xE2F2C2B6
 {
 	int i;
 
@@ -689,7 +689,7 @@ void func_18() // Position - 0x74D Hash - 0xE0A39898 ^0xE2F2C2B6
 	return;
 }
 
-void func_19() // Position - 0x785 Hash - 0xBCA13078 ^0xEB23F48F
+void func_19() // Hash - 0xBCA13078 ^0xEB23F48F
 {
 	int i;
 
@@ -702,7 +702,7 @@ void func_19() // Position - 0x785 Hash - 0xBCA13078 ^0xEB23F48F
 	return;
 }
 
-void func_20() // Position - 0x7B7 Hash - 0xB68467C1 ^0x8CAAA87F
+void func_20() // Hash - 0xB68467C1 ^0x8CAAA87F
 {
 	int i;
 
@@ -715,7 +715,7 @@ void func_20() // Position - 0x7B7 Hash - 0xB68467C1 ^0x8CAAA87F
 	return;
 }
 
-void func_21() // Position - 0x7E9 Hash - 0xB3E7063B ^0xB71F39D9
+void func_21() // Hash - 0xB3E7063B ^0xB71F39D9
 {
 	int i;
 
@@ -728,7 +728,7 @@ void func_21() // Position - 0x7E9 Hash - 0xB3E7063B ^0xB71F39D9
 	return;
 }
 
-void func_22() // Position - 0x81B Hash - 0xAE8EBE45 ^0x6E4647EC
+void func_22() // Hash - 0xAE8EBE45 ^0x6E4647EC
 {
 	int i;
 
@@ -741,12 +741,12 @@ void func_22() // Position - 0x81B Hash - 0xAE8EBE45 ^0x6E4647EC
 	return;
 }
 
-BOOL func_23(int iParam0) // Position - 0x84D Hash - 0x937D8816 ^0x937D8816
+BOOL func_23(int iParam0) // Hash - 0x937D8816 ^0x937D8816
 {
 	return Global_43257 == iParam0;
 }
 
-void func_24() // Position - 0x85B Hash - 0xEE20D92C ^0xEE20D92C
+void func_24() // Hash - 0xEE20D92C ^0xEE20D92C
 {
 	func_36();
 	func_33();
@@ -756,114 +756,114 @@ void func_24() // Position - 0x85B Hash - 0xEE20D92C ^0xEE20D92C
 	return;
 }
 
-void func_25() // Position - 0x877 Hash - 0x8CE48A53 ^0x6225F842
+void func_25() // Hash - 0x8CE48A53 ^0x6225F842
 {
-	func_26(0, -214137936, 90f, 0f, 70f, false, false, true);
-	func_26(1, -214137936, 90f, 0f, 0f, false, false, true);
-	func_26(2, -214137936, 0f, 0f, 0f, true, false, true);
-	func_26(3, -214137936, 0f, 0f, 0f, true, false, true);
-	func_26(4, -214137936, 0f, 0f, 0f, true, false, true);
-	func_26(5, -214137936, 0f, 0f, 0f, true, false, true);
-	func_26(6, 1577485217, 0f, 0f, 0f, true, false, true);
-	func_26(7, 1577485217, 0f, 0f, 0f, true, false, true);
-	func_26(8, 1577485217, 95f, 0f, 0f, false, false, true);
-	func_26(9, 1577485217, 0f, 0f, 0f, true, false, true);
-	func_26(10, 779501861, 0f, 0f, 0f, true, false, true);
-	func_26(11, 779501861, 118f, 0f, 92f, false, false, false);
-	func_26(12, 779501861, 82f, -60f, 0f, false, false, false);
-	func_26(13, 792114228, 0f, 0f, 0f, true, true, true);
-	func_26(14, -2050315855, 0f, 0f, 0f, true, false, true);
-	func_26(15, -2050315855, 97.92f, 60.48f, 0f, false, false, true);
-	func_26(16, -2050315855, 0f, 0f, 0f, true, false, true);
-	func_26(17, -2050315855, 0f, 0f, 0f, true, false, true);
-	func_26(18, -105925489, 0f, 0f, 0f, true, false, true);
-	func_26(19, -105925489, 0f, 0f, 0f, true, false, true);
-	func_26(20, -105925489, 0f, 0f, 0f, true, false, true);
-	func_26(21, -105925489, 0f, 0f, 0f, true, false, true);
-	func_26(22, -105925489, 0f, 0f, 0f, true, false, true);
-	func_26(23, -105925489, 0f, 0f, 0f, true, false, true);
-	func_26(24, -105925489, 0f, 0f, 0f, true, false, true);
-	func_26(25, -105925489, 0f, 0f, 0f, true, false, true);
-	func_26(26, -105925489, 0f, 0f, 0f, true, false, true);
-	func_26(27, -105925489, 0f, 0f, 36f, true, false, true);
-	func_26(28, 1295434569, 86f, 0f, 0f, true, false, true);
-	func_26(29, 1295434569, 0f, 0f, 0f, true, false, true);
-	func_26(30, 1295434569, 0f, 0f, 0f, true, false, true);
-	func_26(31, -1766583645, -82f, 0f, 0f, false, false, true);
-	func_26(32, -1766583645, 0f, 0f, 24f, true, false, true);
-	func_26(33, -1766583645, 0f, 0f, 12f, true, false, true);
-	func_26(34, -1766583645, 0f, 0f, 98f, true, false, true);
-	func_26(35, -1766583645, 90f, 0f, 140f, true, false, true);
-	func_26(36, -1766583645, 90f, 0f, 120f, false, false, true);
-	func_26(37, 978070226, 0f, 0f, 0f, true, false, true);
-	func_26(38, 978070226, 85.68f, -92.88f, 0f, false, false, true);
-	func_26(39, 978070226, 0f, 0f, 0f, true, false, true);
-	func_26(40, 978070226, 0f, 0f, 20f, true, false, true);
-	func_26(41, 978070226, 0f, 0f, 0f, true, false, true);
-	func_26(42, 978070226, 0f, 0f, 0f, true, true, true);
-	func_26(43, -30788308, 0f, 0f, 42f, true, false, true);
-	func_26(44, -30788308, 0f, 0f, 52f, true, false, true);
-	func_26(45, -30788308, 90f, 0f, 87f, true, false, true);
-	func_26(46, -30788308, 0f, 0f, 98f, true, false, true);
-	func_26(47, -30788308, 0f, 0f, 20f, true, false, true);
-	func_26(48, 2081529176, 0f, 0f, 0f, true, false, true);
-	func_26(49, 2081529176, 0f, 0f, 0f, true, false, true);
-	func_26(50, 1295434569, 63f, 0f, 0f, false, false, true);
-	func_26(51, -105925489, 0f, 0f, 4f, true, false, true);
-	func_26(52, -105925489, 90f, 90f, 90f, false, false, false);
-	func_26(53, -30788308, 0f, 0f, 2f, true, false, true);
-	func_26(54, -1766583645, 0f, 0f, 0f, true, false, true);
-	func_26(55, -2115084258, 90f, 0f, 4f, true, false, true);
-	func_26(56, -2115084258, 0f, 0f, 0f, true, false, true);
-	func_26(57, -2115084258, 0f, 0f, 0f, true, false, true);
-	func_26(58, -2115084258, 0f, 0f, 0f, true, false, true);
-	func_26(59, -2115084258, 0f, 0f, 0f, true, false, true);
-	func_26(60, -2115084258, 0f, 0f, 0f, true, false, true);
-	func_26(61, -2115084258, 0f, 0f, 0f, true, true, true);
-	func_26(62, -2115084258, 0f, 0f, 0f, true, false, true);
-	func_26(63, -2115084258, 0f, 0f, 0f, true, false, true);
-	func_26(64, -2115084258, 0f, 0f, 0f, true, true, true);
-	func_26(65, -2027042680, 0f, 0f, 0f, true, false, true);
-	func_26(66, -2027042680, 90f, 0f, 45f, false, false, true);
-	func_26(67, -2027042680, 0f, 0f, 0f, true, false, true);
-	func_26(68, -2027042680, 0f, 0f, 0f, true, false, true);
-	func_26(69, -2027042680, 0f, 0f, 0f, true, false, true);
-	func_26(70, -2027042680, 0f, 0f, 0f, true, false, true);
-	func_26(71, -2027042680, 0f, 0f, 0f, true, false, true);
-	func_26(72, -2027042680, 0f, 0f, 0f, true, false, true);
-	func_26(73, -2027042680, 0f, 0f, 0f, true, false, true);
-	func_26(74, -2027042680, 0f, 0f, 0f, true, false, true);
-	func_26(75, 768803961, 0f, 0f, 0f, true, false, true);
-	func_26(76, 768803961, 0f, 0f, 0f, true, false, true);
-	func_26(77, 768803961, 0f, 0f, 0f, true, false, true);
-	func_26(78, 768803961, 0f, 0f, 0f, true, false, true);
-	func_26(79, 768803961, 0f, 0f, 0f, true, false, true);
-	func_26(80, 768803961, 0f, 0f, 0f, true, false, true);
-	func_26(81, 768803961, 0f, 0f, 0f, true, false, true);
-	func_26(82, 768803961, 0f, 0f, 0f, true, false, true);
-	func_26(83, 768803961, 0f, 0f, 0f, true, false, true);
-	func_26(84, 768803961, 0f, 0f, 0f, true, false, true);
-	func_26(85, -2027042680, 0f, 0f, 0f, true, false, true);
-	func_26(86, -2115084258, 0f, 0f, 0f, true, false, true);
-	func_26(87, -2027042680, 0f, 0f, 0f, true, false, true);
-	func_26(88, -2027042680, 0f, 0f, 0f, true, false, true);
-	func_26(89, -2115084258, 0f, 0f, 0f, true, false, true);
-	func_26(90, -2027042680, 0f, 0f, 0f, true, false, true);
-	func_26(91, -2115084258, 0f, 0f, 0f, true, false, true);
-	func_26(92, -2027042680, 0f, 0f, 0f, true, false, true);
-	func_26(93, -2115084258, 0f, 0f, 0f, true, false, true);
-	func_26(94, -2027042680, 0f, 0f, 0f, true, false, true);
-	func_26(95, -546236071, 0f, 0f, 87f, true, false, true);
-	func_26(96, -1835415205, 0f, 0f, 0f, true, true, true);
-	func_26(97, -1835415205, 85.7f, 0f, 136f, false, false, false);
-	func_26(98, 1735599485, 10f, 0f, -90f, false, false, false);
-	func_26(99, -1456120371, -88f, 0f, 0f, false, false, false);
-	func_26(100, 1735599485, 11f, 0f, 28.16f, false, false, false);
-	func_26(101, -1766583645, 92.8f, 0f, 50.4f, false, false, false);
+	func_26(0, joaat("PICKUP_WEAPON_ASSAULTRIFLE"), 90f, 0f, 70f, false, false, true);
+	func_26(1, joaat("PICKUP_WEAPON_ASSAULTRIFLE"), 90f, 0f, 0f, false, false, true);
+	func_26(2, joaat("PICKUP_WEAPON_ASSAULTRIFLE"), 0f, 0f, 0f, true, false, true);
+	func_26(3, joaat("PICKUP_WEAPON_ASSAULTRIFLE"), 0f, 0f, 0f, true, false, true);
+	func_26(4, joaat("PICKUP_WEAPON_ASSAULTRIFLE"), 0f, 0f, 0f, true, false, true);
+	func_26(5, joaat("PICKUP_WEAPON_ASSAULTRIFLE"), 0f, 0f, 0f, true, false, true);
+	func_26(6, joaat("PICKUP_WEAPON_GRENADE"), 0f, 0f, 0f, true, false, true);
+	func_26(7, joaat("PICKUP_WEAPON_GRENADE"), 0f, 0f, 0f, true, false, true);
+	func_26(8, joaat("PICKUP_WEAPON_GRENADE"), 95f, 0f, 0f, false, false, true);
+	func_26(9, joaat("PICKUP_WEAPON_GRENADE"), 0f, 0f, 0f, true, false, true);
+	func_26(10, joaat("PICKUP_WEAPON_GRENADELAUNCHER"), 0f, 0f, 0f, true, false, true);
+	func_26(11, joaat("PICKUP_WEAPON_GRENADELAUNCHER"), 118f, 0f, 92f, false, false, false);
+	func_26(12, joaat("PICKUP_WEAPON_GRENADELAUNCHER"), 82f, -60f, 0f, false, false, false);
+	func_26(13, joaat("PICKUP_WEAPON_MINIGUN"), 0f, 0f, 0f, true, true, true);
+	func_26(14, joaat("PICKUP_WEAPON_MG"), 0f, 0f, 0f, true, false, true);
+	func_26(15, joaat("PICKUP_WEAPON_MG"), 97.92f, 60.48f, 0f, false, false, true);
+	func_26(16, joaat("PICKUP_WEAPON_MG"), 0f, 0f, 0f, true, false, true);
+	func_26(17, joaat("PICKUP_WEAPON_MG"), 0f, 0f, 0f, true, false, true);
+	func_26(18, joaat("PICKUP_WEAPON_PISTOL"), 0f, 0f, 0f, true, false, true);
+	func_26(19, joaat("PICKUP_WEAPON_PISTOL"), 0f, 0f, 0f, true, false, true);
+	func_26(20, joaat("PICKUP_WEAPON_PISTOL"), 0f, 0f, 0f, true, false, true);
+	func_26(21, joaat("PICKUP_WEAPON_PISTOL"), 0f, 0f, 0f, true, false, true);
+	func_26(22, joaat("PICKUP_WEAPON_PISTOL"), 0f, 0f, 0f, true, false, true);
+	func_26(23, joaat("PICKUP_WEAPON_PISTOL"), 0f, 0f, 0f, true, false, true);
+	func_26(24, joaat("PICKUP_WEAPON_PISTOL"), 0f, 0f, 0f, true, false, true);
+	func_26(25, joaat("PICKUP_WEAPON_PISTOL"), 0f, 0f, 0f, true, false, true);
+	func_26(26, joaat("PICKUP_WEAPON_PISTOL"), 0f, 0f, 0f, true, false, true);
+	func_26(27, joaat("PICKUP_WEAPON_PISTOL"), 0f, 0f, 36f, true, false, true);
+	func_26(28, joaat("PICKUP_WEAPON_RPG"), 86f, 0f, 0f, true, false, true);
+	func_26(29, joaat("PICKUP_WEAPON_RPG"), 0f, 0f, 0f, true, false, true);
+	func_26(30, joaat("PICKUP_WEAPON_RPG"), 0f, 0f, 0f, true, false, true);
+	func_26(31, joaat("PICKUP_WEAPON_SAWNOFFSHOTGUN"), -82f, 0f, 0f, false, false, true);
+	func_26(32, joaat("PICKUP_WEAPON_SAWNOFFSHOTGUN"), 0f, 0f, 24f, true, false, true);
+	func_26(33, joaat("PICKUP_WEAPON_SAWNOFFSHOTGUN"), 0f, 0f, 12f, true, false, true);
+	func_26(34, joaat("PICKUP_WEAPON_SAWNOFFSHOTGUN"), 0f, 0f, 98f, true, false, true);
+	func_26(35, joaat("PICKUP_WEAPON_SAWNOFFSHOTGUN"), 90f, 0f, 140f, true, false, true);
+	func_26(36, joaat("PICKUP_WEAPON_SAWNOFFSHOTGUN"), 90f, 0f, 120f, false, false, true);
+	func_26(37, joaat("PICKUP_WEAPON_SMG"), 0f, 0f, 0f, true, false, true);
+	func_26(38, joaat("PICKUP_WEAPON_SMG"), 85.68f, -92.88f, 0f, false, false, true);
+	func_26(39, joaat("PICKUP_WEAPON_SMG"), 0f, 0f, 0f, true, false, true);
+	func_26(40, joaat("PICKUP_WEAPON_SMG"), 0f, 0f, 20f, true, false, true);
+	func_26(41, joaat("PICKUP_WEAPON_SMG"), 0f, 0f, 0f, true, false, true);
+	func_26(42, joaat("PICKUP_WEAPON_SMG"), 0f, 0f, 0f, true, true, true);
+	func_26(43, joaat("PICKUP_WEAPON_SNIPERRIFLE"), 0f, 0f, 42f, true, false, true);
+	func_26(44, joaat("PICKUP_WEAPON_SNIPERRIFLE"), 0f, 0f, 52f, true, false, true);
+	func_26(45, joaat("PICKUP_WEAPON_SNIPERRIFLE"), 90f, 0f, 87f, true, false, true);
+	func_26(46, joaat("PICKUP_WEAPON_SNIPERRIFLE"), 0f, 0f, 98f, true, false, true);
+	func_26(47, joaat("PICKUP_WEAPON_SNIPERRIFLE"), 0f, 0f, 20f, true, false, true);
+	func_26(48, joaat("PICKUP_WEAPON_STICKYBOMB"), 0f, 0f, 0f, true, false, true);
+	func_26(49, joaat("PICKUP_WEAPON_STICKYBOMB"), 0f, 0f, 0f, true, false, true);
+	func_26(50, joaat("PICKUP_WEAPON_RPG"), 63f, 0f, 0f, false, false, true);
+	func_26(51, joaat("PICKUP_WEAPON_PISTOL"), 0f, 0f, 4f, true, false, true);
+	func_26(52, joaat("PICKUP_WEAPON_PISTOL"), 90f, 90f, 90f, false, false, false);
+	func_26(53, joaat("PICKUP_WEAPON_SNIPERRIFLE"), 0f, 0f, 2f, true, false, true);
+	func_26(54, joaat("PICKUP_WEAPON_SAWNOFFSHOTGUN"), 0f, 0f, 0f, true, false, true);
+	func_26(55, joaat("PICKUP_WEAPON_BAT"), 90f, 0f, 4f, true, false, true);
+	func_26(56, joaat("PICKUP_WEAPON_BAT"), 0f, 0f, 0f, true, false, true);
+	func_26(57, joaat("PICKUP_WEAPON_BAT"), 0f, 0f, 0f, true, false, true);
+	func_26(58, joaat("PICKUP_WEAPON_BAT"), 0f, 0f, 0f, true, false, true);
+	func_26(59, joaat("PICKUP_WEAPON_BAT"), 0f, 0f, 0f, true, false, true);
+	func_26(60, joaat("PICKUP_WEAPON_BAT"), 0f, 0f, 0f, true, false, true);
+	func_26(61, joaat("PICKUP_WEAPON_BAT"), 0f, 0f, 0f, true, true, true);
+	func_26(62, joaat("PICKUP_WEAPON_BAT"), 0f, 0f, 0f, true, false, true);
+	func_26(63, joaat("PICKUP_WEAPON_BAT"), 0f, 0f, 0f, true, false, true);
+	func_26(64, joaat("PICKUP_WEAPON_BAT"), 0f, 0f, 0f, true, true, true);
+	func_26(65, joaat("PICKUP_WEAPON_CROWBAR"), 0f, 0f, 0f, true, false, true);
+	func_26(66, joaat("PICKUP_WEAPON_CROWBAR"), 90f, 0f, 45f, false, false, true);
+	func_26(67, joaat("PICKUP_WEAPON_CROWBAR"), 0f, 0f, 0f, true, false, true);
+	func_26(68, joaat("PICKUP_WEAPON_CROWBAR"), 0f, 0f, 0f, true, false, true);
+	func_26(69, joaat("PICKUP_WEAPON_CROWBAR"), 0f, 0f, 0f, true, false, true);
+	func_26(70, joaat("PICKUP_WEAPON_CROWBAR"), 0f, 0f, 0f, true, false, true);
+	func_26(71, joaat("PICKUP_WEAPON_CROWBAR"), 0f, 0f, 0f, true, false, true);
+	func_26(72, joaat("PICKUP_WEAPON_CROWBAR"), 0f, 0f, 0f, true, false, true);
+	func_26(73, joaat("PICKUP_WEAPON_CROWBAR"), 0f, 0f, 0f, true, false, true);
+	func_26(74, joaat("PICKUP_WEAPON_CROWBAR"), 0f, 0f, 0f, true, false, true);
+	func_26(75, joaat("PICKUP_WEAPON_MOLOTOV"), 0f, 0f, 0f, true, false, true);
+	func_26(76, joaat("PICKUP_WEAPON_MOLOTOV"), 0f, 0f, 0f, true, false, true);
+	func_26(77, joaat("PICKUP_WEAPON_MOLOTOV"), 0f, 0f, 0f, true, false, true);
+	func_26(78, joaat("PICKUP_WEAPON_MOLOTOV"), 0f, 0f, 0f, true, false, true);
+	func_26(79, joaat("PICKUP_WEAPON_MOLOTOV"), 0f, 0f, 0f, true, false, true);
+	func_26(80, joaat("PICKUP_WEAPON_MOLOTOV"), 0f, 0f, 0f, true, false, true);
+	func_26(81, joaat("PICKUP_WEAPON_MOLOTOV"), 0f, 0f, 0f, true, false, true);
+	func_26(82, joaat("PICKUP_WEAPON_MOLOTOV"), 0f, 0f, 0f, true, false, true);
+	func_26(83, joaat("PICKUP_WEAPON_MOLOTOV"), 0f, 0f, 0f, true, false, true);
+	func_26(84, joaat("PICKUP_WEAPON_MOLOTOV"), 0f, 0f, 0f, true, false, true);
+	func_26(85, joaat("PICKUP_WEAPON_CROWBAR"), 0f, 0f, 0f, true, false, true);
+	func_26(86, joaat("PICKUP_WEAPON_BAT"), 0f, 0f, 0f, true, false, true);
+	func_26(87, joaat("PICKUP_WEAPON_CROWBAR"), 0f, 0f, 0f, true, false, true);
+	func_26(88, joaat("PICKUP_WEAPON_CROWBAR"), 0f, 0f, 0f, true, false, true);
+	func_26(89, joaat("PICKUP_WEAPON_BAT"), 0f, 0f, 0f, true, false, true);
+	func_26(90, joaat("PICKUP_WEAPON_CROWBAR"), 0f, 0f, 0f, true, false, true);
+	func_26(91, joaat("PICKUP_WEAPON_BAT"), 0f, 0f, 0f, true, false, true);
+	func_26(92, joaat("PICKUP_WEAPON_CROWBAR"), 0f, 0f, 0f, true, false, true);
+	func_26(93, joaat("PICKUP_WEAPON_BAT"), 0f, 0f, 0f, true, false, true);
+	func_26(94, joaat("PICKUP_WEAPON_CROWBAR"), 0f, 0f, 0f, true, false, true);
+	func_26(95, joaat("PICKUP_WEAPON_CARBINERIFLE"), 0f, 0f, 87f, true, false, true);
+	func_26(96, joaat("PICKUP_WEAPON_ASSAULTSHOTGUN"), 0f, 0f, 0f, true, true, true);
+	func_26(97, joaat("PICKUP_WEAPON_ASSAULTSHOTGUN"), 85.7f, 0f, 136f, false, false, false);
+	func_26(98, joaat("PICKUP_PARACHUTE"), 10f, 0f, -90f, false, false, false);
+	func_26(99, joaat("PICKUP_WEAPON_PUMPSHOTGUN"), -88f, 0f, 0f, false, false, false);
+	func_26(100, joaat("PICKUP_PARACHUTE"), 11f, 0f, 28.16f, false, false, false);
+	func_26(101, joaat("PICKUP_WEAPON_SAWNOFFSHOTGUN"), 92.8f, 0f, 50.4f, false, false, false);
 	return;
 }
 
-void func_26(int iParam0, Hash hParam1, float fParam2, float fParam3, float fParam4, BOOL bParam5, BOOL bParam6, BOOL bParam7) // Position - 0xFF5 Hash - 0x206C7750 ^0x35B8E64D
+void func_26(int iParam0, Hash hParam1, float fParam2, float fParam3, float fParam4, BOOL bParam5, BOOL bParam6, BOOL bParam7) // Hash - 0x206C7750 ^0x35B8E64D
 {
 	int address;
 
@@ -886,7 +886,7 @@ void func_26(int iParam0, Hash hParam1, float fParam2, float fParam3, float fPar
 	return;
 }
 
-char* func_27(int iParam0) // Position - 0x1066 Hash - 0xF415FD7 ^0xF415FD7
+char* func_27(int iParam0) // Hash - 0xF415FD7 ^0xF415FD7
 {
 	switch (iParam0)
 	{
@@ -915,7 +915,7 @@ char* func_27(int iParam0) // Position - 0x1066 Hash - 0xF415FD7 ^0xF415FD7
 	return "";
 }
 
-Vector3 func_28(int iParam0, BOOL bParam1) // Position - 0x10DA Hash - 0x960AE468 ^0x960AE468
+Vector3 func_28(int iParam0, BOOL bParam1) // Hash - 0x960AE468 ^0x960AE468
 {
 	switch (iParam0)
 	{
@@ -1397,7 +1397,7 @@ Vector3 func_28(int iParam0, BOOL bParam1) // Position - 0x10DA Hash - 0x960AE46
 	return 0f, 0f, 0f;
 }
 
-void func_29() // Position - 0x2017 Hash - 0x37612F0B ^0x37612F0B
+void func_29() // Hash - 0x37612F0B ^0x37612F0B
 {
 	func_30(0, 0f, 0f, 0f, false, false);
 	func_30(1, 0f, 0f, 24f, false, false);
@@ -1478,7 +1478,7 @@ void func_29() // Position - 0x2017 Hash - 0x37612F0B ^0x37612F0B
 	return;
 }
 
-void func_30(int iParam0, float fParam1, float fParam2, float fParam3, BOOL bParam4, BOOL bParam5) // Position - 0x2437 Hash - 0xE9239E9D ^0xDD2B80B2
+void func_30(int iParam0, float fParam1, float fParam2, float fParam3, BOOL bParam4, BOOL bParam5) // Hash - 0xE9239E9D ^0xDD2B80B2
 {
 	int address;
 
@@ -1491,7 +1491,7 @@ void func_30(int iParam0, float fParam1, float fParam2, float fParam3, BOOL bPar
 	if (!bParam4)
 		MISC::SET_BIT(&address, 3);
 
-	uLocal_86[iParam0] = OBJECT::CREATE_PICKUP_ROTATE(-1888453608, func_32(iParam0, false), fParam1, address, -1, 2, true, 0);
+	uLocal_86[iParam0] = OBJECT::CREATE_PICKUP_ROTATE(joaat("PICKUP_HEALTH_STANDARD"), func_32(iParam0, false), fParam1, address, -1, 2, true, 0);
 	OBJECT::SET_PICKUP_REGENERATION_TIME(uLocal_86[iParam0], 600000);
 
 	if (bParam5)
@@ -1500,7 +1500,7 @@ void func_30(int iParam0, float fParam1, float fParam2, float fParam3, BOOL bPar
 	return;
 }
 
-char* func_31(int iParam0) // Position - 0x24AF Hash - 0xBF3C5852 ^0xBF3C5852
+char* func_31(int iParam0) // Hash - 0xBF3C5852 ^0xBF3C5852
 {
 	switch (iParam0)
 	{
@@ -1553,7 +1553,7 @@ char* func_31(int iParam0) // Position - 0x24AF Hash - 0xBF3C5852 ^0xBF3C5852
 	return "";
 }
 
-Vector3 func_32(int iParam0, BOOL bParam1) // Position - 0x259C Hash - 0xE7BE3A46 ^0xE7BE3A46
+Vector3 func_32(int iParam0, BOOL bParam1) // Hash - 0xE7BE3A46 ^0xE7BE3A46
 {
 	switch (iParam0)
 	{
@@ -2009,7 +2009,7 @@ Vector3 func_32(int iParam0, BOOL bParam1) // Position - 0x259C Hash - 0xE7BE3A4
 	return 0f, 0f, 0f;
 }
 
-void func_33() // Position - 0x3374 Hash - 0xCE13C471 ^0xCE13C471
+void func_33() // Hash - 0xCE13C471 ^0xCE13C471
 {
 	func_34(0, 0f, 0f, 0f, true);
 	func_34(1, 0f, 0f, 0f, true);
@@ -2033,7 +2033,7 @@ void func_33() // Position - 0x3374 Hash - 0xCE13C471 ^0xCE13C471
 	return;
 }
 
-void func_34(int iParam0, float fParam1, float fParam2, float fParam3, BOOL bParam4) // Position - 0x3432 Hash - 0xAB3384BF ^0x9AF5D033
+void func_34(int iParam0, float fParam1, float fParam2, float fParam3, BOOL bParam4) // Hash - 0xAB3384BF ^0x9AF5D033
 {
 	int address;
 
@@ -2046,12 +2046,12 @@ void func_34(int iParam0, float fParam1, float fParam2, float fParam3, BOOL bPar
 	if (bParam4)
 		MISC::SET_BIT(&address, 3);
 
-	uLocal_66[iParam0] = OBJECT::CREATE_PICKUP_ROTATE(-962731009, func_35(iParam0), fParam1, address, -1, 2, true, 0);
+	uLocal_66[iParam0] = OBJECT::CREATE_PICKUP_ROTATE(joaat("PICKUP_WEAPON_PETROLCAN"), func_35(iParam0), fParam1, address, -1, 2, true, 0);
 	OBJECT::SET_PICKUP_REGENERATION_TIME(uLocal_66[iParam0], 600000);
 	return;
 }
 
-Vector3 func_35(int iParam0) // Position - 0x3493 Hash - 0xCBED323 ^0xCBED323
+Vector3 func_35(int iParam0) // Hash - 0xCBED323 ^0xCBED323
 {
 	switch (iParam0)
 	{
@@ -2116,7 +2116,7 @@ Vector3 func_35(int iParam0) // Position - 0x3493 Hash - 0xCBED323 ^0xCBED323
 	return 0f, 0f, 0f;
 }
 
-void func_36() // Position - 0x36A6 Hash - 0xFBF3FF5C ^0xFBF3FF5C
+void func_36() // Hash - 0xFBF3FF5C ^0xFBF3FF5C
 {
 	func_37(0, 0f, 0f, 6f, true, false, false);
 	func_37(1, 0f, 0f, 78f, true, false, false);
@@ -2166,7 +2166,7 @@ void func_36() // Position - 0x36A6 Hash - 0xFBF3FF5C ^0xFBF3FF5C
 	return;
 }
 
-void func_37(int iParam0, float fParam1, float fParam2, float fParam3, BOOL bParam4, BOOL bParam5, BOOL bParam6) // Position - 0x3932 Hash - 0xC61E9B5E ^0x3DB72E4F
+void func_37(int iParam0, float fParam1, float fParam2, float fParam3, BOOL bParam4, BOOL bParam5, BOOL bParam6) // Hash - 0xC61E9B5E ^0x3DB72E4F
 {
 	int address;
 
@@ -2181,7 +2181,7 @@ void func_37(int iParam0, float fParam1, float fParam2, float fParam3, BOOL bPar
 	if (bParam4)
 		MISC::SET_BIT(&address, 3);
 
-	uLocal_20[iParam0] = OBJECT::CREATE_PICKUP_ROTATE(1274757841, func_39(iParam0, false), fParam1, address, -1, 2, true, 0);
+	uLocal_20[iParam0] = OBJECT::CREATE_PICKUP_ROTATE(joaat("PICKUP_ARMOUR_STANDARD"), func_39(iParam0, false), fParam1, address, -1, 2, true, 0);
 	OBJECT::SET_PICKUP_REGENERATION_TIME(uLocal_20[iParam0], 600000);
 
 	if (bParam5)
@@ -2190,7 +2190,7 @@ void func_37(int iParam0, float fParam1, float fParam2, float fParam3, BOOL bPar
 	return;
 }
 
-char* func_38(int iParam0) // Position - 0x39AE Hash - 0xC68AF91A ^0x15192E9F
+char* func_38(int iParam0) // Hash - 0xC68AF91A ^0x15192E9F
 {
 	switch (iParam0)
 	{
@@ -2210,7 +2210,7 @@ char* func_38(int iParam0) // Position - 0x39AE Hash - 0xC68AF91A ^0x15192E9F
 	return "";
 }
 
-Vector3 func_39(int iParam0, BOOL bParam1) // Position - 0x39F7 Hash - 0xEAF46F80 ^0xEAF46F80
+Vector3 func_39(int iParam0, BOOL bParam1) // Hash - 0xEAF46F80 ^0xEAF46F80
 {
 	switch (iParam0)
 	{
@@ -2457,7 +2457,7 @@ Vector3 func_39(int iParam0, BOOL bParam1) // Position - 0x39F7 Hash - 0xEAF46F8
 	return 0f, 0f, 0f;
 }
 
-void func_40() // Position - 0x4189 Hash - 0x89ECDFFD ^0xE299FBBE
+void func_40() // Hash - 0x89ECDFFD ^0xE299FBBE
 {
 	func_22();
 	func_21();

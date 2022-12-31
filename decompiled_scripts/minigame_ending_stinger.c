@@ -19,7 +19,7 @@
 	int iLocal_17 = 0;
 #endregion
 
-void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
+void main() // Hash - 0x5D84F89F ^0x5D84F89F
 {
 	int gameTimer;
 	BOOL flag;
@@ -88,7 +88,7 @@ void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
 	return;
 }
 
-int func_1(Ped pedParam0) // Position - 0xD2 Hash - 0xAC4E9801 ^0xB379A75F
+int func_1(Ped pedParam0) // Hash - 0xAC4E9801 ^0xB379A75F
 {
 	int i;
 	Hash entityModel;
@@ -107,7 +107,7 @@ int func_1(Ped pedParam0) // Position - 0xD2 Hash - 0xAC4E9801 ^0xB379A75F
 	return 145;
 }
 
-Hash func_2(int iParam0) // Position - 0x10F Hash - 0xADCB9755 ^0xADCB9755
+Hash func_2(int iParam0) // Hash - 0xADCB9755 ^0xADCB9755
 {
 	if (func_4(iParam0))
 		return func_3(iParam0);
@@ -117,17 +117,17 @@ Hash func_2(int iParam0) // Position - 0x10F Hash - 0xADCB9755 ^0xADCB9755
 	return 0;
 }
 
-Hash func_3(int iParam0) // Position - 0x134 Hash - 0xE4CEEC2C ^0xE4CEEC2C
+Hash func_3(int iParam0) // Hash - 0xE4CEEC2C ^0xE4CEEC2C
 {
 	return Global_2028[iParam0 /*29*/];
 }
 
-BOOL func_4(int iParam0) // Position - 0x143 Hash - 0x8907F004 ^0x8907F004
+BOOL func_4(int iParam0) // Hash - 0x8907F004 ^0x8907F004
 {
 	return iParam0 < 3;
 }
 
-void func_5() // Position - 0x14F Hash - 0x96997D50 ^0xB102C97B
+void func_5() // Hash - 0x96997D50 ^0xB102C97B
 {
 	AUDIO::STOP_STREAM();
 	SCRIPT::TERMINATE_THIS_THREAD();

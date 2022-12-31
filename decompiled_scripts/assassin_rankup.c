@@ -46,7 +46,7 @@
 	var uLocal_44 = 0;
 #endregion
 
-void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
+void main() // Hash - 0x5D84F89F ^0x5D84F89F
 {
 	iLocal_2 = 1;
 	iLocal_3 = 134;
@@ -91,19 +91,19 @@ void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
 	return;
 }
 
-void func_1() // Position - 0xAD Hash - 0xF815D470 ^0x64949F15
+void func_1() // Hash - 0xF815D470 ^0x64949F15
 {
 	func_2(&(Global_113648.f_19965.f_1), 2048);
 	return;
 }
 
-void func_2(var uParam0, int iParam1) // Position - 0xC5 Hash - 0xF55E891F ^0xF55E891F
+void func_2(var uParam0, int iParam1) // Hash - 0xF55E891F ^0xF55E891F
 {
 	func_3(uParam0, iParam1);
 	return;
 }
 
-void func_3(var uParam0, int iParam1) // Position - 0xD5 Hash - 0xF23F5A1A ^0xF23F5A1A
+void func_3(var uParam0, int iParam1) // Hash - 0xF23F5A1A ^0xF23F5A1A
 {
 	*uParam0 = *uParam0 || iParam1;
 	return;

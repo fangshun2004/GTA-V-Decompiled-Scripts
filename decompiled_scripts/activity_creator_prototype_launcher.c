@@ -115,7 +115,7 @@
 	var uLocal_113 = 0;
 #endregion
 
-void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
+void main() // Hash - 0x5D84F89F ^0x5D84F89F
 {
 	iLocal_2 = 1;
 	iLocal_3 = 134;
@@ -153,19 +153,19 @@ void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
 	return;
 }
 
-void func_1() // Position - 0x98 Hash - 0xF3B2B67E ^0xF3B2B67E
+void func_1() // Hash - 0xF3B2B67E ^0xF3B2B67E
 {
 	return;
 }
 
-void func_2() // Position - 0xA0 Hash - 0x2198C48A ^0x502FD6
+void func_2() // Hash - 0x2198C48A ^0x502FD6
 {
 	NETWORK::NETWORK_SET_THIS_SCRIPT_IS_NETWORK_SCRIPT(32, false, -1);
 	func_3(0, -1, false);
 	return;
 }
 
-int func_3(int iParam0, int iParam1, BOOL bParam2) // Position - 0xB8 Hash - 0x75751681 ^0x9140C9A0
+int func_3(int iParam0, int iParam1, BOOL bParam2) // Hash - 0x75751681 ^0x9140C9A0
 {
 	int i;
 
@@ -229,7 +229,7 @@ int func_3(int iParam0, int iParam1, BOOL bParam2) // Position - 0xB8 Hash - 0x7
 	return 1;
 }
 
-BOOL func_4(int iParam0) // Position - 0x1CE Hash - 0xA28ADBB4 ^0x6EB81E64
+BOOL func_4(int iParam0) // Hash - 0xA28ADBB4 ^0x6EB81E64
 {
 	if (SCRIPT::GET_EVENT_EXISTS(SCRIPT_EVENT_QUEUE_NETWORK, iParam0))
 		return true;
@@ -237,18 +237,18 @@ BOOL func_4(int iParam0) // Position - 0x1CE Hash - 0xA28ADBB4 ^0x6EB81E64
 	return false;
 }
 
-BOOL func_5() // Position - 0x1E5 Hash - 0x974E48B4 ^0x974E48B4
+BOOL func_5() // Hash - 0x974E48B4 ^0x974E48B4
 {
 	return Global_2683862.f_693;
 }
 
-BOOL func_6(BOOL bParam0) // Position - 0x1F4 Hash - 0x1CCCE169 ^0x1CCCE169
+BOOL func_6(BOOL bParam0) // Hash - 0x1CCCE169 ^0x1CCCE169
 {
 	bParam0;
 	return Global_1575035;
 }
 
-void func_7() // Position - 0x205 Hash - 0xCE5FB49E ^0x214A59D5
+void func_7() // Hash - 0xCE5FB49E ^0x214A59D5
 {
 	SCRIPT::TERMINATE_THIS_THREAD();
 	return;

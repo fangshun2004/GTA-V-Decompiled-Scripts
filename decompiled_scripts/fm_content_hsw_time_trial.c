@@ -17,30 +17,30 @@
 	var uLocal_15 = 0;
 	var uLocal_16 = 0;
 	int iLocal_17 = 0;
+	var uScriptParam_0 = 0;
+	var uScriptParam_1 = -1;
+	var uScriptParam_2 = -1;
+	var uScriptParam_3 = 0;
+	var uScriptParam_4 = 0;
+	var uScriptParam_5 = 0;
+	var uScriptParam_6 = 0;
+	var uScriptParam_7 = 0;
+	var uScriptParam_8 = 0;
+	var uScriptParam_9 = -1;
+	var uScriptParam_10 = 0;
+	var uScriptParam_11 = 0;
+	var uScriptParam_12 = 0;
+	var uScriptParam_13 = 0;
+	var uScriptParam_14 = 0;
+	var uScriptParam_15 = 0;
+	var uScriptParam_16 = -1;
+	var uScriptParam_17 = 0;
 	var uScriptParam_18 = 0;
 	var uScriptParam_19 = -1;
 	var uScriptParam_20 = -1;
-	var uScriptParam_21 = 0;
-	var uScriptParam_22 = 0;
-	var uScriptParam_23 = 0;
-	var uScriptParam_24 = 0;
-	var uScriptParam_25 = 0;
-	var uScriptParam_26 = 0;
-	var uScriptParam_27 = -1;
-	var uScriptParam_28 = 0;
-	var uScriptParam_29 = 0;
-	var uScriptParam_30 = 0;
-	var uScriptParam_31 = 0;
-	var uScriptParam_32 = 0;
-	var uScriptParam_33 = 0;
-	var uScriptParam_34 = -1;
-	var uScriptParam_35 = 0;
-	var uScriptParam_36 = 0;
-	var uScriptParam_37 = -1;
-	var uScriptParam_38 = -1;
 #endregion
 
-void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
+void main() // Hash - 0x5D84F89F ^0x5D84F89F
 {
 	iLocal_2 = 1;
 	iLocal_3 = 134;

@@ -1,5 +1,5 @@
 // Program registers 537 globals at index 11 starting from Global_2883584
-void main() // Position - 0x0 Hash - 0x47EEED66 ^0x1AC90082
+void main() // Hash - 0x47EEED66 ^0x1AC90082
 {
 	int num;
 	int sizeOfSaveData;

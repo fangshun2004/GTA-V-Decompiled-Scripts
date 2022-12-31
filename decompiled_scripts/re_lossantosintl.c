@@ -101,7 +101,7 @@
 	int iLocal_99 = 0;
 #endregion
 
-void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
+void main() // Hash - 0x5D84F89F ^0x5D84F89F
 {
 	iLocal_2 = 1;
 	iLocal_3 = 134;
@@ -128,7 +128,7 @@ void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
 	iLocal_41 = 49;
 	iLocal_42 = 64;
 	bLocal_78 = true;
-	hLocal_84 = -413447396;
+	hLocal_84 = joaat("S_M_M_PILOT_01");
 	iLocal_99 = 500;
 
 	if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(3))
@@ -181,7 +181,7 @@ void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
 	return;
 }
 
-void func_1() // Position - 0x11A Hash - 0x281E2559 ^0x86625CA4
+void func_1() // Hash - 0x281E2559 ^0x86625CA4
 {
 	int i;
 
@@ -235,7 +235,7 @@ void func_1() // Position - 0x11A Hash - 0x281E2559 ^0x86625CA4
 	return;
 }
 
-void func_2(var uParam0, var uParam1) // Position - 0x233 Hash - 0x7CEEACB7 ^0xBB512398
+void func_2(var uParam0, var uParam1) // Hash - 0x7CEEACB7 ^0xBB512398
 {
 	if (ENTITY::DOES_ENTITY_EXIST(*uParam0) && ENTITY::DOES_ENTITY_EXIST(*uParam1) && !ENTITY::IS_ENTITY_DEAD(*uParam0, false) && !ENTITY::IS_ENTITY_DEAD(*uParam1, false))
 		if (ENTITY::IS_ENTITY_IN_AIR(*uParam0))
@@ -246,7 +246,7 @@ void func_2(var uParam0, var uParam1) // Position - 0x233 Hash - 0x7CEEACB7 ^0xB
 	return;
 }
 
-void func_3(BOOL bParam0) // Position - 0x2B4 Hash - 0x4351AA79 ^0x97FDE83D
+void func_3(BOOL bParam0) // Hash - 0x4351AA79 ^0x97FDE83D
 {
 	if (bLocal_78)
 	{
@@ -272,7 +272,7 @@ void func_3(BOOL bParam0) // Position - 0x2B4 Hash - 0x4351AA79 ^0x97FDE83D
 	return;
 }
 
-void func_4() // Position - 0x493 Hash - 0xE2D5B067 ^0xE2D5B067
+void func_4() // Hash - 0xE2D5B067 ^0xE2D5B067
 {
 	int i;
 
@@ -295,7 +295,7 @@ void func_4() // Position - 0x493 Hash - 0xE2D5B067 ^0xE2D5B067
 			break;
 	
 		case 1:
-			STREAMING::REQUEST_MODEL(1058115860);
+			STREAMING::REQUEST_MODEL(joaat("JET"));
 			STREAMING::REQUEST_MODEL(hLocal_84);
 			VEHICLE::REQUEST_VEHICLE_RECORDING(101, "AirportJetTakeOff");
 			VEHICLE::REQUEST_VEHICLE_RECORDING(103, "AirplaneLandingRedux");
@@ -308,13 +308,13 @@ void func_4() // Position - 0x493 Hash - 0xE2D5B067 ^0xE2D5B067
 		case 2:
 			if (!bLocal_82)
 			{
-				if (STREAMING::HAS_MODEL_LOADED(1058115860) && STREAMING::HAS_MODEL_LOADED(hLocal_84) && VEHICLE::HAS_VEHICLE_RECORDING_BEEN_LOADED(101, "AirportJetTakeOff") && VEHICLE::HAS_VEHICLE_RECORDING_BEEN_LOADED(103, "AirplaneLandingRedux") && VEHICLE::HAS_VEHICLE_RECORDING_BEEN_LOADED(101, "AirportNew") && VEHICLE::HAS_VEHICLE_RECORDING_BEEN_LOADED(104, "AirplaneLandingRedux") && VEHICLE::HAS_VEHICLE_RECORDING_BEEN_LOADED(101, "EastWestFlight"))
+				if (STREAMING::HAS_MODEL_LOADED(joaat("JET")) && STREAMING::HAS_MODEL_LOADED(hLocal_84) && VEHICLE::HAS_VEHICLE_RECORDING_BEEN_LOADED(101, "AirportJetTakeOff") && VEHICLE::HAS_VEHICLE_RECORDING_BEEN_LOADED(103, "AirplaneLandingRedux") && VEHICLE::HAS_VEHICLE_RECORDING_BEEN_LOADED(101, "AirportNew") && VEHICLE::HAS_VEHICLE_RECORDING_BEEN_LOADED(104, "AirplaneLandingRedux") && VEHICLE::HAS_VEHICLE_RECORDING_BEEN_LOADED(101, "EastWestFlight"))
 				{
 					bLocal_82 = true;
 				}
 				else
 				{
-					STREAMING::REQUEST_MODEL(1058115860);
+					STREAMING::REQUEST_MODEL(joaat("JET"));
 					STREAMING::REQUEST_MODEL(hLocal_84);
 					VEHICLE::REQUEST_VEHICLE_RECORDING(101, "AirportJetTakeOff");
 					VEHICLE::REQUEST_VEHICLE_RECORDING(102, "AirportJetTakeOff");
@@ -339,14 +339,14 @@ void func_4() // Position - 0x493 Hash - 0xE2D5B067 ^0xE2D5B067
 			break;
 	
 		case 3:
-			uLocal_49[0] = VEHICLE::CREATE_VEHICLE(1058115860, uLocal_61[0 /*3*/], 0, true, true, false);
+			uLocal_49[0] = VEHICLE::CREATE_VEHICLE(joaat("JET"), uLocal_61[0 /*3*/], 0, true, true, false);
 			ENTITY::SET_ENTITY_HEADING(uLocal_49[0], 240.3179f);
 			VEHICLE::SET_VEHICLE_GENERATES_ENGINE_SHOCKING_EVENTS(uLocal_49[0], false);
-			uLocal_49[1] = VEHICLE::CREATE_VEHICLE(1058115860, uLocal_61[1 /*3*/], 0, true, true, false);
+			uLocal_49[1] = VEHICLE::CREATE_VEHICLE(joaat("JET"), uLocal_61[1 /*3*/], 0, true, true, false);
 			VEHICLE::SET_VEHICLE_GENERATES_ENGINE_SHOCKING_EVENTS(uLocal_49[1], false);
-			uLocal_49[2] = VEHICLE::CREATE_VEHICLE(1058115860, uLocal_61[2 /*3*/], 0, true, true, false);
+			uLocal_49[2] = VEHICLE::CREATE_VEHICLE(joaat("JET"), uLocal_61[2 /*3*/], 0, true, true, false);
 			VEHICLE::SET_VEHICLE_GENERATES_ENGINE_SHOCKING_EVENTS(uLocal_49[2], false);
-			uLocal_49[3] = VEHICLE::CREATE_VEHICLE(1058115860, uLocal_61[3 /*3*/], 0, true, true, false);
+			uLocal_49[3] = VEHICLE::CREATE_VEHICLE(joaat("JET"), uLocal_61[3 /*3*/], 0, true, true, false);
 			VEHICLE::SET_VEHICLE_GENERATES_ENGINE_SHOCKING_EVENTS(uLocal_49[3], false);
 		
 			for (i = 0; i < 4; i = i + 1)
@@ -561,7 +561,7 @@ void func_4() // Position - 0x493 Hash - 0xE2D5B067 ^0xE2D5B067
 	return;
 }
 
-void func_5() // Position - 0xBB3 Hash - 0x62A2E21C ^0x62A2E21C
+void func_5() // Hash - 0x62A2E21C ^0x62A2E21C
 {
 	fLocal_85 = 0f;
 	bLocal_77 = false;
@@ -570,7 +570,7 @@ void func_5() // Position - 0xBB3 Hash - 0x62A2E21C ^0x62A2E21C
 	return;
 }
 
-void func_6(var uParam0, var uParam1) // Position - 0xBC7 Hash - 0x15A14D8F ^0xC8506E1B
+void func_6(var uParam0, var uParam1) // Hash - 0x15A14D8F ^0xC8506E1B
 {
 	ENTITY::SET_ENTITY_VISIBLE(*uParam0, true, false);
 	ENTITY::SET_ENTITY_VISIBLE(*uParam1, true, false);
@@ -579,7 +579,7 @@ void func_6(var uParam0, var uParam1) // Position - 0xBC7 Hash - 0x15A14D8F ^0xC
 	return;
 }
 
-void func_7() // Position - 0xBF2 Hash - 0x53B97EE ^0xD2333E3D
+void func_7() // Hash - 0x53B97EE ^0xD2333E3D
 {
 	Vector3 entityCoords;
 
@@ -588,7 +588,7 @@ void func_7() // Position - 0xBF2 Hash - 0x53B97EE ^0xD2333E3D
 		case 0:
 			if (!ENTITY::DOES_ENTITY_EXIST(veLocal_54))
 			{
-				veLocal_54 = VEHICLE::CREATE_VEHICLE(1058115860, -65.3177f, 15.4603f, 703.106f, 0, true, true, false);
+				veLocal_54 = VEHICLE::CREATE_VEHICLE(joaat("JET"), -65.3177f, 15.4603f, 703.106f, 0, true, true, false);
 				ENTITY::SET_ENTITY_LOD_DIST(veLocal_54, 1000);
 				VEHICLE::SET_VEHICLE_ENGINE_ON(veLocal_54, true, true, false);
 				VEHICLE::SET_VEHICLE_GENERATES_ENGINE_SHOCKING_EVENTS(veLocal_54, false);
@@ -626,7 +626,7 @@ void func_7() // Position - 0xBF2 Hash - 0x53B97EE ^0xD2333E3D
 	return;
 }
 
-void func_8(var uParam0, var uParam1) // Position - 0xD31 Hash - 0x3D60D8DA ^0xE0661D8A
+void func_8(var uParam0, var uParam1) // Hash - 0x3D60D8DA ^0xE0661D8A
 {
 	ENTITY::SET_ENTITY_VISIBLE(*uParam0, false, false);
 	ENTITY::SET_ENTITY_VISIBLE(*uParam1, false, false);
@@ -635,22 +635,22 @@ void func_8(var uParam0, var uParam1) // Position - 0xD31 Hash - 0x3D60D8DA ^0xE
 	return;
 }
 
-void func_9() // Position - 0xD5C Hash - 0xF3B2B67E ^0xF3B2B67E
+void func_9() // Hash - 0xF3B2B67E ^0xF3B2B67E
 {
 	return;
 }
 
-BOOL func_10() // Position - 0xD64 Hash - 0xFD255207 ^0xFD255207
+BOOL func_10() // Hash - 0xFD255207 ^0xFD255207
 {
 	return true;
 }
 
-void func_11() // Position - 0xD6D Hash - 0xF3B2B67E ^0xF3B2B67E
+void func_11() // Hash - 0xF3B2B67E ^0xF3B2B67E
 {
 	return;
 }
 
-void func_12() // Position - 0xD75 Hash - 0xD4EB0EF ^0xEB7BBD6D
+void func_12() // Hash - 0xD4EB0EF ^0xEB7BBD6D
 {
 	func_1();
 	func_13();
@@ -658,12 +658,12 @@ void func_12() // Position - 0xD75 Hash - 0xD4EB0EF ^0xEB7BBD6D
 	return;
 }
 
-void func_13() // Position - 0xD89 Hash - 0x6A22D8D9 ^0x4DA4B72E
+void func_13() // Hash - 0x6A22D8D9 ^0x4DA4B72E
 {
 	Vector3 entityCoords;
-	Vector3 unk;
-	Vector3 unk2;
-	float vector;
+	Vector3 vector;
+	Vector3 offsetFromCoordAndHeadingInWorldCoords;
+	float entityHeading;
 
 	if (ENTITY::DOES_ENTITY_EXIST(veLocal_89))
 	{

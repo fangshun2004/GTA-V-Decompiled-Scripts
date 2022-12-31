@@ -1,7 +1,8 @@
 #region Local Var
 	int iLocal_0 = 0;
-	var uScriptParam_1 = 0;
-	var uScriptParam_2 = 5;
+	var uScriptParam_0 = 0;
+	var uScriptParam_1 = 5;
+	var uScriptParam_2 = 0;
 	var uScriptParam_3 = 0;
 	var uScriptParam_4 = 0;
 	var uScriptParam_5 = 0;
@@ -16,18 +17,17 @@
 	var uScriptParam_14 = 0;
 	var uScriptParam_15 = 0;
 	var uScriptParam_16 = 0;
-	var uScriptParam_17 = 0;
-	var uScriptParam_18 = 5;
+	var uScriptParam_17 = 5;
+	var uScriptParam_18 = 0;
 	var uScriptParam_19 = 0;
 	var uScriptParam_20 = 0;
 	var uScriptParam_21 = 0;
 	var uScriptParam_22 = 0;
-	var uScriptParam_23 = 0;
 #endregion
 
-void main() // Position - 0x0 Hash - 0xDBAF0530 ^0x7B00D9C1
+void main() // Hash - 0xDBAF0530 ^0x7B00D9C1
 {
-	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(-1821484484) > 1)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("WP_PARTYBOOMBOX")) > 1)
 		SCRIPT::TERMINATE_THIS_THREAD();
 
 	if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(18))
@@ -70,7 +70,7 @@ void main() // Position - 0x0 Hash - 0xDBAF0530 ^0x7B00D9C1
 	return;
 }
 
-void func_1() // Position - 0xB1 Hash - 0x11215EEB ^0x8CBA826C
+void func_1() // Hash - 0x11215EEB ^0x8CBA826C
 {
 	if (STREAMING::IS_IPL_ACTIVE("ID2_21_G_Night"))
 		STREAMING::REMOVE_IPL("ID2_21_G_Night");

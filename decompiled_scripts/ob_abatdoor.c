@@ -9,46 +9,46 @@
 	var uLocal_7 = 0;
 	var uLocal_8 = 0;
 	var uLocal_9 = 0;
-	Object obScriptParam_10 = 0;
+	Object obScriptParam_0 = 0;
 #endregion
 
-void main() // Position - 0x0 Hash - 0xDA7793D7 ^0xA5A7A61F
+void main() // Hash - 0xDA7793D7 ^0xA5A7A61F
 {
 	var unk;
-	var unk2;
-	var unk3;
-	float entityCoords;
+	var entityCoords;
+	var unk6;
+	float num;
 
 	if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(2))
 		func_4();
 
-	if (ENTITY::DOES_ENTITY_EXIST(obScriptParam_10))
+	if (ENTITY::DOES_ENTITY_EXIST(obScriptParam_0))
 	{
-		ENTITY::FREEZE_ENTITY_POSITION(obScriptParam_10, true);
-		uLocal_4 = { ENTITY::GET_ENTITY_COORDS(obScriptParam_10, true) };
-		uLocal_7 = { ENTITY::GET_ENTITY_ROTATION(obScriptParam_10, 2) };
+		ENTITY::FREEZE_ENTITY_POSITION(obScriptParam_0, true);
+		uLocal_4 = { ENTITY::GET_ENTITY_COORDS(obScriptParam_0, true) };
+		uLocal_7 = { ENTITY::GET_ENTITY_ROTATION(obScriptParam_0, 2) };
 	}
 
 	while (true)
 	{
 		SYSTEM::WAIT(0);
 	
-		if (ENTITY::DOES_ENTITY_EXIST(obScriptParam_10))
+		if (ENTITY::DOES_ENTITY_EXIST(obScriptParam_0))
 		{
-			if (BRAIN::IS_OBJECT_WITHIN_BRAIN_ACTIVATION_RANGE(obScriptParam_10))
+			if (BRAIN::IS_OBJECT_WITHIN_BRAIN_ACTIVATION_RANGE(obScriptParam_0))
 			{
 				switch (iLocal_2)
 				{
 					case 0:
-						if (ENTITY::DOES_ENTITY_HAVE_DRAWABLE(obScriptParam_10))
+						if (ENTITY::DOES_ENTITY_HAVE_DRAWABLE(obScriptParam_0))
 						{
-							STREAMING::REQUEST_MODEL(1922550796);
+							STREAMING::REQUEST_MODEL(joaat("P_ABAT_ROLLER_1_COL"));
 						
-							if (STREAMING::HAS_MODEL_LOADED(1922550796))
+							if (STREAMING::HAS_MODEL_LOADED(joaat("P_ABAT_ROLLER_1_COL")))
 							{
 								if (!func_3(uLocal_4, 0f, 0f, 0f, false))
 								{
-									obLocal_3 = OBJECT::CREATE_OBJECT(1922550796, uLocal_4, true, true, false);
+									obLocal_3 = OBJECT::CREATE_OBJECT(joaat("P_ABAT_ROLLER_1_COL"), uLocal_4, true, true, false);
 									ENTITY::SET_ENTITY_ROTATION(obLocal_3, uLocal_7, 2, true);
 									iLocal_2 = 1;
 								}
@@ -57,9 +57,9 @@ void main() // Position - 0x0 Hash - 0xDA7793D7 ^0xA5A7A61F
 						break;
 				
 					case 1:
-						if (ENTITY::DOES_ENTITY_HAVE_DRAWABLE(obScriptParam_10))
+						if (ENTITY::DOES_ENTITY_HAVE_DRAWABLE(obScriptParam_0))
 						{
-							if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(-622120100) > 0)
+							if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("MICHAEL2")) > 0)
 							{
 								STREAMING::REQUEST_ANIM_DICT("map_objects");
 							
@@ -70,15 +70,15 @@ void main() // Position - 0x0 Hash - 0xDA7793D7 ^0xA5A7A61F
 						break;
 				
 					case 2:
-						if (ENTITY::DOES_ENTITY_HAVE_DRAWABLE(obScriptParam_10))
+						if (ENTITY::DOES_ENTITY_HAVE_DRAWABLE(obScriptParam_0))
 						{
-							if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(-622120100) > 0)
+							if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("MICHAEL2")) > 0)
 							{
 								if (Global_97112)
 								{
 									if (STREAMING::HAS_ANIM_DICT_LOADED("map_objects"))
 									{
-										ENTITY::PLAY_ENTITY_ANIM(obScriptParam_10, "P_Abat_roller_1_open", "map_objects", 1f, false, true, false, 0, 0);
+										ENTITY::PLAY_ENTITY_ANIM(obScriptParam_0, "P_Abat_roller_1_open", "map_objects", 1f, false, true, false, 0, 0);
 										iLocal_2 = 3;
 									}
 								}
@@ -125,7 +125,7 @@ void main() // Position - 0x0 Hash - 0xDA7793D7 ^0xA5A7A61F
 	return;
 }
 
-Vector3 func_1(float fParam0, var uParam1, var uParam2) // Position - 0x1C6 Hash - 0xFB6A39D2 ^0x80C9C759
+Vector3 func_1(float fParam0, var uParam1, var uParam2) // Hash - 0xFB6A39D2 ^0x80C9C759
 {
 	float num;
 	float num2;
@@ -147,7 +147,7 @@ Vector3 func_1(float fParam0, var uParam1, var uParam2) // Position - 0x1C6 Hash
 	return fParam0;
 }
 
-BOOL func_2(float fParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, float fParam6, BOOL bParam7) // Position - 0x205 Hash - 0x1FB736D4 ^0x234AEAB7
+BOOL func_2(float fParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, float fParam6, BOOL bParam7) // Hash - 0x1FB736D4 ^0x234AEAB7
 {
 	if (fParam6 < 0f)
 		fParam6 = 0f;
@@ -164,7 +164,7 @@ BOOL func_2(float fParam0, var uParam1, var uParam2, var uParam3, var uParam4, v
 	return false;
 }
 
-BOOL func_3(float fParam0, var uParam1, var uParam2, float fParam3, float fParam4, float fParam5, BOOL bParam6) // Position - 0x280 Hash - 0x2D46096D ^0xEA41378F
+BOOL func_3(float fParam0, var uParam1, var uParam2, float fParam3, float fParam4, float fParam5, BOOL bParam6) // Hash - 0x2D46096D ^0xEA41378F
 {
 	if (bParam6)
 		return fParam0 == fParam3 && fParam0.f_1 == fParam3.f_1;
@@ -172,24 +172,24 @@ BOOL func_3(float fParam0, var uParam1, var uParam2, float fParam3, float fParam
 	return fParam0 == fParam3 && fParam0.f_1 == fParam3.f_1 && fParam0.f_2 == fParam3.f_2;
 }
 
-void func_4() // Position - 0x2C7 Hash - 0x9DFBFBA5 ^0xD2E326EF
+void func_4() // Hash - 0x9DFBFBA5 ^0xD2E326EF
 {
 	if (ENTITY::DOES_ENTITY_EXIST(obLocal_3))
 		OBJECT::DELETE_OBJECT(&obLocal_3);
 
-	STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(1922550796);
+	STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(joaat("P_ABAT_ROLLER_1_COL"));
 	func_5("ob_abatdoor Terminated >>>>>>>>>>>>>>>>>\\n");
 	SCRIPT::TERMINATE_THIS_THREAD();
 	return;
 }
 
-void func_5(char* sParam0) // Position - 0x2F2 Hash - 0x646928F0 ^0x646928F0
+void func_5(char* sParam0) // Hash - 0x646928F0 ^0x646928F0
 {
 	func_6(sParam0);
 	return;
 }
 
-void func_6(char* sParam0) // Position - 0x300 Hash - 0xF54A2398 ^0xC5887C42
+void func_6(char* sParam0) // Hash - 0xF54A2398 ^0xC5887C42
 {
 	MISC::ARE_STRINGS_EQUAL(sParam0, sParam0);
 	return;

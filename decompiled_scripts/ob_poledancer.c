@@ -9,30 +9,30 @@
 	Hash hLocal_7 = 0;
 	char* sLocal_8 = 0;
 	BOOL bLocal_9 = 0;
-	Object obScriptParam_10 = 0;
+	Object obScriptParam_0 = 0;
 #endregion
 
-void main() // Position - 0x0 Hash - 0x9F97CE54 ^0x460BFB83
+void main() // Hash - 0x9F97CE54 ^0x460BFB83
 {
 	sLocal_6 = "Poledance_01";
-	hLocal_7 = -945854168;
+	hLocal_7 = joaat("A_F_Y_BEACH_01");
 	sLocal_8 = "MISSSTRIP_CLUB";
 
-	if (ENTITY::DOES_ENTITY_EXIST(obScriptParam_10))
+	if (ENTITY::DOES_ENTITY_EXIST(obScriptParam_0))
 	{
-		ENTITY::FREEZE_ENTITY_POSITION(obScriptParam_10, true);
-		fLocal_2 = { ENTITY::GET_OFFSET_FROM_ENTITY_IN_WORLD_COORDS(obScriptParam_10, 0f, 0f, 0f) };
-		fLocal_5 = ENTITY::GET_ENTITY_HEADING(obScriptParam_10);
-		ENTITY::SET_ENTITY_COLLISION(obScriptParam_10, false, false);
+		ENTITY::FREEZE_ENTITY_POSITION(obScriptParam_0, true);
+		fLocal_2 = { ENTITY::GET_OFFSET_FROM_ENTITY_IN_WORLD_COORDS(obScriptParam_0, 0f, 0f, 0f) };
+		fLocal_5 = ENTITY::GET_ENTITY_HEADING(obScriptParam_0);
+		ENTITY::SET_ENTITY_COLLISION(obScriptParam_0, false, false);
 	}
 
 	while (true)
 	{
 		SYSTEM::WAIT(0);
 	
-		if (ENTITY::DOES_ENTITY_EXIST(obScriptParam_10))
+		if (ENTITY::DOES_ENTITY_EXIST(obScriptParam_0))
 		{
-			if (BRAIN::IS_OBJECT_WITHIN_BRAIN_ACTIVATION_RANGE(obScriptParam_10))
+			if (BRAIN::IS_OBJECT_WITHIN_BRAIN_ACTIVATION_RANGE(obScriptParam_0))
 			{
 				switch (iLocal_0)
 				{
@@ -49,7 +49,7 @@ void main() // Position - 0x0 Hash - 0x9F97CE54 ^0x460BFB83
 					
 						if (func_2())
 						{
-							ENTITY::SET_ENTITY_COLLISION(obScriptParam_10, true, false);
+							ENTITY::SET_ENTITY_COLLISION(obScriptParam_0, true, false);
 							iLocal_0 = 3;
 						}
 						break;
@@ -79,7 +79,7 @@ void main() // Position - 0x0 Hash - 0x9F97CE54 ^0x460BFB83
 	return;
 }
 
-void func_1() // Position - 0xDC Hash - 0x5C2EA6D2 ^0x2D969DDD
+void func_1() // Hash - 0x5C2EA6D2 ^0x2D969DDD
 {
 	if (!ENTITY::IS_ENTITY_DEAD(pedLocal_1, false))
 		if (!ENTITY::IS_ENTITY_ON_SCREEN(pedLocal_1))
@@ -91,7 +91,7 @@ void func_1() // Position - 0xDC Hash - 0x5C2EA6D2 ^0x2D969DDD
 	return;
 }
 
-BOOL func_2() // Position - 0x10D Hash - 0xA552291D ^0x713C131A
+BOOL func_2() // Hash - 0xA552291D ^0x713C131A
 {
 	Vector3 vector;
 
@@ -118,7 +118,7 @@ BOOL func_2() // Position - 0x10D Hash - 0xA552291D ^0x713C131A
 	return false;
 }
 
-void func_3() // Position - 0x181 Hash - 0x24B7B0A9 ^0x9944F7F1
+void func_3() // Hash - 0x24B7B0A9 ^0x9944F7F1
 {
 	if (!PED::IS_PED_INJURED(pedLocal_1))
 	{
@@ -143,7 +143,7 @@ void func_3() // Position - 0x181 Hash - 0x24B7B0A9 ^0x9944F7F1
 	return;
 }
 
-void func_4() // Position - 0x215 Hash - 0x91FFF757 ^0x51FBDD6D
+void func_4() // Hash - 0x91FFF757 ^0x51FBDD6D
 {
 	if (ENTITY::IS_ENTITY_DEAD(pedLocal_1, false))
 	{
@@ -156,7 +156,7 @@ void func_4() // Position - 0x215 Hash - 0x91FFF757 ^0x51FBDD6D
 	return;
 }
 
-BOOL func_5() // Position - 0x253 Hash - 0xB2EB25EC ^0x49821DD1
+BOOL func_5() // Hash - 0xB2EB25EC ^0x49821DD1
 {
 	STREAMING::REQUEST_MODEL(hLocal_7);
 	STREAMING::REQUEST_ANIM_DICT(sLocal_8);

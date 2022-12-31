@@ -2,19 +2,19 @@
 	Vehicle veLocal_0 = 0;
 	Entity eLocal_1 = 0;
 	int iLocal_2 = 0;
-	Vehicle veScriptParam_3 = 0;
-	var uScriptParam_4 = 0;
+	Vehicle veScriptParam_0 = 0;
+	var uScriptParam_1 = 0;
 #endregion
 
-void main() // Position - 0x0 Hash - 0x94BC7ACC ^0x7C3177F
+void main() // Hash - 0x94BC7ACC ^0x7C3177F
 {
 	float num;
 
 	if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(19))
 		func_1();
 
-	veLocal_0 = veScriptParam_3;
-	eLocal_1 = veScriptParam_3.f_1;
+	veLocal_0 = veScriptParam_0;
+	eLocal_1 = veScriptParam_0.f_1;
 
 	while (!IS_BIT_SET(iLocal_2, 1))
 	{
@@ -63,7 +63,7 @@ void main() // Position - 0x0 Hash - 0x94BC7ACC ^0x7C3177F
 	return;
 }
 
-void func_1() // Position - 0x105 Hash - 0x960CE90E ^0xC3A498DD
+void func_1() // Hash - 0x960CE90E ^0xC3A498DD
 {
 	ENTITY::SET_VEHICLE_AS_NO_LONGER_NEEDED(&veLocal_0);
 	ENTITY::SET_ENTITY_AS_NO_LONGER_NEEDED(&eLocal_1);

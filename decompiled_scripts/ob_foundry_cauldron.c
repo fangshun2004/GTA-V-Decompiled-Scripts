@@ -4,10 +4,10 @@
 	int iLocal_2 = 0;
 	int iLocal_3 = 0;
 	Object obLocal_4 = 0;
-	Object obScriptParam_5 = 0;
+	Object obScriptParam_0 = 0;
 #endregion
 
-void main() // Position - 0x0 Hash - 0x3EECFFB5 ^0xC27D5668
+void main() // Hash - 0x3EECFFB5 ^0xC27D5668
 {
 	Interior interiorFromEntity;
 
@@ -18,9 +18,9 @@ void main() // Position - 0x0 Hash - 0x3EECFFB5 ^0xC27D5668
 	{
 		SYSTEM::WAIT(0);
 	
-		if (ENTITY::DOES_ENTITY_EXIST(obScriptParam_5))
+		if (ENTITY::DOES_ENTITY_EXIST(obScriptParam_0))
 		{
-			if (BRAIN::IS_OBJECT_WITHIN_BRAIN_ACTIVATION_RANGE(obScriptParam_5) && SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(1986443536) == 0)
+			if (BRAIN::IS_OBJECT_WITHIN_BRAIN_ACTIVATION_RANGE(obScriptParam_0) && SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("FINALEC1")) == 0)
 			{
 				switch (iLocal_2)
 				{
@@ -49,7 +49,7 @@ void main() // Position - 0x0 Hash - 0x3EECFFB5 ^0xC27D5668
 							if (!PED::IS_PED_INJURED(PLAYER::PLAYER_PED_ID()))
 							{
 								if (!ENTITY::DOES_ENTITY_EXIST(obLocal_4))
-									obLocal_4 = OBJECT::GET_CLOSEST_OBJECT_OF_TYPE(1090f, -1996f, 39f, 100f, -1639085878, true, false, true);
+									obLocal_4 = OBJECT::GET_CLOSEST_OBJECT_OF_TYPE(1090f, -1996f, 39f, 100f, joaat("V_ILEV_FOUND_CRANEBUCKET"), true, false, true);
 							
 								if (!GRAPHICS::DOES_PARTICLE_FX_LOOPED_EXIST(iLocal_3))
 								{
@@ -85,7 +85,7 @@ void main() // Position - 0x0 Hash - 0x3EECFFB5 ^0xC27D5668
 	return;
 }
 
-void func_1() // Position - 0x135 Hash - 0x92213F41 ^0xE62A2EC4
+void func_1() // Hash - 0x92213F41 ^0xE62A2EC4
 {
 	if (GRAPHICS::DOES_PARTICLE_FX_LOOPED_EXIST(iLocal_3))
 		GRAPHICS::STOP_PARTICLE_FX_LOOPED(iLocal_3, false);
@@ -98,13 +98,13 @@ void func_1() // Position - 0x135 Hash - 0x92213F41 ^0xE62A2EC4
 	return;
 }
 
-void func_2(char* sParam0) // Position - 0x167 Hash - 0x646928F0 ^0x646928F0
+void func_2(char* sParam0) // Hash - 0x646928F0 ^0x646928F0
 {
 	func_3(sParam0);
 	return;
 }
 
-void func_3(char* sParam0) // Position - 0x175 Hash - 0xF54A2398 ^0xC5887C42
+void func_3(char* sParam0) // Hash - 0xF54A2398 ^0xC5887C42
 {
 	MISC::ARE_STRINGS_EQUAL(sParam0, sParam0);
 	return;

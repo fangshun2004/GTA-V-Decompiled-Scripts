@@ -113,10 +113,10 @@
 	var uLocal_111 = 0;
 	var uLocal_112 = 0;
 	var uLocal_113 = 0;
-	var uScriptParam_114 = 0;
+	var uScriptParam_0 = 0;
 #endregion
 
-void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
+void main() // Hash - 0x5D84F89F ^0x5D84F89F
 {
 	iLocal_2 = 1;
 	iLocal_3 = 134;
@@ -143,7 +143,7 @@ void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
 	iLocal_41 = 49;
 	iLocal_42 = 64;
 	fLocal_65 = (0.05f + 0.275f) - 0.01f;
-	uScriptParam_114 = uScriptParam_114;
+	uScriptParam_0 = uScriptParam_0;
 	return;
 }
 

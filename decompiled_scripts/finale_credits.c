@@ -130,7 +130,7 @@
 	int iLocal_128 = 0;
 #endregion
 
-void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
+void main() // Hash - 0x5D84F89F ^0x5D84F89F
 {
 	iLocal_2 = 1;
 	iLocal_3 = 134;
@@ -148,8 +148,8 @@ void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
 	fLocal_21 = 0f;
 	fLocal_25 = -0.0375f;
 	fLocal_26 = 0.17f;
-	iLocal_33 = -1320879687;
-	iLocal_34 = -1683328900;
+	iLocal_33 = joaat("S_M_Y_SHERIFF_01");
+	iLocal_34 = joaat("SHERIFF");
 
 	if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(3))
 		func_38();
@@ -246,7 +246,7 @@ void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
 		
 			case 1:
 				HUD::HIDE_HUD_AND_RADAR_THIS_FRAME();
-				unk_0x046BB5542F81F910();
+				MISC::DISABLE_SCREEN_DIMMING_THIS_FRAME();
 			
 				switch (iLocal_29)
 				{
@@ -466,7 +466,7 @@ void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
 					AUDIO::PLAY_END_CREDITS_MUSIC(false);
 					AUDIO::STOP_AUDIO_SCENE("CAR_MOD_RADIO_MUTE_SCENE");
 					STREAMING::SET_GAME_PAUSES_FOR_STREAMING(true);
-					unk_0x85FC98CABCAE0422();
+					GRAPHICS::PROCGRASS_ENABLE_AMBSCALESCAN();
 					MISC::SET_TIME_SCALE(1f);
 					PLAYER::SET_PLAYER_CONTROL(PLAYER::PLAYER_ID(), true, 0);
 					func_38();
@@ -480,7 +480,7 @@ void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
 	return;
 }
 
-BOOL func_1() // Position - 0x5B2 Hash - 0x57459B9C ^0x9A36D842
+BOOL func_1() // Hash - 0x57459B9C ^0x9A36D842
 {
 	if (HUD::IS_PAUSE_MENU_ACTIVE())
 		return false;
@@ -491,13 +491,13 @@ BOOL func_1() // Position - 0x5B2 Hash - 0x57459B9C ^0x9A36D842
 	return false;
 }
 
-void func_2() // Position - 0x5E4 Hash - 0x9A142650 ^0xE9E53C81
+void func_2() // Hash - 0x9A142650 ^0xE9E53C81
 {
 	Global_23131.f_6 = 1;
 	return;
 }
 
-BOOL func_3() // Position - 0x5F2 Hash - 0xFEB52FAC ^0x6489B97D
+BOOL func_3() // Hash - 0xFEB52FAC ^0x5AF60283
 {
 	switch (iLocal_31)
 	{
@@ -505,7 +505,7 @@ BOOL func_3() // Position - 0x5F2 Hash - 0xFEB52FAC ^0x6489B97D
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 2);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -1761.3226f, -862.844f, 8.164f, 0.4405f, 0f, 92.1012f, 45f, true, 2), 35000 + (iLocal_32 / 3), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -1789.1201f, -863.8638f, 8.3779f, 0.4405f, 0f, 92.1012f, 45f, true, 2), 35000 + (iLocal_32 / 3), 3);
@@ -540,7 +540,7 @@ BOOL func_3() // Position - 0x5F2 Hash - 0xFEB52FAC ^0x6489B97D
 	return false;
 }
 
-void func_4() // Position - 0x747 Hash - 0x9EE84918 ^0x78A3A193
+void func_4() // Hash - 0x9EE84918 ^0x78A3A193
 {
 	if (CAM::IS_SCREEN_FADED_OUT())
 		CAM::DO_SCREEN_FADE_IN(5000);
@@ -548,7 +548,7 @@ void func_4() // Position - 0x747 Hash - 0x9EE84918 ^0x78A3A193
 	return;
 }
 
-BOOL func_5() // Position - 0x75D Hash - 0xB797285B ^0x8DFE858E
+BOOL func_5() // Hash - 0xB797285B ^0x141F3A1
 {
 	switch (iLocal_31)
 	{
@@ -556,7 +556,7 @@ BOOL func_5() // Position - 0x75D Hash - 0xB797285B ^0x8DFE858E
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 0);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -2024.1204f, -556.459f, 10.3882f, 7.8994f, 0f, -42.1714f, 45f, true, 2), 35000 + (iLocal_32 / 6), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -2010.8842f, -568.449f, 10.3882f, 7.8994f, 0f, -42.1714f, 45f, true, 2), 35000 + (iLocal_32 / 6), 3);
@@ -594,7 +594,7 @@ BOOL func_5() // Position - 0x75D Hash - 0xB797285B ^0x8DFE858E
 	return false;
 }
 
-BOOL func_6() // Position - 0x95A Hash - 0xFEB52FAC ^0x6489B97D
+BOOL func_6() // Hash - 0xFEB52FAC ^0x5AF60283
 {
 	switch (iLocal_31)
 	{
@@ -602,7 +602,7 @@ BOOL func_6() // Position - 0x95A Hash - 0xFEB52FAC ^0x6489B97D
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 2);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 190.783f, -1399.5414f, 28.7482f, 9.2974f, 0f, 15.6743f, 45f, true, 2), 27000 + (iLocal_32 / 3), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 189.3631f, -1388.63f, 28.7482f, 9.2974f, 0f, 15.6743f, 45f, true, 2), 27000 + (iLocal_32 / 3), 3);
@@ -637,7 +637,7 @@ BOOL func_6() // Position - 0x95A Hash - 0xFEB52FAC ^0x6489B97D
 	return false;
 }
 
-BOOL func_7() // Position - 0xAAC Hash - 0xFEB52FAC ^0x6489B97D
+BOOL func_7() // Hash - 0xFEB52FAC ^0x5AF60283
 {
 	switch (iLocal_31)
 	{
@@ -645,7 +645,7 @@ BOOL func_7() // Position - 0xAAC Hash - 0xFEB52FAC ^0x6489B97D
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 2);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 1138.2307f, -560.4722f, 59.6695f, -19.2128f, 0f, 131.1068f, 45f, true, 2), 15000 + (iLocal_32 / 8), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 1135.0923f, -561.35614f, 57.377533f, 1.84264f, -0.199522f, 131.73439f, 45f, true, 2), 15000 + (iLocal_32 / 8), 3);
@@ -685,7 +685,7 @@ BOOL func_7() // Position - 0xAAC Hash - 0xFEB52FAC ^0x6489B97D
 	return false;
 }
 
-BOOL func_8() // Position - 0xD35 Hash - 0xB797285B ^0x8DFE858E
+BOOL func_8() // Hash - 0xB797285B ^0x141F3A1
 {
 	switch (iLocal_31)
 	{
@@ -693,7 +693,7 @@ BOOL func_8() // Position - 0xD35 Hash - 0xB797285B ^0x8DFE858E
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 0);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 570.1339f, 624.7344f, 181.2577f, 8.233f, 0f, -15.99f, 45f, true, 2), 0, 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 609.7789f, 763.0852f, 205.4756f, 7.075f, 0f, -15.99f, 45f, true, 2), 30000 + (iLocal_32 / 4), 3);
@@ -729,7 +729,7 @@ BOOL func_8() // Position - 0xD35 Hash - 0xB797285B ^0x8DFE858E
 	return false;
 }
 
-BOOL func_9() // Position - 0xEDF Hash - 0xB797285B ^0x8DFE858E
+BOOL func_9() // Hash - 0xB797285B ^0x141F3A1
 {
 	switch (iLocal_31)
 	{
@@ -737,7 +737,7 @@ BOOL func_9() // Position - 0xEDF Hash - 0xB797285B ^0x8DFE858E
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 0);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 405.4927f, 110.5945f, 105.0361f, 28.7364f, 0f, 4.2586f, 45f, true, 2), 15000 + (iLocal_32 / 5), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 351.9488f, 127.5968f, 104.7248f, 28.5356f, 0f, -29.4515f, 45f, true, 2), 15000 + (iLocal_32 / 5), 3);
@@ -773,7 +773,7 @@ BOOL func_9() // Position - 0xEDF Hash - 0xB797285B ^0x8DFE858E
 	return false;
 }
 
-BOOL func_10() // Position - 0x1098 Hash - 0xE8296746 ^0x7B8CC45A
+BOOL func_10() // Hash - 0xE8296746 ^0x1CDA61CA
 {
 	switch (iLocal_31)
 	{
@@ -781,7 +781,7 @@ BOOL func_10() // Position - 0x1098 Hash - 0xE8296746 ^0x7B8CC45A
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 0);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 191.20117f, -1188.7715f, 59.375774f, -62.414677f, -0.001852f, 103.98899f, 45f, true, 2), 22000 + (iLocal_32 / 5), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 100.74341f, -1188.2588f, 59.375774f, -62.414677f, -0.001852f, 103.98899f, 45f, true, 2), 22000 + (iLocal_32 / 5), 3);
@@ -818,7 +818,7 @@ BOOL func_10() // Position - 0x1098 Hash - 0xE8296746 ^0x7B8CC45A
 	return false;
 }
 
-BOOL func_11() // Position - 0x126C Hash - 0xE8296746 ^0x7B8CC45A
+BOOL func_11() // Hash - 0xE8296746 ^0x1CDA61CA
 {
 	switch (iLocal_31)
 	{
@@ -826,7 +826,7 @@ BOOL func_11() // Position - 0x126C Hash - 0xE8296746 ^0x7B8CC45A
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 0);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 888.9525f, -408.1645f, 37.6499f, -79.3137f, -0.5998f, 88.7316f, 45f, true, 2), 23000 + (iLocal_32 / 3), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 821.9319f, -422.6405f, 37.4952f, 3.0949f, -0.5998f, 104.4012f, 45f, true, 2), 23000 + (iLocal_32 / 3), 3);
@@ -859,7 +859,7 @@ BOOL func_11() // Position - 0x126C Hash - 0xE8296746 ^0x7B8CC45A
 	return false;
 }
 
-BOOL func_12() // Position - 0x13B5 Hash - 0x9A3CFD90 ^0xE1C12A
+BOOL func_12() // Hash - 0x9A3CFD90 ^0xBF2480BA
 {
 	switch (iLocal_31)
 	{
@@ -869,7 +869,7 @@ BOOL func_12() // Position - 0x13B5 Hash - 0x9A3CFD90 ^0xE1C12A
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 0);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -44.3122f, 2999.557f, 41.1735f, -2.7641f, 0.0005f, 109.3277f, 45f, true, 2), 20000 + (iLocal_32 / 8), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -164.9796f, 2964.199f, 32.6669f, -2.8667f, 0.0005f, 101.2396f, 45f, true, 2), 20000 + (iLocal_32 / 8), 3);
@@ -910,7 +910,7 @@ BOOL func_12() // Position - 0x13B5 Hash - 0x9A3CFD90 ^0xE1C12A
 	return false;
 }
 
-BOOL func_13() // Position - 0x165D Hash - 0xB797285B ^0x8DFE858E
+BOOL func_13() // Hash - 0xB797285B ^0x141F3A1
 {
 	switch (iLocal_31)
 	{
@@ -918,7 +918,7 @@ BOOL func_13() // Position - 0x165D Hash - 0xB797285B ^0x8DFE858E
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 0);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 2174.1765f, 1735.2435f, 109.4122f, 7.6816f, 0f, -0.0482f, 34.8528f, true, 2), 20000 + (iLocal_32 / 3), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 2174.1765f, 1732.0222f, 133.2939f, 7.6816f, 0f, -0.0482f, 34.8528f, true, 2), 20000 + (iLocal_32 / 3), 3);
@@ -951,7 +951,7 @@ BOOL func_13() // Position - 0x165D Hash - 0xB797285B ^0x8DFE858E
 	return false;
 }
 
-BOOL func_14() // Position - 0x17A0 Hash - 0x3E91DD9 ^0x722ABEAF
+BOOL func_14() // Hash - 0x3E91DD9 ^0x722ABEAF
 {
 	var unk;
 
@@ -968,7 +968,7 @@ BOOL func_14() // Position - 0x17A0 Hash - 0x3E91DD9 ^0x722ABEAF
 			{
 				iLocal_120 = PED::ADD_SCENARIO_BLOCKING_AREA({ 12.629f, 4359.485f, -954.3553f } - unk, { 12.629f, 4359.485f, -954.3553f } + unk, false, true, true, true);
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 0);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -1916.0842f, 4795.2188f, 3.1379f, 3.8531f, 0f, -171.7801f, 45f, true, 2), 15000 + (iLocal_32 / 11), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -1905.5077f, 4765.541f, 2.6826f, 9.3203f, -0.0565f, -173.3257f, 45f, true, 2), 15000 + (iLocal_32 / 11), 3);
@@ -1011,7 +1011,7 @@ BOOL func_14() // Position - 0x17A0 Hash - 0x3E91DD9 ^0x722ABEAF
 	return false;
 }
 
-BOOL func_15() // Position - 0x1B40 Hash - 0xFEB52FAC ^0x6489B97D
+BOOL func_15() // Hash - 0xFEB52FAC ^0x5AF60283
 {
 	switch (iLocal_31)
 	{
@@ -1019,7 +1019,7 @@ BOOL func_15() // Position - 0x1B40 Hash - 0xFEB52FAC ^0x6489B97D
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 2);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -352.8542f, 6076.3384f, 32.166f, -1.1628f, 0f, 105.5219f, 45f, true, 2), 20000 + (iLocal_32 / 8), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -381.4112f, 6066.0815f, 32.3482f, 0.6536f, 0f, 130.2366f, 45f, true, 2), 20000 + (iLocal_32 / 8), 3);
@@ -1061,7 +1061,7 @@ BOOL func_15() // Position - 0x1B40 Hash - 0xFEB52FAC ^0x6489B97D
 	return false;
 }
 
-BOOL func_16() // Position - 0x1DAC Hash - 0xB797285B ^0x8DFE858E
+BOOL func_16() // Hash - 0xB797285B ^0x141F3A1
 {
 	switch (iLocal_31)
 	{
@@ -1069,7 +1069,7 @@ BOOL func_16() // Position - 0x1DAC Hash - 0xB797285B ^0x8DFE858E
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 0);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -133.3582f, -2571.7788f, 168.8322f, -67.4567f, 0f, -77.0854f, 45f, true, 2), 20000 + (iLocal_32 / 5), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -281.9736f, -2437.4043f, 176.1545f, -74.7325f, 0f, -55.6515f, 45f, true, 2), 20000 + (iLocal_32 / 5), 3);
@@ -1106,7 +1106,7 @@ BOOL func_16() // Position - 0x1DAC Hash - 0xB797285B ^0x8DFE858E
 	return false;
 }
 
-BOOL func_17() // Position - 0x1F63 Hash - 0xE2DF8C0F ^0x34B7AFEB
+BOOL func_17() // Hash - 0xE2DF8C0F ^0x34B7AFEB
 {
 	switch (iLocal_31)
 	{
@@ -1146,7 +1146,7 @@ BOOL func_17() // Position - 0x1F63 Hash - 0xE2DF8C0F ^0x34B7AFEB
 			{
 				CLOCK::SET_CLOCK_TIME(19, 0, 0);
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 0);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 3185.8894f, -4832.746f, 114.2106f, 3.8204f, 0f, 83.179f, 48.7373f, true, 2), 43000 + (iLocal_32 / 3), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 3289.7566f, -4842.2134f, 114.2106f, 3.8204f, 0f, 83.179f, 48.7373f, true, 2), 43000 + (iLocal_32 / 3), 3);
@@ -1187,7 +1187,7 @@ BOOL func_17() // Position - 0x1F63 Hash - 0xE2DF8C0F ^0x34B7AFEB
 	return false;
 }
 
-BOOL func_18() // Position - 0x22CB Hash - 0xFEB52FAC ^0x6489B97D
+BOOL func_18() // Hash - 0xFEB52FAC ^0x5AF60283
 {
 	switch (iLocal_31)
 	{
@@ -1195,7 +1195,7 @@ BOOL func_18() // Position - 0x22CB Hash - 0xFEB52FAC ^0x6489B97D
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 2);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 1894.2101f, 3752.3677f, 38.8232f, -3.2748f, 0f, 74.7403f, 45f, true, 2), 25000 + (iLocal_32 / 5), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 1822.4341f, 3752.692f, 38.8232f, -0.6732f, 0f, 73.203f, 45f, true, 2), 25000 + (iLocal_32 / 5), 3);
@@ -1232,7 +1232,7 @@ BOOL func_18() // Position - 0x22CB Hash - 0xFEB52FAC ^0x6489B97D
 	return false;
 }
 
-BOOL func_19() // Position - 0x248B Hash - 0xB797285B ^0x8DFE858E
+BOOL func_19() // Hash - 0xB797285B ^0x141F3A1
 {
 	switch (iLocal_31)
 	{
@@ -1240,7 +1240,7 @@ BOOL func_19() // Position - 0x248B Hash - 0xB797285B ^0x8DFE858E
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 0);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 1921.7357f, 2969.344f, 58.458f, 5.9884f, 0f, -115.0092f, 42.011f, true, 2), 15000 + (iLocal_32 / 5), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 1977.8093f, 2989.4807f, 61.3841f, 3.4807f, 0f, -138.1117f, 42.011f, true, 2), 15000 + (iLocal_32 / 5), 3);
@@ -1277,7 +1277,7 @@ BOOL func_19() // Position - 0x248B Hash - 0xB797285B ^0x8DFE858E
 	return false;
 }
 
-BOOL func_20() // Position - 0x264A Hash - 0x9A3CFD90 ^0xE1C12A
+BOOL func_20() // Hash - 0x9A3CFD90 ^0xBF2480BA
 {
 	switch (iLocal_31)
 	{
@@ -1287,7 +1287,7 @@ BOOL func_20() // Position - 0x264A Hash - 0x9A3CFD90 ^0xE1C12A
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 0);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 2339.1348f, 3033.7434f, 49.2209f, -0.8334f, 0f, -69.9175f, 45f, true, 2), 23000 + (iLocal_32 / 5), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 2360.3965f, 3041.5168f, 48.8916f, 2.003f, 0f, -69.8641f, 45f, true, 2), 23000 + (iLocal_32 / 5), 3);
@@ -1325,7 +1325,7 @@ BOOL func_20() // Position - 0x264A Hash - 0x9A3CFD90 ^0xE1C12A
 	return false;
 }
 
-BOOL func_21() // Position - 0x2824 Hash - 0xFEB52FAC ^0x6489B97D
+BOOL func_21() // Hash - 0xFEB52FAC ^0x5AF60283
 {
 	switch (iLocal_31)
 	{
@@ -1333,7 +1333,7 @@ BOOL func_21() // Position - 0x2824 Hash - 0xFEB52FAC ^0x6489B97D
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 2);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -237.0719f, 4715.1753f, 137.1838f, 3.6968f, 0f, 49.6506f, 45f, true, 2), 23000, 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -304.0869f, 4774.08f, 141.6331f, 3.4343f, 0f, 49.1929f, 45f, true, 2), 23000, 3);
@@ -1375,7 +1375,7 @@ BOOL func_21() // Position - 0x2824 Hash - 0xFEB52FAC ^0x6489B97D
 	return false;
 }
 
-BOOL func_22() // Position - 0x2A0A Hash - 0xB797285B ^0x8DFE858E
+BOOL func_22() // Hash - 0xB797285B ^0x141F3A1
 {
 	switch (iLocal_31)
 	{
@@ -1383,7 +1383,7 @@ BOOL func_22() // Position - 0x2A0A Hash - 0xB797285B ^0x8DFE858E
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 0);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 3338.0059f, -621.7776f, -44.9584f, -14.9351f, 0f, 24.5152f, 45f, true, 2), 18000 + (iLocal_32 / 9), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 3287.1018f, -490.8297f, -61.6814f, -0.1146f, 0f, 5.9119f, 45f, true, 2), 18000 + (iLocal_32 / 9), 3);
@@ -1421,7 +1421,7 @@ BOOL func_22() // Position - 0x2A0A Hash - 0xB797285B ^0x8DFE858E
 	return false;
 }
 
-BOOL func_23() // Position - 0x2C92 Hash - 0xE8296746 ^0x7B8CC45A
+BOOL func_23() // Hash - 0xE8296746 ^0x1CDA61CA
 {
 	switch (iLocal_31)
 	{
@@ -1429,7 +1429,7 @@ BOOL func_23() // Position - 0x2C92 Hash - 0xE8296746 ^0x7B8CC45A
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 0);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -2026.1967f, -2744.839f, 19.8858f, -0.3979f, -0.057f, -120.6251f, 45f, true, 2), 20000 + (iLocal_32 / 4), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -1885.261f, -2826.4563f, 18.7531f, -0.3979f, -0.057f, -120.6251f, 45f, true, 2), 20000 + (iLocal_32 / 4), 3);
@@ -1462,7 +1462,7 @@ BOOL func_23() // Position - 0x2C92 Hash - 0xE8296746 ^0x7B8CC45A
 	return false;
 }
 
-BOOL func_24() // Position - 0x2E0E Hash - 0x21AB13AA ^0x5D681311
+BOOL func_24() // Hash - 0x21AB13AA ^0x8C04EF84
 {
 	switch (iLocal_31)
 	{
@@ -1470,7 +1470,7 @@ BOOL func_24() // Position - 0x2E0E Hash - 0x21AB13AA ^0x5D681311
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 2);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -1253.0685f, -1415.438f, 18.0304f, 3.5572f, -0.0007f, 93.1711f, 45f, true, 2), 23000 + (iLocal_32 / 4), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -1252.2156f, -1443.2278f, 18.03f, 3.5572f, -0.0007f, 88.3789f, 45f, true, 2), 23000 + (iLocal_32 / 4), 3);
@@ -1505,7 +1505,7 @@ BOOL func_24() // Position - 0x2E0E Hash - 0x21AB13AA ^0x5D681311
 	return false;
 }
 
-BOOL func_25() // Position - 0x2FA0 Hash - 0x2CC0A299 ^0x9381E67C
+BOOL func_25() // Hash - 0x2CC0A299 ^0x2C03DA77
 {
 	switch (iLocal_31)
 	{
@@ -1515,7 +1515,7 @@ BOOL func_25() // Position - 0x2FA0 Hash - 0x2CC0A299 ^0x9381E67C
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 2);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 2581.335f, 2621.898f, 36.8885f, -0.2545f, 0f, 166.5471f, 45f, true, 2), 25000 + (iLocal_32 / 3), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 2581.335f, 2621.8792f, 41.8131f, -0.2545f, 0f, 166.5471f, 45f, true, 2), 25000 + (iLocal_32 / 3), 3);
@@ -1549,7 +1549,7 @@ BOOL func_25() // Position - 0x2FA0 Hash - 0x2CC0A299 ^0x9381E67C
 	return false;
 }
 
-BOOL func_26() // Position - 0x3106 Hash - 0xB797285B ^0x8DFE858E
+BOOL func_26() // Hash - 0xB797285B ^0x141F3A1
 {
 	switch (iLocal_31)
 	{
@@ -1557,7 +1557,7 @@ BOOL func_26() // Position - 0x3106 Hash - 0xB797285B ^0x8DFE858E
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 0);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -262.8899f, 308.8326f, 93.8405f, 0.1817f, 0f, -159.0937f, 45f, true, 2), 23000 + (iLocal_32 / 5), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -248.2659f, 274.7704f, 93.9581f, 0.1817f, 0f, -155.6208f, 45f, true, 2), 23000 + (iLocal_32 / 5), 3);
@@ -1593,7 +1593,7 @@ BOOL func_26() // Position - 0x3106 Hash - 0xB797285B ^0x8DFE858E
 	return false;
 }
 
-BOOL func_27() // Position - 0x32B7 Hash - 0xFEB52FAC ^0x6489B97D
+BOOL func_27() // Hash - 0xFEB52FAC ^0x5AF60283
 {
 	switch (iLocal_31)
 	{
@@ -1601,7 +1601,7 @@ BOOL func_27() // Position - 0x32B7 Hash - 0xFEB52FAC ^0x6489B97D
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 2);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -865.1187f, -2432.063f, 14.3939f, 3.4252f, 0f, 148.9827f, 45f, true, 2), 22000 + (iLocal_32 / 3), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -864.8112f, -2431.5518f, 23.657f, 10.5248f, 0f, 148.9827f, 45f, true, 2), 22000 + (iLocal_32 / 3), 3);
@@ -1636,7 +1636,7 @@ BOOL func_27() // Position - 0x32B7 Hash - 0xFEB52FAC ^0x6489B97D
 	return false;
 }
 
-BOOL func_28() // Position - 0x340A Hash - 0xE8296746 ^0x7B8CC45A
+BOOL func_28() // Hash - 0xE8296746 ^0x1CDA61CA
 {
 	switch (iLocal_31)
 	{
@@ -1644,7 +1644,7 @@ BOOL func_28() // Position - 0x340A Hash - 0xE8296746 ^0x7B8CC45A
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 0);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 1877.069f, 4189.7876f, 37.3659f, 7.5546f, 0.0017f, 73.6847f, 45f, true, 2), 26000 + (iLocal_32 / 4), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 1488.1042f, 4241.6235f, 37.3659f, 7.5546f, 0.0017f, 64.4795f, 45f, true, 2), 26000 + (iLocal_32 / 4), 3);
@@ -1681,7 +1681,7 @@ BOOL func_28() // Position - 0x340A Hash - 0xE8296746 ^0x7B8CC45A
 	return false;
 }
 
-BOOL func_29() // Position - 0x35B6 Hash - 0xB797285B ^0x8DFE858E
+BOOL func_29() // Hash - 0xB797285B ^0x141F3A1
 {
 	switch (iLocal_31)
 	{
@@ -1689,7 +1689,7 @@ BOOL func_29() // Position - 0x35B6 Hash - 0xB797285B ^0x8DFE858E
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 0);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 2432.4558f, 3784.2878f, 40.5582f, 3.6923f, 0f, -92.5777f, 45f, true, 2), 16500 + (iLocal_32 / 5), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 2448.433f, 3784.2908f, 41.2309f, 8.4183f, 0f, -91.8215f, 45f, true, 2), 16500 + (iLocal_32 / 5), 3);
@@ -1725,7 +1725,7 @@ BOOL func_29() // Position - 0x35B6 Hash - 0xB797285B ^0x8DFE858E
 	return false;
 }
 
-BOOL func_30() // Position - 0x3768 Hash - 0xE8296746 ^0x7B8CC45A
+BOOL func_30() // Hash - 0xE8296746 ^0x1CDA61CA
 {
 	switch (iLocal_31)
 	{
@@ -1733,7 +1733,7 @@ BOOL func_30() // Position - 0x3768 Hash - 0xE8296746 ^0x7B8CC45A
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 0);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 3587.535f, 4860.7925f, 3.9609f, 6.6324f, -0.0179f, 27.2506f, 45f, true, 2), 22000 + (iLocal_32 / 4), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 3533.4978f, 4960.6006f, 3.9609f, 6.2686f, -0.0179f, 27.2506f, 45f, true, 2), 22000 + (iLocal_32 / 4), 3);
@@ -1768,7 +1768,7 @@ BOOL func_30() // Position - 0x3768 Hash - 0xE8296746 ^0x7B8CC45A
 	return false;
 }
 
-BOOL func_31() // Position - 0x38F2 Hash - 0xE8296746 ^0x7B8CC45A
+BOOL func_31() // Hash - 0xE8296746 ^0x1CDA61CA
 {
 	switch (iLocal_31)
 	{
@@ -1776,7 +1776,7 @@ BOOL func_31() // Position - 0x38F2 Hash - 0xE8296746 ^0x7B8CC45A
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 0);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -2204.9595f, 1620.8646f, 267.1454f, -8.5002f, -0.0025f, -49.987f, 45f, true, 2), 22000 + (iLocal_32 / 5), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -2043.7039f, 1738.2576f, 219.7041f, -12.5074f, -0.0025f, -51.8025f, 45f, true, 2), 22000 + (iLocal_32 / 5), 3);
@@ -1812,7 +1812,7 @@ BOOL func_31() // Position - 0x38F2 Hash - 0xE8296746 ^0x7B8CC45A
 	return false;
 }
 
-BOOL func_32() // Position - 0x3AB8 Hash - 0xE8296746 ^0x7B8CC45A
+BOOL func_32() // Hash - 0xE8296746 ^0x1CDA61CA
 {
 	switch (iLocal_31)
 	{
@@ -1820,7 +1820,7 @@ BOOL func_32() // Position - 0x3AB8 Hash - 0xE8296746 ^0x7B8CC45A
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 0);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 920.1297f, -2895.5366f, 30.411575f, -42.447887f, -0.00047f, -166.27141f, 50.093483f, true, 2), 20000 + (iLocal_32 / 6), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", 920.1297f, -2971.7756f, 30.411575f, -42.447887f, -0.00047f, -166.27141f, 50.093483f, true, 2), 20000 + (iLocal_32 / 6), 3);
@@ -1857,7 +1857,7 @@ BOOL func_32() // Position - 0x3AB8 Hash - 0xE8296746 ^0x7B8CC45A
 	return false;
 }
 
-BOOL func_33() // Position - 0x3CB9 Hash - 0xB797285B ^0x8DFE858E
+BOOL func_33() // Hash - 0xB797285B ^0x141F3A1
 {
 	switch (iLocal_31)
 	{
@@ -1865,7 +1865,7 @@ BOOL func_33() // Position - 0x3CB9 Hash - 0xB797285B ^0x8DFE858E
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 0);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -1355.741f, 187.977f, 59.08f, 1.8665f, 0f, -135.1039f, 45f, true, 2), 20000 + (iLocal_32 / 5), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -1329.7139f, 161.8555f, 57.9754f, 1.8665f, 0f, -135.1039f, 45f, true, 2), 20000 + (iLocal_32 / 5), 3);
@@ -1901,7 +1901,7 @@ BOOL func_33() // Position - 0x3CB9 Hash - 0xB797285B ^0x8DFE858E
 	return false;
 }
 
-BOOL func_34() // Position - 0x3E6A Hash - 0x21AB13AA ^0x5D681311
+BOOL func_34() // Hash - 0x21AB13AA ^0x8C04EF84
 {
 	switch (iLocal_31)
 	{
@@ -1909,7 +1909,7 @@ BOOL func_34() // Position - 0x3E6A Hash - 0x21AB13AA ^0x5D681311
 			if (CAM::IS_SCREEN_FADED_OUT())
 			{
 				CAM::DESTROY_ALL_CAMS(false);
-				caLocal_30 = unk_0xDEE46CEB08617ECA("DEFAULT_SPLINE_CAMERA", 0);
+				caLocal_30 = CAM::CREATE_CAM("DEFAULT_SPLINE_CAMERA", false);
 				CAM::SET_CAM_SPLINE_SMOOTHING_STYLE(caLocal_30, 2);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -1692.1573f, -1108.0443f, 13.0504f, 0.7654f, 0.0022f, -92.6355f, 45f, true, 2), 27000 + (iLocal_32 / 4), 3);
 				CAM::ADD_CAM_SPLINE_NODE_USING_CAMERA(caLocal_30, CAM::CREATE_CAM_WITH_PARAMS("DEFAULT_SCRIPTED_CAMERA", -1692.2782f, -1108.0372f, 22.1027f, 0.7654f, 0.0022f, -92.6355f, 45f, true, 2), 27000 + (iLocal_32 / 4), 3);
@@ -1944,27 +1944,27 @@ BOOL func_34() // Position - 0x3E6A Hash - 0x21AB13AA ^0x5D681311
 	return false;
 }
 
-void func_35() // Position - 0x3FFB Hash - 0xFDE2574 ^0xFB8DF502
+void func_35() // Hash - 0xFDE2574 ^0xFB8DF502
 {
 	CAM::DO_SCREEN_FADE_OUT(5000);
 	iLocal_31 = 0;
 	return;
 }
 
-void func_36() // Position - 0x4012 Hash - 0xF4F02F08 ^0x941C5F21
+void func_36() // Hash - 0xF4F02F08 ^0x941C5F21
 {
 	RECORDING::REPLAY_PREVENT_RECORDING_THIS_FRAME();
 	func_37();
 	return;
 }
 
-void func_37() // Position - 0x4022 Hash - 0x9A142650 ^0x461C197C
+void func_37() // Hash - 0x9A142650 ^0x461C197C
 {
 	Global_23131.f_134 = 1;
 	return;
 }
 
-void func_38() // Position - 0x4030 Hash - 0x825B4C58 ^0x24726AF0
+void func_38() // Hash - 0x825B4C58 ^0x24726AF0
 {
 	int num;
 
@@ -2010,7 +2010,7 @@ void func_38() // Position - 0x4030 Hash - 0x825B4C58 ^0x24726AF0
 
 	AUDIO::SET_MOBILE_RADIO_ENABLED_DURING_GAMEPLAY(false);
 	AUDIO::SET_MOBILE_PHONE_RADIO_STATE(false);
-	unk_0x3631F9E446446356(_("Los Santos Rock Radio"));
+	AUDIO::CLEAR_CUSTOM_RADIO_TRACK_LIST(_("Los Santos Rock Radio"));
 	AUDIO::SKIP_RADIO_FORWARD();
 	num = MISC::GET_GAME_TIMER() + 5000;
 	STREAMING::NEW_LOAD_SCENE_START_SPHERE(-1579.245f, 5162.3467f, 18.7032f, 150f, 0);
@@ -2036,14 +2036,14 @@ void func_38() // Position - 0x4030 Hash - 0x825B4C58 ^0x24726AF0
 	return;
 }
 
-void func_39() // Position - 0x4298 Hash - 0x770EF3D1 ^0x44A3AE88
+void func_39() // Hash - 0x770EF3D1 ^0x44A3AE88
 {
 	MISC::SET_CREDITS_ACTIVE(false);
 	SCRIPT::TERMINATE_THIS_THREAD();
 	return;
 }
 
-void func_40(BOOL bParam0, BOOL bParam1) // Position - 0x42A9 Hash - 0x56032C5B ^0x18DFBA48
+void func_40(BOOL bParam0, BOOL bParam1) // Hash - 0x56032C5B ^0x18DFBA48
 {
 	int num;
 	int num2;
@@ -2090,7 +2090,7 @@ void func_40(BOOL bParam0, BOOL bParam1) // Position - 0x42A9 Hash - 0x56032C5B 
 	return;
 }
 
-int func_41() // Position - 0x4379 Hash - 0x39D9D518 ^0xBC98C03C
+int func_41() // Hash - 0x39D9D518 ^0xBC98C03C
 {
 	int i;
 
@@ -2105,7 +2105,7 @@ int func_41() // Position - 0x4379 Hash - 0x39D9D518 ^0xBC98C03C
 	return -1;
 }
 
-BOOL func_42(int iParam0) // Position - 0x43AB Hash - 0xE5CDC45F ^0xE5CDC45F
+BOOL func_42(int iParam0) // Hash - 0xE5CDC45F ^0xE5CDC45F
 {
 	switch (iParam0)
 	{
@@ -2125,15 +2125,15 @@ BOOL func_42(int iParam0) // Position - 0x43AB Hash - 0xE5CDC45F ^0xE5CDC45F
 	return false;
 }
 
-BOOL func_43(BOOL bParam0) // Position - 0x43E9 Hash - 0x15889021 ^0xE7262364
+BOOL func_43(BOOL bParam0) // Hash - 0x15889021 ^0xE7262364
 {
-	if (!bParam0 && SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(-448212099) > 0)
+	if (!bParam0 && SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("BENCHMARK")) > 0)
 		return true;
 
 	return IS_BIT_SET(Global_78807, 0);
 }
 
-void func_44(int iParam0, int iParam1) // Position - 0x4411 Hash - 0x91747301 ^0x6F31F55
+void func_44(int iParam0, int iParam1) // Hash - 0x91747301 ^0x6F31F55
 {
 	Global_78827 = iParam1;
 
@@ -2146,7 +2146,7 @@ void func_44(int iParam0, int iParam1) // Position - 0x4411 Hash - 0x91747301 ^0
 		return;
 	}
 
-	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(-131607125) > 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("MISSION_STAT_WATCHER")) > 0)
 	{
 		if (Global_63356)
 		{
@@ -2160,7 +2160,7 @@ void func_44(int iParam0, int iParam1) // Position - 0x4411 Hash - 0x91747301 ^0
 	return;
 }
 
-void func_45(BOOL bParam0, BOOL bParam1, int iParam2, int iParam3) // Position - 0x445B Hash - 0xA5484192 ^0xF1C0EC85
+void func_45(BOOL bParam0, BOOL bParam1, int iParam2, int iParam3) // Hash - 0xA5484192 ^0xF1C0EC85
 {
 	CAM::SET_WIDESCREEN_BORDERS(bParam0, 0);
 
@@ -2170,7 +2170,7 @@ void func_45(BOOL bParam0, BOOL bParam1, int iParam2, int iParam3) // Position -
 		PLAYER::SET_PLAYER_CONTROL(PLAYER::PLAYER_ID(), !bParam0, 0);
 
 	CAM::RENDER_SCRIPT_CAMS(bParam0, bParam1, iParam2, true, false, 0);
-	HUD::SET_SCRIPT_VARIABLE_HUD_COLOUR(1);
+	HUD::CLEAR_HELP(true);
 	HUD::CLEAR_PRINTS();
 	func_54(bParam0, true, true, false, false, false, false);
 	func_46(bParam0);
@@ -2179,7 +2179,7 @@ void func_45(BOOL bParam0, BOOL bParam1, int iParam2, int iParam3) // Position -
 	return;
 }
 
-void func_46(BOOL bParam0) // Position - 0x44C2 Hash - 0x5FE88D2A ^0xA22C291D
+void func_46(BOOL bParam0) // Hash - 0x5FE88D2A ^0xA22C291D
 {
 	if (bParam0)
 	{
@@ -2202,7 +2202,7 @@ void func_46(BOOL bParam0) // Position - 0x44C2 Hash - 0x5FE88D2A ^0xA22C291D
 	return;
 }
 
-void func_47(int iParam0) // Position - 0x4525 Hash - 0x4066FEF5 ^0x9787FBDA
+void func_47(int iParam0) // Hash - 0x4066FEF5 ^0x9787FBDA
 {
 	if (func_51())
 		return;
@@ -2232,7 +2232,7 @@ void func_47(int iParam0) // Position - 0x4525 Hash - 0x4066FEF5 ^0x9787FBDA
 	return;
 }
 
-BOOL func_48() // Position - 0x45AF Hash - 0xD140D54A ^0xE638D98F
+BOOL func_48() // Hash - 0xD140D54A ^0xE638D98F
 {
 	if (Global_20383.f_1 == 1 || Global_20383.f_1 == 0)
 		return true;
@@ -2240,7 +2240,7 @@ BOOL func_48() // Position - 0x45AF Hash - 0xD140D54A ^0xE638D98F
 	return false;
 }
 
-void func_49(BOOL bParam0, BOOL bParam1) // Position - 0x45D6 Hash - 0xF40FC178 ^0xA6F60F17
+void func_49(BOOL bParam0, BOOL bParam1) // Hash - 0xF40FC178 ^0xA6F60F17
 {
 	if (bParam0)
 	{
@@ -2269,17 +2269,17 @@ void func_49(BOOL bParam0, BOOL bParam1) // Position - 0x45D6 Hash - 0xF40FC178 
 	return;
 }
 
-BOOL func_50() // Position - 0x464A Hash - 0x8DF3D75D ^0x8DF3D75D
+BOOL func_50() // Hash - 0x8DF3D75D ^0x8DF3D75D
 {
 	return IS_BIT_SET(Global_1962996, 5);
 }
 
-BOOL func_51() // Position - 0x4658 Hash - 0xC41437CB ^0xC41437CB
+BOOL func_51() // Hash - 0xC41437CB ^0xC41437CB
 {
 	return IS_BIT_SET(Global_1962996, 19);
 }
 
-BOOL func_52(int iParam0) // Position - 0x4667 Hash - 0xE8921B44 ^0x4F063755
+BOOL func_52(int iParam0) // Hash - 0xE8921B44 ^0x4F063755
 {
 	if (iParam0 == 1)
 		if (Global_20383.f_1 > 3)
@@ -2290,7 +2290,7 @@ BOOL func_52(int iParam0) // Position - 0x4667 Hash - 0xE8921B44 ^0x4F063755
 		else
 			return false;
 
-	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(-754107665) > 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("CELLPHONE_FLASHHAND")) > 0)
 		return true;
 
 	if (Global_20383.f_1 > 3)
@@ -2299,7 +2299,7 @@ BOOL func_52(int iParam0) // Position - 0x4667 Hash - 0xE8921B44 ^0x4F063755
 	return false;
 }
 
-void func_53() // Position - 0x46BE Hash - 0xF8FE2348 ^0xA77911B2
+void func_53() // Hash - 0xF8FE2348 ^0xA77911B2
 {
 	if (Global_20383.f_1 == 9 || Global_20383.f_1 == 10)
 	{
@@ -2310,7 +2310,7 @@ void func_53() // Position - 0x46BE Hash - 0xF8FE2348 ^0xA77911B2
 	return;
 }
 
-void func_54(BOOL bParam0, BOOL bParam1, BOOL bParam2, BOOL bParam3, BOOL bParam4, BOOL bParam5, BOOL bParam6) // Position - 0x46E7 Hash - 0x787E640E ^0x67C15509
+void func_54(BOOL bParam0, BOOL bParam1, BOOL bParam2, BOOL bParam3, BOOL bParam4, BOOL bParam5, BOOL bParam6) // Hash - 0x787E640E ^0x67C15509
 {
 	if (bParam0)
 	{
@@ -2362,12 +2362,12 @@ void func_54(BOOL bParam0, BOOL bParam1, BOOL bParam2, BOOL bParam3, BOOL bParam
 	return;
 }
 
-BOOL func_55() // Position - 0x4834 Hash - 0xAA7793E3 ^0x3F62CDC8
+BOOL func_55() // Hash - 0xAA7793E3 ^0x3F62CDC8
 {
 	return IS_BIT_SET(Global_1853910[PLAYER::PLAYER_ID() /*862*/].f_36.f_18, 14);
 }
 
-BOOL func_56(Player plParam0, int iParam1) // Position - 0x484E Hash - 0x5A3B86CC ^0x2CFA58CE
+BOOL func_56(Player plParam0, int iParam1) // Hash - 0x5A3B86CC ^0x2CFA58CE
 {
 	BOOL flag;
 
@@ -2383,7 +2383,7 @@ BOOL func_56(Player plParam0, int iParam1) // Position - 0x484E Hash - 0x5A3B86C
 	return flag;
 }
 
-int func_57(int iParam0, BOOL bParam1) // Position - 0x4899 Hash - 0x1DCD393E ^0x1DCD393E
+int func_57(int iParam0, BOOL bParam1) // Hash - 0x1DCD393E ^0x1DCD393E
 {
 	int num;
 	int num2;
@@ -2407,12 +2407,12 @@ int func_57(int iParam0, BOOL bParam1) // Position - 0x4899 Hash - 0x1DCD393E ^0
 	return num;
 }
 
-int func_58() // Position - 0x48DA Hash - 0x47FF56D2 ^0x47FF56D2
+int func_58() // Hash - 0x47FF56D2 ^0x47FF56D2
 {
 	return Global_1574918;
 }
 
-BOOL func_59(Player plParam0) // Position - 0x48E6 Hash - 0x68897CDD ^0x62820466
+BOOL func_59(Player plParam0) // Hash - 0x68897CDD ^0x62820466
 {
 	if (func_56(plParam0, 0))
 		return true;
@@ -2427,12 +2427,12 @@ BOOL func_59(Player plParam0) // Position - 0x48E6 Hash - 0x68897CDD ^0x62820466
 	return false;
 }
 
-BOOL func_60() // Position - 0x4925 Hash - 0xA525B2F4 ^0xA525B2F4
+BOOL func_60() // Hash - 0xA525B2F4 ^0xA525B2F4
 {
 	return IS_BIT_SET(Global_2621446, 3);
 }
 
-int func_61(BOOL bParam0, BOOL bParam1, BOOL bParam2, BOOL bParam3) // Position - 0x4933 Hash - 0x3167F4C7 ^0xCE6B9B6A
+int func_61(BOOL bParam0, BOOL bParam1, BOOL bParam2, BOOL bParam3) // Hash - 0x3167F4C7 ^0xCE6B9B6A
 {
 	int num;
 
@@ -2450,7 +2450,7 @@ int func_61(BOOL bParam0, BOOL bParam1, BOOL bParam2, BOOL bParam3) // Position 
 	return num;
 }
 
-void func_62(int iParam0) // Position - 0x4966 Hash - 0x1B2EEE72 ^0xEDBC1F9D
+void func_62(int iParam0) // Hash - 0x1B2EEE72 ^0xEDBC1F9D
 {
 	if (iParam0 == 1)
 		MISC::SET_BIT(&Global_8253, 13);

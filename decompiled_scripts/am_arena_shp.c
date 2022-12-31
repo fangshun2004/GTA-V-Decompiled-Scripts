@@ -153,43 +153,43 @@
 	var uLocal_151 = 0;
 	var uLocal_152 = 0;
 	BOOL bLocal_153 = 0;
-	var uScriptParam_154 = 2147483647;
-	var uScriptParam_155 = 0;
-	var uScriptParam_156 = 0;
-	var uScriptParam_157 = 0;
-	var uScriptParam_158 = 0;
-	var uScriptParam_159 = 0;
-	var uScriptParam_160 = 0;
-	var uScriptParam_161 = 0;
-	var uScriptParam_162 = 0;
-	var uScriptParam_163 = 0;
-	var uScriptParam_164 = 0;
-	var uScriptParam_165 = 0;
-	var uScriptParam_166 = 0;
-	var uScriptParam_167 = 0;
-	var uScriptParam_168 = 0;
-	var uScriptParam_169 = 0;
-	var uScriptParam_170 = 0;
-	var uScriptParam_171 = 0;
-	var uScriptParam_172 = 0;
-	var uScriptParam_173 = 0;
-	var uScriptParam_174 = 0;
-	var uScriptParam_175 = 0;
-	var uScriptParam_176 = 0;
-	var uScriptParam_177 = 0;
-	var uScriptParam_178 = 0;
-	var uScriptParam_179 = 0;
-	var uScriptParam_180 = 0;
-	var uScriptParam_181 = 0;
-	var uScriptParam_182 = 0;
-	var uScriptParam_183 = 0;
-	var uScriptParam_184 = 0;
-	var uScriptParam_185 = 0;
-	var uScriptParam_186 = 0;
-	var uScriptParam_187 = 0;
+	var uScriptParam_0 = 2147483647;
+	var uScriptParam_1 = 0;
+	var uScriptParam_2 = 0;
+	var uScriptParam_3 = 0;
+	var uScriptParam_4 = 0;
+	var uScriptParam_5 = 0;
+	var uScriptParam_6 = 0;
+	var uScriptParam_7 = 0;
+	var uScriptParam_8 = 0;
+	var uScriptParam_9 = 0;
+	var uScriptParam_10 = 0;
+	var uScriptParam_11 = 0;
+	var uScriptParam_12 = 0;
+	var uScriptParam_13 = 0;
+	var uScriptParam_14 = 0;
+	var uScriptParam_15 = 0;
+	var uScriptParam_16 = 0;
+	var uScriptParam_17 = 0;
+	var uScriptParam_18 = 0;
+	var uScriptParam_19 = 0;
+	var uScriptParam_20 = 0;
+	var uScriptParam_21 = 0;
+	var uScriptParam_22 = 0;
+	var uScriptParam_23 = 0;
+	var uScriptParam_24 = 0;
+	var uScriptParam_25 = 0;
+	var uScriptParam_26 = 0;
+	var uScriptParam_27 = 0;
+	var uScriptParam_28 = 0;
+	var uScriptParam_29 = 0;
+	var uScriptParam_30 = 0;
+	var uScriptParam_31 = 0;
+	var uScriptParam_32 = 0;
+	var uScriptParam_33 = 0;
 #endregion
 
-void main() // Position - 0x0 Hash - 0x666EDE34 ^0x666EDE34
+void main() // Hash - 0x666EDE34 ^0x666EDE34
 {
 	iLocal_2 = 1;
 	iLocal_3 = 134;
@@ -206,7 +206,7 @@ void main() // Position - 0x0 Hash - 0x666EDE34 ^0x666EDE34
 	sLocal_18 = "NULL";
 
 	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
-		func_51(uScriptParam_154);
+		func_51(uScriptParam_0);
 	else
 		func_49();
 
@@ -226,7 +226,7 @@ void main() // Position - 0x0 Hash - 0x666EDE34 ^0x666EDE34
 	return;
 }
 
-void func_1() // Position - 0x78 Hash - 0x2AFA1E4A ^0xCE3A0D27
+void func_1() // Hash - 0x2AFA1E4A ^0xCE3A0D27
 {
 	BOOL flag;
 	int num;
@@ -324,7 +324,7 @@ void func_1() // Position - 0x78 Hash - 0x2AFA1E4A ^0xCE3A0D27
 	return;
 }
 
-void func_2(var uParam0, int iParam1) // Position - 0x27B Hash - 0x5D4C3974 ^0x66DF8BFC
+void func_2(var uParam0, int iParam1) // Hash - 0x5D4C3974 ^0x66DF8BFC
 {
 	if (iParam1 == 1)
 	{
@@ -380,18 +380,18 @@ void func_2(var uParam0, int iParam1) // Position - 0x27B Hash - 0x5D4C3974 ^0x6
 	return;
 }
 
-void func_3(var uParam0) // Position - 0x379 Hash - 0xBA5A1D5A ^0xE98CC20C
+void func_3(var uParam0) // Hash - 0xBA5A1D5A ^0xE98CC20C
 {
 	uParam0->f_35 = 0;
 	return;
 }
 
-int func_4(var uParam0) // Position - 0x386 Hash - 0xD73B9827 ^0xF6CB02D7
+int func_4(var uParam0) // Hash - 0xD73B9827 ^0xF6CB02D7
 {
 	return uParam0->f_35;
 }
 
-void func_5(var uParam0, BOOL bParam1) // Position - 0x392 Hash - 0x48DC5AE2 ^0xD97DA323
+void func_5(var uParam0, BOOL bParam1) // Hash - 0x48DC5AE2 ^0xD97DA323
 {
 	func_6(uParam0);
 
@@ -402,7 +402,7 @@ void func_5(var uParam0, BOOL bParam1) // Position - 0x392 Hash - 0x48DC5AE2 ^0x
 	return;
 }
 
-void func_6(var uParam0) // Position - 0x3AF Hash - 0xCB9152A3 ^0x83E435F8
+void func_6(var uParam0) // Hash - 0xCB9152A3 ^0x83E435F8
 {
 	var unk;
 
@@ -411,7 +411,7 @@ void func_6(var uParam0) // Position - 0x3AF Hash - 0xCB9152A3 ^0x83E435F8
 	return;
 }
 
-void func_7(int iParam0) // Position - 0x3CA Hash - 0x1EF7AEAB ^0x6B0851B1
+void func_7(int iParam0) // Hash - 0x1EF7AEAB ^0xF113E33C
 {
 	BOOL flag;
 
@@ -424,7 +424,7 @@ void func_7(int iParam0) // Position - 0x3CA Hash - 0x1EF7AEAB ^0x6B0851B1
 	{
 		if (func_10(iParam0))
 			if (!flag)
-				NETSHOPPING::NET_GAMESERVER_BASKET_IS_ACTIVE();
+				NETSHOPPING::NET_GAMESERVER_BASKET_END();
 		else if (!flag)
 			NETSHOPPING::NET_GAMESERVER_END_SERVICE(Global_4535172[iParam0 /*85*/].f_66);
 	
@@ -434,7 +434,7 @@ void func_7(int iParam0) // Position - 0x3CA Hash - 0x1EF7AEAB ^0x6B0851B1
 	return;
 }
 
-void func_8(Hash hParam0) // Position - 0x41E Hash - 0x5FAAFA5C ^0x2758B106
+void func_8(Hash hParam0) // Hash - 0x5FAAFA5C ^0x2758B106
 {
 	hParam0->f_66 = 0;
 	hParam0->f_66 = 2147483647;
@@ -443,7 +443,7 @@ void func_8(Hash hParam0) // Position - 0x41E Hash - 0x5FAAFA5C ^0x2758B106
 	hParam0->f_66.f_3 = -1593119440;
 	hParam0->f_66.f_4 = -2085313189;
 	hParam0->f_66.f_5 = 0;
-	hParam0->f_66.f_6 = 1227573907;
+	hParam0->f_66.f_6 = joaat("CATEGORY_CLOTH");
 	hParam0->f_66.f_7 = -1161833819;
 	*hParam0 = 0;
 	hParam0->f_1 = 0;
@@ -474,7 +474,7 @@ void func_8(Hash hParam0) // Position - 0x41E Hash - 0x5FAAFA5C ^0x2758B106
 	return;
 }
 
-void func_9(var uParam0) // Position - 0x52A Hash - 0x9819A0D5 ^0x98F58DC2
+void func_9(var uParam0) // Hash - 0x9819A0D5 ^0x98F58DC2
 {
 	*uParam0 = 0;
 	uParam0->f_1 = 0;
@@ -492,7 +492,7 @@ void func_9(var uParam0) // Position - 0x52A Hash - 0x9819A0D5 ^0x98F58DC2
 	return;
 }
 
-BOOL func_10(int iParam0) // Position - 0x572 Hash - 0x117606EA ^0x642E4F1E
+BOOL func_10(int iParam0) // Hash - 0x117606EA ^0x642E4F1E
 {
 	if (iParam0 >= 0 && iParam0 < 15)
 		return Global_4535172[iParam0 /*85*/].f_66.f_5 == 1;
@@ -500,12 +500,12 @@ BOOL func_10(int iParam0) // Position - 0x572 Hash - 0x117606EA ^0x642E4F1E
 	return false;
 }
 
-int func_11() // Position - 0x59D Hash - 0x47FF56D2 ^0x47FF56D2
+int func_11() // Hash - 0x47FF56D2 ^0x47FF56D2
 {
 	return Global_1574918;
 }
 
-int func_12(int iParam0) // Position - 0x5A9 Hash - 0x320B23C8 ^0x320B23C8
+int func_12(int iParam0) // Hash - 0x320B23C8 ^0x320B23C8
 {
 	switch (iParam0)
 	{
@@ -519,7 +519,7 @@ int func_12(int iParam0) // Position - 0x5A9 Hash - 0x320B23C8 ^0x320B23C8
 	return 0;
 }
 
-BOOL func_13() // Position - 0x5D9 Hash - 0x2E0B1DC1 ^0xD2D0A3D9
+BOOL func_13() // Hash - 0x2E0B1DC1 ^0xD2D0A3D9
 {
 	if (MISC::IS_PC_VERSION())
 		return NETSHOPPING::NET_GAMESERVER_USE_SERVER_TRANSACTIONS();
@@ -527,12 +527,12 @@ BOOL func_13() // Position - 0x5D9 Hash - 0x2E0B1DC1 ^0xD2D0A3D9
 	return false;
 }
 
-BOOL func_14() // Position - 0x5F0 Hash - 0xD56328D2 ^0xD56328D2
+BOOL func_14() // Hash - 0xD56328D2 ^0xD56328D2
 {
 	return Global_100733.f_388 > 0;
 }
 
-void func_15(BOOL bParam0) // Position - 0x601 Hash - 0xE4AC5E3E ^0x31D84232
+void func_15(BOOL bParam0) // Hash - 0xE4AC5E3E ^0x31D84232
 {
 	HUD::BUSYSPINNER_OFF();
 
@@ -542,26 +542,26 @@ void func_15(BOOL bParam0) // Position - 0x601 Hash - 0xE4AC5E3E ^0x31D84232
 	return;
 }
 
-BOOL func_16(var uParam0) // Position - 0x616 Hash - 0x86C8ED78 ^0x89E68455
+BOOL func_16(var uParam0) // Hash - 0x86C8ED78 ^0x89E68455
 {
-	if (uParam0->f_66.f_4 == 2043854386)
+	if (uParam0->f_66.f_4 == joaat("SERVICE_SPEND_CASH_DROP"))
 		return false;
 
 	return true;
 }
 
-void func_17(int iParam0) // Position - 0x631 Hash - 0xF987CBF4 ^0x84794091
+void func_17(int iParam0) // Hash - 0xF987CBF4 ^0x84794091
 {
 	struct<7> eventData;
-	BOOL unk;
-	BOOL unk2;
-	int unk3;
-	var unk4;
-	BOOL unk5;
-	var unk6;
-	int flag;
-	int flag2;
+	BOOL flag;
+	BOOL flag2;
 	int num;
+	var unk7;
+	BOOL flag3;
+	var unk92;
+	int num2;
+	int num3;
+	int num4;
 
 	flag = false;
 	flag2 = false;
@@ -742,11 +742,11 @@ void func_17(int iParam0) // Position - 0x631 Hash - 0xF987CBF4 ^0x84794091
 	return;
 }
 
-void func_18(int iParam0, int iParam1, int iParam2, int iParam3, var uParam4) // Position - 0xBA8 Hash - 0x5DB723FD ^0x21C356CC
+void func_18(int iParam0, int iParam1, int iParam2, int iParam3, var uParam4) // Hash - 0x5DB723FD ^0x21C356CC
 {
 	switch (iParam1)
 	{
-		case 1704445500:
+		case joaat("SERVICE_SPEND_BETTING"):
 			MISC::SET_BIT(&(Global_2657589[PLAYER::PLAYER_ID() /*466*/].f_126.f_71), 0);
 			break;
 	}
@@ -757,14 +757,14 @@ void func_18(int iParam0, int iParam1, int iParam2, int iParam3, var uParam4) //
 	return;
 }
 
-void func_19(int iParam0, int iParam1) // Position - 0xBE0 Hash - 0x8B1B3DA8 ^0x8B1B3DA8
+void func_19(int iParam0, int iParam1) // Hash - 0x8B1B3DA8 ^0x8B1B3DA8
 {
 	Global_2697013 = iParam1;
 	Global_2697012 = iParam0;
 	return;
 }
 
-BOOL func_20(var uParam0) // Position - 0xBF4 Hash - 0xE00F6F5 ^0xE00F6F5
+BOOL func_20(var uParam0) // Hash - 0xE00F6F5 ^0xE00F6F5
 {
 	BOOL flag;
 	BOOL flag2;
@@ -789,7 +789,7 @@ BOOL func_20(var uParam0) // Position - 0xBF4 Hash - 0xE00F6F5 ^0xE00F6F5
 	
 		if (Global_2695819)
 		{
-			if (Global_4535172[*uParam0 /*85*/].f_66.f_6 == 1067618600 || Global_4535172[*uParam0 /*85*/].f_66.f_6 == -1303831698)
+			if (Global_4535172[*uParam0 /*85*/].f_66.f_6 == joaat("CATEGORY_WEAPON_AMMO") || Global_4535172[*uParam0 /*85*/].f_66.f_6 == joaat("CATEGORY_MART"))
 			{
 				Global_4536675 = 1;
 				return false;
@@ -823,7 +823,7 @@ BOOL func_20(var uParam0) // Position - 0xBF4 Hash - 0xE00F6F5 ^0xE00F6F5
 	return false;
 }
 
-int func_21() // Position - 0xD24 Hash - 0xF69B7C5A ^0xF3A149A1
+int func_21() // Hash - 0xF69B7C5A ^0xF3A149A1
 {
 	int i;
 	int num;
@@ -843,7 +843,7 @@ int func_21() // Position - 0xD24 Hash - 0xF69B7C5A ^0xF3A149A1
 	return num;
 }
 
-BOOL func_22(int iParam0) // Position - 0xD7A Hash - 0x503F2DCB ^0x1769D2E2
+BOOL func_22(int iParam0) // Hash - 0x503F2DCB ^0x1769D2E2
 {
 	int i;
 	int num;
@@ -869,15 +869,15 @@ BOOL func_22(int iParam0) // Position - 0xD7A Hash - 0x503F2DCB ^0x1769D2E2
 	return false;
 }
 
-BOOL func_23(int iParam0) // Position - 0xDF8 Hash - 0x1DB3839 ^0xC69E3E65
+BOOL func_23(int iParam0) // Hash - 0x1DB3839 ^0xC69E3E65
 {
-	if (iParam0 == 1780666425 || iParam0 == -2043695058 || iParam0 == -1586170317 || iParam0 == 393059668 || iParam0 == -1027218631 || iParam0 == 1048226110 || iParam0 == 569170531 || iParam0 == -856006867 || iParam0 == 848090538 || iParam0 == -293060240 || iParam0 == -47546905 || iParam0 == 463142405 || iParam0 == 1550217370 || iParam0 == -101307780 || iParam0 == 1052472386 || iParam0 == -2130199671 || iParam0 == -1227654538 || iParam0 == -876012764 || iParam0 == -722894325 || iParam0 == 1407278493 || iParam0 == -1579394494 || iParam0 == 1179783540 || iParam0 == 923419301 || iParam0 == -308826175 || iParam0 == 603298940 || iParam0 == -12619854 || iParam0 == -311112675 || iParam0 == 870439158 || iParam0 == -974288740 || iParam0 == -4138654 || iParam0 == -1180954122 || iParam0 == -1918051016 || iParam0 == 844330594 || iParam0 == 1934825517 || iParam0 == 1852024236 || iParam0 == 2099238988 || iParam0 == 1952643559 || iParam0 == -1172900789 || iParam0 == -2015399333 || iParam0 == -1574795641 || iParam0 == -961034881 || iParam0 == 1135468152 || iParam0 == 1265272476 || iParam0 == -634726636 || iParam0 == 696556762 || iParam0 == 443347049 || iParam0 == 403506509 || iParam0 == -883876414 || iParam0 == -1064150715 || iParam0 == -1387253055 || iParam0 == -716963152 || iParam0 == 1138089938 || iParam0 == -561012053 || iParam0 == 1240683675 || iParam0 == 1241904665 || iParam0 == -494565059 || iParam0 == 827308208 || iParam0 == -1857685192 || iParam0 == 1698417709 || iParam0 == -2017925037 || iParam0 == 1057653594 || iParam0 == 1810506918 || iParam0 == 451427308 || iParam0 == 824622151 || iParam0 == 1253978276 || iParam0 == -1576080766 || iParam0 == 1508411869 || iParam0 == 1428501742 || iParam0 == -1918967151 || iParam0 == 1261538664 || iParam0 == 1180397655 || iParam0 == 1414674366 || iParam0 == 261460130 || iParam0 == -2027658376 || iParam0 == 1668610896 || iParam0 == -2032529561 || iParam0 == -1224479447 || iParam0 == -319306689 || iParam0 == -466527264 || iParam0 == 1925965142 || iParam0 == 592152676 || iParam0 == 2035612943 || iParam0 == 1568659720 || iParam0 == 1220095570 || iParam0 == 2050320631 || iParam0 == 592672421 || iParam0 == 1775876058 || iParam0 == -842062976 || iParam0 == -518651910 || iParam0 == 14658715 || iParam0 == -604793592 || iParam0 == -823426392 || iParam0 == -1401862980 || iParam0 == -173354274 || iParam0 == 409533976 || iParam0 == -1472522337 || iParam0 == 542574408 || iParam0 == -1261799063 || iParam0 == 784631574 || iParam0 == -2027479156 || iParam0 == -837690641 || iParam0 == -1029672338 || iParam0 == -1503749970 || iParam0 == -1843409092 || iParam0 == 1669058563 || iParam0 == 2102747615 || iParam0 == 2030771998 || iParam0 == 1708747007 || iParam0 == 645293860 || iParam0 == -818859193 || iParam0 == 300796227 || iParam0 == -1999832346 || iParam0 == 1058055395 || iParam0 == -321151125 || iParam0 == 2078731875 || iParam0 == 1280785534 || iParam0 == -1878824774 || iParam0 == 247992227 || iParam0 == -229237358 || iParam0 == -1123183389 || iParam0 == 1814197076 || iParam0 == 713955548 || iParam0 == -2026544524 || iParam0 == -719580138 || iParam0 == -163417439 || iParam0 == -550417574 || iParam0 == 208223429 || iParam0 == -1433071892 || iParam0 == 761999406 || iParam0 == -1101941763 || iParam0 == 1748245957 || iParam0 == 1036772696 || iParam0 == -1384648535 || iParam0 == -800037808 || iParam0 == -695852120 || iParam0 == 77355315 || iParam0 == 2097889166 || iParam0 == 1707592130 || iParam0 == 1628412596 || iParam0 == 883337077 || iParam0 == -1274418755 || iParam0 == -1853979468 || iParam0 == -239888995 || iParam0 == 1163066566 || iParam0 == -955087020 || iParam0 == 1874391251 || iParam0 == 1633116913 || iParam0 == 668586600 || iParam0 == 15168061 || iParam0 == 590289134 || iParam0 == 99792878 || iParam0 == 1866258778 || iParam0 == -178394060 || iParam0 == 409592287 || iParam0 == 593836803 || iParam0 == 1973036520 || iParam0 == 2063456538 || iParam0 == -728008329 || iParam0 == 119239868)
+	if (iParam0 == joaat("SERVICE_EARN_AMBIENT_JOB_PLANE_TAKEDOWN") || iParam0 == joaat("SERVICE_EARN_AMBIENT_JOB_DISTRACT_COPS") || iParam0 == joaat("SERVICE_EARN_JOB_BONUS") || iParam0 == joaat("SERVICE_EARN_BEND_JOB") || iParam0 == joaat("SERVICE_EARN_JOBS") || iParam0 == joaat("SERVICE_EARN_BOSS") || iParam0 == joaat("SERVICE_EARN_GOON") || iParam0 == joaat("SERVICE_EARN_BOSS_AGENCY") || iParam0 == joaat("SERVICE_EARN_FROM_DESTROYING_CONTRABAND") || iParam0 == joaat("SERVICE_EARN_FROM_VEHICLE_EXPORT") || iParam0 == joaat("SERVICE_EARN_PREMIUM_JOB") || iParam0 == joaat("SERVICE_EARN_SMUGGLER_AGENCY") || iParam0 == joaat("SERVICE_EARN_WAGE_PAYMENT_BONUS") || iParam0 == joaat("SERVICE_EARN_WAGE_PAYMENT") || iParam0 == joaat("SERVICE_EARN_JOB_BONUS_CRIMINAL_MASTERMIND") || iParam0 == joaat("SERVICE_EARN_JOB_BONUS_HEIST_AWARD") || iParam0 == joaat("SERVICE_EARN_JOB_BONUS_FIRST_TIME_BONUS") || iParam0 == joaat("SERVICE_EARN_GANGOPS_WAGES") || iParam0 == joaat("SERVICE_EARN_GANGOPS_WAGES_BONUS") || iParam0 == joaat("SERVICE_EARN_GANGOPS_PREP_PARTICIPATION") || iParam0 == joaat("SERVICE_EARN_GANGOPS_SETUP") || iParam0 == joaat("SERVICE_EARN_GANGOPS_FINALE") || iParam0 == joaat("SERVICE_EARN_GANGOPS_AWARD_MASTERMIND_2") || iParam0 == joaat("SERVICE_EARN_GANGOPS_AWARD_MASTERMIND_3") || iParam0 == joaat("SERVICE_EARN_GANGOPS_AWARD_MASTERMIND_4") || iParam0 == joaat("SERVICE_EARN_GANGOPS_AWARD_LOYALTY_AWARD_2") || iParam0 == joaat("SERVICE_EARN_GANGOPS_AWARD_LOYALTY_AWARD_3") || iParam0 == joaat("SERVICE_EARN_GANGOPS_AWARD_LOYALTY_AWARD_4") || iParam0 == joaat("SERVICE_EARN_GANGOPS_AWARD_FIRST_TIME_XM_BASE") || iParam0 == joaat("SERVICE_EARN_GANGOPS_AWARD_FIRST_TIME_XM_SUBMARINE") || iParam0 == joaat("SERVICE_EARN_GANGOPS_AWARD_FIRST_TIME_XM_SILO") || iParam0 == joaat("SERVICE_EARN_GANGOPS_AWARD_SUPPORTING") || iParam0 == joaat("SERVICE_EARN_GANGOPS_AWARD_ORDER") || iParam0 == joaat("SERVICE_EARN_GANGOPS_ELITE_XM_BASE") || iParam0 == joaat("SERVICE_EARN_GANGOPS_ELITE_XM_SUBMARINE") || iParam0 == joaat("SERVICE_EARN_GANGOPS_ELITE_XM_SILO") || iParam0 == joaat("SERVICE_EARN_GANGOPS_RIVAL_DELIVERY") || iParam0 == joaat("SERVICE_EARN_DOOMSDAY_FINALE_BONUS") || iParam0 == joaat("SERVICE_EARN_BOUNTY_HUNTER_REWARD") || iParam0 == joaat("SERVICE_EARN_FROM_BUSINESS_BATTLE") || iParam0 == joaat("SERVICE_EARN_FROM_CLUB_MANAGEMENT_PARTICIPATION") || iParam0 == joaat("SERVICE_EARN_FROM_FMBB_PHONECALL_MISSION") || iParam0 == joaat("SERVICE_EARN_FROM_BUSINESS_HUB_SELL") || iParam0 == joaat("SERVICE_EARN_FROM_FMBB_BOSS_WORK") || iParam0 == joaat("SERVICE_EARN_FMBB_WAGE_BONUS") || iParam0 == joaat("SERVICE_EARN_NIGHTCLUB_DANCING_AWARD") || iParam0 == joaat("SERVICE_EARN_BB_EVENT_BONUS") || iParam0 == joaat("SERVICE_EARN_ARENA_SKILL_LVL_AWARD") || iParam0 == joaat("SERVICE_EARN_ARENA_CAREER_TIER_PROGRESSION_1") || iParam0 == joaat("SERVICE_EARN_ARENA_CAREER_TIER_PROGRESSION_2") || iParam0 == joaat("SERVICE_EARN_ARENA_CAREER_TIER_PROGRESSION_3") || iParam0 == joaat("SERVICE_EARN_ARENA_CAREER_TIER_PROGRESSION_4") || iParam0 == joaat("SERVICE_EARN_SPIN_THE_WHEEL_CASH") || iParam0 == joaat("SERVICE_EARN_ASSASSINATE_TARGET_KILLED") || iParam0 == joaat("SERVICE_EARN_ARENA_WAR") || iParam0 == joaat("SERVICE_EARN_AMBIENT_JOB_RC_TIME_TRIAL") || iParam0 == joaat("SERVICE_EARN_DAILY_OBJECTIVE_EVENT") || iParam0 == joaat("SERVICE_EARN_COLLECTABLES_ACTION_FIGURES") || iParam0 == joaat("SERVICE_EARN_CASINO_MISSION_REWARD") || iParam0 == joaat("SERVICE_EARN_CASINO_STORY_MISSION_REWARD") || iParam0 == joaat("SERVICE_EARN_CASINO_AWARD_MISSION_ONE_FIRST_TIME") || iParam0 == joaat("SERVICE_EARN_CASINO_AWARD_MISSION_TWO_FIRST_TIME") || iParam0 == joaat("SERVICE_EARN_CASINO_AWARD_MISSION_THREE_FIRST_TIME") || iParam0 == joaat("SERVICE_EARN_CASINO_AWARD_MISSION_FOUR_FIRST_TIME") || iParam0 == joaat("SERVICE_EARN_CASINO_AWARD_MISSION_FIVE_FIRST_TIME") || iParam0 == joaat("SERVICE_EARN_CASINO_AWARD_MISSION_SIX_FIRST_TIME") || iParam0 == joaat("SERVICE_EARN_CASINO_AWARD_STRAIGHT_FLUSH") || iParam0 == joaat("SERVICE_EARN_CASINO_AWARD_TOP_PAIR") || iParam0 == joaat("SERVICE_EARN_CASINO_AWARD_FULL_HOUSE") || iParam0 == joaat("SERVICE_EARN_CASINO_AWARD_LUCKY_LUCKY") || iParam0 == joaat("SERVICE_EARN_CASINO_AWARD_HIGH_ROLLER_BRONZE") || iParam0 == joaat("SERVICE_EARN_CASINO_AWARD_HIGH_ROLLER_SILVER") || iParam0 == joaat("SERVICE_EARN_CASINO_AWARD_HIGH_ROLLER_GOLD") || iParam0 == joaat("SERVICE_EARN_CASINO_AWARD_HIGH_ROLLER_PLATINUM") || iParam0 == joaat("SERVICE_EARN_CASINO_HEIST_SETUP_MISSION") || iParam0 == joaat("SERVICE_EARN_CASINO_HEIST_PREP_MISSION") || iParam0 == joaat("SERVICE_EARN_CASINO_HEIST_FINALE") || iParam0 == joaat("SERVICE_EARN_CASINO_HEIST_AWARD_SMASH_N_GRAB") || iParam0 == joaat("SERVICE_EARN_CASINO_HEIST_AWARD_IN_PLAIN_SIGHT") || iParam0 == joaat("SERVICE_EARN_CASINO_HEIST_AWARD_UNDETECTED") || iParam0 == joaat("SERVICE_EARN_CASINO_HEIST_AWARD_ALL_ROUNDER") || iParam0 == joaat("SERVICE_EARN_CASINO_HEIST_AWARD_ELITE_THIEF") || iParam0 == joaat("SERVICE_EARN_CASINO_HEIST_AWARD_PROFESSIONAL") || iParam0 == joaat("SERVICE_EARN_CASINO_HEIST_ELITE_STEALTH") || iParam0 == joaat("SERVICE_EARN_CASINO_HEIST_ELITE_SUBTERFUGE") || iParam0 == joaat("SERVICE_EARN_CASINO_HEIST_ELITE_DIRECT") || iParam0 == joaat("SERVICE_EARN_COLLECTABLE_ITEM") || iParam0 == joaat("SERVICE_EARN_COLLECTABLE_COMPLETED_COLLECTION") || iParam0 == joaat("SERVICE_EARN_COLLECTABLES_SIGNAL_JAMMERS") || iParam0 == joaat("SERVICE_EARN_COLLECTABLES_SIGNAL_JAMMERS_COMPLETE") || iParam0 == joaat("SERVICE_EARN_ISLAND_HEIST_FINALE") || iParam0 == joaat("SERVICE_EARN_ISLAND_HEIST_ELITE_CHALLENGE") || iParam0 == joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_PROFESSIONAL") || iParam0 == joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_ELITE_THIEF") || iParam0 == joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_THE_ISLAND_HEIST") || iParam0 == joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_GOING_ALONE") || iParam0 == joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_TEAM_WORK") || iParam0 == joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_CAT_BURGLAR") || iParam0 == joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_PRO_THIEF") || iParam0 == joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_MIXING_IT_UP") || iParam0 == joaat("SERVICE_EARN_ISLAND_HEIST_PREP") || iParam0 == joaat("SERVICE_EARN_ISLAND_HEIST_DJ_MISSION") || iParam0 == joaat("SERVICE_EARN_TUNER_ROBBERY_PREP") || iParam0 == joaat("SERVICE_EARN_TUNER_ROBBERY_FINALE") || iParam0 == joaat("SERVICE_EARN_TUNER_CAR_CLUB_MEMBERSHIP") || iParam0 == joaat("SERVICE_EARN_TUNER_DAILY_VEHICLE") || iParam0 == joaat("SERVICE_EARN_TUNER_DAILY_VEHICLE_BONUS") || iParam0 == joaat("SERVICE_EARN_TUNER_AWARD_UNION_DEPOSITORY") || iParam0 == joaat("SERVICE_EARN_TUNER_AWARD_MILITARY_CONVOY") || iParam0 == joaat("SERVICE_EARN_TUNER_AWARD_FLEECA_BANK") || iParam0 == joaat("SERVICE_EARN_TUNER_AWARD_FREIGHT_TRAIN") || iParam0 == joaat("SERVICE_EARN_TUNER_AWARD_BOLINGBROKE_ASS") || iParam0 == joaat("SERVICE_EARN_TUNER_AWARD_IAA_RAID") || iParam0 == joaat("SERVICE_EARN_TUNER_AWARD_METH_JOB") || iParam0 == joaat("SERVICE_EARN_TUNER_AWARD_BUNKER_RAID") || iParam0 == joaat("SERVICE_EARN_AUTO_SHOP_DELIVERY_AWARD") || iParam0 == joaat("SERVICE_EARN_AGENCY_SECURITY_CONTRACT") || iParam0 == joaat("SERVICE_EARN_AGENCY_PAYPHONE_HIT") || iParam0 == joaat("SERVICE_EARN_AGENCY_STORY_PREP") || iParam0 == joaat("SERVICE_EARN_AGENCY_STORY_FINALE") || iParam0 == joaat("SERVICE_EARN_FIXER_AWARD_SEC_CON") || iParam0 == joaat("SERVICE_EARN_FIXER_AWARD_PHONE_HIT") || iParam0 == joaat("SERVICE_EARN_FIXER_AWARD_AGENCY_STORY") || iParam0 == joaat("SERVICE_EARN_FIXER_AWARD_SHORT_TRIP") || iParam0 == joaat("SERVICE_EARN_FIXER_RIVAL_DELIVERY") || iParam0 == joaat("SERVICE_EARN_MUSIC_STUDIO_SHORT_TRIP") || iParam0 == joaat("SERVICE_EARN_FROM_CONTRABAND") || iParam0 == joaat("SERVICE_EARN_NCLUB_TROUBLEMAKER") || iParam0 == joaat("SERVICE_EARN_SIGHTSEEING_REWARD") || iParam0 == joaat("SERVICE_EARN_AMBIENT_JOB_CLUBHOUSE_CONTRACT") || iParam0 == joaat("SERVICE_EARN_AMBIENT_JOB_UNDERWATER_CARGO") || iParam0 == joaat("SERVICE_EARN_AMBIENT_JOB_CRIME_SCENE") || iParam0 == joaat("SERVICE_EARN_AMBIENT_JOB_METAL_DETECTOR") || iParam0 == joaat("SERVICE_EARN_AMBIENT_JOB_SMUGGLER_PLANE") || iParam0 == joaat("SERVICE_EARN_AMBIENT_JOB_SMUGGLER_TRAIL") || iParam0 == joaat("SERVICE_EARN_AMBIENT_JOB_GOLDEN_GUN") || iParam0 == joaat("SERVICE_EARN_AMBIENT_JOB_AMMUNATION_DELIVERY") || iParam0 == joaat("SERVICE_EARN_AMBIENT_JOB_SOURCE_RESEARCH") || iParam0 == joaat("SERVICE_EARN_YOHAN_SOURCE_GOODS") || iParam0 == 883337077 || iParam0 == -1274418755 || iParam0 == -1853979468 || iParam0 == -239888995 || iParam0 == 1163066566 || iParam0 == -955087020 || iParam0 == 1874391251 || iParam0 == 1633116913 || iParam0 == 668586600 || iParam0 == 15168061 || iParam0 == 590289134 || iParam0 == 99792878 || iParam0 == 1866258778 || iParam0 == -178394060 || iParam0 == 409592287 || iParam0 == 593836803 || iParam0 == 1973036520 || iParam0 == 2063456538 || iParam0 == -728008329 || iParam0 == 119239868)
 		return true;
 
 	return false;
 }
 
-BOOL func_24() // Position - 0x16B2 Hash - 0x4049A12 ^0x9F8C0D3C
+BOOL func_24() // Hash - 0x4049A12 ^0x9F8C0D3C
 {
 	BOOL flag;
 	BOOL flag2;
@@ -907,7 +907,7 @@ BOOL func_24() // Position - 0x16B2 Hash - 0x4049A12 ^0x9F8C0D3C
 	
 		if (Global_2695819)
 		{
-			if (Global_4535172[num /*85*/].f_66.f_6 == 1067618600 || Global_4535172[num /*85*/].f_66.f_6 == -1303831698)
+			if (Global_4535172[num /*85*/].f_66.f_6 == joaat("CATEGORY_WEAPON_AMMO") || Global_4535172[num /*85*/].f_66.f_6 == joaat("CATEGORY_MART"))
 			{
 				Global_4536675 = 1;
 				return false;
@@ -944,10 +944,10 @@ BOOL func_24() // Position - 0x16B2 Hash - 0x4049A12 ^0x9F8C0D3C
 	return false;
 }
 
-void func_25(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, var uParam12, var uParam13, var uParam14, var uParam15, var uParam16, var uParam17, var uParam18, var uParam19, var uParam20, var uParam21, var uParam22, var uParam23, var uParam24, var uParam25, var uParam26, var uParam27, var uParam28, var uParam29, var uParam30, var uParam31, var uParam32, var uParam33, var uParam34, var uParam35, var uParam36, var uParam37, var uParam38, var uParam39, var uParam40, var uParam41, var uParam42, var uParam43, var uParam44, var uParam45, var uParam46, var uParam47, var uParam48, var uParam49, var uParam50, var uParam51, var uParam52, var uParam53, var uParam54, var uParam55, var uParam56, var uParam57, var uParam58, var uParam59, var uParam60, var uParam61, var uParam62, var uParam63, var uParam64, var uParam65, var uParam66, var uParam67, var uParam68, var uParam69, var uParam70, var uParam71, var uParam72, var uParam73, var uParam74, var uParam75, var uParam76, var uParam77, var uParam78, var uParam79, var uParam80, var uParam81, var uParam82, var uParam83, var uParam84, int iParam85) // Position - 0x1812 Hash - 0x8E828F1B ^0xE931A03B
+void func_25(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, var uParam12, var uParam13, var uParam14, var uParam15, var uParam16, var uParam17, var uParam18, var uParam19, var uParam20, var uParam21, var uParam22, var uParam23, var uParam24, var uParam25, var uParam26, var uParam27, var uParam28, var uParam29, var uParam30, var uParam31, var uParam32, var uParam33, var uParam34, var uParam35, var uParam36, var uParam37, var uParam38, var uParam39, var uParam40, var uParam41, var uParam42, var uParam43, var uParam44, var uParam45, var uParam46, var uParam47, var uParam48, var uParam49, var uParam50, var uParam51, var uParam52, var uParam53, var uParam54, var uParam55, var uParam56, var uParam57, var uParam58, var uParam59, var uParam60, var uParam61, var uParam62, var uParam63, var uParam64, var uParam65, var uParam66, var uParam67, var uParam68, var uParam69, var uParam70, var uParam71, var uParam72, var uParam73, var uParam74, var uParam75, var uParam76, var uParam77, var uParam78, var uParam79, var uParam80, var uParam81, var uParam82, var uParam83, var uParam84, int iParam85) // Hash - 0x8E828F1B ^0xE931A03B
 {
-	struct<36> eventData;
-	int unk;
+	int eventData;
+	int playerBits;
 
 	if (iParam85 < 0)
 		return;
@@ -965,19 +965,19 @@ void func_25(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, va
 	if (!playerBits == 0)
 	{
 		func_26();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 36, playerBits);
+		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 36, playerBits);
 	}
 
 	return;
 }
 
-void func_26() // Position - 0x18A4 Hash - 0x4CED43 ^0x119DA88A
+void func_26() // Hash - 0x4CED43 ^0x119DA88A
 {
 	SCRIPT::REQUEST_SCRIPT("AM_ARENA_SHP");
 	return;
 }
 
-int func_27(int iParam0) // Position - 0x18B3 Hash - 0x8DB9A6C ^0x19CECEE
+int func_27(int iParam0) // Hash - 0x8DB9A6C ^0x19CECEE
 {
 	var address;
 
@@ -987,7 +987,7 @@ int func_27(int iParam0) // Position - 0x18B3 Hash - 0x8DB9A6C ^0x19CECEE
 	return address;
 }
 
-int func_28(int iParam0) // Position - 0x18CB Hash - 0xB24892B3 ^0xB0EC139A
+int func_28(int iParam0) // Hash - 0xB24892B3 ^0xB0EC139A
 {
 	if (iParam0 >= 0 && iParam0 < 15)
 		return Global_4535172[iParam0 /*85*/].f_66;
@@ -995,187 +995,187 @@ int func_28(int iParam0) // Position - 0x18CB Hash - 0xB24892B3 ^0xB0EC139A
 	return -1;
 }
 
-int func_29(int iParam0, int iParam1, int iParam2) // Position - 0x18F2 Hash - 0x8985F13B ^0x6A888C3D
+int func_29(int iParam0, int iParam1, int iParam2) // Hash - 0x8985F13B ^0x6A888C3D
 {
-	if (iParam0 == -433440095 || iParam0 == 1474183246)
+	if (iParam0 == -433440095 || iParam0 == joaat("CATEGORY_SERVICE_WITH_THRESHOLD"))
 	{
 		switch (iParam1)
 		{
-			case 1940862352:
+			case joaat("SERVICE_SPEND_MATCH_ENTRY_FEE"):
 				if (iParam2 >= 10000)
 					return 1;
 				else
 					return 0;
 				break;
 		
-			case -31156877:
-			case -327918414:
-			case 550898518:
-			case 835976347:
-			case 1347433368:
-			case -1100963799:
+			case joaat("SERVICE_EARN_PICKUP"):
+			case joaat("SERVICE_EARN_AMBIENT_MUGGING"):
+			case joaat("SERVICE_EARN_AMBIENT_PICKUP"):
+			case joaat("SERVICE_EARN_DEATHMATCH_BOUNTY"):
+			case joaat("SERVICE_EARN_CASHING_OUT"):
+			case joaat("SERVICE_EARN_REFUND_ARENA_SPEC_BOX_ENTRY"):
 				if (iParam2 >= 1000)
 					return 1;
 				else
 					return 2;
 				break;
 		
-			case 1982688246:
+			case joaat("SERVICE_EARN_DEBUG"):
 				return 0;
 		
-			case 1718438689:
-			case -1027218631:
-			case -1398318418:
-			case 1652884147:
-			case -57868256:
-			case -1216489292:
-			case -46622315:
-			case -352356931:
-			case -990286235:
-			case 563463121:
-			case 1734805203:
-			case 941287179:
-			case -1186079845:
-			case -1985150258:
-			case -1127021384:
-			case -109201286:
-			case 312105838:
-			case -661030418:
-			case 1301046174:
-			case -1586170317:
-			case 393059668:
-			case 23796958:
-			case -1077156170:
-			case 1780666425:
-			case -2043695058:
-			case -1922554349:
-			case 1287308202:
-			case 691372038:
-			case 1480707108:
-			case 1512499951:
-			case 562283735:
-			case -154732333:
-			case -1362660491:
-			case 645708827:
-			case 767907967:
-			case -1970151306:
-			case 718859568:
-			case -1955564771:
-			case 892388724:
+			case joaat("SERVICE_EARN_INITIAL_CASH"):
+			case joaat("SERVICE_EARN_JOBS"):
+			case joaat("SERVICE_EARN_BETTING"):
+			case joaat("SERVICE_EARN_LOTTERY"):
+			case joaat("SERVICE_EARN_CHALLENGE_WIN"):
+			case joaat("SERVICE_EARN_PROPERTY_SALES"):
+			case joaat("SERVICE_EARN_VEHICLE_SALES"):
+			case joaat("SERVICE_EARN_LESTER_TARGET_KILL"):
+			case joaat("SERVICE_EARN_BOUNTY_COLLECTED"):
+			case joaat("SERVICE_EARN_CRATE_DROP"):
+			case joaat("SERVICE_EARN_HOLDUPS"):
+			case joaat("SERVICE_EARN_IMPORT_EXPORT"):
+			case joaat("SERVICE_EARN_ARMORED_TRUCKS"):
+			case joaat("SERVICE_EARN_JOBSHARE_CASH"):
+			case joaat("SERVICE_EARN_NOT_BADSPORT"):
+			case joaat("SERVICE_EARN_BANK_INTEREST"):
+			case joaat("SERVICE_EARN_ROCKSTAR"):
+			case joaat("SERVICE_EARN_CNCW"):
+			case joaat("SERVICE_EARN_CNCB"):
+			case joaat("SERVICE_EARN_JOB_BONUS"):
+			case joaat("SERVICE_EARN_BEND_JOB"):
+			case joaat("SERVICE_EARN_PERSONAL_VEHICLE"):
+			case joaat("SERVICE_EARN_DAILY_OBJECTIVES"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_PLANE_TAKEDOWN"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_DISTRACT_COPS"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_DESTROY_VEH"):
+			case joaat("SERVICE_EARN_REFUND_BACKUP_VAGOS"):
+			case joaat("SERVICE_EARN_REFUND_BACKUP_LOST"):
+			case joaat("SERVICE_EARN_REFUND_BACKUP_FAMILIES"):
+			case joaat("SERVICE_EARN_REFUND_HIRE_MUGGER"):
+			case joaat("SERVICE_EARN_REFUND_HIRE_MERCENARY"):
+			case joaat("SERVICE_EARN_REFUND_BUY_CARDROPOFF"):
+			case joaat("SERVICE_EARN_REFUND_HELI_PICKUP"):
+			case joaat("SERVICE_EARN_REFUND_BOAT_PICKUP"):
+			case joaat("SERVICE_EARN_REFUND_CLEAR_WANTED"):
+			case joaat("SERVICE_EARN_REFUND_HEAD_2_HEAD"):
+			case joaat("SERVICE_EARN_REFUND_CHALLENGE"):
+			case joaat("SERVICE_EARN_REFUND_SHARE_LAST_JOB"):
+			case joaat("SERVICE_EARN_REFUND_LOTTERY"):
 			case -1426920838:
-			case 1349151477:
-			case 1620609399:
-			case 1961641934:
-			case 210955503:
-			case -59668082:
-			case 1736933716:
-			case -1468524125:
-			case 111573502:
-			case 1525644423:
-			case 968073639:
-			case 1577781788:
-			case -934465332:
-			case -1194253122:
-			case -212607085:
-			case -815546555:
-			case 1048226110:
-			case 569170531:
-			case -856006867:
-			case 848090538:
-			case -47546905:
-			case -293060240:
-			case 463142405:
-			case 1550217370:
-			case -664597565:
-			case 599804707:
-			case 1052472386:
-			case -2130199671:
-			case -1227654538:
-			case 1864522104:
-			case 215608230:
-			case -876012764:
-			case -722894325:
-			case 1407278493:
-			case -1579394494:
-			case -27443911:
-			case 1179783540:
-			case 923419301:
-			case -308826175:
-			case 603298940:
-			case -12619854:
-			case -311112675:
-			case 870439158:
-			case -974288740:
-			case -4138654:
-			case -1180954122:
-			case -1918051016:
-			case 844330594:
-			case 1934825517:
-			case 1852024236:
-			case 2099238988:
-			case 1952643559:
-			case -1172900789:
-			case -2015399333:
-			case -1574795641:
-			case -961034881:
-			case 1135468152:
-			case 1265272476:
-			case -634726636:
-			case 696556762:
-			case 443347049:
-			case 403506509:
-			case -883876414:
-			case -1064150715:
-			case -1387253055:
-			case -716963152:
-			case 1138089938:
-			case -561012053:
-			case 1240683675:
-			case 1241904665:
-			case -494565059:
-			case 827308208:
-			case -1857685192:
-			case 1698417709:
-			case -2017925037:
-			case 1057653594:
-			case 1810506918:
-			case 451427308:
-			case 824622151:
-			case 1253978276:
-			case -1576080766:
-			case 1508411869:
-			case 1428501742:
-			case -1918967151:
-			case 1261538664:
-			case 1180397655:
-			case 1414674366:
-			case 261460130:
-			case -2027658376:
-			case 1668610896:
-			case -2032529561:
+			case joaat("SERVICE_EARN_GANGATTACK_PICKUP"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_HOT_TARGET_DELIVER"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_HOT_TARGET_KILL"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_URBAN_WARFARE"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_CHECKPOINT_COLLECTION"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_TIME_TRIAL"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_CHALLENGES"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_HELI_HOT_TARGET"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_DEAD_DROP"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_PENNED_IN"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_PASS_PARCEL"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_BLAST"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_HOT_PROPERTY"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_KING"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_BEAST"):
+			case joaat("SERVICE_EARN_BOSS"):
+			case joaat("SERVICE_EARN_GOON"):
+			case joaat("SERVICE_EARN_BOSS_AGENCY"):
+			case joaat("SERVICE_EARN_FROM_DESTROYING_CONTRABAND"):
+			case joaat("SERVICE_EARN_PREMIUM_JOB"):
+			case joaat("SERVICE_EARN_FROM_VEHICLE_EXPORT"):
+			case joaat("SERVICE_EARN_SMUGGLER_AGENCY"):
+			case joaat("SERVICE_EARN_WAGE_PAYMENT_BONUS"):
+			case joaat("SERVICE_EARN_REFUNDAMMODROP"):
+			case joaat("SERVICE_EARN_SALVAGE_CHECKPOINT_COLLECTION"):
+			case joaat("SERVICE_EARN_JOB_BONUS_CRIMINAL_MASTERMIND"):
+			case joaat("SERVICE_EARN_JOB_BONUS_HEIST_AWARD"):
+			case joaat("SERVICE_EARN_JOB_BONUS_FIRST_TIME_BONUS"):
+			case joaat("SERVICE_EARN_REFUND_ORBITAL_MANUAL"):
+			case joaat("SERVICE_EARN_REFUND_ORBITAL_AUTO"):
+			case joaat("SERVICE_EARN_GANGOPS_WAGES"):
+			case joaat("SERVICE_EARN_GANGOPS_WAGES_BONUS"):
+			case joaat("SERVICE_EARN_GANGOPS_PREP_PARTICIPATION"):
+			case joaat("SERVICE_EARN_GANGOPS_SETUP"):
+			case joaat("SERVICE_EARN_GANGOPS_SETUP_FAIL"):
+			case joaat("SERVICE_EARN_GANGOPS_FINALE"):
+			case joaat("SERVICE_EARN_GANGOPS_AWARD_MASTERMIND_2"):
+			case joaat("SERVICE_EARN_GANGOPS_AWARD_MASTERMIND_3"):
+			case joaat("SERVICE_EARN_GANGOPS_AWARD_MASTERMIND_4"):
+			case joaat("SERVICE_EARN_GANGOPS_AWARD_LOYALTY_AWARD_2"):
+			case joaat("SERVICE_EARN_GANGOPS_AWARD_LOYALTY_AWARD_3"):
+			case joaat("SERVICE_EARN_GANGOPS_AWARD_LOYALTY_AWARD_4"):
+			case joaat("SERVICE_EARN_GANGOPS_AWARD_FIRST_TIME_XM_BASE"):
+			case joaat("SERVICE_EARN_GANGOPS_AWARD_FIRST_TIME_XM_SUBMARINE"):
+			case joaat("SERVICE_EARN_GANGOPS_AWARD_FIRST_TIME_XM_SILO"):
+			case joaat("SERVICE_EARN_GANGOPS_AWARD_SUPPORTING"):
+			case joaat("SERVICE_EARN_GANGOPS_AWARD_ORDER"):
+			case joaat("SERVICE_EARN_GANGOPS_ELITE_XM_BASE"):
+			case joaat("SERVICE_EARN_GANGOPS_ELITE_XM_SUBMARINE"):
+			case joaat("SERVICE_EARN_GANGOPS_ELITE_XM_SILO"):
+			case joaat("SERVICE_EARN_GANGOPS_RIVAL_DELIVERY"):
+			case joaat("SERVICE_EARN_DOOMSDAY_FINALE_BONUS"):
+			case joaat("SERVICE_EARN_BOUNTY_HUNTER_REWARD"):
+			case joaat("SERVICE_EARN_FROM_BUSINESS_BATTLE"):
+			case joaat("SERVICE_EARN_FROM_CLUB_MANAGEMENT_PARTICIPATION"):
+			case joaat("SERVICE_EARN_FROM_FMBB_PHONECALL_MISSION"):
+			case joaat("SERVICE_EARN_FROM_BUSINESS_HUB_SELL"):
+			case joaat("SERVICE_EARN_FROM_FMBB_BOSS_WORK"):
+			case joaat("SERVICE_EARN_FMBB_WAGE_BONUS"):
+			case joaat("SERVICE_EARN_NIGHTCLUB_DANCING_AWARD"):
+			case joaat("SERVICE_EARN_BB_EVENT_BONUS"):
+			case joaat("SERVICE_EARN_ARENA_SKILL_LVL_AWARD"):
+			case joaat("SERVICE_EARN_ARENA_CAREER_TIER_PROGRESSION_1"):
+			case joaat("SERVICE_EARN_ARENA_CAREER_TIER_PROGRESSION_2"):
+			case joaat("SERVICE_EARN_ARENA_CAREER_TIER_PROGRESSION_3"):
+			case joaat("SERVICE_EARN_ARENA_CAREER_TIER_PROGRESSION_4"):
+			case joaat("SERVICE_EARN_SPIN_THE_WHEEL_CASH"):
+			case joaat("SERVICE_EARN_ASSASSINATE_TARGET_KILLED"):
+			case joaat("SERVICE_EARN_ARENA_WAR"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_RC_TIME_TRIAL"):
+			case joaat("SERVICE_EARN_DAILY_OBJECTIVE_EVENT"):
+			case joaat("SERVICE_EARN_COLLECTABLES_ACTION_FIGURES"):
+			case joaat("SERVICE_EARN_CASINO_MISSION_REWARD"):
+			case joaat("SERVICE_EARN_CASINO_STORY_MISSION_REWARD"):
+			case joaat("SERVICE_EARN_CASINO_AWARD_MISSION_ONE_FIRST_TIME"):
+			case joaat("SERVICE_EARN_CASINO_AWARD_MISSION_TWO_FIRST_TIME"):
+			case joaat("SERVICE_EARN_CASINO_AWARD_MISSION_THREE_FIRST_TIME"):
+			case joaat("SERVICE_EARN_CASINO_AWARD_MISSION_FOUR_FIRST_TIME"):
+			case joaat("SERVICE_EARN_CASINO_AWARD_MISSION_FIVE_FIRST_TIME"):
+			case joaat("SERVICE_EARN_CASINO_AWARD_MISSION_SIX_FIRST_TIME"):
+			case joaat("SERVICE_EARN_CASINO_AWARD_STRAIGHT_FLUSH"):
+			case joaat("SERVICE_EARN_CASINO_AWARD_TOP_PAIR"):
+			case joaat("SERVICE_EARN_CASINO_AWARD_FULL_HOUSE"):
+			case joaat("SERVICE_EARN_CASINO_AWARD_LUCKY_LUCKY"):
+			case joaat("SERVICE_EARN_CASINO_AWARD_HIGH_ROLLER_BRONZE"):
+			case joaat("SERVICE_EARN_CASINO_AWARD_HIGH_ROLLER_SILVER"):
+			case joaat("SERVICE_EARN_CASINO_AWARD_HIGH_ROLLER_GOLD"):
+			case joaat("SERVICE_EARN_CASINO_AWARD_HIGH_ROLLER_PLATINUM"):
+			case joaat("SERVICE_EARN_CASINO_HEIST_SETUP_MISSION"):
+			case joaat("SERVICE_EARN_CASINO_HEIST_PREP_MISSION"):
 				return 1;
 		
-			case 1515774909:
-			case 1173654533:
-			case -899802304:
-			case -663944335:
-			case 1208553146:
-			case -613221010:
-			case -671062876:
-			case 291576838:
-			case -1276678868:
-			case 711665950:
-			case -407201236:
-			case -754024203:
-			case -1885444887:
-			case 1931729587:
-			case 1064954035:
-			case -180141073:
-			case 2131324797:
-			case 283351220:
-			case 1108628223:
-			case -876847842:
-			case 68030260:
+			case joaat("SERVICE_SPEND_AIRSTRIKE"):
+			case joaat("SERVICE_SPEND_AMMO_DROP"):
+			case joaat("SERVICE_SPEND_BACKUP_GANG"):
+			case joaat("SERVICE_SPEND_BACKUP_HELI"):
+			case joaat("SERVICE_SPEND_BOAT_PICKUP"):
+			case joaat("SERVICE_SPEND_BOUNTY"):
+			case joaat("SERVICE_SPEND_BULL_SHARK"):
+			case joaat("SERVICE_SPEND_CAR_IMPOUND"):
+			case joaat("SERVICE_SPEND_CASH_SHARED"):
+			case joaat("SERVICE_SPEND_CHALLENGE_WAGER"):
+			case joaat("SERVICE_SPEND_COPS_TURN_EYE"):
+			case joaat("SERVICE_SPEND_HELI_PICKUP"):
+			case joaat("SERVICE_SPEND_HIRE_MERCENARY"):
+			case joaat("SERVICE_SPEND_HIRE_MUGGER"):
+			case joaat("SERVICE_SPEND_LOCATE_VEHICLE"):
+			case joaat("SERVICE_SPEND_LOSE_WANTED_LEVEL"):
+			case joaat("SERVICE_SPEND_OFF_THE_RADAR"):
+			case joaat("SERVICE_SPEND_PEGASUS_DELIVERY"):
+			case joaat("SERVICE_SPEND_REVEAL_PLAYERS"):
+			case joaat("SERVICE_SPEND_VEHICLE_INSURANCE"):
+			case joaat("SERVICE_SPEND_VEHICLE_INSURANCE_PREMIUM"):
 				return 2;
 		
 			default:
@@ -1184,67 +1184,67 @@ int func_29(int iParam0, int iParam1, int iParam2) // Position - 0x18F2 Hash - 0
 	
 		switch (iParam1)
 		{
-			case -319306689:
-			case -466527264:
-			case 1925965142:
-			case 592152676:
-			case 2035612943:
-			case 1568659720:
-			case -1224479447:
-			case 1220095570:
-			case 2050320631:
-			case 592672421:
-			case -842062976:
-			case 14658715:
-			case -604793592:
-			case -823426392:
-			case -1401862980:
-			case -173354274:
-			case 409533976:
-			case -1472522337:
-			case 542574408:
-			case -1261799063:
-			case 784631574:
-			case -2027479156:
-			case -837690641:
-			case -1029672338:
-			case -1503749970:
-			case -1843409092:
-			case 1669058563:
-			case 2102747615:
-			case 2030771998:
-			case 1708747007:
-			case 645293860:
-			case -818859193:
-			case 300796227:
-			case -1999832346:
-			case 1058055395:
-			case -321151125:
-			case 2078731875:
-			case 1280785534:
-			case -1878824774:
-			case 247992227:
-			case -229237358:
-			case -1123183389:
-			case 1814197076:
-			case 713955548:
-			case -2026544524:
-			case -719580138:
-			case -163417439:
-			case -550417574:
-			case 208223429:
-			case -1433071892:
-			case 761999406:
-			case -1101941763:
-			case 1748245957:
-			case 1036772696:
-			case -1384648535:
-			case -800037808:
-			case -695852120:
-			case 77355315:
-			case 2097889166:
-			case 1707592130:
-			case 1628412596:
+			case joaat("SERVICE_EARN_CASINO_HEIST_AWARD_SMASH_N_GRAB"):
+			case joaat("SERVICE_EARN_CASINO_HEIST_AWARD_IN_PLAIN_SIGHT"):
+			case joaat("SERVICE_EARN_CASINO_HEIST_AWARD_UNDETECTED"):
+			case joaat("SERVICE_EARN_CASINO_HEIST_AWARD_ALL_ROUNDER"):
+			case joaat("SERVICE_EARN_CASINO_HEIST_AWARD_ELITE_THIEF"):
+			case joaat("SERVICE_EARN_CASINO_HEIST_AWARD_PROFESSIONAL"):
+			case joaat("SERVICE_EARN_CASINO_HEIST_FINALE"):
+			case joaat("SERVICE_EARN_CASINO_HEIST_ELITE_STEALTH"):
+			case joaat("SERVICE_EARN_CASINO_HEIST_ELITE_SUBTERFUGE"):
+			case joaat("SERVICE_EARN_CASINO_HEIST_ELITE_DIRECT"):
+			case joaat("SERVICE_EARN_COLLECTABLE_COMPLETED_COLLECTION"):
+			case joaat("SERVICE_EARN_COLLECTABLES_SIGNAL_JAMMERS_COMPLETE"):
+			case joaat("SERVICE_EARN_ISLAND_HEIST_FINALE"):
+			case joaat("SERVICE_EARN_ISLAND_HEIST_ELITE_CHALLENGE"):
+			case joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_PROFESSIONAL"):
+			case joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_ELITE_THIEF"):
+			case joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_THE_ISLAND_HEIST"):
+			case joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_GOING_ALONE"):
+			case joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_TEAM_WORK"):
+			case joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_CAT_BURGLAR"):
+			case joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_PRO_THIEF"):
+			case joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_MIXING_IT_UP"):
+			case joaat("SERVICE_EARN_ISLAND_HEIST_PREP"):
+			case joaat("SERVICE_EARN_ISLAND_HEIST_DJ_MISSION"):
+			case joaat("SERVICE_EARN_TUNER_ROBBERY_PREP"):
+			case joaat("SERVICE_EARN_TUNER_ROBBERY_FINALE"):
+			case joaat("SERVICE_EARN_TUNER_CAR_CLUB_MEMBERSHIP"):
+			case joaat("SERVICE_EARN_TUNER_DAILY_VEHICLE"):
+			case joaat("SERVICE_EARN_TUNER_DAILY_VEHICLE_BONUS"):
+			case joaat("SERVICE_EARN_TUNER_AWARD_UNION_DEPOSITORY"):
+			case joaat("SERVICE_EARN_TUNER_AWARD_MILITARY_CONVOY"):
+			case joaat("SERVICE_EARN_TUNER_AWARD_FLEECA_BANK"):
+			case joaat("SERVICE_EARN_TUNER_AWARD_FREIGHT_TRAIN"):
+			case joaat("SERVICE_EARN_TUNER_AWARD_BOLINGBROKE_ASS"):
+			case joaat("SERVICE_EARN_TUNER_AWARD_IAA_RAID"):
+			case joaat("SERVICE_EARN_TUNER_AWARD_METH_JOB"):
+			case joaat("SERVICE_EARN_TUNER_AWARD_BUNKER_RAID"):
+			case joaat("SERVICE_EARN_AUTO_SHOP_DELIVERY_AWARD"):
+			case joaat("SERVICE_EARN_AGENCY_SECURITY_CONTRACT"):
+			case joaat("SERVICE_EARN_AGENCY_PAYPHONE_HIT"):
+			case joaat("SERVICE_EARN_AGENCY_STORY_PREP"):
+			case joaat("SERVICE_EARN_AGENCY_STORY_FINALE"):
+			case joaat("SERVICE_EARN_FIXER_AWARD_SEC_CON"):
+			case joaat("SERVICE_EARN_FIXER_AWARD_PHONE_HIT"):
+			case joaat("SERVICE_EARN_FIXER_AWARD_AGENCY_STORY"):
+			case joaat("SERVICE_EARN_FIXER_AWARD_SHORT_TRIP"):
+			case joaat("SERVICE_EARN_FIXER_RIVAL_DELIVERY"):
+			case joaat("SERVICE_EARN_MUSIC_STUDIO_SHORT_TRIP"):
+			case joaat("SERVICE_EARN_FROM_CONTRABAND"):
+			case joaat("SERVICE_EARN_NCLUB_TROUBLEMAKER"):
+			case joaat("SERVICE_EARN_SIGHTSEEING_REWARD"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_CLUBHOUSE_CONTRACT"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_UNDERWATER_CARGO"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_CRIME_SCENE"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_METAL_DETECTOR"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_SMUGGLER_PLANE"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_SMUGGLER_TRAIL"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_GOLDEN_GUN"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_AMMUNATION_DELIVERY"):
+			case joaat("SERVICE_EARN_AMBIENT_JOB_SOURCE_RESEARCH"):
+			case joaat("SERVICE_EARN_YOHAN_SOURCE_GOODS"):
 			case 883337077:
 			case -1274418755:
 			case -1853979468:
@@ -1254,12 +1254,12 @@ int func_29(int iParam0, int iParam1, int iParam2) // Position - 0x18F2 Hash - 0
 			case 1874391251:
 				return 1;
 		
-			case 1775876058:
-			case -518651910:
+			case joaat("SERVICE_EARN_COLLECTABLE_ITEM"):
+			case joaat("SERVICE_EARN_COLLECTABLES_SIGNAL_JAMMERS"):
 				return 2;
 		}
 	}
-	else if (iParam0 == -1134853190 || iParam0 == 925407197 || iParam0 == -1589378882)
+	else if (iParam0 == joaat("CATEGORY_SERVICE_WITH_LIMIT") || iParam0 == joaat("CATEGORY_PRICE_MODIFIER") || iParam0 == joaat("CATEGORY_PRICE_OVERRIDE"))
 	{
 		return 0;
 	}
@@ -1267,7 +1267,7 @@ int func_29(int iParam0, int iParam1, int iParam2) // Position - 0x18F2 Hash - 0
 	return 1;
 }
 
-int func_30() // Position - 0x1F04 Hash - 0x7D38DE7A ^0x136B805D
+int func_30() // Hash - 0x7D38DE7A ^0x136B805D
 {
 	int i;
 
@@ -1283,7 +1283,7 @@ int func_30() // Position - 0x1F04 Hash - 0x7D38DE7A ^0x136B805D
 	return -1;
 }
 
-BOOL func_31(int iParam0) // Position - 0x1F3F Hash - 0x37AC0872 ^0x763CBAAF
+BOOL func_31(int iParam0) // Hash - 0x37AC0872 ^0x763CBAAF
 {
 	if (iParam0 >= 500 && iParam0 <= 599 || iParam0 == 408)
 		return true;
@@ -1291,15 +1291,15 @@ BOOL func_31(int iParam0) // Position - 0x1F3F Hash - 0x37AC0872 ^0x763CBAAF
 	return false;
 }
 
-void func_32(int iParam0, BOOL bParam1) // Position - 0x1F6C Hash - 0xF1388243 ^0xADB84591
+void func_32(int iParam0, BOOL bParam1) // Hash - 0xF1388243 ^0xADB84591
 {
 	BOOL hasTheMoney;
 	BOOL notBankrupt;
 	var unk;
-	int unk2;
-	int unk3;
-	var unk4;
-	var num;
+	int num;
+	int num2;
+	var unk14;
+	var unk17;
 
 	if (iParam0 == -1)
 		return;
@@ -1332,1019 +1332,1019 @@ void func_32(int iParam0, BOOL bParam1) // Position - 0x1F6C Hash - 0xF1388243 ^
 
 	switch (Global_4535172[iParam0 /*85*/].f_66.f_4)
 	{
-		case 631654431:
+		case joaat("SERVICE_SPEND_MOVE_YACHT"):
 			MONEY::NETWORK_SPENT_MOVE_YACHT(Global_4535172[iParam0 /*85*/].f_66.f_1, notBankrupt, hasTheMoney);
 			break;
 	
-		case -180141073:
-			unk_0x17E677BC555ACA6B(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14), notBankrupt, hasTheMoney, 0);
+		case joaat("SERVICE_SPEND_LOSE_WANTED_LEVEL"):
+			MONEY::NETWORK_SPENT_BUY_WANTEDLEVEL(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14), notBankrupt, hasTheMoney, 0);
 			break;
 	
-		case 68030260:
+		case joaat("SERVICE_SPEND_VEHICLE_INSURANCE_PREMIUM"):
 			MONEY::NETWORK_SPENT_PAY_VEHICLE_INSURANCE_PREMIUM(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/], &(Global_4535172[iParam0 /*85*/].f_14), notBankrupt, hasTheMoney);
 			break;
 	
-		case -982394051:
+		case joaat("SERVICE_SPEND_CINEMA"):
 			MONEY::NETWORK_SPENT_CINEMA(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_1, notBankrupt, hasTheMoney);
 			break;
 	
-		case 454359403:
+		case joaat("SERVICE_SPEND_STRIP_CLUB"):
 			MONEY::NETWORK_SPENT_IN_STRIPCLUB(Global_4535172[iParam0 /*85*/].f_66.f_1, notBankrupt, Global_4535172[iParam0 /*85*/].f_2, hasTheMoney);
 			break;
 	
-		case -1586170317:
+		case joaat("SERVICE_EARN_JOB_BONUS"):
 			unk_0xD20D79671A598594(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), &(Global_4535172[iParam0 /*85*/].f_14.f_34));
 			break;
 	
-		case 650665123:
+		case joaat("SERVICE_SPEND_TELESCOPE"):
 			MONEY::NETWORK_SPENT_TELESCOPE(Global_4535172[iParam0 /*85*/].f_66.f_1, notBankrupt, hasTheMoney);
 			break;
 	
-		case 1654961868:
+		case joaat("SERVICE_SPEND_CALL_PLAYER"):
 			MONEY::NETWORK_SPENT_CALL_PLAYER(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14), notBankrupt, hasTheMoney);
 			break;
 	
-		case 1182673174:
+		case joaat("SERVICE_SPEND_CARWASH"):
 			MONEY::NETWORK_SPENT_CARWASH(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_1, notBankrupt, hasTheMoney);
 			break;
 	
-		case 563463121:
+		case joaat("SERVICE_EARN_CRATE_DROP"):
 			MONEY::NETWORK_EARN_FROM_CRATE_DROP(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case 1940862352:
+		case joaat("SERVICE_SPEND_MATCH_ENTRY_FEE"):
 			MONEY::NETWORK_PAY_MATCH_ENTRY_FEE(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), notBankrupt, hasTheMoney);
 			break;
 	
-		case -1389227906:
+		case joaat("SERVICE_SPEND_RACE_VEHICLE_RENTAL"):
 			MONEY::NETWORK_PAY_MATCH_ENTRY_FEE(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), notBankrupt, hasTheMoney);
 			break;
 	
-		case -516219046:
+		case joaat("SERVICE_SPEND_HEALTHCARE"):
 			MONEY::NETWORK_BUY_HEALTHCARE(Global_4535172[iParam0 /*85*/].f_66.f_1, notBankrupt, hasTheMoney);
 			break;
 	
-		case -1398318418:
+		case joaat("SERVICE_EARN_BETTING"):
 			MONEY::NETWORK_EARN_FROM_BETTING(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_34));
 			break;
 	
-		case 2043854386:
+		case joaat("SERVICE_SPEND_CASH_DROP"):
 			MONEY::NETWORK_SPENT_CASH_DROP(Global_4535172[iParam0 /*85*/].f_66.f_1, notBankrupt, hasTheMoney);
 			break;
 	
-		case 277665518:
+		case joaat("SERVICE_SPEND_ARREST_BAIL"):
 			MONEY::NETWORK_SPENT_ARREST_BAIL(Global_4535172[iParam0 /*85*/].f_66.f_1, notBankrupt, hasTheMoney);
 			break;
 	
-		case -1077156170:
-			unk_0xA4E4AB7B246BB4B4(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_34), -1);
+		case joaat("SERVICE_EARN_DAILY_OBJECTIVES"):
+			MONEY::NETWORK_EARN_FROM_DAILY_OBJECTIVES(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_34), -1);
 			break;
 	
-		case -96593501:
+		case joaat("SERVICE_SPEND_BOUNTY_DM"):
 			MONEY::NETWORK_SPENT_BOUNTY(Global_4535172[iParam0 /*85*/].f_66.f_1, notBankrupt, hasTheMoney);
 			break;
 	
-		case 742499889:
-			unk_0xB028602A9DE34C4F(Global_4535172[iParam0 /*85*/].f_6, Global_4535172[iParam0 /*85*/].f_7, Global_4535172[iParam0 /*85*/].f_66.f_1);
+		case joaat("SERVICE_SPEND_WAGER"):
+			MONEY::NETWORK_SPENT_WAGER(Global_4535172[iParam0 /*85*/].f_6, Global_4535172[iParam0 /*85*/].f_7, Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case 2050093329:
-			unk_0x902E7F5EA6F641C7(Global_4535172[iParam0 /*85*/].f_6, Global_4535172[iParam0 /*85*/].f_7, Global_4535172[iParam0 /*85*/].f_66.f_1);
+		case joaat("SERVICE_SPEND_PAY_BOSS"):
+			MONEY::NETWORK_SPEND_BOSS(Global_4535172[iParam0 /*85*/].f_6, Global_4535172[iParam0 /*85*/].f_7, Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case -1752488069:
-			unk_0x2D5A5E4C003023CE(Global_4535172[iParam0 /*85*/].f_6, Global_4535172[iParam0 /*85*/].f_7, Global_4535172[iParam0 /*85*/].f_66.f_1);
+		case joaat("SERVICE_SPEND_PAY_GOON"):
+			MONEY::NETWORK_SPEND_GOON(Global_4535172[iParam0 /*85*/].f_6, Global_4535172[iParam0 /*85*/].f_7, Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case 634375935:
+		case joaat("SERVICE_SPEND_RENAME_ORGANIZATION"):
 			MONEY::NETWORK_SPENT_RENAME_ORGANIZATION(Global_4535172[iParam0 /*85*/].f_66.f_1, notBankrupt, hasTheMoney);
 			break;
 	
 		case 2115896461:
-			unk_0x446798F7495DD7D8(Global_4535172[iParam0 /*85*/].f_66.f_1, notBankrupt, hasTheMoney, func_34(&(Global_1914091[PLAYER::PLAYER_ID() /*297*/].f_265)));
+			MONEY::_NETWORK_SPEND_RENAME_ACID_PRODUCT(Global_4535172[iParam0 /*85*/].f_66.f_1, notBankrupt, hasTheMoney, func_34(&(Global_1914091[PLAYER::PLAYER_ID() /*297*/].f_265)));
 			break;
 	
 		case 797947947:
-			unk_0x842B1C5AF61ACDE9(Global_4535172[iParam0 /*85*/].f_66.f_1, notBankrupt, hasTheMoney, func_34(&(Global_1914091[PLAYER::PLAYER_ID() /*297*/].f_281)));
+			MONEY::_NETWORK_SPEND_RENAME_ACID_LAB(Global_4535172[iParam0 /*85*/].f_66.f_1, notBankrupt, hasTheMoney, func_34(&(Global_1914091[PLAYER::PLAYER_ID() /*297*/].f_281)));
 			break;
 	
-		case -1027218631:
+		case joaat("SERVICE_EARN_JOBS"):
 			MONEY::NETWORK_EARN_FROM_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26));
 			break;
 	
-		case -47546905:
+		case joaat("SERVICE_EARN_PREMIUM_JOB"):
 			MONEY::NETWORK_EARN_FROM_PREMIUM_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26));
 			break;
 	
-		case 291576838:
+		case joaat("SERVICE_SPEND_CAR_IMPOUND"):
 			MONEY::NETWORK_BUY_ITEM(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/], 14, 1, notBankrupt, &(Global_4535172[iParam0 /*85*/].f_14.f_26), 0, 0, 0, hasTheMoney);
 			break;
 	
-		case 1612072658:
-			unk_0x43BB1316FFDE3086(Global_4535172[iParam0 /*85*/].f_66.f_1, notBankrupt, hasTheMoney, 0);
+		case joaat("SERVICE_SPEND_PASSIVE"):
+			MONEY::NETWORK_SPENT_BUY_PASSIVE_MODE(Global_4535172[iParam0 /*85*/].f_66.f_1, notBankrupt, hasTheMoney, 0);
 			break;
 	
-		case -990286235:
+		case joaat("SERVICE_EARN_BOUNTY_COLLECTED"):
 			MONEY::NETWORK_EARN_FROM_BOUNTY(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14), &(Global_4535172[iParam0 /*85*/].f_14.f_13), 1);
 			break;
 	
-		case 1349151477:
+		case joaat("SERVICE_EARN_GANGATTACK_PICKUP"):
 			MONEY::NETWORK_EARN_FROM_GANGATTACK_PICKUP(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case -31156877:
-		case -327918414:
-		case 550898518:
-		case 835976347:
-			MONEY::NETWORK_EARN_FROM_PICKUP(Global_4535172[iParam0 /*85*/].f_66.f_1);
+		case joaat("SERVICE_EARN_PICKUP"):
+		case joaat("SERVICE_EARN_AMBIENT_MUGGING"):
+		case joaat("SERVICE_EARN_AMBIENT_PICKUP"):
+		case joaat("SERVICE_EARN_DEATHMATCH_BOUNTY"):
+			unk_0xEFE9C9A1651B81E6(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case -1186079845:
-			unk_0x096377350FDE5108(Global_4535172[iParam0 /*85*/].f_66.f_1);
+		case joaat("SERVICE_EARN_ARMORED_TRUCKS"):
+			MONEY::NETWORK_EARN_FROM_ROB_ARMORED_CARS(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case 1734805203:
+		case joaat("SERVICE_EARN_HOLDUPS"):
 			MONEY::NETWORK_EARN_FROM_HOLDUPS(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case -1645229221:
+		case joaat("SERVICE_SPEND_MECHANIC_WAGE"):
 			MONEY::NETWORK_PAY_EMPLOYEE_WAGE(Global_4535172[iParam0 /*85*/].f_66.f_1, notBankrupt, hasTheMoney);
 			break;
 	
-		case -585718395:
-			unk_0xF2D8B7E30F34379C(Global_4535172[iParam0 /*85*/].f_66.f_1, notBankrupt, hasTheMoney, &Global_4540944);
+		case joaat("SERVICE_SPEND_UTILITY_BILLS"):
+			MONEY::NETWORK_SPEND_APARTMENT_UTILITIES(Global_4535172[iParam0 /*85*/].f_66.f_1, notBankrupt, hasTheMoney, &Global_4540944);
 			break;
 	
-		case -2129781826:
-			unk_0xBCD0BD6B2A87805C(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/], notBankrupt, hasTheMoney);
+		case joaat("SERVICE_SPEND_PA_SERVICE_DANCER"):
+			MONEY::NETWORK_SPENT_PA_SERVICE_DANCER(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/], notBankrupt, hasTheMoney);
 			break;
 	
-		case 1941570214:
+		case joaat("SERVICE_SPEND_PA_SERVICE_HELI_PICKUP"):
 			MONEY::NETWORK_SPENT_PA_HELI_PICKUP(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/], notBankrupt, hasTheMoney);
 			break;
 	
-		case 1869490922:
+		case joaat("SERVICE_SPEND_BA_VP_BOUNTY"):
 			MONEY::NETWORK_SPENT_MC_ABILITY(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_1, notBankrupt, hasTheMoney);
 			break;
 	
-		case -336803850:
+		case joaat("SERVICE_SPEND_BA_VP_BULLSHARK"):
 			MONEY::NETWORK_SPENT_MC_ABILITY(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_1, notBankrupt, hasTheMoney);
 			break;
 	
-		case -1412692765:
+		case joaat("SERVICE_SPEND_BA_SARGE_AMMO"):
 			MONEY::NETWORK_SPENT_MC_ABILITY(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_1, notBankrupt, hasTheMoney);
 			break;
 	
-		case 618167454:
+		case joaat("SERVICE_SPEND_BA_SARGE_MOLOTOV"):
 			MONEY::NETWORK_SPENT_MC_ABILITY(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_1, notBankrupt, hasTheMoney);
 			break;
 	
-		case 980623936:
+		case joaat("SERVICE_SPEND_BA_ENFORCER_ARMOUR"):
 			MONEY::NETWORK_SPENT_MC_ABILITY(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_1, notBankrupt, hasTheMoney);
 			break;
 	
-		case 1287308202:
-		case 691372038:
-		case 1480707108:
-		case 1512499951:
-		case 562283735:
-		case -154732333:
-		case -1362660491:
-		case 645708827:
-		case 767907967:
-		case -1970151306:
-		case 718859568:
-		case -1955564771:
-		case 892388724:
+		case joaat("SERVICE_EARN_REFUND_BACKUP_VAGOS"):
+		case joaat("SERVICE_EARN_REFUND_BACKUP_LOST"):
+		case joaat("SERVICE_EARN_REFUND_BACKUP_FAMILIES"):
+		case joaat("SERVICE_EARN_REFUND_HIRE_MUGGER"):
+		case joaat("SERVICE_EARN_REFUND_HIRE_MERCENARY"):
+		case joaat("SERVICE_EARN_REFUND_BUY_CARDROPOFF"):
+		case joaat("SERVICE_EARN_REFUND_HELI_PICKUP"):
+		case joaat("SERVICE_EARN_REFUND_BOAT_PICKUP"):
+		case joaat("SERVICE_EARN_REFUND_CLEAR_WANTED"):
+		case joaat("SERVICE_EARN_REFUND_HEAD_2_HEAD"):
+		case joaat("SERVICE_EARN_REFUND_CHALLENGE"):
+		case joaat("SERVICE_EARN_REFUND_SHARE_LAST_JOB"):
+		case joaat("SERVICE_EARN_REFUND_LOTTERY"):
 		case -1426920838:
-		case -664597565:
-		case -1100963799:
+		case joaat("SERVICE_EARN_REFUNDAMMODROP"):
+		case joaat("SERVICE_EARN_REFUND_ARENA_SPEC_BOX_ENTRY"):
 			MONEY::NETWORK_REFUND_CASH(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_40), &(Global_4535172[iParam0 /*85*/].f_14.f_44), notBankrupt);
 			break;
 	
-		case 312105838:
+		case joaat("SERVICE_EARN_ROCKSTAR"):
 			MONEY::NETWORK_EARN_FROM_ROCKSTAR(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case -1922554349:
-			unk_0x3115693297B13B7A(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_DESTROY_VEH", &unk);
+		case joaat("SERVICE_EARN_AMBIENT_JOB_DESTROY_VEH"):
+			MONEY::NETWORK_EARN_FROM_AMBIENT_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_DESTROY_VEH", &unk);
 			break;
 	
-		case -2043695058:
-			unk_0x3115693297B13B7A(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_DISTRACT_COPS", &unk);
+		case joaat("SERVICE_EARN_AMBIENT_JOB_DISTRACT_COPS"):
+			MONEY::NETWORK_EARN_FROM_AMBIENT_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_DISTRACT_COPS", &unk);
 			break;
 	
-		case 1780666425:
-			unk_0x3115693297B13B7A(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_PLANE_TAKEDOWN", &unk);
+		case joaat("SERVICE_EARN_AMBIENT_JOB_PLANE_TAKEDOWN"):
+			MONEY::NETWORK_EARN_FROM_AMBIENT_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_PLANE_TAKEDOWN", &unk);
 			break;
 	
-		case 1643659499:
+		case joaat("SERVICE_SPEND_FAIRGROUND"):
 			MONEY::NETWORK_BUY_FAIRGROUND_RIDE(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_1, notBankrupt, hasTheMoney, 0);
 			break;
 	
-		case 1839532116:
-			unk_0x38FB1F701131E803(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 0, 0);
+		case joaat("SERVICE_SPEND_ROBBED_BY_MUGGER"):
+			MONEY::NETWORK_SPENT_ROBBED_BY_MUGGER(Global_4535172[iParam0 /*85*/].f_66.f_1, false, false, 0);
 			break;
 	
-		case 941287179:
+		case joaat("SERVICE_EARN_IMPORT_EXPORT"):
 			MONEY::NETWORK_EARN_FROM_IMPORT_EXPORT(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_3);
 			break;
 	
-		case -352356931:
+		case joaat("SERVICE_EARN_LESTER_TARGET_KILL"):
 			MONEY::NETWORK_EARN_FROM_AI_TARGET_KILL(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
-		case 1948102096:
+		case joaat("SERVICE_SPEND_REQUEST_JOB"):
 			MONEY::NETWORK_SPENT_REQUEST_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, notBankrupt, hasTheMoney, Global_4535172[iParam0 /*85*/]);
 			break;
 	
-		case -1834046564:
+		case joaat("SERVICE_SPEND_TAXI"):
 			if (Global_4535172[iParam0 /*85*/].f_66.f_16 == 1)
 				num2 = 1;
 		
-			unk_0xE80C5CBEC787289E(Global_4535172[iParam0 /*85*/].f_66.f_1, notBankrupt, hasTheMoney, 0, num2);
+			MONEY::NETWORK_SPENT_TAXI(Global_4535172[iParam0 /*85*/].f_66.f_1, notBankrupt, hasTheMoney, 0, num2);
 			break;
 	
-		case 393059668:
+		case joaat("SERVICE_EARN_BEND_JOB"):
 			MONEY::NETWORK_EARN_FROM_BEND_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26));
 			break;
 	
-		case -57868256:
-			unk_0x0706E3C3521ABA09(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_34), Global_4535172[iParam0 /*85*/].f_4);
+		case joaat("SERVICE_EARN_CHALLENGE_WIN"):
+			MONEY::NETWORK_EARN_FROM_CHALLENGE_WIN(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_34), Global_4535172[iParam0 /*85*/].f_4);
 			break;
 	
-		case -1127021384:
+		case joaat("SERVICE_EARN_NOT_BADSPORT"):
 			MONEY::NETWORK_EARN_FROM_NOT_BADSPORT(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case 1564537328:
+		case joaat("SERVICE_SPEND_IMPROMPTU_RACE_FEE"):
 			MONEY::NETWORK_PAY_MATCH_ENTRY_FEE(Global_4535172[iParam0 /*85*/].f_66.f_1, "RaceToPoint", false, false);
 			break;
 	
-		case -1359375127:
+		case joaat("SERVICE_SPEND_PROSTITUTES"):
 			MONEY::NETWORK_SPENT_PROSTITUTES(Global_4535172[iParam0 /*85*/].f_66.f_1, false, false);
 			break;
 	
-		case 283351220:
+		case joaat("SERVICE_SPEND_PEGASUS_DELIVERY"):
 			MONEY::NETWORK_BUY_ITEM(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_5, 1, notBankrupt, &(Global_4535172[iParam0 /*85*/].f_14.f_40), 0, 0, 0, hasTheMoney);
 			break;
 	
 		case -2085313189:
 			switch (Global_4535172[iParam0 /*85*/].f_66.f_6)
 			{
-				case 1067618600:
+				case joaat("CATEGORY_WEAPON_AMMO"):
 					MONEY::NETWORK_BUY_ITEM(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_5, 1, notBankrupt, &(Global_4535172[iParam0 /*85*/].f_14.f_40), 0, 0, 0, hasTheMoney);
 					break;
 			}
 			break;
 	
-		case 1704445500:
+		case joaat("SERVICE_SPEND_BETTING"):
 			MONEY::NETWORK_SPENT_BETTING(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, &(Global_4535172[iParam0 /*85*/].f_14.f_34), false, false);
 			break;
 	
-		case 1620609399:
-			unk_0x3115693297B13B7A(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_HOT_TARGET_DELIVER", &unk);
+		case joaat("SERVICE_EARN_AMBIENT_JOB_HOT_TARGET_DELIVER"):
+			MONEY::NETWORK_EARN_FROM_AMBIENT_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_HOT_TARGET_DELIVER", &unk);
 			break;
 	
-		case 1961641934:
-			unk_0x3115693297B13B7A(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_HOT_TARGET_KILL", &unk);
+		case joaat("SERVICE_EARN_AMBIENT_JOB_HOT_TARGET_KILL"):
+			MONEY::NETWORK_EARN_FROM_AMBIENT_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_HOT_TARGET_KILL", &unk);
 			break;
 	
-		case 210955503:
-			unk_0x3115693297B13B7A(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_KILL_LIST", &unk);
+		case joaat("SERVICE_EARN_AMBIENT_JOB_URBAN_WARFARE"):
+			MONEY::NETWORK_EARN_FROM_AMBIENT_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_KILL_LIST", &unk);
 			break;
 	
-		case -59668082:
-			unk_0x3115693297B13B7A(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_CP_COLLECTION", &unk);
+		case joaat("SERVICE_EARN_AMBIENT_JOB_CHECKPOINT_COLLECTION"):
+			MONEY::NETWORK_EARN_FROM_AMBIENT_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_CP_COLLECTION", &unk);
 			break;
 	
-		case 1736933716:
-			unk_0x3115693297B13B7A(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_TIME_TRIAL", &unk);
+		case joaat("SERVICE_EARN_AMBIENT_JOB_TIME_TRIAL"):
+			MONEY::NETWORK_EARN_FROM_AMBIENT_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_TIME_TRIAL", &unk);
 			break;
 	
-		case -1468524125:
-			unk_0x3115693297B13B7A(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_CHALLENGES", &unk);
+		case joaat("SERVICE_EARN_AMBIENT_JOB_CHALLENGES"):
+			MONEY::NETWORK_EARN_FROM_AMBIENT_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_CHALLENGES", &unk);
 			break;
 	
-		case 111573502:
-			unk_0x3115693297B13B7A(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_HOT_TARGET_HELI", &unk);
+		case joaat("SERVICE_EARN_AMBIENT_JOB_HELI_HOT_TARGET"):
+			MONEY::NETWORK_EARN_FROM_AMBIENT_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_HOT_TARGET_HELI", &unk);
 			break;
 	
-		case 1525644423:
-			unk_0x3115693297B13B7A(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_DEAD_DROP", &unk);
+		case joaat("SERVICE_EARN_AMBIENT_JOB_DEAD_DROP"):
+			MONEY::NETWORK_EARN_FROM_AMBIENT_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_DEAD_DROP", &unk);
 			break;
 	
-		case 968073639:
-			unk_0x3115693297B13B7A(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_PENNED_IN", &unk);
+		case joaat("SERVICE_EARN_AMBIENT_JOB_PENNED_IN"):
+			MONEY::NETWORK_EARN_FROM_AMBIENT_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_PENNED_IN", &unk);
 			break;
 	
-		case 1577781788:
-			unk_0x3115693297B13B7A(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_PASS_THE_PARCEL", &unk);
+		case joaat("SERVICE_EARN_AMBIENT_JOB_PASS_PARCEL"):
+			MONEY::NETWORK_EARN_FROM_AMBIENT_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_PASS_THE_PARCEL", &unk);
 			break;
 	
-		case -934465332:
-			unk_0x3115693297B13B7A(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_CRIMINAL_DAMAGE", &unk);
+		case joaat("SERVICE_EARN_AMBIENT_JOB_BLAST"):
+			MONEY::NETWORK_EARN_FROM_AMBIENT_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_CRIMINAL_DAMAGE", &unk);
 			break;
 	
-		case -1194253122:
-			unk_0x3115693297B13B7A(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_HOT_PROPERTY", &unk);
+		case joaat("SERVICE_EARN_AMBIENT_JOB_HOT_PROPERTY"):
+			MONEY::NETWORK_EARN_FROM_AMBIENT_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_HOT_PROPERTY", &unk);
 			break;
 	
-		case -212607085:
-			unk_0x3115693297B13B7A(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_KING_OF_THE_HILL", &unk);
+		case joaat("SERVICE_EARN_AMBIENT_JOB_KING"):
+			MONEY::NETWORK_EARN_FROM_AMBIENT_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_KING_OF_THE_HILL", &unk);
 			break;
 	
-		case -815546555:
-			unk_0x3115693297B13B7A(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_HUNT_THE_BEAST", &unk);
+		case joaat("SERVICE_EARN_AMBIENT_JOB_BEAST"):
+			MONEY::NETWORK_EARN_FROM_AMBIENT_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, "AM_HUNT_THE_BEAST", &unk);
 			break;
 	
-		case 1048226110:
-			unk_0xF2EAC2D361290FDF(Global_4535172[iParam0 /*85*/].f_6, Global_4535172[iParam0 /*85*/].f_7, Global_4535172[iParam0 /*85*/].f_66.f_1);
+		case joaat("SERVICE_EARN_BOSS"):
+			MONEY::NETWORK_EARN_BOSS(Global_4535172[iParam0 /*85*/].f_6, Global_4535172[iParam0 /*85*/].f_7, Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case 569170531:
+		case joaat("SERVICE_EARN_GOON"):
 			MONEY::NETWORK_EARN_GOON(Global_4535172[iParam0 /*85*/].f_6, Global_4535172[iParam0 /*85*/].f_7, Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case -856006867:
+		case joaat("SERVICE_EARN_BOSS_AGENCY"):
 			MONEY::NETWORK_EARN_AGENCY(Global_4535172[iParam0 /*85*/].f_6, Global_4535172[iParam0 /*85*/].f_7, Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_8);
 			break;
 	
-		case 208223429:
+		case joaat("SERVICE_EARN_FROM_CONTRABAND"):
 			MONEY::NETWORK_EARN_FROM_CONTRABAND(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_9);
 			break;
 	
-		case 848090538:
+		case joaat("SERVICE_EARN_FROM_DESTROYING_CONTRABAND"):
 			MONEY::NETWORK_EARN_FROM_DESTROYING_CONTRABAND(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case 665109499:
+		case joaat("SERVICE_SPEND_ORDER_BODYGUARD_VEHICLE"):
 			MONEY::NETWORK_SPENT_ORDER_BODYGUARD_VEHICLE(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/], 0, 1);
 			break;
 	
-		case -1330755006:
+		case joaat("SERVICE_SPEND_ORDER_WAREHOUSE_VEHICLE"):
 			MONEY::NETWORK_SPENT_ORDER_WAREHOUSE_VEHICLE(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/], 0, 1);
 			break;
 	
-		case 1976384368:
+		case joaat("SERVICE_SPEND_JUKEBOX"):
 			MONEY::NETWORK_SPENT_JUKEBOX(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/], 0, 0);
 			break;
 	
-		case 268924934:
+		case joaat("SERVICE_SPEND_BUSINESS"):
 			MONEY::NETWORK_SPENT_PAY_BUSINESS_SUPPLIES(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_1, Global_4535172[iParam0 /*85*/].f_9);
 			break;
 	
-		case -293060240:
+		case joaat("SERVICE_EARN_FROM_VEHICLE_EXPORT"):
 			MONEY::NETWORK_EARN_FROM_VEHICLE_EXPORT(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_6, Global_4535172[iParam0 /*85*/].f_7);
 			break;
 	
-		case 437291904:
+		case joaat("SERVICE_SPEND_VEHICLE_EXPORT_MODS"):
 			MONEY::NETWORK_SPENT_VEHICLE_EXPORT_MODS(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/].f_6, Global_4535172[iParam0 /*85*/].f_7, Global_4535172[iParam0 /*85*/].f_1, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_10, Global_4535172[iParam0 /*85*/].f_11, Global_4535172[iParam0 /*85*/].f_12);
 			break;
 	
-		case -135813048:
+		case joaat("SERVICE_SPEND_IMPORT_EXPORT_REPAIR"):
 			MONEY::NETWORK_SPENT_IMPORT_EXPORT_REPAIR(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1);
 			break;
 	
-		case 463142405:
-			unk_0x9C45376A1294E50D(Global_4535172[iParam0 /*85*/].f_6, Global_4535172[iParam0 /*85*/].f_7, Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_8);
+		case joaat("SERVICE_EARN_SMUGGLER_AGENCY"):
+			MONEY::NETWORK_EARN_SMUGGLER_AGENCY(Global_4535172[iParam0 /*85*/].f_6, Global_4535172[iParam0 /*85*/].f_7, Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_8);
 			break;
 	
-		case 1550217370:
+		case joaat("SERVICE_EARN_WAGE_PAYMENT_BONUS"):
 			MONEY::NETWORK_EARN_WAGE_PAYMENT_BONUS(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case -101307780:
-			unk_0x9A9E6CDBC9F34AE5(Global_4535172[iParam0 /*85*/].f_66.f_1, 0);
+		case joaat("SERVICE_EARN_WAGE_PAYMENT"):
+			MONEY::NETWORK_EARN_WAGE_PAYMENT(Global_4535172[iParam0 /*85*/].f_66.f_1, 0);
 			break;
 	
-		case 599804707:
-			unk_0x3115693297B13B7A(Global_4535172[iParam0 /*85*/].f_66.f_1, "GB_SALVAGE", &unk);
+		case joaat("SERVICE_EARN_SALVAGE_CHECKPOINT_COLLECTION"):
+			MONEY::NETWORK_EARN_FROM_AMBIENT_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, "GB_SALVAGE", &unk);
 			break;
 	
-		case 1347433368:
-			MONEY::NETWORK_EARN_FROM_CASHING_OUT(Global_4535172[iParam0 /*85*/].f_66.f_1);
+		case joaat("SERVICE_EARN_CASHING_OUT"):
+			MONEY::NETWORK_EARN_FROM_PICKUP(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case 1052472386:
-			unk_0xD9F1B54B70098ED3(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), &(Global_4535172[iParam0 /*85*/].f_14.f_34));
+		case joaat("SERVICE_EARN_JOB_BONUS_CRIMINAL_MASTERMIND"):
+			MONEY::NETWORK_EARN_FROM_JOB_BONUS(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), &(Global_4535172[iParam0 /*85*/].f_14.f_34));
 			break;
 	
-		case -2130199671:
-			unk_0xA4C94984AEC0AF8E(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), &(Global_4535172[iParam0 /*85*/].f_14.f_34));
+		case joaat("SERVICE_EARN_JOB_BONUS_HEIST_AWARD"):
+			MONEY::NETWORK_EARN_HEIST_AWARD(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), &(Global_4535172[iParam0 /*85*/].f_14.f_34));
 			break;
 	
-		case -1227654538:
+		case joaat("SERVICE_EARN_JOB_BONUS_FIRST_TIME_BONUS"):
 			MONEY::NETWORK_EARN_FIRST_TIME_BONUS(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), &(Global_4535172[iParam0 /*85*/].f_14.f_34));
 			break;
 	
-		case -930104477:
+		case joaat("SERVICE_SPEND_EMPLOY_ASSASSINS"):
 			MONEY::NETWORK_SPENT_EMPLOY_ASSASSINS(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
-		case 1864522104:
+		case joaat("SERVICE_EARN_REFUND_ORBITAL_MANUAL"):
 			MONEY::NETWORK_EARN_TARGET_REFUND(Global_4535172[iParam0 /*85*/].f_66.f_1, 0);
 			break;
 	
-		case 215608230:
+		case joaat("SERVICE_EARN_REFUND_ORBITAL_AUTO"):
 			MONEY::NETWORK_EARN_TARGET_REFUND(Global_4535172[iParam0 /*85*/].f_66.f_1, 1);
 			break;
 	
-		case -876012764:
+		case joaat("SERVICE_EARN_GANGOPS_WAGES"):
 			MONEY::NETWORK_EARN_GANGOPS_WAGES(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
-		case -722894325:
+		case joaat("SERVICE_EARN_GANGOPS_WAGES_BONUS"):
 			MONEY::NETWORK_EARN_GANGOPS_WAGES_BONUS(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
-		case 1407278493:
+		case joaat("SERVICE_EARN_GANGOPS_PREP_PARTICIPATION"):
 			MONEY::NETWORK_EARN_GANGOPS_PREP_PARTICIPATION(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case -1579394494:
-		case -27443911:
+		case joaat("SERVICE_EARN_GANGOPS_SETUP"):
+		case joaat("SERVICE_EARN_GANGOPS_SETUP_FAIL"):
 			MONEY::NETWORK_EARN_GANGOPS_SETUP(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26));
 			break;
 	
-		case 1179783540:
+		case joaat("SERVICE_EARN_GANGOPS_FINALE"):
 			MONEY::NETWORK_EARN_GANGOPS_FINALE(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26));
 			break;
 	
-		case 923419301:
+		case joaat("SERVICE_EARN_GANGOPS_AWARD_MASTERMIND_2"):
 			MONEY::NETWORK_EARN_GANGOPS_AWARD(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), 0);
 			break;
 	
-		case -308826175:
+		case joaat("SERVICE_EARN_GANGOPS_AWARD_MASTERMIND_3"):
 			MONEY::NETWORK_EARN_GANGOPS_AWARD(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), 1);
 			break;
 	
-		case 603298940:
+		case joaat("SERVICE_EARN_GANGOPS_AWARD_MASTERMIND_4"):
 			MONEY::NETWORK_EARN_GANGOPS_AWARD(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), 2);
 			break;
 	
-		case -12619854:
+		case joaat("SERVICE_EARN_GANGOPS_AWARD_LOYALTY_AWARD_2"):
 			MONEY::NETWORK_EARN_GANGOPS_AWARD(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), 3);
 			break;
 	
-		case -311112675:
+		case joaat("SERVICE_EARN_GANGOPS_AWARD_LOYALTY_AWARD_3"):
 			MONEY::NETWORK_EARN_GANGOPS_AWARD(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), 4);
 			break;
 	
-		case 870439158:
+		case joaat("SERVICE_EARN_GANGOPS_AWARD_LOYALTY_AWARD_4"):
 			MONEY::NETWORK_EARN_GANGOPS_AWARD(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), 5);
 			break;
 	
-		case -974288740:
+		case joaat("SERVICE_EARN_GANGOPS_AWARD_FIRST_TIME_XM_BASE"):
 			MONEY::NETWORK_EARN_GANGOPS_AWARD(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), 6);
 			break;
 	
-		case -4138654:
+		case joaat("SERVICE_EARN_GANGOPS_AWARD_FIRST_TIME_XM_SUBMARINE"):
 			MONEY::NETWORK_EARN_GANGOPS_AWARD(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), 7);
 			break;
 	
-		case -1180954122:
+		case joaat("SERVICE_EARN_GANGOPS_AWARD_FIRST_TIME_XM_SILO"):
 			MONEY::NETWORK_EARN_GANGOPS_AWARD(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), 8);
 			break;
 	
-		case -1918051016:
+		case joaat("SERVICE_EARN_GANGOPS_AWARD_SUPPORTING"):
 			MONEY::NETWORK_EARN_GANGOPS_AWARD(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), 9);
 			break;
 	
-		case 844330594:
+		case joaat("SERVICE_EARN_GANGOPS_AWARD_ORDER"):
 			MONEY::NETWORK_EARN_GANGOPS_AWARD(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), 10);
 			break;
 	
-		case 1934825517:
+		case joaat("SERVICE_EARN_GANGOPS_ELITE_XM_BASE"):
 			MONEY::NETWORK_EARN_GANGOPS_ELITE(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), 0);
 			break;
 	
-		case 1852024236:
+		case joaat("SERVICE_EARN_GANGOPS_ELITE_XM_SUBMARINE"):
 			MONEY::NETWORK_EARN_GANGOPS_ELITE(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), 1);
 			break;
 	
-		case 2099238988:
+		case joaat("SERVICE_EARN_GANGOPS_ELITE_XM_SILO"):
 			MONEY::NETWORK_EARN_GANGOPS_ELITE(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), 2);
 			break;
 	
-		case 1952643559:
+		case joaat("SERVICE_EARN_GANGOPS_RIVAL_DELIVERY"):
 			break;
 	
-		case 2039302543:
+		case joaat("SERVICE_SPEND_GANGOPS_REPAIR_COST"):
 			break;
 	
-		case -1172900789:
+		case joaat("SERVICE_EARN_DOOMSDAY_FINALE_BONUS"):
 			MONEY::NETWORK_EARN_DOOMSDAY_FINALE_BONUS(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_9);
 			break;
 	
-		case -1733398043:
+		case joaat("SERVICE_SPEND_GANGOPS_SKIP_MISSION"):
 			MONEY::NETWORK_SPEND_GANGOPS_SKIP_MISSION(Global_4535172[iParam0 /*85*/].f_9, Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1);
 			break;
 	
-		case -1892760262:
+		case joaat("SERVICE_SPEND_GANGOPS_START_STRAND"):
 			MONEY::NETWORK_SPEND_GANGOPS_START_STRAND(Global_4535172[iParam0 /*85*/].f_9, Global_4535172[iParam0 /*85*/].f_66.f_1, false, true);
 			break;
 	
-		case -2015399333:
+		case joaat("SERVICE_EARN_BOUNTY_HUNTER_REWARD"):
 			MONEY::NETWORK_EARN_BOUNTY_HUNTER_REWARD(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case 402505853:
+		case joaat("SERVICE_SPEND_NIGHTCLUB_ENTRY_FEE"):
 			if (func_33(PLAYER::INT_TO_PLAYERINDEX(Global_4535172[iParam0 /*85*/]), false, false))
 				MONEY::NETWORK_SPENT_NIGHTCLUB_ENTRY_FEE(PLAYER::INT_TO_PLAYERINDEX(Global_4535172[iParam0 /*85*/]), Global_4535172[iParam0 /*85*/].f_1, Global_4535172[iParam0 /*85*/].f_66.f_1, false, true);
 			break;
 	
-		case 1678112166:
+		case joaat("SERVICE_SPEND_NIGHTCLUB_DJ_REHIRE"):
 			MONEY::NETWORK_SPENT_REHIRE_DJ(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/], false, true);
 			break;
 	
-		case -1143510182:
+		case joaat("SERVICE_SPEND_NIGHTCLUB_BAR_DRINK"):
 			MONEY::NETWORK_SPEND_NIGHTCLUB_BAR_DRINK(Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_66.f_1, false, true);
 			break;
 	
-		case -1574795641:
+		case joaat("SERVICE_EARN_FROM_BUSINESS_BATTLE"):
 			MONEY::NETWORK_EARN_FROM_BUSINESS_BATTLE(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case -961034881:
+		case joaat("SERVICE_EARN_FROM_CLUB_MANAGEMENT_PARTICIPATION"):
 			MONEY::NETWORK_EARN_FROM_CLUB_MANAGEMENT_PARTICIPATION(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
-		case 1135468152:
-			unk_0xB83B085744F6C174(Global_4535172[iParam0 /*85*/].f_66.f_1);
+		case joaat("SERVICE_EARN_FROM_FMBB_PHONECALL_MISSION"):
+			MONEY::NETWORK_EARN_FROM_FMBB_PHONECALL_MISSION(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case 1265272476:
+		case joaat("SERVICE_EARN_FROM_BUSINESS_HUB_SELL"):
 			MONEY::NETWORK_EARN_FROM_BUSINESS_HUB_SELL(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_1, Global_4535172[iParam0 /*85*/].f_9);
 			break;
 	
-		case -634726636:
-			unk_0x7B21B556399F29A8(Global_4535172[iParam0 /*85*/].f_66.f_1);
+		case joaat("SERVICE_EARN_FROM_FMBB_BOSS_WORK"):
+			MONEY::NETWORK_EARN_FROM_FMBB_BOSS_WORK(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case 696556762:
+		case joaat("SERVICE_EARN_FMBB_WAGE_BONUS"):
 			MONEY::NETWORK_EARN_FMBB_WAGE_BONUS(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case 837955913:
+		case joaat("SERVICE_SPEND_ARENA_JOIN_SPECTATOR"):
 			MONEY::NETWORK_SPENT_ARENA_JOIN_SPECTATOR(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_15, false, true);
 			break;
 	
-		case 403506509:
+		case joaat("SERVICE_EARN_BB_EVENT_BONUS"):
 			MONEY::NETWORK_EARN_BB_EVENT_BONUS(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case -883876414:
+		case joaat("SERVICE_EARN_ARENA_SKILL_LVL_AWARD"):
 			MONEY::NETWORK_EARN_ARENA_SKILL_LEVEL_PROGRESSION(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_15);
 			break;
 	
-		case -1064150715:
-		case -1387253055:
-		case -716963152:
-		case 1138089938:
+		case joaat("SERVICE_EARN_ARENA_CAREER_TIER_PROGRESSION_1"):
+		case joaat("SERVICE_EARN_ARENA_CAREER_TIER_PROGRESSION_2"):
+		case joaat("SERVICE_EARN_ARENA_CAREER_TIER_PROGRESSION_3"):
+		case joaat("SERVICE_EARN_ARENA_CAREER_TIER_PROGRESSION_4"):
 			MONEY::NETWORK_EARN_ARENA_CAREER_PROGRESSION(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_15);
 			break;
 	
-		case -1532467144:
+		case joaat("SERVICE_SPEND_ARENA_SPECTATOR_BOX"):
 			MONEY::NETWORK_SPEND_ARENA_SPECTATOR_BOX(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/], false, true);
 			break;
 	
-		case 1815541181:
+		case joaat("SERVICE_SPEND_MAKE_IT_RAIN"):
 			MONEY::NETWORK_SPEND_MAKE_IT_RAIN(Global_4535172[iParam0 /*85*/].f_66.f_1, false, false);
 			break;
 	
-		case -561012053:
+		case joaat("SERVICE_EARN_SPIN_THE_WHEEL_CASH"):
 			MONEY::NETWORK_EARN_SPIN_THE_WHEEL_CASH(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case -1342064661:
+		case joaat("SERVICE_SPEND_SPIN_THE_WHEEL_PAYMENT"):
 			MONEY::NETWORK_SPEND_SPIN_THE_WHEEL_PAYMENT(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, true);
 			break;
 	
-		case 1240683675:
+		case joaat("SERVICE_EARN_ASSASSINATE_TARGET_KILLED"):
 			MONEY::NETWORK_EARN_ARENA_WAR_ASSASSINATE_TARGET(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case 1241904665:
+		case joaat("SERVICE_EARN_ARENA_WAR"):
 			MONEY::NETWORK_EARN_ARENA_WAR(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_66.f_16, Global_4535172[iParam0 /*85*/].f_1);
 			break;
 	
-		case -494565059:
+		case joaat("SERVICE_EARN_AMBIENT_JOB_RC_TIME_TRIAL"):
 			MONEY::NETWORK_EARN_RC_TIME_TRIAL(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case 827308208:
+		case joaat("SERVICE_EARN_DAILY_OBJECTIVE_EVENT"):
 			MONEY::NETWORK_EARN_DAILY_OBJECTIVE_EVENT(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case -1857685192:
+		case joaat("SERVICE_EARN_COLLECTABLES_ACTION_FIGURES"):
 			MONEY::NETWORK_EARN_COLLECTABLES_ACTION_FIGURES(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case 1698417709:
+		case joaat("SERVICE_EARN_CASINO_MISSION_REWARD"):
 			MONEY::NETWORK_EARN_CASINO_MISSION_REWARD(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case -2017925037:
+		case joaat("SERVICE_EARN_CASINO_STORY_MISSION_REWARD"):
 			MONEY::NETWORK_EARN_CASINO_STORY_MISSION_REWARD(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case 1057653594:
-		case 1810506918:
-		case 451427308:
-		case 824622151:
-		case 1253978276:
-		case -1576080766:
-		case 1508411869:
-		case 1428501742:
-		case -1918967151:
-		case 1261538664:
-		case 1180397655:
-		case 1414674366:
-		case 261460130:
-		case -2027658376:
+		case joaat("SERVICE_EARN_CASINO_AWARD_MISSION_ONE_FIRST_TIME"):
+		case joaat("SERVICE_EARN_CASINO_AWARD_MISSION_TWO_FIRST_TIME"):
+		case joaat("SERVICE_EARN_CASINO_AWARD_MISSION_THREE_FIRST_TIME"):
+		case joaat("SERVICE_EARN_CASINO_AWARD_MISSION_FOUR_FIRST_TIME"):
+		case joaat("SERVICE_EARN_CASINO_AWARD_MISSION_FIVE_FIRST_TIME"):
+		case joaat("SERVICE_EARN_CASINO_AWARD_MISSION_SIX_FIRST_TIME"):
+		case joaat("SERVICE_EARN_CASINO_AWARD_STRAIGHT_FLUSH"):
+		case joaat("SERVICE_EARN_CASINO_AWARD_TOP_PAIR"):
+		case joaat("SERVICE_EARN_CASINO_AWARD_FULL_HOUSE"):
+		case joaat("SERVICE_EARN_CASINO_AWARD_LUCKY_LUCKY"):
+		case joaat("SERVICE_EARN_CASINO_AWARD_HIGH_ROLLER_BRONZE"):
+		case joaat("SERVICE_EARN_CASINO_AWARD_HIGH_ROLLER_SILVER"):
+		case joaat("SERVICE_EARN_CASINO_AWARD_HIGH_ROLLER_GOLD"):
+		case joaat("SERVICE_EARN_CASINO_AWARD_HIGH_ROLLER_PLATINUM"):
 			MONEY::NETWORK_EARN_CASINO_AWARD(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
-		case -1693570755:
-			unk_0xFA5071F459A54000(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), Global_4535172[iParam0 /*85*/]);
+		case joaat("SERVICE_SPEND_CASINO_GENERIC"):
+			MONEY::NETWORK_SPEND_CASINO_GENERIC(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), Global_4535172[iParam0 /*85*/]);
 			break;
 	
-		case 1868043300:
+		case joaat("SERVICE_SPEND_ARCADE_GAME"):
 			MONEY::NETWORK_SPEND_PLAY_ARCADE(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case -697248883:
+		case joaat("SERVICE_SPEND_ARCADE_GENERIC"):
 			MONEY::NETWORK_SPEND_ARCADE(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case -1295545795:
+		case joaat("SERVICE_SPEND_CASINO_HEIST_SKIP_MISSION"):
 			MONEY::NETWORK_SPEND_CASINO_HEIST_SKIP_MISSION(Global_4535172[iParam0 /*85*/].f_9, Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1);
 			break;
 	
-		case 914079366:
+		case joaat("SERVICE_SPEND_CASINO_HEIST_SETUP_HEIST"):
 			MONEY::NETWORK_SPEND_CASINO_HEIST(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, 1, Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 0, 0, 0, 0, 0);
 			break;
 	
-		case 395122350:
+		case joaat("SERVICE_SPEND_CASINO_HEIST_CASINO_MODEL"):
 			MONEY::NETWORK_SPEND_CASINO_HEIST(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, 0, 0, 1, Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 0, 0, 0);
 			break;
 	
-		case -331981076:
+		case joaat("SERVICE_SPEND_CASINO_HEIST_VAULT_DOOR"):
 			MONEY::NETWORK_SPEND_CASINO_HEIST(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, 0, 0, 0, 0, 1, Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 0);
 			break;
 	
-		case 1671535231:
+		case joaat("SERVICE_SPEND_CASINO_HEIST_DOOR_SECURITY"):
 			MONEY::NETWORK_SPEND_CASINO_HEIST(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, 0, 0, 0, 0, 0, 0, 1, Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case 1982688246:
+		case joaat("SERVICE_EARN_DEBUG"):
 			break;
 	}
 
 	switch (Global_4535172[iParam0 /*85*/].f_66.f_4)
 	{
-		case 1668610896:
+		case joaat("SERVICE_EARN_CASINO_HEIST_SETUP_MISSION"):
 			MONEY::NETWORK_EARN_CASINO_HEIST(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 0, 1, Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 0);
 			break;
 	
-		case -2032529561:
+		case joaat("SERVICE_EARN_CASINO_HEIST_PREP_MISSION"):
 			MONEY::NETWORK_EARN_CASINO_HEIST(Global_4535172[iParam0 /*85*/].f_66.f_1, 1, Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 0, 0, 0);
 			break;
 	
-		case -1224479447:
+		case joaat("SERVICE_EARN_CASINO_HEIST_FINALE"):
 			MONEY::NETWORK_EARN_CASINO_HEIST(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 0, 0, 0, 1, Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case -319306689:
-		case -466527264:
-		case 1925965142:
-		case 592152676:
-		case 2035612943:
-		case 1568659720:
+		case joaat("SERVICE_EARN_CASINO_HEIST_AWARD_SMASH_N_GRAB"):
+		case joaat("SERVICE_EARN_CASINO_HEIST_AWARD_IN_PLAIN_SIGHT"):
+		case joaat("SERVICE_EARN_CASINO_HEIST_AWARD_UNDETECTED"):
+		case joaat("SERVICE_EARN_CASINO_HEIST_AWARD_ALL_ROUNDER"):
+		case joaat("SERVICE_EARN_CASINO_HEIST_AWARD_ELITE_THIEF"):
+		case joaat("SERVICE_EARN_CASINO_HEIST_AWARD_PROFESSIONAL"):
 			MONEY::NETWORK_EARN_CASINO_HEIST_AWARDS(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 0);
 			break;
 	
-		case 1220095570:
-		case 2050320631:
-		case 592672421:
+		case joaat("SERVICE_EARN_CASINO_HEIST_ELITE_STEALTH"):
+		case joaat("SERVICE_EARN_CASINO_HEIST_ELITE_SUBTERFUGE"):
+		case joaat("SERVICE_EARN_CASINO_HEIST_ELITE_DIRECT"):
 			MONEY::NETWORK_EARN_CASINO_HEIST_AWARDS(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 0, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case 1775876058:
-			MONEY::NETWORK_EARN_CASINO_COLLECTABLE_COMPLETED_COLLECTION(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
+		case joaat("SERVICE_EARN_COLLECTABLE_ITEM"):
+			unk_0xC0DE18944A7A9044(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
-		case -842062976:
+		case joaat("SERVICE_EARN_COLLECTABLE_COMPLETED_COLLECTION"):
 			MONEY::NETWORK_EARN_COLLECTABLE_COMPLETED_COLLECTION(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
-		case -1896606724:
+		case joaat("SERVICE_SPEND_ISLAND_HEIST_SUPPORT_AIRSTRIKE"):
 			num = Global_4535172[iParam0 /*85*/].f_66.f_1;
 			MONEY::NETWORK_SPEND_ISLAND_HEIST(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, &num);
 			break;
 	
-		case -1291433573:
+		case joaat("SERVICE_SPEND_ISLAND_HEIST_SUPPORT_HEAVY_WEAPON"):
 			num.f_1 = Global_4535172[iParam0 /*85*/].f_66.f_1;
 			MONEY::NETWORK_SPEND_ISLAND_HEIST(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, &num);
 			break;
 	
-		case 538631715:
+		case joaat("SERVICE_SPEND_ISLAND_HEIST_SUPPORT_SNIPER"):
 			num.f_2 = Global_4535172[iParam0 /*85*/].f_66.f_1;
 			MONEY::NETWORK_SPEND_ISLAND_HEIST(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, &num);
 			break;
 	
-		case 133782822:
+		case joaat("SERVICE_SPEND_ISLAND_HEIST_SUPPORT_AIR_SUPPORT"):
 			num.f_3 = Global_4535172[iParam0 /*85*/].f_66.f_1;
 			MONEY::NETWORK_SPEND_ISLAND_HEIST(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, &num);
 			break;
 	
-		case 2081885153:
+		case joaat("SERVICE_SPEND_ISLAND_HEIST_SUPPORT_DRONE"):
 			num.f_4 = Global_4535172[iParam0 /*85*/].f_66.f_1;
 			MONEY::NETWORK_SPEND_ISLAND_HEIST(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, &num);
 			break;
 	
-		case -1314365345:
+		case joaat("SERVICE_SPEND_ISLAND_HEIST_SUPPORT_WEAPON_STASH"):
 			num.f_5 = Global_4535172[iParam0 /*85*/].f_66.f_1;
 			MONEY::NETWORK_SPEND_ISLAND_HEIST(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, &num);
 			break;
 	
-		case 1322977732:
+		case joaat("SERVICE_SPEND_ISLAND_HEIST_SUPPRESSORS"):
 			num.f_6 = Global_4535172[iParam0 /*85*/].f_66.f_1;
 			MONEY::NETWORK_SPEND_ISLAND_HEIST(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, &num);
 			break;
 	
-		case 396623013:
+		case joaat("SERVICE_SPEND_ISLAND_HEIST_REPLAY"):
 			num.f_7 = Global_4535172[iParam0 /*85*/].f_66.f_1;
 			MONEY::NETWORK_SPEND_ISLAND_HEIST(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, &num);
 			break;
 	
-		case 1981664462:
+		case joaat("SERVICE_SPEND_BEACH_PARTY_GENERIC"):
 			MONEY::NETWORK_SPEND_BEACH_PARTY(Global_4535172[iParam0 /*85*/]);
 			break;
 	
-		case -518651910:
-		case 14658715:
-			unk_0xDDC3F536EDA530D7(Global_4535172[iParam0 /*85*/].f_66.f_1);
+		case joaat("SERVICE_EARN_COLLECTABLES_SIGNAL_JAMMERS"):
+		case joaat("SERVICE_EARN_COLLECTABLES_SIGNAL_JAMMERS_COMPLETE"):
+			MONEY::NETWORK_EARN_CASINO_COLLECTABLE_COMPLETED_COLLECTION(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case -604793592:
-		case -823426392:
-		case -1401862980:
-		case -173354274:
-		case 409533976:
-		case -1472522337:
-		case 542574408:
-		case -1261799063:
-		case 784631574:
-		case -2027479156:
+		case joaat("SERVICE_EARN_ISLAND_HEIST_FINALE"):
+		case joaat("SERVICE_EARN_ISLAND_HEIST_ELITE_CHALLENGE"):
+		case joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_PROFESSIONAL"):
+		case joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_ELITE_THIEF"):
+		case joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_THE_ISLAND_HEIST"):
+		case joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_GOING_ALONE"):
+		case joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_TEAM_WORK"):
+		case joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_CAT_BURGLAR"):
+		case joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_PRO_THIEF"):
+		case joaat("SERVICE_EARN_ISLAND_HEIST_AWARD_MIXING_IT_UP"):
 			MONEY::NETWORK_EARN_ISLAND_HEIST(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_15, Global_4535172[iParam0 /*85*/].f_66.f_16, Global_4535172[iParam0 /*85*/], 0, 0);
 			break;
 	
-		case -837690641:
+		case joaat("SERVICE_EARN_ISLAND_HEIST_PREP"):
 			MONEY::NETWORK_EARN_ISLAND_HEIST(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 0, 0, Global_4535172[iParam0 /*85*/].f_66.f_15, Global_4535172[iParam0 /*85*/].f_66.f_16);
 			break;
 	
-		case -1029672338:
+		case joaat("SERVICE_EARN_ISLAND_HEIST_DJ_MISSION"):
 			MONEY::NETWORK_EARN_FROM_ISLAND_HEIST_DJ_MISSION(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_16);
 			break;
 	
-		case -1921250821:
+		case joaat("SERVICE_SPEND_SUBMARINE_UTILITY_FEE"):
 			MONEY::NETWORK_SPEND_SUBMARINE(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 0);
 			break;
 	
-		case -1370731547:
+		case joaat("SERVICE_SPEND_SUBMARINE_BOAT"):
 			MONEY::NETWORK_SPEND_SUBMARINE(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, 0, Global_4535172[iParam0 /*85*/].f_66.f_1, 0);
 			break;
 	
-		case 1683798242:
+		case joaat("SERVICE_SPEND_SUBMARINE_RELOCATION"):
 			MONEY::NETWORK_SPEND_SUBMARINE(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, 0, 0, Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case -910968288:
+		case joaat("SERVICE_SPEND_CASINO_CLUB_GENERIC"):
 			MONEY::NETWORK_SPEND_CASINO_CLUB(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, true, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_10, Global_4535172[iParam0 /*85*/].f_11, Global_4535172[iParam0 /*85*/].f_12, Global_4535172[iParam0 /*85*/].f_6, Global_4535172[iParam0 /*85*/].f_7);
 			break;
 	
-		case -1503749970:
-			unk_0xD506AB2E4CDCB58C(Global_4535172[iParam0 /*85*/].f_66.f_1, -1, -1, Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_16);
+		case joaat("SERVICE_EARN_TUNER_ROBBERY_PREP"):
+			MONEY::NETWORK_EARN_TUNER_ROBBERY(Global_4535172[iParam0 /*85*/].f_66.f_1, -1, -1, Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_16);
 			break;
 	
-		case -1843409092:
-			unk_0xD506AB2E4CDCB58C(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_1, MISC::GET_HASH_KEY(&(Global_4535172[iParam0 /*85*/].f_14.f_26)), -1, -1);
+		case joaat("SERVICE_EARN_TUNER_ROBBERY_FINALE"):
+			MONEY::NETWORK_EARN_TUNER_ROBBERY(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_1, MISC::GET_HASH_KEY(&(Global_4535172[iParam0 /*85*/].f_14.f_26)), -1, -1);
 			break;
 	
-		case 1669058563:
+		case joaat("SERVICE_EARN_TUNER_CAR_CLUB_MEMBERSHIP"):
 			MONEY::NETWORK_EARN_CARCLUB_MEMBERSHIP(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case 2102747615:
+		case joaat("SERVICE_EARN_TUNER_DAILY_VEHICLE"):
 			MONEY::NETWORK_EARN_DAILY_VEHICLE(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_16);
 			break;
 	
-		case 2030771998:
+		case joaat("SERVICE_EARN_TUNER_DAILY_VEHICLE_BONUS"):
 			MONEY::NETWORK_EARN_DAILY_VEHICLE_BONUS(Global_4535172[iParam0 /*85*/].f_66.f_1);
 			break;
 	
-		case 1708747007:
-		case 645293860:
-		case -818859193:
-		case 300796227:
-		case -1999832346:
-		case 1058055395:
-		case -321151125:
-		case 2078731875:
-			unk_0x1A01677EC27573F3(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), &(Global_4535172[iParam0 /*85*/].f_14.f_44));
+		case joaat("SERVICE_EARN_TUNER_AWARD_UNION_DEPOSITORY"):
+		case joaat("SERVICE_EARN_TUNER_AWARD_MILITARY_CONVOY"):
+		case joaat("SERVICE_EARN_TUNER_AWARD_FLEECA_BANK"):
+		case joaat("SERVICE_EARN_TUNER_AWARD_FREIGHT_TRAIN"):
+		case joaat("SERVICE_EARN_TUNER_AWARD_BOLINGBROKE_ASS"):
+		case joaat("SERVICE_EARN_TUNER_AWARD_IAA_RAID"):
+		case joaat("SERVICE_EARN_TUNER_AWARD_METH_JOB"):
+		case joaat("SERVICE_EARN_TUNER_AWARD_BUNKER_RAID"):
+			MONEY::NETWORK_EARN_TUNER_AWARD(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), &(Global_4535172[iParam0 /*85*/].f_14.f_44));
 			break;
 	
-		case 1051883823:
+		case joaat("SERVICE_SPEND_INTERACTION_MENU_ABILITY"):
 			MONEY::NETWORK_SPEND_INTERACTION_MENU_ABILITY(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/].f_66.f_16);
 			break;
 	
-		case 1280785534:
-			unk_0x2FB9E5AFF13BBBD1(Global_4535172[iParam0 /*85*/].f_66.f_1, 277);
+		case joaat("SERVICE_EARN_AUTO_SHOP_DELIVERY_AWARD"):
+			MONEY::NETWORK_EARN_AUTOSHOP_INCOME(Global_4535172[iParam0 /*85*/].f_66.f_1, 277);
 			break;
 	
-		case -168319378:
-			unk_0xB40F96D6D252839B(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, &Global_4540926);
+		case joaat("SERVICE_SPEND_BUSINESS_EXPENSES"):
+			MONEY::NETWORK_SPEND_BUSINESS_PROPERTY_FEES(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, &Global_4540926);
 			break;
 	
-		case -1878824774:
-			unk_0x050E00EF3147C8A7(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_16);
+		case joaat("SERVICE_EARN_AGENCY_SECURITY_CONTRACT"):
+			MONEY::NETWORK_EARN_AGENCY_CONTRACT(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_16);
 			break;
 	
-		case 247992227:
-			unk_0xC8D7A0BD9DF03F2C(Global_4535172[iParam0 /*85*/].f_66.f_15, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_66.f_16);
+		case joaat("SERVICE_EARN_AGENCY_PAYPHONE_HIT"):
+			MONEY::NETWORK_EARN_AGENCY_PHONE(Global_4535172[iParam0 /*85*/].f_66.f_15, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_66.f_16);
 			break;
 	
-		case -229237358:
-			unk_0x08FC800C8292E3D7(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_16);
+		case joaat("SERVICE_EARN_AGENCY_STORY_PREP"):
+			MONEY::NETWORK_EARN_FIXER_PREP(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_16);
 			break;
 	
-		case -1123183389:
-			unk_0x89B53A3D8B028463(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_16);
+		case joaat("SERVICE_EARN_AGENCY_STORY_FINALE"):
+			MONEY::NETWORK_EARN_FIXER_FINALE(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_16);
 			break;
 	
-		case 1814197076:
-			unk_0x51C57EB1393F5210(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_16);
+		case joaat("SERVICE_EARN_FIXER_AWARD_SEC_CON"):
+			MONEY::NETWORK_EARN_AWARD_CONTRACT(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_16);
 			break;
 	
-		case 713955548:
-			unk_0x1F937579254BC384(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_16);
+		case joaat("SERVICE_EARN_FIXER_AWARD_PHONE_HIT"):
+			MONEY::NETWORK_EARN_AWARD_PHONE(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_16);
 			break;
 	
-		case -2026544524:
-			unk_0x0ECD9F20C4C766A8(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_16);
+		case joaat("SERVICE_EARN_FIXER_AWARD_AGENCY_STORY"):
+			MONEY::NETWORK_EARN_AWARD_FIXER_MISSION(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_16);
 			break;
 	
-		case -719580138:
-			unk_0xF5F76DD24A185B08(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_16);
+		case joaat("SERVICE_EARN_FIXER_AWARD_SHORT_TRIP"):
+			MONEY::NETWORK_EARN_AWARD_SHORT_TRIP(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_16);
 			break;
 	
-		case -163417439:
-			unk_0x3479FBC3BA30F235(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_16);
+		case joaat("SERVICE_EARN_FIXER_RIVAL_DELIVERY"):
+			MONEY::NETWORK_EARN_FIXER_RIVAL_DELIVERY(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_16);
 			break;
 	
-		case -1658225921:
-			unk_0x5B16305919429CC1(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/].f_66.f_15);
+		case joaat("SERVICE_SPEND_REQUEST_SUPPLY"):
+			MONEY::NETWORK_SPEND_SUPPLY(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/].f_66.f_15);
 			break;
 	
-		case -551835600:
-			unk_0x7B3712C16D170E76(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/].f_66.f_15);
+		case joaat("SERVICE_SPEND_REQUEST_SOURCE_MOTORCYCLE"):
+			MONEY::NETWORK_SPEND_SOURCE_BIKE(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/].f_66.f_15);
 			break;
 	
-		case -1230687625:
-			unk_0x12430783CDB9E80B(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/].f_66.f_15);
+		case joaat("SERVICE_SPEND_REQUEST_OUT_OF_SIGHT"):
+			MONEY::NETWORK_SPEND_HIDDEN(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/].f_66.f_15);
 			break;
 	
-		case -550417574:
-			unk_0x9A817A880869D611(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_16);
+		case joaat("SERVICE_EARN_MUSIC_STUDIO_SHORT_TRIP"):
+			MONEY::NETWORK_EARN_FIXER_AGENCY_SHORT_TRIP(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_66.f_16);
 			break;
 	
-		case 1637817605:
-			unk_0x59C66FFC48B94777(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/].f_66.f_16, Global_4535172[iParam0 /*85*/].f_66.f_15);
+		case joaat("SERVICE_SPEND_FIXER_HQ_CONCIERGE"):
+			MONEY::NETWORK_SPEND_AGENCY(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/].f_66.f_16, Global_4535172[iParam0 /*85*/].f_66.f_15);
 			break;
 	
-		case 830018386:
-			unk_0xB05F90B296113984(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/]);
+		case joaat("SERVICE_SPEND_REQUEST_COMPANY_SUV"):
+			MONEY::NETWORK_SPEND_COMP_SUV(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
-		case -1433071892:
+		case joaat("SERVICE_EARN_NCLUB_TROUBLEMAKER"):
 			MONEY::NETWORK_EARN_FROM_CLUB_MANAGEMENT_PARTICIPATION(Global_4535172[iParam0 /*85*/].f_66.f_1, 1989714117);
 			break;
 	
-		case -2013760296:
-			unk_0x430F4990DB2E9D49(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/]);
+		case joaat("SERVICE_SPEND_AGENT_14_VEHICLE_REQUEST"):
+			MONEY::NETWORK_SPEND_GUNRUNNING(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
-		case 761999406:
-			unk_0x9D37ED16F0152789(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_66.f_15, Global_4535172[iParam0 /*85*/].f_66.f_16);
+		case joaat("SERVICE_EARN_SIGHTSEEING_REWARD"):
+			MONEY::NETWORK_EARN_SIGHTSEEING_REWARD(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_66.f_15, Global_4535172[iParam0 /*85*/].f_66.f_16);
 			break;
 	
-		case -1033889004:
-			unk_0x76BFD614D74017E7(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_66.f_15);
+		case joaat("SERVICE_SPEND_TONY_LIMO"):
+			MONEY::NETWORK_SPEND_VEHICLE_REQUESTED(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_66.f_15);
 			break;
 	
-		case -754024203:
-			unk_0xDF34820949F1269B(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/]);
+		case joaat("SERVICE_SPEND_HELI_PICKUP"):
+			MONEY::NETWORK_SPENT_HELI_PICKUP(Global_4535172[iParam0 /*85*/].f_66.f_1, false, true, Global_4535172[iParam0 /*85*/]);
 			break;
 	
-		case 1208553146:
-			unk_0xEFD482B815CC8ACF(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/]);
+		case joaat("SERVICE_SPEND_BOAT_PICKUP"):
+			MONEY::NETWORK_SPENT_BOAT_PICKUP(Global_4535172[iParam0 /*85*/].f_66.f_1, false, true, Global_4535172[iParam0 /*85*/]);
 			break;
 	
-		case -1101941763:
-		case 1748245957:
-		case 1036772696:
-		case -1384648535:
-		case -800037808:
-		case -695852120:
-		case 77355315:
-		case 2097889166:
-		case 1707592130:
+		case joaat("SERVICE_EARN_AMBIENT_JOB_CLUBHOUSE_CONTRACT"):
+		case joaat("SERVICE_EARN_AMBIENT_JOB_UNDERWATER_CARGO"):
+		case joaat("SERVICE_EARN_AMBIENT_JOB_CRIME_SCENE"):
+		case joaat("SERVICE_EARN_AMBIENT_JOB_METAL_DETECTOR"):
+		case joaat("SERVICE_EARN_AMBIENT_JOB_SMUGGLER_PLANE"):
+		case joaat("SERVICE_EARN_AMBIENT_JOB_SMUGGLER_TRAIL"):
+		case joaat("SERVICE_EARN_AMBIENT_JOB_GOLDEN_GUN"):
+		case joaat("SERVICE_EARN_AMBIENT_JOB_AMMUNATION_DELIVERY"):
+		case joaat("SERVICE_EARN_AMBIENT_JOB_SOURCE_RESEARCH"):
 		case -239888995:
 		case 1163066566:
 		case -955087020:
 		case 1874391251:
-			unk_0x3115693297B13B7A(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), &unk);
+			MONEY::NETWORK_EARN_FROM_AMBIENT_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, &(Global_4535172[iParam0 /*85*/].f_14.f_26), &unk);
 			break;
 	
-		case 1628412596:
-			unk_0x4FAF261C88BF8D20(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_1, Global_4535172[iParam0 /*85*/].f_9, Global_4535172[iParam0 /*85*/].f_66.f_15);
+		case joaat("SERVICE_EARN_YOHAN_SOURCE_GOODS"):
+			MONEY::NETWORK_YOHAN_SOURCE_GOODS(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/].f_1, Global_4535172[iParam0 /*85*/].f_9, Global_4535172[iParam0 /*85*/].f_66.f_15);
 			break;
 	
 		case -2081984382:
-			STATS::PLAYSTATS_NPC_PHONE(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 0, 0);
+			MONEY::NETWORK_SPEND_NIGHTCLUB_AND_WAREHOUSE(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 0, 0);
 			break;
 	
 		case 1089562091:
-			unk_0x76BFD614D74017E7(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_66.f_15);
+			MONEY::NETWORK_SPEND_VEHICLE_REQUESTED(Global_4535172[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535172[iParam0 /*85*/], Global_4535172[iParam0 /*85*/].f_66.f_15);
 			break;
 	
 		case 883337077:
 			unk14 = Global_4535172[iParam0 /*85*/].f_13;
 			unk14.f_1 = Global_4535172[iParam0 /*85*/];
 			unk14.f_2 = Global_4535172[iParam0 /*85*/].f_66.f_15;
-			unk_0x991E1588FAD9019D(Global_4535172[iParam0 /*85*/].f_66.f_1, &unk14);
+			MONEY::_NETWORK_EARN_TAXI_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, &unk14);
 			break;
 	
 		case -1274418755:
-			unk_0x9C0C6BD0F94CE391(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_DAILY_STASH_HOUSE_PARTICIPATION(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
 		case -1853979468:
-			unk_0xCABC9874AFA70D6D(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_DAILY_STASH_HOUSE_COMPLETED(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
 		case 1633116913:
-			unk_0xE01D10BA8CD53621(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_JUGGALO_STORY_MISSION(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
 		case 668586600:
-			unk_0x40FF6CCCC476185C(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_JUGGALO_STORY_MISSION_PARTICIPATION(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
 		case 15168061:
-			unk_0xCE4452AE85F5E252(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_FOOLIGAN_JOB(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
 		case 590289134:
-			unk_0xC376B92D0E060970(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_FOOLIGAN_JOB_PARTICIPATION(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
 		case 99792878:
-			unk_0xDDF047577F1A02A7(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_AWARD_JUGGALO_MISSION(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
 		case 1866258778:
-			unk_0xD1A8165767AD2D23(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_AWARD_ACID_LAB(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
 		case -178394060:
-			unk_0xC30650FA74A19D02(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_AWARD_DAILY_STASH(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
 		case 409592287:
-			unk_0xD01EBAEA1F905EF6(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_AWARD_DEAD_DROP(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
 		case 593836803:
-			unk_0xBEAFBB1B98B7EF55(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_AWARD_RANDOM_EVENT(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
 		case 1973036520:
-			unk_0xA914768AD35CD3A5(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_AWARD_TAXI(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
 		case 2063456538:
-			unk_0xE3942D59E8A7F70D(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_SETUP_PARTICIPATION_ACID_LAB(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
 		case -728008329:
-			unk_0x136F11B5DF1B304D(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_SOURCE_PARTICIPATION_ACID_LAB(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
 			break;
 	
 		case 119239868:
-			unk_0xCA3EF9B09A8D76B4(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_SELL_PARTICIPATION_ACID_LAB(Global_4535172[iParam0 /*85*/].f_66.f_1, Global_4535172[iParam0 /*85*/]);
 			break;
 	}
 
@@ -2356,7 +2356,7 @@ void func_32(int iParam0, BOOL bParam1) // Position - 0x1F6C Hash - 0xF1388243 ^
 	return;
 }
 
-BOOL func_33(Player plParam0, BOOL bParam1, BOOL bParam2) // Position - 0x43CA Hash - 0x3FF6E4CA ^0xE6B59972
+BOOL func_33(Player plParam0, BOOL bParam1, BOOL bParam2) // Hash - 0x3FF6E4CA ^0xE6B59972
 {
 	Player player;
 
@@ -2383,12 +2383,12 @@ BOOL func_33(Player plParam0, BOOL bParam1, BOOL bParam2) // Position - 0x43CA H
 	return false;
 }
 
-var func_34(var uParam0) // Position - 0x442A Hash - 0xC9D82232 ^0xC9D82232
+Any func_34(Any anParam0) // Hash - 0xC9D82232 ^0xC9D82232
 {
-	return uParam0;
+	return anParam0;
 }
 
-void func_35(var uParam0) // Position - 0x4434 Hash - 0x3D64EDCA ^0xC4DC61B
+void func_35(var uParam0) // Hash - 0x3D64EDCA ^0xC4DC61B
 {
 	*uParam0 = -1;
 	uParam0->f_1 = -1;
@@ -2403,7 +2403,7 @@ void func_35(var uParam0) // Position - 0x4434 Hash - 0x3D64EDCA ^0xC4DC61B
 	return;
 }
 
-int func_36(int iParam0, var uParam1) // Position - 0x446D Hash - 0x4BCFD413 ^0xD47CAA7C
+int func_36(int iParam0, var uParam1) // Hash - 0x4BCFD413 ^0xD47CAA7C
 {
 	int i;
 
@@ -2421,7 +2421,7 @@ int func_36(int iParam0, var uParam1) // Position - 0x446D Hash - 0x4BCFD413 ^0x
 	return -1;
 }
 
-void func_37(int iParam0) // Position - 0x44B0 Hash - 0xCD88F306 ^0x74E76276
+void func_37(int iParam0) // Hash - 0xCD88F306 ^0x74E76276
 {
 	Hash hashKey;
 	Hash hash;
@@ -2457,18 +2457,18 @@ void func_37(int iParam0) // Position - 0x44B0 Hash - 0xCD88F306 ^0x74E76276
 	return;
 }
 
-int func_38(var uParam0) // Position - 0x45DC Hash - 0x51E48C0B ^0x7771E64
+int func_38(var uParam0) // Hash - 0x51E48C0B ^0x7771E64
 {
 	*uParam0 = SYSTEM::SHIFT_LEFT(1, 2);
 	return 5410420;
 }
 
-Hash func_39() // Position - 0x45F1 Hash - 0x436398EE ^0x7784E07A
+Hash func_39() // Hash - 0x436398EE ^0x7784E07A
 {
 	return SYSTEM::SHIFT_LEFT(1, 25);
 }
 
-BOOL func_40() // Position - 0x4600 Hash - 0x52E21E9B ^0xD0F85E96
+BOOL func_40() // Hash - 0x52E21E9B ^0xD0F85E96
 {
 	if (Global_1575035 == 0)
 		if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
@@ -2500,7 +2500,7 @@ BOOL func_40() // Position - 0x4600 Hash - 0x52E21E9B ^0xD0F85E96
 	return false;
 }
 
-Hash func_41() // Position - 0x4684 Hash - 0x90B5165C ^0xB8DD5DC8
+Hash func_41() // Hash - 0x90B5165C ^0xB8DD5DC8
 {
 	switch (func_43())
 	{
@@ -2508,37 +2508,37 @@ Hash func_41() // Position - 0x4684 Hash - 0x90B5165C ^0xB8DD5DC8
 			return func_42();
 	
 		case 2:
-			return -47565502;
+			return joaat("CREATOR");
 	}
 
 	return 0;
 }
 
-Hash func_42() // Position - 0x46B7 Hash - 0x61402777 ^0xB9FAC976
+Hash func_42() // Hash - 0x61402777 ^0xB9FAC976
 {
 	switch (Global_2697019)
 	{
 		case 0:
-			return -931834499;
+			return joaat("FREEMODE");
 	
 		default:
 		
 	}
 
-	return -931834499;
+	return joaat("FREEMODE");
 }
 
-int func_43() // Position - 0x46DB Hash - 0x21D64237 ^0x21D64237
+int func_43() // Hash - 0x21D64237 ^0x21D64237
 {
 	return Global_32163;
 }
 
-BOOL func_44() // Position - 0x46E6 Hash - 0x974E48B4 ^0x974E48B4
+BOOL func_44() // Hash - 0x974E48B4 ^0x974E48B4
 {
 	return Global_2683862.f_698;
 }
 
-BOOL func_45(int iParam0) // Position - 0x46F5 Hash - 0xA28ADBB4 ^0x6EB81E64
+BOOL func_45(int iParam0) // Hash - 0xA28ADBB4 ^0x6EB81E64
 {
 	if (SCRIPT::GET_EVENT_EXISTS(SCRIPT_EVENT_QUEUE_NETWORK, iParam0))
 		return true;
@@ -2546,35 +2546,35 @@ BOOL func_45(int iParam0) // Position - 0x46F5 Hash - 0xA28ADBB4 ^0x6EB81E64
 	return false;
 }
 
-BOOL func_46() // Position - 0x470C Hash - 0x47FF56D2 ^0x47FF56D2
+BOOL func_46() // Hash - 0x47FF56D2 ^0x47FF56D2
 {
 	return Global_2694524;
 }
 
-BOOL func_47() // Position - 0x4718 Hash - 0x974E48B4 ^0x974E48B4
+BOOL func_47() // Hash - 0x974E48B4 ^0x974E48B4
 {
 	return Global_2683862.f_693;
 }
 
-void func_48() // Position - 0x4727 Hash - 0x66E327B2 ^0x39BE3C9E
+void func_48() // Hash - 0x66E327B2 ^0x39BE3C9E
 {
 	SYSTEM::WAIT(0);
 	return;
 }
 
-void func_49() // Position - 0x4734 Hash - 0xD8C6DE12 ^0xD8C6DE12
+void func_49() // Hash - 0xD8C6DE12 ^0xD8C6DE12
 {
 	func_50();
 	return;
 }
 
-void func_50() // Position - 0x4740 Hash - 0xCE5FB49E ^0x214A59D5
+void func_50() // Hash - 0xCE5FB49E ^0x214A59D5
 {
 	SCRIPT::TERMINATE_THIS_THREAD();
 	return;
 }
 
-void func_51(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, var uParam12, var uParam13, var uParam14, var uParam15, var uParam16, var uParam17, var uParam18, var uParam19, var uParam20, var uParam21, var uParam22, var uParam23, var uParam24, var uParam25, var uParam26, var uParam27, var uParam28, var uParam29, var uParam30, var uParam31, var uParam32, var uParam33) // Position - 0x474C Hash - 0xFD0838FC ^0x5839C41E
+void func_51(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, var uParam12, var uParam13, var uParam14, var uParam15, var uParam16, var uParam17, var uParam18, var uParam19, var uParam20, var uParam21, var uParam22, var uParam23, var uParam24, var uParam25, var uParam26, var uParam27, var uParam28, var uParam29, var uParam30, var uParam31, var uParam32, var uParam33) // Hash - 0xFD0838FC ^0x5839C41E
 {
 	if (Global_262145.f_24076)
 		func_49();
@@ -2599,7 +2599,7 @@ void func_51(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, va
 	return;
 }
 
-BOOL func_52(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, var uParam12, var uParam13, var uParam14, var uParam15, var uParam16, var uParam17, var uParam18, int iParam19) // Position - 0x47D0 Hash - 0x7407E67D ^0x6F66197
+BOOL func_52(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, var uParam12, var uParam13, var uParam14, var uParam15, var uParam16, var uParam17, var uParam18, int iParam19) // Hash - 0x7407E67D ^0x6F66197
 {
 	if (Global_4535172[iParam19 /*85*/].f_66.f_1 != uParam0.f_1)
 		return false;

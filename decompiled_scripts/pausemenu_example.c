@@ -5,7 +5,7 @@
 	var uScriptParam_3 = 0;
 #endregion
 
-void main() // Position - 0x0 Hash - 0x8502F814 ^0x58AE6176
+void main() // Hash - 0x8502F814 ^0x58AE6176
 {
 	switch (iScriptParam_0)
 	{
@@ -18,7 +18,7 @@ void main() // Position - 0x0 Hash - 0x8502F814 ^0x58AE6176
 	
 		case 0:
 		case 1:
-			if (iScriptParam_0.f_1 == -1931845307)
+			if (iScriptParam_0.f_1 == joaat("PM_REPLAY"))
 			{
 				func_2(1, 0, -1705870862, 25, true, _("Audio"), 0, 0);
 				func_2(1, 1, -1705870862, 50, true, _("Display"), 0, 0);
@@ -31,7 +31,7 @@ void main() // Position - 0x0 Hash - 0x8502F814 ^0x58AE6176
 		case 2:
 			switch (iScriptParam_0.f_1)
 			{
-				case -1931845307:
+				case joaat("PM_REPLAY"):
 					break;
 			
 				case -1705871862:
@@ -52,7 +52,7 @@ void main() // Position - 0x0 Hash - 0x8502F814 ^0x58AE6176
 	return;
 }
 
-void func_1(int iParam0) // Position - 0xBA Hash - 0xE8DD3BA3 ^0x2F9C5E3F
+void func_1(int iParam0) // Hash - 0xE8DD3BA3 ^0x2F9C5E3F
 {
 	if (GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD_ON_FRONTEND("DISPLAY_DATA_SLOT"))
 	{
@@ -63,7 +63,7 @@ void func_1(int iParam0) // Position - 0xBA Hash - 0xE8DD3BA3 ^0x2F9C5E3F
 	return;
 }
 
-void func_2(int iParam0, int iParam1, int iParam2, int iParam3, BOOL bParam4, char* sParam5, int iParam6, int iParam7) // Position - 0xD6 Hash - 0xC240CA32 ^0x4F47D589
+void func_2(int iParam0, int iParam1, int iParam2, int iParam3, BOOL bParam4, char* sParam5, int iParam6, int iParam7) // Hash - 0xC240CA32 ^0x4F47D589
 {
 	if (GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD_ON_FRONTEND("SET_DATA_SLOT"))
 	{
@@ -90,7 +90,7 @@ void func_2(int iParam0, int iParam1, int iParam2, int iParam3, BOOL bParam4, ch
 	return;
 }
 
-void func_3(char* sParam0) // Position - 0x136 Hash - 0x8E2F5FE2 ^0x29D9D432
+void func_3(char* sParam0) // Hash - 0x8E2F5FE2 ^0x29D9D432
 {
 	GRAPHICS::BEGIN_TEXT_COMMAND_SCALEFORM_STRING(sParam0);
 	GRAPHICS::END_TEXT_COMMAND_SCALEFORM_STRING();

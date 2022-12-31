@@ -1,5 +1,5 @@
 // Program registers 230593 globals at index 10 starting from Global_2621440
-void main() // Position - 0x0 Hash - 0x553AA6 ^0x553AA6
+void main() // Hash - 0x553AA6 ^0x553AA6
 {
 	Global_2621442 = 1;
 	Global_2621444 = 1;

@@ -30,7 +30,7 @@
 	int iLocal_28 = 0;
 #endregion
 
-void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
+void main() // Hash - 0x5D84F89F ^0x5D84F89F
 {
 	iLocal_2 = 1;
 	iLocal_3 = 134;
@@ -180,7 +180,7 @@ void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
 	return;
 }
 
-BOOL func_1() // Position - 0x438 Hash - 0x2BF82AC3 ^0x2BF82AC3
+BOOL func_1() // Hash - 0x2BF82AC3 ^0x2BF82AC3
 {
 	if (Global_22761)
 		return true;
@@ -188,7 +188,7 @@ BOOL func_1() // Position - 0x438 Hash - 0x2BF82AC3 ^0x2BF82AC3
 	return false;
 }
 
-void func_2(char* sParam0, int iParam1, int iParam2, int iParam3, int iParam4) // Position - 0x44E Hash - 0xCBB27A17 ^0x4E9E4308
+void func_2(char* sParam0, int iParam1, int iParam2, int iParam3, int iParam4) // Hash - 0xCBB27A17 ^0x4E9E4308
 {
 	iParam4 = iParam4;
 	HUD::BEGIN_TEXT_COMMAND_PRINT(sParam0);
@@ -198,7 +198,7 @@ void func_2(char* sParam0, int iParam1, int iParam2, int iParam3, int iParam4) /
 	return;
 }
 
-void func_3(char* sParam0, char* sParam1, int iParam2, int iParam3) // Position - 0x473 Hash - 0x5E266549 ^0xA3BE48A0
+void func_3(char* sParam0, char* sParam1, int iParam2, int iParam3) // Hash - 0x5E266549 ^0xA3BE48A0
 {
 	iParam3 = iParam3;
 	HUD::BEGIN_TEXT_COMMAND_PRINT(sParam0);
@@ -207,7 +207,7 @@ void func_3(char* sParam0, char* sParam1, int iParam2, int iParam3) // Position 
 	return;
 }
 
-int func_4(int iParam0, int iParam1, BOOL bParam2, int iParam3) // Position - 0x492 Hash - 0xE37F612F ^0xE37F612F
+int func_4(int iParam0, int iParam1, BOOL bParam2, int iParam3) // Hash - 0xE37F612F ^0xE37F612F
 {
 	if (func_10())
 		return 0;
@@ -218,9 +218,9 @@ int func_4(int iParam0, int iParam1, BOOL bParam2, int iParam3) // Position - 0x
 	return 0;
 }
 
-int func_5(int iParam0, int iParam1, BOOL bParam2, int iParam3) // Position - 0x4BD Hash - 0x174E3A23 ^0xAE8B966F
+int func_5(int iParam0, int iParam1, BOOL bParam2, int iParam3) // Hash - 0x174E3A23 ^0xAE8B966F
 {
-	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(693300299) > 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("APPSIDETASK")) > 0)
 		return 0;
 
 	if (func_8() == 0)
@@ -245,7 +245,7 @@ int func_5(int iParam0, int iParam1, BOOL bParam2, int iParam3) // Position - 0x
 	return 1;
 }
 
-void func_6(int iParam0) // Position - 0x521 Hash - 0x19DE445B ^0xD9E1B700
+void func_6(int iParam0) // Hash - 0x19DE445B ^0xD9E1B700
 {
 	int clockSeconds;
 	int clockMinutes;
@@ -269,12 +269,12 @@ void func_6(int iParam0) // Position - 0x521 Hash - 0x19DE445B ^0xD9E1B700
 	return;
 }
 
-void func_7() // Position - 0x59B Hash - 0xF3B2B67E ^0xF3B2B67E
+void func_7() // Hash - 0xF3B2B67E ^0xF3B2B67E
 {
 	return;
 }
 
-int func_8() // Position - 0x5A3 Hash - 0x4A9692DF ^0x96327CFB
+int func_8() // Hash - 0x4A9692DF ^0x96327CFB
 {
 	int i;
 
@@ -310,12 +310,12 @@ int func_8() // Position - 0x5A3 Hash - 0x4A9692DF ^0x96327CFB
 	return 1;
 }
 
-BOOL func_9(int iParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, int iParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11) // Position - 0x67D Hash - 0x87F973EB ^0x688F177D
+BOOL func_9(int iParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, int iParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11) // Hash - 0x87F973EB ^0x688F177D
 {
 	int num;
-	int unk;
-	int unk2;
-	int unk3;
+	int num2;
+	int num3;
+	int num4;
 
 	if (iParam0.f_5 < iParam6.f_5)
 		return false;
@@ -354,7 +354,7 @@ BOOL func_9(int iParam0, var uParam1, var uParam2, var uParam3, var uParam4, var
 	return false;
 }
 
-BOOL func_10() // Position - 0x768 Hash - 0xD140D54A ^0xE638D98F
+BOOL func_10() // Hash - 0xD140D54A ^0xE638D98F
 {
 	if (Global_20383.f_1 == 1 || Global_20383.f_1 == 0)
 		return true;
@@ -362,7 +362,7 @@ BOOL func_10() // Position - 0x768 Hash - 0xD140D54A ^0xE638D98F
 	return false;
 }
 
-void func_11() // Position - 0x78F Hash - 0xCE5FB49E ^0x214A59D5
+void func_11() // Hash - 0xCE5FB49E ^0x214A59D5
 {
 	SCRIPT::TERMINATE_THIS_THREAD();
 	return;

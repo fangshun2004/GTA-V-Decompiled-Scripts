@@ -10,7 +10,7 @@
 	float fLocal_8 = 0f;
 #endregion
 
-void main() // Position - 0x0 Hash - 0x3CFA8628 ^0x28A8A32A
+void main() // Hash - 0x3CFA8628 ^0x28A8A32A
 {
 	bLocal_0 = true;
 	bLocal_1 = true;
@@ -49,7 +49,7 @@ void main() // Position - 0x0 Hash - 0x3CFA8628 ^0x28A8A32A
 	return;
 }
 
-void func_1() // Position - 0x7C Hash - 0xDEDA35C7 ^0x651033F9
+void func_1() // Hash - 0xDEDA35C7 ^0x651033F9
 {
 	VEHICLE::SET_RANDOM_TRAINS(true);
 	SCRIPT::TERMINATE_THIS_THREAD();

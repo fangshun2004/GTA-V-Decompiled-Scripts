@@ -239,7 +239,7 @@
 	var uLocal_237 = 0;
 #endregion
 
-void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
+void main() // Hash - 0x5D84F89F ^0x5D84F89F
 {
 	iLocal_2 = 1;
 	iLocal_3 = 134;
@@ -406,12 +406,12 @@ void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
 	return;
 }
 
-BOOL func_1() // Position - 0x2FB Hash - 0x47FF56D2 ^0x47FF56D2
+BOOL func_1() // Hash - 0x47FF56D2 ^0x47FF56D2
 {
 	return Global_1574533;
 }
 
-BOOL func_2(int* piParam0) // Position - 0x307 Hash - 0x66D538A5 ^0x5D4B794
+BOOL func_2(int* piParam0) // Hash - 0x66D538A5 ^0x5D4B794
 {
 	if (!IS_BIT_SET(*piParam0, 2))
 	{
@@ -427,7 +427,7 @@ BOOL func_2(int* piParam0) // Position - 0x307 Hash - 0x66D538A5 ^0x5D4B794
 			}
 		}
 	}
-	else if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(1141911594) == 0)
+	else if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("FM_RACE_CREATOR")) == 0)
 	{
 		MISC::CLEAR_BIT(piParam0, 2);
 		return true;
@@ -436,15 +436,15 @@ BOOL func_2(int* piParam0) // Position - 0x307 Hash - 0x66D538A5 ^0x5D4B794
 	return false;
 }
 
-BOOL func_3() // Position - 0x36A Hash - 0x79B0F011 ^0x5F51167
+BOOL func_3() // Hash - 0x79B0F011 ^0x5F51167
 {
-	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(1768762336) > 0 || SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(-1518439287) > 0 || SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(1141911594) > 0 || SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(-884469787) > 0 || SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(229048663) > 0 || SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(-1121276913) > 0 || SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(-1167339987) > 0 || SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(-1844397475) > 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("FM_MISSION_CREATOR")) > 0 || SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("FM_DEATHMATCH_CREATOR")) > 0 || SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("FM_RACE_CREATOR")) > 0 || SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("FM_CAPTURE_CREATOR")) > 0 || SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("FM_LTS_CREATOR")) > 0 || SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("FM_SURVIVAL_CREATOR")) > 0 || SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("BASIC_CREATOR")) > 0 || SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("FREEMODE_CREATOR")) > 0)
 		return true;
 
 	return false;
 }
 
-BOOL func_4() // Position - 0x3FC Hash - 0x80B16C01 ^0x80B16C01
+BOOL func_4() // Hash - 0x80B16C01 ^0x80B16C01
 {
 	if (Global_4718592 == 2 || Global_4718592 == 8)
 		return true;
@@ -452,7 +452,7 @@ BOOL func_4() // Position - 0x3FC Hash - 0x80B16C01 ^0x80B16C01
 	return false;
 }
 
-BOOL func_5(int* piParam0) // Position - 0x41F Hash - 0x4877DABF ^0xBBA90DAD
+BOOL func_5(int* piParam0) // Hash - 0x4877DABF ^0xBBA90DAD
 {
 	if (!IS_BIT_SET(*piParam0, 2))
 	{
@@ -468,7 +468,7 @@ BOOL func_5(int* piParam0) // Position - 0x41F Hash - 0x4877DABF ^0xBBA90DAD
 			}
 		}
 	}
-	else if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(-1518439287) == 0)
+	else if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("FM_DEATHMATCH_CREATOR")) == 0)
 	{
 		MISC::CLEAR_BIT(piParam0, 2);
 		return true;
@@ -477,7 +477,7 @@ BOOL func_5(int* piParam0) // Position - 0x41F Hash - 0x4877DABF ^0xBBA90DAD
 	return false;
 }
 
-BOOL func_6(int* piParam0) // Position - 0x482 Hash - 0xD5F1B43B ^0x6FF12539
+BOOL func_6(int* piParam0) // Hash - 0xD5F1B43B ^0x6FF12539
 {
 	if (!IS_BIT_SET(*piParam0, 2))
 	{
@@ -493,7 +493,7 @@ BOOL func_6(int* piParam0) // Position - 0x482 Hash - 0xD5F1B43B ^0x6FF12539
 			}
 		}
 	}
-	else if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(-884469787) == 0)
+	else if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("FM_CAPTURE_CREATOR")) == 0)
 	{
 		MISC::CLEAR_BIT(piParam0, 2);
 		return true;
@@ -502,7 +502,7 @@ BOOL func_6(int* piParam0) // Position - 0x482 Hash - 0xD5F1B43B ^0x6FF12539
 	return false;
 }
 
-BOOL func_7(int* piParam0) // Position - 0x4E5 Hash - 0x92108B72 ^0x36FB32F9
+BOOL func_7(int* piParam0) // Hash - 0x92108B72 ^0x36FB32F9
 {
 	if (!IS_BIT_SET(*piParam0, 2))
 	{
@@ -518,7 +518,7 @@ BOOL func_7(int* piParam0) // Position - 0x4E5 Hash - 0x92108B72 ^0x36FB32F9
 			}
 		}
 	}
-	else if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(1768762336) == 0)
+	else if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("FM_MISSION_CREATOR")) == 0)
 	{
 		MISC::CLEAR_BIT(piParam0, 2);
 		return true;
@@ -527,7 +527,7 @@ BOOL func_7(int* piParam0) // Position - 0x4E5 Hash - 0x92108B72 ^0x36FB32F9
 	return false;
 }
 
-BOOL func_8(int* piParam0) // Position - 0x548 Hash - 0xC2B2CDCD ^0x23AA7417
+BOOL func_8(int* piParam0) // Hash - 0xC2B2CDCD ^0x23AA7417
 {
 	if (!IS_BIT_SET(*piParam0, 2))
 	{
@@ -543,7 +543,7 @@ BOOL func_8(int* piParam0) // Position - 0x548 Hash - 0xC2B2CDCD ^0x23AA7417
 			}
 		}
 	}
-	else if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(-1844397475) == 0)
+	else if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("FREEMODE_CREATOR")) == 0)
 	{
 		MISC::CLEAR_BIT(piParam0, 2);
 		return true;
@@ -552,7 +552,7 @@ BOOL func_8(int* piParam0) // Position - 0x548 Hash - 0xC2B2CDCD ^0x23AA7417
 	return false;
 }
 
-BOOL func_9(int* piParam0) // Position - 0x5AB Hash - 0x9863F474 ^0xA9D235D1
+BOOL func_9(int* piParam0) // Hash - 0x9863F474 ^0xA9D235D1
 {
 	if (!IS_BIT_SET(*piParam0, 2))
 	{
@@ -568,7 +568,7 @@ BOOL func_9(int* piParam0) // Position - 0x5AB Hash - 0x9863F474 ^0xA9D235D1
 			}
 		}
 	}
-	else if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(-1167339987) == 0)
+	else if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("BASIC_CREATOR")) == 0)
 	{
 		MISC::CLEAR_BIT(piParam0, 2);
 		return true;
@@ -577,7 +577,7 @@ BOOL func_9(int* piParam0) // Position - 0x5AB Hash - 0x9863F474 ^0xA9D235D1
 	return false;
 }
 
-BOOL func_10(int* piParam0) // Position - 0x60E Hash - 0x44BDE181 ^0x9F693A
+BOOL func_10(int* piParam0) // Hash - 0x44BDE181 ^0x9F693A
 {
 	if (!IS_BIT_SET(*piParam0, 2))
 	{
@@ -593,7 +593,7 @@ BOOL func_10(int* piParam0) // Position - 0x60E Hash - 0x44BDE181 ^0x9F693A
 			}
 		}
 	}
-	else if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(-1121276913) == 0)
+	else if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("FM_SURVIVAL_CREATOR")) == 0)
 	{
 		MISC::CLEAR_BIT(piParam0, 2);
 		return true;
@@ -602,12 +602,12 @@ BOOL func_10(int* piParam0) // Position - 0x60E Hash - 0x44BDE181 ^0x9F693A
 	return false;
 }
 
-BOOL func_11() // Position - 0x671 Hash - 0x6700D392 ^0x6700D392
+BOOL func_11() // Hash - 0x6700D392 ^0x6700D392
 {
 	return Global_4718592 == 3;
 }
 
-BOOL func_12(int* piParam0) // Position - 0x67F Hash - 0x9000C064 ^0xFB24B8DB
+BOOL func_12(int* piParam0) // Hash - 0x9000C064 ^0xFB24B8DB
 {
 	if (!IS_BIT_SET(*piParam0, 2))
 	{
@@ -623,7 +623,7 @@ BOOL func_12(int* piParam0) // Position - 0x67F Hash - 0x9000C064 ^0xFB24B8DB
 			}
 		}
 	}
-	else if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(229048663) == 0)
+	else if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("FM_LTS_CREATOR")) == 0)
 	{
 		MISC::CLEAR_BIT(piParam0, 2);
 		return true;
@@ -632,7 +632,7 @@ BOOL func_12(int* piParam0) // Position - 0x67F Hash - 0x9000C064 ^0xFB24B8DB
 	return false;
 }
 
-BOOL func_13(BOOL bParam0) // Position - 0x6E2 Hash - 0x5573A09F ^0x5573A09F
+BOOL func_13(BOOL bParam0) // Hash - 0x5573A09F ^0x5573A09F
 {
 	if (!bParam0)
 		return Global_4718592 == 0;
@@ -643,18 +643,18 @@ BOOL func_13(BOOL bParam0) // Position - 0x6E2 Hash - 0x5573A09F ^0x5573A09F
 	return false;
 }
 
-void func_14() // Position - 0x754 Hash - 0x9A142650 ^0x4D0752C1
+void func_14() // Hash - 0x9A142650 ^0x4D0752C1
 {
 	Global_23131.f_5 = 1;
 	return;
 }
 
-BOOL func_15() // Position - 0x762 Hash - 0x960DBD3C ^0xA4DDFF0D
+BOOL func_15() // Hash - 0x960DBD3C ^0xA4DDFF0D
 {
 	return Global_23131.f_5 || Global_23131.f_6;
 }
 
-void func_16(var uParam0) // Position - 0x77A Hash - 0xE582C6EC ^0xD9D25FCF
+void func_16(var uParam0) // Hash - 0xE582C6EC ^0xD9D25FCF
 {
 	if (Global_4718592 == 0)
 	{
@@ -688,12 +688,12 @@ void func_16(var uParam0) // Position - 0x77A Hash - 0xE582C6EC ^0xD9D25FCF
 	return;
 }
 
-BOOL func_17() // Position - 0x8FB Hash - 0x47FF56D2 ^0x47FF56D2
+BOOL func_17() // Hash - 0x47FF56D2 ^0x47FF56D2
 {
 	return Global_1574530;
 }
 
-int func_18() // Position - 0x907 Hash - 0x88E8BBA2 ^0x8D5FE867
+int func_18() // Hash - 0x88E8BBA2 ^0x8D5FE867
 {
 	if (IS_BIT_SET(Global_1653913.f_102, 1))
 		return 1;
@@ -713,12 +713,12 @@ int func_18() // Position - 0x907 Hash - 0x88E8BBA2 ^0x8D5FE867
 	return 0;
 }
 
-void func_19(var uParam0) // Position - 0x953 Hash - 0xB22D5C46 ^0xB22D5C46
+void func_19(var uParam0) // Hash - 0xB22D5C46 ^0xB22D5C46
 {
 	return;
 }
 
-void func_20() // Position - 0x95B Hash - 0xAE9D603C ^0xE52E4BC5
+void func_20() // Hash - 0xAE9D603C ^0xE52E4BC5
 {
 	func_21();
 	Global_4718592.f_112509 = 0;
@@ -728,7 +728,7 @@ void func_20() // Position - 0x95B Hash - 0xAE9D603C ^0xE52E4BC5
 	return;
 }
 
-void func_21() // Position - 0x980 Hash - 0xC30A8265 ^0x139DE662
+void func_21() // Hash - 0xC30A8265 ^0x139DE662
 {
 	Global_23131.f_5 = 0;
 	return;

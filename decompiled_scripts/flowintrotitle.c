@@ -1,10 +1,10 @@
 #region Local Var
-	Player plLocal_0 = 0;
+	int iLocal_0 = 0;
 	int iLocal_1 = 0;
 	BOOL bLocal_2 = 0;
 #endregion
 
-void main() // Position - 0x0 Hash - 0xBC22026E ^0xEE75B136
+void main() // Hash - 0xBC22026E ^0x42159E04
 {
 	if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(83))
 		func_10();
@@ -17,9 +17,9 @@ void main() // Position - 0x0 Hash - 0xBC22026E ^0xEE75B136
 	if (!CAM::IS_SCREEN_FADED_OUT())
 		CAM::DO_SCREEN_FADE_OUT(0);
 
-	plLocal_0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("OPENING_CREDITS");
+	iLocal_0 = unk_0x67D02A194A2FC2BD("OPENING_CREDITS");
 
-	while (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(plLocal_0))
+	while (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_0))
 	{
 		func_7();
 		SYSTEM::WAIT(0);
@@ -40,7 +40,7 @@ void main() // Position - 0x0 Hash - 0xBC22026E ^0xEE75B136
 	
 		if (!IS_BIT_SET(Global_113648.f_10018.f_25, 1))
 		{
-			GRAPHICS::DRAW_SCALEFORM_MOVIE_FULLSCREEN(plLocal_0, 255, 255, 255, 255, 0);
+			GRAPHICS::DRAW_SCALEFORM_MOVIE_FULLSCREEN(iLocal_0, 255, 255, 255, 255, 0);
 		
 			if (!bLocal_2)
 			{
@@ -74,13 +74,13 @@ void main() // Position - 0x0 Hash - 0xBC22026E ^0xEE75B136
 	return;
 }
 
-void func_1() // Position - 0x13B Hash - 0xEB0D43DD ^0xEB0D43DD
+void func_1() // Hash - 0xEB0D43DD ^0xEB0D43DD
 {
 	Global_100720 = 1;
 	return;
 }
 
-int func_2() // Position - 0x148 Hash - 0x9482CBBF ^0x8B17A994
+int func_2() // Hash - 0x9482CBBF ^0x8B17A994
 {
 	if (func_3(false))
 		return 0;
@@ -95,24 +95,24 @@ int func_2() // Position - 0x148 Hash - 0x9482CBBF ^0x8B17A994
 	return 1;
 }
 
-BOOL func_3(BOOL bParam0) // Position - 0x193 Hash - 0x15889021 ^0xE7262364
+BOOL func_3(BOOL bParam0) // Hash - 0x15889021 ^0xE7262364
 {
-	if (!bParam0 && SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(-448212099) > 0)
+	if (!bParam0 && SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("BENCHMARK")) > 0)
 		return true;
 
 	return IS_BIT_SET(Global_78807, 0);
 }
 
-void func_4(int iParam0, int iParam1) // Position - 0x1BB Hash - 0x277DE552 ^0x65283938
+void func_4(int iParam0, int iParam1) // Hash - 0x277DE552 ^0x65283938
 {
 	Global_100720.f_7 = iParam0;
 	Global_100720.f_8 = iParam1;
 	return;
 }
 
-void func_5(char* sParam0) // Position - 0x1D3 Hash - 0xF5882334 ^0x2E8C72BF
+void func_5(char* sParam0) // Hash - 0xF5882334 ^0xF615DB95
 {
-	NETWORK::NETWORK_LEAVE_PED_BEHIND_BEFORE_CUTSCENE(plLocal_0, "HIDE_LOGO");
+	GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD(iLocal_0, "HIDE_LOGO");
 	GRAPHICS::BEGIN_TEXT_COMMAND_SCALEFORM_STRING("STRING");
 	HUD::ADD_TEXT_COMPONENT_SUBSTRING_PLAYER_NAME(sParam0);
 	GRAPHICS::END_TEXT_COMMAND_SCALEFORM_STRING();
@@ -120,9 +120,9 @@ void func_5(char* sParam0) // Position - 0x1D3 Hash - 0xF5882334 ^0x2E8C72BF
 	return;
 }
 
-void func_6(char* sParam0, float fParam1, float fParam2, float fParam3, float fParam4, float fParam5, float fParam6, float fParam7) // Position - 0x1FA Hash - 0xEC007871 ^0x7328EEF8
+void func_6(char* sParam0, float fParam1, float fParam2, float fParam3, float fParam4, float fParam5, float fParam6, float fParam7) // Hash - 0xEC007871 ^0x26CD3900
 {
-	NETWORK::NETWORK_LEAVE_PED_BEHIND_BEFORE_CUTSCENE(plLocal_0, "SHOW_LOGO");
+	GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD(iLocal_0, "SHOW_LOGO");
 	GRAPHICS::BEGIN_TEXT_COMMAND_SCALEFORM_STRING("STRING");
 	HUD::ADD_TEXT_COMPONENT_SUBSTRING_PLAYER_NAME(sParam0);
 	GRAPHICS::END_TEXT_COMMAND_SCALEFORM_STRING();
@@ -137,7 +137,7 @@ void func_6(char* sParam0, float fParam1, float fParam2, float fParam3, float fP
 	return;
 }
 
-void func_7() // Position - 0x24B Hash - 0xA148D3AE ^0xEC0CBE6C
+void func_7() // Hash - 0xA148D3AE ^0xEC0CBE6C
 {
 	HUD::HIDE_LOADING_ON_FADE_THIS_FRAME();
 	PAD::DISABLE_CONTROL_ACTION(FRONTEND_CONTROL, INPUT_FRONTEND_PAUSE, true);
@@ -146,25 +146,25 @@ void func_7() // Position - 0x24B Hash - 0xA148D3AE ^0xEC0CBE6C
 	return;
 }
 
-void func_8() // Position - 0x268 Hash - 0xF4F02F08 ^0x941C5F21
+void func_8() // Hash - 0xF4F02F08 ^0x941C5F21
 {
 	RECORDING::REPLAY_PREVENT_RECORDING_THIS_FRAME();
 	func_9();
 	return;
 }
 
-void func_9() // Position - 0x278 Hash - 0x9A142650 ^0x461C197C
+void func_9() // Hash - 0x9A142650 ^0x461C197C
 {
 	Global_23131.f_134 = 1;
 	return;
 }
 
-void func_10() // Position - 0x286 Hash - 0xEAFE49D ^0x24AA153B
+void func_10() // Hash - 0xEAFE49D ^0x24AA153B
 {
 	MISC::SET_BIT(&(Global_113648.f_10018.f_25), 1);
 
-	if (plLocal_0 != 0)
-		GRAPHICS::SET_SCALEFORM_MOVIE_AS_NO_LONGER_NEEDED(&plLocal_0);
+	if (iLocal_0 != 0)
+		GRAPHICS::SET_SCALEFORM_MOVIE_AS_NO_LONGER_NEEDED(&iLocal_0);
 
 	GRAPHICS::SET_SCRIPT_GFX_DRAW_ORDER(4);
 	SCRIPT::SET_NO_LOADING_SCREEN(false);

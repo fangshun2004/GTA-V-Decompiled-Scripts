@@ -1,5 +1,5 @@
 // Program registers 128911 globals at index 17 starting from Global_4456448
-void main() // Position - 0x0 Hash - 0x9304E454 ^0x91821806
+void main() // Hash - 0x9304E454 ^0x91821806
 {
 	Global_4456520 = -1;
 	Global_4456521 = -1;

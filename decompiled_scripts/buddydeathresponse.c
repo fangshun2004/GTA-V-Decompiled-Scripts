@@ -22,7 +22,7 @@
 	Ped pedLocal_20 = 0;
 #endregion
 
-void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
+void main() // Hash - 0x5D84F89F ^0x5D84F89F
 {
 	iLocal_2 = 1;
 	iLocal_3 = 134;
@@ -44,10 +44,10 @@ void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
 	return;
 }
 
-void func_1() // Position - 0x4F Hash - 0xA6977AA7 ^0xE28B3708
+void func_1() // Hash - 0xA6977AA7 ^0xE28B3708
 {
 	Vector3 entityCoords;
-	int unk;
+	int taskSequenceId;
 
 	while (!func_9(&pedLocal_20))
 	{
@@ -97,7 +97,7 @@ void func_1() // Position - 0x4F Hash - 0xA6977AA7 ^0xE28B3708
 	return;
 }
 
-void func_2(Ped pedParam0) // Position - 0x13C Hash - 0xECD121EF ^0x1CFFB18C
+void func_2(Ped pedParam0) // Hash - 0xECD121EF ^0x1CFFB18C
 {
 	int num;
 
@@ -154,13 +154,13 @@ void func_2(Ped pedParam0) // Position - 0x13C Hash - 0xECD121EF ^0x1CFFB18C
 	return;
 }
 
-void func_3(Ped pedParam0, char* sParam1, char* sParam2, int iParam3) // Position - 0x234 Hash - 0xB310831B ^0x96265DAC
+void func_3(Ped pedParam0, char* sParam1, char* sParam2, int iParam3) // Hash - 0xB310831B ^0x96265DAC
 {
 	AUDIO::PLAY_PED_AMBIENT_SPEECH_WITH_VOICE_NATIVE(pedParam0, sParam1, sParam2, func_4(iParam3), false);
 	return;
 }
 
-char* func_4(int iParam0) // Position - 0x24D Hash - 0xA6820DDA ^0x9844792A
+char* func_4(int iParam0) // Hash - 0xA6820DDA ^0x9844792A
 {
 	char* str;
 
@@ -285,7 +285,7 @@ char* func_4(int iParam0) // Position - 0x24D Hash - 0xA6820DDA ^0x9844792A
 	return str;
 }
 
-int func_5(Ped pedParam0) // Position - 0x43C Hash - 0xAC4E9801 ^0xB379A75F
+int func_5(Ped pedParam0) // Hash - 0xAC4E9801 ^0xB379A75F
 {
 	int i;
 	Hash entityModel;
@@ -304,7 +304,7 @@ int func_5(Ped pedParam0) // Position - 0x43C Hash - 0xAC4E9801 ^0xB379A75F
 	return 145;
 }
 
-Hash func_6(int iParam0) // Position - 0x479 Hash - 0xADCB9755 ^0xADCB9755
+Hash func_6(int iParam0) // Hash - 0xADCB9755 ^0xADCB9755
 {
 	if (func_8(iParam0))
 		return func_7(iParam0);
@@ -314,17 +314,17 @@ Hash func_6(int iParam0) // Position - 0x479 Hash - 0xADCB9755 ^0xADCB9755
 	return 0;
 }
 
-Hash func_7(int iParam0) // Position - 0x49E Hash - 0xE4CEEC2C ^0xE4CEEC2C
+Hash func_7(int iParam0) // Hash - 0xE4CEEC2C ^0xE4CEEC2C
 {
 	return Global_2028[iParam0 /*29*/];
 }
 
-BOOL func_8(int iParam0) // Position - 0x4AD Hash - 0x8907F004 ^0x8907F004
+BOOL func_8(int iParam0) // Hash - 0x8907F004 ^0x8907F004
 {
 	return iParam0 < 3;
 }
 
-BOOL func_9(var uParam0) // Position - 0x4B9 Hash - 0x5D6C301A ^0xD5FFE8CA
+BOOL func_9(var uParam0) // Hash - 0x5D6C301A ^0xD5FFE8CA
 {
 	Vehicle vehiclePedIsIn;
 
@@ -372,13 +372,13 @@ BOOL func_9(var uParam0) // Position - 0x4B9 Hash - 0x5D6C301A ^0xD5FFE8CA
 	return false;
 }
 
-int func_10() // Position - 0x5FE Hash - 0x3C5423D7 ^0x3C5423D7
+int func_10() // Hash - 0x3C5423D7 ^0x3C5423D7
 {
 	func_11();
 	return Global_113648.f_2365.f_539.f_4321;
 }
 
-void func_11() // Position - 0x617 Hash - 0xD1F2D853 ^0xF9F5FD4D
+void func_11() // Hash - 0xD1F2D853 ^0xF9F5FD4D
 {
 	int num;
 
@@ -411,7 +411,7 @@ void func_11() // Position - 0x617 Hash - 0xD1F2D853 ^0xF9F5FD4D
 	return;
 }
 
-BOOL func_12(int iParam0) // Position - 0x714 Hash - 0x937D8816 ^0x937D8816
+BOOL func_12(int iParam0) // Hash - 0x937D8816 ^0x937D8816
 {
 	return Global_43257 == iParam0;
 }

@@ -13,7 +13,7 @@
 	int iLocal_11 = 0;
 #endregion
 
-void main() // Position - 0x0 Hash - 0xFF58A1C4 ^0xFF58A1C4
+void main() // Hash - 0xFF58A1C4 ^0xFF58A1C4
 {
 	iLocal_2 = 1;
 	iLocal_3 = 134;

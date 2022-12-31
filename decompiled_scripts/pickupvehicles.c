@@ -34,7 +34,7 @@
 	int iLocal_32 = 0;
 #endregion
 
-void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
+void main() // Hash - 0x5D84F89F ^0x5D84F89F
 {
 	iLocal_2 = 1;
 	iLocal_3 = 134;
@@ -66,7 +66,7 @@ void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
 	{
 		SYSTEM::WAIT(0);
 	
-		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(-1543351171) == 0)
+		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("DOCKS_SETUP")) == 0)
 		{
 			if (PLAYER::IS_PLAYER_PLAYING(PLAYER::PLAYER_ID()))
 				if (PED::IS_PED_IN_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), false))
@@ -78,7 +78,7 @@ void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
 			{
 				if (VEHICLE::IS_VEHICLE_DRIVEABLE(veLocal_28, false))
 				{
-					if (VEHICLE::IS_VEHICLE_MODEL(veLocal_28, 444583674))
+					if (VEHICLE::IS_VEHICLE_MODEL(veLocal_28, joaat("HANDLER")))
 					{
 						PAD::SET_INPUT_EXCLUSIVE(PLAYER_CONTROL, INPUT_CONTEXT);
 					
@@ -86,8 +86,8 @@ void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
 						{
 							if (iLocal_32 == 0)
 							{
-								if (!ENTITY::DOES_ENTITY_EXIST(obLocal_29) || ENTITY::DOES_ENTITY_EXIST(obLocal_29) && OBJECT::GET_CLOSEST_OBJECT_OF_TYPE(ENTITY::GET_ENTITY_COORDS(veLocal_28, true), 15f, 874602658, true, false, true) != obLocal_29)
-									obLocal_29 = OBJECT::GET_CLOSEST_OBJECT_OF_TYPE(ENTITY::GET_ENTITY_COORDS(veLocal_28, true), 15f, 874602658, true, false, true);
+								if (!ENTITY::DOES_ENTITY_EXIST(obLocal_29) || ENTITY::DOES_ENTITY_EXIST(obLocal_29) && OBJECT::GET_CLOSEST_OBJECT_OF_TYPE(ENTITY::GET_ENTITY_COORDS(veLocal_28, true), 15f, joaat("PROP_CONTR_03B_LD"), true, false, true) != obLocal_29)
+									obLocal_29 = OBJECT::GET_CLOSEST_OBJECT_OF_TYPE(ENTITY::GET_ENTITY_COORDS(veLocal_28, true), 15f, joaat("PROP_CONTR_03B_LD"), true, false, true);
 							
 								if (ENTITY::DOES_ENTITY_EXIST(obLocal_29))
 								{
@@ -126,7 +126,7 @@ void main() // Position - 0x0 Hash - 0x5D84F89F ^0x5D84F89F
 	return;
 }
 
-BOOL func_1(var uParam0, int iParam1) // Position - 0x18E Hash - 0x531C3980 ^0xF5F1F9EF
+BOOL func_1(var uParam0, int iParam1) // Hash - 0x531C3980 ^0xF5F1F9EF
 {
 	int gameTimer;
 
@@ -138,13 +138,13 @@ BOOL func_1(var uParam0, int iParam1) // Position - 0x18E Hash - 0x531C3980 ^0xF
 	return false;
 }
 
-void func_2() // Position - 0x1AC Hash - 0xCE5FB49E ^0x214A59D5
+void func_2() // Hash - 0xCE5FB49E ^0x214A59D5
 {
 	SCRIPT::TERMINATE_THIS_THREAD();
 	return;
 }
 
-int func_3(int iParam0) // Position - 0x1B8 Hash - 0xFCBFD2CC ^0x1DBFD43E
+int func_3(int iParam0) // Hash - 0xFCBFD2CC ^0x1DBFD43E
 {
 	int num;
 	int offset;
@@ -169,7 +169,7 @@ int func_3(int iParam0) // Position - 0x1B8 Hash - 0xFCBFD2CC ^0x1DBFD43E
 	return 0;
 }
 
-int func_4(int iParam0) // Position - 0x20F Hash - 0xFCBFD2CC ^0x1DBFD43E
+int func_4(int iParam0) // Hash - 0xFCBFD2CC ^0x1DBFD43E
 {
 	int num;
 	int offset;
