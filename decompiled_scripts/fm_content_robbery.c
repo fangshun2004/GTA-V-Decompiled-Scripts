@@ -35559,7 +35559,7 @@ void func_881() // Hash - 0x632F9748 ^0x809F130A
 	uLocal_222.f_99 = 1;
 	uLocal_222.f_99.f_1[0 /*12*/].f_1 = { uLocal_222.f_38.f_1[0 /*21*/].f_3 };
 	uLocal_222.f_99.f_1[0 /*12*/].f_4 = uLocal_222.f_38.f_1[0 /*21*/].f_6;
-	uLocal_222.f_99.f_1[0 /*12*/] = -1087032819;
+	uLocal_222.f_99.f_1[0 /*12*/] = joaat("XM3_PROP_XM3_BACKPACK_01A");
 	func_882(0, 0);
 	return;
 }

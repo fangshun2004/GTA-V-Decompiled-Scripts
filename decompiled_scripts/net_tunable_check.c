@@ -2044,7 +2044,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 16f;
 			uParam1->f_2 = 4;
 			uParam1->f_3 = 16;
-			uParam1->f_5 = -140847750;
+			uParam1->f_5 = joaat("TDM_MAX_PLAYERS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -2053,7 +2053,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 16f;
 			uParam1->f_2 = 4;
 			uParam1->f_3 = 16;
-			uParam1->f_5 = -190820730;
+			uParam1->f_5 = joaat("TDM_RP_MAX_PLAYERS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -9837,7 +9837,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = SYSTEM::TO_FLOAT(32);
 			uParam1->f_2 = 2;
 			uParam1->f_3 = func_3();
-			uParam1->f_5 = 869147615;
+			uParam1->f_5 = joaat("MAX_NG_TRANSITION_SESSION_SIZE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -9846,7 +9846,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 25;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = 1414317463;
+			uParam1->f_5 = joaat("XP_REWARD_EVENT_DISTRACT_COPS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10290,7 +10290,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -1467004393;
+			uParam1->f_5 = joaat("MAX_HEIST_CUT_AMOUNT");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -10347,7 +10347,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 185000;
 			uParam1->f_3 = 1000000;
-			uParam1->f_5 = -768747205;
+			uParam1->f_5 = joaat("VEHICLES_HEIST_VAPID_GUADIAN");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10455,7 +10455,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 500000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 500000;
-			uParam1->f_5 = -1369228807;
+			uParam1->f_5 = joaat("HEIST_FIRST_TIME_BONUS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10473,7 +10473,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 2000000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000000;
-			uParam1->f_5 = 40165126;
+			uParam1->f_5 = joaat("HEIST_SAME_TEAM_BONUS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10491,7 +10491,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -1779378572;
+			uParam1->f_5 = joaat("LEADER_DEFAULT_HEIST_TUTORIAL_FINALE_CUT");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10571,7 +10571,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 25;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = 1414317463;
+			uParam1->f_5 = joaat("XP_REWARD_EVENT_DISTRACT_COPS");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -10628,7 +10628,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 600000;
-			uParam1->f_5 = -461998205;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_FLEECA_TIME");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10637,7 +10637,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 732304828;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_FLEECA_VEHICLE_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10646,7 +10646,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 1749060561;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_FLEECA_PED_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10655,7 +10655,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 300f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 300;
-			uParam1->f_5 = -489806450;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_FLEECA_ENEMY_KILLS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10664,7 +10664,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 1236345409;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_FLEECA_HEALTH_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10673,7 +10673,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 1200000;
-			uParam1->f_5 = -1140254079;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_HUMANE_LABS_TIME");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10682,7 +10682,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 201975816;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_HUMANE_LABS_VEHICLE_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10691,7 +10691,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = -36998299;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_HUMANE_LABS_PED_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10700,7 +10700,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 300f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 300;
-			uParam1->f_5 = 862138175;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_HUMANE_LABS_ENEMY_KILLS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10709,7 +10709,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 1056121904;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_HUMANE_LABS_HEALTH_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10718,7 +10718,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 600000;
-			uParam1->f_5 = 241292275;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_PRISON_TIME");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10727,7 +10727,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 140847792;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_PRISON_VEHICLE_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10736,7 +10736,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = -1910687798;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_PRISON_PED_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10745,7 +10745,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 300f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 300;
-			uParam1->f_5 = -1964597960;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_PRISON_ENEMY_KILLS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10754,7 +10754,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = -2014262411;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_PRISON_HEALTH_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10763,7 +10763,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 600000;
-			uParam1->f_5 = 1026862599;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_PRISON_EXTRACTION");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10772,7 +10772,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 1200000;
-			uParam1->f_5 = 1305296770;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_SERIES_A_TIME");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10781,7 +10781,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 1536718037;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_SERIES_A_VEHICLE_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10790,7 +10790,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 331939322;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_SERIES_A_PED_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10799,7 +10799,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 300f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 300;
-			uParam1->f_5 = -2098242609;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_SERIES_A_ENEMY_KILLS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10808,7 +10808,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = -367313129;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_SERIES_A_HEALTH_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10817,7 +10817,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 1200000;
-			uParam1->f_5 = -1868925097;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_PACIFIC_TIME");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10826,7 +10826,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = -707243232;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_PACIFIC_VEHICLE_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10835,7 +10835,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = -1669356470;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_PACIFIC_PED_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10844,7 +10844,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 300f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 300;
-			uParam1->f_5 = -1138011519;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_PACIFIC_ENEMY_KILLS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10853,7 +10853,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = -1944119143;
+			uParam1->f_5 = joaat("TARGET_OVERRIDE_ELITE_OBJECTIVES_PACIFIC_HEALTH_DAMAGE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10862,7 +10862,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 72000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 72000;
-			uParam1->f_5 = -365813198;
+			uParam1->f_5 = joaat("HEIST_MONEY_GRAB_CASH_DROP_THRESHOLD_HIGH");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10871,7 +10871,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 36000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 36000;
-			uParam1->f_5 = -118287201;
+			uParam1->f_5 = joaat("HEIST_MONEY_GRAB_CASH_DROP_THRESHOLD_LOW");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10880,7 +10880,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = 1241897426;
+			uParam1->f_5 = joaat("HEIST_SETUP_CASH_CALCULATION_MAX_TAKE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10889,7 +10889,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -284978087;
+			uParam1->f_5 = joaat("MAX_HEIST_CASH_LOSS_PERCENTAGE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10898,7 +10898,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -76405223;
+			uParam1->f_5 = joaat("DEFAULT_STACK_CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10907,7 +10907,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -1215175122;
+			uParam1->f_5 = joaat("BONUS_STACK_CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10916,7 +10916,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 45f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 45;
-			uParam1->f_5 = -527933388;
+			uParam1->f_5 = joaat("BONUS_STACK_NUMBER_PER_TROLLEY");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10925,7 +10925,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 500000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 500000;
-			uParam1->f_5 = 1596686975;
+			uParam1->f_5 = joaat("AMOUNT_HEIST_MEMBERS_BONUS");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -10937,7 +10937,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = 1949822091;
+			uParam1->f_5 = joaat("MEMBER_MIN_HEIST_FINALE_TAKE_PERCENTAGE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -10946,7 +10946,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -1282713733;
+			uParam1->f_5 = joaat("LEADER_MIN_HEIST_FINALE_TAKE_PERCENTAGE");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -11021,7 +11021,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -64032203;
+			uParam1->f_5 = joaat("MP_DAILY_OBJECTIVE_BONUS_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11030,7 +11030,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 563884031;
+			uParam1->f_5 = joaat("MP_DAILY_OBJECTIVE_BONUS_RP_REWARD");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11039,7 +11039,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 500000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 500000;
-			uParam1->f_5 = 833422834;
+			uParam1->f_5 = joaat("MP_WEEKLY_OBJECTIVE_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11048,7 +11048,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 675628469;
+			uParam1->f_5 = joaat("MP_WEEKLY_OBJECTIVE_RP_REWARD");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11057,7 +11057,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000000;
-			uParam1->f_5 = 1942782413;
+			uParam1->f_5 = joaat("MP_MONTHLY_OBJECTIVE_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11066,7 +11066,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 1012074199;
+			uParam1->f_5 = joaat("MP_MONTHLY_OBJECTIVE_RP_REWARD");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11075,7 +11075,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -1060446307;
+			uParam1->f_5 = joaat("MP_10_OBJECTIVES_COMPLETE_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11084,7 +11084,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = 2120301072;
+			uParam1->f_5 = joaat("MP_10_OBJECTIVES_COMPLETE_RP_REWARD");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11093,7 +11093,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -863377025;
+			uParam1->f_5 = joaat("MP_20_OBJECTIVES_COMPLETE_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11102,7 +11102,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = 79198076;
+			uParam1->f_5 = joaat("MP_20_OBJECTIVES_COMPLETE_RP_REWARD");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11111,7 +11111,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = -222535300;
+			uParam1->f_5 = joaat("MP_50_OBJECTIVES_COMPLETE_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11120,7 +11120,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30000;
-			uParam1->f_5 = -1942366844;
+			uParam1->f_5 = joaat("MP_50_OBJECTIVES_COMPLETE_RP_REWARD");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11129,7 +11129,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 200000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 200000;
-			uParam1->f_5 = -441395635;
+			uParam1->f_5 = joaat("MP_100_OBJECTIVES_COMPLETE_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11138,7 +11138,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -633145824;
+			uParam1->f_5 = joaat("MP_100_OBJECTIVES_COMPLETE_RP_REWARD");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11504,7 +11504,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 500;
-			uParam1->f_5 = 1479256181;
+			uParam1->f_5 = joaat("HEIST_FAIL_RP_MINIMUM");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11513,7 +11513,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = 2116066248;
+			uParam1->f_5 = joaat("HEIST_FAIL_RP_TIME_PERIOD_2_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11522,7 +11522,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = -1062623225;
+			uParam1->f_5 = joaat("HEIST_FAIL_RP_TIME_PERIOD_3_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11531,7 +11531,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = -397274584;
+			uParam1->f_5 = joaat("HEIST_FAIL_RP_TIME_PERIOD_4_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11540,7 +11540,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = -170073122;
+			uParam1->f_5 = joaat("HEIST_FAIL_RP_TIME_PERIOD_5_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11549,7 +11549,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = 2131625723;
+			uParam1->f_5 = joaat("HEIST_FAIL_RP_TIME_PERIOD_6_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11558,7 +11558,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = -1821454383;
+			uParam1->f_5 = joaat("HEIST_FAIL_RP_TIME_PERIOD_7_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11567,7 +11567,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = 1138422695;
+			uParam1->f_5 = joaat("HEIST_FAIL_RP_TIME_PERIOD_8_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -11579,7 +11579,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = -1269060505;
+			uParam1->f_5 = joaat("HEIST_FAIL_RP_TIME_PERIOD_9_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11588,7 +11588,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = -1954484836;
+			uParam1->f_5 = joaat("HEIST_FAIL_RP_TIME_PERIOD_10_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11597,7 +11597,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 281319684;
+			uParam1->f_5 = joaat("HEIST_RP_STAGE_PREP_BONUS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11606,7 +11606,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -262054156;
+			uParam1->f_5 = joaat("HEIST_RP_STAGE_FINALE_BONUS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11615,7 +11615,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -247589881;
+			uParam1->f_5 = joaat("HEIST_RP_ROLE_PREP_BONUS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11624,7 +11624,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1308507187;
+			uParam1->f_5 = joaat("HEIST_RP_ROLE_FINALE_BONUS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11633,7 +11633,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 1;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -1083949574;
+			uParam1->f_5 = joaat("EXPENSES_HEIST_COST_PERCENTAGE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11642,7 +11642,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 60;
-			uParam1->f_5 = 420923772;
+			uParam1->f_5 = joaat("HEIST_FAIL_CASH_TIME_PERIOD_1");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11651,7 +11651,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 60;
-			uParam1->f_5 = -1886472598;
+			uParam1->f_5 = joaat("HEIST_FAIL_CASH_TIME_PERIOD_2");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11660,7 +11660,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 60;
-			uParam1->f_5 = 2133726633;
+			uParam1->f_5 = joaat("HEIST_FAIL_CASH_TIME_PERIOD_3");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11669,7 +11669,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 60;
-			uParam1->f_5 = -199819395;
+			uParam1->f_5 = joaat("HEIST_FAIL_CASH_TIME_PERIOD_4");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11678,7 +11678,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 60;
-			uParam1->f_5 = -507946302;
+			uParam1->f_5 = joaat("HEIST_FAIL_CASH_TIME_PERIOD_5");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11687,7 +11687,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 60;
-			uParam1->f_5 = 1039930178;
+			uParam1->f_5 = joaat("HEIST_FAIL_CASH_TIME_PERIOD_6");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11696,7 +11696,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1;
-			uParam1->f_5 = 596116364;
+			uParam1->f_5 = joaat("HEISTS_FINALE_FAIL_CASH_PERCENTAGE_PERIOD_1");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11705,7 +11705,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1;
-			uParam1->f_5 = 475493675;
+			uParam1->f_5 = joaat("HEISTS_FINALE_FAIL_CASH_PERCENTAGE_PERIOD_2");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11714,7 +11714,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1;
-			uParam1->f_5 = 118835879;
+			uParam1->f_5 = joaat("HEISTS_FINALE_FAIL_CASH_PERCENTAGE_PERIOD_3");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11723,7 +11723,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 537918616;
+			uParam1->f_5 = joaat("HEISTS_FINALE_FAIL_CASH_PERCENTAGE_PERIOD_4");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11732,7 +11732,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 164679706;
+			uParam1->f_5 = joaat("HEISTS_FINALE_FAIL_CASH_PERCENTAGE_PERIOD_5");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11741,7 +11741,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1005337439;
+			uParam1->f_5 = joaat("HEISTS_FINALE_FAIL_CASH_PERCENTAGE_PERIOD_6");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11750,7 +11750,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -177821882;
+			uParam1->f_5 = joaat("HEISTS_FINALE_FAIL_CASH_PERCENTAGE_PERIOD_7");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11759,7 +11759,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = 605775880;
+			uParam1->f_5 = joaat("HEISTS_PREP_FAIL_CASH_PERCENTAGE_PERIOD_1");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11768,7 +11768,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = 994350686;
+			uParam1->f_5 = joaat("HEISTS_PREP_FAIL_CASH_PERCENTAGE_PERIOD_2");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11777,7 +11777,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = 703591349;
+			uParam1->f_5 = joaat("HEISTS_PREP_FAIL_CASH_PERCENTAGE_PERIOD_3");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11786,7 +11786,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = 386584043;
+			uParam1->f_5 = joaat("HEISTS_PREP_FAIL_CASH_PERCENTAGE_PERIOD_4");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11795,7 +11795,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = 89860748;
+			uParam1->f_5 = joaat("HEISTS_PREP_FAIL_CASH_PERCENTAGE_PERIOD_5");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11804,7 +11804,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -263389072;
+			uParam1->f_5 = joaat("HEISTS_PREP_FAIL_CASH_PERCENTAGE_PERIOD_6");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11813,7 +11813,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -553198108;
+			uParam1->f_5 = joaat("HEISTS_PREP_FAIL_CASH_PERCENTAGE_PERIOD_7");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11831,7 +11831,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -528257471;
+			uParam1->f_5 = joaat("HEISTS_LEADER_DEFAULT_HEIST_FINALE_CUT");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11840,7 +11840,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = -1499559503;
+			uParam1->f_5 = joaat("TIME_START_VALUE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11876,7 +11876,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = 2039519006;
+			uParam1->f_5 = joaat("AMBIENT_COP_KILLS_MULTIPLIER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11885,7 +11885,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1187949946;
+			uParam1->f_5 = joaat("MAX_AMBIENT_COP_KILLS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11933,7 +11933,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20000;
-			uParam1->f_5 = 2135517534;
+			uParam1->f_5 = joaat("CIVILLIAN_KILLS_START_VALUE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11942,7 +11942,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000;
-			uParam1->f_5 = -2013854817;
+			uParam1->f_5 = joaat("CIVILLIAN_KILLS_MULTIPLIER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11951,7 +11951,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = 1299723789;
+			uParam1->f_5 = joaat("MAX_CIVILLIAN_KILLS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11960,7 +11960,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 1343230522;
+			uParam1->f_5 = joaat("HEALTH_SCORE_START_VALUE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11969,7 +11969,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 1006143612;
+			uParam1->f_5 = joaat("HEALTH_SCORE_MULTIPLIER_0");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11978,7 +11978,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10;
-			uParam1->f_5 = 1310928081;
+			uParam1->f_5 = joaat("HEALTH_SCORE_MULTIPLIER_1");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11987,7 +11987,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 1145413714;
+			uParam1->f_5 = joaat("HACK_SCORE_START_VALUE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -11996,7 +11996,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = -91243912;
+			uParam1->f_5 = joaat("HACK_SCORE_MULTIPLIER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -12041,7 +12041,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 4f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 4;
-			uParam1->f_5 = 1432380296;
+			uParam1->f_5 = joaat("OBJECTIVE_MAX_TEAM_PLAYERS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -12068,7 +12068,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -1651561769;
+			uParam1->f_5 = joaat("HEIST_HEAVY_ARMOUR_AFFECT");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -12077,7 +12077,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1.5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 373723198;
+			uParam1->f_5 = joaat("HEIST_HEAVY_ARMOUR_SPEED");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -14864,7 +14864,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 3000;
 			uParam1->f_3 = 15000;
-			uParam1->f_5 = 881393295;
+			uParam1->f_5 = joaat("LUXE2_KNUCKLE_DUSTER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -14873,7 +14873,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = -1236341588;
+			uParam1->f_5 = joaat("LUXE2_MARKSMAN_PISTOL");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15104,7 +15104,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 600000;
-			uParam1->f_5 = -1796142600;
+			uParam1->f_5 = joaat("CHALLENGE_EVENT_START_COUNTDOWN_TIME");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15122,7 +15122,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 1180975104;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_LONGEST_FREEFALL");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15131,7 +15131,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 1214377042;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_LOWEST_PARACHUTE_DEPLOY");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15140,7 +15140,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1188197228;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_HIGHEST_VEHICLES_STOLEN");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15149,7 +15149,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1626249723;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_LONGEST_FALL_WITHOUT_DYING");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15158,7 +15158,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -839874448;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_LONGEST_VEHICLE_BAIL_WITHOUT_DYING");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15167,7 +15167,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 1519843898;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_LONGEST_TIME_LOW_FLYING_UNDER_20M");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15176,7 +15176,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -598150985;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_LONGEST_TIME_LOW_FLYING_INVERTED_UNDER_100M");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15185,7 +15185,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 1720731272;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_BRIDGES_FLOWN_UNDER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15194,7 +15194,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 50604843;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_REVERSE_DRIVING_WITHOUT_CRASHING");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15203,7 +15203,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -439842609;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_PVP_HIGHEST_NO_OF_PLAYERS_SET_ON_FIRE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15212,7 +15212,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1194098350;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_PVP_HIGHEST_NO_OF_PLAYER_HEADSHOTS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15221,7 +15221,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 637649026;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_PVP_HIGHEST_NO_OF_PLAYER_DRIVE_BY_KILLS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15230,7 +15230,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 1487989945;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_PVP_HIGHEST_NO_OF_PLAYER_MELEE_KILLS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15239,7 +15239,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 551445108;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_PVP_SNIPER_PLAYER_KILLS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15248,7 +15248,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = 1407964436;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_LONGEST_FREEFALL");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15257,7 +15257,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -151795864;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_LOWEST_PARACHUTE_DEPLOY");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15266,7 +15266,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = 1936047123;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_HIGHEST_VEHICLES_STOLEN");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15275,7 +15275,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -1945014605;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_LONGEST_FALL_WITHOUT_DYING");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15284,7 +15284,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -524766832;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_LONGEST_VEHICLE_BAIL_WITHOUT_DYING");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15293,7 +15293,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = 1757338906;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_BULLET_MIN_CASH");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15302,7 +15302,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30000;
-			uParam1->f_5 = 495363390;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_BULLET_MAX_CASH");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -15314,7 +15314,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -1929693776;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_LONGEST_TIME_LOW_FLYING_UNDER_20M");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15323,7 +15323,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = 890993601;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_LONGEST_TIME_LOW_FLYING_INVERTED_UNDER_100M");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15332,7 +15332,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -1711057271;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_BRIDGES_FLOWN_UNDER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15341,7 +15341,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -308103488;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_REVERSE_DRIVING_WITHOUT_CRASHING");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15350,7 +15350,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -859948801;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_PVP_HIGHEST_NO_OF_PLAYERS_SET_ON_FIRE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15359,7 +15359,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -675019553;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_PVP_HIGHEST_NO_OF_PLAYER_HEADSHOTS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15368,7 +15368,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = 143457223;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_PVP_HIGHEST_NO_OF_PLAYER_DRIVE_BY_KILLS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15377,7 +15377,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = 955337218;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_PVP_HIGHEST_NO_OF_PLAYER_MELEE_KILLS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15386,7 +15386,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -1584234058;
+			uParam1->f_5 = joaat("CHALLENGE_TIME_LIMIT_PVP_SNIPER_PLAYER_KILLS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15404,7 +15404,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -1141546862;
+			uParam1->f_5 = joaat("HOT_TARGET_EVENT_EXPIRY_TIME");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15422,7 +15422,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -655241405;
+			uParam1->f_5 = joaat("HOT_TARGET_VEHICLE_HEALTH_MODIFIER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15431,7 +15431,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 600000;
-			uParam1->f_5 = 1192321747;
+			uParam1->f_5 = joaat("HOT_TARGET_PLAYER_WAIT_TIMER_2_PLAYER_VEHICLES");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15776,7 +15776,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 600000;
-			uParam1->f_5 = 1121013465;
+			uParam1->f_5 = joaat("CHECKPOINT_EVENT_START_COUNTDOWN_TIME");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15794,7 +15794,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 1;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = -65551831;
+			uParam1->f_5 = joaat("CHECKPOINT_CHECKPOINT_PLAYER_THRESHOLD_1");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15803,7 +15803,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 1;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = -295033138;
+			uParam1->f_5 = joaat("CHECKPOINT_CHECKPOINT_PLAYER_THRESHOLD_2");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15812,7 +15812,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 1;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = -489943150;
+			uParam1->f_5 = joaat("CHECKPOINT_CHECKPOINT_PLAYER_THRESHOLD_3");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15830,7 +15830,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 300000;
-			uParam1->f_5 = 211099614;
+			uParam1->f_5 = joaat("TIME_TRIAL_RETURN_TO_CAR_TIME");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15839,7 +15839,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 300000;
-			uParam1->f_5 = -578889034;
+			uParam1->f_5 = joaat("TIME_TRIAL_RETURN_TO_BIKE_TIME");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15848,7 +15848,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 600000;
-			uParam1->f_5 = -1186161278;
+			uParam1->f_5 = joaat("PENNED_IN_EVENT_START_COUNTDOWN_TIME");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15857,7 +15857,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -334499479;
+			uParam1->f_5 = joaat("PENNED_IN_EVENT_EXPIRY_TIME");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15875,7 +15875,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = 1722324857;
+			uParam1->f_5 = joaat("PENNED_IN_PEN_MOVEMENT_SPEED_MODIFIER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15893,7 +15893,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 1;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -263258563;
+			uParam1->f_5 = joaat("PENNED_IN_PERCENTAGE_OF_SESSION_REQUIRED_FOR_QUICK_LAUNCH");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15902,7 +15902,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 300000;
-			uParam1->f_5 = -1917431628;
+			uParam1->f_5 = joaat("PENNED_IN_QUICK_LAUNCH_TIMER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15932,7 +15932,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -60314277;
+			uParam1->f_5 = joaat("PASS_THE_PARCEL_EVENT_EXPIRY_TIME");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15950,7 +15950,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 2086896008;
+			uParam1->f_5 = joaat("PASS_THE_PARCEL_VEHICLE_HEALTH_MODIFIER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15959,7 +15959,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 300000;
-			uParam1->f_5 = -26109514;
+			uParam1->f_5 = joaat("PASS_THE_PARCEL_SUDDEN_DEATH_TIME_LIMIT");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -15995,7 +15995,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -525178140;
+			uParam1->f_5 = joaat("DEAD_DROP_EVENT_EXPIRY_TIME");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16022,7 +16022,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1800000;
-			uParam1->f_5 = -1289675913;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_EVENT_EXPIRY_TIME");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16040,7 +16040,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 28832192;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_POINTS_PER_X_SECONDS_AS_KING");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16049,7 +16049,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = -1492550833;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_SECONDS_AS_KING_TO_EARN_POINTS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16058,7 +16058,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 1268568013;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_POINTS_PER_PLAYER_KILL_AS_KING");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16076,7 +16076,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 600000;
-			uParam1->f_5 = 561455601;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_EVENT_START_COUNTDOWN_TIME");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16094,7 +16094,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = -989671040;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_BASE_VALUE_APPLIED_TO_PROPS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16103,7 +16103,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 554717096;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_BASE_VALUE_MODIFIER_APPLIED_TO_PROPS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16112,7 +16112,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 1575349005;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_BASE_VALUE_MODIFIER_APPLIED_TO_VEHICLES");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16121,7 +16121,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -665347075;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_BASE_VALUE_MODIFIER_APPLIED_TO_CLOTHING");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16130,7 +16130,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -887233685;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_DAMAGE_VALUE_MODIFIER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16139,7 +16139,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 1917136479;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_DESTRUCTION_VALUE_MODIFIER");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -16160,7 +16160,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 600000;
-			uParam1->f_5 = -443330993;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_EVENT_START_COUNTDOWN_TIME");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16178,7 +16178,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1105000653;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_AMBIENT_WEIGHTING_HUNT_THE_BEAST");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16205,7 +16205,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 60000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 60000;
-			uParam1->f_5 = -593534965;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_BEAST_BLIP_FLASH_DURATION_BASE_VALUE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16214,7 +16214,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 60000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 60000;
-			uParam1->f_5 = 438768970;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_BEAST_BLIP_FLASH_DURATION_INCREASE_VALUE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16223,7 +16223,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 15f;
 			uParam1->f_2 = 3;
 			uParam1->f_3 = 15;
-			uParam1->f_5 = -70115571;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_NUMBER_OF_ACTIVE_LANDMARKS");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -16235,7 +16235,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 49022266;
+			uParam1->f_5 = joaat("HOT_TARGET_HOT_TARGET_DEFAULT_CASH");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16244,7 +16244,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000;
-			uParam1->f_5 = -1371345779;
+			uParam1->f_5 = joaat("HOT_TARGET_HOT_TARGET_DEFAULT_RP");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16253,7 +16253,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 1839842279;
+			uParam1->f_5 = joaat("HOT_TARGET_CHASER_DEFAULT_CASH");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16262,7 +16262,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000;
-			uParam1->f_5 = 2002824917;
+			uParam1->f_5 = joaat("HOT_TARGET_CHASER_DEFAULT_RP");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16289,7 +16289,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = 112600253;
+			uParam1->f_5 = joaat("HOT_TARGET_PARTICIPATION_THRESHOLD_DISTANCE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16370,7 +16370,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 174922285;
+			uParam1->f_5 = joaat("CHECKPOINT_AIR_CHECKPOINT_MULTIPLIER_CASH");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16379,7 +16379,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 706669832;
+			uParam1->f_5 = joaat("CHECKPOINT_AIR_CHECKPOINT_MULTIPLIER_RP");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16388,7 +16388,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3000;
-			uParam1->f_5 = -1033159501;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_1CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16397,7 +16397,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3000;
-			uParam1->f_5 = -906430342;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_2_CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16406,7 +16406,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3000;
-			uParam1->f_5 = -1396097979;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_3_CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16415,7 +16415,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3000;
-			uParam1->f_5 = -1103964256;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_4_CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16424,7 +16424,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3000;
-			uParam1->f_5 = -527353388;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_5_CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16433,7 +16433,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3000;
-			uParam1->f_5 = -1671652413;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_6_CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16442,7 +16442,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3000;
-			uParam1->f_5 = -1291271460;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_7_CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16451,7 +16451,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3000;
-			uParam1->f_5 = -1256504408;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_8_CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16460,7 +16460,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3000;
-			uParam1->f_5 = 1194826691;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_9_CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16469,7 +16469,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3000;
-			uParam1->f_5 = 163433928;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_10_CASH_VALUE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16478,7 +16478,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 500;
-			uParam1->f_5 = -1929874458;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_1_RP_VALUE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16487,7 +16487,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 500;
-			uParam1->f_5 = -1121408659;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_2_RP_VALUE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16496,7 +16496,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 500;
-			uParam1->f_5 = 457527056;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_3_RP_VALUE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16505,7 +16505,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 500;
-			uParam1->f_5 = -958784577;
+			uParam1->f_5 = joaat("CHECKPOINT_SET_4_RP_VALUE");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -16517,7 +16517,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = -1350123057;
+			uParam1->f_5 = joaat("CHECKPOINT_PARTICIPATION_THRESHOLD_MIN_CHECKPOINTS_COLLECTED");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16580,7 +16580,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -550389908;
+			uParam1->f_5 = joaat("HELICOPTER_HOT_TARGET_HOT_TARGET_DEFAULT_CASH");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16589,7 +16589,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000;
-			uParam1->f_5 = -817636381;
+			uParam1->f_5 = joaat("HELICOPTER_HOT_TARGET_HOT_TARGET_DEFAULT_RP");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16598,7 +16598,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -1500983243;
+			uParam1->f_5 = joaat("HELICOPTER_HOT_TARGET_CHASER_DEFAULT_CASH");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16607,7 +16607,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000;
-			uParam1->f_5 = -1809499441;
+			uParam1->f_5 = joaat("HELICOPTER_HOT_TARGET_CHASER_DEFAULT_RP");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16634,7 +16634,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = -543373498;
+			uParam1->f_5 = joaat("HELICOPTER_HOT_TARGET_PARTICIPATION_THRESHOLD_DISTANCE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16679,7 +16679,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = -624029344;
+			uParam1->f_5 = joaat("PENNED_IN_T_WEIGHT_TIME_THRESHOLD_1");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16688,7 +16688,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = -317409811;
+			uParam1->f_5 = joaat("PENNED_IN_T_WEIGHT_TIME_THRESHOLD_2");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16697,7 +16697,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = 1056823742;
+			uParam1->f_5 = joaat("PENNED_IN_T_WEIGHT_TIME_THRESHOLD_3");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16706,7 +16706,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 20;
-			uParam1->f_5 = 1353743651;
+			uParam1->f_5 = joaat("PENNED_IN_T_WEIGHT_TIME_THRESHOLD_4");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16715,7 +16715,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = 1117888762;
+			uParam1->f_5 = joaat("PENNED_IN_T_WEIGHT_THRESHOLD_VALUE_1");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16724,7 +16724,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = 877134919;
+			uParam1->f_5 = joaat("PENNED_IN_T_WEIGHT_THRESHOLD_VALUE_2");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16733,7 +16733,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = 916916489;
+			uParam1->f_5 = joaat("PENNED_IN_T_WEIGHT_THRESHOLD_VALUE_3");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16742,7 +16742,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = 1760619932;
+			uParam1->f_5 = joaat("PENNED_IN_T_WEIGHT_THRESHOLD_VALUE_4");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16751,7 +16751,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = 1380696146;
+			uParam1->f_5 = joaat("PENNED_IN_T_WEIGHT_THRESHOLD_VALUE_5");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16817,7 +16817,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 200f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 200;
-			uParam1->f_5 = -1324158733;
+			uParam1->f_5 = joaat("DEAD_DROP_CARRIER_KILLS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16826,7 +16826,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = 1247126551;
+			uParam1->f_5 = joaat("DEAD_DROP_CARRIER_KILL_CAP");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16835,7 +16835,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = 1024539497;
+			uParam1->f_5 = joaat("DEAD_DROP_PARTICIPATION_THRESHOLD_DISTANCE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16916,7 +16916,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000;
-			uParam1->f_5 = 646169103;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_EXTENDED_WANTED_REDUCTION_DISTANCE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16925,7 +16925,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1;
-			uParam1->f_5 = -1433029493;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_EXTENDED_WANTED_REDUCTION_MULTIPLER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16943,7 +16943,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = -813381895;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_PLAYER_BULLET_MIN_CASH");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16952,7 +16952,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 713981593;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_PLAYER_BULLET_MAX_CASH");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -16964,7 +16964,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = -2099399271;
+			uParam1->f_5 = joaat("CHALLENGE_CASH_REWARD_BASE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -16973,7 +16973,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = 1625031529;
+			uParam1->f_5 = joaat("CHALLENGE_RP_REWARD_BASE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17000,7 +17000,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -146856185;
+			uParam1->f_5 = joaat("CHALLENGE_POSITION_MODIFIER_IN_PLACE_0");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17009,7 +17009,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 293886865;
+			uParam1->f_5 = joaat("CHALLENGE_POSITION_MODIFIER_IN_PLACE_1");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17018,7 +17018,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 581631454;
+			uParam1->f_5 = joaat("CHALLENGE_POSITION_MODIFIER_IN_PLACE_2");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17027,7 +17027,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1393028486;
+			uParam1->f_5 = joaat("CHALLENGE_POSITION_MODIFIER_IN_PLACE_3");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17036,7 +17036,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10;
-			uParam1->f_5 = 1278747742;
+			uParam1->f_5 = joaat("CHALLENGE_REWARD_TIME_WEIGHTING");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17045,7 +17045,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -424169619;
+			uParam1->f_5 = joaat("CHALLENGE_REWARD_PLAYER_WEIGHTING");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17054,7 +17054,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = -415366945;
+			uParam1->f_5 = joaat("CHALLENGE_REWARD_PLAYER_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17063,7 +17063,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = -219790116;
+			uParam1->f_5 = joaat("CHALLENGE_CASH_REWARD_SCALE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17072,7 +17072,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = -896971152;
+			uParam1->f_5 = joaat("CHALLENGE_RP_REWARD_SCALE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17081,7 +17081,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 1949103279;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_GET_CASH_REWARD_BASE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17090,7 +17090,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = 1157887976;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_GET_RP_REWARD_BASE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17117,7 +17117,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -581450675;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_POSITION_MODIFIER_IN_PLACE_1");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17126,7 +17126,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1432658223;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_POSITION_MODIFIER_IN_PLACE_2");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17135,7 +17135,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1713062556;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_POSITION_MODIFIER_IN_PLACE_3");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17144,7 +17144,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10;
-			uParam1->f_5 = -695013579;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_GET_REWARD_TIME_WEIGHTING");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -17156,7 +17156,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = 225483868;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_GET_CASH_REWARD_SCALE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17165,7 +17165,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = 1853185507;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_GET_RP_REWARD_SCALE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17174,7 +17174,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 1135746193;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_GET_REWARD_PLAYER_WEIGHTING");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17183,7 +17183,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = -762430062;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_GET_REWARD_PLAYER_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17192,7 +17192,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 962395548;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_GET_REWARD_PLAYER_THRESHOLD");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17219,7 +17219,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = -7571418;
+			uParam1->f_5 = joaat("HOT_PROPERTY_CASH_REWARD_SCALE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17228,7 +17228,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 500;
-			uParam1->f_5 = 578748666;
+			uParam1->f_5 = joaat("HOT_PROPERTY_RP_REWARD_SCALE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17237,7 +17237,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -1063006106;
+			uParam1->f_5 = joaat("HOT_PROPERTY_POSITION_MODIFIER_IN_PLACE_0");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17246,7 +17246,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -553513706;
+			uParam1->f_5 = joaat("HOT_PROPERTY_POSITION_MODIFIER_IN_PLACE_1");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17255,7 +17255,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -314791541;
+			uParam1->f_5 = joaat("HOT_PROPERTY_POSITION_MODIFIER_IN_PLACE_2");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17264,7 +17264,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -71612792;
+			uParam1->f_5 = joaat("HOT_PROPERTY_POSITION_MODIFIER_IN_PLACE_3");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17273,7 +17273,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10;
-			uParam1->f_5 = -79804119;
+			uParam1->f_5 = joaat("HOT_PROPERTY_REWARD_TIME_WEIGHTING");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17282,7 +17282,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = -304493237;
+			uParam1->f_5 = joaat("HOT_PROPERTY_REWARD_PLAYER_WEIGHTING");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17291,7 +17291,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 489654460;
+			uParam1->f_5 = joaat("HOT_PROPERTY_REWARD_PLAYER_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17300,7 +17300,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 200f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 200;
-			uParam1->f_5 = -423979231;
+			uParam1->f_5 = joaat("HOT_PROPERTY_RP_REWARD_KILLED_CARRIER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17309,7 +17309,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -434735387;
+			uParam1->f_5 = joaat("HOT_PROPERTY_RP_REWARD_KILLED_CARRIER_CAP");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17318,7 +17318,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 286235315;
+			uParam1->f_5 = joaat("HOT_PROPERTY_CASH_REWARD_BASE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17327,7 +17327,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = 2147162014;
+			uParam1->f_5 = joaat("HOT_PROPERTY_RP_REWARD_BASE");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -17339,7 +17339,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 1832115227;
+			uParam1->f_5 = joaat("PASS_THE_PARCEL_CASH_REWARD_BASE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17348,7 +17348,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000;
-			uParam1->f_5 = -1557405435;
+			uParam1->f_5 = joaat("PASS_THE_PARCEL_RP_REWARD_BASE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17357,7 +17357,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 200f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 200;
-			uParam1->f_5 = -2058524347;
+			uParam1->f_5 = joaat("PASS_THE_PARCEL_RP_REWARD_KILL_CARRIER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17366,7 +17366,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -970674872;
+			uParam1->f_5 = joaat("PASS_THE_PARCEL_RP_REWARD_KILL_CARRIER_CAP");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17375,7 +17375,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = -462230490;
+			uParam1->f_5 = joaat("PASS_THE_PARCEL_REWARD_PARTICIPATION_RANGE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17420,7 +17420,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = 360636588;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_CASH_REWARD_SCALE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17429,7 +17429,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 500;
-			uParam1->f_5 = 703165455;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_RP_REWARD_SCALE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17438,7 +17438,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 484294612;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_MODIFIER_IN_PLACE_1");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17447,7 +17447,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 705976897;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_MODIFIER_IN_PLACE_2");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17456,7 +17456,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = 1601225977;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_MODIFIER_IN_PLACE_3");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17465,7 +17465,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10;
-			uParam1->f_5 = 1445334380;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_REWARD_TIME_WEIGHTING");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17474,7 +17474,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
-			uParam1->f_5 = 1909784936;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_REWARD_PLAYER_WEIGHTING");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17483,7 +17483,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50;
-			uParam1->f_5 = 1185039747;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_REWARD_PLAYER_DIVIDER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17492,7 +17492,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 200f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 200;
-			uParam1->f_5 = -1727860393;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_RP_REWARD_KILLED_KING");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17501,7 +17501,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 200f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 200;
-			uParam1->f_5 = 453017200;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_RP_REWARD_KILL_AS_KING");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17510,7 +17510,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -703666841;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_RP_REWARD_KILLED_KING_CAP");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17519,7 +17519,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = 387221552;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_RP_REWARD_KILL_AS_KING_CAP");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17528,7 +17528,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 1966994651;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_CASH_REWARD_BASE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17537,7 +17537,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2000;
-			uParam1->f_5 = 61329934;
+			uParam1->f_5 = joaat("KING_OF_THE_CASTLE_RP_REWARD_BASE");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -17549,7 +17549,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 819896056;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_B_BASE_CASH");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17558,7 +17558,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000;
-			uParam1->f_5 = 2046086243;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_B_BASE_RP");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17567,7 +17567,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -504543012;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_H_BASE_CASH");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17576,7 +17576,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000;
-			uParam1->f_5 = 1226949810;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_H_BASE_RP");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17612,7 +17612,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = 1070896653;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_P_WEIGHT_PLAYER_THRESHOLD_1");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17621,7 +17621,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = 572414621;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_P_WEIGHT_PLAYER_THRESHOLD_2");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17630,7 +17630,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = 763457891;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_P_WEIGHT_PLAYER_THRESHOLD_3");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17639,7 +17639,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = 1741317624;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_P_WEIGHT_PLAYER_THRESHOLD_4");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17648,7 +17648,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 30;
-			uParam1->f_5 = 292665668;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_P_WEIGHT_PLAYER_THRESHOLD_5");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17657,7 +17657,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = -893112419;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_P_WEIGHT_THRESHOLD_VALUE_1");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17666,7 +17666,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = -579185399;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_P_WEIGHT_THRESHOLD_VALUE_2");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17675,7 +17675,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = -298322300;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_P_WEIGHT_THRESHOLD_VALUE_3");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17684,7 +17684,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = -2125980506;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_P_WEIGHT_THRESHOLD_VALUE_4");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17693,7 +17693,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = -1895122901;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_P_WEIGHT_THRESHOLD_VALUE_5");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17702,7 +17702,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = 1186342787;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_P_WEIGHT_THRESHOLD_VALUE_6");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17729,7 +17729,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10000;
-			uParam1->f_5 = 1192171372;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_PARTICIPATION_THRESHOLD_DISTANCE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17738,7 +17738,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 60000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 60000;
-			uParam1->f_5 = 1323155669;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_BEAST_BLIP_START_VISIBILITY");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17801,7 +17801,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000;
-			uParam1->f_5 = -238750388;
+			uParam1->f_5 = joaat("HOT_PROPERTY_PARTICIPATION_THRESHOLD_DISTANCE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17828,7 +17828,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3600f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3600;
-			uParam1->f_5 = 1663231217;
+			uParam1->f_5 = joaat("SHARED_CASH_COOLDOWN_TUNABLE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17837,7 +17837,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3600f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3600;
-			uParam1->f_5 = -1618562503;
+			uParam1->f_5 = joaat("RECEIVE_SHARED_CASH_COOLDOWN_TUNABLE");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -17849,7 +17849,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_1 = 3f;
-			uParam1->f_5 = 484538711;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_LONGEST_JUMP");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17858,7 +17858,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_1 = 3f;
-			uParam1->f_5 = 1934376194;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_MOST_NEAR_MISSES");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17867,7 +17867,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_1 = 3f;
-			uParam1->f_5 = 1558507414;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_LONGEST_STOPPIE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17876,7 +17876,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_1 = 3f;
-			uParam1->f_5 = -1233079339;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_LONGEST_WHEELIE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17885,7 +17885,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_1 = 3f;
-			uParam1->f_5 = -1202419739;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_HIGHEST_SPEED");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17894,7 +17894,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_1 = 3f;
-			uParam1->f_5 = -279448462;
+			uParam1->f_5 = joaat("CHALLENGE_AMBIENT_WEIGHTING_LONGEST_NO_CRASH");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17903,7 +17903,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3600000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3600000;
-			uParam1->f_5 = 1567687456;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_NO_LANDMARKS_BLIP_TIME");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17912,7 +17912,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3600000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3600000;
-			uParam1->f_5 = 511788735;
+			uParam1->f_5 = joaat("HUNT_THE_BEAST_NO_LANDMARKS_BLIP_DURATION");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -17921,7 +17921,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 60;
-			uParam1->f_5 = 1186198366;
+			uParam1->f_5 = joaat("PARTICIPATION_T_CAP");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -18227,7 +18227,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 5000000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5000000;
-			uParam1->f_5 = 548442192;
+			uParam1->f_5 = joaat("CRIMINAL_DAMAGE_VEHICLE_VALUE_CAP");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -18236,7 +18236,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10;
-			uParam1->f_5 = -1759580058;
+			uParam1->f_5 = joaat("TIME_TRIAL_PARTICIPATION_T_CAP");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -18245,7 +18245,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 1;
 			uParam1->f_3 = 100;
-			uParam1->f_5 = -1943297345;
+			uParam1->f_5 = joaat("LOWRIDER_FLOW_MISSION_REWARD_RANK_OVERRIDE");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -18383,7 +18383,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 340000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 340000;
-			uParam1->f_5 = 2089809122;
+			uParam1->f_5 = joaat("WEBSITE_VAPID_CHINO__BENNYS_WEBSITE_");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -18962,7 +18962,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = 565873505;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_ALBANY_FRANKEN_STANGE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -18971,7 +18971,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 1500000;
-			uParam1->f_5 = -1800793302;
+			uParam1->f_5 = joaat("HALLOWEEN_2015_CHARIOT_LURCHER");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -19028,7 +19028,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 798687242;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_KNOCK-OFFS_CHROME");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -19037,7 +19037,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = 1749452099;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_KNOCK-OFFS_PAINTED");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -19262,7 +19262,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = -34681602;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_PSYCHO-DELIC");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -19280,7 +19280,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 80000;
-			uParam1->f_5 = -182233353;
+			uParam1->f_5 = joaat("LOWRIDER1_CAR_MODS_BENNYS_WHEELS_SUPER ELECTRIC");
 			uParam1->f_4 = 1;
 			break;
 	}
@@ -19463,7 +19463,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 1;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = -518171772;
+			uParam1->f_5 = joaat("GB_NUMBER_OF_GOONS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -19499,7 +19499,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_3 = 100000;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = -478393512;
+			uParam1->f_5 = joaat("BENNYSWEBSITE_KARIN_SULTAN_BENNYS");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -19709,7 +19709,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = -71038278;
+			uParam1->f_5 = joaat("APARTMENT_ADDONS_HEAVY_REVOLVER_ENGRAVED_BOSS_VARIANT");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -19718,7 +19718,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 1400761675;
+			uParam1->f_5 = joaat("APARTMENT_ADDONS_HEAVY_REVOLVER_ENGRAVED_GOON_VARIANT");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -19727,7 +19727,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 100000;
-			uParam1->f_5 = 1375110520;
+			uParam1->f_5 = joaat("APARTMENT_ADDONS_SWITCHBLADE_ENGRAVED_BOSS_VARIANT");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -20222,7 +20222,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 2000000f;
 			uParam1->f_2 = 25000;
 			uParam1->f_3 = 2000000;
-			uParam1->f_5 = 472317652;
+			uParam1->f_5 = joaat("XMAS2015_DECLASSE_TAMPA");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -20288,7 +20288,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -1007917739;
+			uParam1->f_5 = joaat("MALE_ACCESSORIES_GOLD_ALLOY_NECKALCE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -20297,7 +20297,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = 979155635;
+			uParam1->f_5 = joaat("MALE_ACCESSORIES_PLATINUM_ALLOY_NECKALCE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -20351,7 +20351,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -1653410894;
+			uParam1->f_5 = joaat("FEMALE_ACCESSORIES_GOLD_ALLOY_NECKALCE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -20360,7 +20360,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
 			uParam1->f_3 = 50000;
-			uParam1->f_5 = -1084038466;
+			uParam1->f_5 = joaat("FEMALE_ACCESSORIES_PLATINUM_ALLOY_NECKALCE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -20369,7 +20369,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 500000f;
 			uParam1->f_2 = 50000;
 			uParam1->f_3 = 500000;
-			uParam1->f_5 = -1431316553;
+			uParam1->f_5 = joaat("WEBSITE_BENNYS_DUNDREARY_VIRGO_CLASSIC");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -20378,7 +20378,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 250000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 250000;
-			uParam1->f_5 = -1713083858;
+			uParam1->f_5 = joaat("WEBSITE_BENNYS_DECLASSE_SABRE_TURBO");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -20387,7 +20387,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 250000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 250000;
-			uParam1->f_5 = -129342669;
+			uParam1->f_5 = joaat("WEBSITE_BENNYS_DECLASSE_TORNADO");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -20396,7 +20396,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 250000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 250000;
-			uParam1->f_5 = -973497615;
+			uParam1->f_5 = joaat("WEBSITE_BENNYS_VAPID_MINIVAN");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -20405,7 +20405,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 250000f;
 			uParam1->f_2 = 5000;
 			uParam1->f_3 = 250000;
-			uParam1->f_5 = 1023107911;
+			uParam1->f_5 = joaat("WEBSITE_BENNYS_VAPID_SLAMVAN");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -21260,7 +21260,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = -2040295245;
+			uParam1->f_5 = joaat("BIKER_FORGERY_BUSINESS_EQUIPMENT_UPGRADE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -21269,7 +21269,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = 211627492;
+			uParam1->f_5 = joaat("BIKER_FORGERY_BUSINESS_SECURITY_UPGRADE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -21278,7 +21278,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = -898516364;
+			uParam1->f_5 = joaat("BIKER_FORGERY_BUSINESS_STAFF_UPGRADE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -21287,7 +21287,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 200000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = 1682607606;
+			uParam1->f_5 = joaat("BIKER_COUNTERFEITBUSINESS_EQUIPMENT_UPGRADE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -21296,7 +21296,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = 290299699;
+			uParam1->f_5 = joaat("BIKER_COUNTERFEITBUSINESS_SECURITY_UPGRADE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -21305,7 +21305,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = -780784305;
+			uParam1->f_5 = joaat("BIKER_COUNTERFEITBUSINESS_STAFF_UPGRADE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -21314,7 +21314,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 200000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = -388968324;
+			uParam1->f_5 = joaat("BIKER_COCAINE_BUSINESS_EQUIPMENT_UPGRADE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -21323,7 +21323,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = 414132173;
+			uParam1->f_5 = joaat("BIKER_COCAINE_BUSINESS_SECURITY_UPGRADE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -21332,7 +21332,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = -640767349;
+			uParam1->f_5 = joaat("BIKER_COCAINE_BUSINESS_STAFF_UPGRADE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -21341,7 +21341,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 200000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = 1503149478;
+			uParam1->f_5 = joaat("BIKER_METH_BUSINESS_EQUIPMENT_UPGRADE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -21350,7 +21350,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = -2009823399;
+			uParam1->f_5 = joaat("BIKER_METH_BUSINESS_SECURITY_UPGRADE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -21359,7 +21359,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = 795028526;
+			uParam1->f_5 = joaat("BIKER_METH_BUSINESS_STAFF_UPGRADE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -21368,7 +21368,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 200000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = 1685493909;
+			uParam1->f_5 = joaat("BIKER_WEED_BUSINESS_EQUIPMENT_UPGRADE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -21377,7 +21377,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = -1557159022;
+			uParam1->f_5 = joaat("BIKER_WEED_BUSINESS_SECURITY_UPGRADE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -21386,7 +21386,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = -1233922190;
+			uParam1->f_5 = joaat("BIKER_WEED_BUSINESS_STAFF_UPGRADE");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -21395,7 +21395,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 1625000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1625000;
-			uParam1->f_5 = 419800513;
+			uParam1->f_5 = joaat("GANGOPS_THE_IAA_JOB_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -21404,7 +21404,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 2375000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2375000;
-			uParam1->f_5 = -829097151;
+			uParam1->f_5 = joaat("GANGOPS_THE_SUBMARINE_JOB_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 	
@@ -21413,7 +21413,7 @@ void func_2(int iParam0, var uParam1) // Hash - 0x3381FBA6 ^0xB9B89555
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3000000;
-			uParam1->f_5 = 287993374;
+			uParam1->f_5 = joaat("GANGOPS_THE_MISSILE_SILO_JOB_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 	}

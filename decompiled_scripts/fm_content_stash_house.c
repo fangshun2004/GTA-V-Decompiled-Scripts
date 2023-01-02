@@ -37146,34 +37146,34 @@ int func_1020(int iParam0) // Hash - 0xB8EC44B7 ^0x8F2CB4AF
 	switch (iParam0)
 	{
 		case 0:
-			return 944906360;
+			return joaat("XM3_PROP_XM3_CODE_05_02_91");
 	
 		case 1:
-			return 1626709912;
+			return joaat("XM3_PROP_XM3_CODE_28_03_98");
 	
 		case 2:
-			return -1248906748;
+			return joaat("XM3_PROP_XM3_CODE_24_10_81");
 	
 		case 3:
-			return 1433270535;
+			return joaat("XM3_PROP_XM3_CODE_02_12_87");
 	
 		case 4:
-			return -73329357;
+			return joaat("XM3_PROP_XM3_CODE_01_23_45");
 	
 		case 5:
-			return 921471402;
+			return joaat("XM3_PROP_XM3_CODE_28_11_97");
 	
 		case 6:
-			return 2104921722;
+			return joaat("XM3_PROP_XM3_CODE_77_79_73");
 	
 		case 7:
-			return 1083248297;
+			return joaat("XM3_PROP_XM3_CODE_73_27_38");
 	
 		case 8:
-			return -646417257;
+			return joaat("XM3_PROP_XM3_CODE_44_23_37");
 	
 		case 9:
-			return -158146725;
+			return joaat("XM3_PROP_XM3_CODE_72_68_83");
 	
 		default:
 		

@@ -418,7 +418,7 @@ void main() // Hash - 0x5D84F89F ^0x5D84F89F
 			if (iLocal_117 == 126)
 				obLocal_112 = OBJECT::GET_CLOSEST_OBJECT_OF_TYPE(uLocal_136, 2f, joaat("CH_PROP_ARCADE_JUKEBOX_01A"), true, false, false);
 			else if (iLocal_117 == 130)
-				obLocal_112 = OBJECT::GET_CLOSEST_OBJECT_OF_TYPE(uLocal_136, 2f, 827492794, true, false, false);
+				obLocal_112 = OBJECT::GET_CLOSEST_OBJECT_OF_TYPE(uLocal_136, 2f, joaat("XM3_PROP_XM3_JUKEBOX_01A"), true, false, false);
 			else
 				obLocal_112 = OBJECT::GET_CLOSEST_OBJECT_OF_TYPE(uLocal_136, 2f, joaat("BKR_PROP_CLUBHOUSE_JUKEBOX_01A"), true, false, false);
 		

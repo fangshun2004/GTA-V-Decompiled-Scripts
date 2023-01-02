@@ -45580,7 +45580,7 @@ int func_979(int iParam0) // Hash - 0x527B76FC ^0xE237CF79
 	func_980(&iParam0);
 
 	if (iParam0 == joaat("STT_PROP_STUNT_TRACK_SH45"))
-		return 1055253756;
+		return joaat("XM3_PROP_STUNT_TRACK_SH45");
 
 	return iParam0;
 }

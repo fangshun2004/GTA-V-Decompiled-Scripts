@@ -28209,19 +28209,19 @@ int func_791(int iParam0, BOOL bParam1) // Hash - 0xE29F5955 ^0x39813A2E
 				return Global_262145.f_9128;
 		
 			case 26:
-				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_GLOBAL"), 419800513, &value))
+				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_GLOBAL"), joaat("GANGOPS_THE_IAA_JOB_CASH_REWARD"), &value))
 					return value;
 			
 				return Global_262145.f_9133;
 		
 			case 27:
-				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_GLOBAL"), -829097151, &value))
+				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_GLOBAL"), joaat("GANGOPS_THE_SUBMARINE_JOB_CASH_REWARD"), &value))
 					return value;
 			
 				return Global_262145.f_9134;
 		
 			case 28:
-				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_GLOBAL"), 287993374, &value))
+				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_GLOBAL"), joaat("GANGOPS_THE_MISSILE_SILO_JOB_CASH_REWARD"), &value))
 					return value;
 			
 				return Global_262145.f_9135;

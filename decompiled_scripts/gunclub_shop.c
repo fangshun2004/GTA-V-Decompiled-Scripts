@@ -156592,17 +156592,17 @@ BOOL func_1260(var uParam0) // Hash - 0xA969CFD1 ^0x74B6573E
 
 	if (!ENTITY::DOES_ENTITY_EXIST(uParam0->f_1))
 	{
-		if (func_1262(1846816135))
+		if (func_1262(joaat("XM3_PROP_XM3_CRATE_AMMO_01A")))
 		{
-			uParam0->f_1 = OBJECT::CREATE_OBJECT(1846816135, OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(func_12(), func_1217(), 0f, -1.1f, 0.5f), false, false, false);
+			uParam0->f_1 = OBJECT::CREATE_OBJECT(joaat("XM3_PROP_XM3_CRATE_AMMO_01A"), OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(func_12(), func_1217(), 0f, -1.1f, 0.5f), false, false, false);
 			ENTITY::ATTACH_ENTITY_TO_ENTITY(uParam0->f_1, *uParam0, ENTITY::GET_ENTITY_BONE_INDEX_BY_NAME(*uParam0, "chassis_dummy"), 0f, -1.1f, -0.15f, 0f, 0f, 0f, false, false, false, false, 2, true, 0);
 			ENTITY::SET_ENTITY_INVINCIBLE(uParam0->f_1, true);
-			STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(1846816135);
+			STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(joaat("XM3_PROP_XM3_CRATE_AMMO_01A"));
 		}
 	}
 	else if (!ENTITY::DOES_ENTITY_EXIST(uParam0->f_2))
 	{
-		modelHash = 789033777;
+		modelHash = joaat("XM3_PROPS_XM3_LIGHTS_VEH_01A");
 	
 		if (func_1262(modelHash))
 		{

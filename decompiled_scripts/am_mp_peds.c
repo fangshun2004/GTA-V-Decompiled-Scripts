@@ -110266,31 +110266,31 @@ void func_1349(int iParam0, int iParam1, int iParam2, var uParam3) // Hash - 0x7
 			switch (iParam2)
 			{
 				case 0:
-					*uParam3 = -1746523451;
+					*uParam3 = joaat("XM3_PROP_XM3_SHEET_ACID_01A");
 					break;
 			
 				case 1:
-					*uParam3 = 1923966299;
+					*uParam3 = joaat("XM3_PROP_XM3_PIPETTE_01A");
 					break;
 			
 				case 2:
-					*uParam3 = 1923966299;
+					*uParam3 = joaat("XM3_PROP_XM3_PIPETTE_01A");
 					break;
 			
 				case 3:
-					*uParam3 = 1923966299;
+					*uParam3 = joaat("XM3_PROP_XM3_PIPETTE_01A");
 					break;
 			
 				case 4:
-					*uParam3 = 1923966299;
+					*uParam3 = joaat("XM3_PROP_XM3_PIPETTE_01A");
 					break;
 			
 				case 5:
-					*uParam3 = 1923966299;
+					*uParam3 = joaat("XM3_PROP_XM3_PIPETTE_01A");
 					break;
 			
 				case 6:
-					*uParam3 = 2137507795;
+					*uParam3 = joaat("XM3_PROP_XM3_RACK_VIAL_01A");
 					break;
 			}
 			break;
@@ -110299,19 +110299,19 @@ void func_1349(int iParam0, int iParam1, int iParam2, var uParam3) // Hash - 0x7
 			switch (iParam2)
 			{
 				case 0:
-					*uParam3 = 860085123;
+					*uParam3 = joaat("XM3_PROP_XM3_CLIPBOARD_SL");
 					break;
 			
 				case 1:
-					*uParam3 = 1321344860;
+					*uParam3 = joaat("XM3_PROP_XM3_LSD_BOTTLE_02B");
 					break;
 			
 				case 2:
-					*uParam3 = 1337892921;
+					*uParam3 = joaat("XM3_PROP_XM3_LSD_BOTTLE_03A");
 					break;
 			
 				case 3:
-					*uParam3 = 1337892921;
+					*uParam3 = joaat("XM3_PROP_XM3_LSD_BOTTLE_03A");
 					break;
 			}
 			break;
@@ -110320,7 +110320,7 @@ void func_1349(int iParam0, int iParam1, int iParam2, var uParam3) // Hash - 0x7
 			switch (iParam2)
 			{
 				case 0:
-					*uParam3 = -327664799;
+					*uParam3 = joaat("XM3_PROP_XM3_CLIPBOARD_CC");
 					break;
 			
 				case 1:

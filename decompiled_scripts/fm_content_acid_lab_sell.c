@@ -48065,7 +48065,7 @@ int func_1354() // Hash - 0x478900E4 ^0x478900E4
 
 Hash func_1355() // Hash - 0x9F572D68 ^0xB62FB72
 {
-	return -135142818;
+	return joaat("WEAPON_ACIDPACKAGE");
 }
 
 BOOL func_1356() // Hash - 0x8D9A8CC3 ^0x8D9A8CC3
@@ -48164,7 +48164,7 @@ BOOL func_1360(int iParam0) // Hash - 0x3B27A651 ^0x3B27A651
 			return func_728(17) && PAD::IS_DISABLED_CONTROL_PRESSED(PLAYER_CONTROL, INPUT_VEH_ATTACK) || PAD::IS_DISABLED_CONTROL_PRESSED(PLAYER_CONTROL, INPUT_THROW_GRENADE);
 	
 		case 6:
-			return func_734() == 2 && WEAPON::GET_CURRENT_PED_WEAPON(pedLocal_5120, &weaponHash, false) && weaponHash != -135142818;
+			return func_734() == 2 && WEAPON::GET_CURRENT_PED_WEAPON(pedLocal_5120, &weaponHash, false) && weaponHash != joaat("WEAPON_ACIDPACKAGE");
 	
 		case 7:
 			return func_728(19);
