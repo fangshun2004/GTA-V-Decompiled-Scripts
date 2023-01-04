@@ -6270,7 +6270,7 @@ void func_177(int iParam0, int iParam1) // Hash - 0x80CEB713 ^0x32DB7C0D
 
 void func_178(int iParam0, int iParam1, int iParam2, var uParam3, var uParam4, int iParam5) // Hash - 0xDB43F9C0 ^0x1BA877CF
 {
-	int eventData;
+	struct<7> eventData;
 
 	eventData = 1311159119;
 	eventData.f_1 = PLAYER::PLAYER_ID();
@@ -6281,7 +6281,7 @@ void func_178(int iParam0, int iParam1, int iParam2, var uParam3, var uParam4, i
 	eventData.f_6 = iParam5;
 
 	if (!iParam1 == 0)
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 7, iParam1);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 7, iParam1);
 
 	return;
 }
@@ -16041,7 +16041,7 @@ void func_400(BOOL bParam0) // Hash - 0x4D9AD01D ^0x24F3FFE3
 
 void func_401(int iParam0, int iParam1) // Hash - 0xBF29FBCF ^0x214E3A85
 {
-	int eventData;
+	struct<4> eventData;
 
 	eventData = 113023613;
 	eventData.f_1 = PLAYER::PLAYER_ID();
@@ -16050,7 +16050,7 @@ void func_401(int iParam0, int iParam1) // Hash - 0xBF29FBCF ^0x214E3A85
 
 	if (!iParam1 == 0)
 		if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
-			SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 4, iParam1);
+			SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 4, iParam1);
 
 	return;
 }

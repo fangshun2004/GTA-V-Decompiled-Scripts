@@ -85534,9 +85534,9 @@ int func_381(BOOL bParam0, int iParam1, BOOL bParam2) // Hash - 0xE9530BE4 ^0x86
 	return 0;
 }
 
-BOOL func_382() // Hash - 0x47F5FC82 ^0xEB0FE7DE
+BOOL func_382() // Hash - 0x47F5FC82 ^0xFF8D78FE
 {
-	iLocal_544 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("TEXTFIELD");
+	iLocal_544 = GRAPHICS::REQUEST_SCALEFORM_MOVIE_WITH_IGNORE_SUPER_WIDESCREEN("TEXTFIELD");
 
 	if (GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_544))
 		return true;
@@ -92859,14 +92859,14 @@ BOOL func_481(char* sParam0, int iParam1, BOOL bParam2) // Hash - 0xF7C7CB5C ^0x
 	return flag && flag2;
 }
 
-BOOL func_482(int* piParam0) // Hash - 0x55978EE6 ^0x74533A35
+BOOL func_482(int* piParam0) // Hash - 0x55978EE6 ^0xF39227AE
 {
 	switch (piParam0->f_9)
 	{
 		case 0:
 			if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*piParam0))
 			{
-				*piParam0 = unk_0x67D02A194A2FC2BD(&(piParam0->f_1));
+				*piParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(&(piParam0->f_1));
 				piParam0->f_9 = 1;
 			
 				if (piParam0->f_7)

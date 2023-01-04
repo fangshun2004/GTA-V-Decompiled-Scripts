@@ -388,9 +388,9 @@ void func_1() // Hash - 0xB119F0AB ^0xB9901E0A
 	return;
 }
 
-BOOL func_2() // Hash - 0xCF7BA240 ^0xC1511384
+BOOL func_2() // Hash - 0xCF7BA240 ^0x184A8455
 {
-	iLocal_219 = unk_0x67D02A194A2FC2BD("JHPB_02_Laptop");
+	iLocal_219 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("JHPB_02_Laptop");
 
 	if (GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_219))
 		return true;

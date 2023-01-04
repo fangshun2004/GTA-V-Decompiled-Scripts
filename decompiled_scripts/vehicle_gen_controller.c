@@ -3915,9 +3915,9 @@ BOOL func_43() // Hash - 0x4C81F065 ^0x79C65D03
 	return MISC::IS_ORBIS_VERSION() || MISC::IS_PROSPERO_VERSION();
 }
 
-BOOL func_44() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_44() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_45() // Hash - 0x44DD83CC ^0x7B62A376
@@ -21166,14 +21166,14 @@ BOOL func_254(char* sParam0, int iParam1, BOOL bParam2) // Hash - 0xF7C7CB5C ^0x
 	return flag && flag2;
 }
 
-BOOL func_255(int* piParam0) // Hash - 0x55978EE6 ^0x74533A35
+BOOL func_255(int* piParam0) // Hash - 0x55978EE6 ^0xF39227AE
 {
 	switch (piParam0->f_9)
 	{
 		case 0:
 			if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*piParam0))
 			{
-				*piParam0 = unk_0x67D02A194A2FC2BD(&(piParam0->f_1));
+				*piParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(&(piParam0->f_1));
 				piParam0->f_9 = 1;
 			
 				if (piParam0->f_7)
@@ -27730,7 +27730,7 @@ void func_356() // Hash - 0x884154FE ^0xDFABFDB7
 						bLocal_854 = true;
 					}
 				
-					iLocal_516 = unk_0x67D02A194A2FC2BD("MIDSIZED_MESSAGE");
+					iLocal_516 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MIDSIZED_MESSAGE");
 					iLocal_516.f_1 = 0;
 					iLocal_516.f_3 = 0;
 					iLocal_516.f_2 = 0;

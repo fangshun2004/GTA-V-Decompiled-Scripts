@@ -8406,9 +8406,9 @@ BOOL func_136(Any* panParam0, Any* panParam1) // Hash - 0x3FAA596E ^0xD327A77C
 	return false;
 }
 
-BOOL func_137() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_137() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 void func_138(var uParam0) // Hash - 0x399CE747 ^0xF634E49D
@@ -10606,9 +10606,9 @@ void func_170(int iParam0, int iParam1) // Hash - 0x3A9FFA56 ^0x480E5B6C
 	return;
 }
 
-var func_171() // Hash - 0xB58A1E6 ^0x75C253F0
+int func_171() // Hash - 0xB58A1E6 ^0x69BB89BF
 {
-	return unk_0x67D02A194A2FC2BD("SC_LEADERBOARD");
+	return GRAPHICS::REQUEST_SCALEFORM_MOVIE("SC_LEADERBOARD");
 }
 
 BOOL func_172() // Hash - 0x5976C0FC ^0xC3C6644E
@@ -10728,7 +10728,7 @@ BOOL func_181(var uParam0, BOOL bParam1, int iParam2) // Hash - 0x46B47509 ^0x62
 		GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("CommonMenu", false);
 		GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("MPLeaderboard", false);
 		GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("MPHud", false);
-		uParam0->f_1 = unk_0x67D02A194A2FC2BD("MP_BIG_MESSAGE_FREEMODE");
+		uParam0->f_1 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MP_BIG_MESSAGE_FREEMODE");
 		uParam0->f_2 = 0;
 		uParam0->f_3 = 0;
 	}
@@ -15588,9 +15588,9 @@ BOOL func_263(var uParam0, int iParam1) // Hash - 0xF5F85B76 ^0xF5F85B76
 	return IS_BIT_SET(uParam0->f_607, iParam1);
 }
 
-int func_264() // Hash - 0xB58A1E6 ^0x97B08DBE
+int func_264() // Hash - 0xB58A1E6 ^0x55E0283A
 {
-	return unk_0x67D02A194A2FC2BD("MP_BIG_MESSAGE_FREEMODE");
+	return GRAPHICS::REQUEST_SCALEFORM_MOVIE("MP_BIG_MESSAGE_FREEMODE");
 }
 
 void func_265(var uParam0, var uParam1, var uParam2, Vehicle veParam3, Ped pedParam4, var uParam5, var uParam6, var uParam7) // Hash - 0x3321F4AA ^0xB06214F4

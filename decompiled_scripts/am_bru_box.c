@@ -8123,13 +8123,13 @@ BOOL func_202() // Hash - 0x729374F8 ^0xACF394AA
 	return false;
 }
 
-void func_203(int iParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, var uParam12, var uParam13, int iParam14) // Hash - 0xAC034491 ^0x572F5B95
+void func_203(struct<14> Param0, int iParam14) // Hash - 0xAC034491 ^0x252A0A6E
 {
-	iParam0 = 548471420;
-	iParam0.f_1 = PLAYER::PLAYER_ID();
+	Param0 = 548471420;
+	Param0.f_1 = PLAYER::PLAYER_ID();
 
 	if (!iParam14 == 0)
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &iParam0, 14, iParam14);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &Param0, 14, iParam14);
 
 	return;
 }

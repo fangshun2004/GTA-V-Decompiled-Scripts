@@ -39493,9 +39493,9 @@ void func_335(int iParam0, BOOL bParam1, int iParam2, int iParam3) // Hash - 0xA
 						func_341(31, -1, -1, MISC::GET_HASH_KEY(&(Global_100733.f_1398)), 1065353216);
 				
 					if (Global_100733.f_1406)
-						unk_0x99B62727193F75C3(1);
+						MONEY::NETWORK_SPEND_SET_DISCOUNT(true);
 					else
-						unk_0x99B62727193F75C3(0);
+						MONEY::NETWORK_SPEND_SET_DISCOUNT(false);
 				
 					if (iParam2 == 1 && Global_100733.f_1403 == -61829581)
 						MONEY::NETWORK_BUY_ITEM(Global_100733.f_1402, MISC::GET_HASH_KEY(&(Global_100733.f_1398)), 17, Global_100733.f_1404, flag2, &(Global_100733.f_1398), MISC::GET_HASH_KEY(func_338(iParam0, iParam3, true)), Global_100733.f_1403, Global_100733.f_1405, flag3);
@@ -41088,7 +41088,7 @@ int func_358(int iParam0, int iParam1, Hash hParam2, Hash hParam3, Hash hParam4,
 
 void func_359(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, var uParam12, var uParam13, var uParam14, var uParam15, var uParam16, var uParam17, var uParam18, var uParam19, var uParam20, var uParam21, var uParam22, var uParam23, var uParam24, var uParam25, var uParam26, var uParam27, var uParam28, var uParam29, var uParam30, var uParam31, var uParam32, var uParam33, var uParam34, var uParam35, var uParam36, var uParam37, var uParam38, var uParam39, var uParam40, var uParam41, var uParam42, var uParam43, var uParam44, var uParam45, var uParam46, var uParam47, var uParam48, var uParam49, var uParam50, var uParam51, var uParam52, var uParam53, var uParam54, var uParam55, var uParam56, var uParam57, var uParam58, var uParam59, var uParam60, var uParam61, var uParam62, var uParam63, var uParam64, var uParam65, var uParam66, var uParam67, var uParam68, var uParam69, var uParam70, var uParam71, var uParam72, var uParam73, var uParam74, var uParam75, var uParam76, var uParam77, var uParam78, var uParam79, var uParam80, var uParam81, var uParam82, var uParam83, var uParam84, int iParam85) // Hash - 0x8E828F1B ^0xE931A03B
 {
-	int eventData;
+	struct<36> eventData;
 	int playerBits;
 
 	if (iParam85 < 0)
@@ -41107,7 +41107,7 @@ void func_359(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, v
 	if (!playerBits == 0)
 	{
 		func_360();
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 36, playerBits);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 36, playerBits);
 	}
 
 	return;
@@ -75139,9 +75139,9 @@ int func_580(Hash hParam0) // Hash - 0x15CCFEAB ^0x15CCFEAB
 	return 0;
 }
 
-BOOL func_581() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_581() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 void func_582(int iParam0) // Hash - 0x3A00C3A3 ^0x9791DC27
@@ -133234,7 +133234,7 @@ void func_916(int iParam0, int iParam1, int iParam2, int iParam3, Hash hParam4, 
 	if (flag)
 	{
 		func_918(&(Global_1890403.f_3));
-		unk_0x5EF22E729F0ECCB7(&(Global_1890403.f_3));
+		STATS::PLAYSTATS_INVENTORY(&(Global_1890403.f_3));
 		func_917();
 	}
 
@@ -145260,14 +145260,14 @@ BOOL func_1075(char* sParam0, int iParam1, BOOL bParam2) // Hash - 0xF7C7CB5C ^0
 	return flag && flag2;
 }
 
-BOOL func_1076(int* piParam0) // Hash - 0x55978EE6 ^0x74533A35
+BOOL func_1076(int* piParam0) // Hash - 0x55978EE6 ^0xF39227AE
 {
 	switch (piParam0->f_9)
 	{
 		case 0:
 			if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*piParam0))
 			{
-				*piParam0 = unk_0x67D02A194A2FC2BD(&(piParam0->f_1));
+				*piParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(&(piParam0->f_1));
 				piParam0->f_9 = 1;
 			
 				if (piParam0->f_7)
@@ -157260,7 +157260,7 @@ BOOL func_1282(int iParam0, int iParam1) // Hash - 0xDEE74A4E ^0xDEE74A4E
 	return flag;
 }
 
-void func_1283() // Hash - 0x9D613CD9 ^0x6F311318
+void func_1283() // Hash - 0x9D613CD9 ^0x619DF00F
 {
 	var unk;
 	var unk5;
@@ -157269,7 +157269,7 @@ void func_1283() // Hash - 0x9D613CD9 ^0x6F311318
 	{
 		if (!IS_BIT_SET(iLocal_108, 10))
 		{
-			iLocal_117 = unk_0x67D02A194A2FC2BD("MP_BIG_MESSAGE_FREEMODE");
+			iLocal_117 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MP_BIG_MESSAGE_FREEMODE");
 			MISC::SET_BIT(&iLocal_108, 11);
 		
 			if (GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_117))

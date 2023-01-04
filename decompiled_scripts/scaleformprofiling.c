@@ -41,7 +41,7 @@ void main() // Hash - 0x5D84F89F ^0x5D84F89F
 	if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(3))
 		func_2();
 
-	iLocal_18 = unk_0x67D02A194A2FC2BD("scaleform_profiling");
+	iLocal_18 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("scaleform_profiling");
 
 	while (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_18))
 	{

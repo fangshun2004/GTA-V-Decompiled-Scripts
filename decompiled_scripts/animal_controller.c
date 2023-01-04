@@ -2032,7 +2032,7 @@ void func_3() // Hash - 0xF38AB6B8 ^0xF38AB6B8
 	return;
 }
 
-void func_4(var uParam0, var uParam1, var uParam2, int iParam3, var uParam4, int* piParam5, char* sParam6, char* sParam7) // Hash - 0x14655A5 ^0xF192192E
+void func_4(var uParam0, var uParam1, var uParam2, int iParam3, var uParam4, int* piParam5, char* sParam6, char* sParam7) // Hash - 0x14655A5 ^0x4A53CF87
 {
 	int soundId;
 
@@ -2043,7 +2043,7 @@ void func_4(var uParam0, var uParam1, var uParam2, int iParam3, var uParam4, int
 		switch (*uParam4)
 		{
 			case 0:
-				*piParam5 = unk_0x67D02A194A2FC2BD("MIDSIZED_MESSAGE");
+				*piParam5 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MIDSIZED_MESSAGE");
 			
 				if (GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*piParam5))
 				{
@@ -94592,9 +94592,9 @@ BOOL func_503(Hash hParam0, int iParam1) // Hash - 0x2FF24ACC ^0x92A5C100
 	return num;
 }
 
-BOOL func_504() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_504() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_505() // Hash - 0x98B7EFDD ^0x98B7EFDD

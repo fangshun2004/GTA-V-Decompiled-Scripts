@@ -251,8 +251,8 @@ void func_12(char* sParam0) // Hash - 0x8E2F5FE2 ^0x29D9D432
 	return;
 }
 
-int func_13() // Hash - 0x1B551749 ^0x751C103
+int func_13() // Hash - 0x1B551749 ^0xDC427049
 {
-	return unk_0x67D02A194A2FC2BD("SPLASH_TEXT");
+	return GRAPHICS::REQUEST_SCALEFORM_MOVIE("SPLASH_TEXT");
 }
 

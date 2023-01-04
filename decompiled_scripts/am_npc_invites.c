@@ -1959,9 +1959,9 @@ struct<13> func_22(Player plParam0) // Hash - 0x3F3CEB62 ^0x60A9D262
 	return gamerHandle;
 }
 
-BOOL func_23() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_23() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 void func_24() // Hash - 0xE84D0ECD ^0x39F3B574
@@ -2111,7 +2111,7 @@ int func_31(Player plParam0, const char* sParam1) // Hash - 0xCE3E573B ^0xBA454F
 
 void func_32(Player plParam0, BOOL bParam1, BOOL bParam2, BOOL bParam3) // Hash - 0x88131A4 ^0x3270314F
 {
-	int eventData;
+	struct<23> eventData;
 	var gamerHandle;
 	int address;
 	int address2;
@@ -2154,7 +2154,7 @@ void func_32(Player plParam0, BOOL bParam1, BOOL bParam2, BOOL bParam3) // Hash 
 
 	eventData.f_2.f_14 = func_34(PLAYER::PLAYER_ID());
 	TEXT_LABEL_ASSIGN_STRING(&(eventData.f_2.f_15), "", 16);
-	SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 23, func_33(plParam0));
+	SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 23, func_33(plParam0));
 	return;
 }
 
@@ -9327,7 +9327,7 @@ int func_293(int iParam0, int iParam1, Hash hParam2, Hash hParam3, Hash hParam4,
 
 void func_294(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, var uParam12, var uParam13, var uParam14, var uParam15, var uParam16, var uParam17, var uParam18, var uParam19, var uParam20, var uParam21, var uParam22, var uParam23, var uParam24, var uParam25, var uParam26, var uParam27, var uParam28, var uParam29, var uParam30, var uParam31, var uParam32, var uParam33, var uParam34, var uParam35, var uParam36, var uParam37, var uParam38, var uParam39, var uParam40, var uParam41, var uParam42, var uParam43, var uParam44, var uParam45, var uParam46, var uParam47, var uParam48, var uParam49, var uParam50, var uParam51, var uParam52, var uParam53, var uParam54, var uParam55, var uParam56, var uParam57, var uParam58, var uParam59, var uParam60, var uParam61, var uParam62, var uParam63, var uParam64, var uParam65, var uParam66, var uParam67, var uParam68, var uParam69, var uParam70, var uParam71, var uParam72, var uParam73, var uParam74, var uParam75, var uParam76, var uParam77, var uParam78, var uParam79, var uParam80, var uParam81, var uParam82, var uParam83, var uParam84, int iParam85) // Hash - 0x8E828F1B ^0xE931A03B
 {
-	int eventData;
+	struct<36> eventData;
 	int playerBits;
 
 	if (iParam85 < 0)
@@ -9346,7 +9346,7 @@ void func_294(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, v
 	if (!playerBits == 0)
 	{
 		func_295();
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 36, playerBits);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 36, playerBits);
 	}
 
 	return;

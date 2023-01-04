@@ -408,7 +408,7 @@ void main() // Hash - 0x5D84F89F ^0x5D84F89F
 		{
 			if (!Global_1935680)
 			{
-				Global_1935677 = unk_0x67D02A194A2FC2BD("OPENING_CREDITS");
+				Global_1935677 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("OPENING_CREDITS");
 				Global_1935680 = true;
 			}
 			else if (GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(Global_1935677))
@@ -4656,14 +4656,14 @@ void func_96(int* piParam0) // Hash - 0xA716E3E3 ^0x74E5886D
 	return;
 }
 
-BOOL func_97() // Hash - 0x2CE4EFF8 ^0xD3AFD6EB
+BOOL func_97() // Hash - 0x2CE4EFF8 ^0xD78AA872
 {
 	if (DLC::GET_IS_LOADING_SCREEN_ACTIVE())
 		return false;
 
 	if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(Global_1577867))
 	{
-		Global_1577867 = unk_0x67D02A194A2FC2BD("GTAV_ONLINE");
+		Global_1577867 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("GTAV_ONLINE");
 		return false;
 	}
 

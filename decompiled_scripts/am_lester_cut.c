@@ -1056,7 +1056,7 @@ void func_19() // Hash - 0x22C64006 ^0xE8EFB207
 										if (bLocal_433)
 										{
 											func_194();
-											iLocal_442 = unk_0x67D02A194A2FC2BD("SECURITY_CAM");
+											iLocal_442 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("SECURITY_CAM");
 										}
 									
 										uLocal_165[NETWORK::PARTICIPANT_ID_TO_INT() /*3*/].f_1 = 1;

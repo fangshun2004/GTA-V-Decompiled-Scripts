@@ -1131,7 +1131,7 @@
 	var uLocal_1129 = 45;
 	var uLocal_1130 = 1103626240;
 	var uLocal_1131 = 5;
-	var uLocal_1132 = 0;
+	int iLocal_1132 = 0;
 	var uLocal_1133 = 0;
 	var uLocal_1134 = 0;
 	var uLocal_1135 = 0;
@@ -1696,7 +1696,7 @@ void func_9() // Hash - 0x13D95DB ^0xE139FB0E
 			case 29:
 				HUD::CLEAR_THIS_PRINT("TAXI_OBJ_DRIVE");
 			
-				if (func_83(&caLocal_423, &uLocal_1132))
+				if (func_83(&caLocal_423, &iLocal_1132))
 				{
 					func_57(&caLocal_423);
 					func_313(&caLocal_423, 28);
@@ -9074,9 +9074,9 @@ BOOL func_285() // Hash - 0x4C81F065 ^0x79C65D03
 	return MISC::IS_ORBIS_VERSION() || MISC::IS_PROSPERO_VERSION();
 }
 
-BOOL func_286() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_286() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 void func_287(var uParam0) // Hash - 0x5DB2CFB1 ^0x191F68E4
@@ -9683,14 +9683,14 @@ void func_318() // Hash - 0x8045CC2F ^0x6023155B
 {
 	STREAMING::REQUEST_MODEL(hLocal_886);
 	func_320(false);
-	uLocal_1132 = func_319();
+	iLocal_1132 = func_319();
 	STREAMING::REQUEST_ANIM_DICT("gestures@m@standing@casual");
 	return;
 }
 
-var func_319() // Hash - 0xB58A1E6 ^0x7845E3B8
+int func_319() // Hash - 0xB58A1E6 ^0x32C62AF3
 {
-	return unk_0x67D02A194A2FC2BD("MIDSIZED_MESSAGE");
+	return GRAPHICS::REQUEST_SCALEFORM_MOVIE("MIDSIZED_MESSAGE");
 }
 
 void func_320(BOOL bParam0) // Hash - 0xF03D9ABB ^0x52D0B917

@@ -5343,9 +5343,9 @@ BOOL func_105(Any* panParam0, Any* panParam1) // Hash - 0x3FAA596E ^0xD327A77C
 	return false;
 }
 
-BOOL func_106() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_106() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_107() // Hash - 0x4C81F065 ^0x79C65D03
@@ -7561,9 +7561,9 @@ struct<13> func_142(Player plParam0) // Hash - 0x3F3CEB62 ^0x60A9D262
 	return gamerHandle;
 }
 
-var func_143() // Hash - 0xB58A1E6 ^0x1896CAC5
+int func_143() // Hash - 0xB58A1E6 ^0x15E7EC37
 {
-	return unk_0x67D02A194A2FC2BD("SC_LEADERBOARD");
+	return GRAPHICS::REQUEST_SCALEFORM_MOVIE("SC_LEADERBOARD");
 }
 
 BOOL func_144() // Hash - 0x5976C0FC ^0xC3C6644E
@@ -51998,14 +51998,14 @@ BOOL func_762(char* sParam0, int iParam1, BOOL bParam2) // Hash - 0xF7C7CB5C ^0x
 	return flag && flag2;
 }
 
-BOOL func_763(int* piParam0) // Hash - 0x55978EE6 ^0x74533A35
+BOOL func_763(int* piParam0) // Hash - 0x55978EE6 ^0xF39227AE
 {
 	switch (piParam0->f_9)
 	{
 		case 0:
 			if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*piParam0))
 			{
-				*piParam0 = unk_0x67D02A194A2FC2BD(&(piParam0->f_1));
+				*piParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(&(piParam0->f_1));
 				piParam0->f_9 = 1;
 			
 				if (piParam0->f_7)
@@ -59078,9 +59078,9 @@ void func_924(var uParam0, int iParam1) // Hash - 0xC8088801 ^0xE58BCD57
 	return;
 }
 
-void func_925(var uParam0) // Hash - 0xB107A147 ^0x9D95D3A2
+void func_925(var uParam0) // Hash - 0xB107A147 ^0x8DAAF150
 {
-	uParam0->f_125 = unk_0x67D02A194A2FC2BD("tennis");
+	uParam0->f_125 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("tennis");
 	uParam0->f_127 = func_927();
 	uParam0->f_126 = func_143();
 	uParam0->f_748 = func_926();
@@ -59088,14 +59088,14 @@ void func_925(var uParam0) // Hash - 0xB107A147 ^0x9D95D3A2
 	return;
 }
 
-var func_926() // Hash - 0x7ED63A9D ^0xFFFA66AB
+int func_926() // Hash - 0x7ED63A9D ^0x21FE02C0
 {
-	return unk_0x67D02A194A2FC2BD("MIDSIZED_MESSAGE");
+	return GRAPHICS::REQUEST_SCALEFORM_MOVIE("MIDSIZED_MESSAGE");
 }
 
-var func_927() // Hash - 0x1234744A ^0x660872A
+int func_927() // Hash - 0x1234744A ^0x1F795FE3
 {
-	return unk_0x67D02A194A2FC2BD("MP_BIG_MESSAGE_FREEMODE");
+	return GRAPHICS::REQUEST_SCALEFORM_MOVIE("MP_BIG_MESSAGE_FREEMODE");
 }
 
 void func_928(var uParam0, var uParam1, var uParam2, int iParam3) // Hash - 0xB3300C3F ^0x9483AD36

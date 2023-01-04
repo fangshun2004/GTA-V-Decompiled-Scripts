@@ -33917,9 +33917,9 @@ BOOL func_230() // Hash - 0x4C81F065 ^0x79C65D03
 	return MISC::IS_ORBIS_VERSION() || MISC::IS_PROSPERO_VERSION();
 }
 
-BOOL func_231() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_231() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 void func_232(int iParam0, int iParam1) // Hash - 0x53BDC649 ^0x53BDC649
@@ -39239,12 +39239,12 @@ void func_345(int iParam0, int iParam1) // Hash - 0xD7EC669C ^0xC01D15BF
 	return;
 }
 
-void func_346() // Hash - 0xC3373916 ^0xB341181E
+void func_346() // Hash - 0xC3373916 ^0x6FA855B6
 {
 	switch (iLocal_1204)
 	{
 		case 1:
-			iLocal_1205 = unk_0x67D02A194A2FC2BD("MIDSIZED_MESSAGE");
+			iLocal_1205 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MIDSIZED_MESSAGE");
 		
 			if (GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_1205))
 				iLocal_1204 = 2;
@@ -46086,9 +46086,9 @@ int func_490(Hash hParam0, BOOL bParam1) // Hash - 0x486E1959 ^0x3A81F66C
 	return -1;
 }
 
-void func_491(var uParam0) // Hash - 0xD7CDA7C4 ^0x2DDC96B2
+void func_491(var uParam0) // Hash - 0xD7CDA7C4 ^0x18D2405D
 {
-	*uParam0 = unk_0x67D02A194A2FC2BD("COUNTDOWN");
+	*uParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("COUNTDOWN");
 	AUDIO::REQUEST_SCRIPT_AUDIO_BANK("HUD_321_GO", false, -1);
 	return;
 }

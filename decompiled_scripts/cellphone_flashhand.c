@@ -207,9 +207,9 @@ void main() // Hash - 0x5D84F89F ^0x5D84F89F
 		if (Global_78558)
 		{
 			if (func_121())
-				Global_20364 = unk_0x67D02A194A2FC2BD("cellphone_badger");
+				Global_20364 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("cellphone_badger");
 			else
-				Global_20364 = unk_0x67D02A194A2FC2BD("cellphone_ifruit");
+				Global_20364 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("cellphone_ifruit");
 		
 			iLocal_88 = 1;
 			iLocal_88 == 1;
@@ -217,11 +217,11 @@ void main() // Hash - 0x5D84F89F ^0x5D84F89F
 		else if (Global_20326)
 		{
 			Global_20371 = true;
-			Global_20364 = unk_0x67D02A194A2FC2BD("cellphone_prologue");
+			Global_20364 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("cellphone_prologue");
 		}
 		else
 		{
-			Global_20364 = unk_0x67D02A194A2FC2BD(&Global_113648.f_14053[Global_20383 /*20*/]);
+			Global_20364 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(&Global_113648.f_14053[Global_20383 /*20*/]);
 		}
 	
 		SYSTEM::SETTIMERA(0);
@@ -5932,9 +5932,9 @@ void func_112(int iParam0, char* sParam1, float fParam2, int iParam3, int iParam
 	return;
 }
 
-BOOL func_113() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_113() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 void func_114() // Hash - 0x7654F905 ^0x603F3E5C

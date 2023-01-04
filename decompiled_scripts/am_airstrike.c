@@ -2669,9 +2669,9 @@ void func_104() // Hash - 0xCE5FB49E ^0x214A59D5
 	return;
 }
 
-void func_105(int iParam0, int iParam1, int iParam2) // Hash - 0xD5AA52CE ^0x9748E18E
+void func_105(int iParam0, int iParam1, int iParam2) // Hash - 0xD5AA52CE ^0xA7BD88A2
 {
-	int eventData;
+	struct<6> eventData;
 
 	eventData = 1168623138;
 	eventData.f_1 = PLAYER::PLAYER_ID();
@@ -2679,7 +2679,7 @@ void func_105(int iParam0, int iParam1, int iParam2) // Hash - 0xD5AA52CE ^0x974
 	eventData.f_2 = iParam2;
 
 	if (!iParam0 == 0)
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 6, iParam0);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 6, iParam0);
 
 	return;
 }

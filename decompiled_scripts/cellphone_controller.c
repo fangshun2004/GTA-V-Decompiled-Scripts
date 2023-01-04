@@ -2169,9 +2169,9 @@ struct<13> func_40(Player plParam0) // Hash - 0x3F3CEB62 ^0x60A9D262
 	return gamerHandle;
 }
 
-BOOL func_41() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_41() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_42() // Hash - 0x4C81F065 ^0x79C65D03
@@ -3755,7 +3755,7 @@ void func_80() // Hash - 0xC0F0F0E9 ^0x2551DC54
 	}
 	else if (Global_8957 > 0)
 	{
-		iLocal_37 = unk_0x67D02A194A2FC2BD("cellphone_alert_popup");
+		iLocal_37 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("cellphone_alert_popup");
 	
 		while (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_37))
 		{

@@ -12110,7 +12110,7 @@ int func_134(var uParam0, char* sParam1, var uParam2, BOOL bParam3) // Hash - 0x
 		if (bParam3)
 			*uParam2 = GRAPHICS::REQUEST_SCALEFORM_MOVIE_SKIP_RENDER_WHILE_PAUSED(sParam1);
 		else
-			*uParam2 = unk_0x67D02A194A2FC2BD(sParam1);
+			*uParam2 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(sParam1);
 	
 		uParam0->f_656[num /*6*/] = 1;
 		uParam0->f_656[num /*6*/].f_3 = MISC::GET_GAME_TIMER();
@@ -56851,9 +56851,9 @@ BOOL func_553() // Hash - 0x4C81F065 ^0x79C65D03
 	return MISC::IS_ORBIS_VERSION() || MISC::IS_PROSPERO_VERSION();
 }
 
-BOOL func_554() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_554() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_555() // Hash - 0x98B7EFDD ^0x98B7EFDD

@@ -2674,7 +2674,7 @@ void func_72() // Hash - 0xF5DCDE7F ^0xD645E3D5
 	}
 
 	if (flag)
-		unk_0x7ED64B5D80D48D78(profileSetting, profileSetting2);
+		STATS::SET_FREEMODE_STRAND_PROGRESSION_STATUS(profileSetting, profileSetting2);
 
 	func_31(11820, 0, -1, true, false);
 	return;
@@ -3414,7 +3414,7 @@ void func_91() // Hash - 0x32779E0A ^0xD0DEA5C5
 	}
 
 	if (flag)
-		unk_0x7ED64B5D80D48D78(profileSetting, profileSetting2);
+		STATS::SET_FREEMODE_STRAND_PROGRESSION_STATUS(profileSetting, profileSetting2);
 
 	func_31(11819, 0, -1, true, false);
 	return;
@@ -18676,7 +18676,7 @@ BOOL func_481() // Hash - 0x4228A1C2 ^0x5D82C45B
 	return Global_2692733.f_3;
 }
 
-void func_482() // Hash - 0x3A555A3A ^0x972F3CDB
+void func_482() // Hash - 0x3A555A3A ^0x27AD92D4
 {
 	switch (Global_2684799.f_2846.f_85)
 	{
@@ -18686,7 +18686,7 @@ void func_482() // Hash - 0x3A555A3A ^0x972F3CDB
 		case 1:
 			if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(Global_2684799.f_2846.f_86))
 			{
-				Global_2684799.f_2846.f_86 = unk_0x67D02A194A2FC2BD("GTAV_ONLINE");
+				Global_2684799.f_2846.f_86 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("GTAV_ONLINE");
 				func_13(&(Global_2684799.f_2846.f_149));
 				Global_2684799.f_2846.f_85 = Global_2684799.f_2846.f_85 + 1;
 			}
@@ -18905,9 +18905,9 @@ int func_490() // Hash - 0xEE3A5EA7 ^0x2E0A24B
 	return 0;
 }
 
-BOOL func_491() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_491() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_492() // Hash - 0x4C81F065 ^0x79C65D03
@@ -106886,7 +106886,7 @@ int func_996() // Hash - 0x7D216D41 ^0x841C3E20
 
 	func_900();
 
-	if (unk_0xAD5557B96C01009F() == 0)
+	if (NETWORK::NETWORK_IS_SHOWING_SYSTEM_UI_OR_RECENTLY_REQUESTED_UPSELL() == false)
 		HUD::SET_WARNING_MESSAGE_WITH_HEADER(entryHeader, entryLine1, 16384, 0, false, -1, 0, 0, true, 0);
 	else
 		GRAPHICS::DRAW_RECT(0f, 0f, 1f, 1f, 0, 0, 0, 255, false);

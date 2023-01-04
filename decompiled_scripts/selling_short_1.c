@@ -7108,14 +7108,14 @@ int func_29(char* sParam0, int iParam1, int iParam2, BOOL bParam3) // Hash - 0x4
 	return 1;
 }
 
-int func_30(char* sParam0, var uParam1, int iParam2) // Hash - 0x27F36BE8 ^0xC6C12827
+int func_30(char* sParam0, var uParam1, int iParam2) // Hash - 0x27F36BE8 ^0x16A700EF
 {
 	int num;
 
 	num = MISC::GET_GAME_TIMER() + 7500;
 
 	if (*uParam1 == 0)
-		*uParam1 = unk_0x67D02A194A2FC2BD(sParam0);
+		*uParam1 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(sParam0);
 
 	if (GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*uParam1))
 		return 1;

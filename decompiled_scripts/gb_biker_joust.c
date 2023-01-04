@@ -45262,7 +45262,7 @@ int func_250(int iParam0, int iParam1, Hash hParam2, Hash hParam3, Hash hParam4,
 
 void func_251(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, var uParam12, var uParam13, var uParam14, var uParam15, var uParam16, var uParam17, var uParam18, var uParam19, var uParam20, var uParam21, var uParam22, var uParam23, var uParam24, var uParam25, var uParam26, var uParam27, var uParam28, var uParam29, var uParam30, var uParam31, var uParam32, var uParam33, var uParam34, var uParam35, var uParam36, var uParam37, var uParam38, var uParam39, var uParam40, var uParam41, var uParam42, var uParam43, var uParam44, var uParam45, var uParam46, var uParam47, var uParam48, var uParam49, var uParam50, var uParam51, var uParam52, var uParam53, var uParam54, var uParam55, var uParam56, var uParam57, var uParam58, var uParam59, var uParam60, var uParam61, var uParam62, var uParam63, var uParam64, var uParam65, var uParam66, var uParam67, var uParam68, var uParam69, var uParam70, var uParam71, var uParam72, var uParam73, var uParam74, var uParam75, var uParam76, var uParam77, var uParam78, var uParam79, var uParam80, var uParam81, var uParam82, var uParam83, var uParam84, int iParam85) // Hash - 0x8E828F1B ^0xE931A03B
 {
-	int eventData;
+	struct<36> eventData;
 	int playerBits;
 
 	if (iParam85 < 0)
@@ -45281,7 +45281,7 @@ void func_251(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, v
 	if (!playerBits == 0)
 	{
 		func_252();
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 36, playerBits);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 36, playerBits);
 	}
 
 	return;
@@ -47210,7 +47210,7 @@ void func_317(var uParam0, int iParam1) // Hash - 0x5E4F0835 ^0xC9A0D86C
 
 void func_318(Player plParam0, int iParam1, int iParam2) // Hash - 0x4AEA6EB3 ^0xF2F90177
 {
-	int eventData;
+	struct<8> eventData;
 
 	if (func_1116(plParam0, false, true))
 	{
@@ -47220,7 +47220,7 @@ void func_318(Player plParam0, int iParam1, int iParam2) // Hash - 0x4AEA6EB3 ^0
 		eventData.f_4 = iParam2;
 		eventData.f_5 = func_320(plParam0);
 		func_319(&(eventData.f_6), &(eventData.f_7));
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 8, func_253(plParam0));
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 8, func_253(plParam0));
 	}
 
 	return;
@@ -53045,9 +53045,9 @@ BOOL func_502(Any* panParam0) // Hash - 0xAD39DF9A ^0xB3D3321
 	return false;
 }
 
-BOOL func_503() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_503() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_504(Player plParam0, int iParam1, BOOL bParam2) // Hash - 0xE03A40F7 ^0xE03A40F7
@@ -54429,14 +54429,14 @@ void func_551() // Hash - 0x3AE8C8B4 ^0x3AE8C8B4
 	return;
 }
 
-BOOL func_552(BOOL bParam0, int* piParam1, BOOL bParam2) // Hash - 0xFCAD8FC3 ^0x8A487E85
+BOOL func_552(BOOL bParam0, int* piParam1, BOOL bParam2) // Hash - 0xFCAD8FC3 ^0xB7DCA96
 {
 	if (bParam0)
-		*piParam1 = unk_0x67D02A194A2FC2BD("mp_mm_card_freemode");
+		*piParam1 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("mp_mm_card_freemode");
 	else if (bParam2)
-		*piParam1 = unk_0x67D02A194A2FC2BD("MP_SPECTATOR_CARD");
+		*piParam1 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MP_SPECTATOR_CARD");
 	else
-		*piParam1 = unk_0x67D02A194A2FC2BD("mp_matchmaking_card");
+		*piParam1 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("mp_matchmaking_card");
 
 	return GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*piParam1);
 }
@@ -56313,9 +56313,9 @@ Vector3 func_629(int iParam0) // Hash - 0xF1B11E67 ^0x94DD8DD3
 	return 0f, 0f, 0f;
 }
 
-void func_630(var uParam0) // Hash - 0x24F3D99D ^0x2BE6C7E
+void func_630(var uParam0) // Hash - 0x24F3D99D ^0x52E26EF4
 {
-	*uParam0 = unk_0x67D02A194A2FC2BD("COUNTDOWN");
+	*uParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("COUNTDOWN");
 	return;
 }
 

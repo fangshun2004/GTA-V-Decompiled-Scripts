@@ -5981,9 +5981,9 @@ BOOL func_110() // Hash - 0x4C81F065 ^0x79C65D03
 	return MISC::IS_ORBIS_VERSION() || MISC::IS_PROSPERO_VERSION();
 }
 
-BOOL func_111() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_111() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 void func_112(char* sParam0, Any anParam1, int iParam2) // Hash - 0x817AB180 ^0x19665EBD
@@ -10134,9 +10134,9 @@ void func_246() // Hash - 0xA97B5ACA ^0x191C51D
 	return;
 }
 
-void func_247() // Hash - 0x2585EA98 ^0xD4206718
+void func_247() // Hash - 0x2585EA98 ^0x7197CAF5
 {
-	iLocal_96 = unk_0x67D02A194A2FC2BD("digiscanner");
+	iLocal_96 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("digiscanner");
 
 	while (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_96))
 	{

@@ -2147,7 +2147,7 @@ void main() // Hash - 0x5D84F89F ^0x5D84F89F
 	}
 
 	MISC::SET_MISSION_FLAG(true);
-	unk_0x18E567F9230553EE(0);
+	NETWORK::NETWORK_SET_CAN_RECEIVE_RS_INVITES(false);
 
 	while (true)
 	{
@@ -91026,7 +91026,7 @@ void func_411() // Hash - 0xA12F824D ^0x574FB86B
 			case 3:
 				if (!bLocal_1974)
 				{
-					iLocal_1973 = unk_0x67D02A194A2FC2BD("OPENING_CREDITS");
+					iLocal_1973 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("OPENING_CREDITS");
 					bLocal_1974 = true;
 				}
 			
@@ -112667,12 +112667,12 @@ BOOL func_754(var uParam0) // Hash - 0xD6DCC037 ^0xA6957E26
 	return false;
 }
 
-void func_755(int iParam0, BOOL bParam1) // Hash - 0x2F9DE430 ^0x63615684
+void func_755(int iParam0, BOOL bParam1) // Hash - 0x2F9DE430 ^0x7C91B99F
 {
 	int i;
 	BOOL flag;
 
-	unk_0x18E567F9230553EE(1);
+	NETWORK::NETWORK_SET_CAN_RECEIVE_RS_INVITES(true);
 	AUDIO::SET_AUDIO_FLAG("PoliceScannerDisabled", false);
 
 	if (bLocal_86)

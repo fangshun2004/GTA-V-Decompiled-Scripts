@@ -537,7 +537,7 @@ void func_6(var uParam0, Vector3 vParam1, var uParam2, var uParam3) // Hash - 0x
 	Entity entity;
 	int num;
 	int playerBits;
-	int eventData;
+	struct<10> eventData;
 
 	num = func_17(uParam0, -1);
 
@@ -566,7 +566,7 @@ void func_6(var uParam0, Vector3 vParam1, var uParam2, var uParam3) // Hash - 0x
 		eventData.f_1 = PLAYER::PLAYER_ID();
 		eventData.f_2 = { *uParam0 };
 		eventData.f_7 = { vParam1 };
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 10, playerBits);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 10, playerBits);
 	}
 
 	return;

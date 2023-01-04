@@ -757,7 +757,7 @@ void func_16() // Hash - 0xCB80ECE5 ^0xB717E47D
 	return;
 }
 
-void func_17() // Hash - 0xBA95A820 ^0x289C0046
+void func_17() // Hash - 0xBA95A820 ^0xF39956F4
 {
 	switch (iLocal_28)
 	{
@@ -766,7 +766,7 @@ void func_17() // Hash - 0xBA95A820 ^0x289C0046
 			{
 				if (!func_23())
 				{
-					iLocal_30 = unk_0x67D02A194A2FC2BD("MIDSIZED_MESSAGE");
+					iLocal_30 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MIDSIZED_MESSAGE");
 				
 					while (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_30))
 					{

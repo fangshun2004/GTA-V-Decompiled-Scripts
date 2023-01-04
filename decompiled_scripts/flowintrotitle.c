@@ -4,7 +4,7 @@
 	BOOL bLocal_2 = 0;
 #endregion
 
-void main() // Hash - 0xBC22026E ^0x42159E04
+void main() // Hash - 0xBC22026E ^0xEE75B136
 {
 	if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(83))
 		func_10();
@@ -17,7 +17,7 @@ void main() // Hash - 0xBC22026E ^0x42159E04
 	if (!CAM::IS_SCREEN_FADED_OUT())
 		CAM::DO_SCREEN_FADE_OUT(0);
 
-	iLocal_0 = unk_0x67D02A194A2FC2BD("OPENING_CREDITS");
+	iLocal_0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("OPENING_CREDITS");
 
 	while (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_0))
 	{

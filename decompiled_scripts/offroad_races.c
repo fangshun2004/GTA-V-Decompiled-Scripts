@@ -101682,9 +101682,9 @@ BOOL func_660(Any* panParam0, Any* panParam1) // Hash - 0x3FAA596E ^0xD327A77C
 	return false;
 }
 
-BOOL func_661() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_661() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 void func_662(var uParam0) // Hash - 0x443D01ED ^0x3AA06D73
@@ -103716,9 +103716,9 @@ void func_685(int iParam0, int iParam1) // Hash - 0xDB1AE92A ^0x8D796D4A
 	return;
 }
 
-var func_686() // Hash - 0x4D4BB92C ^0x930CC78C
+int func_686() // Hash - 0x4D4BB92C ^0x8EE5809D
 {
-	return unk_0x67D02A194A2FC2BD("SC_LEADERBOARD");
+	return GRAPHICS::REQUEST_SCALEFORM_MOVIE("SC_LEADERBOARD");
 }
 
 void func_687(int iParam0) // Hash - 0xE49C42EC ^0xE49C42EC
@@ -106852,7 +106852,7 @@ int func_737(var uParam0, BOOL bParam1, int iParam2) // Hash - 0xFCE75DE4 ^0x7E3
 		GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("CommonMenu", false);
 		GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("MPLeaderboard", false);
 		GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("MPHud", false);
-		uParam0->f_1 = unk_0x67D02A194A2FC2BD("MP_BIG_MESSAGE_FREEMODE");
+		uParam0->f_1 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MP_BIG_MESSAGE_FREEMODE");
 		uParam0->f_2 = 0;
 		uParam0->f_3 = 0;
 	}
@@ -114388,9 +114388,9 @@ BOOL func_884(var uParam0) // Hash - 0x8A5E7D50 ^0x1A143EC
 	return GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*uParam0) && AUDIO::REQUEST_SCRIPT_AUDIO_BANK("HUD_321_GO", false, -1);
 }
 
-void func_885(var uParam0) // Hash - 0xD7CDA7C4 ^0x846FCD43
+void func_885(var uParam0) // Hash - 0xD7CDA7C4 ^0xF98D741C
 {
-	*uParam0 = unk_0x67D02A194A2FC2BD("COUNTDOWN");
+	*uParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("COUNTDOWN");
 	AUDIO::REQUEST_SCRIPT_AUDIO_BANK("HUD_321_GO", false, -1);
 	return;
 }
@@ -114471,9 +114471,9 @@ BOOL func_892(var uParam0) // Hash - 0x3A41083C ^0x8EB5CED6
 	return STREAMING::HAS_MODEL_LOADED(uParam0->f_21);
 }
 
-var func_893() // Hash - 0x1234744A ^0xC7185324
+int func_893() // Hash - 0x1234744A ^0x8CB4599
 {
-	return unk_0x67D02A194A2FC2BD("MP_BIG_MESSAGE_FREEMODE");
+	return GRAPHICS::REQUEST_SCALEFORM_MOVIE("MP_BIG_MESSAGE_FREEMODE");
 }
 
 void func_894(BOOL bParam0) // Hash - 0x5FE88D2A ^0xA22C291D

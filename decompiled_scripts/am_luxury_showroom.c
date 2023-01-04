@@ -2228,9 +2228,9 @@ BOOL func_21(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, va
 	return NETWORK::NETWORK_IS_HANDLE_VALID(&uParam0, 13);
 }
 
-BOOL func_22() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_22() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 struct<13> func_23(Player plParam0) // Hash - 0x3F3CEB62 ^0x60A9D262
@@ -8836,10 +8836,10 @@ Hash func_44(int iParam0) // Hash - 0xAF243DD3 ^0xB5AB9AF2
 	return num;
 }
 
-BOOL func_45(var uParam0, var uParam1) // Hash - 0x34CD6C75 ^0xFDA5526B
+BOOL func_45(var uParam0, const char* sParam1) // Hash - 0x34CD6C75 ^0x53D04453
 {
 	if (*uParam0 == 0)
-		*uParam0 = unk_0x67D02A194A2FC2BD(uParam1);
+		*uParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(sParam1);
 
 	return GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*uParam0);
 }
@@ -27044,7 +27044,7 @@ BOOL func_264() // Hash - 0x4049A12 ^0x9F8C0D3C
 
 void func_265(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, var uParam12, var uParam13, var uParam14, var uParam15, var uParam16, var uParam17, var uParam18, var uParam19, var uParam20, var uParam21, var uParam22, var uParam23, var uParam24, var uParam25, var uParam26, var uParam27, var uParam28, var uParam29, var uParam30, var uParam31, var uParam32, var uParam33, var uParam34, var uParam35, var uParam36, var uParam37, var uParam38, var uParam39, var uParam40, var uParam41, var uParam42, var uParam43, var uParam44, var uParam45, var uParam46, var uParam47, var uParam48, var uParam49, var uParam50, var uParam51, var uParam52, var uParam53, var uParam54, var uParam55, var uParam56, var uParam57, var uParam58, var uParam59, var uParam60, var uParam61, var uParam62, var uParam63, var uParam64, var uParam65, var uParam66, var uParam67, var uParam68, var uParam69, var uParam70, var uParam71, var uParam72, var uParam73, var uParam74, var uParam75, var uParam76, var uParam77, var uParam78, var uParam79, var uParam80, var uParam81, var uParam82, var uParam83, var uParam84, int iParam85) // Hash - 0x8E828F1B ^0xE931A03B
 {
-	int eventData;
+	struct<36> eventData;
 	int playerBits;
 
 	if (iParam85 < 0)
@@ -27063,7 +27063,7 @@ void func_265(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, v
 	if (!playerBits == 0)
 	{
 		func_266();
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 36, playerBits);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 36, playerBits);
 	}
 
 	return;
@@ -78208,14 +78208,14 @@ BOOL func_595(char* sParam0, int iParam1, BOOL bParam2) // Hash - 0xF7C7CB5C ^0x
 	return flag && flag2;
 }
 
-BOOL func_596(int* piParam0) // Hash - 0x55978EE6 ^0x74533A35
+BOOL func_596(int* piParam0) // Hash - 0x55978EE6 ^0xF39227AE
 {
 	switch (piParam0->f_9)
 	{
 		case 0:
 			if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*piParam0))
 			{
-				*piParam0 = unk_0x67D02A194A2FC2BD(&(piParam0->f_1));
+				*piParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(&(piParam0->f_1));
 				piParam0->f_9 = 1;
 			
 				if (piParam0->f_7)
@@ -80200,14 +80200,14 @@ void func_627(Vehicle veParam0) // Hash - 0xCAA4A78 ^0x91129F1B
 
 void func_628(var uParam0, var uParam1, var uParam2) // Hash - 0x96D2C2D8 ^0x57DF276B
 {
-	int eventData;
+	struct<5> eventData;
 
 	eventData = -2060526162;
 	eventData.f_1 = PLAYER::PLAYER_ID();
 	eventData.f_2 = uParam0;
 	eventData.f_2.f_1 = uParam0.f_1;
 	eventData.f_2.f_2 = uParam0.f_2;
-	SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 5, func_629(true, true));
+	SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 5, func_629(true, true));
 	return;
 }
 
@@ -86667,9 +86667,9 @@ void func_709(Ped pedParam0) // Hash - 0xBB396D2D ^0x34F6EE60
 					CAM::SET_CAM_COORD(iLocal_166.f_560.f_1, CAM::GET_CAM_COORD(iLocal_166.f_560));
 					CAM::SET_CAM_ROT(iLocal_166.f_560.f_1, CAM::GET_CAM_ROT(iLocal_166.f_560, 2), 2);
 					CAM::SET_CAM_FOV(iLocal_166.f_560.f_1, CAM::GET_CAM_FOV(iLocal_166.f_560));
-					CAM::SET_CAM_NEAR_DOF(iLocal_166.f_560.f_1, unk_0x648E88D62F50E34D(iLocal_166.f_560));
+					CAM::SET_CAM_NEAR_DOF(iLocal_166.f_560.f_1, CAM::GET_CAM_NEAR_DOF(iLocal_166.f_560));
 					CAM::SET_CAM_FAR_DOF(iLocal_166.f_560.f_1, CAM::GET_CAM_FAR_DOF(iLocal_166.f_560));
-					CAM::SET_CAM_DOF_STRENGTH(iLocal_166.f_560.f_1, unk_0xF601338749178ABD(iLocal_166.f_560));
+					CAM::SET_CAM_DOF_STRENGTH(iLocal_166.f_560.f_1, CAM::GET_CAM_DOF_STRENGTH(iLocal_166.f_560));
 					CAM::SET_CAM_ACTIVE_WITH_INTERP(iLocal_166.f_560, iLocal_166.f_560.f_1, duration, easeLocation, easeLocation);
 					AUDIO::PLAY_SOUND_FROM_ENTITY(-1, "Change_Vehicle", pedParam0, "GTAO_Auto_Store_Sounds", false, 0);
 					MISC::CLEAR_BIT(&iLocal_166, 5);
@@ -87501,7 +87501,7 @@ void func_762(var uParam0, var uParam1, var uParam2, int iParam3) // Hash - 0x10
 	if (*uParam2 == 0)
 	{
 		if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*uParam0))
-			*uParam0 = unk_0x67D02A194A2FC2BD("instructional_buttons");
+			*uParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("instructional_buttons");
 	
 		if (GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*uParam0))
 		{

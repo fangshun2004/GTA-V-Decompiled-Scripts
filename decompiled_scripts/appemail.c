@@ -4771,9 +4771,9 @@ void func_75(BOOL bParam0) // Hash - 0xF7D247CF ^0xA1C28CED
 	return;
 }
 
-BOOL func_76() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_76() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 void func_77(BOOL bParam0) // Hash - 0x23FF68C6 ^0xF78D4350

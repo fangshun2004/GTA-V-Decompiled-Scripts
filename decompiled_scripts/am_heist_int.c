@@ -48168,15 +48168,15 @@ void func_316(Vehicle veParam0, int iParam1) // Hash - 0x2DB34416 ^0xF308ABAF
 	return;
 }
 
-void func_317(int iParam0) // Hash - 0xB68B0883 ^0x88BEE49C
+void func_317(int iParam0) // Hash - 0xB68B0883 ^0x72E8DC33
 {
-	int eventData;
+	struct<3> eventData;
 
 	eventData.f_2 = -1;
 	eventData = 1397900875;
 	eventData.f_1 = PLAYER::PLAYER_ID();
 	eventData.f_2 = iParam0;
-	SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 3, func_318(true, true));
+	SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 3, func_318(true, true));
 	return;
 }
 
@@ -48905,14 +48905,14 @@ void func_347(Vehicle veParam0) // Hash - 0xCAA4A78 ^0xF70D397B
 
 void func_348(var uParam0, var uParam1, var uParam2) // Hash - 0x96D2C2D8 ^0x57DF276B
 {
-	int eventData;
+	struct<5> eventData;
 
 	eventData = -2060526162;
 	eventData.f_1 = PLAYER::PLAYER_ID();
 	eventData.f_2 = uParam0;
 	eventData.f_2.f_1 = uParam0.f_1;
 	eventData.f_2.f_2 = uParam0.f_2;
-	SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 5, func_318(true, true));
+	SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 5, func_318(true, true));
 	return;
 }
 
@@ -55415,7 +55415,7 @@ BOOL func_424(var uParam0, var uParam1, var uParam2, int iParam3, Hash hParam4, 
 
 void func_425(var uParam0, var uParam1, var uParam2, var uParam3, Hash hParam4, var uParam5) // Hash - 0xD4FEF6F4 ^0xBB293007
 {
-	int eventData;
+	struct<8> eventData;
 
 	*uParam5 = func_426(&uParam0, &uParam3, &hParam4);
 	eventData = 2067191610;
@@ -55424,7 +55424,7 @@ void func_425(var uParam0, var uParam1, var uParam2, var uParam3, Hash hParam4, 
 	eventData.f_5 = uParam3;
 	eventData.f_6 = hParam4;
 	eventData.f_7 = *uParam5;
-	SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 8, func_318(true, true));
+	SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 8, func_318(true, true));
 	return;
 }
 
@@ -61977,9 +61977,9 @@ BOOL func_537() // Hash - 0x4C81F065 ^0x79C65D03
 	return MISC::IS_ORBIS_VERSION() || MISC::IS_PROSPERO_VERSION();
 }
 
-BOOL func_538() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_538() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_539() // Hash - 0x98B7EFDD ^0x98B7EFDD
@@ -64982,7 +64982,7 @@ BOOL func_653() // Hash - 0x4F6FE615 ^0x62CB4FF
 
 void func_654(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, var uParam12, var uParam13, var uParam14, var uParam15, var uParam16, var uParam17, var uParam18, var uParam19, var uParam20, var uParam21, var uParam22, var uParam23, var uParam24, var uParam25, var uParam26, var uParam27, var uParam28, var uParam29, var uParam30, var uParam31, var uParam32, var uParam33, var uParam34, int iParam35, BOOL bParam36, int iParam37) // Hash - 0xAF92909F ^0x7831F81D
 {
-	int eventData;
+	struct<40> eventData;
 	int i;
 
 	*uParam34 = func_655(&uParam0, &iParam35, &bParam36, &iParam37);
@@ -65005,7 +65005,7 @@ void func_654(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, v
 	eventData.f_37 = iParam35;
 	eventData.f_38 = bParam36;
 	eventData.f_39 = iParam37;
-	SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 40, func_318(true, true));
+	SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 40, func_318(true, true));
 	return;
 }
 
@@ -78610,14 +78610,14 @@ void func_932() // Hash - 0x33BAD40F ^0x23CBCE6D
 	return;
 }
 
-void func_933(var uParam0, var uParam1, var uParam2) // Hash - 0x3D88AFBE ^0xF30D634F
+void func_933(var uParam0, var uParam1, var uParam2) // Hash - 0x3D88AFBE ^0xA058273F
 {
-	int eventData;
+	struct<5> eventData;
 
 	eventData = -1261736727;
 	eventData.f_1 = PLAYER::PLAYER_ID();
 	eventData.f_2 = { uParam0 };
-	SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 5, func_318(true, true));
+	SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 5, func_318(true, true));
 	return;
 }
 

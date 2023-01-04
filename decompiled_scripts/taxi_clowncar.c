@@ -7132,9 +7132,9 @@ BOOL func_233() // Hash - 0x4C81F065 ^0x79C65D03
 	return MISC::IS_ORBIS_VERSION() || MISC::IS_PROSPERO_VERSION();
 }
 
-BOOL func_234() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_234() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 void func_235(int iParam0, int iParam1) // Hash - 0xF55E891F ^0xF55E891F
@@ -7792,9 +7792,9 @@ void func_269() // Hash - 0xB99EA31B ^0x9304901E
 	return;
 }
 
-int func_270() // Hash - 0xB58A1E6 ^0x897651BE
+int func_270() // Hash - 0xB58A1E6 ^0x8F7CD650
 {
-	return unk_0x67D02A194A2FC2BD("MIDSIZED_MESSAGE");
+	return GRAPHICS::REQUEST_SCALEFORM_MOVIE("MIDSIZED_MESSAGE");
 }
 
 void func_271() // Hash - 0xAA189334 ^0xF48C5B9

@@ -1009,14 +1009,14 @@ BOOL func_22(char* sParam0, int iParam1, BOOL bParam2) // Hash - 0xF7C7CB5C ^0x1
 	return flag && flag2;
 }
 
-BOOL func_23(int* piParam0) // Hash - 0x55978EE6 ^0x74533A35
+BOOL func_23(int* piParam0) // Hash - 0x55978EE6 ^0xF39227AE
 {
 	switch (piParam0->f_9)
 	{
 		case 0:
 			if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*piParam0))
 			{
-				*piParam0 = unk_0x67D02A194A2FC2BD(&(piParam0->f_1));
+				*piParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(&(piParam0->f_1));
 				piParam0->f_9 = 1;
 			
 				if (piParam0->f_7)
@@ -1052,7 +1052,7 @@ BOOL func_23(int* piParam0) // Hash - 0x55978EE6 ^0x74533A35
 	return piParam0->f_9 == 2;
 }
 
-void func_24() // Hash - 0xFDE6D762 ^0xB38DAF23
+void func_24() // Hash - 0xFDE6D762 ^0x68175316
 {
 	var camRot;
 	var camRot2;
@@ -1069,7 +1069,7 @@ void func_24() // Hash - 0xFDE6D762 ^0xB38DAF23
 	{
 		if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(uLocal_130.f_62))
 		{
-			uLocal_130.f_62 = unk_0x67D02A194A2FC2BD(func_38());
+			uLocal_130.f_62 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(func_38());
 			return;
 		}
 	
@@ -5338,13 +5338,13 @@ void func_194(BOOL bParam0) // Hash - 0xF60AF1E9 ^0xB92B005D
 	return;
 }
 
-void func_195(BOOL bParam0) // Hash - 0x19EE2A0B ^0xD006DA47
+void func_195(BOOL bParam0) // Hash - 0x19EE2A0B ^0x8086396C
 {
 	int i;
 
 	uLocal_130.f_33 = 100;
 	uLocal_130.f_59 = 50f;
-	uLocal_130.f_62 = unk_0x67D02A194A2FC2BD(func_38());
+	uLocal_130.f_62 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(func_38());
 	AUDIO::REQUEST_AMBIENT_AUDIO_BANK("SCRIPT\\POLICE_CHOPPER_CAM", false, -1);
 	GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("helicopterhud", false);
 	GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("droneHUD", false);

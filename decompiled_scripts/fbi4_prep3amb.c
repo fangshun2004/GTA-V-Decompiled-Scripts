@@ -1798,7 +1798,7 @@ BOOL func_15(int iParam0) // Hash - 0xE8921B44 ^0x4F063755
 	return false;
 }
 
-void func_16(int iParam0) // Hash - 0x4036D758 ^0xC0C96EC7
+void func_16(int iParam0) // Hash - 0x4036D758 ^0x35C694A3
 {
 	func_111();
 
@@ -1808,7 +1808,7 @@ void func_16(int iParam0) // Hash - 0x4036D758 ^0xC0C96EC7
 		{
 			case 0:
 				func_110(true);
-				iLocal_1267 = unk_0x67D02A194A2FC2BD("MP_BIG_MESSAGE_FREEMODE");
+				iLocal_1267 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MP_BIG_MESSAGE_FREEMODE");
 				func_1(46, true);
 				iLocal_1268 = MISC::GET_GAME_TIMER() + 3000;
 			
@@ -3728,9 +3728,9 @@ BOOL func_30() // Hash - 0x4C81F065 ^0x79C65D03
 	return MISC::IS_ORBIS_VERSION() || MISC::IS_PROSPERO_VERSION();
 }
 
-BOOL func_31() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_31() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_32() // Hash - 0x98B7EFDD ^0x98B7EFDD

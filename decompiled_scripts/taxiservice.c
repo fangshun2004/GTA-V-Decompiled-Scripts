@@ -3437,7 +3437,7 @@ void func_64() // Hash - 0x4F4DA120 ^0xBA4338B5
 		}
 		else
 		{
-			iLocal_114 = unk_0x67D02A194A2FC2BD("instructional_buttons");
+			iLocal_114 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("instructional_buttons");
 		}
 	}
 	else
@@ -3484,7 +3484,7 @@ void func_65(var uParam0, var uParam1, var uParam2, int iParam3) // Hash - 0x10F
 	if (*uParam2 == 0)
 	{
 		if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*uParam0))
-			*uParam0 = unk_0x67D02A194A2FC2BD("instructional_buttons");
+			*uParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("instructional_buttons");
 	
 		if (GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*uParam0))
 		{
@@ -9201,11 +9201,11 @@ BOOL func_176() // Hash - 0xBAB254AB ^0xB6CCDDF
 	return false;
 }
 
-BOOL func_177() // Hash - 0x74420CA ^0x9E174E0
+BOOL func_177() // Hash - 0x74420CA ^0xE19D2AFF
 {
 	STREAMING::REQUEST_MODEL(hLocal_110);
-	iLocal_113 = unk_0x67D02A194A2FC2BD("taxi_display");
-	iLocal_114 = unk_0x67D02A194A2FC2BD("instructional_buttons");
+	iLocal_113 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("taxi_display");
+	iLocal_114 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("instructional_buttons");
 	STREAMING::REQUEST_ANIM_DICT(&uLocal_954);
 
 	if (STREAMING::HAS_MODEL_LOADED(hLocal_110) && GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_113) && GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_114) && STREAMING::HAS_ANIM_DICT_LOADED(&uLocal_954))

@@ -448,14 +448,14 @@ void main() // Hash - 0x5D84F89F ^0x5D84F89F
 	return;
 }
 
-void func_1(int* piParam0, var uParam1, var uParam2) // Hash - 0x26A88551 ^0x1C357A44
+void func_1(int* piParam0, var uParam1, var uParam2) // Hash - 0x26A88551 ^0xDF0D6412
 {
 	int soundId;
 
 	switch (*uParam2)
 	{
 		case 0:
-			*piParam0 = unk_0x67D02A194A2FC2BD("MIDSIZED_MESSAGE");
+			*piParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MIDSIZED_MESSAGE");
 		
 			if (GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*piParam0))
 			{

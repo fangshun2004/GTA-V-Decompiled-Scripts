@@ -266,7 +266,7 @@ void func_3(int iParam0, int iParam1) // Hash - 0x80CEB713 ^0x32DB7C0D
 
 void func_4(int iParam0, int iParam1, int iParam2, int iParam3, var uParam4, int iParam5) // Hash - 0xDB43F9C0 ^0x1BA877CF
 {
-	int eventData;
+	struct<7> eventData;
 
 	eventData = 1311159119;
 	eventData.f_1 = PLAYER::PLAYER_ID();
@@ -277,7 +277,7 @@ void func_4(int iParam0, int iParam1, int iParam2, int iParam3, var uParam4, int
 	eventData.f_6 = iParam5;
 
 	if (!iParam1 == 0)
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 7, iParam1);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 7, iParam1);
 
 	return;
 }
@@ -4737,9 +4737,9 @@ BOOL func_158() // Hash - 0x4C81F065 ^0x79C65D03
 	return MISC::IS_ORBIS_VERSION() || MISC::IS_PROSPERO_VERSION();
 }
 
-BOOL func_159() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_159() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_160() // Hash - 0x532A64A3 ^0xD2742F25
@@ -10168,7 +10168,7 @@ BOOL func_408(Player plParam0) // Hash - 0x3BED6F11 ^0x3BED6F11
 	return false;
 }
 
-void func_409() // Hash - 0xBE045B47 ^0x59FF9E7D
+void func_409() // Hash - 0xBE045B47 ^0x90B97B2C
 {
 	func_398();
 
@@ -10178,7 +10178,7 @@ void func_409() // Hash - 0xBE045B47 ^0x59FF9E7D
 		func_419(true, false);
 	}
 
-	iLocal_152 = unk_0x67D02A194A2FC2BD("FIXER_APP");
+	iLocal_152 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("FIXER_APP");
 
 	while (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_152))
 	{

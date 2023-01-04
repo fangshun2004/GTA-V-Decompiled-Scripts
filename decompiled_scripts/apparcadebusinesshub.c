@@ -3857,9 +3857,9 @@ const char* func_171(const char* sParam0) // Hash - 0xC9D82232 ^0xC9D82232
 	return sParam0;
 }
 
-BOOL func_172() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_172() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 const char* func_173(Player plParam0, BOOL bParam1) // Hash - 0xE02F216E ^0x4A73D7F5
@@ -6068,13 +6068,13 @@ int func_261(int iParam0) // Hash - 0xF198491A ^0xF198491A
 	return 0;
 }
 
-void func_262(int iParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, var uParam12, var uParam13, int iParam14) // Hash - 0xAC034491 ^0x572F5B95
+void func_262(struct<14> Param0, int iParam14) // Hash - 0xAC034491 ^0x252A0A6E
 {
-	iParam0 = 548471420;
-	iParam0.f_1 = PLAYER::PLAYER_ID();
+	Param0 = 548471420;
+	Param0.f_1 = PLAYER::PLAYER_ID();
 
 	if (!iParam14 == 0)
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &iParam0, 14, iParam14);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &Param0, 14, iParam14);
 
 	return;
 }
@@ -9016,7 +9016,7 @@ BOOL func_358(Player plParam0) // Hash - 0x3BED6F11 ^0x3BED6F11
 	return false;
 }
 
-void func_359() // Hash - 0x386A546B ^0x22DF49FA
+void func_359() // Hash - 0x386A546B ^0xFE856654
 {
 	func_348();
 
@@ -9026,7 +9026,7 @@ void func_359() // Hash - 0x386A546B ^0x22DF49FA
 		func_369(true);
 	}
 
-	iLocal_127 = unk_0x67D02A194A2FC2BD("ARCADE_BUSINESS_HUB");
+	iLocal_127 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("ARCADE_BUSINESS_HUB");
 
 	while (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_127))
 	{

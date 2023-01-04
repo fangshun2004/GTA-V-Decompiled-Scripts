@@ -2311,9 +2311,9 @@ BOOL func_48() // Hash - 0x8E091D62 ^0x230252DD
 	return false;
 }
 
-BOOL func_49() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_49() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_50() // Hash - 0x4C81F065 ^0x79C65D03

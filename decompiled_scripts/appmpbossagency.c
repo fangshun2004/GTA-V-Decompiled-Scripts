@@ -792,15 +792,15 @@ void func_26(Player plParam0, var uParam1) // Hash - 0x7F95D5F4 ^0x92C7C67A
 	return;
 }
 
-void func_27(int iParam0) // Hash - 0x7B6D3117 ^0xEE6B2673
+void func_27(int iParam0) // Hash - 0x7B6D3117 ^0xF16C1018
 {
-	int eventData;
+	struct<2> eventData;
 
 	eventData = 1848110702;
 	eventData.f_1 = PLAYER::PLAYER_ID();
 
 	if (!iParam0 == 0)
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 2, iParam0);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 2, iParam0);
 
 	return;
 }
@@ -1590,9 +1590,9 @@ const char* func_61(Player plParam0) // Hash - 0x7C145568 ^0xA8F2C5CA
 	return "";
 }
 
-BOOL func_62() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_62() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 Player func_63(Player plParam0) // Hash - 0xBC29302B ^0x7C0547F0

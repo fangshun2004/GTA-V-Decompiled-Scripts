@@ -11060,7 +11060,7 @@ void main() // Hash - 0x5D84F89F ^0x5D84F89F
 				}
 				else if (func_861())
 				{
-					iLocal_886 = unk_0x67D02A194A2FC2BD("MP_MISSION_DETAILS_CARD");
+					iLocal_886 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MP_MISSION_DETAILS_CARD");
 				
 					if (GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_886))
 					{
@@ -96375,7 +96375,7 @@ BOOL func_411(int iParam0, BOOL bParam1, const char* sParam2, int iParam3) // Ha
 		{
 			if (NETWORK::NETWORK_ARE_HANDLES_THE_SAME(&gamerHandle1, &gamerHandle2))
 				return true;
-			else if (unk_0x66955BC2BF0032B5(&gamerHandle2) && NETWORK::NETWORK_HAS_VIEW_GAMER_USER_CONTENT_RESULT(&gamerHandle2) && !NETWORK::NETWORK_CAN_VIEW_GAMER_USER_CONTENT(&gamerHandle2))
+			else if (NETWORK::NETWORK_PERMISSIONS_HAS_GAMER_RECORD(&gamerHandle2) && NETWORK::NETWORK_HAS_VIEW_GAMER_USER_CONTENT_RESULT(&gamerHandle2) && !NETWORK::NETWORK_CAN_VIEW_GAMER_USER_CONTENT(&gamerHandle2))
 				return false;
 		}
 		else
@@ -96390,9 +96390,9 @@ BOOL func_411(int iParam0, BOOL bParam1, const char* sParam2, int iParam3) // Ha
 	return true;
 }
 
-BOOL func_412() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_412() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_413(int iParam0) // Hash - 0xD373EF66 ^0xD373EF66
@@ -96770,7 +96770,7 @@ void func_416(var uParam0, BOOL bParam1) // Hash - 0x73E62E4E ^0x2288AE3B
 	return;
 }
 
-void func_417(Hash hParam0, int iParam1, int iParam2, int iParam3) // Hash - 0x1EFD956C ^0x410509EA
+void func_417(Hash hParam0, int iParam1, int iParam2, Hash hParam3) // Hash - 0x1EFD956C ^0x410509EA
 {
 	if (func_450(hParam0))
 		MISC::SET_BIT(iParam1, 15);
@@ -96808,105 +96808,105 @@ void func_417(Hash hParam0, int iParam1, int iParam2, int iParam3) // Hash - 0x1
 		MISC::SET_BIT(iParam2, 11);
 	else if (func_433(hParam0))
 		MISC::SET_BIT(iParam2, 12);
-	else if (func_432(iParam3))
+	else if (func_432(hParam3))
 		MISC::SET_BIT(iParam2, 13);
 	else if (func_431(hParam0))
 		MISC::SET_BIT(iParam2, 14);
 	else if (func_430(hParam0))
 		MISC::SET_BIT(iParam2, 22);
-	else if (func_429(iParam3))
+	else if (func_429(hParam3))
 		MISC::SET_BIT(iParam2, 16);
-	else if (func_428(iParam3))
+	else if (func_428(hParam3))
 		MISC::SET_BIT(iParam2, 17);
-	else if (func_427(iParam3))
+	else if (func_427(hParam3))
 		MISC::SET_BIT(iParam2, 20);
-	else if (func_426(iParam3))
+	else if (func_426(hParam3))
 		MISC::SET_BIT(iParam2, 21);
-	else if (func_430(iParam3))
+	else if (func_430(hParam3))
 		MISC::SET_BIT(iParam2, 22);
-	else if (func_425(iParam3))
+	else if (func_425(hParam3))
 		MISC::SET_BIT(iParam2, 23);
-	else if (func_424(iParam3))
+	else if (func_424(hParam3))
 		MISC::SET_BIT(iParam2, 24);
-	else if (func_423(iParam3))
+	else if (func_423(hParam3))
 		MISC::SET_BIT(iParam2, 25);
-	else if (func_422(iParam3))
+	else if (func_422(hParam3))
 		MISC::SET_BIT(iParam2, 26);
-	else if (func_421(iParam3))
+	else if (func_421(hParam3))
 		MISC::SET_BIT(iParam2, 27);
-	else if (func_420(iParam3))
+	else if (func_420(hParam3))
 		MISC::SET_BIT(iParam2, 28);
-	else if (func_419(iParam3))
+	else if (func_419(hParam3))
 		MISC::SET_BIT(iParam2, 29);
-	else if (func_418(iParam3))
+	else if (func_418(hParam3))
 		MISC::SET_BIT(iParam2, 30);
 
 	return;
 }
 
-BOOL func_418(int iParam0) // Hash - 0xFB453256 ^0xFB453256
+BOOL func_418(Hash hParam0) // Hash - 0xFB453256 ^0xFB453256
 {
-	return iParam0 == 17;
+	return hParam0 == 17;
 }
 
-BOOL func_419(int iParam0) // Hash - 0x211CA526 ^0x211CA526
+BOOL func_419(Hash hParam0) // Hash - 0x211CA526 ^0x211CA526
 {
-	return iParam0 == 16;
+	return hParam0 == 16;
 }
 
-BOOL func_420(int iParam0) // Hash - 0x54E9F252 ^0x54E9F252
+BOOL func_420(Hash hParam0) // Hash - 0x54E9F252 ^0x54E9F252
 {
-	return iParam0 == 15;
+	return hParam0 == 15;
 }
 
-BOOL func_421(int iParam0) // Hash - 0xDB879CB0 ^0xDB879CB0
+BOOL func_421(Hash hParam0) // Hash - 0xDB879CB0 ^0xDB879CB0
 {
-	return iParam0 == 14;
+	return hParam0 == 14;
 }
 
-BOOL func_422(int iParam0) // Hash - 0x2A886422 ^0x2A886422
+BOOL func_422(Hash hParam0) // Hash - 0x2A886422 ^0x2A886422
 {
-	return iParam0 == 13;
+	return hParam0 == 13;
 }
 
-BOOL func_423(int iParam0) // Hash - 0x7980B93B ^0x7980B93B
+BOOL func_423(Hash hParam0) // Hash - 0x7980B93B ^0x7980B93B
 {
-	return iParam0 == 12;
+	return hParam0 == 12;
 }
 
-BOOL func_424(int iParam0) // Hash - 0xADF52209 ^0xADF52209
+BOOL func_424(Hash hParam0) // Hash - 0xADF52209 ^0xADF52209
 {
-	return iParam0 == 11;
+	return hParam0 == 11;
 }
 
-BOOL func_425(int iParam0) // Hash - 0x792C7AF ^0x792C7AF
+BOOL func_425(Hash hParam0) // Hash - 0x792C7AF ^0x792C7AF
 {
-	return iParam0 == 9;
+	return hParam0 == 9;
 }
 
-BOOL func_426(int iParam0) // Hash - 0x94F0EC27 ^0x94F0EC27
+BOOL func_426(Hash hParam0) // Hash - 0x94F0EC27 ^0x94F0EC27
 {
-	return iParam0 == 1 || iParam0 == 67;
+	return hParam0 == 1 || hParam0 == 67;
 }
 
-BOOL func_427(int iParam0) // Hash - 0x126C9A21 ^0x126C9A21
+BOOL func_427(Hash hParam0) // Hash - 0x126C9A21 ^0x126C9A21
 {
-	return iParam0 == 6;
+	return hParam0 == 6;
 }
 
-BOOL func_428(int iParam0) // Hash - 0x692B2E88 ^0x692B2E88
+BOOL func_428(Hash hParam0) // Hash - 0x692B2E88 ^0x692B2E88
 {
-	return iParam0 == 4;
+	return hParam0 == 4;
 }
 
-BOOL func_429(int iParam0) // Hash - 0x114AD299 ^0x114AD299
+BOOL func_429(Hash hParam0) // Hash - 0x114AD299 ^0x114AD299
 {
-	return iParam0 == 2;
+	return hParam0 == 2;
 }
 
-BOOL func_430(int iParam0) // Hash - 0x7DD05769 ^0x7DD05769
+BOOL func_430(Hash hParam0) // Hash - 0x7DD05769 ^0x7DD05769
 {
-	return iParam0 == 8;
+	return hParam0 == 8;
 }
 
 BOOL func_431(Hash hParam0) // Hash - 0xA7E1F0C5 ^0x3806D3B3
@@ -96928,9 +96928,9 @@ BOOL func_431(Hash hParam0) // Hash - 0xA7E1F0C5 ^0x3806D3B3
 	return false;
 }
 
-BOOL func_432(int iParam0) // Hash - 0x7D7D0405 ^0x7D7D0405
+BOOL func_432(Hash hParam0) // Hash - 0x7D7D0405 ^0x7D7D0405
 {
-	return iParam0 == 3;
+	return hParam0 == 3;
 }
 
 BOOL func_433(Hash hParam0) // Hash - 0x6580B8CE ^0xF2BA7273
@@ -100008,7 +100008,7 @@ void func_508(var uParam0, var uParam1, BOOL bParam2, int iParam3, int iParam4) 
 	
 		uParam0->f_32107[num] = NETWORK::UGC_GET_CONTENT_IS_USING_SC_NICKNAME(uParam1->f_7);
 		uParam0->f_28205[num /*13*/].f_1 = MISC::GET_HASH_KEY(NETWORK::UGC_GET_ROOT_CONTENT_ID(uParam1->f_7));
-		unk_0xA64B051C7606A077(uParam0->f_28205[num /*13*/].f_1, num + 1818);
+		MISC::SET_CONTENT_ID_INDEX(uParam0->f_28205[num /*13*/].f_1, num + 1818);
 	}
 
 	if (func_13() != 2)
@@ -100683,7 +100683,7 @@ void func_524(var uParam0, BOOL bParam1) // Hash - 0x4F80F05 ^0xD6EADBD5
 	if (!func_579())
 	{
 		Global_794709.f_159989[uParam0->f_9 /*13*/].f_1 = MISC::GET_HASH_KEY(NETWORK::UGC_GET_ROOT_CONTENT_ID(uParam0->f_7));
-		unk_0xA64B051C7606A077(Global_794709.f_159989[uParam0->f_9 /*13*/].f_1, uParam0->f_9);
+		MISC::SET_CONTENT_ID_INDEX(Global_794709.f_159989[uParam0->f_9 /*13*/].f_1, uParam0->f_9);
 	}
 
 	if (func_13() != 2)
@@ -101264,25 +101264,25 @@ Hash func_534(int iParam0) // Hash - 0x8912D5A1 ^0x44D850E3
 	return -1;
 }
 
-BOOL func_535(Hash hParam0, int iParam1) // Hash - 0x2C57C416 ^0x2C57C416
+BOOL func_535(Hash hParam0, Hash hParam1) // Hash - 0x2C57C416 ^0x2C57C416
 {
-	if (iParam1 > 0)
+	if (hParam1 > 0)
 		return true;
 
-	if (func_450(hParam0) || func_449(hParam0) || func_448(hParam0) || func_446(hParam0, true) || func_447(hParam0) || func_445(hParam0) || func_444(hParam0) || func_443(hParam0) || func_442(hParam0) || func_441(hParam0) || func_440(hParam0) || func_439(hParam0) || func_438(hParam0) || func_437(hParam0) || func_436(hParam0) || func_434(hParam0) || func_433(hParam0) || func_431(hParam0) || func_435(hParam0) || func_537(iParam1) || func_536(iParam1))
+	if (func_450(hParam0) || func_449(hParam0) || func_448(hParam0) || func_446(hParam0, true) || func_447(hParam0) || func_445(hParam0) || func_444(hParam0) || func_443(hParam0) || func_442(hParam0) || func_441(hParam0) || func_440(hParam0) || func_439(hParam0) || func_438(hParam0) || func_437(hParam0) || func_436(hParam0) || func_434(hParam0) || func_433(hParam0) || func_431(hParam0) || func_435(hParam0) || func_537(hParam1) || func_536(hParam1))
 		return true;
 
 	return false;
 }
 
-BOOL func_536(int iParam0) // Hash - 0xB8D4E795 ^0xB8D4E795
+BOOL func_536(Hash hParam0) // Hash - 0xB8D4E795 ^0xB8D4E795
 {
-	return iParam0 == 65;
+	return hParam0 == 65;
 }
 
-BOOL func_537(int iParam0) // Hash - 0xD4BA6F02 ^0xD4BA6F02
+BOOL func_537(Hash hParam0) // Hash - 0xD4BA6F02 ^0xD4BA6F02
 {
-	return iParam0 == 57;
+	return hParam0 == 57;
 }
 
 void func_538(Hash hParam0, int iParam1) // Hash - 0xB049FEAF ^0xB896812D
@@ -101573,13 +101573,13 @@ void func_550(int iParam0) // Hash - 0xFD2662D6 ^0xBCECB028
 	return;
 }
 
-BOOL func_551(int iParam0) // Hash - 0xBCD5EDBB ^0xBCD5EDBB
+BOOL func_551(Hash hParam0) // Hash - 0xBCD5EDBB ^0xBCD5EDBB
 {
 	int i;
 
 	for (i = 0; i < 6; i = i + 1)
 	{
-		if (Global_262145.f_5059[i] == iParam0)
+		if (Global_262145.f_5059[i] == hParam0)
 			return true;
 	}
 
@@ -109965,7 +109965,7 @@ void func_745(BOOL bParam0, char* sParam1, char* sParam2, int iParam3) // Hash -
 	int num2;
 	int num3;
 	int num4;
-	int num5;
+	Hash num5;
 	int num6;
 	int num7;
 	int num8;
@@ -110154,9 +110154,9 @@ void func_748(var uParam0, int iParam1, int iParam2, int iParam3, char* sParam4,
 	return;
 }
 
-char* func_749(int iParam0, int iParam1, int iParam2, int iParam3, BOOL bParam4, int iParam5) // Hash - 0xDEC245B3 ^0x6BD24571
+char* func_749(int iParam0, int iParam1, int iParam2, int iParam3, BOOL bParam4, Hash hParam5) // Hash - 0xDEC245B3 ^0x6BD24571
 {
-	if (func_750(iParam0, iParam1, iParam5))
+	if (func_750(iParam0, iParam1, hParam5))
 	{
 		return _("Arena War");
 	}
@@ -110216,7 +110216,7 @@ char* func_749(int iParam0, int iParam1, int iParam2, int iParam3, BOOL bParam4,
 			else
 				return _("Capture");
 		else if (iParam1 == 4)
-			if (iParam5 > 0 || iParam3 != 0 || IS_BIT_SET(iParam2, 15) || IS_BIT_SET(iParam2, 18) || IS_BIT_SET(iParam2, 19) || IS_BIT_SET(iParam2, 29) || IS_BIT_SET(iParam2, 28))
+			if (hParam5 > 0 || iParam3 != 0 || IS_BIT_SET(iParam2, 15) || IS_BIT_SET(iParam2, 18) || IS_BIT_SET(iParam2, 19) || IS_BIT_SET(iParam2, 29) || IS_BIT_SET(iParam2, 28))
 				return _("Adversary Mode");
 			else
 				return _("Versus Mission");
@@ -110266,7 +110266,7 @@ char* func_749(int iParam0, int iParam1, int iParam2, int iParam3, BOOL bParam4,
 	return _("Mission");
 }
 
-BOOL func_750(int iParam0, int iParam1, int iParam2) // Hash - 0x2E19A559 ^0x5B2E5E3E
+BOOL func_750(int iParam0, int iParam1, Hash hParam2) // Hash - 0x2E19A559 ^0x5B2E5E3E
 {
 	if (iParam1 == 998 || iParam0 == 3 || iParam0 == 253)
 		return 0;
@@ -110275,7 +110275,7 @@ BOOL func_750(int iParam0, int iParam1, int iParam2) // Hash - 0x2E19A559 ^0x5B2
 		return 0;
 
 	if (iParam0 == 2)
-		if (iParam1 == 22 || iParam1 == 23 || iParam1 == 20 || iParam1 == 21 || iParam2 == 999)
+		if (iParam1 == 22 || iParam1 == 23 || iParam1 == 20 || iParam1 == 21 || hParam2 == 999)
 			return 1;
 
 	if (iParam0 == 1)
@@ -110284,7 +110284,7 @@ BOOL func_750(int iParam0, int iParam1, int iParam2) // Hash - 0x2E19A559 ^0x5B2
 
 	if (iParam0 == 0 || iParam0 == 1)
 	{
-		switch (iParam2)
+		switch (hParam2)
 		{
 			case 72:
 			case 74:
@@ -110471,11 +110471,11 @@ void func_757(var uParam0, int iParam1, int iParam2) // Hash - 0x33417B79 ^0x9B3
 	return;
 }
 
-void func_758(int iParam0, int iParam1, var uParam2, int iParam3) // Hash - 0x57C41B3E ^0x57C41B3E
+void func_758(int iParam0, int iParam1, var uParam2, Hash hParam3) // Hash - 0x57C41B3E ^0x57C41B3E
 {
 	BOOL flag;
 
-	flag = func_750(iParam0, iParam1, iParam3);
+	flag = func_750(iParam0, iParam1, hParam3);
 	*uParam2 = iParam0;
 
 	if (*uParam2 == 1)
@@ -115003,14 +115003,14 @@ BOOL func_850(char* sParam0, int iParam1, BOOL bParam2) // Hash - 0xF7C7CB5C ^0x
 	return flag && flag2;
 }
 
-BOOL func_851(int* piParam0) // Hash - 0x55978EE6 ^0x74533A35
+BOOL func_851(int* piParam0) // Hash - 0x55978EE6 ^0xF39227AE
 {
 	switch (piParam0->f_9)
 	{
 		case 0:
 			if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*piParam0))
 			{
-				*piParam0 = unk_0x67D02A194A2FC2BD(&(piParam0->f_1));
+				*piParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(&(piParam0->f_1));
 				piParam0->f_9 = 1;
 			
 				if (piParam0->f_7)

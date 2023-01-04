@@ -3900,7 +3900,7 @@ void func_102() // Hash - 0x5A6F77CA ^0xD80025A1
 	return;
 }
 
-struct<16> func_103(int iParam0) // Hash - 0xC9C596BA ^0x35B95050
+struct<16> func_103(int iParam0) // Hash - 0xC9C596BA ^0x43041AD0
 {
 	var unk;
 
@@ -3909,7 +3909,7 @@ struct<16> func_103(int iParam0) // Hash - 0xC9C596BA ^0x35B95050
 
 	if (MISC::IS_PROSPERO_VERSION())
 		TEXT_LABEL_APPEND_STRING(&unk, "_ps5", 64);
-	else if (unk_0x0C545AB1CF97ABB3())
+	else if (MISC::IS_SCARLETT_VERSION())
 		TEXT_LABEL_APPEND_STRING(&unk, "_xboxsx", 64);
 	else if (MISC::IS_ORBIS_VERSION())
 		TEXT_LABEL_APPEND_STRING(&unk, "_ps4", 64);
@@ -4070,13 +4070,13 @@ void func_115() // Hash - 0x2D695D73 ^0xB884A4E4
 				{
 					if (func_45() == 53)
 					{
-						iLocal_123 = unk_0x67D02A194A2FC2BD("PLAYER_SWITCH_PROLOGUE");
+						iLocal_123 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("PLAYER_SWITCH_PROLOGUE");
 						bLocal_125 = true;
 					}
 					else
 					{
-						iLocal_123 = unk_0x67D02A194A2FC2BD("PLAYER_SWITCH");
-						iLocal_124 = unk_0x67D02A194A2FC2BD("PLAYER_SWITCH_STATS_PANEL");
+						iLocal_123 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("PLAYER_SWITCH");
+						iLocal_124 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("PLAYER_SWITCH_STATS_PANEL");
 						bLocal_125 = false;
 					}
 				
@@ -4771,7 +4771,7 @@ void func_132() // Hash - 0x311FCE8E ^0x59FCDE43
 							}
 							else if (num3 == 6)
 							{
-								if (num2 == 0 && unk_0x0C545AB1CF97ABB3() == 0)
+								if (num2 == 0 && MISC::IS_SCARLETT_VERSION() == false)
 								{
 									MISC::SET_TIME_SCALE(1f);
 									PLAYER::DISPLAY_SYSTEM_SIGNIN_UI(true);
@@ -5007,7 +5007,7 @@ void func_132() // Hash - 0x311FCE8E ^0x59FCDE43
 					}
 					else if (num3 == 6)
 					{
-						if (num2 == 0 && unk_0x0C545AB1CF97ABB3() == 0)
+						if (num2 == 0 && MISC::IS_SCARLETT_VERSION() == false)
 						{
 							MISC::SET_TIME_SCALE(1f);
 							PLAYER::DISPLAY_SYSTEM_SIGNIN_UI(true);
@@ -98098,7 +98098,7 @@ int func_796() // Hash - 0x7D216D41 ^0x841C3E20
 
 	func_702();
 
-	if (unk_0xAD5557B96C01009F() == 0)
+	if (NETWORK::NETWORK_IS_SHOWING_SYSTEM_UI_OR_RECENTLY_REQUESTED_UPSELL() == false)
 		HUD::SET_WARNING_MESSAGE_WITH_HEADER(entryHeader, entryLine1, 16384, 0, false, -1, 0, 0, true, 0);
 	else
 		GRAPHICS::DRAW_RECT(0f, 0f, 1f, 1f, 0, 0, 0, 255, false);
@@ -98558,9 +98558,9 @@ BOOL func_809(int iParam0) // Hash - 0x6F91644A ^0x40AC1373
 	return true;
 }
 
-BOOL func_810() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_810() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 int func_811() // Hash - 0x1A2D2247 ^0xA79EB085

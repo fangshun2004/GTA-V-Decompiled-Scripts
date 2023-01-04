@@ -101425,9 +101425,9 @@ BOOL func_722(Any* panParam0, Any* panParam1) // Hash - 0x3FAA596E ^0xD327A77C
 	return false;
 }
 
-BOOL func_723() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_723() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 void func_724(var uParam0) // Hash - 0x443D01ED ^0xFC5AC4CB
@@ -103464,9 +103464,9 @@ void func_748(int iParam0, int iParam1) // Hash - 0xDB1AE92A ^0x37F38A75
 	return;
 }
 
-var func_749() // Hash - 0x4D4BB92C ^0x34EBE005
+int func_749() // Hash - 0x4D4BB92C ^0x53033085
 {
-	return unk_0x67D02A194A2FC2BD("SC_LEADERBOARD");
+	return GRAPHICS::REQUEST_SCALEFORM_MOVIE("SC_LEADERBOARD");
 }
 
 void func_750(int iParam0) // Hash - 0xE47D2A15 ^0xE47D2A15
@@ -104578,14 +104578,14 @@ void func_798(var uParam0, var uParam1) // Hash - 0xB0557081 ^0xD8E52A95
 	return;
 }
 
-var func_799() // Hash - 0x1234744A ^0xFBC5DC2B
+int func_799() // Hash - 0x1234744A ^0xF331FCC8
 {
-	return unk_0x67D02A194A2FC2BD("MP_BIG_MESSAGE_FREEMODE");
+	return GRAPHICS::REQUEST_SCALEFORM_MOVIE("MP_BIG_MESSAGE_FREEMODE");
 }
 
-void func_800(var uParam0) // Hash - 0xD7CDA7C4 ^0xCF8BCCE3
+void func_800(var uParam0) // Hash - 0xD7CDA7C4 ^0x5536F155
 {
-	*uParam0 = unk_0x67D02A194A2FC2BD("COUNTDOWN");
+	*uParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("COUNTDOWN");
 	AUDIO::REQUEST_SCRIPT_AUDIO_BANK("HUD_321_GO", false, -1);
 	return;
 }

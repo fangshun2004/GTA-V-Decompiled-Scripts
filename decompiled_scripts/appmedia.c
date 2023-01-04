@@ -856,9 +856,9 @@ void func_26() // Hash - 0xB11C63F1 ^0xAA3455A
 	return;
 }
 
-BOOL func_27() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_27() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 void func_28() // Hash - 0x9A294216 ^0x61E87755

@@ -16333,9 +16333,9 @@ BOOL func_92() // Hash - 0x4C81F065 ^0x79C65D03
 	return MISC::IS_ORBIS_VERSION() || MISC::IS_PROSPERO_VERSION();
 }
 
-BOOL func_93() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_93() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_94() // Hash - 0x98B7EFDD ^0x98B7EFDD
@@ -25568,12 +25568,12 @@ void func_275() // Hash - 0x4941A993 ^0x296D04CD
 	return;
 }
 
-BOOL func_276() // Hash - 0xB47AC439 ^0xF09705E2
+BOOL func_276() // Hash - 0xB47AC439 ^0xF304DF0E
 {
 	switch (iLocal_3455)
 	{
 		case 0:
-			iLocal_3454 = unk_0x67D02A194A2FC2BD("SECURITY_CAM");
+			iLocal_3454 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("SECURITY_CAM");
 			iLocal_3455 = iLocal_3455 + 1;
 			break;
 	

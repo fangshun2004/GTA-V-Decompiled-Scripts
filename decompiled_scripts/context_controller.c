@@ -1211,9 +1211,9 @@ int func_39() // Hash - 0xF9396AAC ^0xF9396AAC
 	return num;
 }
 
-BOOL func_40() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_40() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 void func_41() // Hash - 0x876C8D90 ^0x876C8D90

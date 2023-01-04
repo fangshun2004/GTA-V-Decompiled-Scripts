@@ -55245,9 +55245,9 @@ BOOL func_483() // Hash - 0x4C81F065 ^0x79C65D03
 	return MISC::IS_ORBIS_VERSION() || MISC::IS_PROSPERO_VERSION();
 }
 
-BOOL func_484() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_484() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_485() // Hash - 0x98B7EFDD ^0x98B7EFDD
@@ -55708,9 +55708,9 @@ BOOL func_508(var uParam0, Entity eParam1, int iParam2, Entity eParam3, int iPar
 	{
 		if (uParam0->f_5 == 0)
 			if (Global_1581961 != -1)
-				iLocal_148 = unk_0x67D02A194A2FC2BD(func_539());
+				iLocal_148 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(func_539());
 			else
-				iLocal_148 = unk_0x67D02A194A2FC2BD(func_539());
+				iLocal_148 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(func_539());
 	
 		GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("helicopterhud", false);
 	
@@ -62164,7 +62164,7 @@ BOOL func_614() // Hash - 0xC27B6825 ^0xC27B6825
 					AUDIO::START_AUDIO_SCENE("TOD_SHIFT_SCENE");
 					STREAMING::REQUEST_MODEL(joaat("POLMAV"));
 					STREAMING::REQUEST_MODEL(hLocal_3163);
-					unk_0x67D02A194A2FC2BD("heli_cam");
+					GRAPHICS::REQUEST_SCALEFORM_MOVIE("heli_cam");
 					GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("helicopterhud", false);
 					iLocal_1771 = iLocal_1771 + 1;
 				}
@@ -128536,7 +128536,7 @@ int func_1005(int iParam0, int iParam1, int iParam2) // Hash - 0x1F4BA057 ^0xEF0
 	return 0;
 }
 
-void func_1006(int iParam0, int iParam1, int iParam2, BOOL bParam3) // Hash - 0x87AD91B9 ^0x403DEF03
+void func_1006(int iParam0, int iParam1, int iParam2, BOOL bParam3) // Hash - 0x87AD91B9 ^0x89CCD9A
 {
 	BOOL flag;
 
@@ -128552,7 +128552,7 @@ void func_1006(int iParam0, int iParam1, int iParam2, BOOL bParam3) // Hash - 0x
 		switch (iLocal_1437)
 		{
 			case 0:
-				unk_0x67D02A194A2FC2BD("heli_cam");
+				GRAPHICS::REQUEST_SCALEFORM_MOVIE("heli_cam");
 				GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("helicopterhud", false);
 				func_1017(0);
 			
@@ -128584,7 +128584,7 @@ void func_1006(int iParam0, int iParam1, int iParam2, BOOL bParam3) // Hash - 0x
 						STREAMING::LOAD_SCENE(461.877f, -984.3531f, 42.692f);
 					}
 				
-					unk_0x67D02A194A2FC2BD("heli_cam");
+					GRAPHICS::REQUEST_SCALEFORM_MOVIE("heli_cam");
 					GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("helicopterhud", false);
 					func_1013(2);
 					PLAYER::SET_WANTED_LEVEL_MULTIPLIER(1f);
@@ -128673,7 +128673,7 @@ void func_1006(int iParam0, int iParam1, int iParam2, BOOL bParam3) // Hash - 0x
 					func_950(1);
 				}
 			
-				unk_0x67D02A194A2FC2BD("heli_cam");
+				GRAPHICS::REQUEST_SCALEFORM_MOVIE("heli_cam");
 				GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("helicopterhud", false);
 				func_1017(0);
 				func_548(false);
@@ -128691,7 +128691,7 @@ void func_1006(int iParam0, int iParam1, int iParam2, BOOL bParam3) // Hash - 0x
 				func_1017(3);
 				func_238(1, 2);
 				func_1013(2);
-				unk_0x67D02A194A2FC2BD("heli_cam");
+				GRAPHICS::REQUEST_SCALEFORM_MOVIE("heli_cam");
 				GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("helicopterhud", false);
 				iLocal_1742[0 /*2*/] = VEHICLE::CREATE_VEHICLE(joaat("POLMAV"), 1374.2163f, -2074.3337f, 58.9988f, 28.3f, true, true, false);
 				VEHICLE::SET_VEHICLE_LIVERY(iLocal_1742[0 /*2*/], 0);
@@ -128763,7 +128763,7 @@ void func_1006(int iParam0, int iParam1, int iParam2, BOOL bParam3) // Hash - 0x
 					func_950(1);
 				}
 			
-				unk_0x67D02A194A2FC2BD("heli_cam");
+				GRAPHICS::REQUEST_SCALEFORM_MOVIE("heli_cam");
 				GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("helicopterhud", false);
 				func_1017(4);
 				func_238(3, 2);
@@ -128844,7 +128844,7 @@ void func_1006(int iParam0, int iParam1, int iParam2, BOOL bParam3) // Hash - 0x
 					func_950(1);
 				}
 			
-				unk_0x67D02A194A2FC2BD("heli_cam");
+				GRAPHICS::REQUEST_SCALEFORM_MOVIE("heli_cam");
 				GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("helicopterhud", false);
 				func_1017(5);
 				func_1013(2);
@@ -128920,7 +128920,7 @@ void func_1006(int iParam0, int iParam1, int iParam2, BOOL bParam3) // Hash - 0x
 					func_950(1);
 				}
 			
-				unk_0x67D02A194A2FC2BD("heli_cam");
+				GRAPHICS::REQUEST_SCALEFORM_MOVIE("heli_cam");
 				GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("helicopterhud", false);
 				uLocal_2211.f_42 = 1;
 				AUDIO::START_AUDIO_SCENE("CAR_2_CAR_CHASE_START");
@@ -129008,7 +129008,7 @@ void func_1006(int iParam0, int iParam1, int iParam2, BOOL bParam3) // Hash - 0x
 			case 7:
 				AUDIO::START_AUDIO_SCENE("CAR_2_CAR_ENTERS_GARAGE");
 				func_1017(9);
-				unk_0x67D02A194A2FC2BD("heli_cam");
+				GRAPHICS::REQUEST_SCALEFORM_MOVIE("heli_cam");
 				GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("helicopterhud", false);
 				func_238(9, 14);
 				func_1013(2);
@@ -129087,7 +129087,7 @@ void func_1006(int iParam0, int iParam1, int iParam2, BOOL bParam3) // Hash - 0x
 				func_238(9, 14);
 				func_1013(2);
 				STREAMING::REQUEST_MODEL(hLocal_3164);
-				unk_0x67D02A194A2FC2BD("heli_cam");
+				GRAPHICS::REQUEST_SCALEFORM_MOVIE("heli_cam");
 				GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("helicopterhud", false);
 				func_429(0, joaat("POLMAV"), -1301.2561f, -253.3784f, 54f, -49.3f, -1027080192);
 				VEHICLE::SET_VEHICLE_LIVERY(iLocal_1742[0 /*2*/], 0);

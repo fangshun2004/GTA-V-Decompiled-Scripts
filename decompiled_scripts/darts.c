@@ -3737,7 +3737,7 @@ BOOL func_45(var uParam0, BOOL bParam1, int iParam2) // Hash - 0x1EA0BF2F ^0xE66
 		GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("CommonMenu", false);
 		GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("MPLeaderboard", false);
 		GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("MPHud", false);
-		uParam0->f_1 = unk_0x67D02A194A2FC2BD("MP_BIG_MESSAGE_FREEMODE");
+		uParam0->f_1 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MP_BIG_MESSAGE_FREEMODE");
 		uParam0->f_2 = 0;
 		uParam0->f_3 = 0;
 	}
@@ -8724,9 +8724,9 @@ BOOL func_165(Any* panParam0, Any* panParam1) // Hash - 0x3FAA596E ^0xD327A77C
 	return false;
 }
 
-BOOL func_166() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_166() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_167() // Hash - 0x4C81F065 ^0x79C65D03
@@ -10906,9 +10906,9 @@ void func_199(int iParam0, int iParam1) // Hash - 0x3A9FFA56 ^0x47262CC6
 	return;
 }
 
-var func_200() // Hash - 0xB58A1E6 ^0xEB77C100
+int func_200() // Hash - 0xB58A1E6 ^0xC0D14283
 {
-	return unk_0x67D02A194A2FC2BD("SC_LEADERBOARD");
+	return GRAPHICS::REQUEST_SCALEFORM_MOVIE("SC_LEADERBOARD");
 }
 
 BOOL func_201() // Hash - 0x5976C0FC ^0xC3C6644E
@@ -22492,14 +22492,14 @@ BOOL func_456(char* sParam0, int iParam1, BOOL bParam2) // Hash - 0xF7C7CB5C ^0x
 	return flag && flag2;
 }
 
-BOOL func_457(int iParam0) // Hash - 0x55978EE6 ^0x74533A35
+BOOL func_457(int iParam0) // Hash - 0x55978EE6 ^0xF39227AE
 {
 	switch (iParam0->f_9)
 	{
 		case 0:
 			if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*iParam0))
 			{
-				*iParam0 = unk_0x67D02A194A2FC2BD(&(iParam0->f_1));
+				*iParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(&(iParam0->f_1));
 				iParam0->f_9 = 1;
 			
 				if (iParam0->f_7)
@@ -22535,7 +22535,7 @@ BOOL func_457(int iParam0) // Hash - 0x55978EE6 ^0x74533A35
 	return iParam0->f_9 == 2;
 }
 
-void func_458(var uParam0, var uParam1) // Hash - 0xD938B7E6 ^0x294E0D8A
+void func_458(var uParam0, var uParam1) // Hash - 0xD938B7E6 ^0x338ABA8E
 {
 	STREAMING::REQUEST_MODEL(hLocal_28);
 	STREAMING::REQUEST_MODEL(hLocal_29);
@@ -22545,7 +22545,7 @@ void func_458(var uParam0, var uParam1) // Hash - 0xD938B7E6 ^0x294E0D8A
 	GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("ShopUI_Title_Darts", false);
 	STREAMING::REQUEST_ANIM_DICT(sLocal_361);
 	STREAMING::REQUEST_ANIM_DICT(sLocal_362);
-	*uParam0 = unk_0x67D02A194A2FC2BD("darts_scoreboard");
+	*uParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("darts_scoreboard");
 	uParam1->f_645 = func_200();
 	uParam1->f_57 = func_460();
 	uParam1->f_62 = func_459();
@@ -22553,14 +22553,14 @@ void func_458(var uParam0, var uParam1) // Hash - 0xD938B7E6 ^0x294E0D8A
 	return;
 }
 
-var func_459() // Hash - 0xB58A1E6 ^0xEB61080C
+int func_459() // Hash - 0xB58A1E6 ^0xA720EAFF
 {
-	return unk_0x67D02A194A2FC2BD("MIDSIZED_MESSAGE");
+	return GRAPHICS::REQUEST_SCALEFORM_MOVIE("MIDSIZED_MESSAGE");
 }
 
-var func_460() // Hash - 0xB58A1E6 ^0x37D7E276
+int func_460() // Hash - 0xB58A1E6 ^0xC4735C09
 {
-	return unk_0x67D02A194A2FC2BD("MP_BIG_MESSAGE_FREEMODE");
+	return GRAPHICS::REQUEST_SCALEFORM_MOVIE("MP_BIG_MESSAGE_FREEMODE");
 }
 
 void func_461(var uParam0, int iParam1, Vector3 vParam2, var uParam3, var uParam4, float fParam5) // Hash - 0xAA063739 ^0x24A0C674

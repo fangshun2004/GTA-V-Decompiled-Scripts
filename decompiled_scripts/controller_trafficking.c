@@ -2418,9 +2418,9 @@ BOOL func_82() // Hash - 0x4C81F065 ^0x79C65D03
 	return MISC::IS_ORBIS_VERSION() || MISC::IS_PROSPERO_VERSION();
 }
 
-BOOL func_83() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_83() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 void func_84(const char* sParam0, int iParam1) // Hash - 0x1166ABB2 ^0x89B55D9D

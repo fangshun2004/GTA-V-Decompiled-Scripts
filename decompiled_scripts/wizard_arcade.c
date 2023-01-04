@@ -4568,7 +4568,7 @@ void main() // Hash - 0x5D84F89F ^0x5D84F89F
 
 void func_1(var uParam0, int iParam1) // Hash - 0x16A021E7 ^0x70D22334
 {
-	int eventData;
+	struct<8> eventData;
 	BOOL flag;
 	BOOL flag2;
 	int playerBits;
@@ -4620,7 +4620,7 @@ void func_1(var uParam0, int iParam1) // Hash - 0x16A021E7 ^0x70D22334
 	
 		if (playerBits != -1)
 		{
-			SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 8, playerBits);
+			SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 8, playerBits);
 			uParam0->f_5 = 1;
 		}
 	}
@@ -74539,7 +74539,7 @@ void func_383(int* piParam0, var uParam1, Entity eParam2, Vector3 vParam3, var u
 
 void func_384(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4) // Hash - 0x48DE75E1 ^0xA7726E6F
 {
-	int eventData;
+	struct<9> eventData;
 	int playerBits;
 
 	eventData = -2038261342;
@@ -74555,7 +74555,7 @@ void func_384(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4) /
 	playerBits = func_385(true);
 
 	if (!playerBits == 0)
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 9, playerBits);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 9, playerBits);
 
 	return;
 }
@@ -75646,14 +75646,14 @@ BOOL func_431(var uParam0, Hash hParam1) // Hash - 0xB78927E0 ^0x592B06C7
 	return num;
 }
 
-void func_432(int iParam0) // Hash - 0x2B3204A0 ^0xF1BE1658
+void func_432(int iParam0) // Hash - 0x2B3204A0 ^0xBF745E78
 {
-	int eventData;
+	struct<3> eventData;
 
 	eventData.f_1 = PLAYER::PLAYER_ID();
 	eventData = -68283627;
 	eventData.f_2 = iParam0;
-	SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 3, func_433(true, true));
+	SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 3, func_433(true, true));
 	return;
 }
 
@@ -75717,7 +75717,7 @@ void func_434(int* piParam0) // Hash - 0xD8767928 ^0x3B001338
 	return;
 }
 
-void func_435(var uParam0, Hash hParam1) // Hash - 0xB65C3A57 ^0xC8007ADF
+void func_435(var uParam0, Hash hParam1) // Hash - 0xB65C3A57 ^0x7835690C
 {
 	if (IS_BIT_SET(*uParam0, 8))
 	{
@@ -75725,7 +75725,7 @@ void func_435(var uParam0, Hash hParam1) // Hash - 0xB65C3A57 ^0xC8007ADF
 		STREAMING::REQUEST_MODEL(joaat("CH_PROP_LASERDRILL_01A"));
 	
 		if (uParam0->f_40 == 0)
-			uParam0->f_40 = unk_0x67D02A194A2FC2BD("VAULT_LASER");
+			uParam0->f_40 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("VAULT_LASER");
 	
 		AUDIO::REQUEST_SCRIPT_AUDIO_BANK("DLC_HEIST3\\HEIST_FINALE_LASER_DRILL", false, -1);
 	}
@@ -75735,7 +75735,7 @@ void func_435(var uParam0, Hash hParam1) // Hash - 0xB65C3A57 ^0xC8007ADF
 		STREAMING::REQUEST_MODEL(joaat("CH_PROP_CH_HEIST_DRILL"));
 	
 		if (uParam0->f_40 == 0)
-			uParam0->f_40 = unk_0x67D02A194A2FC2BD("VAULT_DRILL");
+			uParam0->f_40 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("VAULT_DRILL");
 	
 		AUDIO::REQUEST_SCRIPT_AUDIO_BANK("DLC_MPHEIST\\HEIST_FLEECA_DRILL", false, -1);
 		AUDIO::REQUEST_SCRIPT_AUDIO_BANK("DLC_MPHEIST\\HEIST_FLEECA_DRILL_2", false, -1);
@@ -86659,7 +86659,7 @@ int func_608() // Hash - 0x7B0E05F0 ^0xEF2C99FE
 
 void func_609(Player plParam0, int iParam1, int iParam2, var uParam3, var uParam4, int iParam5) // Hash - 0x6C01CFC1 ^0x23E43B9D
 {
-	int eventData;
+	struct<7> eventData;
 	int playerBits;
 
 	eventData = 1354970087;
@@ -86672,7 +86672,7 @@ void func_609(Player plParam0, int iParam1, int iParam2, var uParam3, var uParam
 	playerBits = func_2(plParam0);
 
 	if (!playerBits == 0)
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 7, playerBits);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 7, playerBits);
 
 	return;
 }
@@ -98664,7 +98664,7 @@ void func_811(int iParam0) // Hash - 0x3E08D9D5 ^0x2334084B
 
 void func_812(Player plParam0, int iParam1) // Hash - 0xB016F254 ^0xD93E7A7F
 {
-	int eventData;
+	struct<3> eventData;
 	int playerBits;
 
 	eventData = -1443768844;
@@ -98673,7 +98673,7 @@ void func_812(Player plParam0, int iParam1) // Hash - 0xB016F254 ^0xD93E7A7F
 	playerBits = func_2(plParam0);
 
 	if (!playerBits == 0 && func_19(plParam0, false, true))
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 3, playerBits);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 3, playerBits);
 
 	return;
 }

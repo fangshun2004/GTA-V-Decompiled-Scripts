@@ -5557,9 +5557,9 @@ BOOL func_28() // Hash - 0x4C81F065 ^0x79C65D03
 	return MISC::IS_ORBIS_VERSION() || MISC::IS_PROSPERO_VERSION();
 }
 
-BOOL func_29() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_29() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_30() // Hash - 0x98B7EFDD ^0x98B7EFDD
@@ -121109,10 +121109,10 @@ BOOL func_811(var uParam0) // Hash - 0xCC2AE4EB ^0x6F7C72FE
 				{
 					STREAMING::REQUEST_MODEL(pedLocal_712.f_1);
 					STREAMING::REQUEST_ANIM_DICT("missfam6ig_7_tattoo");
-					iLocal_1033 = unk_0x67D02A194A2FC2BD("tattoo_buttons");
+					iLocal_1033 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("tattoo_buttons");
 				
 					if (MISC::IS_PC_VERSION())
-						iLocal_1034 = unk_0x67D02A194A2FC2BD("tattoo_keys");
+						iLocal_1034 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("tattoo_keys");
 				
 					if (func_824() && STREAMING::HAS_MODEL_LOADED(pedLocal_712.f_1) && STREAMING::HAS_ANIM_DICT_LOADED("missfam6ig_7_tattoo"))
 					{
@@ -122821,10 +122821,10 @@ BOOL func_826(var uParam0) // Hash - 0xC89AFE5B ^0xDDA886EA
 		case 2:
 			STREAMING::REQUEST_MODEL(pedLocal_712.f_1);
 			STREAMING::REQUEST_ANIM_DICT("missfam6ig_7_tattoo");
-			iLocal_1033 = unk_0x67D02A194A2FC2BD("tattoo_buttons");
+			iLocal_1033 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("tattoo_buttons");
 		
 			if (MISC::IS_PC_VERSION())
-				iLocal_1034 = unk_0x67D02A194A2FC2BD("tattoo_keys");
+				iLocal_1034 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("tattoo_keys");
 		
 			if (!CAM::DOES_CAM_EXIST(caLocal_1029))
 			{

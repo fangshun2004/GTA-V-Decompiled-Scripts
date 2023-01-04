@@ -1448,7 +1448,7 @@ BOOL func_20(int* piParam0) // Hash - 0xA8A91C80 ^0xA8A91C80
 	return IS_BIT_SET(*piParam0, 1);
 }
 
-void func_21() // Hash - 0x724DC525 ^0x48B86E09
+void func_21() // Hash - 0x724DC525 ^0x7DC9F389
 {
 	switch (iLocal_81)
 	{
@@ -1457,7 +1457,7 @@ void func_21() // Hash - 0x724DC525 ^0x48B86E09
 			{
 				if (!func_29())
 				{
-					iLocal_232 = unk_0x67D02A194A2FC2BD("MIDSIZED_MESSAGE");
+					iLocal_232 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MIDSIZED_MESSAGE");
 				
 					while (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_232))
 					{

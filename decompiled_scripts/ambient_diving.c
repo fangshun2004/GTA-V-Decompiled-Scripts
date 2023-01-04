@@ -1264,7 +1264,7 @@ BOOL func_25(int iParam0) // Hash - 0x3F44A899 ^0x7041C53
 	return false;
 }
 
-void func_26(var uParam0, var uParam1, var uParam2, int iParam3, var uParam4, int* piParam5, char* sParam6, char* sParam7) // Hash - 0x72677A1A ^0x7497C9A8
+void func_26(var uParam0, var uParam1, var uParam2, int iParam3, var uParam4, int* piParam5, char* sParam6, char* sParam7) // Hash - 0x72677A1A ^0x215E6D4
 {
 	int soundId;
 
@@ -1275,7 +1275,7 @@ void func_26(var uParam0, var uParam1, var uParam2, int iParam3, var uParam4, in
 		switch (*uParam4)
 		{
 			case 0:
-				*piParam5 = unk_0x67D02A194A2FC2BD("MIDSIZED_MESSAGE");
+				*piParam5 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MIDSIZED_MESSAGE");
 			
 				if (GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*piParam5))
 				{

@@ -1344,9 +1344,9 @@ void func_18(var uParam0) // Hash - 0xE8BEEC23 ^0x742C776B
 	return;
 }
 
-void func_19(int iParam0) // Hash - 0x3E4408A1 ^0x32934AAF
+void func_19(int iParam0) // Hash - 0x3E4408A1 ^0x6D8D3FF5
 {
-	int eventData;
+	struct<3> eventData;
 	int playerBits;
 
 	eventData = -1043196575;
@@ -1355,7 +1355,7 @@ void func_19(int iParam0) // Hash - 0x3E4408A1 ^0x32934AAF
 	playerBits = func_20(true);
 
 	if (!playerBits == 0)
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 3, playerBits);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 3, playerBits);
 
 	return;
 }
@@ -5423,7 +5423,7 @@ void func_128(var uParam0) // Hash - 0xE29CD02D ^0x13A088EB
 
 void func_129(int iParam0, float fParam1, int iParam2, int iParam3) // Hash - 0x69E62C74 ^0x632E52A3
 {
-	int eventData;
+	struct<6> eventData;
 	int playerBits;
 
 	eventData.f_2 = -1;
@@ -5439,7 +5439,7 @@ void func_129(int iParam0, float fParam1, int iParam2, int iParam3) // Hash - 0x
 	playerBits = func_20(false);
 
 	if (!playerBits == 0)
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 6, playerBits);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 6, playerBits);
 
 	return;
 }
@@ -5563,9 +5563,9 @@ void func_132(var uParam0, int iParam1) // Hash - 0x9853D97D ^0x58546458
 	return;
 }
 
-void func_133(int iParam0) // Hash - 0x3E4408A1 ^0x5DEEE7B8
+void func_133(int iParam0) // Hash - 0x3E4408A1 ^0x7A575276
 {
-	int eventData;
+	struct<3> eventData;
 	int playerBits;
 
 	eventData = 1478491877;
@@ -5574,7 +5574,7 @@ void func_133(int iParam0) // Hash - 0x3E4408A1 ^0x5DEEE7B8
 	playerBits = func_20(true);
 
 	if (!playerBits == 0)
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 3, playerBits);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 3, playerBits);
 
 	return;
 }
@@ -7417,12 +7417,12 @@ void func_180() // Hash - 0xD39EBC16 ^0xE54D0827
 	return;
 }
 
-void func_181(var uParam0) // Hash - 0x8AA5014D ^0xFD1D959A
+void func_181(var uParam0) // Hash - 0x8AA5014D ^0x807DDE2D
 {
 	if (!IS_BIT_SET(iLocal_382[iLocal_234 /*2*/].f_1, 0))
 	{
 		func_183();
-		uParam0->f_34 = unk_0x67D02A194A2FC2BD("dont_cross_the_line");
+		uParam0->f_34 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("dont_cross_the_line");
 	
 		if (func_182() && GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(uParam0->f_34))
 		{

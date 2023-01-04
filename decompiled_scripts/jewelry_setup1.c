@@ -90061,7 +90061,7 @@ void func_464() // Hash - 0x6699BF ^0x6817DC13
 		case 4:
 			func_539(0, 0);
 			func_538(12);
-			iLocal_227 = unk_0x67D02A194A2FC2BD("camera_gallery");
+			iLocal_227 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("camera_gallery");
 			func_465();
 		
 			while (!func_537(0, 0) || !func_536(12))
@@ -90101,7 +90101,7 @@ void func_464() // Hash - 0x6699BF ^0x6817DC13
 			break;
 	
 		case 5:
-			iLocal_227 = unk_0x67D02A194A2FC2BD("camera_gallery");
+			iLocal_227 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("camera_gallery");
 			func_465();
 			AUDIO::REQUEST_MISSION_AUDIO_BANK("JWL_HEIST_SETUP", false, -1);
 			func_539(0, 0);
@@ -94894,9 +94894,9 @@ BOOL func_518() // Hash - 0x4C81F065 ^0x79C65D03
 	return MISC::IS_ORBIS_VERSION() || MISC::IS_PROSPERO_VERSION();
 }
 
-BOOL func_519() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_519() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_520() // Hash - 0x98B7EFDD ^0x98B7EFDD
@@ -99059,7 +99059,7 @@ void func_569() // Hash - 0xAA58828A ^0xB6700B4D
 		TASK::REQUEST_WAYPOINT_RECORDING("BB_JEW_1");
 		TASK::REQUEST_WAYPOINT_RECORDING("BB_JEW_2");
 		AUDIO::REQUEST_MISSION_AUDIO_BANK("JWL_HEIST_SETUP", false, -1);
-		iLocal_227 = unk_0x67D02A194A2FC2BD("camera_gallery");
+		iLocal_227 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("camera_gallery");
 		func_465();
 		func_290(PLAYER::PLAYER_PED_ID(), 14, 62, 0, -1, 0, 0, 0, -1, -1, -1, 0, 0, 0);
 	

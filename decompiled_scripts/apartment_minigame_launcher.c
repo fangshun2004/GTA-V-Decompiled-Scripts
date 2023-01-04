@@ -957,7 +957,7 @@ void func_3() // Hash - 0x916E7C0B ^0xF2D5A34A
 
 void func_4(int iParam0, Player plParam1, int iParam2, BOOL bParam3, BOOL bParam4, BOOL bParam5) // Hash - 0xBA53337B ^0x39F4D263
 {
-	int eventData;
+	struct<6> eventData;
 
 	eventData = 526302252;
 	eventData.f_1 = PLAYER::PLAYER_ID();
@@ -967,7 +967,7 @@ void func_4(int iParam0, Player plParam1, int iParam2, BOOL bParam3, BOOL bParam
 	eventData.f_4 = plParam1;
 	eventData.f_3 = iParam2;
 	eventData.f_5 = iParam0;
-	SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 6, func_5(plParam1));
+	SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 6, func_5(plParam1));
 	return;
 }
 
@@ -1306,15 +1306,15 @@ BOOL func_17(int* piParam0, int iParam1, BOOL bParam2) // Hash - 0xC0714CB ^0x22
 	return false;
 }
 
-void func_18(int iParam0, Player plParam1, int iParam2) // Hash - 0x76D8C843 ^0x414416F4
+void func_18(int iParam0, Player plParam1, int iParam2) // Hash - 0x76D8C843 ^0x7A643147
 {
-	int eventData;
+	struct<6> eventData;
 
 	eventData = iParam0;
 	eventData.f_1 = PLAYER::PLAYER_ID();
 	eventData.f_4 = plParam1;
 	eventData.f_3 = iParam2;
-	SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 6, func_5(plParam1));
+	SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 6, func_5(plParam1));
 	return;
 }
 
@@ -1354,7 +1354,7 @@ int func_20(var uParam0, int iParam1) // Hash - 0x1AC17D4F ^0xB525E8CC
 
 void func_21(int iParam0, var uParam1, BOOL bParam2) // Hash - 0x9720B384 ^0x7B83578F
 {
-	int eventData;
+	struct<6> eventData;
 
 	eventData = -355443351;
 	eventData.f_1 = PLAYER::PLAYER_ID();
@@ -1362,7 +1362,7 @@ void func_21(int iParam0, var uParam1, BOOL bParam2) // Hash - 0x9720B384 ^0x7B8
 	func_6(&(eventData.f_2), 3, false);
 	eventData.f_4 = iParam0;
 	eventData.f_3 = uParam1;
-	SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 6, func_5(iParam0));
+	SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 6, func_5(iParam0));
 	return;
 }
 
@@ -2498,16 +2498,16 @@ void func_47(int iParam0, var uParam1, var uParam2, var uParam3, var uParam4, va
 	return;
 }
 
-void func_48(Player plParam0, int iParam1) // Hash - 0x33B4DFF ^0x481ED217
+void func_48(Player plParam0, int iParam1) // Hash - 0x33B4DFF ^0x2F359C3C
 {
-	int eventData;
+	struct<6> eventData;
 
 	eventData = 1142429368;
 	eventData.f_1 = PLAYER::PLAYER_ID();
 	eventData.f_3 = iParam1;
 	eventData.f_4 = plParam0;
 	func_6(&(eventData.f_2), 3, true);
-	SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 6, func_49());
+	SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 6, func_49());
 	return;
 }
 
@@ -5853,14 +5853,14 @@ BOOL func_100(char* sParam0, int iParam1, BOOL bParam2) // Hash - 0xF7C7CB5C ^0x
 	return flag && flag2;
 }
 
-BOOL func_101(int* piParam0) // Hash - 0x55978EE6 ^0x74533A35
+BOOL func_101(int* piParam0) // Hash - 0x55978EE6 ^0xF39227AE
 {
 	switch (piParam0->f_9)
 	{
 		case 0:
 			if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*piParam0))
 			{
-				*piParam0 = unk_0x67D02A194A2FC2BD(&(piParam0->f_1));
+				*piParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(&(piParam0->f_1));
 				piParam0->f_9 = 1;
 			
 				if (piParam0->f_7)
@@ -5936,7 +5936,7 @@ float func_104(var uParam0, var uParam1, var uParam2, float fParam3, var uParam4
 
 void func_105(Player plParam0, int iParam1, BOOL bParam2) // Hash - 0x93DD8B02 ^0x9E64C5CA
 {
-	int eventData;
+	struct<6> eventData;
 
 	eventData = -631614957;
 	eventData.f_1 = PLAYER::PLAYER_ID();
@@ -5944,7 +5944,7 @@ void func_105(Player plParam0, int iParam1, BOOL bParam2) // Hash - 0x93DD8B02 ^
 	eventData.f_4 = plParam0;
 	func_6(&(eventData.f_2), 1, bParam2);
 	func_6(&(eventData.f_2), 3, true);
-	SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 6, func_49());
+	SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 6, func_49());
 	return;
 }
 

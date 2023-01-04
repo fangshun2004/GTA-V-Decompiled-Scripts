@@ -26569,7 +26569,7 @@ void func_107() // Hash - 0x72C55DDF ^0x7A03C1FD
 				{
 					if (!func_113())
 					{
-						iLocal_459 = unk_0x67D02A194A2FC2BD("MIDSIZED_MESSAGE");
+						iLocal_459 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MIDSIZED_MESSAGE");
 						iLocal_462 = MISC::GET_GAME_TIMER() + 5000;
 						iLocal_458 = iLocal_458 + 1;
 					}

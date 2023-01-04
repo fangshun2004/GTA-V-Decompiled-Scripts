@@ -82490,7 +82490,7 @@ void func_305(BOOL bParam0) // Hash - 0x4D9AD01D ^0x8AD6DD31
 
 void func_306(int iParam0, int iParam1) // Hash - 0xBF29FBCF ^0x214E3A85
 {
-	int eventData;
+	struct<4> eventData;
 
 	eventData = 113023613;
 	eventData.f_1 = PLAYER::PLAYER_ID();
@@ -82499,7 +82499,7 @@ void func_306(int iParam0, int iParam1) // Hash - 0xBF29FBCF ^0x214E3A85
 
 	if (!iParam1 == 0)
 		if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
-			SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 4, iParam1);
+			SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 4, iParam1);
 
 	return;
 }

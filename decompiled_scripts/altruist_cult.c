@@ -2133,12 +2133,12 @@ void func_61(var uParam0, int iParam1) // Hash - 0xE34D10DD ^0x2D0521E5
 	return;
 }
 
-int func_62() // Hash - 0xB58A1E6 ^0x48467A6B
+int func_62() // Hash - 0xB58A1E6 ^0x5FB168A7
 {
-	return unk_0x67D02A194A2FC2BD("MP_BIG_MESSAGE_FREEMODE");
+	return GRAPHICS::REQUEST_SCALEFORM_MOVIE("MP_BIG_MESSAGE_FREEMODE");
 }
 
-void func_63() // Hash - 0xF641121B ^0x91C9ED8A
+void func_63() // Hash - 0xF641121B ^0x905E3239
 {
 	if (!bLocal_176)
 	{
@@ -2146,7 +2146,7 @@ void func_63() // Hash - 0xF641121B ^0x91C9ED8A
 		Global_113648.f_24997.f_5 = 1000;
 		AUDIO::UNLOCK_MISSION_NEWS_STORY(64);
 		Global_113648.f_20566.f_472 = 54;
-		iLocal_399 = unk_0x67D02A194A2FC2BD("MIDSIZED_MESSAGE");
+		iLocal_399 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MIDSIZED_MESSAGE");
 		func_98(1);
 	
 		while (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_399))

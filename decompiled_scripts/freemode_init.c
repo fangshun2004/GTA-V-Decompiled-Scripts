@@ -2780,9 +2780,9 @@ BOOL func_82(Player plParam0) // Hash - 0x5000025C ^0x5000025C
 	return false;
 }
 
-BOOL func_83() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_83() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 void func_84(BOOL bParam0) // Hash - 0xDA599D44 ^0xA089A19C

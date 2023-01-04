@@ -1243,14 +1243,14 @@ BOOL func_31(char* sParam0, int iParam1, BOOL bParam2) // Hash - 0xF7C7CB5C ^0x1
 	return flag && flag2;
 }
 
-BOOL func_32(int* piParam0) // Hash - 0x55978EE6 ^0x74533A35
+BOOL func_32(int* piParam0) // Hash - 0x55978EE6 ^0xF39227AE
 {
 	switch (piParam0->f_9)
 	{
 		case 0:
 			if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*piParam0))
 			{
-				*piParam0 = unk_0x67D02A194A2FC2BD(&(piParam0->f_1));
+				*piParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(&(piParam0->f_1));
 				piParam0->f_9 = 1;
 			
 				if (piParam0->f_7)
@@ -1343,7 +1343,7 @@ void func_36() // Hash - 0xE6D3EF94 ^0xBAA3B847
 	return;
 }
 
-void func_37() // Hash - 0x3224F7A3 ^0xE1ADB0B6
+void func_37() // Hash - 0x3224F7A3 ^0x8FF36535
 {
 	var camRot;
 
@@ -1355,7 +1355,7 @@ void func_37() // Hash - 0x3224F7A3 ^0xE1ADB0B6
 
 	if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(caLocal_160.f_36))
 	{
-		caLocal_160.f_36 = unk_0x67D02A194A2FC2BD(uLocal_64.f_86.f_1);
+		caLocal_160.f_36 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(uLocal_64.f_86.f_1);
 		return;
 	}
 
@@ -2709,7 +2709,7 @@ void func_97(int iParam0) // Hash - 0xC321B74D ^0x4984D2C3
 		}
 	
 		if (!MISC::IS_STRING_NULL_OR_EMPTY(uLocal_64.f_86.f_1))
-			caLocal_160.f_36 = unk_0x67D02A194A2FC2BD(uLocal_64.f_86.f_1);
+			caLocal_160.f_36 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(uLocal_64.f_86.f_1);
 	}
 
 	if (func_102(&num, 6))

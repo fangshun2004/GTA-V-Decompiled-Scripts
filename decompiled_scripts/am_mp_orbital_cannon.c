@@ -4627,7 +4627,7 @@ BOOL func_125(var uParam0) // Hash - 0xD150E939 ^0x89E278C
 					AUDIO::START_AUDIO_SCENE("dlc_xm_orbital_cannon_camera_active_scene");
 			
 				uParam0->f_2 = 1;
-				uParam0->f_22 = unk_0x67D02A194A2FC2BD("ORBITAL_CANNON_CAM");
+				uParam0->f_22 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("ORBITAL_CANNON_CAM");
 			
 				if (GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(uParam0->f_22))
 				{
@@ -4928,7 +4928,7 @@ void func_127(var uParam0, var uParam1, var uParam2, int iParam3) // Hash - 0x10
 	if (*uParam2 == 0)
 	{
 		if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*uParam0))
-			*uParam0 = unk_0x67D02A194A2FC2BD("instructional_buttons");
+			*uParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("instructional_buttons");
 	
 		if (GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*uParam0))
 		{

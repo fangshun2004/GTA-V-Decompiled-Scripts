@@ -339,7 +339,7 @@ void main() // Hash - 0x5D84F89F ^0x5D84F89F
 								{
 									if (func_41(playerFromGamerHandle, false, true))
 									{
-										if (unk_0x50863FB83CC49DE3(&gamerHandle))
+										if (NETWORK::NETWORK_CAN_SEND_LOCAL_INVITE(&gamerHandle))
 										{
 											func_39(func_40(playerFromGamerHandle), Global_2101638, Global_2101638.f_1, 0, Global_2101638.f_2, Global_2101638.f_5);
 											func_23(0, &gamerHandle, PLAYER::GET_PLAYER_NAME(playerFromGamerHandle), 0, 3, true, 0);
@@ -944,9 +944,9 @@ BOOL func_25(int iParam0, Any* panParam1, const char* sParam2, int iParam3, cons
 	return false;
 }
 
-BOOL func_26() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_26() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_27() // Hash - 0x4C81F065 ^0x79C65D03
@@ -1166,7 +1166,7 @@ BOOL func_38(Any* panParam0) // Hash - 0xF3ECE73D ^0xD0C2FF4A
 
 void func_39(int iParam0, var uParam1, var uParam2, int iParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, var uParam12) // Hash - 0x5606AF9A ^0xB342C6AE
 {
-	int eventData;
+	struct<15> eventData;
 
 	eventData = 1200439149;
 	eventData.f_1 = PLAYER::PLAYER_ID();
@@ -1178,7 +1178,7 @@ void func_39(int iParam0, var uParam1, var uParam2, int iParam3, var uParam4, va
 	eventData.f_14 = Global_2684799.f_1.f_2828.f_13;
 
 	if (!iParam0 == 0)
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 15, iParam0);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 15, iParam0);
 
 	return;
 }

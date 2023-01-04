@@ -16284,9 +16284,9 @@ void func_341(var uParam0) // Hash - 0xDE020810 ^0x2B1B7DE0
 	return;
 }
 
-var func_342() // Hash - 0xB58A1E6 ^0x2CBCC82A
+int func_342() // Hash - 0xB58A1E6 ^0xD7790339
 {
-	return unk_0x67D02A194A2FC2BD("MP_BIG_MESSAGE_FREEMODE");
+	return GRAPHICS::REQUEST_SCALEFORM_MOVIE("MP_BIG_MESSAGE_FREEMODE");
 }
 
 void func_343(var uParam0) // Hash - 0x1982F492 ^0xC92895F
@@ -16839,9 +16839,9 @@ void func_367(var uParam0) // Hash - 0x522F750B ^0x234F8A32
 	return;
 }
 
-var func_368() // Hash - 0xB58A1E6 ^0x5E992A39
+int func_368() // Hash - 0xB58A1E6 ^0xE4EC8830
 {
-	return unk_0x67D02A194A2FC2BD("SC_LEADERBOARD");
+	return GRAPHICS::REQUEST_SCALEFORM_MOVIE("SC_LEADERBOARD");
 }
 
 BOOL func_369(int iParam0) // Hash - 0x97428BA3 ^0x8197AD30
@@ -24957,9 +24957,9 @@ BOOL func_527(Any* panParam0, Any* panParam1) // Hash - 0x3FAA596E ^0xD327A77C
 	return false;
 }
 
-BOOL func_528() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_528() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 void func_529(var uParam0) // Hash - 0x443D01ED ^0x407D1AE8
@@ -27923,9 +27923,9 @@ void func_595(BOOL bParam0) // Hash - 0x95271CD0 ^0xC6969AF1
 	return;
 }
 
-void func_596(var uParam0) // Hash - 0x8D24B35B ^0xC245A7EB
+void func_596(var uParam0) // Hash - 0x8D24B35B ^0x855052ED
 {
-	*uParam0 = unk_0x67D02A194A2FC2BD("COUNTDOWN");
+	*uParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("COUNTDOWN");
 	AUDIO::REQUEST_SCRIPT_AUDIO_BANK("HUD_321_GO", false, -1);
 	return;
 }

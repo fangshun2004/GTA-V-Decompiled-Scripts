@@ -37824,9 +37824,9 @@ void func_243(var uParam0, BOOL bParam1, int iParam2) // Hash - 0xCC10CD64 ^0x93
 	return;
 }
 
-void func_244(var uParam0) // Hash - 0x8994BDF1 ^0x34B8FD76
+void func_244(var uParam0) // Hash - 0x8994BDF1 ^0xB2490364
 {
-	*uParam0 = unk_0x67D02A194A2FC2BD(func_245());
+	*uParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(func_245());
 	return;
 }
 
@@ -54944,9 +54944,9 @@ BOOL func_430() // Hash - 0x4C81F065 ^0x79C65D03
 	return MISC::IS_ORBIS_VERSION() || MISC::IS_PROSPERO_VERSION();
 }
 
-BOOL func_431() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_431() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_432() // Hash - 0x98B7EFDD ^0x98B7EFDD

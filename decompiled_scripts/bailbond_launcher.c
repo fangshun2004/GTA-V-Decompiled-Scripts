@@ -11329,7 +11329,7 @@ BOOL func_250() // Hash - 0xB23DBE04 ^0x2D338795
 	return false;
 }
 
-void func_251() // Hash - 0x65C0F959 ^0x9FEDBED1
+void func_251() // Hash - 0x65C0F959 ^0x42A57E07
 {
 	char* componentType;
 
@@ -11341,7 +11341,7 @@ void func_251() // Hash - 0x65C0F959 ^0x9FEDBED1
 		switch (iLocal_225)
 		{
 			case 1:
-				iLocal_220 = unk_0x67D02A194A2FC2BD("MIDSIZED_MESSAGE");
+				iLocal_220 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MIDSIZED_MESSAGE");
 				iLocal_225 = 2;
 				break;
 		

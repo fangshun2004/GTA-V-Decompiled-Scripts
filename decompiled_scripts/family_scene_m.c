@@ -114816,9 +114816,9 @@ void func_735(var uParam0, BOOL bParam1, int iParam2) // Hash - 0xCC10CD64 ^0x81
 	return;
 }
 
-void func_736(var uParam0) // Hash - 0x8994BDF1 ^0x34B8FD76
+void func_736(var uParam0) // Hash - 0x8994BDF1 ^0xB2490364
 {
-	*uParam0 = unk_0x67D02A194A2FC2BD(func_737());
+	*uParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(func_737());
 	return;
 }
 

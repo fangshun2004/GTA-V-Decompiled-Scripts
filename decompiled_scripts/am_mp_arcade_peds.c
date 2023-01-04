@@ -1078,7 +1078,7 @@ void func_32(var uParam0, BOOL bParam1, BOOL bParam2) // Hash - 0x6A4AB354 ^0xD9
 
 void func_33(int iParam0, int iParam1) // Hash - 0x11BC4E5E ^0x82A7864B
 {
-	int eventData;
+	struct<4> eventData;
 	int playerBits;
 
 	eventData = -295285447;
@@ -1088,7 +1088,7 @@ void func_33(int iParam0, int iParam1) // Hash - 0x11BC4E5E ^0x82A7864B
 	playerBits = func_34(true);
 
 	if (!playerBits == 0)
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 4, playerBits);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 4, playerBits);
 
 	return;
 }

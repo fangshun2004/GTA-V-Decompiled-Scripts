@@ -617,7 +617,7 @@ int func_8(int iParam0) // Hash - 0xA47597AF ^0xBFAE1005
 	return 805;
 }
 
-void func_9() // Hash - 0x2A0BE944 ^0xDC070022
+void func_9() // Hash - 0x2A0BE944 ^0x9543C426
 {
 	int soundId;
 
@@ -628,7 +628,7 @@ void func_9() // Hash - 0x2A0BE944 ^0xDC070022
 			case 0:
 				if (!CAM::IS_SCREEN_FADED_OUT())
 				{
-					iLocal_41 = unk_0x67D02A194A2FC2BD("MIDSIZED_MESSAGE");
+					iLocal_41 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MIDSIZED_MESSAGE");
 				
 					if (GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_41))
 					{

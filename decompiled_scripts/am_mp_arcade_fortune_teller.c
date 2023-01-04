@@ -498,7 +498,7 @@ void func_10(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, va
 
 void func_11(var uParam0, BOOL bParam1) // Hash - 0x3C119C6B ^0xB4FC2143
 {
-	int eventData;
+	struct<39> eventData;
 	BOOL flag;
 	int playerBits;
 
@@ -541,7 +541,7 @@ void func_11(var uParam0, BOOL bParam1) // Hash - 0x3C119C6B ^0xB4FC2143
 		if (playerBits != 0)
 		{
 			uParam0->f_32 = 1;
-			SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 39, playerBits);
+			SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 39, playerBits);
 		}
 	}
 
@@ -2656,7 +2656,7 @@ BOOL func_78(Ped pedParam0) // Hash - 0x3D210083 ^0xF7E7C389
 
 void func_79(var uParam0, int iParam1) // Hash - 0x16A021E7 ^0x70D22334
 {
-	int eventData;
+	struct<8> eventData;
 	BOOL flag;
 	BOOL flag2;
 	int playerBits;
@@ -2708,7 +2708,7 @@ void func_79(var uParam0, int iParam1) // Hash - 0x16A021E7 ^0x70D22334
 	
 		if (playerBits != -1)
 		{
-			SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 8, playerBits);
+			SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 8, playerBits);
 			uParam0->f_5 = 1;
 		}
 	}
@@ -2806,7 +2806,7 @@ void func_84() // Hash - 0xF3407C5D ^0xAE92F4B2
 
 void func_85(var uParam0, var uParam1, var uParam2, var uParam3) // Hash - 0x77E9041 ^0xB575A9F6
 {
-	int eventData;
+	struct<6> eventData;
 	int playerBits;
 
 	eventData = -283273310;
@@ -2818,7 +2818,7 @@ void func_85(var uParam0, var uParam1, var uParam2, var uParam3) // Hash - 0x77E
 	playerBits = func_86(true);
 
 	if (!playerBits == 0)
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 6, playerBits);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 6, playerBits);
 
 	return;
 }

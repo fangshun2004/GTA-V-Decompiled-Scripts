@@ -79,7 +79,7 @@ void main() // Hash - 0x5D84F89F ^0x5D84F89F
 	if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(3))
 		func_2();
 
-	iLocal_18 = unk_0x67D02A194A2FC2BD("p_bubblegum");
+	iLocal_18 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("p_bubblegum");
 
 	while (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_18))
 	{

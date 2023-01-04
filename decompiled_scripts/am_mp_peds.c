@@ -118942,7 +118942,7 @@ void func_1537(int iParam0, var uParam1, var uParam2, var uParam3, char* sParam4
 void func_1538(int iParam0, int iParam1, BOOL bParam2) // Hash - 0xB4901E3B ^0x9CA4AA91
 {
 	int playerBits;
-	int eventData;
+	struct<4> eventData;
 
 	playerBits = func_1540(PLAYER::PLAYER_ID());
 
@@ -118956,7 +118956,7 @@ void func_1538(int iParam0, int iParam1, BOOL bParam2) // Hash - 0xB4901E3B ^0x9
 	eventData.f_1 = PLAYER::PLAYER_ID();
 	eventData.f_2 = iParam1;
 	eventData.f_3 = iParam0;
-	SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 4, playerBits);
+	SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 4, playerBits);
 	return;
 }
 

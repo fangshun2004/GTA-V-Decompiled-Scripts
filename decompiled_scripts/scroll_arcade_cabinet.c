@@ -5073,7 +5073,7 @@ BOOL func_73(int iParam0, int iParam1, int iParam2) // Hash - 0xC4089568 ^0x8EC3
 
 void func_74(Player plParam0, int iParam1, int iParam2, var uParam3, var uParam4, int iParam5) // Hash - 0x6C01CFC1 ^0x23E43B9D
 {
-	int eventData;
+	struct<7> eventData;
 	int playerBits;
 
 	eventData = 1354970087;
@@ -5086,7 +5086,7 @@ void func_74(Player plParam0, int iParam1, int iParam2, var uParam3, var uParam4
 	playerBits = func_75(plParam0);
 
 	if (!playerBits == 0)
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 7, playerBits);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 7, playerBits);
 
 	return;
 }
@@ -7346,9 +7346,9 @@ BOOL func_116() // Hash - 0x8E091D62 ^0x230252DD
 	return false;
 }
 
-BOOL func_117() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_117() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_118(var uParam0, int iParam1, BOOL bParam2) // Hash - 0x154EA353 ^0xBFA672B0
@@ -15293,7 +15293,7 @@ void func_374() // Hash - 0xC7B332D3 ^0xC19D8F07
 
 void func_375(Player plParam0, int iParam1) // Hash - 0xB016F254 ^0xD93E7A7F
 {
-	int eventData;
+	struct<3> eventData;
 	int playerBits;
 
 	eventData = -1443768844;
@@ -15302,7 +15302,7 @@ void func_375(Player plParam0, int iParam1) // Hash - 0xB016F254 ^0xD93E7A7F
 	playerBits = func_75(plParam0);
 
 	if (!playerBits == 0 && func_81(plParam0, false, true))
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 3, playerBits);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 3, playerBits);
 
 	return;
 }
@@ -15448,7 +15448,7 @@ int func_379(int iParam0) // Hash - 0x1465D3FC ^0x8507EA37
 
 void func_380(var uParam0, int iParam1) // Hash - 0x16A021E7 ^0x70D22334
 {
-	int eventData;
+	struct<8> eventData;
 	BOOL flag;
 	BOOL flag2;
 	int playerBits;
@@ -15500,7 +15500,7 @@ void func_380(var uParam0, int iParam1) // Hash - 0x16A021E7 ^0x70D22334
 	
 		if (playerBits != -1)
 		{
-			SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 8, playerBits);
+			SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 8, playerBits);
 			uParam0->f_5 = 1;
 		}
 	}

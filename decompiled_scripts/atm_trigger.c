@@ -1076,7 +1076,7 @@ int func_5(int iParam0) // Hash - 0x7F0E29AD ^0x84091235
 	return -1;
 }
 
-void func_6(int iParam0, var uParam1, Object obParam2, BOOL bParam3) // Hash - 0xE926D834 ^0xE8FCC493
+void func_6(int iParam0, var uParam1, Object obParam2, BOOL bParam3) // Hash - 0xE926D834 ^0x2308B338
 {
 	BOOL flag;
 	int gameTimer;
@@ -1088,7 +1088,7 @@ void func_6(int iParam0, var uParam1, Object obParam2, BOOL bParam3) // Hash - 0
 
 	Global_60543 = 1;
 	flag = false;
-	iLocal_603 = unk_0x67D02A194A2FC2BD("ATM");
+	iLocal_603 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("ATM");
 	iLocal_604 = GRAPHICS::REQUEST_SCALEFORM_MOVIE_INSTANCE("INSTRUCTIONAL_BUTTONS");
 
 	if (func_61(obParam2))

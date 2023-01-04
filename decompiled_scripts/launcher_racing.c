@@ -738,9 +738,9 @@ char* func_3(int iParam0) // Hash - 0x43536C15 ^0xE3FA5DA9
 	return str;
 }
 
-BOOL func_4() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_4() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_5() // Hash - 0x4C81F065 ^0x79C65D03
@@ -6189,14 +6189,14 @@ BOOL func_131(char* sParam0, int iParam1, BOOL bParam2) // Hash - 0xF7C7CB5C ^0x
 	return flag && flag2;
 }
 
-BOOL func_132(int iParam0) // Hash - 0x9F66FE01 ^0xE0768ECB
+BOOL func_132(int iParam0) // Hash - 0x9F66FE01 ^0x65F37CB
 {
 	switch (iParam0->f_9)
 	{
 		case 0:
 			if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*iParam0))
 			{
-				*iParam0 = unk_0x67D02A194A2FC2BD(&(iParam0->f_1));
+				*iParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(&(iParam0->f_1));
 				iParam0->f_9 = 1;
 			
 				if (iParam0->f_7)

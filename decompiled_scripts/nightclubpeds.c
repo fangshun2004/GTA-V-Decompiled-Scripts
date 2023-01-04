@@ -17917,7 +17917,7 @@ int func_97(int iParam0) // Hash - 0x5F0F209E ^0xBBEA8E6B
 
 void func_98(Player plParam0, int iParam1, int iParam2) // Hash - 0x671BD5B1 ^0x228D3A56
 {
-	int eventData;
+	struct<4> eventData;
 	Player i;
 	int address;
 	Player player;
@@ -17937,7 +17937,7 @@ void func_98(Player plParam0, int iParam1, int iParam2) // Hash - 0x671BD5B1 ^0x
 	}
 
 	if (!address == 0)
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 4, address);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 4, address);
 
 	return;
 }

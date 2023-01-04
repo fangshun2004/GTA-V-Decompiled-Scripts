@@ -156,7 +156,7 @@ void main() // Hash - 0x5D84F89F ^0x5D84F89F
 		switch (iLocal_45)
 		{
 			case 0:
-				iLocal_46 = unk_0x67D02A194A2FC2BD("mission_complete");
+				iLocal_46 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("mission_complete");
 				iLocal_45 = 1;
 				break;
 		

@@ -83189,9 +83189,9 @@ BOOL func_321(var uParam0) // Hash - 0xA96582B9 ^0x68EE0E8F
 	return false;
 }
 
-void func_322(var uParam0) // Hash - 0x8994BDF1 ^0x34B8FD76
+void func_322(var uParam0) // Hash - 0x8994BDF1 ^0xB2490364
 {
-	*uParam0 = unk_0x67D02A194A2FC2BD(func_323());
+	*uParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(func_323());
 	return;
 }
 
@@ -83326,10 +83326,10 @@ BOOL func_327(var uParam0, int iParam1, int iParam2, int iParam3, int iParam4, i
 			
 				uParam0->f_1 = { ENTITY::GET_ENTITY_COORDS(*uParam0, true) };
 				uParam0->f_4 = { ENTITY::GET_ENTITY_ROTATION(*uParam0, 2) };
-				iLocal_439 = unk_0x67D02A194A2FC2BD("yoga_buttons");
+				iLocal_439 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("yoga_buttons");
 			
 				if (MISC::IS_PC_VERSION())
-					iLocal_440 = unk_0x67D02A194A2FC2BD("yoga_keys");
+					iLocal_440 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("yoga_keys");
 			
 				if (func_411() && func_365())
 				{
@@ -83484,10 +83484,10 @@ BOOL func_327(var uParam0, int iParam1, int iParam2, int iParam3, int iParam4, i
 			break;
 	
 		case 4:
-			iLocal_439 = unk_0x67D02A194A2FC2BD("yoga_buttons");
+			iLocal_439 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("yoga_buttons");
 		
 			if (MISC::IS_PC_VERSION())
-				iLocal_440 = unk_0x67D02A194A2FC2BD("yoga_keys");
+				iLocal_440 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("yoga_keys");
 		
 			if (func_365())
 			{
@@ -87513,7 +87513,7 @@ void func_398() // Hash - 0x200762DC ^0xA75E47D5
 	}
 	else
 	{
-		iLocal_1350 = unk_0x67D02A194A2FC2BD("instructional_buttons");
+		iLocal_1350 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("instructional_buttons");
 		bLocal_1351 = true;
 	}
 
@@ -87555,7 +87555,7 @@ void func_399(var uParam0, var uParam1, var uParam2, int iParam3) // Hash - 0x64
 	if (*uParam2 == 0)
 	{
 		if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*uParam0))
-			*uParam0 = unk_0x67D02A194A2FC2BD("instructional_buttons");
+			*uParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("instructional_buttons");
 	
 		if (GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*uParam0))
 		{

@@ -12149,9 +12149,9 @@ BOOL func_78() // Hash - 0x4C81F065 ^0x79C65D03
 	return MISC::IS_ORBIS_VERSION() || MISC::IS_PROSPERO_VERSION();
 }
 
-BOOL func_79() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_79() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_80() // Hash - 0x98B7EFDD ^0x98B7EFDD
@@ -124899,7 +124899,7 @@ void func_966() // Hash - 0xEA2BF057 ^0x3C70DA98
 	
 		if (!bLocal_1854)
 		{
-			iLocal_2603 = unk_0x67D02A194A2FC2BD("traffic_cam");
+			iLocal_2603 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("traffic_cam");
 			bLocal_1854 = true;
 		}
 	
@@ -126736,7 +126736,7 @@ void func_980() // Hash - 0xF7ABB4CF ^0x2F5476E8
 			
 				if (!bLocal_1854)
 				{
-					iLocal_2603 = unk_0x67D02A194A2FC2BD("traffic_cam");
+					iLocal_2603 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("traffic_cam");
 					bLocal_1854 = true;
 				}
 			

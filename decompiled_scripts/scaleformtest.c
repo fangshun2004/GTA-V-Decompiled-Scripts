@@ -42,7 +42,7 @@ void main() // Hash - 0x5D84F89F ^0x5D84F89F
 	if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(3))
 		func_5();
 
-	iLocal_19 = unk_0x67D02A194A2FC2BD("instructional_buttons");
+	iLocal_19 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("instructional_buttons");
 
 	while (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_19))
 	{

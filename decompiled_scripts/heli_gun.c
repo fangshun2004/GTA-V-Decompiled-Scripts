@@ -633,7 +633,7 @@ void func_1() // Hash - 0x558FE232 ^0xD88B4C6B
 			if (Global_1581961 != -1 || Global_1581967 != -1)
 			{
 				CAM::DO_SCREEN_FADE_OUT(250);
-				iLocal_72 = unk_0x67D02A194A2FC2BD(func_144());
+				iLocal_72 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(func_144());
 			
 				if (uLocal_73.f_214)
 					uLocal_73.f_214 = 0;
@@ -658,11 +658,11 @@ void func_1() // Hash - 0x558FE232 ^0xD88B4C6B
 			}
 			else if (func_194(veLocal_340))
 			{
-				iLocal_72 = unk_0x67D02A194A2FC2BD(func_144());
+				iLocal_72 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(func_144());
 			}
 			else
 			{
-				iLocal_72 = unk_0x67D02A194A2FC2BD(func_144());
+				iLocal_72 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(func_144());
 			}
 		
 			GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("helicopterhud", false);
@@ -773,7 +773,7 @@ void func_1() // Hash - 0x558FE232 ^0xD88B4C6B
 			if (func_121())
 				GRAPHICS::SET_SCALEFORM_MOVIE_AS_NO_LONGER_NEEDED(&iLocal_72);
 			else if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_72))
-				iLocal_72 = unk_0x67D02A194A2FC2BD(func_144());
+				iLocal_72 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(func_144());
 		
 			func_140();
 			func_115(0);
@@ -6503,7 +6503,7 @@ void func_135(var uParam0, var uParam1, var uParam2, var uParam3) // Hash - 0x86
 	return;
 }
 
-int func_136(var uParam0, Vehicle veParam1, int iParam2, Vehicle veParam3, int iParam4) // Hash - 0x445CE35C ^0xA064C138
+int func_136(var uParam0, Vehicle veParam1, int iParam2, Vehicle veParam3, int iParam4) // Hash - 0x445CE35C ^0xC05BC09F
 {
 	Vector3 entityCoords;
 	var entityRotation;
@@ -6514,9 +6514,9 @@ int func_136(var uParam0, Vehicle veParam1, int iParam2, Vehicle veParam3, int i
 	{
 		if (uParam0->f_5 == 0)
 			if (Global_1581961 != -1)
-				iLocal_72 = unk_0x67D02A194A2FC2BD(func_144());
+				iLocal_72 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(func_144());
 			else
-				iLocal_72 = unk_0x67D02A194A2FC2BD(func_144());
+				iLocal_72 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(func_144());
 	
 		GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("helicopterhud", false);
 	

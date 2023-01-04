@@ -8623,9 +8623,9 @@ BOOL func_143(Any* panParam0, Any* panParam1) // Hash - 0x3FAA596E ^0xD327A77C
 	return false;
 }
 
-BOOL func_144() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_144() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 void func_145(var uParam0) // Hash - 0xD066A10E ^0x3F1E5170
@@ -10795,9 +10795,9 @@ void func_175(int iParam0, int iParam1) // Hash - 0x3A9FFA56 ^0x2019B503
 	return;
 }
 
-var func_176() // Hash - 0xB58A1E6 ^0x73E094FF
+int func_176() // Hash - 0xB58A1E6 ^0x68F8B53B
 {
-	return unk_0x67D02A194A2FC2BD("SC_LEADERBOARD");
+	return GRAPHICS::REQUEST_SCALEFORM_MOVIE("SC_LEADERBOARD");
 }
 
 BOOL func_177() // Hash - 0x5976C0FC ^0xC3C6644E
@@ -96759,7 +96759,7 @@ int func_568(var uParam0, BOOL bParam1, int iParam2) // Hash - 0x11C9EFF9 ^0xAED
 		GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("CommonMenu", false);
 		GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("MPLeaderboard", false);
 		GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("MPHud", false);
-		uParam0->f_1 = unk_0x67D02A194A2FC2BD("MP_BIG_MESSAGE_FREEMODE");
+		uParam0->f_1 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MP_BIG_MESSAGE_FREEMODE");
 		uParam0->f_2 = 0;
 		uParam0->f_3 = 0;
 	}
@@ -105002,7 +105002,7 @@ BOOL func_782(int iParam0, float fParam1, float fParam2, float fParam3, BOOL bPa
 	
 		case 6:
 			GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("CommonMenu", false);
-			sLocal_676.f_74.f_1 = unk_0x67D02A194A2FC2BD("MP_BIG_MESSAGE_FREEMODE");
+			sLocal_676.f_74.f_1 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MP_BIG_MESSAGE_FREEMODE");
 		
 			if (GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(sLocal_676.f_74.f_1) && GRAPHICS::HAS_STREAMED_TEXTURE_DICT_LOADED("CommonMenu"))
 				return true;
@@ -107441,9 +107441,9 @@ void func_844() // Hash - 0xB6D66A36 ^0x14232F53
 	return;
 }
 
-var func_845() // Hash - 0x7ED63A9D ^0xA319F544
+int func_845() // Hash - 0x7ED63A9D ^0x2823F329
 {
-	return unk_0x67D02A194A2FC2BD("MIDSIZED_MESSAGE");
+	return GRAPHICS::REQUEST_SCALEFORM_MOVIE("MIDSIZED_MESSAGE");
 }
 
 void func_846() // Hash - 0xAA3EFAC2 ^0x2A2DA904

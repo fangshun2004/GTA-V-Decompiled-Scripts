@@ -795,9 +795,9 @@ Vector3 func_6(Player plParam0) // Hash - 0x6712BF53 ^0x688D5BEC
 	return ENTITY::GET_ENTITY_COORDS(PLAYER::GET_PLAYER_PED(plParam0), false);
 }
 
-void func_7(Player plParam0, int iParam1) // Hash - 0x73019E4B ^0x6265B067
+void func_7(Player plParam0, int iParam1) // Hash - 0x73019E4B ^0x53D36481
 {
-	int eventData;
+	struct<3> eventData;
 	int playerBits;
 
 	eventData = -248680084;
@@ -806,7 +806,7 @@ void func_7(Player plParam0, int iParam1) // Hash - 0x73019E4B ^0x6265B067
 	playerBits = func_8(plParam0);
 
 	if (!playerBits == 0)
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 3, playerBits);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 3, playerBits);
 
 	return;
 }
@@ -2850,40 +2850,40 @@ float func_109() // Hash - 0x3367D44E ^0x44FEFFD9
 	return Global_1962996.f_8;
 }
 
-var func_110() // Hash - 0x768A134 ^0x52468D5
+int func_110() // Hash - 0x768A134 ^0x52468D5
 {
-	char* str;
+	char* scaleformName;
 
-	str = "";
+	scaleformName = "";
 
 	switch (*Global_4718592.f_160097)
 	{
 		case 1:
-			str = "ARENA_GUN_CAM_APOCALYPSE";
+			scaleformName = "ARENA_GUN_CAM_APOCALYPSE";
 			break;
 	
 		case 2:
-			str = "ARENA_GUN_CAM_SCIFI";
+			scaleformName = "ARENA_GUN_CAM_SCIFI";
 			break;
 	
 		case 3:
-			str = "ARENA_GUN_CAM_CONSUMER";
+			scaleformName = "ARENA_GUN_CAM_CONSUMER";
 			break;
 	
 		default:
-			str = "INVALID_THEME";
+			scaleformName = "INVALID_THEME";
 			break;
 	}
 
-	return unk_0x67D02A194A2FC2BD(str);
+	return GRAPHICS::REQUEST_SCALEFORM_MOVIE(scaleformName);
 }
 
-var func_111() // Hash - 0x41DFD1B1 ^0x2B74B694
+int func_111() // Hash - 0x41DFD1B1 ^0xE4326CDB
 {
-	char* str;
+	char* scaleformName;
 
-	str = "SUBMARINE_MISSILES";
-	return unk_0x67D02A194A2FC2BD(str);
+	scaleformName = "SUBMARINE_MISSILES";
+	return GRAPHICS::REQUEST_SCALEFORM_MOVIE(scaleformName);
 }
 
 void func_112() // Hash - 0x949E3726 ^0x4473E6E7
@@ -3467,14 +3467,14 @@ BOOL func_128(char* sParam0, int iParam1, BOOL bParam2) // Hash - 0xF7C7CB5C ^0x
 	return flag && flag2;
 }
 
-BOOL func_129(int* piParam0) // Hash - 0x55978EE6 ^0x74533A35
+BOOL func_129(int* piParam0) // Hash - 0x55978EE6 ^0xF39227AE
 {
 	switch (piParam0->f_9)
 	{
 		case 0:
 			if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*piParam0))
 			{
-				*piParam0 = unk_0x67D02A194A2FC2BD(&(piParam0->f_1));
+				*piParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(&(piParam0->f_1));
 				piParam0->f_9 = 1;
 			
 				if (piParam0->f_7)
@@ -3515,11 +3515,11 @@ BOOL func_130() // Hash - 0x8748489D ^0x16BC194D
 	return IS_BIT_SET(uLocal_194.f_6, 6);
 }
 
-void func_131() // Hash - 0x4112D6DE ^0xA25E63A8
+void func_131() // Hash - 0x4112D6DE ^0x3160DFF
 {
 	if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(uLocal_194.f_170))
 	{
-		uLocal_194.f_170 = unk_0x67D02A194A2FC2BD("DRONE_CAM");
+		uLocal_194.f_170 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("DRONE_CAM");
 		return;
 	}
 
@@ -4384,7 +4384,7 @@ BOOL func_177() // Hash - 0x97999A47 ^0x97999A47
 
 void func_178(Player plParam0, int iParam1, int iParam2, int iParam3) // Hash - 0x704BED3F ^0x67D367A8
 {
-	int eventData;
+	struct<5> eventData;
 	int address;
 
 	eventData = -1296375264;
@@ -4398,7 +4398,7 @@ void func_178(Player plParam0, int iParam1, int iParam2, int iParam3) // Hash - 
 		MISC::SET_BIT(&address, plParam0);
 
 	if (!address == 0)
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 5, address);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 5, address);
 
 	return;
 }
@@ -4938,7 +4938,7 @@ void func_189() // Hash - 0xA6BD0D5 ^0xBF10DB35
 
 void func_190(var uParam0, var uParam1, var uParam2, BOOL bParam3) // Hash - 0x17453897 ^0x51EBD761
 {
-	int eventData;
+	struct<6> eventData;
 
 	eventData = 267489225;
 	eventData.f_1 = PLAYER::PLAYER_ID();
@@ -4947,9 +4947,9 @@ void func_190(var uParam0, var uParam1, var uParam2, BOOL bParam3) // Hash - 0x1
 
 	if (!bParam3)
 		if (!func_191(true, true) == 0)
-			SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 6, func_191(true, true));
+			SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 6, func_191(true, true));
 	else if (Global_1962996.f_21 != func_12())
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 6, func_8(Global_1962996.f_21));
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 6, func_8(Global_1962996.f_21));
 
 	return;
 }
@@ -11583,9 +11583,9 @@ void func_414() // Hash - 0x971B1003 ^0x502793D
 	return;
 }
 
-void func_415(var uParam0) // Hash - 0x7B54AE94 ^0x53476D6E
+void func_415(var uParam0) // Hash - 0x7B54AE94 ^0x5ABF3DCD
 {
-	int eventData;
+	struct<3> eventData;
 	int playerBits;
 
 	eventData = 1910624731;
@@ -11594,7 +11594,7 @@ void func_415(var uParam0) // Hash - 0x7B54AE94 ^0x53476D6E
 	playerBits = func_191(false, true);
 
 	if (playerBits != 0)
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 3, playerBits);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 3, playerBits);
 
 	return;
 }
@@ -12238,7 +12238,7 @@ void func_449() // Hash - 0xD52EB981 ^0xB82E3042
 	uLocal_194.f_128 = 90f;
 
 	if (!func_83())
-		uLocal_194.f_170 = unk_0x67D02A194A2FC2BD("DRONE_CAM");
+		uLocal_194.f_170 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("DRONE_CAM");
 	else if (func_16())
 		uLocal_194.f_170 = func_111();
 	else
@@ -13815,7 +13815,7 @@ BOOL func_524(Player plParam0) // Hash - 0xA439E034 ^0x18C6D29E
 
 void func_525(var uParam0, int iParam1) // Hash - 0x16A021E7 ^0x70D22334
 {
-	int eventData;
+	struct<8> eventData;
 	BOOL flag;
 	BOOL flag2;
 	int playerBits;
@@ -13867,7 +13867,7 @@ void func_525(var uParam0, int iParam1) // Hash - 0x16A021E7 ^0x70D22334
 	
 		if (playerBits != -1)
 		{
-			SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 8, playerBits);
+			SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 8, playerBits);
 			uParam0->f_5 = 1;
 		}
 	}

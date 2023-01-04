@@ -2922,7 +2922,7 @@ void func_59() // Hash - 0x686FBA93 ^0x6E02833
 
 void func_60(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4) // Hash - 0x62DF5F31 ^0x68F380AB
 {
-	int eventData;
+	struct<6> eventData;
 
 	eventData = 653628905;
 	eventData.f_1 = PLAYER::PLAYER_ID();
@@ -2932,7 +2932,7 @@ void func_60(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4) //
 	eventData.f_5 = iParam4;
 
 	if (!iParam0 == 0)
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 6, iParam0);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 6, iParam0);
 
 	return;
 }

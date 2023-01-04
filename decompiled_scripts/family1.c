@@ -122115,9 +122115,9 @@ BOOL func_912(Hash hParam0, int iParam1) // Hash - 0xB65C7EC1 ^0x96BD8F23
 	return num;
 }
 
-BOOL func_913() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_913() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_914() // Hash - 0x98B7EFDD ^0x98B7EFDD

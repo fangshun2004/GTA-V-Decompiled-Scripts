@@ -6216,9 +6216,9 @@ BOOL func_112() // Hash - 0x4C81F065 ^0x79C65D03
 	return MISC::IS_ORBIS_VERSION() || MISC::IS_PROSPERO_VERSION();
 }
 
-BOOL func_113() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_113() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 void func_114(char* sParam0, Any anParam1, int iParam2) // Hash - 0x817AB180 ^0x34C4CEC2
@@ -23716,9 +23716,9 @@ BOOL func_363(var uParam0) // Hash - 0xA96582B9 ^0x68EE0E8F
 	return false;
 }
 
-void func_364(var uParam0) // Hash - 0x8994BDF1 ^0x34B8FD76
+void func_364(var uParam0) // Hash - 0x8994BDF1 ^0xB2490364
 {
-	*uParam0 = unk_0x67D02A194A2FC2BD(func_365());
+	*uParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(func_365());
 	return;
 }
 

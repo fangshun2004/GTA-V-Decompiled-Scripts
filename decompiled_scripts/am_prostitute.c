@@ -432,9 +432,9 @@ BOOL func_4() // Hash - 0xFCC91B74 ^0x18592D43
 	return false;
 }
 
-void func_5() // Hash - 0xDAF427FC ^0xF10F2568
+void func_5() // Hash - 0xDAF427FC ^0xFF9E68A5
 {
-	int eventData;
+	struct<2> eventData;
 	int playerBits;
 
 	eventData = -1763294690;
@@ -442,7 +442,7 @@ void func_5() // Hash - 0xDAF427FC ^0xF10F2568
 	playerBits = func_6(true, true);
 
 	if (playerBits != 0)
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 2, playerBits);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 2, playerBits);
 
 	return;
 }

@@ -1620,9 +1620,9 @@ BOOL func_39() // Hash - 0x4C81F065 ^0x79C65D03
 	return MISC::IS_ORBIS_VERSION() || MISC::IS_PROSPERO_VERSION();
 }
 
-BOOL func_40() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_40() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_41() // Hash - 0x532A64A3 ^0xD2742F25
@@ -10068,7 +10068,7 @@ void func_365(var uParam0, var uParam1, var uParam2, int iParam3) // Hash - 0x10
 	if (*uParam2 == 0)
 	{
 		if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*uParam0))
-			*uParam0 = unk_0x67D02A194A2FC2BD("instructional_buttons");
+			*uParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("instructional_buttons");
 	
 		if (GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*uParam0))
 		{
@@ -10538,10 +10538,10 @@ void func_390(var uParam0, int iParam1) // Hash - 0xCDF5D1A7 ^0x25321F9C
 	return;
 }
 
-void func_391(var uParam0) // Hash - 0x138DB615 ^0xEDA32FCC
+void func_391(var uParam0) // Hash - 0x138DB615 ^0xDBB433A1
 {
-	uParam0->f_711 = unk_0x67D02A194A2FC2BD(func_393(uParam0));
-	uParam0->f_712 = unk_0x67D02A194A2FC2BD(func_392(uParam0));
+	uParam0->f_711 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(func_393(uParam0));
+	uParam0->f_712 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(func_392(uParam0));
 	return;
 }
 
@@ -11796,7 +11796,7 @@ void func_476(int iParam0, int iParam1) // Hash - 0x80CEB713 ^0x32DB7C0D
 
 void func_477(int iParam0, int iParam1, int iParam2, int iParam3, var uParam4, int iParam5) // Hash - 0xDB43F9C0 ^0x1BA877CF
 {
-	int eventData;
+	struct<7> eventData;
 
 	eventData = 1311159119;
 	eventData.f_1 = PLAYER::PLAYER_ID();
@@ -11807,7 +11807,7 @@ void func_477(int iParam0, int iParam1, int iParam2, int iParam3, var uParam4, i
 	eventData.f_6 = iParam5;
 
 	if (!iParam1 == 0)
-		SCRIPT::TRIGGER_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 7, iParam1);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(SCRIPT_EVENT_QUEUE_NETWORK, &eventData, 7, iParam1);
 
 	return;
 }

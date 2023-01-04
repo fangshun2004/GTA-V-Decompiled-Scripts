@@ -2119,7 +2119,7 @@
 	var uLocal_2117 = 0;
 	var uLocal_2118 = 0;
 	var uLocal_2119 = 0;
-	var uLocal_2120 = 0;
+	int iLocal_2120 = 0;
 	var uLocal_2121 = 0;
 	var uLocal_2122 = 0;
 	var uLocal_2123 = 0;
@@ -2928,7 +2928,7 @@ void func_1() // Hash - 0x9C8D0C3 ^0x9B197DEA
 			break;
 	
 		case 1:
-			if (func_29(&uLocal_2120, &uLocal_1981, "CRACEFAIL", sLocal_180, &bLocal_141, 78, 7, true, 1097859072, true))
+			if (func_29(&iLocal_2120, &uLocal_1981, "CRACEFAIL", sLocal_180, &bLocal_141, 78, 7, true, 1097859072, true))
 			{
 				if (bLocal_141)
 				{
@@ -6220,9 +6220,9 @@ BOOL func_24(var uParam0) // Hash - 0x79FAE51D ^0x8B0447
 	return GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*uParam0) && AUDIO::REQUEST_SCRIPT_AUDIO_BANK("HUD_321_GO", false, -1);
 }
 
-void func_25(var uParam0) // Hash - 0x8D24B35B ^0xDA11B624
+void func_25(var uParam0) // Hash - 0x8D24B35B ^0xCAE3F8D0
 {
-	*uParam0 = unk_0x67D02A194A2FC2BD("COUNTDOWN");
+	*uParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("COUNTDOWN");
 	AUDIO::REQUEST_SCRIPT_AUDIO_BANK("HUD_321_GO", false, -1);
 	return;
 }
@@ -9281,9 +9281,9 @@ BOOL func_79() // Hash - 0x4C81F065 ^0x79C65D03
 	return MISC::IS_ORBIS_VERSION() || MISC::IS_PROSPERO_VERSION();
 }
 
-BOOL func_80() // Hash - 0x4C81F065 ^0xA2709774
+BOOL func_80() // Hash - 0x4C81F065 ^0xB17A9745
 {
-	return MISC::IS_DURANGO_VERSION() || unk_0x0C545AB1CF97ABB3();
+	return MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION();
 }
 
 BOOL func_81() // Hash - 0x98B7EFDD ^0x98B7EFDD
@@ -11313,7 +11313,7 @@ int func_130(var uParam0, BOOL bParam1, int iParam2) // Hash - 0x52FB0248 ^0x165
 		GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("CommonMenu", false);
 		GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("MPLeaderboard", false);
 		GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT("MPHud", false);
-		uParam0->f_1 = unk_0x67D02A194A2FC2BD("MP_BIG_MESSAGE_FREEMODE");
+		uParam0->f_1 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MP_BIG_MESSAGE_FREEMODE");
 		uParam0->f_2 = 0;
 		uParam0->f_3 = 0;
 	}
@@ -17260,7 +17260,7 @@ void func_239() // Hash - 0x9567DDE3 ^0xB7729B1B
 			func_272(&(iLocal_46.f_1), 2);
 			func_272(&(iLocal_46.f_1), 1);
 			func_271();
-			uLocal_2120 = func_270();
+			iLocal_2120 = func_270();
 			func_269(&uLocal_1981, 1050253722, 1073741824);
 		
 			if (Global_113648.f_25075.f_2 < 2)
@@ -18128,9 +18128,9 @@ void func_269(var uParam0, int iParam1, int iParam2) // Hash - 0xD9E08608 ^0x60C
 	return;
 }
 
-var func_270() // Hash - 0xB58A1E6 ^0x61373AB9
+int func_270() // Hash - 0xB58A1E6 ^0x9DB6C03C
 {
-	return unk_0x67D02A194A2FC2BD("MP_BIG_MESSAGE_FREEMODE");
+	return GRAPHICS::REQUEST_SCALEFORM_MOVIE("MP_BIG_MESSAGE_FREEMODE");
 }
 
 void func_271() // Hash - 0xB4884CA ^0x668E3957
@@ -20827,12 +20827,12 @@ void func_340() // Hash - 0xADB05DD7 ^0xC955BBD9
 	return;
 }
 
-void func_341(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, var uParam12, var uParam13, var uParam14, var uParam15, var uParam16, var uParam17, var uParam18, var uParam19, var uParam20) // Hash - 0x1B6E4F00 ^0x8B995283
+void func_341(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, var uParam12, var uParam13, var uParam14, var uParam15, var uParam16, var uParam17, var uParam18, var uParam19, var uParam20) // Hash - 0x1B6E4F00 ^0xABC20874
 {
 	switch (*uParam0)
 	{
 		case 1:
-			uParam0->f_2 = unk_0x67D02A194A2FC2BD("MIDSIZED_MESSAGE");
+			uParam0->f_2 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MIDSIZED_MESSAGE");
 		
 			if (GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(uParam0->f_2))
 				*uParam0 = 2;

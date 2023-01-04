@@ -3042,14 +3042,14 @@ BOOL func_62(char* sParam0, int iParam1, BOOL bParam2) // Hash - 0xF7C7CB5C ^0x1
 	return flag && flag2;
 }
 
-BOOL func_63(int iParam0) // Hash - 0x55978EE6 ^0x74533A35
+BOOL func_63(int iParam0) // Hash - 0x55978EE6 ^0xF39227AE
 {
 	switch (iParam0->f_9)
 	{
 		case 0:
 			if (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(*iParam0))
 			{
-				*iParam0 = unk_0x67D02A194A2FC2BD(&(iParam0->f_1));
+				*iParam0 = GRAPHICS::REQUEST_SCALEFORM_MOVIE(&(iParam0->f_1));
 				iParam0->f_9 = 1;
 			
 				if (iParam0->f_7)
