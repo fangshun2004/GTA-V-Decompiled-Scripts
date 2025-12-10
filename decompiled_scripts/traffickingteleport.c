@@ -87,7 +87,7 @@ void func_1(int iParam0, int iParam1)
 	{
 		return;
 	}
-	Global_114344.f_8617[iParam0] = 1;
-	Global_114344.f_8617.f_236[iParam0] = (MISC::GET_GAME_TIMER() + iParam1);
+	Global_114904.f_8620[iParam0] = 1;
+	Global_114904.f_8620.f_236[iParam0] = (MISC::GET_GAME_TIMER() + iParam1);
 }
 

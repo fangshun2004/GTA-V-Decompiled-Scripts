@@ -37,7 +37,7 @@ void __EntryFunction__()
 	iLocal_15 = -1;
 	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
-		if (BitTest(Global_1686694, 1))
+		if (BitTest(Global_1690394, 1))
 		{
 			func_25();
 		}
@@ -179,23 +179,23 @@ struct<5> func_3(int iParam0, struct<3> Param1, int iParam4, int iParam5, int iP
 	iVar11 = PLAYER::NETWORK_PLAYER_ID_TO_INT();
 	if (bParam7)
 	{
-		Global_1908351[iVar11 /*309*/].f_102.f_21[iVar5 /*14*/].f_12 = SCRIPT::GET_HASH_OF_THIS_SCRIPT_NAME();
-		Global_1908351[iVar11 /*309*/].f_102.f_21[iVar5 /*14*/].f_13 = NETWORK::NETWORK_GET_POSITION_HASH_OF_THIS_SCRIPT();
-		if (Global_1908351[iVar11 /*309*/].f_102.f_21[iVar5 /*14*/].f_13 == 0)
+		Global_1912395[iVar11 /*315*/].f_102.f_21[iVar5 /*14*/].f_12 = SCRIPT::GET_HASH_OF_THIS_SCRIPT_NAME();
+		Global_1912395[iVar11 /*315*/].f_102.f_21[iVar5 /*14*/].f_13 = NETWORK::NETWORK_GET_POSITION_HASH_OF_THIS_SCRIPT();
+		if (Global_1912395[iVar11 /*315*/].f_102.f_21[iVar5 /*14*/].f_13 == 0)
 		{
-			Global_1908351[iVar11 /*309*/].f_102.f_21[iVar5 /*14*/].f_13 = NETWORK::NETWORK_GET_INSTANCE_ID_OF_THIS_SCRIPT();
-			Global_1908351[iVar11 /*309*/].f_102.f_21[iVar5 /*14*/].f_11 = 1;
+			Global_1912395[iVar11 /*315*/].f_102.f_21[iVar5 /*14*/].f_13 = NETWORK::NETWORK_GET_INSTANCE_ID_OF_THIS_SCRIPT();
+			Global_1912395[iVar11 /*315*/].f_102.f_21[iVar5 /*14*/].f_11 = 1;
 		}
 		else
 		{
-			Global_1908351[iVar11 /*309*/].f_102.f_21[iVar5 /*14*/].f_11 = 2;
+			Global_1912395[iVar11 /*315*/].f_102.f_21[iVar5 /*14*/].f_11 = 2;
 		}
 	}
-	Global_1908351[iVar11 /*309*/].f_102.f_21[iVar5 /*14*/] = { Var6 };
-	Global_1908351[iVar11 /*309*/].f_102.f_21[iVar5 /*14*/].f_5 = { Param1 };
-	Global_1908351[iVar11 /*309*/].f_102.f_21[iVar5 /*14*/].f_8 = iParam4;
-	Global_1908351[iVar11 /*309*/].f_102.f_21[iVar5 /*14*/].f_9 = iParam5;
-	Global_1908351[iVar11 /*309*/].f_102.f_21[iVar5 /*14*/].f_10 = iParam6;
+	Global_1912395[iVar11 /*315*/].f_102.f_21[iVar5 /*14*/] = { Var6 };
+	Global_1912395[iVar11 /*315*/].f_102.f_21[iVar5 /*14*/].f_5 = { Param1 };
+	Global_1912395[iVar11 /*315*/].f_102.f_21[iVar5 /*14*/].f_8 = iParam4;
+	Global_1912395[iVar11 /*315*/].f_102.f_21[iVar5 /*14*/].f_9 = iParam5;
+	Global_1912395[iVar11 /*315*/].f_102.f_21[iVar5 /*14*/].f_10 = iParam6;
 	return Var6;
 }
 
@@ -210,7 +210,7 @@ int func_4(var uParam0)
 	iVar0 = 0;
 	while (iVar0 < 10)
 	{
-		if (func_5(uParam0, &(Global_2652584.f_2452[iVar0 /*16*/])))
+		if (func_5(uParam0, &(Global_2652579.f_2452[iVar0 /*16*/])))
 		{
 			return iVar0;
 		}
@@ -268,7 +268,7 @@ int func_9(int iParam0)
 	iVar1 = 0;
 	while (iVar1 < 10)
 	{
-		if (!func_7(&(Global_1908351[iParam0 /*309*/].f_102.f_21[iVar1 /*14*/])))
+		if (!func_7(&(Global_1912395[iParam0 /*315*/].f_102.f_21[iVar1 /*14*/])))
 		{
 			iVar0 = iVar1;
 		}
@@ -289,7 +289,7 @@ int func_10()
 	iVar1 = 0;
 	while (iVar1 < 10)
 	{
-		if (!func_7(&(Global_2652584.f_2452[iVar1 /*16*/])))
+		if (!func_7(&(Global_2652579.f_2452[iVar1 /*16*/])))
 		{
 			iVar0 = iVar1;
 		}
@@ -324,7 +324,7 @@ int func_11(int iParam0)
 
 var func_12()
 {
-	return Global_262145.f_30250;
+	return Global_262145.f_30339;
 }
 
 int func_13(int iParam0, int iParam1)
@@ -352,7 +352,7 @@ int func_13(int iParam0, int iParam1)
 
 int func_14()
 {
-	if (Global_1575058 == 0)
+	if (Global_1575062 == 0)
 	{
 		if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 		{
@@ -363,7 +363,7 @@ int func_14()
 	{
 		return 1;
 	}
-	if (Global_2699129)
+	if (Global_2699567)
 	{
 		return 1;
 	}
@@ -413,7 +413,7 @@ int func_15()
 
 int func_16()
 {
-	switch (Global_2699236)
+	switch (Global_2699676)
 	{
 		case 0:
 			return joaat("freemode");
@@ -425,12 +425,12 @@ int func_16()
 
 int func_17()
 {
-	return Global_33281;
+	return Global_33775;
 }
 
 bool func_18()
 {
-	return Global_2684745.f_700;
+	return Global_2685150.f_700;
 }
 
 int func_19(int iParam0)
@@ -444,12 +444,12 @@ int func_19(int iParam0)
 
 bool func_20()
 {
-	return Global_2696538;
+	return Global_2696964;
 }
 
 bool func_21()
 {
-	return Global_2684745.f_695;
+	return Global_2685150.f_695;
 }
 
 int func_22(int iParam0, int iParam1, bool bParam2)
@@ -560,7 +560,7 @@ bool func_23(bool bParam0)
 	if (bParam0)
 	{
 	}
-	return Global_1575058;
+	return Global_1575062;
 }
 
 void func_24()

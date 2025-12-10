@@ -448,12 +448,13 @@ void func_9(int* iParam0, bool bParam1)
 
 void func_10(int iParam0, int iParam1, int iParam2, bool bParam3)
 {
-	func_11((iParam0[iParam1 /*122*/])->f_2[iParam2 /*20*/], &((iParam0[iParam1 /*122*/])->f_2[iParam2 /*20*/].f_1), -1, 0, !bParam3, 0, 300f, 0, -1, -1, 1, 0, 0);
+	func_11((iParam0[iParam1 /*122*/])->f_2[iParam2 /*20*/], &((iParam0[iParam1 /*122*/])->f_2[iParam2 /*20*/].f_1), -1, 0, !bParam3, 0, 300f, 0, -1, -1, 1, 0, 0, 1, 0);
 }
 
-int func_11(int iParam0, var uParam1, int iParam2, int iParam3, bool bParam4, bool bParam5, float fParam6, char* sParam7, int iParam8, int iParam9, bool bParam10, int iParam11, int iParam12)
+int func_11(int iParam0, var uParam1, int iParam2, int iParam3, bool bParam4, bool bParam5, float fParam6, char* sParam7, int iParam8, int iParam9, bool bParam10, int iParam11, int iParam12, bool bParam13, int iParam14)
 {
 	bool bVar0;
+	int iVar1;
 	
 	if (iParam3 == 0)
 	{
@@ -491,9 +492,20 @@ int func_11(int iParam0, var uParam1, int iParam2, int iParam3, bool bParam4, bo
 				}
 			}
 		}
-		if (!iParam9 == -1)
+		if (iParam9 != -1)
 		{
-			HUD::SET_PED_AI_BLIP_SPRITE(iParam0, iParam9);
+			if (bParam13)
+			{
+				HUD::SET_PED_AI_BLIP_SPRITE(iParam0, iParam9);
+			}
+			else
+			{
+				iVar1 = HUD::GET_AI_PED_PED_BLIP_INDEX(iParam0);
+				if (HUD::DOES_BLIP_EXIST(iVar1) && HUD::GET_BLIP_SPRITE(iVar1) != iParam9)
+				{
+					HUD::SET_PED_AI_BLIP_SPRITE(iParam0, iParam9);
+				}
+			}
 		}
 		HUD::SET_PED_AI_BLIP_FORCED_ON(iParam0, bParam4);
 		HUD::SET_PED_AI_BLIP_HAS_CONE(iParam0, bParam5);
@@ -567,6 +579,10 @@ int func_11(int iParam0, var uParam1, int iParam2, int iParam3, bool bParam4, bo
 		{
 			uParam1->f_1 = 0;
 			MISC::CLEAR_BIT(&(uParam1->f_6), 3);
+		}
+		else if (iParam14 && iParam9 == 41)
+		{
+			HUD::SET_BLIP_SCALE(*uParam1, 0.4f);
 		}
 	}
 	else
@@ -1202,7 +1218,7 @@ void func_33(var uParam0)
 
 int func_34()
 {
-	return func_35(Global_113051.f_20, Global_113051.f_29);
+	return func_35(Global_113611.f_20, Global_113611.f_29);
 }
 
 int func_35(int iParam0, int iParam1)
@@ -1227,7 +1243,7 @@ int func_35(int iParam0, int iParam1)
 
 int func_36()
 {
-	return Global_113051.f_20;
+	return Global_113611.f_20;
 }
 
 void func_37(var uParam0)
@@ -1316,6 +1332,6 @@ void func_40(struct<61> Param0, var uParam61, var uParam62, var uParam63, var uP
 
 void func_41(int iParam0)
 {
-	Global_113051.f_22 = iParam0;
+	Global_113611.f_22 = iParam0;
 }
 

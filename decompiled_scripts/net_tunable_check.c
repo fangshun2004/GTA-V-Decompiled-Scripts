@@ -42,11 +42,11 @@ void __EntryFunction__()
 	sLocal_18 = "NULL";
 	while (true)
 	{
-		if (func_7() || Global_1958778 == 1)
+		if (func_7() || Global_1963151 == 1)
 		{
 			func_6();
 		}
-		if (func_1(&uLocal_19, &Global_299024))
+		if (func_1(&uLocal_19, &Global_299578))
 		{
 			func_6();
 		}
@@ -122,7 +122,7 @@ int func_1(var uParam0, var uParam1)
 			{
 				uParam0->f_4 = 0;
 				*uParam0++;
-				if (*uParam0 >= 29)
+				if (*uParam0 >= 30)
 				{
 					*uParam0 = 0;
 					*uParam1 = 0;
@@ -21311,21 +21311,21 @@ void func_2(int iParam0, var uParam1)
 
 int func_3()
 {
-	if (Global_2692853)
+	if (Global_2693290)
 	{
 		return 32;
 	}
-	return (32 - Global_2692854);
+	return (32 - Global_2693291);
 }
 
 int func_4(int iParam0)
 {
 	char cVar0[64];
 	
-	if (iParam0 >= 28)
+	if (iParam0 >= 29)
 	{
 		StringCopy(&cVar0, "CONTENT_MODIFIER_", 64);
-		StringIntConCat(&cVar0, (iParam0 - 28), 64);
+		StringIntConCat(&cVar0, (iParam0 - 29), 64);
 		return MISC::GET_HASH_KEY(&cVar0);
 	}
 	switch (iParam0)
@@ -21441,7 +21441,11 @@ int func_4(int iParam0)
 			return 2;
 			break;
 		
-		case 29:
+		case 28:
+			return 8031040;
+			break;
+		
+		case 30:
 			StringCopy(&cVar0, "ILLEGAL TUNABLE CONTEXT", 64);
 			break;
 	}
@@ -21463,7 +21467,7 @@ void func_6()
 
 int func_7()
 {
-	if (Global_1575058 == 0)
+	if (Global_1575062 == 0)
 	{
 		if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 		{
@@ -21474,7 +21478,7 @@ int func_7()
 	{
 		return 1;
 	}
-	if (Global_2699129)
+	if (Global_2699567)
 	{
 		return 1;
 	}
@@ -21524,7 +21528,7 @@ int func_8()
 
 int func_9()
 {
-	switch (Global_2699236)
+	switch (Global_2699676)
 	{
 		case 0:
 			return joaat("freemode");
@@ -21536,12 +21540,12 @@ int func_9()
 
 int func_10()
 {
-	return Global_33281;
+	return Global_33775;
 }
 
 bool func_11()
 {
-	return Global_2684745.f_700;
+	return Global_2685150.f_700;
 }
 
 int func_12(int iParam0)
@@ -21555,11 +21559,11 @@ int func_12(int iParam0)
 
 bool func_13()
 {
-	return Global_2696538;
+	return Global_2696964;
 }
 
 bool func_14()
 {
-	return Global_2684745.f_695;
+	return Global_2685150.f_695;
 }
 

@@ -141,7 +141,7 @@ void __EntryFunction__()
 				break;
 			
 			case 4:
-				if (Global_98796)
+				if (Global_99332)
 				{
 					iLocal_96 = 5;
 				}

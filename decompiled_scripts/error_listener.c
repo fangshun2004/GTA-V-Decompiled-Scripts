@@ -153,15 +153,15 @@ bool func_4(int iParam0)
 
 bool func_5()
 {
-	return Global_1845225[PLAYER::PLAYER_ID() /*874*/].f_185 != 0;
+	return Global_1845250[PLAYER::PLAYER_ID() /*880*/].f_185 != 0;
 }
 
 int func_6(int iParam0)
 {
-	if (Global_33560.f_61 < 20)
+	if (Global_34054.f_61 < 20)
 	{
-		Global_33560[Global_33560.f_61 /*3*/] = { *iParam0 };
-		Global_33560.f_61++;
+		Global_34054[Global_34054.f_61 /*3*/] = { *iParam0 };
+		Global_34054.f_61++;
 		return 1;
 	}
 	return 0;
@@ -171,9 +171,9 @@ int func_7(int iParam0, var uParam1)
 {
 	*uParam1 = 0;
 	*uParam1 = 0;
-	while (*uParam1 < Global_33560.f_61)
+	while (*uParam1 < Global_34054.f_61)
 	{
-		if (Global_33560[*uParam1 /*3*/] == *iParam0 && Global_33560[*uParam1 /*3*/].f_2 == iParam0->f_2)
+		if (Global_34054[*uParam1 /*3*/] == *iParam0 && Global_34054[*uParam1 /*3*/].f_2 == iParam0->f_2)
 		{
 			return 1;
 		}

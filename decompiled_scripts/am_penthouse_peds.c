@@ -65,7 +65,7 @@ void __EntryFunction__()
 	fLocal_29 = 140f;
 	fLocal_30 = 180f;
 	iLocal_33 = 3;
-	Global_1579739 = 1;
+	Global_1576964 = 1;
 	func_46();
 	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
@@ -87,7 +87,7 @@ void __EntryFunction__()
 	while (true)
 	{
 		func_37();
-		if (((!NETWORK::NETWORK_IS_GAME_IN_PROGRESS() || func_29()) || Global_1579739 == 0) || func_28())
+		if (((!NETWORK::NETWORK_IS_GAME_IN_PROGRESS() || func_29()) || Global_1576964 == 0) || func_28())
 		{
 			func_25();
 		}
@@ -1249,12 +1249,12 @@ void func_27()
 
 bool func_28()
 {
-	return (!Global_1579735 && NETWORK::NETWORK_IS_ACTIVITY_SESSION());
+	return (!Global_1576960 && NETWORK::NETWORK_IS_ACTIVITY_SESSION());
 }
 
 int func_29()
 {
-	if (Global_1575058 == 0)
+	if (Global_1575062 == 0)
 	{
 		if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 		{
@@ -1265,7 +1265,7 @@ int func_29()
 	{
 		return 1;
 	}
-	if (Global_2699129)
+	if (Global_2699567)
 	{
 		return 1;
 	}
@@ -1315,7 +1315,7 @@ int func_30()
 
 int func_31()
 {
-	switch (Global_2699236)
+	switch (Global_2699676)
 	{
 		case 0:
 			return joaat("freemode");
@@ -1327,12 +1327,12 @@ int func_31()
 
 int func_32()
 {
-	return Global_33281;
+	return Global_33775;
 }
 
 bool func_33()
 {
-	return Global_2684745.f_700;
+	return Global_2685150.f_700;
 }
 
 int func_34(int iParam0)
@@ -1346,12 +1346,12 @@ int func_34(int iParam0)
 
 bool func_35()
 {
-	return Global_2696538;
+	return Global_2696964;
 }
 
 bool func_36()
 {
-	return Global_2684745.f_695;
+	return Global_2685150.f_695;
 }
 
 void func_37()
@@ -4649,7 +4649,7 @@ int func_43()
 
 int func_44()
 {
-	if (Global_1579735)
+	if (Global_1576960)
 	{
 		return 1;
 	}
@@ -4658,19 +4658,19 @@ int func_44()
 
 int func_45(int iParam0)
 {
-	if (iParam0 >= Global_262145.f_26605)
+	if (iParam0 >= Global_262145.f_26694)
 	{
 		return 5;
 	}
-	else if (iParam0 >= Global_262145.f_26604)
+	else if (iParam0 >= Global_262145.f_26693)
 	{
 		return 4;
 	}
-	else if (iParam0 >= Global_262145.f_26603)
+	else if (iParam0 >= Global_262145.f_26692)
 	{
 		return 3;
 	}
-	else if (iParam0 >= Global_262145.f_26602)
+	else if (iParam0 >= Global_262145.f_26691)
 	{
 		return 2;
 	}
@@ -4679,11 +4679,11 @@ int func_45(int iParam0)
 
 void func_46()
 {
-	while (!NETWORK::NETWORK_TRY_TO_SET_THIS_SCRIPT_IS_NETWORK_SCRIPT(32, false, Global_1579754))
+	while (!NETWORK::NETWORK_TRY_TO_SET_THIS_SCRIPT_IS_NETWORK_SCRIPT(32, false, Global_1576979))
 	{
 		SYSTEM::WAIT(0);
 	}
-	Global_1579754++;
+	Global_1576979++;
 	func_47(0, -1, 0);
 	NETWORK::NETWORK_REGISTER_HOST_BROADCAST_VARIABLES(&Local_38, 3, 0);
 }
@@ -4796,6 +4796,6 @@ bool func_48(bool bParam0)
 	if (bParam0)
 	{
 	}
-	return Global_1575058;
+	return Global_1575062;
 }
 

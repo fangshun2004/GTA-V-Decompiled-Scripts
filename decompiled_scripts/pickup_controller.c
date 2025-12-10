@@ -146,7 +146,7 @@ int func_5(int iParam0)
 	{
 		return 0;
 	}
-	return Global_114344.f_9089.f_330[iParam0 /*6*/];
+	return Global_114904.f_9092.f_330[iParam0 /*6*/];
 }
 
 void func_6()
@@ -191,11 +191,11 @@ int func_9()
 {
 	int iVar0;
 	
-	if (Global_153224 == 2)
+	if (Global_153787 == 2)
 	{
 		return 1;
 	}
-	else if (Global_153224 == 3)
+	else if (Global_153787 == 3)
 	{
 		return 0;
 	}
@@ -209,9 +209,9 @@ int func_9()
 				MISC::SET_BIT(&iVar0, 2);
 				MISC::SET_BIT(&iVar0, 4);
 				MISC::SET_BIT(&iVar0, 6);
-				MISC::SET_BIT(&Global_28, 2);
-				MISC::SET_BIT(&Global_28, 4);
-				MISC::SET_BIT(&Global_28, 6);
+				MISC::SET_BIT(&Global_26, 2);
+				MISC::SET_BIT(&Global_26, 4);
+				MISC::SET_BIT(&Global_26, 6);
 				STATS::STAT_SET_INT(joaat("sp_unlock_exclus_content"), iVar0, true);
 				if (MISC::ARE_PROFILE_SETTINGS_VALID())
 				{
@@ -327,66 +327,66 @@ int func_13(int iParam0)
 	{
 		return 0;
 	}
-	return Global_114344.f_9089.f_99.f_58[iParam0];
+	return Global_114904.f_9092.f_99.f_58[iParam0];
 }
 
 void func_14()
 {
-	switch (Global_33526)
+	switch (Global_34020)
 	{
 		case 0:
 			break;
 		
 		case 1:
-			switch (Global_33527)
+			switch (Global_34021)
 			{
 				case 0:
-					if (OBJECT::DOES_PICKUP_EXIST(iLocal_18[Global_33528]) && OBJECT::DOES_PICKUP_OBJECT_EXIST(iLocal_18[Global_33528]))
+					if (OBJECT::DOES_PICKUP_EXIST(iLocal_18[Global_34022]) && OBJECT::DOES_PICKUP_OBJECT_EXIST(iLocal_18[Global_34022]))
 					{
-						Global_33529 = 0;
+						Global_34023 = 0;
 					}
 					else
 					{
-						Global_33529 = 1;
+						Global_34023 = 1;
 					}
 					break;
 				
 				case 1:
-					if (OBJECT::DOES_PICKUP_EXIST(iLocal_84[Global_33528]) && OBJECT::DOES_PICKUP_OBJECT_EXIST(iLocal_84[Global_33528]))
+					if (OBJECT::DOES_PICKUP_EXIST(iLocal_84[Global_34022]) && OBJECT::DOES_PICKUP_OBJECT_EXIST(iLocal_84[Global_34022]))
 					{
-						Global_33529 = 0;
+						Global_34023 = 0;
 					}
 					else
 					{
-						Global_33529 = 1;
+						Global_34023 = 1;
 					}
 					break;
 				
 				case 2:
-					if (OBJECT::DOES_PICKUP_EXIST(iLocal_161[Global_33528]) && OBJECT::DOES_PICKUP_OBJECT_EXIST(iLocal_161[Global_33528]))
+					if (OBJECT::DOES_PICKUP_EXIST(iLocal_161[Global_34022]) && OBJECT::DOES_PICKUP_OBJECT_EXIST(iLocal_161[Global_34022]))
 					{
-						Global_33529 = 0;
+						Global_34023 = 0;
 					}
 					else
 					{
-						Global_33529 = 1;
+						Global_34023 = 1;
 					}
 					break;
 				
 				case 3:
-					Global_33526 = 3;
+					Global_34020 = 3;
 					break;
 			}
-			Global_33526 = 2;
+			Global_34020 = 2;
 			break;
 		
 		case 2:
 			break;
 		
 		case 3:
-			Global_33528 = 0;
-			Global_33529 = 0;
-			Global_33526 = 0;
+			Global_34022 = 0;
+			Global_34023 = 0;
+			Global_34020 = 0;
 			break;
 	}
 }
@@ -522,7 +522,7 @@ void func_22()
 
 bool func_23(int iParam0)
 {
-	return Global_44375 == iParam0;
+	return Global_44869 == iParam0;
 }
 
 void func_24()

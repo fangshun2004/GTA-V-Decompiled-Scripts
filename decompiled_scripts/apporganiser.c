@@ -46,20 +46,20 @@ void __EntryFunction__()
 	while (true)
 	{
 		SYSTEM::WAIT(0);
-		if (Global_21222.f_1 != 9)
+		if (Global_21610.f_1 != 9)
 		{
 			if (!iLocal_16)
 			{
 				iLocal_16 = 1;
 			}
-			else if (Global_21204)
+			else if (Global_21592)
 			{
 				if (!iLocal_17)
 				{
 					iLocal_17 = 1;
-					func_7(Global_21203, "SET_DATA_SLOT_EMPTY", 5f, -1082130432, -1082130432, -1082130432, -1082130432);
-					func_4(Global_21203, 1);
-					func_7(Global_21203, "DISPLAY_VIEW", 5f, -1082130432, -1082130432, -1082130432, -1082130432);
+					func_7(Global_21591, "SET_DATA_SLOT_EMPTY", 5f, -1082130432, -1082130432, -1082130432, -1082130432);
+					func_4(Global_21591, 1);
+					func_7(Global_21591, "DISPLAY_VIEW", 5f, -1082130432, -1082130432, -1082130432, -1082130432);
 				}
 				else
 				{
@@ -80,9 +80,9 @@ void __EntryFunction__()
 
 int func_1()
 {
-	if (((Global_21222.f_1 == 1 || Global_21222.f_1 == 3) || Global_21222.f_1 == 0) || Global_21166 == 1)
+	if (((Global_21610.f_1 == 1 || Global_21610.f_1 == 3) || Global_21610.f_1 == 0) || Global_21554 == 1)
 	{
-		Global_21209 = 1;
+		Global_21597 = 1;
 		return 1;
 	}
 	return 0;
@@ -90,9 +90,9 @@ int func_1()
 
 int func_2()
 {
-	if (Global_9698 == 1 || Global_21222.f_1 < 7)
+	if (Global_10086 == 1 || Global_21610.f_1 < 7)
 	{
-		Global_21209 = 1;
+		Global_21597 = 1;
 		return 1;
 	}
 	return 0;
@@ -105,7 +105,7 @@ void func_3()
 		if (PAD::IS_CONTROL_PRESSED(2, 172))
 		{
 			iLocal_18 = 1;
-			func_7(Global_21203, "SET_INPUT_EVENT", 1f, -1082130432, -1082130432, -1082130432, -1082130432);
+			func_7(Global_21591, "SET_INPUT_EVENT", 1f, -1082130432, -1082130432, -1082130432, -1082130432);
 		}
 	}
 	else if (!PAD::IS_CONTROL_PRESSED(2, 172))
@@ -117,7 +117,7 @@ void func_3()
 		if (PAD::IS_CONTROL_PRESSED(2, 173))
 		{
 			iLocal_19 = 1;
-			func_7(Global_21203, "SET_INPUT_EVENT", 3f, -1082130432, -1082130432, -1082130432, -1082130432);
+			func_7(Global_21591, "SET_INPUT_EVENT", 3f, -1082130432, -1082130432, -1082130432, -1082130432);
 		}
 	}
 	else if (!PAD::IS_CONTROL_PRESSED(2, 173))
@@ -129,7 +129,7 @@ void func_3()
 		if (PAD::IS_CONTROL_PRESSED(2, 174))
 		{
 			iLocal_20 = 1;
-			func_7(Global_21203, "SET_INPUT_EVENT", 4f, -1082130432, -1082130432, -1082130432, -1082130432);
+			func_7(Global_21591, "SET_INPUT_EVENT", 4f, -1082130432, -1082130432, -1082130432, -1082130432);
 		}
 	}
 	else if (!PAD::IS_CONTROL_PRESSED(2, 174))
@@ -141,7 +141,7 @@ void func_3()
 		if (PAD::IS_CONTROL_PRESSED(2, 175))
 		{
 			iLocal_21 = 1;
-			func_7(Global_21203, "SET_INPUT_EVENT", 2f, -1082130432, -1082130432, -1082130432, -1082130432);
+			func_7(Global_21591, "SET_INPUT_EVENT", 2f, -1082130432, -1082130432, -1082130432, -1082130432);
 		}
 	}
 	else if (!PAD::IS_CONTROL_PRESSED(2, 175))
@@ -160,7 +160,7 @@ void func_4(int iParam0, bool bParam1)
 	int iVar5;
 	char* sVar6;
 	
-	if (Global_98955 == Global_98956)
+	if (Global_99491 == Global_99492)
 	{
 		if (!bParam1)
 		{
@@ -176,8 +176,8 @@ void func_4(int iParam0, bool bParam1)
 		return;
 	}
 	func_8();
-	iVar0 = Global_98959;
-	iVar1 = Global_98958;
+	iVar0 = Global_99495;
+	iVar1 = Global_99494;
 	bVar2 = true;
 	iVar3 = 0;
 	iVar4 = 0;
@@ -185,7 +185,7 @@ void func_4(int iParam0, bool bParam1)
 	while (bVar2)
 	{
 		iVar4 = iVar3;
-		iVar3 = Global_98960[iVar0 /*25*/][iVar1];
+		iVar3 = Global_99496[iVar0 /*25*/][iVar1];
 		if (!iVar3 == iVar4)
 		{
 			if (!iVar3 == 0)
@@ -245,12 +245,12 @@ void func_4(int iParam0, bool bParam1)
 		{
 			iVar0 = 0;
 		}
-		if (iVar0 == Global_98959 && iVar1 == Global_98958)
+		if (iVar0 == Global_99495 && iVar1 == Global_99494)
 		{
 			bVar2 = false;
 		}
 	}
-	Global_98956 = Global_98955;
+	Global_99492 = Global_99491;
 }
 
 char* func_5(int iParam0)
@@ -312,23 +312,23 @@ void func_8()
 	int iVar10;
 	int iVar11;
 	
-	if (!Global_98954)
+	if (!Global_99490)
 	{
-		Global_99138 = CLOCK::GET_CLOCK_MONTH();
-		Global_99137 = CLOCK::GET_CLOCK_DAY_OF_MONTH();
-		Global_99136 = CLOCK::GET_CLOCK_HOURS();
-		Global_98954 = 1;
-		Global_98959 = CLOCK::GET_CLOCK_DAY_OF_WEEK();
-		Global_98958 = CLOCK::GET_CLOCK_HOURS();
+		Global_99674 = CLOCK::GET_CLOCK_MONTH();
+		Global_99673 = CLOCK::GET_CLOCK_DAY_OF_MONTH();
+		Global_99672 = CLOCK::GET_CLOCK_HOURS();
+		Global_99490 = 1;
+		Global_99495 = CLOCK::GET_CLOCK_DAY_OF_WEEK();
+		Global_99494 = CLOCK::GET_CLOCK_HOURS();
 		func_12();
 		return;
 	}
 	iVar0 = CLOCK::GET_CLOCK_MONTH();
 	iVar1 = CLOCK::GET_CLOCK_DAY_OF_MONTH();
 	iVar2 = CLOCK::GET_CLOCK_HOURS();
-	iVar3 = Global_99138;
-	iVar4 = Global_99137;
-	iVar5 = Global_99136;
+	iVar3 = Global_99674;
+	iVar4 = Global_99673;
+	iVar5 = Global_99672;
 	iVar6 = 0;
 	iVar7 = 0;
 	iVar8 = 0;
@@ -348,12 +348,12 @@ void func_8()
 				iVar9 = 0;
 				while (iVar9 < 24)
 				{
-					if (!Global_98960[iVar6 /*25*/][iVar7] == 0)
+					if (!Global_99496[iVar6 /*25*/][iVar7] == 0)
 					{
-						Global_98955++;
-						Global_98957 = (Global_98957 - 1);
+						Global_99491++;
+						Global_99493 = (Global_99493 - 1);
 					}
-					Global_98960[iVar6 /*25*/][iVar7] = 0;
+					Global_99496[iVar6 /*25*/][iVar7] = 0;
 					iVar9++;
 				}
 				iVar8++;
@@ -366,8 +366,8 @@ void func_8()
 		iVar10 = (iVar10 + (24 - iVar5));
 		iVar10 = (iVar10 + (24 - (24 - iVar2)));
 		iVar8 = 0;
-		iVar7 = Global_98958;
-		iVar6 = Global_98959;
+		iVar7 = Global_99494;
+		iVar6 = Global_99495;
 		iVar8 = 0;
 		while (iVar8 < iVar10)
 		{
@@ -380,27 +380,27 @@ void func_8()
 			{
 				iVar6 = 0;
 			}
-			if (!Global_98960[iVar6 /*25*/][iVar7] == 0)
+			if (!Global_99496[iVar6 /*25*/][iVar7] == 0)
 			{
-				Global_98955++;
-				Global_98957 = (Global_98957 - 1);
+				Global_99491++;
+				Global_99493 = (Global_99493 - 1);
 			}
-			Global_98960[iVar6 /*25*/][iVar7] = 0;
+			Global_99496[iVar6 /*25*/][iVar7] = 0;
 			iVar7++;
 			iVar8++;
 		}
-		Global_98958 = (iVar7 - 1);
-		Global_98959 = iVar6;
+		Global_99494 = (iVar7 - 1);
+		Global_99495 = iVar6;
 	}
 	else
 	{
 		if (iVar5 > iVar2)
 		{
-			Global_99138 = iVar0;
-			Global_99137 = iVar1;
-			Global_99136 = iVar2;
-			Global_98959 = CLOCK::GET_CLOCK_DAY_OF_WEEK();
-			Global_98958 = CLOCK::GET_CLOCK_HOURS();
+			Global_99674 = iVar0;
+			Global_99673 = iVar1;
+			Global_99672 = iVar2;
+			Global_99495 = CLOCK::GET_CLOCK_DAY_OF_WEEK();
+			Global_99494 = CLOCK::GET_CLOCK_HOURS();
 			return;
 		}
 		if (iVar5 == iVar2)
@@ -411,17 +411,17 @@ void func_8()
 		{
 			iVar10 = (iVar2 - iVar5);
 			iVar8 = 0;
-			iVar7 = Global_98958;
-			iVar6 = Global_98959;
+			iVar7 = Global_99494;
+			iVar6 = Global_99495;
 			iVar8 = 0;
 			while (iVar8 < iVar10)
 			{
-				if (!Global_98960[iVar6 /*25*/][iVar7] == 0)
+				if (!Global_99496[iVar6 /*25*/][iVar7] == 0)
 				{
-					Global_98955++;
-					Global_98957 = (Global_98957 - 1);
+					Global_99491++;
+					Global_99493 = (Global_99493 - 1);
 				}
-				Global_98960[iVar6 /*25*/][iVar7] = 0;
+				Global_99496[iVar6 /*25*/][iVar7] = 0;
 				iVar7++;
 				if (iVar7 > 23)
 				{
@@ -434,11 +434,11 @@ void func_8()
 				}
 				iVar8++;
 			}
-			Global_98958 = iVar7;
-			Global_98959 = iVar6;
+			Global_99494 = iVar7;
+			Global_99495 = iVar6;
 		}
 	}
-	if (Global_98955 > Global_98956)
+	if (Global_99491 > Global_99492)
 	{
 	}
 	if ((iVar3 == iVar0 && iVar5 == iVar2) && iVar4 == iVar1)
@@ -446,9 +446,9 @@ void func_8()
 	}
 	else
 	{
-		Global_99138 = iVar0;
-		Global_99137 = iVar1;
-		Global_99136 = iVar2;
+		Global_99674 = iVar0;
+		Global_99673 = iVar1;
+		Global_99672 = iVar2;
 	}
 }
 
@@ -541,8 +541,8 @@ void func_12()
 	int iVar0;
 	int iVar1;
 	
-	Global_98958 = 0;
-	Global_98959 = 0;
+	Global_99494 = 0;
+	Global_99495 = 0;
 	iVar0 = 0;
 	iVar1 = 0;
 	iVar0 = 0;
@@ -551,7 +551,7 @@ void func_12()
 		iVar1 = 0;
 		while (iVar1 < 24)
 		{
-			Global_98960[iVar0 /*25*/][iVar1] = 0;
+			Global_99496[iVar0 /*25*/][iVar1] = 0;
 			iVar1++;
 		}
 		iVar0++;
@@ -561,11 +561,11 @@ void func_12()
 
 void func_13()
 {
-	Global_98958 = 0;
-	Global_98959 = 0;
-	Global_99136 = CLOCK::GET_CLOCK_HOURS();
-	Global_99137 = CLOCK::GET_CLOCK_DAY_OF_MONTH();
-	Global_99138 = CLOCK::GET_CLOCK_MONTH();
+	Global_99494 = 0;
+	Global_99495 = 0;
+	Global_99672 = CLOCK::GET_CLOCK_HOURS();
+	Global_99673 = CLOCK::GET_CLOCK_DAY_OF_MONTH();
+	Global_99674 = CLOCK::GET_CLOCK_MONTH();
 }
 
 void func_14()

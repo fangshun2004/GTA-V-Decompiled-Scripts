@@ -98,30 +98,30 @@
 	var uLocal_96 = 0;
 	var uLocal_97 = 0;
 	var uLocal_98 = 0;
-	var uLocal_99 = -1;
+	var uLocal_99 = 0;
 	var uLocal_100 = 0;
-	var uLocal_101 = 0;
+	var uLocal_101 = -1;
 	var uLocal_102 = 0;
 	var uLocal_103 = 0;
 	var uLocal_104 = 0;
 	var uLocal_105 = 0;
 	var uLocal_106 = 0;
 	var uLocal_107 = 0;
-	var uLocal_108 = -2;
-	var uLocal_109 = -2;
+	var uLocal_108 = 0;
+	var uLocal_109 = 0;
 	var uLocal_110 = -2;
-	var uLocal_111 = 5;
-	var uLocal_112 = 0;
-	var uLocal_113 = 0;
+	var uLocal_111 = -2;
+	var uLocal_112 = -2;
+	var uLocal_113 = 5;
 	var uLocal_114 = 0;
 	var uLocal_115 = 0;
 	var uLocal_116 = 0;
-	var uLocal_117 = 2;
+	var uLocal_117 = 0;
 	var uLocal_118 = 0;
-	var uLocal_119 = 0;
-	var uLocal_120 = 2;
+	var uLocal_119 = 2;
+	var uLocal_120 = 0;
 	var uLocal_121 = 0;
-	var uLocal_122 = 0;
+	var uLocal_122 = 2;
 	var uLocal_123 = 0;
 	var uLocal_124 = 0;
 	var uLocal_125 = 0;
@@ -138,6 +138,8 @@
 	var uLocal_136 = 0;
 	var uLocal_137 = 0;
 	var uLocal_138 = 0;
+	var uLocal_139 = 0;
+	var uLocal_140 = 0;
 #endregion
 
 void __EntryFunction__()
@@ -300,7 +302,7 @@ int func_4(int iParam0)
 
 bool func_5()
 {
-	return Global_2684745.f_695;
+	return Global_2685150.f_695;
 }
 
 bool func_6(bool bParam0)
@@ -308,7 +310,7 @@ bool func_6(bool bParam0)
 	if (bParam0)
 	{
 	}
-	return Global_1575058;
+	return Global_1575062;
 }
 
 void func_7()

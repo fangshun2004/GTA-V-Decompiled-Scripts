@@ -118,7 +118,7 @@ int func_2(int iParam0)
 
 var func_3(int iParam0)
 {
-	return Global_2241[iParam0 /*29*/];
+	return Global_2339[iParam0 /*29*/];
 }
 
 bool func_4(int iParam0)
