@@ -733,9 +733,9 @@ void func_4()
 	}
 	if (Global_22989)
 	{
-		MemCopy(&(Global_1978567.f_1), {Global_22602}, 4);
-		Global_1978567 = Global_8778;
-		Global_1978567.f_6 = Global_22993;
+		MemCopy(&(Global_1978568.f_1), {Global_22602}, 4);
+		Global_1978568 = Global_8778;
+		Global_1978568.f_6 = Global_22993;
 	}
 }
 
@@ -41306,7 +41306,7 @@ Vector3 func_316(int iParam0, bool bParam1)
 			break;
 		
 		case 50:
-			return Global_1971528;
+			return Global_1971529;
 			break;
 		
 		case 51:
@@ -54387,7 +54387,7 @@ int func_625(int iParam0, char* sParam1, int iParam2, int iParam3, char* sParam4
 			func_632(Global_21591, "DISPLAY_VIEW", 1f, SYSTEM::TO_FLOAT(Global_21590), -1082130432, -1082130432, -1082130432);
 		}
 	}
-	if (Global_1978584 != -1 && iParam0 == Global_1978584)
+	if (Global_1978585 != -1 && iParam0 == Global_1978585)
 	{
 		bVar1 = true;
 	}
@@ -54409,18 +54409,18 @@ void func_626(int iParam0, char* sParam1, bool bParam2, var uParam3)
 	Var0.f_3 = 0;
 	Var0.f_4 = bParam2;
 	Var0.f_5 = uParam3;
-	Var0.f_6 = Global_1978567.f_7;
-	Var0.f_7 = Global_1978567.f_8;
-	Var0.f_8 = Global_1978567.f_9;
-	Var0.f_9 = Global_1978567.f_10;
-	Var0.f_10 = Global_1978567.f_11;
-	Var0.f_11 = Global_1978567.f_12;
-	Var0.f_12 = Global_1978567.f_13;
-	Var0.f_13 = Global_1978567.f_14;
+	Var0.f_6 = Global_1978568.f_7;
+	Var0.f_7 = Global_1978568.f_8;
+	Var0.f_8 = Global_1978568.f_9;
+	Var0.f_9 = Global_1978568.f_10;
+	Var0.f_10 = Global_1978568.f_11;
+	Var0.f_11 = Global_1978568.f_12;
+	Var0.f_12 = Global_1978568.f_13;
+	Var0.f_13 = Global_1978568.f_14;
 	STATS::PLAYSTATS_NPC_PHONE(&Var0);
 	if (bParam2)
 	{
-		Global_1978584 = -1;
+		Global_1978585 = -1;
 	}
 }
 

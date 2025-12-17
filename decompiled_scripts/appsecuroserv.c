@@ -12479,7 +12479,7 @@ void func_231()
 
 void func_232()
 {
-	Global_1982484 = 1;
+	Global_1982485 = 1;
 }
 
 void func_233(bool bParam0)
@@ -33041,9 +33041,9 @@ void func_503(var uParam0, int iParam1, int iParam2, struct<3> Param3, var uPara
 	{
 		if (BitTest(uParam16, 6))
 		{
-			Var0 = { Global_1978755.f_1081 };
-			Var3 = { Global_1978755.f_1081.f_3 };
-			fVar6 = Global_1978755.f_1081.f_6;
+			Var0 = { Global_1978756.f_1081 };
+			Var3 = { Global_1978756.f_1081.f_3 };
+			fVar6 = Global_1978756.f_1081.f_6;
 		}
 		else
 		{
@@ -33069,9 +33069,9 @@ void func_503(var uParam0, int iParam1, int iParam2, struct<3> Param3, var uPara
 		{
 			iVar9 = 0;
 		}
-		if (BitTest(Global_1982590.f_1, 19))
+		if (BitTest(Global_1982591.f_1, 19))
 		{
-			MISC::CLEAR_BIT(&(Global_1982590.f_1), 19);
+			MISC::CLEAR_BIT(&(Global_1982591.f_1), 19);
 		}
 	}
 	else if (BitTest(uParam16, 10))
@@ -37479,9 +37479,9 @@ void func_652()
 	}
 	if (Global_22989)
 	{
-		MemCopy(&(Global_1978567.f_1), {Global_22602}, 4);
-		Global_1978567 = Global_8778;
-		Global_1978567.f_6 = Global_22993;
+		MemCopy(&(Global_1978568.f_1), {Global_22602}, 4);
+		Global_1978568 = Global_8778;
+		Global_1978568.f_6 = Global_22993;
 	}
 }
 
@@ -38909,9 +38909,9 @@ int func_722(var* uParam0)
 	iVar0 = 0;
 	while (iVar0 < 31)
 	{
-		if (func_603(Global_1988664[iVar0 /*13*/]))
+		if (func_603(Global_1988665[iVar0 /*13*/]))
 		{
-			if (NETWORK::NETWORK_ARE_HANDLES_THE_SAME(&(Global_1988664[iVar0 /*13*/]), uParam0))
+			if (NETWORK::NETWORK_ARE_HANDLES_THE_SAME(&(Global_1988665[iVar0 /*13*/]), uParam0))
 			{
 				return 1;
 			}

@@ -352,7 +352,7 @@ void func_2()
 	}
 	if (BitTest(Global_1967983.f_1247, 2))
 	{
-		if (Global_1989186)
+		if (Global_1989187)
 		{
 			PAD::DISABLE_CONTROL_ACTION(2, 199, true);
 			PAD::DISABLE_CONTROL_ACTION(2, 200, true);
@@ -736,9 +736,9 @@ void func_15(var uParam0, int iParam1, int iParam2, struct<3> Param3, var uParam
 	{
 		if (BitTest(uParam16, 6))
 		{
-			Var0 = { Global_1978755.f_1081 };
-			Var3 = { Global_1978755.f_1081.f_3 };
-			fVar6 = Global_1978755.f_1081.f_6;
+			Var0 = { Global_1978756.f_1081 };
+			Var3 = { Global_1978756.f_1081.f_3 };
+			fVar6 = Global_1978756.f_1081.f_6;
 		}
 		else
 		{
@@ -764,9 +764,9 @@ void func_15(var uParam0, int iParam1, int iParam2, struct<3> Param3, var uParam
 		{
 			iVar9 = 0;
 		}
-		if (BitTest(Global_1982590.f_1, 19))
+		if (BitTest(Global_1982591.f_1, 19))
 		{
-			MISC::CLEAR_BIT(&(Global_1982590.f_1), 19);
+			MISC::CLEAR_BIT(&(Global_1982591.f_1), 19);
 		}
 	}
 	else if (BitTest(uParam16, 10))
@@ -5433,7 +5433,7 @@ bool func_191()
 
 int func_192()
 {
-	if (!Global_1988065)
+	if (!Global_1988066)
 	{
 		return 0;
 	}
@@ -10071,23 +10071,23 @@ int func_307(int iParam0)
 	{
 		return 0;
 	}
-	if (BitTest(Global_1988053, 4))
+	if (BitTest(Global_1988054, 4))
 	{
 		return 1;
 	}
 	switch (iParam0)
 	{
 		case 0:
-			return BitTest(Global_1988053, 0);
+			return BitTest(Global_1988054, 0);
 		
 		case 1:
-			return BitTest(Global_1988053, 1);
+			return BitTest(Global_1988054, 1);
 		
 		case 2:
-			return BitTest(Global_1988053, 2);
+			return BitTest(Global_1988054, 2);
 		
 		case 3:
-			return BitTest(Global_1988053, 3);
+			return BitTest(Global_1988054, 3);
 		
 		default:
 	}
@@ -11479,7 +11479,7 @@ void func_338(var uParam0)
 	uParam0->f_697 = 0f;
 	uParam0->f_698 = 0f;
 	uParam0->f_699 = 1f;
-	Global_1988494 = 0;
+	Global_1988495 = 0;
 }
 
 void func_339(var uParam0, float fParam1)
@@ -11688,7 +11688,7 @@ void func_344(int iParam0)
 
 void func_345(var uParam0)
 {
-	Global_1988494 = 0;
+	Global_1988495 = 0;
 	uParam0->f_692 = 0;
 }
 
@@ -12666,9 +12666,9 @@ int func_375(var* uParam0)
 	iVar0 = 0;
 	while (iVar0 < 31)
 	{
-		if (func_131(Global_1988664[iVar0 /*13*/]))
+		if (func_131(Global_1988665[iVar0 /*13*/]))
 		{
-			if (NETWORK::NETWORK_ARE_HANDLES_THE_SAME(&(Global_1988664[iVar0 /*13*/]), uParam0))
+			if (NETWORK::NETWORK_ARE_HANDLES_THE_SAME(&(Global_1988665[iVar0 /*13*/]), uParam0))
 			{
 				return 1;
 			}
@@ -13024,7 +13024,7 @@ void func_399()
 	
 	if (BitTest(Global_1965157.f_2825, 1))
 	{
-		if (Global_1989186)
+		if (Global_1989187)
 		{
 			PAD::DISABLE_CONTROL_ACTION(2, 199, true);
 			PAD::DISABLE_CONTROL_ACTION(2, 200, true);

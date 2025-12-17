@@ -4478,7 +4478,7 @@ void func_53(int iParam0)
 			func_117("HROBA_INGNG_BLK", -1);
 		}
 	}
-	else if ((((((((((func_73(PLAYER::PLAYER_ID()) || func_68(PLAYER::PLAYER_ID())) || func_67()) || func_65(PLAYER::PLAYER_ID())) || func_63()) || func_62(0)) || func_61()) || Global_1057441 != -1) || Global_1845250[PLAYER::PLAYER_ID() /*880*/] == 5) || func_58(PLAYER::PLAYER_ID(), 1, 0)) || Global_1989169)
+	else if ((((((((((func_73(PLAYER::PLAYER_ID()) || func_68(PLAYER::PLAYER_ID())) || func_67()) || func_65(PLAYER::PLAYER_ID())) || func_63()) || func_62(0)) || func_61()) || Global_1057441 != -1) || Global_1845250[PLAYER::PLAYER_ID() /*880*/] == 5) || func_58(PLAYER::PLAYER_ID(), 1, 0)) || Global_1989170)
 	{
 		*iParam0 = 1;
 		if (!func_78("HROBA_GFAIL_BLK"))

@@ -8728,10 +8728,10 @@ int func_119()
 
 void func_120()
 {
-	if (BitTest(Global_1971595, 6))
+	if (BitTest(Global_1971596, 6))
 	{
-		MISC::SET_BIT(&Global_1971595, 9);
-		func_395(&Global_1971598, 0, 0);
+		MISC::SET_BIT(&Global_1971596, 9);
+		func_395(&Global_1971599, 0, 0);
 	}
 }
 
@@ -8739,13 +8739,13 @@ void func_121()
 {
 	if (func_122())
 	{
-		MISC::SET_BIT(&Global_1971595, true);
+		MISC::SET_BIT(&Global_1971596, true);
 	}
 }
 
 bool func_122()
 {
-	return (BitTest(Global_1971595, 6) || BitTest(Global_1971595, 5));
+	return (BitTest(Global_1971596, 6) || BitTest(Global_1971596, 5));
 }
 
 void func_123(int iParam0, int iParam1)
@@ -8754,9 +8754,9 @@ void func_123(int iParam0, int iParam1)
 	{
 		return;
 	}
-	MISC::SET_BIT(&Global_1971595, 6);
-	Global_1971596 = iParam0;
-	Global_1971597 = iParam1;
+	MISC::SET_BIT(&Global_1971596, 6);
+	Global_1971597 = iParam0;
+	Global_1971598 = iParam1;
 }
 
 bool func_124(var uParam0, int iParam1, int iParam2)
@@ -12000,13 +12000,13 @@ void func_206(int iParam0)
 
 void func_207(var uParam0)
 {
-	Global_1988494 = 0;
+	Global_1988495 = 0;
 	uParam0->f_692 = 0;
 }
 
 int func_208(var uParam0)
 {
-	return (Global_1988494 || uParam0->f_692);
+	return (Global_1988495 || uParam0->f_692);
 }
 
 void func_209(var uParam0, float fParam1)
@@ -12134,7 +12134,7 @@ void func_215(var uParam0)
 	uParam0->f_697 = 0f;
 	uParam0->f_698 = 0f;
 	uParam0->f_699 = 1f;
-	Global_1988494 = 0;
+	Global_1988495 = 0;
 }
 
 var func_216(bool bParam0)
@@ -13173,8 +13173,8 @@ bool func_260(int iParam0)
 
 void func_261(int iParam0)
 {
-	Global_1971534 = NETWORK::GET_CLOUD_TIME_AS_INT();
-	Global_1971552 = iParam0;
+	Global_1971535 = NETWORK::GET_CLOUD_TIME_AS_INT();
+	Global_1971553 = iParam0;
 	if (!func_269())
 	{
 		func_266();
@@ -13190,8 +13190,8 @@ void func_262()
 	func_108(joaat("mpply_cas_gmblng_l24_px"), NETWORK::GET_CLOUD_TIME_AS_INT());
 	func_264();
 	func_263();
-	Global_1971548 = 1;
-	Global_1971543 = 0;
+	Global_1971549 = 1;
+	Global_1971544 = 0;
 }
 
 void func_263()
@@ -13216,7 +13216,7 @@ void func_264()
 
 bool func_265()
 {
-	return Global_1971548;
+	return Global_1971549;
 }
 
 void func_266()
@@ -13224,12 +13224,12 @@ void func_266()
 	func_108(joaat("mpply_casino_gmblng_gd"), NETWORK::GET_CLOUD_TIME_AS_INT());
 	func_268();
 	func_267((NETWORK::GET_CLOUD_TIME_AS_INT() + 86400));
-	Global_1971547 = 1;
+	Global_1971548 = 1;
 }
 
 void func_267(int iParam0)
 {
-	Global_1971542 = iParam0;
+	Global_1971543 = iParam0;
 }
 
 void func_268()
@@ -13263,11 +13263,11 @@ void func_272()
 	int iVar0;
 	int iVar1;
 	
-	if (Global_1971552 != -1)
+	if (Global_1971553 != -1)
 	{
-		iVar0 = (NETWORK::GET_CLOUD_TIME_AS_INT() - Global_1971534);
-		iVar1 = (NETWORK::GET_CLOUD_TIME_AS_INT() - Global_1971535);
-		if (Global_1971535 == -1)
+		iVar0 = (NETWORK::GET_CLOUD_TIME_AS_INT() - Global_1971535);
+		iVar1 = (NETWORK::GET_CLOUD_TIME_AS_INT() - Global_1971536);
+		if (Global_1971536 == -1)
 		{
 			func_273(iVar0);
 		}
@@ -13277,9 +13277,9 @@ void func_272()
 		}
 		func_268();
 		func_263();
-		Global_1971534 = -1;
 		Global_1971535 = -1;
-		Global_1971552 = -1;
+		Global_1971536 = -1;
+		Global_1971553 = -1;
 	}
 }
 
@@ -13288,7 +13288,7 @@ void func_273(int iParam0)
 	int iVar0;
 	
 	iVar0 = func_278();
-	Global_1971543 = (Global_1971543 + iParam0);
+	Global_1971544 = (Global_1971544 + iParam0);
 	func_274(iVar0, iParam0);
 	func_263();
 }
@@ -17138,7 +17138,7 @@ int func_355()
 
 bool func_356()
 {
-	return Global_1971541 != 0;
+	return Global_1971542 != 0;
 }
 
 int func_357()

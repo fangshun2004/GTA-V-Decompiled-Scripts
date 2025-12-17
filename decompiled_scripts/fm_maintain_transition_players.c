@@ -42982,7 +42982,7 @@ float func_385()
 
 Vector3 func_386()
 {
-	if (BitTest(Global_1988018, 9))
+	if (BitTest(Global_1988019, 9))
 	{
 		return 1387.391f, 3615.812f, 37.926f;
 	}
@@ -44058,7 +44058,7 @@ int func_447()
 	char* sVar0;
 	int iVar1;
 	
-	if (Global_1978632 == 0)
+	if (Global_1978633 == 0)
 	{
 		if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 		{
@@ -44068,7 +44068,7 @@ int func_447()
 			}
 			else
 			{
-				Global_1978632 = Global_2649159.f_1263;
+				Global_1978633 = Global_2649159.f_1263;
 			}
 		}
 		else
@@ -44076,19 +44076,19 @@ int func_447()
 			iVar1 = MISC::GET_RANDOM_INT_IN_RANGE(0, 1000);
 			if (iVar1 < 500)
 			{
-				Global_1978632 = 1;
+				Global_1978633 = 1;
 			}
 			else
 			{
-				Global_1978632 = 2;
+				Global_1978633 = 2;
 			}
 		}
 	}
-	if (Global_1978632 == 1)
+	if (Global_1978633 == 1)
 	{
 		sVar0 = "h4_islandx_disc_StrandedWhale";
 	}
-	else if (Global_1978632 == 2)
+	else if (Global_1978633 == 2)
 	{
 		sVar0 = "h4_islandx_disc_StrandedShark";
 	}
@@ -51021,7 +51021,7 @@ int func_682(bool bParam0)
 			return 1;
 		}
 	}
-	if (Global_1982623 && !bParam0)
+	if (Global_1982624 && !bParam0)
 	{
 		return 1;
 	}
@@ -51109,10 +51109,10 @@ int func_688(bool bParam0)
 	}
 	else if (!func_671() && func_308(250))
 	{
-		Global_1982622 = 0;
+		Global_1982623 = 0;
 		func_115(250);
 	}
-	if (Global_1982622 && !bParam0)
+	if (Global_1982623 && !bParam0)
 	{
 		return 1;
 	}
@@ -51500,9 +51500,9 @@ void func_714(var uParam0, int iParam1, int iParam2, struct<3> Param3, var uPara
 	{
 		if (BitTest(iParam16, 6))
 		{
-			Var0 = { Global_1978755.f_1081 };
-			Var3 = { Global_1978755.f_1081.f_3 };
-			fVar6 = Global_1978755.f_1081.f_6;
+			Var0 = { Global_1978756.f_1081 };
+			Var3 = { Global_1978756.f_1081.f_3 };
+			fVar6 = Global_1978756.f_1081.f_6;
 		}
 		else
 		{
@@ -51528,9 +51528,9 @@ void func_714(var uParam0, int iParam1, int iParam2, struct<3> Param3, var uPara
 		{
 			iVar9 = 0;
 		}
-		if (BitTest(Global_1982590.f_1, 19))
+		if (BitTest(Global_1982591.f_1, 19))
 		{
-			MISC::CLEAR_BIT(&(Global_1982590.f_1), 19);
+			MISC::CLEAR_BIT(&(Global_1982591.f_1), 19);
 		}
 	}
 	else if (BitTest(iParam16, 10))

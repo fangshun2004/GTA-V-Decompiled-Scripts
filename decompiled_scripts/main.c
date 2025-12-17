@@ -2247,9 +2247,9 @@ void func_62()
 	}
 	if (Global_22989)
 	{
-		MemCopy(&(Global_1978567.f_1), {Global_22602}, 4);
-		Global_1978567 = Global_8778;
-		Global_1978567.f_6 = Global_22993;
+		MemCopy(&(Global_1978568.f_1), {Global_22602}, 4);
+		Global_1978568 = Global_8778;
+		Global_1978568.f_6 = Global_22993;
 	}
 }
 
@@ -43948,7 +43948,7 @@ void func_332(int iParam0, bool bParam1, bool bParam2, int iParam3, bool bParam4
 		{
 			bVar2 = false;
 		}
-		if (((!bParam4 || iVar0 != func_57()) || Global_1989162) || SCRIPT::GET_HASH_OF_THIS_SCRIPT_NAME() == joaat("maintransition"))
+		if (((!bParam4 || iVar0 != func_57()) || Global_1989163) || SCRIPT::GET_HASH_OF_THIS_SCRIPT_NAME() == joaat("maintransition"))
 		{
 			iVar17 = func_372(iParam0);
 			iVar18 = 0;
@@ -43997,7 +43997,7 @@ void func_332(int iParam0, bool bParam1, bool bParam2, int iParam3, bool bParam4
 				}
 				iVar19++;
 			}
-			if (Global_1989161)
+			if (Global_1989162)
 			{
 				func_336();
 			}
@@ -44018,7 +44018,7 @@ void func_333(int iParam0, bool bParam1, bool bParam2, bool bParam3, bool bParam
 	int iVar30;
 	int iVar31;
 	
-	if (!Global_1989161)
+	if (!Global_1989162)
 	{
 		func_334(&iParam0);
 	}
@@ -44027,7 +44027,7 @@ void func_333(int iParam0, bool bParam1, bool bParam2, bool bParam3, bool bParam
 	iVar0 = 0;
 	while (iVar0 < 27)
 	{
-		iVar30 = Global_1989133[iVar0];
+		iVar30 = Global_1989134[iVar0];
 		if (iVar30 <= -1)
 		{
 		}
@@ -44086,7 +44086,7 @@ void func_334(var uParam0)
 	iVar0 = 0;
 	while (iVar0 < 27)
 	{
-		Global_1989133[iVar0] = -1;
+		Global_1989134[iVar0] = -1;
 		iVar0++;
 	}
 	iVar0 = 0;
@@ -44116,7 +44116,7 @@ void func_334(var uParam0)
 		}
 		iVar17++;
 	}
-	Global_1989161 = 1;
+	Global_1989162 = 1;
 }
 
 void func_335(int iParam0, bool bParam1)
@@ -44130,25 +44130,25 @@ void func_335(int iParam0, bool bParam1)
 	{
 		if (bParam1)
 		{
-			if (Global_1989133[iVar1] == iParam0)
+			if (Global_1989134[iVar1] == iParam0)
 			{
 				return;
 			}
-			else if (Global_1989133[iVar1] == -1)
+			else if (Global_1989134[iVar1] == -1)
 			{
 				iVar0 = iVar1;
 			}
 		}
-		else if (Global_1989133[iVar1] == iParam0)
+		else if (Global_1989134[iVar1] == iParam0)
 		{
-			Global_1989133[iVar1] = -1;
+			Global_1989134[iVar1] = -1;
 			return;
 		}
 		iVar1 = (iVar1 + -1);
 	}
 	if (bParam1 && iVar0 >= 0)
 	{
-		Global_1989133[iVar0] = iParam0;
+		Global_1989134[iVar0] = iParam0;
 	}
 }
 
@@ -44159,10 +44159,10 @@ void func_336()
 	iVar0 = 0;
 	while (iVar0 < 27)
 	{
-		Global_1989133[iVar0] = -1;
+		Global_1989134[iVar0] = -1;
 		iVar0++;
 	}
-	Global_1989161 = 0;
+	Global_1989162 = 0;
 }
 
 void func_337(int iParam0, int iParam1, int iParam2)
@@ -112535,7 +112535,7 @@ int func_757()
 	{
 		return 0;
 	}
-	if (Global_1989178.f_3)
+	if (Global_1989179.f_3)
 	{
 		return 0;
 	}
@@ -112543,9 +112543,9 @@ int func_757()
 	{
 		return 0;
 	}
-	if (func_760(&Global_1989178))
+	if (func_760(&Global_1989179))
 	{
-		return func_758(&Global_1989178, Global_1989178.f_2, 0);
+		return func_758(&Global_1989179, Global_1989179.f_2, 0);
 	}
 	return 0;
 }
@@ -121537,7 +121537,7 @@ void func_1033()
 			}
 			if (!Global_2625233.f_3)
 			{
-				if (func_1322(Global_1988059))
+				if (func_1322(Global_1988060))
 				{
 					func_1244(Global_2625233.f_12, 0);
 					func_1243(Global_2625233.f_12);
@@ -129858,7 +129858,7 @@ void func_1215()
 {
 	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(MISC::GET_HASH_KEY("AM_MP_ISLAND")) != 0 || NETWORK::NETWORK_IS_SCRIPT_ACTIVE("AM_MP_ISLAND", -1, true, 0))
 	{
-		Global_1978627 = 1;
+		Global_1978628 = 1;
 	}
 }
 
@@ -130266,13 +130266,13 @@ void func_1237()
 	char* sVar0;
 	int iVar1;
 	
-	if (!Global_1978631)
+	if (!Global_1978632)
 	{
 		return;
 	}
 	if (STREAMING::IS_NEW_LOAD_SCENE_ACTIVE() || STREAMING::IS_PLAYER_SWITCH_IN_PROGRESS())
 	{
-		Global_1978631 = 1;
+		Global_1978632 = 1;
 		return;
 	}
 	iVar1 = 0;
@@ -130292,8 +130292,8 @@ void func_1237()
 		}
 		iVar1++;
 	}
+	Global_1978633 = 0;
 	Global_1978632 = 0;
-	Global_1978631 = 0;
 }
 
 bool func_1238()
@@ -174276,14 +174276,14 @@ void func_2044(bool bParam0)
 {
 	if (bParam0)
 	{
-		if (!Global_1978493)
+		if (!Global_1978494)
 		{
-			Global_1978493 = 1;
+			Global_1978494 = 1;
 		}
 	}
-	else if (Global_1978493)
+	else if (Global_1978494)
 	{
-		Global_1978493 = 0;
+		Global_1978494 = 0;
 	}
 }
 

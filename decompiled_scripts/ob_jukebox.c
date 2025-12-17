@@ -1277,9 +1277,9 @@ char* func_29()
 	{
 		return "ARENA_BOX";
 	}
-	else if (Global_2733002.f_4759.f_1 && Global_1987938 != -1)
+	else if (Global_2733002.f_4759.f_1 && Global_1987939 != -1)
 	{
-		return func_37(Global_1987938);
+		return func_37(Global_1987939);
 	}
 	else if (Global_102481.f_417 > 0)
 	{
@@ -9683,7 +9683,7 @@ int func_226(int iParam0)
 	}
 	if (iParam0 != -1)
 	{
-		return BitTest(Global_1976314[iParam0 /*68*/].f_40, 4);
+		return BitTest(Global_1976315[iParam0 /*68*/].f_40, 4);
 	}
 	return 0;
 }

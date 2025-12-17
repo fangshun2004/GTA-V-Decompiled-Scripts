@@ -15548,7 +15548,7 @@ void func_155(int iParam0, bool bParam1, bool bParam2, int iParam3, bool bParam4
 		{
 			bVar2 = false;
 		}
-		if (((!bParam4 || iVar0 != func_105()) || Global_1989162) || SCRIPT::GET_HASH_OF_THIS_SCRIPT_NAME() == joaat("maintransition"))
+		if (((!bParam4 || iVar0 != func_105()) || Global_1989163) || SCRIPT::GET_HASH_OF_THIS_SCRIPT_NAME() == joaat("maintransition"))
 		{
 			iVar17 = func_197(iParam0);
 			iVar18 = 0;
@@ -15597,7 +15597,7 @@ void func_155(int iParam0, bool bParam1, bool bParam2, int iParam3, bool bParam4
 				}
 				iVar19++;
 			}
-			if (Global_1989161)
+			if (Global_1989162)
 			{
 				func_159();
 			}
@@ -15618,7 +15618,7 @@ void func_156(int iParam0, bool bParam1, bool bParam2, bool bParam3, bool bParam
 	int iVar30;
 	int iVar31;
 	
-	if (!Global_1989161)
+	if (!Global_1989162)
 	{
 		func_157(&iParam0);
 	}
@@ -15627,7 +15627,7 @@ void func_156(int iParam0, bool bParam1, bool bParam2, bool bParam3, bool bParam
 	iVar0 = 0;
 	while (iVar0 < 27)
 	{
-		iVar30 = Global_1989133[iVar0];
+		iVar30 = Global_1989134[iVar0];
 		if (iVar30 <= -1)
 		{
 		}
@@ -15686,7 +15686,7 @@ void func_157(var uParam0)
 	iVar0 = 0;
 	while (iVar0 < 27)
 	{
-		Global_1989133[iVar0] = -1;
+		Global_1989134[iVar0] = -1;
 		iVar0++;
 	}
 	iVar0 = 0;
@@ -15716,7 +15716,7 @@ void func_157(var uParam0)
 		}
 		iVar17++;
 	}
-	Global_1989161 = 1;
+	Global_1989162 = 1;
 }
 
 void func_158(int iParam0, bool bParam1)
@@ -15730,25 +15730,25 @@ void func_158(int iParam0, bool bParam1)
 	{
 		if (bParam1)
 		{
-			if (Global_1989133[iVar1] == iParam0)
+			if (Global_1989134[iVar1] == iParam0)
 			{
 				return;
 			}
-			else if (Global_1989133[iVar1] == -1)
+			else if (Global_1989134[iVar1] == -1)
 			{
 				iVar0 = iVar1;
 			}
 		}
-		else if (Global_1989133[iVar1] == iParam0)
+		else if (Global_1989134[iVar1] == iParam0)
 		{
-			Global_1989133[iVar1] = -1;
+			Global_1989134[iVar1] = -1;
 			return;
 		}
 		iVar1 = (iVar1 + -1);
 	}
 	if (bParam1 && iVar0 >= 0)
 	{
-		Global_1989133[iVar0] = iParam0;
+		Global_1989134[iVar0] = iParam0;
 	}
 }
 
@@ -15759,10 +15759,10 @@ void func_159()
 	iVar0 = 0;
 	while (iVar0 < 27)
 	{
-		Global_1989133[iVar0] = -1;
+		Global_1989134[iVar0] = -1;
 		iVar0++;
 	}
-	Global_1989161 = 0;
+	Global_1989162 = 0;
 }
 
 void func_160(int iParam0, int iParam1, int iParam2)
@@ -117490,7 +117490,7 @@ int func_915(int iParam0)
 {
 	if (iParam0 != -1)
 	{
-		return BitTest(Global_1983166[iParam0 /*149*/].f_73, 12);
+		return BitTest(Global_1983167[iParam0 /*149*/].f_73, 12);
 	}
 	return 0;
 }
@@ -117533,23 +117533,23 @@ int func_917(int iParam0, int iParam1)
 		switch (iParam1)
 		{
 			case 0:
-				return BitTest(Global_1983166[iParam0 /*149*/].f_73.f_2, 0);
+				return BitTest(Global_1983167[iParam0 /*149*/].f_73.f_2, 0);
 			
 			case 1:
-				return BitTest(Global_1983166[iParam0 /*149*/].f_73.f_2, 1);
+				return BitTest(Global_1983167[iParam0 /*149*/].f_73.f_2, 1);
 			
 			case 2:
-				return BitTest(Global_1983166[iParam0 /*149*/].f_73.f_2, 2);
+				return BitTest(Global_1983167[iParam0 /*149*/].f_73.f_2, 2);
 			
 			case 3:
-				return BitTest(Global_1983166[iParam0 /*149*/].f_73.f_2, 3);
+				return BitTest(Global_1983167[iParam0 /*149*/].f_73.f_2, 3);
 			
 			case 4:
-				return BitTest(Global_1983166[iParam0 /*149*/].f_73.f_2, 4);
+				return BitTest(Global_1983167[iParam0 /*149*/].f_73.f_2, 4);
 			
 			case 5:
 			case 6:
-				return BitTest(Global_1983166[iParam0 /*149*/].f_73, 12);
+				return BitTest(Global_1983167[iParam0 /*149*/].f_73, 12);
 			}
 		
 		default:
@@ -117692,16 +117692,16 @@ int func_922(int iParam0, int iParam1)
 		switch (iParam1)
 		{
 			case 0:
-				return BitTest(Global_1983166[iParam0 /*149*/].f_121, 5);
+				return BitTest(Global_1983167[iParam0 /*149*/].f_121, 5);
 			
 			case 1:
-				return BitTest(Global_1983166[iParam0 /*149*/].f_121, 7);
+				return BitTest(Global_1983167[iParam0 /*149*/].f_121, 7);
 			
 			case 2:
-				return BitTest(Global_1983166[iParam0 /*149*/].f_121, 9);
+				return BitTest(Global_1983167[iParam0 /*149*/].f_121, 9);
 			
 			case 3:
-				return BitTest(Global_1983166[iParam0 /*149*/].f_121, 11);
+				return BitTest(Global_1983167[iParam0 /*149*/].f_121, 11);
 			}
 		
 		default:
@@ -117922,7 +117922,7 @@ int func_932(int iParam0, int iParam1, bool bParam2)
 {
 	if (func_211(iParam0))
 	{
-		return BitTest(Global_1983166[iParam0 /*149*/].f_73, func_933(iParam1, bParam2));
+		return BitTest(Global_1983167[iParam0 /*149*/].f_73, func_933(iParam1, bParam2));
 	}
 	return 0;
 }
@@ -118011,7 +118011,7 @@ int func_936(int iParam0, int iParam1, bool bParam2)
 {
 	if (iParam0 != -1)
 	{
-		return BitTest(Global_1983166[iParam0 /*149*/].f_62.f_1, func_937(iParam1, bParam2));
+		return BitTest(Global_1983167[iParam0 /*149*/].f_62.f_1, func_937(iParam1, bParam2));
 	}
 	return 0;
 }
@@ -118136,7 +118136,7 @@ int func_941(int iParam0)
 {
 	if (iParam0 != -1)
 	{
-		return BitTest(Global_1983166[iParam0 /*149*/].f_59.f_2, 0);
+		return BitTest(Global_1983167[iParam0 /*149*/].f_59.f_2, 0);
 	}
 	return 0;
 }
@@ -118154,7 +118154,7 @@ int func_943(int iParam0, int iParam1)
 {
 	if (iParam0 != -1)
 	{
-		return BitTest(Global_1983166[iParam0 /*149*/].f_59, func_944(iParam1, 1));
+		return BitTest(Global_1983167[iParam0 /*149*/].f_59, func_944(iParam1, 1));
 	}
 	return 0;
 }
@@ -118433,7 +118433,7 @@ int func_952(int iParam0)
 {
 	if (iParam0 != -1)
 	{
-		return BitTest(Global_1983166[iParam0 /*149*/].f_27, 2);
+		return BitTest(Global_1983167[iParam0 /*149*/].f_27, 2);
 	}
 	return 0;
 }
@@ -118451,7 +118451,7 @@ int func_954(int iParam0, var uParam1)
 {
 	if (iParam0 != -1)
 	{
-		return BitTest(Global_1983166[iParam0 /*149*/].f_27.f_3, uParam1);
+		return BitTest(Global_1983167[iParam0 /*149*/].f_27.f_3, uParam1);
 	}
 	return 0;
 }
@@ -118469,7 +118469,7 @@ int func_956(int iParam0)
 {
 	if (iParam0 != -1)
 	{
-		return Global_1983166[iParam0 /*149*/].f_27.f_10;
+		return Global_1983167[iParam0 /*149*/].f_27.f_10;
 	}
 	return 0;
 }
@@ -118593,7 +118593,7 @@ int func_960(int iParam0)
 	}
 	if (iParam0 != -1)
 	{
-		return BitTest(Global_1983166[iParam0 /*149*/].f_1, 0);
+		return BitTest(Global_1983167[iParam0 /*149*/].f_1, 0);
 	}
 	return 0;
 }
@@ -118761,7 +118761,7 @@ int func_965(int iParam0, var uParam1)
 {
 	if (iParam0 != -1)
 	{
-		return BitTest(Global_1980732[iParam0 /*53*/].f_3, uParam1);
+		return BitTest(Global_1980733[iParam0 /*53*/].f_3, uParam1);
 	}
 	return 0;
 }
@@ -118770,7 +118770,7 @@ int func_966(int iParam0)
 {
 	if (iParam0 != -1)
 	{
-		return BitTest(Global_1980732[iParam0 /*53*/].f_1, 1);
+		return BitTest(Global_1980733[iParam0 /*53*/].f_1, 1);
 	}
 	return 0;
 }
@@ -118797,7 +118797,7 @@ int func_969(int iParam0, var uParam1)
 {
 	if (iParam0 != -1)
 	{
-		return BitTest(Global_1980732[iParam0 /*53*/].f_2, uParam1);
+		return BitTest(Global_1980733[iParam0 /*53*/].f_2, uParam1);
 	}
 	return 0;
 }

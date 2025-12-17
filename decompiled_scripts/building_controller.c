@@ -1516,6 +1516,22 @@ void func_13()
 			}
 			if (!func_25())
 			{
+				if (STREAMING::IS_IPL_ACTIVE("hei_ch1_09_props_original_lodlights"))
+				{
+					STREAMING::REMOVE_IPL("hei_ch1_09_props_original_lodlights");
+				}
+				if (STREAMING::IS_IPL_ACTIVE("hei_ch1_09_props_original_distantlights"))
+				{
+					STREAMING::REMOVE_IPL("hei_ch1_09_props_original_distantlights");
+				}
+				if (STREAMING::IS_IPL_ACTIVE("hei_ch1_09_mansion_original_lodlights"))
+				{
+					STREAMING::REMOVE_IPL("hei_ch1_09_mansion_original_lodlights");
+				}
+				if (STREAMING::IS_IPL_ACTIVE("hei_ch1_09_mansion_original_distantlights"))
+				{
+					STREAMING::REMOVE_IPL("hei_ch1_09_mansion_original_distantlights");
+				}
 				if (STREAMING::IS_IPL_ACTIVE("hei_ch1_09_props_original"))
 				{
 					STREAMING::REMOVE_IPL("hei_ch1_09_props_original");
@@ -1583,6 +1599,54 @@ void func_13()
 				if (!STREAMING::IS_IPL_ACTIVE("hei_ch1_roads_mansion"))
 				{
 					STREAMING::REQUEST_IPL("hei_ch1_roads_mansion");
+				}
+				if (!STREAMING::IS_IPL_ACTIVE("apa_ch2_04_mansion_shared_distantlights"))
+				{
+					STREAMING::REQUEST_IPL("apa_ch2_04_mansion_shared_distantlights");
+				}
+				if (!STREAMING::IS_IPL_ACTIVE("apa_ch2_04_mansion_shared_lodlights"))
+				{
+					STREAMING::REQUEST_IPL("apa_ch2_04_mansion_shared_lodlights");
+				}
+				if (!STREAMING::IS_IPL_ACTIVE("hei_ch1_06e_mansion_shared_distantlights"))
+				{
+					STREAMING::REQUEST_IPL("hei_ch1_06e_mansion_shared_distantlights");
+				}
+				if (!STREAMING::IS_IPL_ACTIVE("hei_ch1_06e_mansion_shared_lodlights"))
+				{
+					STREAMING::REQUEST_IPL("hei_ch1_06e_mansion_shared_lodlights");
+				}
+				if (!STREAMING::IS_IPL_ACTIVE("hei_ch1_09_mansion_shared_distantlights"))
+				{
+					STREAMING::REQUEST_IPL("hei_ch1_09_mansion_shared_distantlights");
+				}
+				if (!STREAMING::IS_IPL_ACTIVE("hei_ch1_09_mansion_shared_lodlights"))
+				{
+					STREAMING::REQUEST_IPL("hei_ch1_09_mansion_shared_lodlights");
+				}
+				if (!STREAMING::IS_IPL_ACTIVE("apa_ch2_04_mansion_firepit_distantlights"))
+				{
+					STREAMING::REQUEST_IPL("apa_ch2_04_mansion_firepit_distantlights");
+				}
+				if (!STREAMING::IS_IPL_ACTIVE("apa_ch2_04_mansion_firepit_lodlights"))
+				{
+					STREAMING::REQUEST_IPL("apa_ch2_04_mansion_firepit_lodlights");
+				}
+				if (!STREAMING::IS_IPL_ACTIVE("hei_ch1_06e_mansion_firepit_distantlights"))
+				{
+					STREAMING::REQUEST_IPL("hei_ch1_06e_mansion_firepit_distantlights");
+				}
+				if (!STREAMING::IS_IPL_ACTIVE("hei_ch1_06e_mansion_firepit_lodlights"))
+				{
+					STREAMING::REQUEST_IPL("hei_ch1_06e_mansion_firepit_lodlights");
+				}
+				if (!STREAMING::IS_IPL_ACTIVE("hei_ch1_09_mansion_firepit_distantlights"))
+				{
+					STREAMING::REQUEST_IPL("hei_ch1_09_mansion_firepit_distantlights");
+				}
+				if (!STREAMING::IS_IPL_ACTIVE("hei_ch1_09_mansion_firepit_lodlights"))
+				{
+					STREAMING::REQUEST_IPL("hei_ch1_09_mansion_firepit_lodlights");
 				}
 			}
 			else
@@ -1712,6 +1776,78 @@ void func_13()
 				{
 					STREAMING::REMOVE_IPL("m25_2_ch1_09_mansion_interior_a");
 				}
+				if (STREAMING::IS_IPL_ACTIVE("hei_ch1_09_mansion_shared_lodlights"))
+				{
+					STREAMING::REMOVE_IPL("hei_ch1_09_mansion_shared_lodlights");
+				}
+				if (STREAMING::IS_IPL_ACTIVE("hei_ch1_09_mansion_shared_distantlights"))
+				{
+					STREAMING::REMOVE_IPL("hei_ch1_09_mansion_shared_distantlights");
+				}
+				if (STREAMING::IS_IPL_ACTIVE("hei_ch1_09_mansion_private_lodlights"))
+				{
+					STREAMING::REMOVE_IPL("hei_ch1_09_mansion_private_lodlights");
+				}
+				if (STREAMING::IS_IPL_ACTIVE("hei_ch1_09_mansion_private_distantlights"))
+				{
+					STREAMING::REMOVE_IPL("hei_ch1_09_mansion_private_distantlights");
+				}
+				if (STREAMING::IS_IPL_ACTIVE("hei_ch1_09_mansion_firepit_lodlights"))
+				{
+					STREAMING::REMOVE_IPL("hei_ch1_09_mansion_firepit_lodlights");
+				}
+				if (STREAMING::IS_IPL_ACTIVE("hei_ch1_09_mansion_firepit_distantlights"))
+				{
+					STREAMING::REMOVE_IPL("hei_ch1_09_mansion_firepit_distantlights");
+				}
+				if (STREAMING::IS_IPL_ACTIVE("hei_ch1_06e_mansion_shared_lodlights"))
+				{
+					STREAMING::REMOVE_IPL("hei_ch1_06e_mansion_shared_lodlights");
+				}
+				if (STREAMING::IS_IPL_ACTIVE("hei_ch1_06e_mansion_shared_distantlights"))
+				{
+					STREAMING::REMOVE_IPL("hei_ch1_06e_mansion_shared_distantlights");
+				}
+				if (STREAMING::IS_IPL_ACTIVE("hei_ch1_06e_mansion_private_lodlights"))
+				{
+					STREAMING::REMOVE_IPL("hei_ch1_06e_mansion_private_lodlights");
+				}
+				if (STREAMING::IS_IPL_ACTIVE("hei_ch1_06e_mansion_private_distantlights"))
+				{
+					STREAMING::REMOVE_IPL("hei_ch1_06e_mansion_private_distantlights");
+				}
+				if (STREAMING::IS_IPL_ACTIVE("hei_ch1_06e_mansion_firepit_lodlights"))
+				{
+					STREAMING::REMOVE_IPL("hei_ch1_06e_mansion_firepit_lodlights");
+				}
+				if (STREAMING::IS_IPL_ACTIVE("hei_ch1_06e_mansion_firepit_distantlights"))
+				{
+					STREAMING::REMOVE_IPL("hei_ch1_06e_mansion_firepit_distantlights");
+				}
+				if (STREAMING::IS_IPL_ACTIVE("apa_ch2_04_mansion_shared_lodlights"))
+				{
+					STREAMING::REMOVE_IPL("apa_ch2_04_mansion_shared_lodlights");
+				}
+				if (STREAMING::IS_IPL_ACTIVE("apa_ch2_04_mansion_shared_distantlights"))
+				{
+					STREAMING::REMOVE_IPL("apa_ch2_04_mansion_shared_distantlights");
+				}
+				if (STREAMING::IS_IPL_ACTIVE("apa_ch2_04_mansion_private_lodlights"))
+				{
+					STREAMING::REMOVE_IPL("apa_ch2_04_mansion_private_lodlights");
+				}
+				if (STREAMING::IS_IPL_ACTIVE("apa_ch2_04_mansion_private_distantlights"))
+				{
+					STREAMING::REMOVE_IPL("apa_ch2_04_mansion_private_distantlights");
+				}
+				if (STREAMING::IS_IPL_ACTIVE("apa_ch2_04_mansion_firepit_lodlights"))
+				{
+					STREAMING::REMOVE_IPL("apa_ch2_04_mansion_firepit_lodlights");
+				}
+				if (STREAMING::IS_IPL_ACTIVE("apa_ch2_04_mansion_firepit_distantlights"))
+				{
+					STREAMING::REMOVE_IPL("apa_ch2_04_mansion_firepit_distantlights");
+				}
 				if (STREAMING::IS_IPL_ACTIVE("hei_ch1_roads_mansion"))
 				{
 					STREAMING::REMOVE_IPL("hei_ch1_roads_mansion");
@@ -1775,6 +1911,22 @@ void func_13()
 				if (!STREAMING::IS_IPL_ACTIVE("hei_ch1_09_props_original"))
 				{
 					STREAMING::REQUEST_IPL("hei_ch1_09_props_original");
+				}
+				if (!STREAMING::IS_IPL_ACTIVE("hei_ch1_09_mansion_original_distantlights"))
+				{
+					STREAMING::REQUEST_IPL("hei_ch1_09_mansion_original_distantlights");
+				}
+				if (!STREAMING::IS_IPL_ACTIVE("hei_ch1_09_mansion_original_lodlights"))
+				{
+					STREAMING::REQUEST_IPL("hei_ch1_09_mansion_original_lodlights");
+				}
+				if (!STREAMING::IS_IPL_ACTIVE("hei_ch1_09_props_original_distantlights"))
+				{
+					STREAMING::REQUEST_IPL("hei_ch1_09_props_original_distantlights");
+				}
+				if (!STREAMING::IS_IPL_ACTIVE("hei_ch1_09_props_original_lodlights"))
+				{
+					STREAMING::REQUEST_IPL("hei_ch1_09_props_original_lodlights");
 				}
 			}
 		}

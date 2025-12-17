@@ -6886,7 +6886,7 @@ int func_76()
 			}
 			break;
 	}
-	if (Global_1978492)
+	if (Global_1978493)
 	{
 		return 1;
 	}
@@ -8916,7 +8916,7 @@ void func_131(int iParam0)
 	{
 		if (func_132(PLAYER::PLAYER_ID()) && iParam0)
 		{
-			Global_1978565 = 1;
+			Global_1978566 = 1;
 		}
 		else
 		{

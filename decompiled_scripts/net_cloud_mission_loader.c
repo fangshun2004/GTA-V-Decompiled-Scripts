@@ -4043,7 +4043,7 @@ void func_130(char* sParam0, int iParam1, var uParam2)
 	{
 		sParam0->f_74 = 8;
 	}
-	func_96(sParam0->f_71, &(sParam0->f_75), &(sParam0->f_77));
+	func_96(sParam0->f_71, &(sParam0->f_77), &(sParam0->f_75));
 	if (func_95() != 2)
 	{
 		if (sParam0->f_77 > Global_262145.f_4270)
@@ -4444,7 +4444,7 @@ Vector3 func_149(bool bParam0)
 
 Vector3 func_150()
 {
-	if (BitTest(Global_1988018, 9))
+	if (BitTest(Global_1988019, 9))
 	{
 		return 1387.391f, 3615.812f, 37.926f;
 	}
@@ -7423,7 +7423,7 @@ int func_242(int iParam0, bool bParam1, char* sParam2, int iParam3)
 	}
 	Var0 = { func_241(sParam2) };
 	Var13 = { func_245(PLAYER::PLAYER_ID()) };
-	if (!Global_1988073)
+	if (!Global_1988074)
 	{
 		return func_244(&Var0, &Var13, iParam0, bParam1);
 	}
@@ -52801,15 +52801,15 @@ struct<16> func_585()
 	struct<16> Var0;
 	
 	StringCopy(&Var0, HUD::GET_FILENAME_FOR_AUDIO_CONVERSATION("FMMC_CH_DN"), 64);
-	if (Global_1971917 == 1)
+	if (Global_1971918 == 1)
 	{
 		StringCopy(&Var0, HUD::GET_FILENAME_FOR_AUDIO_CONVERSATION("FMMC_CH_SS"), 64);
 	}
-	else if (Global_1971917 == 2)
+	else if (Global_1971918 == 2)
 	{
 		StringCopy(&Var0, HUD::GET_FILENAME_FOR_AUDIO_CONVERSATION("FMMC_CH_BC"), 64);
 	}
-	else if (Global_1971917 == 3)
+	else if (Global_1971918 == 3)
 	{
 		StringCopy(&Var0, HUD::GET_FILENAME_FOR_AUDIO_CONVERSATION("FMMC_CH_AG"), 64);
 	}

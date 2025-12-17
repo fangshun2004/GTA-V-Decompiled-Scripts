@@ -861,7 +861,7 @@ void __EntryFunction__()
 	while (true)
 	{
 		SYSTEM::WAIT(0);
-		func_1(&uScriptParam_0, &Global_1988417, &iLocal_49, &uLocal_106);
+		func_1(&uScriptParam_0, &Global_1988418, &iLocal_49, &uLocal_106);
 	}
 }
 
@@ -966,7 +966,7 @@ void func_6(var uParam0)
 	uParam0->f_697 = 0f;
 	uParam0->f_698 = 0f;
 	uParam0->f_699 = 1f;
-	Global_1988494 = 0;
+	Global_1988495 = 0;
 }
 
 void func_7(var uParam0, char* sParam1)
@@ -2363,13 +2363,13 @@ void func_69(int iParam0)
 
 void func_70(var uParam0)
 {
-	Global_1988494 = 0;
+	Global_1988495 = 0;
 	uParam0->f_692 = 0;
 }
 
 int func_71(var uParam0)
 {
-	return (Global_1988494 || uParam0->f_692);
+	return (Global_1988495 || uParam0->f_692);
 }
 
 struct<9> func_72()

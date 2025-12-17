@@ -386,7 +386,7 @@ void __EntryFunction__()
 	}
 	func_42();
 	Global_1836491 = 1;
-	Global_1989167 = NETWORK::GET_CLOUD_TIME_AS_INT();
+	Global_1989168 = NETWORK::GET_CLOUD_TIME_AS_INT();
 	func_8();
 	iVar0 = func_6();
 	if ((iVar0 >= 0 && !func_3(Global_1583765[iVar0 /*143*/].f_66, 0)) && !func_2(Global_1583765[iVar0 /*143*/].f_66))
@@ -747,7 +747,7 @@ void func_13(char* sParam0)
 
 void func_14(int iParam0, char* sParam1)
 {
-	Global_1988495[iParam0] = MISC::GET_HASH_KEY(sParam1);
+	Global_1988496[iParam0] = MISC::GET_HASH_KEY(sParam1);
 }
 
 void func_15(bool bParam0, int iParam1, int iParam2, int iParam3, int iParam4, int iParam5, int iParam6)

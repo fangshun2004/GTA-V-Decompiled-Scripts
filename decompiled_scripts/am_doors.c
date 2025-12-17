@@ -697,7 +697,7 @@ int func_15(int iParam0)
 	int iVar1;
 	int iVar2;
 	
-	if (Global_1989177)
+	if (Global_1989178)
 	{
 		return 1;
 	}

@@ -465,10 +465,10 @@ void __EntryFunction__()
 
 void func_1()
 {
-	if (BitTest(Global_1982486, 0))
+	if (BitTest(Global_1982487, 0))
 	{
 		GRAPHICS::SET_STREAMED_TEXTURE_DICT_AS_NO_LONGER_NEEDED(func_2());
-		MISC::CLEAR_BIT(&Global_1982486, 0);
+		MISC::CLEAR_BIT(&Global_1982487, 0);
 	}
 }
 
@@ -485,7 +485,7 @@ void func_3()
 	{
 		return;
 	}
-	if (!func_42(&(Global_1982486.f_7)))
+	if (!func_42(&(Global_1982487.f_7)))
 	{
 		if (HUD::DOES_BLIP_EXIST(iLocal_213))
 		{
@@ -498,7 +498,7 @@ void func_3()
 					{
 						HUD::TAKE_CONTROL_OF_FRONTEND();
 						AUDIO::PLAY_SOUND_FRONTEND(-1, "SELECT", "HUD_FRONTEND_DEFAULT_SOUNDSET", true);
-						func_4(&(Global_1982486.f_7), iVar0);
+						func_4(&(Global_1982487.f_7), iVar0);
 						HUD::SET_FRONTEND_ACTIVE(false);
 						HUD::RELEASE_CONTROL_OF_FRONTEND();
 					}
@@ -937,7 +937,7 @@ int func_39(int iParam0)
 {
 	if (iParam0 != -1)
 	{
-		return BitTest(Global_1983166[iParam0 /*149*/].f_73, 12);
+		return BitTest(Global_1983167[iParam0 /*149*/].f_73, 12);
 	}
 	return 0;
 }
@@ -980,23 +980,23 @@ int func_41(int iParam0, int iParam1)
 		switch (iParam1)
 		{
 			case 0:
-				return BitTest(Global_1983166[iParam0 /*149*/].f_73.f_2, 0);
+				return BitTest(Global_1983167[iParam0 /*149*/].f_73.f_2, 0);
 			
 			case 1:
-				return BitTest(Global_1983166[iParam0 /*149*/].f_73.f_2, 1);
+				return BitTest(Global_1983167[iParam0 /*149*/].f_73.f_2, 1);
 			
 			case 2:
-				return BitTest(Global_1983166[iParam0 /*149*/].f_73.f_2, 2);
+				return BitTest(Global_1983167[iParam0 /*149*/].f_73.f_2, 2);
 			
 			case 3:
-				return BitTest(Global_1983166[iParam0 /*149*/].f_73.f_2, 3);
+				return BitTest(Global_1983167[iParam0 /*149*/].f_73.f_2, 3);
 			
 			case 4:
-				return BitTest(Global_1983166[iParam0 /*149*/].f_73.f_2, 4);
+				return BitTest(Global_1983167[iParam0 /*149*/].f_73.f_2, 4);
 			
 			case 5:
 			case 6:
-				return BitTest(Global_1983166[iParam0 /*149*/].f_73, 12);
+				return BitTest(Global_1983167[iParam0 /*149*/].f_73, 12);
 			}
 		
 		default:
@@ -2607,7 +2607,7 @@ int func_90()
 	int iVar0;
 	int iVar1;
 	
-	iVar0 = (NETWORK::GET_CLOUD_TIME_AS_INT() - Global_1982552);
+	iVar0 = (NETWORK::GET_CLOUD_TIME_AS_INT() - Global_1982553);
 	iVar1 = (iVar0 / 86400);
 	return (iVar1 % 7);
 }
@@ -9266,7 +9266,7 @@ void func_290(int iParam0, int iParam1, var uParam2)
 	iVar0 = 1;
 	iVar1 = 0;
 	iVar2 = 65;
-	if (!func_42(&(Global_1982486.f_7)) && func_5(iParam0))
+	if (!func_42(&(Global_1982487.f_7)) && func_5(iParam0))
 	{
 		if (func_306(iParam0))
 		{
@@ -10624,7 +10624,7 @@ int func_318(int iParam0)
 {
 	if (func_15(iParam0))
 	{
-		return Global_1983166[iParam0 /*149*/].f_145.f_2;
+		return Global_1983167[iParam0 /*149*/].f_145.f_2;
 	}
 	return -1;
 }
@@ -10642,7 +10642,7 @@ int func_320(int iParam0)
 {
 	if (func_15(iParam0))
 	{
-		return BitTest(Global_1983166[iParam0 /*149*/].f_145, 0);
+		return BitTest(Global_1983167[iParam0 /*149*/].f_145, 0);
 	}
 	return 0;
 }
@@ -12392,16 +12392,16 @@ void func_359(int iParam0)
 	func_341(1);
 	func_339(iVar0);
 	func_44(iVar0, "", HUD::GET_FILENAME_FOR_AUDIO_CONVERSATION(func_370(iParam0)), 0, func_2(), func_368(iParam0), 1, 1, -1, -1, 0, 0, 0, 0);
-	if (iParam0 == 0 && Global_1982548 != -1)
+	if (iParam0 == 0 && Global_1982549 != -1)
 	{
-		if (Global_262145.f_6209[Global_1982548] > 31 || Global_262145.f_6209[Global_1982548] < 0)
+		if (Global_262145.f_6209[Global_1982549] > 31 || Global_262145.f_6209[Global_1982549] < 0)
 		{
-			func_297(iVar0, iVar1, iVar2, iVar1, 0, "FMMCCPD_CHG", VEHICLE::GET_DISPLAY_NAME_FROM_VEHICLE_MODEL(Global_262145.f_6209[Global_1982548]), 0, 0, 0, 0);
+			func_297(iVar0, iVar1, iVar2, iVar1, 0, "FMMCCPD_CHG", VEHICLE::GET_DISPLAY_NAME_FROM_VEHICLE_MODEL(Global_262145.f_6209[Global_1982549]), 0, 0, 0, 0);
 			iVar1++;
 		}
 		else
 		{
-			func_297(iVar0, iVar1, iVar2, iVar1, 0, "FMMC_VEH_CL", func_367(Global_262145.f_6209[Global_1982548]), 0, 0, 0, 0);
+			func_297(iVar0, iVar1, iVar2, iVar1, 0, "FMMC_VEH_CL", func_367(Global_262145.f_6209[Global_1982549]), 0, 0, 0, 0);
 			iVar1++;
 		}
 	}
@@ -14337,20 +14337,20 @@ void func_415()
 	}
 	if (HUD::DOES_BLIP_EXIST(iLocal_213) && HUD::IS_MISSION_CREATOR_BLIP(iLocal_213))
 	{
-		Global_1988202[2] = -1;
+		Global_1988203[2] = -1;
 		if (HUD::GET_BLIP_SPRITE(iLocal_213) == 932 || HUD::GET_BLIP_SPRITE(iLocal_213) == 938)
 		{
-			Global_1988202[2] = 174;
+			Global_1988203[2] = 174;
 		}
 		else if (HUD::GET_BLIP_SPRITE(iLocal_213) == 929 || HUD::GET_BLIP_SPRITE(iLocal_213) == 936)
 		{
-			Global_1988202[2] = 176;
+			Global_1988203[2] = 176;
 		}
 		else if (HUD::GET_BLIP_SPRITE(iLocal_213) == 926 || HUD::GET_BLIP_SPRITE(iLocal_213) == 937)
 		{
-			Global_1988202[2] = 175;
+			Global_1988203[2] = 175;
 		}
-		if (Global_1988202[2] != -1)
+		if (Global_1988203[2] != -1)
 		{
 			func_305(1);
 			if (PAD::IS_CONTROL_JUST_PRESSED(2, 203))
@@ -14372,15 +14372,15 @@ void func_416(int iParam0)
 	switch (iParam0)
 	{
 		case 0:
-			Global_1988202[1] = -414884721;
+			Global_1988203[1] = -414884721;
 			break;
 		
 		case 1:
-			Global_1988202[1] = 651783971;
+			Global_1988203[1] = 651783971;
 			break;
 		
 		case 2:
-			Global_1988202[1] = -995004223;
+			Global_1988203[1] = -995004223;
 			break;
 	}
 }
@@ -14431,15 +14431,15 @@ void func_419(int iParam0)
 	switch (iParam0)
 	{
 		case 0:
-			Global_1988202[1] = -414884721;
+			Global_1988203[1] = -414884721;
 			break;
 		
 		case 1:
-			Global_1988202[1] = 651783971;
+			Global_1988203[1] = 651783971;
 			break;
 		
 		case 2:
-			Global_1988202[1] = -995004223;
+			Global_1988203[1] = -995004223;
 			break;
 	}
 }
@@ -14490,15 +14490,15 @@ void func_422(int iParam0)
 	switch (iParam0)
 	{
 		case 0:
-			Global_1988202[1] = -414884721;
+			Global_1988203[1] = -414884721;
 			break;
 		
 		case 1:
-			Global_1988202[1] = 651783971;
+			Global_1988203[1] = 651783971;
 			break;
 		
 		case 2:
-			Global_1988202[1] = -995004223;
+			Global_1988203[1] = -995004223;
 			break;
 	}
 }
@@ -14557,10 +14557,10 @@ void func_427()
 {
 	if (Global_262145.f_30341)
 	{
-		if (!BitTest(Global_1982486, 0))
+		if (!BitTest(Global_1982487, 0))
 		{
 			GRAPHICS::REQUEST_STREAMED_TEXTURE_DICT(func_2(), false);
-			MISC::SET_BIT(&Global_1982486, 0);
+			MISC::SET_BIT(&Global_1982487, 0);
 		}
 	}
 }

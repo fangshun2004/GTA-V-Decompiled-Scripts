@@ -2533,19 +2533,19 @@ void func_34()
 	iVar0 = 0;
 	while (iVar0 < 6)
 	{
-		Global_1988422[iVar0] = 0;
-		StringCopy(&(Global_1988422.f_7[iVar0 /*4*/]), "", 16);
+		Global_1988423[iVar0] = 0;
+		StringCopy(&(Global_1988423.f_7[iVar0 /*4*/]), "", 16);
 		iVar0++;
 	}
-	Global_1988422.f_32 = 0;
+	Global_1988423.f_32 = 0;
 	iVar0 = 0;
 	while (iVar0 < 3)
 	{
-		IntToString(&(Global_1988422.f_33[iVar0 /*8*/]), 0, 32);
-		StringCopy(&(Global_1988422.f_58[iVar0 /*4*/]), "", 16);
+		IntToString(&(Global_1988423.f_33[iVar0 /*8*/]), 0, 32);
+		StringCopy(&(Global_1988423.f_58[iVar0 /*4*/]), "", 16);
 		iVar0++;
 	}
-	Global_1988422.f_71 = 0;
+	Global_1988423.f_71 = 0;
 }
 
 void func_35(int iParam0, bool bParam1, bool bParam2, int iParam3, int iParam4, char* sParam5, char* sParam6, bool bParam7)
@@ -2555,7 +2555,7 @@ void func_35(int iParam0, bool bParam1, bool bParam2, int iParam3, int iParam4, 
 	
 	StringCopy(&cVar0, sParam5, 32);
 	StringCopy(&cVar8, sParam6, 32);
-	MONEY::_NETWORK_SPENT_GENERIC(iParam0, bParam1, bParam2, iParam3, iParam4, &cVar0, &cVar8, &Global_1988422);
+	MONEY::_NETWORK_SPENT_GENERIC(iParam0, bParam1, bParam2, iParam3, iParam4, &cVar0, &cVar8, &Global_1988423);
 	if (bParam7)
 	{
 		if (func_13())
@@ -2571,13 +2571,13 @@ void func_36(int iParam0, int iParam1, bool bParam2)
 	{
 		func_34();
 	}
-	else if (Global_1988422.f_32 == 6)
+	else if (Global_1988423.f_32 == 6)
 	{
 		return;
 	}
-	Global_1988422[Global_1988422.f_32] = iParam1;
-	StringCopy(&(Global_1988422.f_7[Global_1988422.f_32 /*4*/]), func_37(iParam0), 16);
-	Global_1988422.f_32++;
+	Global_1988423[Global_1988423.f_32] = iParam1;
+	StringCopy(&(Global_1988423.f_7[Global_1988423.f_32 /*4*/]), func_37(iParam0), 16);
+	Global_1988423.f_32++;
 }
 
 char* func_37(int iParam0)
@@ -2888,7 +2888,7 @@ void func_43(int iParam0, int iParam1, char* sParam2, char* sParam3)
 	
 	StringCopy(&cVar0, sParam2, 32);
 	StringCopy(&cVar8, sParam3, 32);
-	MONEY::_NETWORK_EARN_GENERIC(iParam0, iParam1, &cVar0, &cVar8, &Global_1988422);
+	MONEY::_NETWORK_EARN_GENERIC(iParam0, iParam1, &cVar0, &cVar8, &Global_1988423);
 }
 
 void func_44(int iParam0, bool bParam1, int iParam2, int iParam3, int iParam4)
@@ -2932,13 +2932,13 @@ void func_46(int iParam0, char* sParam1, bool bParam2)
 	{
 		func_34();
 	}
-	else if (Global_1988422.f_71 == 3)
+	else if (Global_1988423.f_71 == 3)
 	{
 		return;
 	}
-	StringCopy(&(Global_1988422.f_33[Global_1988422.f_71 /*8*/]), sParam1, 32);
-	StringCopy(&(Global_1988422.f_58[Global_1988422.f_71 /*4*/]), func_37(iParam0), 16);
-	Global_1988422.f_71++;
+	StringCopy(&(Global_1988423.f_33[Global_1988423.f_71 /*8*/]), sParam1, 32);
+	StringCopy(&(Global_1988423.f_58[Global_1988423.f_71 /*4*/]), func_37(iParam0), 16);
+	Global_1988423.f_71++;
 }
 
 void func_47(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4)

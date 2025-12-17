@@ -2507,7 +2507,7 @@ int func_42(int iParam0, int iParam1, int iParam2, int iParam3)
 			break;
 		
 		case 2:
-			switch (Global_1983166[iParam3 /*149*/].f_121.f_5)
+			switch (Global_1983167[iParam3 /*149*/].f_121.f_5)
 			{
 				case 0:
 					return 991;
@@ -5613,7 +5613,7 @@ int func_156(int iParam0)
 {
 	if (iParam0 != -1)
 	{
-		return BitTest(Global_1980732[iParam0 /*53*/].f_1, 1);
+		return BitTest(Global_1980733[iParam0 /*53*/].f_1, 1);
 	}
 	return 0;
 }
@@ -7800,7 +7800,7 @@ int func_202(int iParam0)
 {
 	if (func_15(iParam0))
 	{
-		return BitTest(Global_1983166[iParam0 /*149*/].f_145.f_1, 0);
+		return BitTest(Global_1983167[iParam0 /*149*/].f_145.f_1, 0);
 	}
 	return 0;
 }
@@ -20351,7 +20351,7 @@ int func_412(int iParam0, int iParam1)
 {
 	if (func_15(iParam0))
 	{
-		return BitTest(Global_1983166[iParam0 /*149*/].f_62.f_10, iParam1);
+		return BitTest(Global_1983167[iParam0 /*149*/].f_62.f_10, iParam1);
 	}
 	return 0;
 }
@@ -20569,7 +20569,7 @@ int func_420(int iParam0, int iParam1)
 {
 	if (iParam0 != -1)
 	{
-		return BitTest(Global_1980732[iParam0 /*53*/].f_3, iParam1);
+		return BitTest(Global_1980733[iParam0 /*53*/].f_3, iParam1);
 	}
 	return 0;
 }
@@ -20649,7 +20649,7 @@ int func_425(int iParam0, var uParam1)
 {
 	if (iParam0 != -1)
 	{
-		return BitTest(Global_1980732[iParam0 /*53*/].f_2, uParam1);
+		return BitTest(Global_1980733[iParam0 /*53*/].f_2, uParam1);
 	}
 	return 0;
 }
@@ -24536,7 +24536,7 @@ bool func_526()
 
 int func_527()
 {
-	return Global_1978614;
+	return Global_1978615;
 }
 
 bool func_528(int iParam0)

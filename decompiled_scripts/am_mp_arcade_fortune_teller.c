@@ -2865,7 +2865,7 @@ float func_84(int iParam0)
 
 var func_85()
 {
-	return Global_1978496.f_1;
+	return Global_1978497.f_1;
 }
 
 void func_86()
@@ -3393,7 +3393,7 @@ int func_102()
 
 bool func_103(int iParam0)
 {
-	return BitTest(Global_1978496, func_104(iParam0));
+	return BitTest(Global_1978497, func_104(iParam0));
 }
 
 int func_104(int iParam0)
@@ -3465,7 +3465,7 @@ int func_108(int iParam0)
 
 bool func_109()
 {
-	return BitTest(Global_1978496, 0);
+	return BitTest(Global_1978497, 0);
 }
 
 int func_110()
@@ -3592,12 +3592,12 @@ void func_121(int iParam0, bool bParam1)
 	{
 		if (!func_103(iParam0))
 		{
-			MISC::SET_BIT(&Global_1978496, func_104(iParam0));
+			MISC::SET_BIT(&Global_1978497, func_104(iParam0));
 		}
 	}
 	else if (func_103(iParam0))
 	{
-		MISC::CLEAR_BIT(&Global_1978496, func_104(iParam0));
+		MISC::CLEAR_BIT(&Global_1978497, func_104(iParam0));
 	}
 }
 

@@ -47085,7 +47085,7 @@ void func_303(int iParam0, int iParam1)
 
 int func_304()
 {
-	if (MISC::IS_PC_VERSION() && Global_1988062 == 0)
+	if (MISC::IS_PC_VERSION() && Global_1988063 == 0)
 	{
 		return 0;
 	}

@@ -15445,7 +15445,7 @@ void func_216(int iParam0, bool bParam1, bool bParam2, int iParam3, bool bParam4
 		{
 			bVar2 = false;
 		}
-		if (((!bParam4 || iVar0 != func_5()) || Global_1989162) || SCRIPT::GET_HASH_OF_THIS_SCRIPT_NAME() == joaat("maintransition"))
+		if (((!bParam4 || iVar0 != func_5()) || Global_1989163) || SCRIPT::GET_HASH_OF_THIS_SCRIPT_NAME() == joaat("maintransition"))
 		{
 			iVar17 = func_258(iParam0);
 			iVar18 = 0;
@@ -15494,7 +15494,7 @@ void func_216(int iParam0, bool bParam1, bool bParam2, int iParam3, bool bParam4
 				}
 				iVar19++;
 			}
-			if (Global_1989161)
+			if (Global_1989162)
 			{
 				func_220();
 			}
@@ -15515,7 +15515,7 @@ void func_217(int iParam0, bool bParam1, bool bParam2, bool bParam3, bool bParam
 	int iVar30;
 	int iVar31;
 	
-	if (!Global_1989161)
+	if (!Global_1989162)
 	{
 		func_218(&iParam0);
 	}
@@ -15524,7 +15524,7 @@ void func_217(int iParam0, bool bParam1, bool bParam2, bool bParam3, bool bParam
 	iVar0 = 0;
 	while (iVar0 < 27)
 	{
-		iVar30 = Global_1989133[iVar0];
+		iVar30 = Global_1989134[iVar0];
 		if (iVar30 <= -1)
 		{
 		}
@@ -15583,7 +15583,7 @@ void func_218(var uParam0)
 	iVar0 = 0;
 	while (iVar0 < 27)
 	{
-		Global_1989133[iVar0] = -1;
+		Global_1989134[iVar0] = -1;
 		iVar0++;
 	}
 	iVar0 = 0;
@@ -15613,7 +15613,7 @@ void func_218(var uParam0)
 		}
 		iVar17++;
 	}
-	Global_1989161 = 1;
+	Global_1989162 = 1;
 }
 
 void func_219(int iParam0, bool bParam1)
@@ -15627,25 +15627,25 @@ void func_219(int iParam0, bool bParam1)
 	{
 		if (bParam1)
 		{
-			if (Global_1989133[iVar1] == iParam0)
+			if (Global_1989134[iVar1] == iParam0)
 			{
 				return;
 			}
-			else if (Global_1989133[iVar1] == -1)
+			else if (Global_1989134[iVar1] == -1)
 			{
 				iVar0 = iVar1;
 			}
 		}
-		else if (Global_1989133[iVar1] == iParam0)
+		else if (Global_1989134[iVar1] == iParam0)
 		{
-			Global_1989133[iVar1] = -1;
+			Global_1989134[iVar1] = -1;
 			return;
 		}
 		iVar1 = (iVar1 + -1);
 	}
 	if (bParam1 && iVar0 >= 0)
 	{
-		Global_1989133[iVar0] = iParam0;
+		Global_1989134[iVar0] = iParam0;
 	}
 }
 
@@ -15656,10 +15656,10 @@ void func_220()
 	iVar0 = 0;
 	while (iVar0 < 27)
 	{
-		Global_1989133[iVar0] = -1;
+		Global_1989134[iVar0] = -1;
 		iVar0++;
 	}
-	Global_1989161 = 0;
+	Global_1989162 = 0;
 }
 
 void func_221(int iParam0, int iParam1, int iParam2)
@@ -112436,13 +112436,13 @@ void func_711(int iParam0)
 
 void func_712(var uParam0)
 {
-	Global_1988494 = 0;
+	Global_1988495 = 0;
 	uParam0->f_692 = 0;
 }
 
 int func_713(var uParam0)
 {
-	return (Global_1988494 || uParam0->f_692);
+	return (Global_1988495 || uParam0->f_692);
 }
 
 void func_714(char* sParam0, char* sParam1, var uParam2, char* sParam3)
@@ -112523,7 +112523,7 @@ void func_717(var uParam0)
 	uParam0->f_697 = 0f;
 	uParam0->f_698 = 0f;
 	uParam0->f_699 = 1f;
-	Global_1988494 = 0;
+	Global_1988495 = 0;
 }
 
 bool func_718(char* sParam0, int iParam1, bool bParam2)
@@ -126238,8 +126238,8 @@ int func_868(int iParam0, var uParam1, var uParam2, int iParam3)
 			break;
 		
 		case 50:
-			*uParam1 = { Global_1971528 };
-			*uParam2 = { Global_1971531 };
+			*uParam1 = { Global_1971529 };
+			*uParam2 = { Global_1971532 };
 			break;
 		
 		case 51:
@@ -153477,7 +153477,7 @@ Vector3 func_1309(bool bParam0)
 
 Vector3 func_1310()
 {
-	if (BitTest(Global_1988018, 9))
+	if (BitTest(Global_1988019, 9))
 	{
 		return 1387.391f, 3615.812f, 37.926f;
 	}
@@ -161843,7 +161843,7 @@ int func_1515(int iParam0, bool bParam1, char* sParam2, int iParam3)
 	}
 	Var0 = { func_1514(sParam2) };
 	Var13 = { func_35(PLAYER::PLAYER_ID()) };
-	if (!Global_1988073)
+	if (!Global_1988074)
 	{
 		return func_1516(&Var0, &Var13, iParam0, bParam1);
 	}
@@ -206462,15 +206462,15 @@ struct<16> func_1865()
 	struct<16> Var0;
 	
 	StringCopy(&Var0, HUD::GET_FILENAME_FOR_AUDIO_CONVERSATION("FMMC_CH_DN"), 64);
-	if (Global_1971917 == 1)
+	if (Global_1971918 == 1)
 	{
 		StringCopy(&Var0, HUD::GET_FILENAME_FOR_AUDIO_CONVERSATION("FMMC_CH_SS"), 64);
 	}
-	else if (Global_1971917 == 2)
+	else if (Global_1971918 == 2)
 	{
 		StringCopy(&Var0, HUD::GET_FILENAME_FOR_AUDIO_CONVERSATION("FMMC_CH_BC"), 64);
 	}
-	else if (Global_1971917 == 3)
+	else if (Global_1971918 == 3)
 	{
 		StringCopy(&Var0, HUD::GET_FILENAME_FOR_AUDIO_CONVERSATION("FMMC_CH_AG"), 64);
 	}
@@ -212084,6 +212084,54 @@ void func_1988()
 		if (STREAMING::IS_IPL_ACTIVE("m25_2_dog_house"))
 		{
 			STREAMING::REMOVE_IPL("m25_2_dog_house");
+		}
+		if (!STREAMING::IS_IPL_ACTIVE("apa_ch2_04_mansion_shared_distantlights"))
+		{
+			STREAMING::REQUEST_IPL("apa_ch2_04_mansion_shared_distantlights");
+		}
+		if (!STREAMING::IS_IPL_ACTIVE("apa_ch2_04_mansion_shared_lodlights"))
+		{
+			STREAMING::REQUEST_IPL("apa_ch2_04_mansion_shared_lodlights");
+		}
+		if (!STREAMING::IS_IPL_ACTIVE("hei_ch1_06e_mansion_shared_distantlights"))
+		{
+			STREAMING::REQUEST_IPL("hei_ch1_06e_mansion_shared_distantlights");
+		}
+		if (!STREAMING::IS_IPL_ACTIVE("hei_ch1_06e_mansion_shared_lodlights"))
+		{
+			STREAMING::REQUEST_IPL("hei_ch1_06e_mansion_shared_lodlights");
+		}
+		if (!STREAMING::IS_IPL_ACTIVE("hei_ch1_09_mansion_shared_distantlights"))
+		{
+			STREAMING::REQUEST_IPL("hei_ch1_09_mansion_shared_distantlights");
+		}
+		if (!STREAMING::IS_IPL_ACTIVE("hei_ch1_09_mansion_shared_lodlights"))
+		{
+			STREAMING::REQUEST_IPL("hei_ch1_09_mansion_shared_lodlights");
+		}
+		if (!STREAMING::IS_IPL_ACTIVE("apa_ch2_04_mansion_firepit_distantlights"))
+		{
+			STREAMING::REQUEST_IPL("apa_ch2_04_mansion_firepit_distantlights");
+		}
+		if (!STREAMING::IS_IPL_ACTIVE("apa_ch2_04_mansion_firepit_lodlights"))
+		{
+			STREAMING::REQUEST_IPL("apa_ch2_04_mansion_firepit_lodlights");
+		}
+		if (!STREAMING::IS_IPL_ACTIVE("hei_ch1_06e_mansion_firepit_distantlights"))
+		{
+			STREAMING::REQUEST_IPL("hei_ch1_06e_mansion_firepit_distantlights");
+		}
+		if (!STREAMING::IS_IPL_ACTIVE("hei_ch1_06e_mansion_firepit_lodlights"))
+		{
+			STREAMING::REQUEST_IPL("hei_ch1_06e_mansion_firepit_lodlights");
+		}
+		if (!STREAMING::IS_IPL_ACTIVE("hei_ch1_09_mansion_firepit_distantlights"))
+		{
+			STREAMING::REQUEST_IPL("hei_ch1_09_mansion_firepit_distantlights");
+		}
+		if (!STREAMING::IS_IPL_ACTIVE("hei_ch1_09_mansion_firepit_lodlights"))
+		{
+			STREAMING::REQUEST_IPL("hei_ch1_09_mansion_firepit_lodlights");
 		}
 		func_1990();
 	}
@@ -217993,7 +218041,7 @@ void func_2194(struct<17> Param0, var uParam17, var uParam18, var uParam19, var 
 	{
 		func_2225();
 		bLocal_2806 = false;
-		if (!Global_1989184)
+		if (!Global_1989185)
 		{
 			func_2071();
 			func_2069();

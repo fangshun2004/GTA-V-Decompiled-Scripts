@@ -421,7 +421,7 @@ void __EntryFunction__()
 									func_440();
 								}
 								MISC::SET_BIT(&(Local_492.f_52), 22);
-								Global_1987938 = Local_492.f_0;
+								Global_1987939 = Local_492.f_0;
 								Local_171[NETWORK::PARTICIPANT_ID_TO_INT() /*10*/].f_4 = 2;
 							}
 						}
@@ -6067,7 +6067,7 @@ void func_194(int iParam0, int iParam1)
 
 int func_195()
 {
-	if (MISC::IS_PC_VERSION() && Global_1988062 == 0)
+	if (MISC::IS_PC_VERSION() && Global_1988063 == 0)
 	{
 		return 0;
 	}
@@ -8042,9 +8042,9 @@ void func_238()
 	}
 	if (Global_22989)
 	{
-		MemCopy(&(Global_1978567.f_1), {Global_22602}, 4);
-		Global_1978567 = Global_8778;
-		Global_1978567.f_6 = Global_22993;
+		MemCopy(&(Global_1978568.f_1), {Global_22602}, 4);
+		Global_1978568 = Global_8778;
+		Global_1978568.f_6 = Global_22993;
 	}
 }
 
@@ -15810,9 +15810,9 @@ char* func_395()
 	{
 		return "ARENA_BOX";
 	}
-	else if (Global_2733002.f_4759.f_1 && Global_1987938 != -1)
+	else if (Global_2733002.f_4759.f_1 && Global_1987939 != -1)
 	{
-		return func_402(Global_1987938);
+		return func_402(Global_1987939);
 	}
 	else if (Global_102481.f_417 > 0)
 	{
@@ -20468,7 +20468,7 @@ void func_494()
 	int iVar0;
 	
 	Global_2733002.f_8 = 0;
-	Global_1987938 = -1;
+	Global_1987939 = -1;
 	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
 		if (!func_442(Local_96.f_0))

@@ -2790,7 +2790,7 @@ bool func_76(var uParam0)
 
 int func_77()
 {
-	if (Global_1982570 == 0 && func_78())
+	if (Global_1982571 == 0 && func_78())
 	{
 		return 1;
 	}

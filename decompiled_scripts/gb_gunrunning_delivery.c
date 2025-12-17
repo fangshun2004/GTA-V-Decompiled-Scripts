@@ -3708,9 +3708,9 @@ int func_125(struct<3> Param0, float fParam3, int iParam4, struct<3> Param5, flo
 	{
 		return 1;
 	}
-	func_123(Param0, fParam3, iParam4, &Global_1982441, &(Global_1982441.f_3), &(Global_1982441.f_6), 1036831949);
-	func_123(Param5, fParam8, iParam9, &(Global_1982441.f_7), &(Global_1982441.f_10), &(Global_1982441.f_13), 1036831949);
-	if (MISC::GET_POINT_AREA_OVERLAP(Global_1982441, Global_1982441.f_3, Global_1982441.f_6, Global_1982441.f_7, Global_1982441.f_10, Global_1982441.f_13))
+	func_123(Param0, fParam3, iParam4, &Global_1982442, &(Global_1982442.f_3), &(Global_1982442.f_6), 1036831949);
+	func_123(Param5, fParam8, iParam9, &(Global_1982442.f_7), &(Global_1982442.f_10), &(Global_1982442.f_13), 1036831949);
+	if (MISC::GET_POINT_AREA_OVERLAP(Global_1982442, Global_1982442.f_3, Global_1982442.f_6, Global_1982442.f_7, Global_1982442.f_10, Global_1982442.f_13))
 	{
 		return 1;
 	}
@@ -13111,7 +13111,7 @@ void func_216(int iParam0, bool bParam1, bool bParam2, int iParam3, bool bParam4
 		{
 			bVar2 = false;
 		}
-		if (((!bParam4 || iVar0 != func_13()) || Global_1989162) || SCRIPT::GET_HASH_OF_THIS_SCRIPT_NAME() == joaat("maintransition"))
+		if (((!bParam4 || iVar0 != func_13()) || Global_1989163) || SCRIPT::GET_HASH_OF_THIS_SCRIPT_NAME() == joaat("maintransition"))
 		{
 			iVar17 = func_258(iParam0);
 			iVar18 = 0;
@@ -13160,7 +13160,7 @@ void func_216(int iParam0, bool bParam1, bool bParam2, int iParam3, bool bParam4
 				}
 				iVar19++;
 			}
-			if (Global_1989161)
+			if (Global_1989162)
 			{
 				func_220();
 			}
@@ -13181,7 +13181,7 @@ void func_217(int iParam0, bool bParam1, bool bParam2, bool bParam3, bool bParam
 	int iVar30;
 	int iVar31;
 	
-	if (!Global_1989161)
+	if (!Global_1989162)
 	{
 		func_218(&iParam0);
 	}
@@ -13190,7 +13190,7 @@ void func_217(int iParam0, bool bParam1, bool bParam2, bool bParam3, bool bParam
 	iVar0 = 0;
 	while (iVar0 < 27)
 	{
-		iVar30 = Global_1989133[iVar0];
+		iVar30 = Global_1989134[iVar0];
 		if (iVar30 <= -1)
 		{
 		}
@@ -13249,7 +13249,7 @@ void func_218(var uParam0)
 	iVar0 = 0;
 	while (iVar0 < 27)
 	{
-		Global_1989133[iVar0] = -1;
+		Global_1989134[iVar0] = -1;
 		iVar0++;
 	}
 	iVar0 = 0;
@@ -13279,7 +13279,7 @@ void func_218(var uParam0)
 		}
 		iVar17++;
 	}
-	Global_1989161 = 1;
+	Global_1989162 = 1;
 }
 
 void func_219(int iParam0, bool bParam1)
@@ -13293,25 +13293,25 @@ void func_219(int iParam0, bool bParam1)
 	{
 		if (bParam1)
 		{
-			if (Global_1989133[iVar1] == iParam0)
+			if (Global_1989134[iVar1] == iParam0)
 			{
 				return;
 			}
-			else if (Global_1989133[iVar1] == -1)
+			else if (Global_1989134[iVar1] == -1)
 			{
 				iVar0 = iVar1;
 			}
 		}
-		else if (Global_1989133[iVar1] == iParam0)
+		else if (Global_1989134[iVar1] == iParam0)
 		{
-			Global_1989133[iVar1] = -1;
+			Global_1989134[iVar1] = -1;
 			return;
 		}
 		iVar1 = (iVar1 + -1);
 	}
 	if (bParam1 && iVar0 >= 0)
 	{
-		Global_1989133[iVar0] = iParam0;
+		Global_1989134[iVar0] = iParam0;
 	}
 }
 
@@ -13322,10 +13322,10 @@ void func_220()
 	iVar0 = 0;
 	while (iVar0 < 27)
 	{
-		Global_1989133[iVar0] = -1;
+		Global_1989134[iVar0] = -1;
 		iVar0++;
 	}
-	Global_1989161 = 0;
+	Global_1989162 = 0;
 }
 
 void func_221(int iParam0, int iParam1, int iParam2)
@@ -83529,7 +83529,7 @@ int func_430(int iParam0)
 	}
 	else if (iParam0 >= 547 && iParam0 < 607)
 	{
-		return ((53926 + iParam0) - 547);
+		return ((59560 + iParam0) - 547);
 	}
 	return 0;
 }
@@ -83642,7 +83642,7 @@ int func_431(int iParam0)
 	}
 	else if (iParam0 >= 547 && iParam0 < 607)
 	{
-		return ((53866 + iParam0) - 547);
+		return ((59440 + iParam0) - 547);
 	}
 	return 0;
 }
@@ -83755,7 +83755,7 @@ int func_432(int iParam0)
 	}
 	else if (iParam0 >= 547 && iParam0 < 607)
 	{
-		return ((53836 + iParam0) - 547);
+		return ((59380 + iParam0) - 547);
 	}
 	return 0;
 }
@@ -83871,7 +83871,7 @@ int func_433(int iParam0)
 	}
 	else if (iParam0 >= 547 && iParam0 < 607)
 	{
-		return ((57700 + iParam0) - 547);
+		return (57700 + ((iParam0 - 547) * iVar0));
 	}
 	return 0;
 }
@@ -106319,18 +106319,66 @@ int func_831(var uParam0, int iParam1, bool bParam2, int iParam3, int iParam4, v
 											}
 											else if (Global_2635562.f_490 == 84)
 											{
-												Global_2635562.f_556 = { func_997(177, 36.842f, -1.63f, -2.59f, 0) };
-												Global_2635562.f_556.f_3 = func_995(177, 170f, 0);
+												if (Global_2635562.f_2982)
+												{
+													if (Global_2658291[PLAYER::PLAYER_ID() /*468*/].f_325.f_11 == PLAYER::PLAYER_ID())
+													{
+														Global_2635562.f_556 = { func_997(177, 36.842f, -1.63f, -2.59f, 0) };
+														Global_2635562.f_556.f_3 = func_995(177, 170f, 0);
+													}
+													else
+													{
+														Global_2635562.f_556 = { func_997(177, -0.282f, -12.376f, -2.64f, 0) };
+														Global_2635562.f_556.f_3 = func_995(177, 315f, 0);
+													}
+												}
+												else
+												{
+													Global_2635562.f_556 = { func_997(177, 36.842f, -1.63f, -2.59f, 0) };
+													Global_2635562.f_556.f_3 = func_995(177, 170f, 0);
+												}
 											}
 											else if (Global_2635562.f_490 == 85)
 											{
-												Global_2635562.f_556 = { func_997(178, 36.842f, -1.63f, -2.59f, 0) };
-												Global_2635562.f_556.f_3 = func_995(178, 170f, 0);
+												if (Global_2635562.f_2982)
+												{
+													if (Global_2658291[PLAYER::PLAYER_ID() /*468*/].f_325.f_11 == PLAYER::PLAYER_ID())
+													{
+														Global_2635562.f_556 = { func_997(178, 36.842f, -1.63f, -2.59f, 0) };
+														Global_2635562.f_556.f_3 = func_995(178, 170f, 0);
+													}
+													else
+													{
+														Global_2635562.f_556 = { func_997(178, -0.282f, -12.376f, -2.64f, 0) };
+														Global_2635562.f_556.f_3 = func_995(178, 315f, 0);
+													}
+												}
+												else
+												{
+													Global_2635562.f_556 = { func_997(178, 36.842f, -1.63f, -2.59f, 0) };
+													Global_2635562.f_556.f_3 = func_995(178, 170f, 0);
+												}
 											}
 											else if (Global_2635562.f_490 == 86)
 											{
-												Global_2635562.f_556 = { func_997(179, 36.842f, -1.63f, -2.59f, 0) };
-												Global_2635562.f_556.f_3 = func_995(179, 170f, 0);
+												if (Global_2635562.f_2982)
+												{
+													if (Global_2658291[PLAYER::PLAYER_ID() /*468*/].f_325.f_11 == PLAYER::PLAYER_ID())
+													{
+														Global_2635562.f_556 = { func_997(179, 36.842f, -1.63f, -2.59f, 0) };
+														Global_2635562.f_556.f_3 = func_995(179, 170f, 0);
+													}
+													else
+													{
+														Global_2635562.f_556 = { func_997(179, -0.282f, -12.376f, -2.64f, 0) };
+														Global_2635562.f_556.f_3 = func_995(179, 315f, 0);
+													}
+												}
+												else
+												{
+													Global_2635562.f_556 = { func_997(179, 36.842f, -1.63f, -2.59f, 0) };
+													Global_2635562.f_556.f_3 = func_995(179, 170f, 0);
+												}
 											}
 											break;
 										
@@ -111545,7 +111593,7 @@ int func_934(bool bParam0)
 {
 	if (func_30(bParam0))
 	{
-		return Global_1983166[bParam0 /*149*/].f_145.f_2;
+		return Global_1983167[bParam0 /*149*/].f_145.f_2;
 	}
 	return -1;
 }
@@ -111568,7 +111616,7 @@ int func_937(bool bParam0)
 {
 	if (func_30(bParam0))
 	{
-		return BitTest(Global_1983166[bParam0 /*149*/].f_145, 0);
+		return BitTest(Global_1983167[bParam0 /*149*/].f_145, 0);
 	}
 	return 0;
 }
@@ -119960,7 +120008,7 @@ int func_1134(bool bParam0)
 {
 	if (bParam0 != -1)
 	{
-		return BitTest(Global_1983166[bParam0 /*149*/].f_59, 26);
+		return BitTest(Global_1983167[bParam0 /*149*/].f_59, 26);
 	}
 	return 0;
 }
@@ -119978,7 +120026,7 @@ int func_1136(bool bParam0, int iParam1)
 {
 	if (bParam0 != -1)
 	{
-		return BitTest(Global_1983166[bParam0 /*149*/].f_59, func_1137(iParam1, 1));
+		return BitTest(Global_1983167[bParam0 /*149*/].f_59, func_1137(iParam1, 1));
 	}
 	return 0;
 }
@@ -127805,16 +127853,16 @@ int func_1336(var uParam0, int iParam1, struct<3> Param2, float fParam5, bool bP
 	int iVar0;
 	int iVar1;
 	
-	func_707(&Global_1971650);
+	func_707(&Global_1971651);
 	if (VEHICLE::IS_VEHICLE_DRIVEABLE(iParam1, false))
 	{
 		iVar0 = ENTITY::GET_ENTITY_MODEL(iParam1);
-		func_742(iParam1, &Global_1971650);
+		func_742(iParam1, &Global_1971651);
 	}
 	if (!VEHICLE::IS_VEHICLE_DRIVEABLE(*uParam0, false))
 	{
 		*uParam0 = VEHICLE::CREATE_VEHICLE(iVar0, Param2, fParam5, bParam6, bParam7, false);
-		func_495(*uParam0, &Global_1971650, 1, 1, 0);
+		func_495(*uParam0, &Global_1971651, 1, 1, 0);
 		if (((!VEHICLE::IS_THIS_MODEL_A_BIKE(iVar0) && !VEHICLE::IS_THIS_MODEL_A_BOAT(iVar0)) && iVar0 != joaat("kosatka")) && iVar0 != joaat("avisa"))
 		{
 			iVar1 = 0;
@@ -129872,92 +129920,92 @@ int func_1416(int iParam0)
 	switch (iParam0)
 	{
 		case 8:
-			Local_622.f_447 = 2246415;
-			Local_622.f_447.f_1 = 2246406;
-			Local_622.f_447.f_2 = 2245384;
-			Local_622.f_447.f_3 = 2244457;
-			Local_622.f_447.f_4 = 2244449;
+			Local_622.f_447 = 2246857;
+			Local_622.f_447.f_1 = 2246848;
+			Local_622.f_447.f_2 = 2245826;
+			Local_622.f_447.f_3 = 2244901;
+			Local_622.f_447.f_4 = 2244893;
 			return 1;
 			break;
 		
 		case 5:
-			Local_622.f_447 = 2244400;
-			Local_622.f_447.f_1 = 2243897;
-			Local_622.f_447.f_2 = 2240095;
-			Local_622.f_447.f_3 = 2239878;
-			Local_622.f_447.f_4 = 2239870;
+			Local_622.f_447 = 2244844;
+			Local_622.f_447.f_1 = 2244339;
+			Local_622.f_447.f_2 = 2240537;
+			Local_622.f_447.f_3 = 2240320;
+			Local_622.f_447.f_4 = 2240312;
 			return 1;
 			break;
 		
 		case 6:
-			Local_622.f_447 = 2239637;
-			Local_622.f_447.f_1 = 2239628;
-			Local_622.f_447.f_2 = 2237884;
-			Local_622.f_447.f_3 = 2236982;
-			Local_622.f_447.f_4 = 2236974;
+			Local_622.f_447 = 2240079;
+			Local_622.f_447.f_1 = 2240070;
+			Local_622.f_447.f_2 = 2238326;
+			Local_622.f_447.f_3 = 2237424;
+			Local_622.f_447.f_4 = 2237416;
 			return 1;
 			break;
 		
 		case 7:
-			Local_622.f_447 = 2236917;
-			Local_622.f_447.f_1 = 2236414;
-			Local_622.f_447.f_2 = 757704;
-			Local_622.f_447.f_3 = 757199;
-			Local_622.f_447.f_4 = 757191;
+			Local_622.f_447 = 2237359;
+			Local_622.f_447.f_1 = 2236856;
+			Local_622.f_447.f_2 = 758829;
+			Local_622.f_447.f_3 = 758324;
+			Local_622.f_447.f_4 = 758316;
 			return 1;
 			break;
 		
 		case 1:
-			Local_622.f_447 = 757182;
-			Local_622.f_447.f_1 = 757049;
-			Local_622.f_447.f_2 = 756096;
-			Local_622.f_447.f_3 = 754863;
-			Local_622.f_447.f_4 = 754855;
+			Local_622.f_447 = 758307;
+			Local_622.f_447.f_1 = 758174;
+			Local_622.f_447.f_2 = 757221;
+			Local_622.f_447.f_3 = 755988;
+			Local_622.f_447.f_4 = 755980;
 			return 1;
 			break;
 		
 		case 2:
-			Local_622.f_447 = 754846;
-			Local_622.f_447.f_1 = 754826;
-			Local_622.f_447.f_2 = 699881;
-			Local_622.f_447.f_3 = 699236;
-			Local_622.f_447.f_4 = 699223;
+			Local_622.f_447 = 755971;
+			Local_622.f_447.f_1 = 755951;
+			Local_622.f_447.f_2 = 700505;
+			Local_622.f_447.f_3 = 699860;
+			Local_622.f_447.f_4 = 699847;
 			return 1;
 			break;
 		
 		case 3:
-			Local_622.f_447 = 699214;
-			Local_622.f_447.f_1 = 699194;
-			Local_622.f_447.f_2 = 697772;
-			Local_622.f_447.f_3 = 697414;
-			Local_622.f_447.f_4 = 697406;
+			Local_622.f_447 = 699838;
+			Local_622.f_447.f_1 = 699818;
+			Local_622.f_447.f_2 = 698396;
+			Local_622.f_447.f_3 = 698038;
+			Local_622.f_447.f_4 = 698030;
 			return 1;
 			break;
 		
 		case 4:
-			Local_622.f_447 = 697397;
-			Local_622.f_447.f_1 = 697238;
-			Local_622.f_447.f_2 = 695142;
-			Local_622.f_447.f_3 = 694099;
-			Local_622.f_447.f_4 = 694091;
+			Local_622.f_447 = 698021;
+			Local_622.f_447.f_1 = 697862;
+			Local_622.f_447.f_2 = 695766;
+			Local_622.f_447.f_3 = 694723;
+			Local_622.f_447.f_4 = 694715;
 			return 1;
 			break;
 		
 		case 9:
-			Local_622.f_447 = 694034;
-			Local_622.f_447.f_1 = 694020;
-			Local_622.f_447.f_2 = 693561;
-			Local_622.f_447.f_3 = 693422;
-			Local_622.f_447.f_4 = 693414;
+			Local_622.f_447 = 694658;
+			Local_622.f_447.f_1 = 694644;
+			Local_622.f_447.f_2 = 694185;
+			Local_622.f_447.f_3 = 694046;
+			Local_622.f_447.f_4 = 694038;
 			return 1;
 			break;
 		
 		case 10:
-			Local_622.f_447 = 693357;
-			Local_622.f_447.f_1 = 693343;
-			Local_622.f_447.f_2 = 692142;
-			Local_622.f_447.f_3 = 691974;
-			Local_622.f_447.f_4 = 691966;
+			Local_622.f_447 = 693981;
+			Local_622.f_447.f_1 = 693967;
+			Local_622.f_447.f_2 = 692766;
+			Local_622.f_447.f_3 = 692598;
+			Local_622.f_447.f_4 = 692590;
 			return 1;
 	}
 	return 0;
@@ -142800,428 +142848,428 @@ void func_1572(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 168:
-			uParam0->f_23 = 863321;
+			uParam0->f_23 = 864429;
 			break;
 		
 		case 169:
-			uParam0->f_11 = 860807;
+			uParam0->f_11 = 861915;
 			break;
 		
 		case 0:
-			*uParam0 = 860798;
+			*uParam0 = 861906;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 860716;
+			uParam0->f_41 = 861824;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 860647;
+			uParam0->f_34 = 861755;
 			break;
 		
 		case 2:
-			uParam0->f_35 = 860546;
+			uParam0->f_35 = 861654;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 859397;
+			uParam0->f_36 = 860505;
 			break;
 		
 		case 10:
-			uParam0->f_76 = 858979;
+			uParam0->f_76 = 860087;
 			break;
 		
 		case 11:
-			uParam0->f_76 = 858824;
+			uParam0->f_76 = 859932;
 			break;
 		
 		case 12:
-			uParam0->f_8 = 858685;
+			uParam0->f_8 = 859793;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 858315;
+			uParam0->f_40 = 859423;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 858257;
+			uParam0->f_15 = 859365;
 			break;
 		
 		case 6:
-			uParam0->f_11 = 858243;
+			uParam0->f_11 = 859351;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 857896;
+			uParam0->f_22 = 859004;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 857849;
+			uParam0->f_9 = 858957;
 			break;
 		
 		case 52:
-			uParam0->f_10 = 857821;
+			uParam0->f_10 = 858929;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 857476;
+			uParam0->f_37 = 858584;
 			break;
 		
 		case 8:
-			uParam0->f_38 = 857173;
+			uParam0->f_38 = 858281;
 			break;
 		
 		case 9:
-			uParam0->f_11 = 857153;
+			uParam0->f_11 = 858261;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 857143;
+			uParam0->f_11 = 858251;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 855398;
+			uParam0->f_39 = 856506;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 855311;
+			uParam0->f_11 = 856419;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 853929;
+			uParam0->f_65 = 855037;
 			break;
 		
 		case 14:
-			uParam0->f_43 = 853921;
+			uParam0->f_43 = 855029;
 			break;
 		
 		case 13:
-			uParam0->f_42 = 853912;
+			uParam0->f_42 = 855020;
 			break;
 		
 		case 85:
-			*uParam0 = 853856;
+			*uParam0 = 854964;
 			break;
 		
 		case 86:
-			uParam0->f_8 = 853805;
+			uParam0->f_8 = 854913;
 			break;
 		
 		case 87:
-			uParam0->f_11 = 853796;
+			uParam0->f_11 = 854904;
 			break;
 		
 		case 50:
-			uParam0->f_6 = 853503;
+			uParam0->f_6 = 854611;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 853421;
+			uParam0->f_2 = 854529;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 851269;
+			uParam0->f_2 = 852378;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 850677;
+			uParam0->f_5 = 851779;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 829363;
+			uParam0->f_64 = 830490;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 827504;
+			uParam0->f_21 = 828631;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 827353;
+			uParam0->f_21 = 828480;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 827139;
+			uParam0->f_3 = 828266;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 827075;
+			uParam0->f_3 = 828202;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 826954;
+			uParam0->f_62 = 828081;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 826028;
+			uParam0->f_4 = 827155;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 825926;
+			uParam0->f_28 = 827053;
 			break;
 		
 		case 30:
-			uParam0->f_30 = 825883;
+			uParam0->f_30 = 827010;
 			break;
 		
 		case 31:
-			uParam0->f_30 = 825849;
+			uParam0->f_30 = 826976;
 			break;
 		
 		case 151:
-			*uParam0 = 825599;
+			*uParam0 = 826726;
 			break;
 		
 		case 33:
-			uParam0->f_45 = 817924;
+			uParam0->f_45 = 819051;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 815564;
+			uParam0->f_27 = 816691;
 			break;
 		
 		case 36:
-			uParam0->f_29 = 815275;
+			uParam0->f_29 = 816402;
 			break;
 		
 		case 37:
-			uParam0->f_28 = 815237;
+			uParam0->f_28 = 816364;
 			break;
 		
 		case 38:
-			uParam0->f_32 = 815229;
+			uParam0->f_32 = 816356;
 			break;
 		
 		case 90:
-			uParam0->f_23 = 815200;
+			uParam0->f_23 = 816327;
 			break;
 		
 		case 91:
-			uParam0->f_12 = 803046;
+			uParam0->f_12 = 804173;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 802763;
+			uParam0->f_8 = 803892;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 802720;
+			uParam0->f_46 = 803849;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 801737;
+			uParam0->f_47 = 802866;
 			break;
 		
 		case 42:
-			*uParam0 = 801677;
+			*uParam0 = 802803;
 			break;
 		
 		case 82:
-			uParam0->f_16 = 801566;
+			uParam0->f_16 = 802692;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 785991;
+			uParam0->f_48 = 787118;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 785946;
+			uParam0->f_67 = 787073;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 781966;
+			uParam0->f_49 = 783091;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 781957;
+			uParam0->f_18 = 783082;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 781948;
+			uParam0->f_18 = 783073;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 781940;
+			uParam0->f_66 = 783065;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 781922;
+			uParam0->f_16 = 783047;
 			break;
 		
 		case 94:
-			uParam0->f_51 = 781877;
+			uParam0->f_51 = 783002;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 781731;
+			uParam0->f_52 = 782856;
 			break;
 		
 		case 59:
 			uParam0->f_77 = 1;
-			uParam0->f_53 = 780239;
+			uParam0->f_53 = 781364;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 780178;
+			uParam0->f_8 = 781303;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 780169;
+			uParam0->f_11 = 781294;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 779783;
+			uParam0->f_8 = 780908;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 779774;
+			uParam0->f_8 = 780899;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 779763;
+			uParam0->f_19 = 780888;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 779748;
+			uParam0->f_17 = 780873;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 779740;
+			uParam0->f_54 = 780865;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 779731;
+			uParam0->f_55 = 780856;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 779722;
+			uParam0->f_12 = 780847;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 779632;
+			uParam0->f_16 = 780757;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 779624;
+			uParam0->f_56 = 780749;
 			break;
 		
 		case 95:
-			uParam0->f_23 = 778638;
+			uParam0->f_23 = 779763;
 			break;
 		
 		case 96:
-			uParam0->f_23 = 777986;
+			uParam0->f_23 = 779111;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 776183;
+			uParam0->f_25 = 777308;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 774631;
+			uParam0->f_25 = 775756;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 774561;
+			uParam0->f_25 = 775686;
 			break;
 		
 		case 74:
-			*uParam0 = 773546;
+			*uParam0 = 774671;
 			break;
 		
 		case 75:
-			*uParam0 = 773537;
+			*uParam0 = 774662;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 773525;
+			uParam0->f_57 = 774650;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 773516;
+			uParam0->f_58 = 774641;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 773504;
+			uParam0->f_59 = 774629;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 773324;
+			uParam0->f_7 = 774449;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 773263;
+			uParam0->f_1 = 774388;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 770501;
+			uParam0->f_1 = 771626;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 766237;
+			uParam0->f_1 = 767362;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 766219;
+			uParam0->f_1 = 767344;
 			break;
 		
 		case 111:
-			uParam0->f_63 = 765674;
+			uParam0->f_63 = 766799;
 			break;
 		
 		case 118:
-			uParam0->f_1 = 765665;
+			uParam0->f_1 = 766790;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 765656;
+			uParam0->f_1 = 766781;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 765647;
+			uParam0->f_1 = 766772;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 765639;
+			uParam0->f_26 = 766764;
 			break;
 		
 		case 123:
-			uParam0->f_26 = 765631;
+			uParam0->f_26 = 766756;
 			break;
 		
 		case 134:
-			uParam0->f_16 = 765566;
+			uParam0->f_16 = 766691;
 			break;
 		
 		case 135:
-			uParam0->f_3 = 765447;
+			uParam0->f_3 = 766572;
 			break;
 		
 		case 136:
-			uParam0->f_20 = 763526;
+			uParam0->f_20 = 764651;
 			break;
 		
 		case 137:
-			uParam0->f_3 = 763517;
+			uParam0->f_3 = 764642;
 			break;
 		
 		case 138:
-			*uParam0 = 763508;
+			*uParam0 = 764633;
 			break;
 		
 		case 139:
-			uParam0->f_20 = 762288;
+			uParam0->f_20 = 763413;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 762039;
+			uParam0->f_68 = 763164;
 			break;
 		
 		case 146:
-			uParam0->f_1 = 762030;
+			uParam0->f_1 = 763155;
 			break;
 		
 		case 147:
-			uParam0->f_23 = 762022;
+			uParam0->f_23 = 763147;
 			break;
 	}
 }
@@ -151390,7 +151438,7 @@ int func_1768(bool bParam0)
 	}
 	if (bParam0 != -1)
 	{
-		return BitTest(Global_1983166[bParam0 /*149*/].f_1, 0);
+		return BitTest(Global_1983167[bParam0 /*149*/].f_1, 0);
 	}
 	return 0;
 }
@@ -151417,7 +151465,7 @@ int func_1771(bool bParam0)
 	}
 	if (bParam0 != -1)
 	{
-		return BitTest(Global_1976314[bParam0 /*68*/].f_40, 4);
+		return BitTest(Global_1976315[bParam0 /*68*/].f_40, 4);
 	}
 	return 0;
 }
@@ -161268,7 +161316,7 @@ void func_2055(int iParam0, var uParam1, var uParam2, var uParam3, var uParam4, 
 				case 12:
 				case 15:
 					*uParam2 = { -2552.555f, 1912.91f, 155.0407f };
-					*uParam3 = { -2551.792f, 1914.682f, 169.0694f };
+					*uParam3 = { -2551.792f, 1914.682f, 169.2694f };
 					*uParam4 = 2.25f;
 					*uParam5 = 335.5241f;
 					*uParam1 = { func_1676(iParam0, iParam6) };
@@ -163025,380 +163073,380 @@ void func_2119(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 902979;
+			*uParam0 = 904086;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 902897;
+			uParam0->f_41 = 904004;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 902711;
+			uParam0->f_34 = 903818;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 902193;
+			uParam0->f_36 = 903300;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 902084;
+			uParam0->f_40 = 903191;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 902017;
+			uParam0->f_15 = 903124;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 901326;
+			uParam0->f_22 = 902433;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 901279;
+			uParam0->f_9 = 902386;
 			break;
 		
 		case 52:
-			uParam0->f_10 = 901251;
+			uParam0->f_10 = 902358;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 901132;
+			uParam0->f_37 = 902239;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 901123;
+			uParam0->f_11 = 902230;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 900491;
+			uParam0->f_39 = 901600;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 900482;
+			uParam0->f_11 = 901591;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 899532;
+			uParam0->f_65 = 900639;
 			break;
 		
 		case 14:
-			uParam0->f_43 = 899336;
+			uParam0->f_43 = 900443;
 			break;
 		
 		case 13:
-			uParam0->f_42 = 899124;
+			uParam0->f_42 = 900231;
 			break;
 		
 		case 85:
-			*uParam0 = 899115;
+			*uParam0 = 900222;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 899037;
+			uParam0->f_2 = 900144;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 898957;
+			uParam0->f_2 = 900064;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 898571;
+			uParam0->f_5 = 899678;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 898562;
+			uParam0->f_64 = 899669;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 897280;
+			uParam0->f_21 = 898387;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 897208;
+			uParam0->f_21 = 898315;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 897018;
+			uParam0->f_3 = 898125;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 896954;
+			uParam0->f_3 = 898061;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 896850;
+			uParam0->f_62 = 897957;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 896841;
+			uParam0->f_4 = 897948;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 896689;
+			uParam0->f_28 = 897796;
 			break;
 		
 		case 30:
-			uParam0->f_30 = 896681;
+			uParam0->f_30 = 897788;
 			break;
 		
 		case 33:
-			uParam0->f_45 = 896673;
+			uParam0->f_45 = 897780;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 896179;
+			uParam0->f_27 = 897286;
 			break;
 		
 		case 36:
-			uParam0->f_29 = 896171;
+			uParam0->f_29 = 897278;
 			break;
 		
 		case 37:
-			uParam0->f_28 = 896163;
+			uParam0->f_28 = 897270;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 895910;
+			uParam0->f_8 = 897017;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 895575;
+			uParam0->f_46 = 896682;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 894929;
+			uParam0->f_47 = 896036;
 			break;
 		
 		case 42:
-			*uParam0 = 894920;
+			*uParam0 = 896027;
 			break;
 		
 		case 82:
-			uParam0->f_16 = 894821;
+			uParam0->f_16 = 895928;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 890772;
+			uParam0->f_48 = 891879;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 890727;
+			uParam0->f_67 = 891834;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 885432;
+			uParam0->f_49 = 886539;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 885423;
+			uParam0->f_18 = 886530;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 885414;
+			uParam0->f_18 = 886521;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 885406;
+			uParam0->f_66 = 886513;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 885395;
+			uParam0->f_16 = 886502;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 885249;
+			uParam0->f_52 = 886356;
 			break;
 		
 		case 59:
 			uParam0->f_77 = 1;
-			uParam0->f_53 = 885055;
+			uParam0->f_53 = 886162;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 885037;
+			uParam0->f_8 = 886144;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 885028;
+			uParam0->f_11 = 886135;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 884061;
+			uParam0->f_8 = 885170;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 883959;
+			uParam0->f_8 = 885068;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 883489;
+			uParam0->f_19 = 884597;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 883225;
+			uParam0->f_17 = 884333;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 882672;
+			uParam0->f_54 = 883780;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 882616;
+			uParam0->f_55 = 883724;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 881606;
+			uParam0->f_12 = 882714;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 881342;
+			uParam0->f_16 = 882450;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 881334;
+			uParam0->f_56 = 882442;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 881326;
+			uParam0->f_25 = 882434;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 881106;
+			uParam0->f_25 = 882214;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 880966;
+			uParam0->f_25 = 882074;
 			break;
 		
 		case 74:
-			*uParam0 = 880277;
+			*uParam0 = 881385;
 			break;
 		
 		case 75:
-			*uParam0 = 880268;
+			*uParam0 = 881376;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 880256;
+			uParam0->f_57 = 881364;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 880244;
+			uParam0->f_59 = 881352;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 880235;
+			uParam0->f_7 = 881343;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 880226;
+			uParam0->f_1 = 881334;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 880217;
+			uParam0->f_1 = 881325;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 880208;
+			uParam0->f_1 = 881316;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 880199;
+			uParam0->f_1 = 881307;
 			break;
 		
 		case 111:
-			uParam0->f_63 = 880191;
+			uParam0->f_63 = 881299;
 			break;
 		
 		case 118:
-			uParam0->f_1 = 880182;
+			uParam0->f_1 = 881290;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 880173;
+			uParam0->f_1 = 881281;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 880164;
+			uParam0->f_1 = 881272;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 880156;
+			uParam0->f_26 = 881264;
 			break;
 		
 		case 123:
-			uParam0->f_26 = 880148;
+			uParam0->f_26 = 881256;
 			break;
 		
 		case 135:
-			uParam0->f_3 = 880139;
+			uParam0->f_3 = 881247;
 			break;
 		
 		case 136:
-			uParam0->f_20 = 878201;
+			uParam0->f_20 = 879309;
 			break;
 		
 		case 137:
-			uParam0->f_3 = 878192;
+			uParam0->f_3 = 879300;
 			break;
 		
 		case 138:
-			*uParam0 = 878183;
+			*uParam0 = 879291;
 			break;
 		
 		case 146:
-			uParam0->f_1 = 878174;
+			uParam0->f_1 = 879282;
 			break;
 		
 		case 147:
-			uParam0->f_23 = 877981;
+			uParam0->f_23 = 879089;
 			break;
 		
 		case 159:
-			uParam0->f_75 = 869908;
+			uParam0->f_75 = 871016;
 			break;
 		
 		case 160:
-			uParam0->f_23 = 869833;
+			uParam0->f_23 = 870941;
 			break;
 		
 		case 161:
-			uParam0->f_69 = 869326;
+			uParam0->f_69 = 870434;
 			break;
 		
 		case 162:
-			uParam0->f_11 = 869317;
+			uParam0->f_11 = 870425;
 			break;
 		
 		case 163:
-			uParam0->f_11 = 869258;
+			uParam0->f_11 = 870366;
 			break;
 		
 		case 164:
-			*uParam0 = 869023;
+			*uParam0 = 870131;
 			break;
 		
 		case 165:
-			*uParam0 = 868719;
+			*uParam0 = 869827;
 			break;
 		
 		case 15:
-			uParam0->f_44 = 868620;
+			uParam0->f_44 = 869728;
 			break;
 		
 		case 166:
-			uParam0->f_13 = 868432;
+			uParam0->f_13 = 869540;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 868279;
+			uParam0->f_58 = 869388;
 			break;
 		
 		case 167:
-			uParam0->f_73 = 868114;
+			uParam0->f_73 = 869223;
 			break;
 		
 		case 157:
-			uParam0->f_74 = 867976;
+			uParam0->f_74 = 869085;
 			break;
 	}
 }
@@ -163744,7 +163792,7 @@ int func_2140(int iParam0, char* sParam1, int iParam2)
 			sParam1->f_54[0] = func_2141(iVar0);
 			sParam1->f_67[0] = func_2126(iVar0);
 			sParam1->f_53 = func_2335(iParam0, 24);
-			Global_1988202.f_11 = func_2141(iVar0);
+			Global_1988203.f_11 = func_2141(iVar0);
 			break;
 		
 		default:
@@ -163823,22 +163871,22 @@ void func_2144(int iParam0)
 	switch (iParam0)
 	{
 		case 174:
-			MISC::SET_BIT(&(Global_1982936.f_1), 2);
+			MISC::SET_BIT(&(Global_1982937.f_1), 2);
 			break;
 		
 		case 176:
-			MISC::SET_BIT(&(Global_1982936.f_1), 3);
+			MISC::SET_BIT(&(Global_1982937.f_1), 3);
 			break;
 		
 		case 175:
-			MISC::SET_BIT(&(Global_1982936.f_1), 4);
+			MISC::SET_BIT(&(Global_1982937.f_1), 4);
 			break;
 	}
 }
 
 int func_2145(int iParam0)
 {
-	if (Global_1988202.f_21 == 0)
+	if (Global_1988203.f_21 == 0)
 	{
 		func_2205(iParam0);
 	}
@@ -163847,9 +163895,9 @@ int func_2145(int iParam0)
 
 int func_2146()
 {
-	if (Global_1988202.f_21 == 0)
+	if (Global_1988203.f_21 == 0)
 	{
-		if (!func_2029(60, 0, 0) || !func_2130(Global_1988202[0]))
+		if (!func_2029(60, 0, 0) || !func_2130(Global_1988203[0]))
 		{
 			return 3;
 		}
@@ -163867,16 +163915,16 @@ int func_2146()
 				return 5;
 			}
 		}
-		if (Global_1988202.f_11 > 0 && !MONEY::NETWORK_CAN_SPEND_MONEY(Global_1988202.f_11, false, true, false, -1, 0))
+		if (Global_1988203.f_11 > 0 && !MONEY::NETWORK_CAN_SPEND_MONEY(Global_1988203.f_11, false, true, false, -1, 0))
 		{
 			return 6;
 		}
 	}
 	if (func_439())
 	{
-		if (Global_1988202.f_21 == 0)
+		if (Global_1988203.f_21 == 0)
 		{
-			Global_1988202.f_22 = 0;
+			Global_1988203.f_22 = 0;
 			if (func_439())
 			{
 				func_2181(func_2185());
@@ -163886,7 +163934,7 @@ int func_2146()
 		{
 			return 0;
 		}
-		switch (Global_1988202.f_22)
+		switch (Global_1988203.f_22)
 		{
 			case 3:
 				return 2;
@@ -163919,13 +163967,13 @@ void func_2147()
 	bool bVar0;
 	struct<4> Var1;
 	
-	bVar0 = Global_1988202[0];
+	bVar0 = Global_1988203[0];
 	Var1 = -1;
 	Var1.f_1 = -1;
 	Var1.f_3 = -1;
-	Var1.f_0 = Global_1988202[1];
+	Var1.f_0 = Global_1988203[1];
 	Var1.f_1 = bVar0;
-	Var1.f_2 = Global_1988202.f_11;
+	Var1.f_2 = Global_1988203.f_11;
 	if (func_439())
 	{
 		NETSHOPPING::NET_GAMESERVER_SET_TELEMETRY_NONCE_SEED(func_2166(func_2185()));
@@ -163944,7 +163992,7 @@ void func_2147()
 
 void func_2148()
 {
-	Global_1982484 = 1;
+	Global_1982485 = 1;
 }
 
 void func_2149(bool bParam0)
@@ -164033,19 +164081,19 @@ void func_2154()
 	iVar0 = 0;
 	while (iVar0 < 6)
 	{
-		Global_1988422[iVar0] = 0;
-		StringCopy(&(Global_1988422.f_7[iVar0 /*4*/]), "", 16);
+		Global_1988423[iVar0] = 0;
+		StringCopy(&(Global_1988423.f_7[iVar0 /*4*/]), "", 16);
 		iVar0++;
 	}
-	Global_1988422.f_32 = 0;
+	Global_1988423.f_32 = 0;
 	iVar0 = 0;
 	while (iVar0 < 3)
 	{
-		IntToString(&(Global_1988422.f_33[iVar0 /*8*/]), 0, 32);
-		StringCopy(&(Global_1988422.f_58[iVar0 /*4*/]), "", 16);
+		IntToString(&(Global_1988423.f_33[iVar0 /*8*/]), 0, 32);
+		StringCopy(&(Global_1988423.f_58[iVar0 /*4*/]), "", 16);
 		iVar0++;
 	}
-	Global_1988422.f_71 = 0;
+	Global_1988423.f_71 = 0;
 }
 
 void func_2155(int iParam0, bool bParam1, bool bParam2, int iParam3, int iParam4, char* sParam5, char* sParam6, bool bParam7)
@@ -164055,7 +164103,7 @@ void func_2155(int iParam0, bool bParam1, bool bParam2, int iParam3, int iParam4
 	
 	StringCopy(&cVar0, sParam5, 32);
 	StringCopy(&cVar8, sParam6, 32);
-	MONEY::_NETWORK_SPENT_GENERIC(iParam0, bParam1, bParam2, iParam3, iParam4, &cVar0, &cVar8, &Global_1988422);
+	MONEY::_NETWORK_SPENT_GENERIC(iParam0, bParam1, bParam2, iParam3, iParam4, &cVar0, &cVar8, &Global_1988423);
 	if (bParam7)
 	{
 		if (func_439())
@@ -164084,13 +164132,13 @@ void func_2157(int iParam0, var uParam1, bool bParam2)
 	{
 		func_2154();
 	}
-	else if (Global_1988422.f_32 == 6)
+	else if (Global_1988423.f_32 == 6)
 	{
 		return;
 	}
-	Global_1988422[Global_1988422.f_32] = uParam1;
-	StringCopy(&(Global_1988422.f_7[Global_1988422.f_32 /*4*/]), func_2158(iParam0), 16);
-	Global_1988422.f_32++;
+	Global_1988423[Global_1988423.f_32] = uParam1;
+	StringCopy(&(Global_1988423.f_7[Global_1988423.f_32 /*4*/]), func_2158(iParam0), 16);
+	Global_1988423.f_32++;
 }
 
 char* func_2158(int iParam0)
@@ -164453,17 +164501,17 @@ int func_2167()
 {
 	int iVar0;
 	
-	if (Global_1988202.f_20)
+	if (Global_1988203.f_20)
 	{
 		if (func_2180())
 		{
-			Global_1988202.f_21 = 3;
+			Global_1988203.f_21 = 3;
 		}
 		if (!NETSHOPPING::NET_GAMESERVER_IS_SESSION_VALID(func_13()) || NETSHOPPING::NET_GAMESERVER_IS_SESSION_REFRESH_PENDING())
 		{
-			Global_1988202.f_21 = 3;
+			Global_1988203.f_21 = 3;
 		}
-		switch (Global_1988202.f_21)
+		switch (Global_1988203.f_21)
 		{
 			case 0:
 				func_2170();
@@ -164477,47 +164525,47 @@ int func_2167()
 					{
 						if (func_2168(iVar0) == 2)
 						{
-							Global_1988202.f_21 = 2;
+							Global_1988203.f_21 = 2;
 						}
 						else
 						{
-							Global_1988202.f_21 = 3;
+							Global_1988203.f_21 = 3;
 						}
 					}
 				}
 				else
 				{
-					Global_1988202.f_21 = 3;
+					Global_1988203.f_21 = 3;
 				}
 				break;
 			
 			case 2:
-				Global_1988202.f_20 = 0;
-				Global_1988202.f_21 = 0;
-				Global_1988202.f_22 = 2;
+				Global_1988203.f_20 = 0;
+				Global_1988203.f_21 = 0;
+				Global_1988203.f_22 = 2;
 				return 0;
 				break;
 			
 			case 3:
 				func_2181(func_2185());
-				Global_1988202.f_20 = 0;
-				Global_1988202.f_21 = 0;
-				Global_1988202.f_22 = 3;
+				Global_1988203.f_20 = 0;
+				Global_1988203.f_21 = 0;
+				Global_1988203.f_22 = 3;
 				return 0;
 				break;
 		}
 		return 1;
 	}
-	if (Global_1988202.f_21 == 3)
+	if (Global_1988203.f_21 == 3)
 	{
 		func_2181(func_2185());
-		Global_1988202.f_20 = 0;
-		Global_1988202.f_21 = 0;
-		Global_1988202.f_22 = 3;
+		Global_1988203.f_20 = 0;
+		Global_1988203.f_21 = 0;
+		Global_1988203.f_22 = 3;
 		return 0;
 	}
-	Global_1988202.f_21 = 0;
-	Global_1988202.f_22 = 0;
+	Global_1988203.f_21 = 0;
+	Global_1988203.f_22 = 0;
 	return 0;
 }
 
@@ -164541,21 +164589,21 @@ int func_2169(int iParam0)
 
 void func_2170()
 {
-	if (func_2176(78225582, -1616616027, Global_1988202.f_18, 235173372, 1, Global_1988202.f_11, 0, 4, Global_1988202.f_19, 3))
+	if (func_2176(78225582, -1616616027, Global_1988203.f_18, 235173372, 1, Global_1988203.f_11, 0, 4, Global_1988203.f_19, 3))
 	{
-		if (!func_2174(Global_1988202.f_18))
+		if (!func_2174(Global_1988203.f_18))
 		{
-			Global_1988202.f_21 = 3;
+			Global_1988203.f_21 = 3;
 		}
-		if (Global_1988202.f_21 != 3)
+		if (Global_1988203.f_21 != 3)
 		{
 			if (func_2171())
 			{
-				Global_1988202.f_21 = 1;
+				Global_1988203.f_21 = 1;
 			}
 			else
 			{
-				Global_1988202.f_21 = 3;
+				Global_1988203.f_21 = 3;
 			}
 		}
 	}
@@ -165555,13 +165603,13 @@ var func_2204()
 
 void func_2205(int iParam0)
 {
-	Global_1988202[0] = func_2136(iParam0);
-	StringCopy(&(Global_1988202.f_13), func_2142(func_2210(Global_1988202[0])), 16);
-	Global_1988202.f_18 = func_2209(func_2210(Global_1988202[0]));
-	Global_1988202.f_19 = func_2207(func_2136(iParam0));
-	Global_1988202.f_11 = func_2141(func_2136(iParam0));
-	Global_1988202.f_24 = 1;
-	if (Global_1988202[1] == -1)
+	Global_1988203[0] = func_2136(iParam0);
+	StringCopy(&(Global_1988203.f_13), func_2142(func_2210(Global_1988203[0])), 16);
+	Global_1988203.f_18 = func_2209(func_2210(Global_1988203[0]));
+	Global_1988203.f_19 = func_2207(func_2136(iParam0));
+	Global_1988203.f_11 = func_2141(func_2136(iParam0));
+	Global_1988203.f_24 = 1;
+	if (Global_1988203[1] == -1)
 	{
 		func_2206(0);
 	}
@@ -165572,15 +165620,15 @@ void func_2206(int iParam0)
 	switch (iParam0)
 	{
 		case 0:
-			Global_1988202[1] = -414884721;
+			Global_1988203[1] = -414884721;
 			break;
 		
 		case 1:
-			Global_1988202[1] = 651783971;
+			Global_1988203[1] = 651783971;
 			break;
 		
 		case 2:
-			Global_1988202[1] = -995004223;
+			Global_1988203[1] = -995004223;
 			break;
 	}
 }
@@ -170491,372 +170539,372 @@ void func_2346(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 918573;
+			*uParam0 = 919681;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 918559;
+			uParam0->f_41 = 919667;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 918515;
+			uParam0->f_34 = 919623;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 918178;
+			uParam0->f_36 = 919286;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 918076;
+			uParam0->f_40 = 919184;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 918064;
+			uParam0->f_15 = 919172;
 			break;
 		
 		case 6:
-			uParam0->f_11 = 918054;
+			uParam0->f_11 = 919162;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 917827;
+			uParam0->f_22 = 918935;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 917780;
+			uParam0->f_9 = 918888;
 			break;
 		
 		case 52:
-			uParam0->f_10 = 917699;
+			uParam0->f_10 = 918807;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 917635;
+			uParam0->f_37 = 918743;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 917626;
+			uParam0->f_11 = 918734;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 917141;
+			uParam0->f_39 = 918249;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 917132;
+			uParam0->f_11 = 918240;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 916406;
+			uParam0->f_65 = 917514;
 			break;
 		
 		case 14:
-			uParam0->f_43 = 916272;
+			uParam0->f_43 = 917379;
 			break;
 		
 		case 13:
-			uParam0->f_42 = 916170;
+			uParam0->f_42 = 917277;
 			break;
 		
 		case 85:
-			*uParam0 = 916161;
+			*uParam0 = 917268;
 			break;
 		
 		case 94:
-			uParam0->f_51 = 916096;
+			uParam0->f_51 = 917203;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 916016;
+			uParam0->f_2 = 917123;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 915918;
+			uParam0->f_2 = 917025;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 915654;
+			uParam0->f_5 = 916761;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 915645;
+			uParam0->f_64 = 916752;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 914768;
+			uParam0->f_21 = 915875;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 914742;
+			uParam0->f_21 = 915849;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 914566;
+			uParam0->f_3 = 915673;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 914502;
+			uParam0->f_3 = 915609;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 914398;
+			uParam0->f_62 = 915505;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 914364;
+			uParam0->f_4 = 915471;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 914262;
+			uParam0->f_28 = 915369;
 			break;
 		
 		case 30:
-			uParam0->f_30 = 914254;
+			uParam0->f_30 = 915361;
 			break;
 		
 		case 33:
-			uParam0->f_45 = 914246;
+			uParam0->f_45 = 915353;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 913926;
+			uParam0->f_27 = 915033;
 			break;
 		
 		case 36:
-			uParam0->f_29 = 913918;
+			uParam0->f_29 = 915025;
 			break;
 		
 		case 37:
-			uParam0->f_28 = 913910;
+			uParam0->f_28 = 915017;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 913651;
+			uParam0->f_8 = 914758;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 913519;
+			uParam0->f_46 = 914626;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 912729;
+			uParam0->f_47 = 913836;
 			break;
 		
 		case 42:
-			*uParam0 = 912633;
+			*uParam0 = 913740;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 911859;
+			uParam0->f_48 = 912966;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 911814;
+			uParam0->f_67 = 912921;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 909777;
+			uParam0->f_49 = 910884;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 909768;
+			uParam0->f_18 = 910875;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 909759;
+			uParam0->f_18 = 910866;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 909751;
+			uParam0->f_66 = 910858;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 909740;
+			uParam0->f_16 = 910847;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 909691;
+			uParam0->f_52 = 910798;
 			break;
 		
 		case 59:
 			uParam0->f_77 = 1;
-			uParam0->f_53 = 909554;
+			uParam0->f_53 = 910661;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 909536;
+			uParam0->f_8 = 910643;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 909527;
+			uParam0->f_11 = 910634;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 909304;
+			uParam0->f_8 = 910411;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 909202;
+			uParam0->f_8 = 910309;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 909147;
+			uParam0->f_19 = 910254;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 909009;
+			uParam0->f_17 = 910116;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 908881;
+			uParam0->f_54 = 909988;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 908872;
+			uParam0->f_55 = 909979;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 908708;
+			uParam0->f_12 = 909815;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 908663;
+			uParam0->f_16 = 909770;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 908034;
+			uParam0->f_56 = 909141;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 908026;
+			uParam0->f_25 = 909133;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 907806;
+			uParam0->f_25 = 908913;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 907731;
+			uParam0->f_25 = 908838;
 			break;
 		
 		case 74:
-			*uParam0 = 907042;
+			*uParam0 = 908149;
 			break;
 		
 		case 75:
-			*uParam0 = 907033;
+			*uParam0 = 908140;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 907021;
+			uParam0->f_57 = 908128;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 907009;
+			uParam0->f_59 = 908116;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 907000;
+			uParam0->f_7 = 908107;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 906991;
+			uParam0->f_1 = 908098;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 906982;
+			uParam0->f_1 = 908089;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 906973;
+			uParam0->f_1 = 908080;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 906964;
+			uParam0->f_1 = 908071;
 			break;
 		
 		case 111:
-			uParam0->f_63 = 906956;
+			uParam0->f_63 = 908063;
 			break;
 		
 		case 118:
-			uParam0->f_1 = 906947;
+			uParam0->f_1 = 908054;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 906938;
+			uParam0->f_1 = 908045;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 906929;
+			uParam0->f_1 = 908036;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 906921;
+			uParam0->f_26 = 908028;
 			break;
 		
 		case 123:
-			uParam0->f_26 = 906913;
+			uParam0->f_26 = 908020;
 			break;
 		
 		case 135:
-			uParam0->f_3 = 906904;
+			uParam0->f_3 = 908011;
 			break;
 		
 		case 136:
-			uParam0->f_20 = 878201;
+			uParam0->f_20 = 879309;
 			break;
 		
 		case 137:
-			uParam0->f_3 = 906895;
+			uParam0->f_3 = 908002;
 			break;
 		
 		case 138:
-			*uParam0 = 906886;
+			*uParam0 = 907993;
 			break;
 		
 		case 146:
-			uParam0->f_1 = 906877;
+			uParam0->f_1 = 907984;
 			break;
 		
 		case 147:
-			uParam0->f_23 = 906869;
+			uParam0->f_23 = 907976;
 			break;
 		
 		case 159:
-			uParam0->f_75 = 905271;
+			uParam0->f_75 = 906378;
 			break;
 		
 		case 160:
-			uParam0->f_23 = 905252;
+			uParam0->f_23 = 906359;
 			break;
 		
 		case 161:
-			uParam0->f_69 = 904892;
+			uParam0->f_69 = 905999;
 			break;
 		
 		case 164:
-			*uParam0 = 904838;
+			*uParam0 = 905945;
 			break;
 		
 		case 15:
-			uParam0->f_44 = 904815;
+			uParam0->f_44 = 905922;
 			break;
 		
 		case 162:
-			uParam0->f_11 = 904806;
+			uParam0->f_11 = 905913;
 			break;
 		
 		case 163:
-			uParam0->f_11 = 904796;
+			uParam0->f_11 = 905903;
 			break;
 		
 		case 166:
-			uParam0->f_13 = 904714;
+			uParam0->f_13 = 905821;
 			break;
 		
 		case 167:
-			uParam0->f_73 = 904565;
+			uParam0->f_73 = 905672;
 			break;
 	}
 }
@@ -170954,7 +171002,7 @@ int func_2356(var uParam0, char* sParam1, int iParam2)
 			sParam1->f_54[0] = func_2357(1);
 			sParam1->f_67[0] = func_2351(1);
 			sParam1->f_53 = func_2478(173, 24);
-			Global_1988202.f_11 = func_2357(1);
+			Global_1988203.f_11 = func_2357(1);
 			break;
 		
 		default:
@@ -171018,12 +171066,12 @@ void func_2359(char* sParam0, int iParam1)
 
 void func_2360(var uParam0)
 {
-	MISC::SET_BIT(&(Global_1982734.f_1), 5);
+	MISC::SET_BIT(&(Global_1982735.f_1), 5);
 }
 
 int func_2361(var uParam0)
 {
-	if (Global_1988202.f_21 == 0)
+	if (Global_1988203.f_21 == 0)
 	{
 		func_2375();
 	}
@@ -171032,7 +171080,7 @@ int func_2361(var uParam0)
 
 int func_2362()
 {
-	if (Global_1988202.f_21 == 0)
+	if (Global_1988203.f_21 == 0)
 	{
 		if (!func_2029(60, 0, 0))
 		{
@@ -171052,16 +171100,16 @@ int func_2362()
 				return 5;
 			}
 		}
-		if (Global_1988202.f_11 > 0 && !MONEY::NETWORK_CAN_SPEND_MONEY(Global_1988202.f_11, false, true, false, -1, 0))
+		if (Global_1988203.f_11 > 0 && !MONEY::NETWORK_CAN_SPEND_MONEY(Global_1988203.f_11, false, true, false, -1, 0))
 		{
 			return 6;
 		}
 	}
 	if (func_439())
 	{
-		if (Global_1988202.f_21 == 0)
+		if (Global_1988203.f_21 == 0)
 		{
-			Global_1988202.f_22 = 0;
+			Global_1988203.f_22 = 0;
 			if (func_439())
 			{
 				func_2181(func_2185());
@@ -171071,7 +171119,7 @@ int func_2362()
 		{
 			return 0;
 		}
-		switch (Global_1988202.f_22)
+		switch (Global_1988203.f_22)
 		{
 			case 3:
 				return 2;
@@ -171104,13 +171152,13 @@ void func_2363()
 	struct<2> Var0;
 	
 	Var0 = -1;
-	Var0.f_0 = Global_1988202[1];
-	Var0.f_1 = Global_1988202.f_11;
+	Var0.f_0 = Global_1988203[1];
+	Var0.f_1 = Global_1988203.f_11;
 	if (func_439())
 	{
 		NETSHOPPING::NET_GAMESERVER_SET_TELEMETRY_NONCE_SEED(func_2166(func_2185()));
 	}
-	func_2368(func_2370(Global_1988202[0]));
+	func_2368(func_2370(Global_1988203[0]));
 	func_2366(&Var0, 0, 1);
 	func_2364();
 	func_2148();
@@ -171205,17 +171253,17 @@ int func_2371()
 {
 	int iVar0;
 	
-	if (Global_1988202.f_20)
+	if (Global_1988203.f_20)
 	{
 		if (func_2180())
 		{
-			Global_1988202.f_21 = 3;
+			Global_1988203.f_21 = 3;
 		}
 		if (!NETSHOPPING::NET_GAMESERVER_IS_SESSION_VALID(func_13()) || NETSHOPPING::NET_GAMESERVER_IS_SESSION_REFRESH_PENDING())
 		{
-			Global_1988202.f_21 = 3;
+			Global_1988203.f_21 = 3;
 		}
-		switch (Global_1988202.f_21)
+		switch (Global_1988203.f_21)
 		{
 			case 0:
 				func_2372();
@@ -171229,67 +171277,67 @@ int func_2371()
 					{
 						if (func_2168(iVar0) == 2)
 						{
-							Global_1988202.f_21 = 2;
+							Global_1988203.f_21 = 2;
 						}
 						else
 						{
-							Global_1988202.f_21 = 3;
+							Global_1988203.f_21 = 3;
 						}
 					}
 				}
 				else
 				{
-					Global_1988202.f_21 = 3;
+					Global_1988203.f_21 = 3;
 				}
 				break;
 			
 			case 2:
-				Global_1988202.f_20 = 0;
-				Global_1988202.f_21 = 0;
-				Global_1988202.f_22 = 2;
+				Global_1988203.f_20 = 0;
+				Global_1988203.f_21 = 0;
+				Global_1988203.f_22 = 2;
 				return 0;
 				break;
 			
 			case 3:
 				func_2181(func_2185());
-				Global_1988202.f_20 = 0;
-				Global_1988202.f_21 = 0;
-				Global_1988202.f_22 = 3;
+				Global_1988203.f_20 = 0;
+				Global_1988203.f_21 = 0;
+				Global_1988203.f_22 = 3;
 				return 0;
 				break;
 		}
 		return 1;
 	}
-	if (Global_1988202.f_21 == 3)
+	if (Global_1988203.f_21 == 3)
 	{
 		func_2181(func_2185());
-		Global_1988202.f_20 = 0;
-		Global_1988202.f_21 = 0;
-		Global_1988202.f_22 = 3;
+		Global_1988203.f_20 = 0;
+		Global_1988203.f_21 = 0;
+		Global_1988203.f_22 = 3;
 		return 0;
 	}
-	Global_1988202.f_21 = 0;
-	Global_1988202.f_22 = 0;
+	Global_1988203.f_21 = 0;
+	Global_1988203.f_22 = 0;
 	return 0;
 }
 
 void func_2372()
 {
-	if (func_2176(78225582, -1616616027, Global_1988202.f_18, 235173372, 1, Global_1988202.f_11, 0, 4, Global_1988202.f_19, 3))
+	if (func_2176(78225582, -1616616027, Global_1988203.f_18, 235173372, 1, Global_1988203.f_11, 0, 4, Global_1988203.f_19, 3))
 	{
-		if (!func_2373(Global_1988202.f_18))
+		if (!func_2373(Global_1988203.f_18))
 		{
-			Global_1988202.f_21 = 3;
+			Global_1988203.f_21 = 3;
 		}
-		if (Global_1988202.f_21 != 3)
+		if (Global_1988203.f_21 != 3)
 		{
 			if (func_2171())
 			{
-				Global_1988202.f_21 = 1;
+				Global_1988203.f_21 = 1;
 			}
 			else
 			{
-				Global_1988202.f_21 = 3;
+				Global_1988203.f_21 = 3;
 			}
 		}
 	}
@@ -171321,12 +171369,12 @@ int func_2374(int iParam0)
 
 void func_2375()
 {
-	Global_1988202[0] = 1;
-	StringCopy(&(Global_1988202.f_13), func_2358(func_2370(Global_1988202[0])), 16);
-	Global_1988202.f_18 = func_2379(func_2370(Global_1988202[0]));
-	Global_1988202.f_19 = func_2377();
-	Global_1988202.f_11 = func_2357(1);
-	if (Global_1988202[1] == -1)
+	Global_1988203[0] = 1;
+	StringCopy(&(Global_1988203.f_13), func_2358(func_2370(Global_1988203[0])), 16);
+	Global_1988203.f_18 = func_2379(func_2370(Global_1988203[0]));
+	Global_1988203.f_19 = func_2377();
+	Global_1988203.f_11 = func_2357(1);
+	if (Global_1988203[1] == -1)
 	{
 		func_2376(0);
 	}
@@ -171337,15 +171385,15 @@ void func_2376(int iParam0)
 	switch (iParam0)
 	{
 		case 0:
-			Global_1988202[1] = -414884721;
+			Global_1988203[1] = -414884721;
 			break;
 		
 		case 1:
-			Global_1988202[1] = 651783971;
+			Global_1988203[1] = 651783971;
 			break;
 		
 		case 2:
-			Global_1988202[1] = -995004223;
+			Global_1988203[1] = -995004223;
 			break;
 	}
 }
@@ -173636,416 +173684,416 @@ void func_2488(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 976511;
+			*uParam0 = 977623;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 976497;
+			uParam0->f_41 = 977609;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 976428;
+			uParam0->f_34 = 977540;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 975404;
+			uParam0->f_36 = 976516;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 975175;
+			uParam0->f_40 = 976287;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 975163;
+			uParam0->f_15 = 976275;
 			break;
 		
 		case 6:
-			uParam0->f_11 = 975109;
+			uParam0->f_11 = 976221;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 974882;
+			uParam0->f_22 = 975994;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 974835;
+			uParam0->f_9 = 975947;
 			break;
 		
 		case 52:
-			uParam0->f_10 = 974807;
+			uParam0->f_10 = 975919;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 974676;
+			uParam0->f_37 = 975788;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 974666;
+			uParam0->f_11 = 975778;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 973080;
+			uParam0->f_39 = 974192;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 973071;
+			uParam0->f_11 = 974183;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 971901;
+			uParam0->f_65 = 973013;
 			break;
 		
 		case 14:
-			uParam0->f_43 = 971835;
+			uParam0->f_43 = 972947;
 			break;
 		
 		case 13:
-			uParam0->f_42 = 971790;
+			uParam0->f_42 = 972902;
 			break;
 		
 		case 85:
-			*uParam0 = 971766;
+			*uParam0 = 972878;
 			break;
 		
 		case 94:
-			uParam0->f_51 = 971673;
+			uParam0->f_51 = 972785;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 971611;
+			uParam0->f_2 = 972723;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 971530;
+			uParam0->f_2 = 972642;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 970770;
+			uParam0->f_5 = 971882;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 967641;
+			uParam0->f_64 = 968753;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 966705;
+			uParam0->f_21 = 967817;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 966679;
+			uParam0->f_21 = 967791;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 966518;
+			uParam0->f_3 = 967632;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 966454;
+			uParam0->f_3 = 967568;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 966350;
+			uParam0->f_62 = 967464;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 966313;
+			uParam0->f_4 = 967427;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 966197;
+			uParam0->f_28 = 967311;
 			break;
 		
 		case 30:
-			uParam0->f_30 = 966189;
+			uParam0->f_30 = 967303;
 			break;
 		
 		case 33:
-			uParam0->f_45 = 962368;
+			uParam0->f_45 = 963480;
 			break;
 		
 		case 34:
-			*uParam0 = 962265;
+			*uParam0 = 963377;
 			break;
 		
 		case 35:
-			uParam0->f_45 = 960929;
+			uParam0->f_45 = 962041;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 960431;
+			uParam0->f_27 = 961543;
 			break;
 		
 		case 36:
-			uParam0->f_29 = 960423;
+			uParam0->f_29 = 961535;
 			break;
 		
 		case 37:
-			uParam0->f_28 = 960415;
+			uParam0->f_28 = 961527;
 			break;
 		
 		case 38:
-			uParam0->f_32 = 960407;
+			uParam0->f_32 = 961519;
 			break;
 		
 		case 39:
-			uParam0->f_8 = 960378;
+			uParam0->f_8 = 961490;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 960042;
+			uParam0->f_8 = 961154;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 959935;
+			uParam0->f_46 = 961047;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 958694;
+			uParam0->f_47 = 959806;
 			break;
 		
 		case 42:
-			*uParam0 = 958640;
+			*uParam0 = 959752;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 947381;
+			uParam0->f_48 = 948490;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 947336;
+			uParam0->f_67 = 948445;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 937099;
+			uParam0->f_49 = 938208;
 			break;
 		
 		case 55:
-			uParam0->f_50 = 937020;
+			uParam0->f_50 = 938129;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 937011;
+			uParam0->f_18 = 938120;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 937002;
+			uParam0->f_18 = 938111;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 936994;
+			uParam0->f_66 = 938103;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 936908;
+			uParam0->f_16 = 938017;
 			break;
 		
 		case 90:
-			uParam0->f_23 = 936863;
+			uParam0->f_23 = 937972;
 			break;
 		
 		case 91:
-			uParam0->f_12 = 936821;
+			uParam0->f_12 = 937930;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 936704;
+			uParam0->f_52 = 937813;
 			break;
 		
 		case 59:
 			uParam0->f_77 = 1;
-			uParam0->f_53 = 936007;
+			uParam0->f_53 = 937116;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 935963;
+			uParam0->f_8 = 937072;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 935954;
+			uParam0->f_11 = 937063;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 935481;
+			uParam0->f_8 = 936590;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 935379;
+			uParam0->f_8 = 936488;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 935312;
+			uParam0->f_19 = 936421;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 935194;
+			uParam0->f_17 = 936303;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 935061;
+			uParam0->f_54 = 936170;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 935041;
+			uParam0->f_55 = 936150;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 934877;
+			uParam0->f_12 = 935986;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 934832;
+			uParam0->f_16 = 935941;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 934824;
+			uParam0->f_56 = 935933;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 933771;
+			uParam0->f_25 = 934881;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 933551;
+			uParam0->f_25 = 934661;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 933476;
+			uParam0->f_25 = 934586;
 			break;
 		
 		case 74:
-			*uParam0 = 932787;
+			*uParam0 = 933897;
 			break;
 		
 		case 75:
-			*uParam0 = 932778;
+			*uParam0 = 933886;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 932766;
+			uParam0->f_57 = 933874;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 932754;
+			uParam0->f_59 = 933862;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 932482;
+			uParam0->f_7 = 933590;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 932473;
+			uParam0->f_1 = 933581;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 931762;
+			uParam0->f_1 = 932870;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 930868;
+			uParam0->f_1 = 931976;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 930859;
+			uParam0->f_1 = 931967;
 			break;
 		
 		case 111:
-			uParam0->f_63 = 930851;
+			uParam0->f_63 = 931959;
 			break;
 		
 		case 118:
-			uParam0->f_1 = 930842;
+			uParam0->f_1 = 931950;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 930833;
+			uParam0->f_1 = 931941;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 930824;
+			uParam0->f_1 = 931932;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 930816;
+			uParam0->f_26 = 931924;
 			break;
 		
 		case 123:
-			uParam0->f_26 = 930808;
+			uParam0->f_26 = 931916;
 			break;
 		
 		case 135:
-			uParam0->f_3 = 930799;
+			uParam0->f_3 = 931907;
 			break;
 		
 		case 136:
-			uParam0->f_20 = 878201;
+			uParam0->f_20 = 879309;
 			break;
 		
 		case 137:
-			uParam0->f_3 = 930790;
+			uParam0->f_3 = 931898;
 			break;
 		
 		case 138:
-			*uParam0 = 930781;
+			*uParam0 = 931889;
 			break;
 		
 		case 146:
-			uParam0->f_1 = 930772;
+			uParam0->f_1 = 931880;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 930416;
+			uParam0->f_68 = 931524;
 			break;
 		
 		case 147:
-			uParam0->f_23 = 930408;
+			uParam0->f_23 = 931516;
 			break;
 		
 		case 153:
-			uParam0->f_70 = 930218;
+			uParam0->f_70 = 931326;
 			break;
 		
 		case 154:
-			uParam0->f_71 = 923942;
+			uParam0->f_71 = 925050;
 			break;
 		
 		case 159:
-			uParam0->f_75 = 921618;
+			uParam0->f_75 = 922726;
 			break;
 		
 		case 160:
-			uParam0->f_23 = 921599;
+			uParam0->f_23 = 922707;
 			break;
 		
 		case 161:
-			uParam0->f_69 = 921239;
+			uParam0->f_69 = 922347;
 			break;
 		
 		case 162:
-			uParam0->f_11 = 921230;
+			uParam0->f_11 = 922338;
 			break;
 		
 		case 163:
-			uParam0->f_11 = 921219;
+			uParam0->f_11 = 922327;
 			break;
 		
 		case 164:
-			*uParam0 = 921169;
+			*uParam0 = 922277;
 			break;
 		
 		case 15:
-			uParam0->f_44 = 921146;
+			uParam0->f_44 = 922254;
 			break;
 		
 		case 166:
-			uParam0->f_13 = 921064;
+			uParam0->f_13 = 922172;
 			break;
 		
 		case 156:
-			uParam0->f_72 = 920476;
+			uParam0->f_72 = 921584;
 			break;
 		
 		case 157:
-			uParam0->f_74 = 920345;
+			uParam0->f_74 = 921453;
 			break;
 	}
 }
@@ -174186,7 +174234,7 @@ int func_2498(var uParam0, char* sParam1, int iParam2)
 			sParam1->f_54[0] = func_2499(1);
 			sParam1->f_67[0] = func_2493(1);
 			sParam1->f_53 = func_2716(172, 24);
-			Global_1988202.f_11 = func_2499(1);
+			Global_1988203.f_11 = func_2499(1);
 			break;
 		
 		default:
@@ -174250,12 +174298,12 @@ void func_2501(char* sParam0, int iParam1)
 
 void func_2502(var uParam0)
 {
-	MISC::SET_BIT(&(Global_1982734.f_1), 2);
+	MISC::SET_BIT(&(Global_1982735.f_1), 2);
 }
 
 int func_2503(var uParam0)
 {
-	if (Global_1988202.f_21 == 0)
+	if (Global_1988203.f_21 == 0)
 	{
 		func_2528();
 	}
@@ -174264,7 +174312,7 @@ int func_2503(var uParam0)
 
 int func_2504()
 {
-	if (Global_1988202.f_21 == 0)
+	if (Global_1988203.f_21 == 0)
 	{
 		if (!func_2029(60, 0, 0))
 		{
@@ -174284,16 +174332,16 @@ int func_2504()
 				return 5;
 			}
 		}
-		if (Global_1988202.f_11 > 0 && !MONEY::NETWORK_CAN_SPEND_MONEY(Global_1988202.f_11, false, true, false, -1, 0))
+		if (Global_1988203.f_11 > 0 && !MONEY::NETWORK_CAN_SPEND_MONEY(Global_1988203.f_11, false, true, false, -1, 0))
 		{
 			return 6;
 		}
 	}
 	if (func_439())
 	{
-		if (Global_1988202.f_21 == 0)
+		if (Global_1988203.f_21 == 0)
 		{
-			Global_1988202.f_22 = 0;
+			Global_1988203.f_22 = 0;
 			if (func_439())
 			{
 				func_2181(func_2185());
@@ -174303,7 +174351,7 @@ int func_2504()
 		{
 			return 0;
 		}
-		switch (Global_1988202.f_22)
+		switch (Global_1988203.f_22)
 		{
 			case 3:
 				return 2;
@@ -174336,13 +174384,13 @@ void func_2505()
 	struct<2> Var0;
 	
 	Var0 = -1;
-	Var0.f_0 = Global_1988202[1];
-	Var0.f_1 = Global_1988202.f_11;
+	Var0.f_0 = Global_1988203[1];
+	Var0.f_1 = Global_1988203.f_11;
 	if (func_439())
 	{
 		NETSHOPPING::NET_GAMESERVER_SET_TELEMETRY_NONCE_SEED(func_2166(func_2185()));
 	}
-	func_2521(func_2523(Global_1988202[0]));
+	func_2521(func_2523(Global_1988203[0]));
 	func_2519(&Var0, 0, 1);
 	func_2506();
 	func_2148();
@@ -174591,17 +174639,17 @@ int func_2524()
 {
 	int iVar0;
 	
-	if (Global_1988202.f_20)
+	if (Global_1988203.f_20)
 	{
 		if (func_2180())
 		{
-			Global_1988202.f_21 = 3;
+			Global_1988203.f_21 = 3;
 		}
 		if (!NETSHOPPING::NET_GAMESERVER_IS_SESSION_VALID(func_13()) || NETSHOPPING::NET_GAMESERVER_IS_SESSION_REFRESH_PENDING())
 		{
-			Global_1988202.f_21 = 3;
+			Global_1988203.f_21 = 3;
 		}
-		switch (Global_1988202.f_21)
+		switch (Global_1988203.f_21)
 		{
 			case 0:
 				func_2525();
@@ -174615,67 +174663,67 @@ int func_2524()
 					{
 						if (func_2168(iVar0) == 2)
 						{
-							Global_1988202.f_21 = 2;
+							Global_1988203.f_21 = 2;
 						}
 						else
 						{
-							Global_1988202.f_21 = 3;
+							Global_1988203.f_21 = 3;
 						}
 					}
 				}
 				else
 				{
-					Global_1988202.f_21 = 3;
+					Global_1988203.f_21 = 3;
 				}
 				break;
 			
 			case 2:
-				Global_1988202.f_20 = 0;
-				Global_1988202.f_21 = 0;
-				Global_1988202.f_22 = 2;
+				Global_1988203.f_20 = 0;
+				Global_1988203.f_21 = 0;
+				Global_1988203.f_22 = 2;
 				return 0;
 				break;
 			
 			case 3:
 				func_2181(func_2185());
-				Global_1988202.f_20 = 0;
-				Global_1988202.f_21 = 0;
-				Global_1988202.f_22 = 3;
+				Global_1988203.f_20 = 0;
+				Global_1988203.f_21 = 0;
+				Global_1988203.f_22 = 3;
 				return 0;
 				break;
 		}
 		return 1;
 	}
-	if (Global_1988202.f_21 == 3)
+	if (Global_1988203.f_21 == 3)
 	{
 		func_2181(func_2185());
-		Global_1988202.f_20 = 0;
-		Global_1988202.f_21 = 0;
-		Global_1988202.f_22 = 3;
+		Global_1988203.f_20 = 0;
+		Global_1988203.f_21 = 0;
+		Global_1988203.f_22 = 3;
 		return 0;
 	}
-	Global_1988202.f_21 = 0;
-	Global_1988202.f_22 = 0;
+	Global_1988203.f_21 = 0;
+	Global_1988203.f_22 = 0;
 	return 0;
 }
 
 void func_2525()
 {
-	if (func_2176(78225582, -1616616027, Global_1988202.f_18, 235173372, 1, Global_1988202.f_11, 0, 4, Global_1988202.f_19, 3))
+	if (func_2176(78225582, -1616616027, Global_1988203.f_18, 235173372, 1, Global_1988203.f_11, 0, 4, Global_1988203.f_19, 3))
 	{
-		if (!func_2526(Global_1988202.f_18))
+		if (!func_2526(Global_1988203.f_18))
 		{
-			Global_1988202.f_21 = 3;
+			Global_1988203.f_21 = 3;
 		}
-		if (Global_1988202.f_21 != 3)
+		if (Global_1988203.f_21 != 3)
 		{
 			if (func_2171())
 			{
-				Global_1988202.f_21 = 1;
+				Global_1988203.f_21 = 1;
 			}
 			else
 			{
-				Global_1988202.f_21 = 3;
+				Global_1988203.f_21 = 3;
 			}
 		}
 	}
@@ -174707,12 +174755,12 @@ int func_2527(int iParam0)
 
 void func_2528()
 {
-	Global_1988202[0] = 1;
-	StringCopy(&(Global_1988202.f_13), func_2500(func_2523(Global_1988202[0])), 16);
-	Global_1988202.f_18 = func_2532(func_2523(Global_1988202[0]));
-	Global_1988202.f_19 = func_2530();
-	Global_1988202.f_11 = func_2499(1);
-	if (Global_1988202[1] == -1)
+	Global_1988203[0] = 1;
+	StringCopy(&(Global_1988203.f_13), func_2500(func_2523(Global_1988203[0])), 16);
+	Global_1988203.f_18 = func_2532(func_2523(Global_1988203[0]));
+	Global_1988203.f_19 = func_2530();
+	Global_1988203.f_11 = func_2499(1);
+	if (Global_1988203[1] == -1)
 	{
 		func_2529(0);
 	}
@@ -174723,15 +174771,15 @@ void func_2529(int iParam0)
 	switch (iParam0)
 	{
 		case 0:
-			Global_1988202[1] = -414884721;
+			Global_1988203[1] = -414884721;
 			break;
 		
 		case 1:
-			Global_1988202[1] = 651783971;
+			Global_1988203[1] = 651783971;
 			break;
 		
 		case 2:
-			Global_1988202[1] = -995004223;
+			Global_1988203[1] = -995004223;
 			break;
 	}
 }
@@ -174796,7 +174844,7 @@ int func_2535(int iParam0, int iParam1, var uParam2, var uParam3)
 	switch (iParam0)
 	{
 		case 172:
-			switch (Global_1982575)
+			switch (Global_1982576)
 			{
 				case 0:
 					switch (iParam1)
@@ -175740,7 +175788,7 @@ int func_2536()
 	
 	if (func_2490(PLAYER::PLAYER_ID()))
 	{
-		if (Global_1982575 == 1)
+		if (Global_1982576 == 1)
 		{
 			func_2535(172, 0, &Var0, &uVar3);
 			iVar4 = INTERIOR::GET_INTERIOR_AT_COORDS(Var0);
@@ -175760,7 +175808,7 @@ int func_2536()
 
 int func_2537()
 {
-	switch (Global_1982575)
+	switch (Global_1982576)
 	{
 		case 1:
 			return -571756119;
@@ -183775,360 +183823,360 @@ void func_2726(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1029729;
+			*uParam0 = 1030869;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1029715;
+			uParam0->f_41 = 1030855;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1029647;
+			uParam0->f_34 = 1030787;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1029247;
+			uParam0->f_36 = 1030387;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1029102;
+			uParam0->f_40 = 1030242;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1029090;
+			uParam0->f_15 = 1030230;
 			break;
 		
 		case 6:
-			uParam0->f_11 = 1029080;
+			uParam0->f_11 = 1030220;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 1028933;
+			uParam0->f_22 = 1030073;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 1028886;
+			uParam0->f_9 = 1030026;
 			break;
 		
 		case 52:
-			uParam0->f_10 = 1028805;
+			uParam0->f_10 = 1029945;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1028717;
+			uParam0->f_37 = 1029857;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1028708;
+			uParam0->f_11 = 1029848;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1026539;
+			uParam0->f_39 = 1027679;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1026530;
+			uParam0->f_11 = 1027670;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1021527;
+			uParam0->f_65 = 1022667;
 			break;
 		
 		case 14:
-			uParam0->f_43 = 1021237;
+			uParam0->f_43 = 1022377;
 			break;
 		
 		case 13:
-			uParam0->f_42 = 1021204;
+			uParam0->f_42 = 1022344;
 			break;
 		
 		case 85:
-			*uParam0 = 1021195;
+			*uParam0 = 1022335;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1021133;
+			uParam0->f_2 = 1022273;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1021052;
+			uParam0->f_2 = 1022192;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1019969;
+			uParam0->f_5 = 1021109;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1019040;
+			uParam0->f_21 = 1020180;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1019014;
+			uParam0->f_21 = 1020154;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1018800;
+			uParam0->f_3 = 1019940;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1018736;
+			uParam0->f_3 = 1019876;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1018632;
+			uParam0->f_62 = 1019772;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1015040;
+			uParam0->f_64 = 1016181;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1015003;
+			uParam0->f_4 = 1016144;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1014901;
+			uParam0->f_28 = 1016042;
 			break;
 		
 		case 30:
-			uParam0->f_30 = 1014858;
+			uParam0->f_30 = 1015999;
 			break;
 		
 		case 31:
-			uParam0->f_30 = 1014824;
+			uParam0->f_30 = 1015965;
 			break;
 		
 		case 33:
-			uParam0->f_45 = 1014816;
+			uParam0->f_45 = 1015957;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1014164;
+			uParam0->f_27 = 1015275;
 			break;
 		
 		case 37:
-			uParam0->f_28 = 1014156;
+			uParam0->f_28 = 1015267;
 			break;
 		
 		case 149:
-			uParam0->f_16 = 1014133;
+			uParam0->f_16 = 1015244;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1013812;
+			uParam0->f_8 = 1014923;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1013671;
+			uParam0->f_46 = 1014782;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1012737;
+			uParam0->f_47 = 1013848;
 			break;
 		
 		case 42:
-			*uParam0 = 1012570;
+			*uParam0 = 1013681;
 			break;
 		
 		case 82:
-			uParam0->f_16 = 1012547;
+			uParam0->f_16 = 1013658;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1009625;
+			uParam0->f_48 = 1010736;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1009572;
+			uParam0->f_67 = 1010683;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 987473;
+			uParam0->f_49 = 988585;
 			break;
 		
 		case 55:
-			uParam0->f_50 = 986396;
+			uParam0->f_50 = 987508;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 986387;
+			uParam0->f_18 = 987499;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 986378;
+			uParam0->f_18 = 987490;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 986370;
+			uParam0->f_66 = 987482;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 986347;
+			uParam0->f_16 = 987459;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 986298;
+			uParam0->f_52 = 987410;
 			break;
 		
 		case 59:
 			uParam0->f_77 = 1;
-			uParam0->f_53 = 986169;
+			uParam0->f_53 = 987281;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 986151;
+			uParam0->f_8 = 987263;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 986142;
+			uParam0->f_11 = 987254;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 985654;
+			uParam0->f_8 = 986766;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 985645;
+			uParam0->f_8 = 986757;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 985622;
+			uParam0->f_19 = 986734;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 985318;
+			uParam0->f_17 = 986430;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 985310;
+			uParam0->f_54 = 986422;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 985291;
+			uParam0->f_55 = 986403;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 985087;
+			uParam0->f_12 = 986199;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 984934;
+			uParam0->f_16 = 986046;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 984926;
+			uParam0->f_56 = 986038;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 983921;
+			uParam0->f_25 = 985033;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 983701;
+			uParam0->f_25 = 984813;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 983631;
+			uParam0->f_25 = 984743;
 			break;
 		
 		case 74:
-			*uParam0 = 981998;
+			*uParam0 = 983114;
 			break;
 		
 		case 75:
-			*uParam0 = 981989;
+			*uParam0 = 983105;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 981977;
+			uParam0->f_57 = 983093;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 981729;
+			uParam0->f_58 = 982841;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 981717;
+			uParam0->f_59 = 982829;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 981479;
+			uParam0->f_7 = 982591;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 981470;
+			uParam0->f_1 = 982582;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 979951;
+			uParam0->f_1 = 981063;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 978547;
+			uParam0->f_1 = 979659;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 978538;
+			uParam0->f_1 = 979650;
 			break;
 		
 		case 111:
-			uParam0->f_63 = 978530;
+			uParam0->f_63 = 979642;
 			break;
 		
 		case 118:
-			uParam0->f_1 = 978521;
+			uParam0->f_1 = 979633;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 978512;
+			uParam0->f_1 = 979624;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 978503;
+			uParam0->f_1 = 979615;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 978495;
+			uParam0->f_26 = 979607;
 			break;
 		
 		case 123:
-			uParam0->f_26 = 978487;
+			uParam0->f_26 = 979599;
 			break;
 		
 		case 136:
-			uParam0->f_20 = 878201;
+			uParam0->f_20 = 879309;
 			break;
 		
 		case 137:
-			uParam0->f_3 = 978478;
+			uParam0->f_3 = 979590;
 			break;
 		
 		case 138:
-			*uParam0 = 978469;
+			*uParam0 = 979581;
 			break;
 		
 		case 139:
-			uParam0->f_20 = 762288;
+			uParam0->f_20 = 763413;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 978138;
+			uParam0->f_68 = 979250;
 			break;
 		
 		case 146:
-			uParam0->f_1 = 978129;
+			uParam0->f_1 = 979241;
 			break;
 		
 		case 147:
-			uParam0->f_23 = 978121;
+			uParam0->f_23 = 979233;
 			break;
 		
 		case 152:
-			*uParam0 = 978080;
+			*uParam0 = 979192;
 			break;
 		
 		case 157:
-			uParam0->f_74 = 978046;
+			uParam0->f_74 = 979158;
 			break;
 	}
 }
@@ -192453,356 +192501,356 @@ void func_2893(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1078221;
+			*uParam0 = 1079360;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1078207;
+			uParam0->f_41 = 1079346;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1078116;
+			uParam0->f_34 = 1079255;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1077832;
+			uParam0->f_36 = 1078971;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1077686;
+			uParam0->f_40 = 1078825;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1077674;
+			uParam0->f_15 = 1078813;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 1077527;
+			uParam0->f_22 = 1078666;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 1077480;
+			uParam0->f_9 = 1078619;
 			break;
 		
 		case 52:
-			uParam0->f_10 = 1077399;
+			uParam0->f_10 = 1078538;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1077311;
+			uParam0->f_37 = 1078450;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1077302;
+			uParam0->f_11 = 1078441;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1075300;
+			uParam0->f_39 = 1076439;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1075291;
+			uParam0->f_11 = 1076430;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1072000;
+			uParam0->f_65 = 1073139;
 			break;
 		
 		case 14:
-			uParam0->f_43 = 1071710;
+			uParam0->f_43 = 1072849;
 			break;
 		
 		case 13:
-			uParam0->f_42 = 1071677;
+			uParam0->f_42 = 1072816;
 			break;
 		
 		case 85:
-			*uParam0 = 1071668;
+			*uParam0 = 1072807;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1071606;
+			uParam0->f_2 = 1072745;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1071421;
+			uParam0->f_2 = 1072560;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1070550;
+			uParam0->f_5 = 1071689;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1067214;
+			uParam0->f_64 = 1068353;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1066215;
+			uParam0->f_21 = 1067354;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1066203;
+			uParam0->f_21 = 1067342;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1066002;
+			uParam0->f_3 = 1067141;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1065938;
+			uParam0->f_3 = 1067077;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1065834;
+			uParam0->f_62 = 1066973;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1065797;
+			uParam0->f_4 = 1066936;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1065695;
+			uParam0->f_28 = 1066834;
 			break;
 		
 		case 30:
-			uParam0->f_30 = 1065652;
+			uParam0->f_30 = 1066791;
 			break;
 		
 		case 31:
-			uParam0->f_30 = 1065618;
+			uParam0->f_30 = 1066757;
 			break;
 		
 		case 33:
-			uParam0->f_45 = 1065610;
+			uParam0->f_45 = 1066749;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1065298;
+			uParam0->f_27 = 1066437;
 			break;
 		
 		case 36:
-			uParam0->f_29 = 1065290;
+			uParam0->f_29 = 1066429;
 			break;
 		
 		case 37:
-			uParam0->f_28 = 1065282;
+			uParam0->f_28 = 1066421;
 			break;
 		
 		case 149:
-			uParam0->f_16 = 1065259;
+			uParam0->f_16 = 1066398;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1064832;
+			uParam0->f_8 = 1065972;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1064691;
+			uParam0->f_46 = 1065831;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1058558;
+			uParam0->f_47 = 1059697;
 			break;
 		
 		case 42:
-			*uParam0 = 1058391;
+			*uParam0 = 1059530;
 			break;
 		
 		case 82:
-			uParam0->f_16 = 1058368;
+			uParam0->f_16 = 1059507;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1056359;
+			uParam0->f_48 = 1057498;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1056306;
+			uParam0->f_67 = 1057445;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1045087;
+			uParam0->f_49 = 1046227;
 			break;
 		
 		case 55:
-			uParam0->f_50 = 1038960;
+			uParam0->f_50 = 1040100;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 1038951;
+			uParam0->f_18 = 1040091;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 1038942;
+			uParam0->f_18 = 1040082;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 1038934;
+			uParam0->f_66 = 1040074;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 1038911;
+			uParam0->f_16 = 1040051;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 1038862;
+			uParam0->f_52 = 1040002;
 			break;
 		
 		case 59:
 			uParam0->f_77 = 1;
-			uParam0->f_53 = 1038733;
+			uParam0->f_53 = 1039873;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 1038715;
+			uParam0->f_8 = 1039855;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 1038706;
+			uParam0->f_11 = 1039846;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 1038644;
+			uParam0->f_8 = 1039784;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 1038635;
+			uParam0->f_8 = 1039775;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 1038624;
+			uParam0->f_19 = 1039764;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 1038457;
+			uParam0->f_17 = 1039597;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 1038449;
+			uParam0->f_54 = 1039589;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 1038440;
+			uParam0->f_55 = 1039580;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 1038236;
+			uParam0->f_12 = 1039376;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 1038083;
+			uParam0->f_16 = 1039223;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1038075;
+			uParam0->f_56 = 1039215;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1036859;
+			uParam0->f_25 = 1037999;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1036639;
+			uParam0->f_25 = 1037779;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1036569;
+			uParam0->f_25 = 1037709;
 			break;
 		
 		case 74:
-			*uParam0 = 1035880;
+			*uParam0 = 1037020;
 			break;
 		
 		case 75:
-			*uParam0 = 1035871;
+			*uParam0 = 1037011;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1035859;
+			uParam0->f_57 = 1036999;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1035695;
+			uParam0->f_58 = 1036835;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1035683;
+			uParam0->f_59 = 1036823;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1035462;
+			uParam0->f_7 = 1036602;
 			break;
 		
 		case 105:
-			*uParam0 = 1035200;
+			*uParam0 = 1036340;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 1035191;
+			uParam0->f_1 = 1036331;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 1034487;
+			uParam0->f_1 = 1035627;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 1032227;
+			uParam0->f_1 = 1033367;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 1032218;
+			uParam0->f_1 = 1033358;
 			break;
 		
 		case 111:
-			uParam0->f_63 = 1032210;
+			uParam0->f_63 = 1033350;
 			break;
 		
 		case 118:
-			uParam0->f_1 = 1032201;
+			uParam0->f_1 = 1033341;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 1032188;
+			uParam0->f_1 = 1033332;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 1032179;
+			uParam0->f_1 = 1033323;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 1032171;
+			uParam0->f_26 = 1033315;
 			break;
 		
 		case 123:
-			uParam0->f_26 = 1032163;
+			uParam0->f_26 = 1033307;
 			break;
 		
 		case 136:
-			uParam0->f_20 = 878201;
+			uParam0->f_20 = 879309;
 			break;
 		
 		case 137:
-			uParam0->f_3 = 1032154;
+			uParam0->f_3 = 1033298;
 			break;
 		
 		case 138:
-			*uParam0 = 1032145;
+			*uParam0 = 1033289;
 			break;
 		
 		case 139:
-			uParam0->f_20 = 762288;
+			uParam0->f_20 = 763413;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1031264;
+			uParam0->f_68 = 1032408;
 			break;
 		
 		case 146:
-			uParam0->f_1 = 1031255;
+			uParam0->f_1 = 1032399;
 			break;
 		
 		case 147:
-			uParam0->f_23 = 1031247;
+			uParam0->f_23 = 1032391;
 			break;
 	}
 }
@@ -200548,468 +200596,468 @@ void func_3094(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1115729;
+			*uParam0 = 1116943;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1115715;
+			uParam0->f_41 = 1116929;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1115637;
+			uParam0->f_34 = 1116851;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1115210;
+			uParam0->f_36 = 1116424;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1114991;
+			uParam0->f_40 = 1116205;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1114978;
+			uParam0->f_15 = 1116192;
 			break;
 		
 		case 6:
-			uParam0->f_11 = 1114968;
+			uParam0->f_11 = 1116182;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 1114593;
+			uParam0->f_22 = 1115807;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 1114545;
+			uParam0->f_9 = 1115759;
 			break;
 		
 		case 52:
-			uParam0->f_10 = 1114514;
+			uParam0->f_10 = 1115728;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1114466;
+			uParam0->f_37 = 1115680;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1114456;
+			uParam0->f_11 = 1115670;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1113098;
+			uParam0->f_39 = 1114314;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1113089;
+			uParam0->f_11 = 1114305;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1111213;
+			uParam0->f_65 = 1112426;
 			break;
 		
 		case 14:
-			uParam0->f_43 = 1111124;
+			uParam0->f_43 = 1112337;
 			break;
 		
 		case 13:
-			uParam0->f_42 = 1111053;
+			uParam0->f_42 = 1112266;
 			break;
 		
 		case 85:
-			*uParam0 = 1111029;
+			*uParam0 = 1112242;
 			break;
 		
 		case 16:
-			uParam0->f_33 = 1111021;
+			uParam0->f_33 = 1112234;
 			break;
 		
 		case 17:
-			uParam0->f_31 = 1111013;
+			uParam0->f_31 = 1112226;
 			break;
 		
 		case 97:
-			uParam0->f_11 = 1110900;
+			uParam0->f_11 = 1112113;
 			break;
 		
 		case 98:
-			uParam0->f_11 = 1110717;
+			uParam0->f_11 = 1111930;
 			break;
 		
 		case 99:
-			uParam0->f_12 = 1110638;
+			uParam0->f_12 = 1111851;
 			break;
 		
 		case 100:
-			uParam0->f_12 = 1110394;
+			uParam0->f_12 = 1111607;
 			break;
 		
 		case 101:
-			uParam0->f_14 = 1110347;
+			uParam0->f_14 = 1111560;
 			break;
 		
 		case 102:
-			uParam0->f_14 = 1110300;
+			uParam0->f_14 = 1111513;
 			break;
 		
 		case 103:
-			uParam0->f_8 = 1110196;
+			uParam0->f_8 = 1111409;
 			break;
 		
 		case 104:
-			uParam0->f_8 = 1109927;
+			uParam0->f_8 = 1111140;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1109865;
+			uParam0->f_2 = 1111078;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1109784;
+			uParam0->f_2 = 1110997;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1108964;
+			uParam0->f_5 = 1110177;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1105930;
+			uParam0->f_64 = 1107143;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1105031;
+			uParam0->f_21 = 1106244;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1105004;
+			uParam0->f_21 = 1106217;
 			break;
 		
 		case 25:
-			uParam0->f_8 = 1104995;
+			uParam0->f_8 = 1106208;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1104813;
+			uParam0->f_3 = 1106026;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1104804;
+			uParam0->f_3 = 1106017;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1104700;
+			uParam0->f_62 = 1105913;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1104670;
+			uParam0->f_4 = 1105883;
 			break;
 		
 		case 53:
-			uParam0->f_8 = 1104447;
+			uParam0->f_8 = 1105660;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1104345;
+			uParam0->f_28 = 1105558;
 			break;
 		
 		case 30:
-			uParam0->f_30 = 1104298;
+			uParam0->f_30 = 1105511;
 			break;
 		
 		case 31:
-			uParam0->f_30 = 1104261;
+			uParam0->f_30 = 1105474;
 			break;
 		
 		case 33:
-			uParam0->f_45 = 1103656;
+			uParam0->f_45 = 1104869;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1103226;
+			uParam0->f_27 = 1104439;
 			break;
 		
 		case 36:
-			uParam0->f_29 = 1103073;
+			uParam0->f_29 = 1104286;
 			break;
 		
 		case 37:
-			uParam0->f_28 = 1103003;
+			uParam0->f_28 = 1104216;
 			break;
 		
 		case 38:
-			uParam0->f_32 = 1102995;
+			uParam0->f_32 = 1104208;
 			break;
 		
 		case 149:
-			uParam0->f_16 = 1102972;
+			uParam0->f_16 = 1104185;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1102856;
+			uParam0->f_8 = 1104069;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1102726;
+			uParam0->f_46 = 1103939;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1102414;
+			uParam0->f_47 = 1103627;
 			break;
 		
 		case 42:
-			*uParam0 = 1102242;
+			*uParam0 = 1103455;
 			break;
 		
 		case 82:
-			uParam0->f_16 = 1102231;
+			uParam0->f_16 = 1103444;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1099985;
+			uParam0->f_48 = 1101198;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1099940;
+			uParam0->f_67 = 1101153;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1094570;
+			uParam0->f_49 = 1095710;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 1094561;
+			uParam0->f_18 = 1095701;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 1094552;
+			uParam0->f_18 = 1095692;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 1094544;
+			uParam0->f_66 = 1095684;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 1094521;
+			uParam0->f_16 = 1095661;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 1094318;
+			uParam0->f_52 = 1095458;
 			break;
 		
 		case 59:
 			uParam0->f_77 = 1;
-			uParam0->f_53 = 1090860;
+			uParam0->f_53 = 1092000;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 1090842;
+			uParam0->f_8 = 1091982;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 1090833;
+			uParam0->f_11 = 1091973;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 1090483;
+			uParam0->f_8 = 1091623;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 1090382;
+			uParam0->f_8 = 1091522;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 1090359;
+			uParam0->f_19 = 1091499;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 1090312;
+			uParam0->f_17 = 1091452;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 1090113;
+			uParam0->f_54 = 1091253;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 1090104;
+			uParam0->f_55 = 1091244;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 1089905;
+			uParam0->f_12 = 1091045;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 1089882;
+			uParam0->f_16 = 1091022;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1089874;
+			uParam0->f_56 = 1091014;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1088950;
+			uParam0->f_25 = 1090090;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1088634;
+			uParam0->f_25 = 1089774;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1088559;
+			uParam0->f_25 = 1089699;
 			break;
 		
 		case 74:
-			*uParam0 = 1087870;
+			*uParam0 = 1089010;
 			break;
 		
 		case 75:
-			*uParam0 = 1087861;
+			*uParam0 = 1089001;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1087849;
+			uParam0->f_57 = 1088989;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1087747;
+			uParam0->f_58 = 1088887;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1087735;
+			uParam0->f_59 = 1088875;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1087555;
+			uParam0->f_7 = 1088695;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 1087546;
+			uParam0->f_1 = 1088686;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 1086793;
+			uParam0->f_1 = 1087933;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 1085817;
+			uParam0->f_1 = 1086957;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 1085808;
+			uParam0->f_1 = 1086948;
 			break;
 		
 		case 111:
-			uParam0->f_63 = 1085800;
+			uParam0->f_63 = 1086940;
 			break;
 		
 		case 112:
-			uParam0->f_1 = 1085791;
+			uParam0->f_1 = 1086931;
 			break;
 		
 		case 113:
-			uParam0->f_1 = 1085782;
+			uParam0->f_1 = 1086922;
 			break;
 		
 		case 114:
-			uParam0->f_1 = 1085773;
+			uParam0->f_1 = 1086913;
 			break;
 		
 		case 116:
-			uParam0->f_1 = 1085764;
+			uParam0->f_1 = 1086904;
 			break;
 		
 		case 117:
-			uParam0->f_26 = 1085756;
+			uParam0->f_26 = 1086896;
 			break;
 		
 		case 118:
-			uParam0->f_1 = 1085747;
+			uParam0->f_1 = 1086887;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 1085738;
+			uParam0->f_1 = 1086878;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 1085729;
+			uParam0->f_1 = 1086869;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 1085721;
+			uParam0->f_26 = 1086861;
 			break;
 		
 		case 123:
-			uParam0->f_26 = 1085713;
+			uParam0->f_26 = 1086853;
 			break;
 		
 		case 134:
-			uParam0->f_16 = 1085702;
+			uParam0->f_16 = 1086842;
 			break;
 		
 		case 135:
-			uParam0->f_3 = 1085693;
+			uParam0->f_3 = 1086833;
 			break;
 		
 		case 136:
-			uParam0->f_20 = 1085526;
+			uParam0->f_20 = 1086666;
 			break;
 		
 		case 137:
-			uParam0->f_3 = 1085517;
+			uParam0->f_3 = 1086657;
 			break;
 		
 		case 138:
-			*uParam0 = 1085508;
+			*uParam0 = 1086648;
 			break;
 		
 		case 139:
-			uParam0->f_20 = 1085499;
+			uParam0->f_20 = 1086639;
 			break;
 		
 		case 140:
-			uParam0->f_11 = 1085490;
+			uParam0->f_11 = 1086630;
 			break;
 		
 		case 141:
-			uParam0->f_31 = 1085482;
+			uParam0->f_31 = 1086622;
 			break;
 		
 		case 142:
-			uParam0->f_23 = 1085474;
+			uParam0->f_23 = 1086614;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1085302;
+			uParam0->f_68 = 1086442;
 			break;
 		
 		case 146:
-			uParam0->f_1 = 1085293;
+			uParam0->f_1 = 1086433;
 			break;
 		
 		case 147:
-			uParam0->f_23 = 1085285;
+			uParam0->f_23 = 1086425;
 			break;
 		
 		case 159:
-			uParam0->f_75 = 1081088;
+			uParam0->f_75 = 1082230;
 			break;
 		
 		case 161:
-			uParam0->f_69 = 1080356;
+			uParam0->f_69 = 1081498;
 			break;
 		
 		case 162:
-			uParam0->f_11 = 1080347;
+			uParam0->f_11 = 1081489;
 			break;
 		
 		case 163:
-			uParam0->f_11 = 1080338;
+			uParam0->f_11 = 1081480;
 			break;
 		
 		case 15:
-			uParam0->f_44 = 1080315;
+			uParam0->f_44 = 1081457;
 			break;
 		
 		case 166:
-			uParam0->f_13 = 1080216;
+			uParam0->f_13 = 1081358;
 			break;
 	}
 }
@@ -201114,7 +201162,7 @@ int func_3100(var uParam0, char* sParam1, int iParam2)
 			sParam1->f_54[0] = func_3104(1);
 			sParam1->f_67[0] = func_3096(1);
 			sParam1->f_53 = func_3316(161, 24);
-			Global_1988202.f_11 = func_3104(1);
+			Global_1988203.f_11 = func_3104(1);
 			break;
 		
 		default:
@@ -201233,16 +201281,16 @@ void func_3106(char* sParam0, int iParam1)
 
 int func_3107(var uParam0)
 {
-	if (Global_1988202.f_21 == 0)
+	if (Global_1988203.f_21 == 0)
 	{
 		func_3146();
 	}
-	return func_3108(1083966, 1081689);
+	return func_3108(1085106, 1082829);
 }
 
 int func_3108(int iParam0, int iParam1)
 {
-	if (Global_1988202.f_21 == 0)
+	if (Global_1988203.f_21 == 0)
 	{
 		if (!func_2029(60, 0, 0))
 		{
@@ -201262,16 +201310,16 @@ int func_3108(int iParam0, int iParam1)
 				return 5;
 			}
 		}
-		if (Global_1988202.f_11 > 0 && !MONEY::NETWORK_CAN_SPEND_MONEY(Global_1988202.f_11, false, true, false, -1, 0))
+		if (Global_1988203.f_11 > 0 && !MONEY::NETWORK_CAN_SPEND_MONEY(Global_1988203.f_11, false, true, false, -1, 0))
 		{
 			return 6;
 		}
 	}
 	if (func_439())
 	{
-		if (Global_1988202.f_21 == 0)
+		if (Global_1988203.f_21 == 0)
 		{
-			Global_1988202.f_22 = 0;
+			Global_1988203.f_22 = 0;
 			if (func_439())
 			{
 				func_2181(func_2185());
@@ -201281,7 +201329,7 @@ int func_3108(int iParam0, int iParam1)
 		{
 			return 0;
 		}
-		switch (Global_1988202.f_22)
+		switch (Global_1988203.f_22)
 		{
 			case 3:
 				return 2;
@@ -201313,17 +201361,17 @@ int func_3109(var uParam0)
 {
 	int iVar0;
 	
-	if (Global_1988202.f_20)
+	if (Global_1988203.f_20)
 	{
 		if (func_2180())
 		{
-			Global_1988202.f_21 = 3;
+			Global_1988203.f_21 = 3;
 		}
 		if (!NETSHOPPING::NET_GAMESERVER_IS_SESSION_VALID(func_13()) || NETSHOPPING::NET_GAMESERVER_IS_SESSION_REFRESH_PENDING())
 		{
-			Global_1988202.f_21 = 3;
+			Global_1988203.f_21 = 3;
 		}
-		switch (Global_1988202.f_21)
+		switch (Global_1988203.f_21)
 		{
 			case 0:
 				Call_Loc(uParam0);
@@ -201337,47 +201385,47 @@ int func_3109(var uParam0)
 					{
 						if (func_2168(iVar0) == 2)
 						{
-							Global_1988202.f_21 = 2;
+							Global_1988203.f_21 = 2;
 						}
 						else
 						{
-							Global_1988202.f_21 = 3;
+							Global_1988203.f_21 = 3;
 						}
 					}
 				}
 				else
 				{
-					Global_1988202.f_21 = 3;
+					Global_1988203.f_21 = 3;
 				}
 				break;
 			
 			case 2:
-				Global_1988202.f_20 = 0;
-				Global_1988202.f_21 = 0;
-				Global_1988202.f_22 = 2;
+				Global_1988203.f_20 = 0;
+				Global_1988203.f_21 = 0;
+				Global_1988203.f_22 = 2;
 				return 0;
 				break;
 			
 			case 3:
 				func_2181(func_2185());
-				Global_1988202.f_20 = 0;
-				Global_1988202.f_21 = 0;
-				Global_1988202.f_22 = 3;
+				Global_1988203.f_20 = 0;
+				Global_1988203.f_21 = 0;
+				Global_1988203.f_22 = 3;
 				return 0;
 				break;
 		}
 		return 1;
 	}
-	if (Global_1988202.f_21 == 3)
+	if (Global_1988203.f_21 == 3)
 	{
 		func_2181(func_2185());
-		Global_1988202.f_20 = 0;
-		Global_1988202.f_21 = 0;
-		Global_1988202.f_22 = 3;
+		Global_1988203.f_20 = 0;
+		Global_1988203.f_21 = 0;
+		Global_1988203.f_22 = 3;
 		return 0;
 	}
-	Global_1988202.f_21 = 0;
-	Global_1988202.f_22 = 0;
+	Global_1988203.f_21 = 0;
+	Global_1988203.f_22 = 0;
 	return 0;
 }
 
@@ -201396,12 +201444,12 @@ void func_3110()
 	Var0.f_6 = -1;
 	Var0.f_7 = -1;
 	Var0.f_0 = 1998193854;
-	Var0.f_1 = Global_1988202.f_11;
+	Var0.f_1 = Global_1988203.f_11;
 	Var0.f_6 = -1;
 	Var0.f_7 = -1;
-	Var0.f_2 = func_3289(161, 0, 0, Global_1988202[1]);
+	Var0.f_2 = func_3289(161, 0, 0, Global_1988203[1]);
 	Var0.f_3 = 0;
-	Var0.f_4 = func_3288(161, 0, 0, Global_1988202[2]);
+	Var0.f_4 = func_3288(161, 0, 0, Global_1988203[2]);
 	Var0.f_5 = 0;
 	if (func_439())
 	{
@@ -201410,12 +201458,12 @@ void func_3110()
 	iVar8 = 0;
 	while (iVar8 < 5)
 	{
-		func_157(func_3135(iVar8), Global_1988202[1], -1, 1);
-		func_157(func_3134(iVar8), Global_1988202[2], -1, 1);
+		func_157(func_3135(iVar8), Global_1988203[1], -1, 1);
+		func_157(func_3134(iVar8), Global_1988203[2], -1, 1);
 		iVar8++;
 	}
-	func_3128(func_3133(Global_1988202[0]));
-	MONEY::_NETWORK_SPEND_BUY_MFGARAGE(Global_1988202.f_11, 0, 1, &Var0);
+	func_3128(func_3133(Global_1988203[0]));
+	MONEY::_NETWORK_SPEND_BUY_MFGARAGE(Global_1988203.f_11, 0, 1, &Var0);
 	if (func_1082(0, -1) <= 0)
 	{
 		if (func_3127())
@@ -201919,38 +201967,38 @@ void func_3136()
 	char[] cVar18[8];
 	bool bVar34;
 	
-	if (func_2176(78225582, -1616616027, Global_1988202.f_18, 235173372, 1, Global_1988202.f_11, 0, 4, Global_1988202.f_19, 3))
+	if (func_2176(78225582, -1616616027, Global_1988203.f_18, 235173372, 1, Global_1988203.f_11, 0, 4, Global_1988203.f_19, 3))
 	{
-		iVar0 = func_3145(Global_1988202.f_18);
+		iVar0 = func_3145(Global_1988203.f_18);
 		iVar1 = func_3144(PLAYER::PLAYER_ID());
-		if (!func_3143(Global_1988202.f_18))
+		if (!func_3143(Global_1988203.f_18))
 		{
-			Global_1988202.f_21 = 3;
+			Global_1988203.f_21 = 3;
 		}
 		bVar34 = true;
-		func_3137(0, iVar0, iVar1, -1616616027, Global_1988202[1], &sVar2, &cVar18, &bVar34, 1);
-		func_3137(1, iVar0, iVar1, -1616616027, Global_1988202[1], &sVar2, &cVar18, &bVar34, 1);
-		func_3137(2, iVar0, iVar1, -1616616027, Global_1988202[1], &sVar2, &cVar18, &bVar34, 1);
-		func_3137(3, iVar0, iVar1, -1616616027, Global_1988202[1], &sVar2, &cVar18, &bVar34, 1);
-		func_3137(4, iVar0, iVar1, -1616616027, Global_1988202[1], &sVar2, &cVar18, &bVar34, 1);
-		func_3137(5, iVar0, iVar1, -1616616027, Global_1988202[2], &sVar2, &cVar18, &bVar34, 1);
-		func_3137(6, iVar0, iVar1, -1616616027, Global_1988202[2], &sVar2, &cVar18, &bVar34, 1);
-		func_3137(7, iVar0, iVar1, -1616616027, Global_1988202[2], &sVar2, &cVar18, &bVar34, 1);
-		func_3137(8, iVar0, iVar1, -1616616027, Global_1988202[2], &sVar2, &cVar18, &bVar34, 1);
-		func_3137(9, iVar0, iVar1, -1616616027, Global_1988202[2], &sVar2, &cVar18, &bVar34, 1);
+		func_3137(0, iVar0, iVar1, -1616616027, Global_1988203[1], &sVar2, &cVar18, &bVar34, 1);
+		func_3137(1, iVar0, iVar1, -1616616027, Global_1988203[1], &sVar2, &cVar18, &bVar34, 1);
+		func_3137(2, iVar0, iVar1, -1616616027, Global_1988203[1], &sVar2, &cVar18, &bVar34, 1);
+		func_3137(3, iVar0, iVar1, -1616616027, Global_1988203[1], &sVar2, &cVar18, &bVar34, 1);
+		func_3137(4, iVar0, iVar1, -1616616027, Global_1988203[1], &sVar2, &cVar18, &bVar34, 1);
+		func_3137(5, iVar0, iVar1, -1616616027, Global_1988203[2], &sVar2, &cVar18, &bVar34, 1);
+		func_3137(6, iVar0, iVar1, -1616616027, Global_1988203[2], &sVar2, &cVar18, &bVar34, 1);
+		func_3137(7, iVar0, iVar1, -1616616027, Global_1988203[2], &sVar2, &cVar18, &bVar34, 1);
+		func_3137(8, iVar0, iVar1, -1616616027, Global_1988203[2], &sVar2, &cVar18, &bVar34, 1);
+		func_3137(9, iVar0, iVar1, -1616616027, Global_1988203[2], &sVar2, &cVar18, &bVar34, 1);
 		if (!bVar34)
 		{
-			Global_1988202.f_21 = 3;
+			Global_1988203.f_21 = 3;
 		}
-		if (Global_1988202.f_21 != 3)
+		if (Global_1988203.f_21 != 3)
 		{
 			if (func_2171())
 			{
-				Global_1988202.f_21 = 1;
+				Global_1988203.f_21 = 1;
 			}
 			else
 			{
-				Global_1988202.f_21 = 3;
+				Global_1988203.f_21 = 3;
 			}
 		}
 	}
@@ -202142,9 +202190,9 @@ int func_3145(int iParam0)
 
 void func_3146()
 {
-	StringCopy(&(Global_1988202.f_13), func_3105(func_3133(Global_1988202[0])), 16);
-	Global_1988202.f_18 = func_3149(func_3133(Global_1988202[0]));
-	Global_1988202.f_19 = func_3147();
+	StringCopy(&(Global_1988203.f_13), func_3105(func_3133(Global_1988203[0])), 16);
+	Global_1988203.f_18 = func_3149(func_3133(Global_1988203[0]));
+	Global_1988203.f_19 = func_3147();
 }
 
 int func_3147()
@@ -207811,348 +207859,348 @@ void func_3331(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1148800;
+			*uParam0 = 1150015;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1148777;
+			uParam0->f_41 = 1149992;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1148713;
+			uParam0->f_34 = 1149928;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1148260;
+			uParam0->f_36 = 1149475;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1148102;
+			uParam0->f_40 = 1149317;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1148089;
+			uParam0->f_15 = 1149304;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1148041;
+			uParam0->f_37 = 1149256;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 1147903;
+			uParam0->f_22 = 1149118;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 1147855;
+			uParam0->f_9 = 1149070;
 			break;
 		
 		case 49:
-			uParam0->f_11 = 1147846;
+			uParam0->f_11 = 1149061;
 			break;
 		
 		case 52:
-			uParam0->f_10 = 1147837;
+			uParam0->f_10 = 1149052;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1147827;
+			uParam0->f_11 = 1149042;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1146822;
+			uParam0->f_39 = 1148039;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1146813;
+			uParam0->f_11 = 1148030;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1145440;
+			uParam0->f_65 = 1146656;
 			break;
 		
 		case 14:
-			uParam0->f_43 = 1145386;
+			uParam0->f_43 = 1146602;
 			break;
 		
 		case 13:
-			uParam0->f_42 = 1145353;
+			uParam0->f_42 = 1146569;
 			break;
 		
 		case 85:
-			*uParam0 = 1145344;
+			*uParam0 = 1146560;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1145282;
+			uParam0->f_2 = 1146498;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1145148;
+			uParam0->f_2 = 1146364;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1144352;
+			uParam0->f_5 = 1145568;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1140802;
+			uParam0->f_64 = 1142018;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1139633;
+			uParam0->f_21 = 1140849;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1139606;
+			uParam0->f_21 = 1140822;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1139424;
+			uParam0->f_3 = 1140640;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1139347;
+			uParam0->f_3 = 1140563;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1139243;
+			uParam0->f_62 = 1140459;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1139161;
+			uParam0->f_4 = 1140377;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1139058;
+			uParam0->f_28 = 1140274;
 			break;
 		
 		case 30:
-			uParam0->f_30 = 1139011;
+			uParam0->f_30 = 1140227;
 			break;
 		
 		case 31:
-			uParam0->f_30 = 1138974;
+			uParam0->f_30 = 1140190;
 			break;
 		
 		case 33:
-			uParam0->f_45 = 1138966;
+			uParam0->f_45 = 1140182;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1138418;
+			uParam0->f_27 = 1139634;
 			break;
 		
 		case 36:
-			uParam0->f_29 = 1138345;
+			uParam0->f_29 = 1139561;
 			break;
 		
 		case 37:
-			uParam0->f_28 = 1138314;
+			uParam0->f_28 = 1139530;
 			break;
 		
 		case 149:
-			uParam0->f_16 = 1138291;
+			uParam0->f_16 = 1139507;
 			break;
 		
 		case 150:
-			*uParam0 = 1138270;
+			*uParam0 = 1139486;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1137978;
+			uParam0->f_8 = 1139194;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1137739;
+			uParam0->f_46 = 1138955;
 			break;
 		
 		case 53:
-			uParam0->f_8 = 1137730;
+			uParam0->f_8 = 1138946;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1136840;
+			uParam0->f_47 = 1138056;
 			break;
 		
 		case 93:
-			uParam0->f_23 = 1136778;
+			uParam0->f_23 = 1137994;
 			break;
 		
 		case 82:
-			uParam0->f_16 = 1136755;
+			uParam0->f_16 = 1137971;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1130575;
+			uParam0->f_48 = 1131791;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1130527;
+			uParam0->f_67 = 1131743;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1122141;
+			uParam0->f_49 = 1123355;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 1122132;
+			uParam0->f_18 = 1123346;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 1122123;
+			uParam0->f_18 = 1123337;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 1122115;
+			uParam0->f_66 = 1123329;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 1122092;
+			uParam0->f_16 = 1123306;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 1122040;
+			uParam0->f_52 = 1123254;
 			break;
 		
 		case 59:
 			uParam0->f_77 = 1;
-			uParam0->f_53 = 1121642;
+			uParam0->f_53 = 1122856;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 1121624;
+			uParam0->f_8 = 1122838;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 1121615;
+			uParam0->f_11 = 1122829;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 1121437;
+			uParam0->f_8 = 1122651;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 1121428;
+			uParam0->f_8 = 1122642;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 1121398;
+			uParam0->f_19 = 1122612;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 1121375;
+			uParam0->f_17 = 1122589;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 1121367;
+			uParam0->f_54 = 1122581;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 1121357;
+			uParam0->f_55 = 1122571;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 1121348;
+			uParam0->f_12 = 1122562;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 1121306;
+			uParam0->f_16 = 1122520;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1121298;
+			uParam0->f_56 = 1122512;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1120192;
+			uParam0->f_25 = 1121406;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1119932;
+			uParam0->f_25 = 1121146;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1119862;
+			uParam0->f_25 = 1121076;
 			break;
 		
 		case 74:
-			*uParam0 = 1119227;
+			*uParam0 = 1120441;
 			break;
 		
 		case 75:
-			*uParam0 = 1119218;
+			*uParam0 = 1120432;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1119206;
+			uParam0->f_57 = 1120420;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1119197;
+			uParam0->f_58 = 1120411;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1119185;
+			uParam0->f_59 = 1120399;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1118938;
+			uParam0->f_7 = 1120152;
 			break;
 		
 		case 105:
-			*uParam0 = 1118929;
+			*uParam0 = 1120143;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 1118920;
+			uParam0->f_1 = 1120134;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 1118548;
+			uParam0->f_1 = 1119762;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 1117657;
+			uParam0->f_1 = 1118871;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 1117648;
+			uParam0->f_1 = 1118862;
 			break;
 		
 		case 111:
-			uParam0->f_63 = 1117640;
+			uParam0->f_63 = 1118854;
 			break;
 		
 		case 118:
-			uParam0->f_1 = 1117631;
+			uParam0->f_1 = 1118845;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 1117622;
+			uParam0->f_1 = 1118836;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 1117613;
+			uParam0->f_1 = 1118827;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 1117605;
+			uParam0->f_26 = 1118819;
 			break;
 		
 		case 123:
-			uParam0->f_26 = 1117597;
+			uParam0->f_26 = 1118811;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1117231;
+			uParam0->f_68 = 1118445;
 			break;
 		
 		case 146:
-			uParam0->f_1 = 1117222;
+			uParam0->f_1 = 1118436;
 			break;
 		
 		case 147:
-			uParam0->f_23 = 1117214;
+			uParam0->f_23 = 1118428;
 			break;
 	}
 }
@@ -213410,252 +213458,252 @@ void func_3472(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1167217;
+			*uParam0 = 1168428;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1167149;
+			uParam0->f_34 = 1168360;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1166977;
+			uParam0->f_36 = 1168188;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1166916;
+			uParam0->f_40 = 1168127;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1166882;
+			uParam0->f_15 = 1168093;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1166818;
+			uParam0->f_37 = 1168029;
 			break;
 		
 		case 6:
-			uParam0->f_11 = 1166807;
+			uParam0->f_11 = 1168018;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1166784;
+			uParam0->f_41 = 1167995;
 			break;
 		
 		case 85:
-			*uParam0 = 1166775;
+			*uParam0 = 1167986;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 1166621;
+			uParam0->f_22 = 1167832;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 1166495;
+			uParam0->f_9 = 1167706;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1166486;
+			uParam0->f_11 = 1167697;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1166126;
+			uParam0->f_39 = 1167337;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1161010;
+			uParam0->f_2 = 1162225;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1160792;
+			uParam0->f_2 = 1162007;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1160784;
+			uParam0->f_65 = 1161999;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1160775;
+			uParam0->f_4 = 1161990;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1160218;
+			uParam0->f_5 = 1161433;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1160209;
+			uParam0->f_64 = 1161424;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1160178;
+			uParam0->f_21 = 1161393;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1160151;
+			uParam0->f_21 = 1161366;
 			break;
 		
 		case 25:
-			uParam0->f_8 = 1160039;
+			uParam0->f_8 = 1161254;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1159954;
+			uParam0->f_3 = 1161169;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1159760;
+			uParam0->f_3 = 1160975;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1159251;
+			uParam0->f_62 = 1160466;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1159168;
+			uParam0->f_28 = 1160383;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1157837;
+			uParam0->f_27 = 1159052;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1157523;
+			uParam0->f_8 = 1158738;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1157511;
+			uParam0->f_46 = 1158726;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1156623;
+			uParam0->f_47 = 1157838;
 			break;
 		
 		case 50:
-			uParam0->f_6 = 1156414;
+			uParam0->f_6 = 1157629;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1156405;
+			uParam0->f_11 = 1157620;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1155533;
+			uParam0->f_48 = 1156748;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1155480;
+			uParam0->f_67 = 1156695;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1154043;
+			uParam0->f_49 = 1155258;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 1154034;
+			uParam0->f_18 = 1155249;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 1154025;
+			uParam0->f_18 = 1155240;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 1154017;
+			uParam0->f_66 = 1155232;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 1154006;
+			uParam0->f_16 = 1155221;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 1153944;
+			uParam0->f_52 = 1155159;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 1153918;
+			uParam0->f_8 = 1155133;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 1153909;
+			uParam0->f_11 = 1155124;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 1153900;
+			uParam0->f_8 = 1155115;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 1153891;
+			uParam0->f_8 = 1155106;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 1153880;
+			uParam0->f_19 = 1155095;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 1153815;
+			uParam0->f_17 = 1155030;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 1153807;
+			uParam0->f_54 = 1155022;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 1153798;
+			uParam0->f_55 = 1155013;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 1153788;
+			uParam0->f_12 = 1155003;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 1153543;
+			uParam0->f_16 = 1154758;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1152129;
+			uParam0->f_56 = 1153344;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1152097;
+			uParam0->f_25 = 1153312;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1152089;
+			uParam0->f_25 = 1153304;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1152011;
+			uParam0->f_25 = 1153226;
 			break;
 		
 		case 74:
-			*uParam0 = 1151091;
+			*uParam0 = 1152306;
 			break;
 		
 		case 75:
-			*uParam0 = 1151082;
+			*uParam0 = 1152297;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1151070;
+			uParam0->f_57 = 1152285;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1151061;
+			uParam0->f_58 = 1152276;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1151049;
+			uParam0->f_59 = 1152264;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1151040;
+			uParam0->f_7 = 1152255;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1150923;
+			uParam0->f_68 = 1152138;
 			break;
 		
 		case 59:
 			uParam0->f_77 = func_1065(Global_1835430);
-			uParam0->f_53 = 1149886;
+			uParam0->f_53 = 1151101;
 			break;
 	}
 }
@@ -216632,416 +216680,416 @@ void func_3606(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1234342;
+			*uParam0 = 1235423;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1234328;
+			uParam0->f_41 = 1235409;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1234230;
+			uParam0->f_34 = 1235311;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1232983;
+			uParam0->f_36 = 1234064;
 			break;
 		
 		case 10:
-			uParam0->f_76 = 1232870;
+			uParam0->f_76 = 1233951;
 			break;
 		
 		case 12:
-			uParam0->f_8 = 1232835;
+			uParam0->f_8 = 1233916;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1232606;
+			uParam0->f_40 = 1233687;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1232593;
+			uParam0->f_15 = 1233674;
 			break;
 		
 		case 6:
-			uParam0->f_11 = 1232583;
+			uParam0->f_11 = 1233664;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 1232367;
+			uParam0->f_22 = 1233448;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 1232319;
+			uParam0->f_9 = 1233400;
 			break;
 		
 		case 52:
-			uParam0->f_10 = 1232290;
+			uParam0->f_10 = 1233371;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1231981;
+			uParam0->f_37 = 1233062;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1231972;
+			uParam0->f_11 = 1233053;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1229329;
+			uParam0->f_39 = 1230410;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1229320;
+			uParam0->f_11 = 1230401;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1222616;
+			uParam0->f_65 = 1223696;
 			break;
 		
 		case 14:
-			uParam0->f_43 = 1221741;
+			uParam0->f_43 = 1222821;
 			break;
 		
 		case 13:
-			uParam0->f_42 = 1221624;
+			uParam0->f_42 = 1222704;
 			break;
 		
 		case 85:
-			*uParam0 = 1221600;
+			*uParam0 = 1222680;
 			break;
 		
 		case 16:
-			uParam0->f_33 = 1221447;
+			uParam0->f_33 = 1222527;
 			break;
 		
 		case 17:
-			uParam0->f_31 = 1221298;
+			uParam0->f_31 = 1222378;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1221236;
+			uParam0->f_2 = 1222316;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1221155;
+			uParam0->f_2 = 1222235;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1219997;
+			uParam0->f_5 = 1221077;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1216721;
+			uParam0->f_64 = 1217801;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1215746;
+			uParam0->f_21 = 1216826;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1215719;
+			uParam0->f_21 = 1216799;
 			break;
 		
 		case 25:
-			uParam0->f_8 = 1215694;
+			uParam0->f_8 = 1216774;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1215474;
+			uParam0->f_3 = 1216554;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1215226;
+			uParam0->f_3 = 1216306;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1215122;
+			uParam0->f_62 = 1216202;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1215092;
+			uParam0->f_4 = 1216172;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1214989;
+			uParam0->f_28 = 1216069;
 			break;
 		
 		case 30:
-			uParam0->f_30 = 1214942;
+			uParam0->f_30 = 1216022;
 			break;
 		
 		case 31:
-			uParam0->f_30 = 1214905;
+			uParam0->f_30 = 1215985;
 			break;
 		
 		case 33:
-			uParam0->f_45 = 1214897;
+			uParam0->f_45 = 1215977;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1214050;
+			uParam0->f_27 = 1215130;
 			break;
 		
 		case 36:
-			uParam0->f_29 = 1214042;
+			uParam0->f_29 = 1215122;
 			break;
 		
 		case 37:
-			uParam0->f_28 = 1214034;
+			uParam0->f_28 = 1215114;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1213904;
+			uParam0->f_8 = 1214984;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1213713;
+			uParam0->f_46 = 1214793;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1212847;
+			uParam0->f_47 = 1213927;
 			break;
 		
 		case 42:
-			*uParam0 = 1212792;
+			*uParam0 = 1213872;
 			break;
 		
 		case 82:
-			uParam0->f_16 = 1212781;
+			uParam0->f_16 = 1213861;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1209027;
+			uParam0->f_48 = 1210108;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1208982;
+			uParam0->f_67 = 1210063;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1187848;
+			uParam0->f_49 = 1189058;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 1187839;
+			uParam0->f_18 = 1189049;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 1187830;
+			uParam0->f_18 = 1189040;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 1187822;
+			uParam0->f_66 = 1189032;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 1187799;
+			uParam0->f_16 = 1189009;
 			break;
 		
 		case 90:
-			uParam0->f_23 = 1187786;
+			uParam0->f_23 = 1188996;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 1187643;
+			uParam0->f_52 = 1188853;
 			break;
 		
 		case 59:
 			uParam0->f_77 = 1;
-			uParam0->f_53 = 1186966;
+			uParam0->f_53 = 1188176;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 1186948;
+			uParam0->f_8 = 1188158;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 1186939;
+			uParam0->f_11 = 1188149;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 1186615;
+			uParam0->f_8 = 1187825;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 1186503;
+			uParam0->f_8 = 1187713;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 1186480;
+			uParam0->f_19 = 1187690;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 1186230;
+			uParam0->f_17 = 1187440;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 1185840;
+			uParam0->f_54 = 1187050;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 1185820;
+			uParam0->f_55 = 1187030;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 1185468;
+			uParam0->f_12 = 1186678;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 1185342;
+			uParam0->f_16 = 1186552;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1185334;
+			uParam0->f_56 = 1186544;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1184344;
+			uParam0->f_25 = 1185554;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1183648;
+			uParam0->f_25 = 1184858;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1183573;
+			uParam0->f_25 = 1184783;
 			break;
 		
 		case 74:
-			*uParam0 = 1182482;
+			*uParam0 = 1183692;
 			break;
 		
 		case 75:
-			*uParam0 = 1182473;
+			*uParam0 = 1183683;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1182461;
+			uParam0->f_57 = 1183671;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1182452;
+			uParam0->f_58 = 1183662;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1182440;
+			uParam0->f_59 = 1183650;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1181991;
+			uParam0->f_7 = 1183201;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 1181982;
+			uParam0->f_1 = 1183192;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 1180765;
+			uParam0->f_1 = 1181975;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 1179466;
+			uParam0->f_1 = 1180679;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 1179457;
+			uParam0->f_1 = 1180670;
 			break;
 		
 		case 111:
-			uParam0->f_63 = 1179449;
+			uParam0->f_63 = 1180662;
 			break;
 		
 		case 112:
-			uParam0->f_1 = 1178647;
+			uParam0->f_1 = 1179860;
 			break;
 		
 		case 113:
-			uParam0->f_1 = 1178613;
+			uParam0->f_1 = 1179826;
 			break;
 		
 		case 114:
-			uParam0->f_1 = 1176950;
+			uParam0->f_1 = 1178161;
 			break;
 		
 		case 116:
-			uParam0->f_1 = 1174980;
+			uParam0->f_1 = 1176191;
 			break;
 		
 		case 117:
-			uParam0->f_26 = 1174893;
+			uParam0->f_26 = 1176104;
 			break;
 		
 		case 118:
-			uParam0->f_1 = 1174884;
+			uParam0->f_1 = 1176095;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 1174875;
+			uParam0->f_1 = 1176086;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 1174866;
+			uParam0->f_1 = 1176077;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 1174858;
+			uParam0->f_26 = 1176069;
 			break;
 		
 		case 123:
-			uParam0->f_26 = 1174850;
+			uParam0->f_26 = 1176061;
 			break;
 		
 		case 134:
-			uParam0->f_16 = 1174736;
+			uParam0->f_16 = 1175947;
 			break;
 		
 		case 135:
-			uParam0->f_3 = 1174678;
+			uParam0->f_3 = 1175889;
 			break;
 		
 		case 136:
-			uParam0->f_20 = 1174010;
+			uParam0->f_20 = 1175221;
 			break;
 		
 		case 137:
-			uParam0->f_3 = 1174001;
+			uParam0->f_3 = 1175212;
 			break;
 		
 		case 138:
-			*uParam0 = 1173992;
+			*uParam0 = 1175203;
 			break;
 		
 		case 139:
-			uParam0->f_20 = 1169576;
+			uParam0->f_20 = 1170787;
 			break;
 		
 		case 140:
-			uParam0->f_11 = 1169567;
+			uParam0->f_11 = 1170778;
 			break;
 		
 		case 141:
-			uParam0->f_31 = 1169464;
+			uParam0->f_31 = 1170675;
 			break;
 		
 		case 142:
-			uParam0->f_23 = 1169409;
+			uParam0->f_23 = 1170620;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1169109;
+			uParam0->f_68 = 1170320;
 			break;
 		
 		case 146:
-			uParam0->f_1 = 1169100;
+			uParam0->f_1 = 1170311;
 			break;
 		
 		case 147:
-			uParam0->f_23 = 1169092;
+			uParam0->f_23 = 1170303;
 			break;
 		
 		case 155:
-			*uParam0 = 1168990;
+			*uParam0 = 1170201;
 			break;
 	}
 }
@@ -218040,7 +218088,7 @@ void func_3635(var uParam0, var uParam1)
 	}
 	OBJECT::DELETE_OBJECT(&(uParam1->f_189[0]));
 	OBJECT::DELETE_OBJECT(&(uParam1->f_189[1]));
-	Global_1982584 = 0;
+	Global_1982585 = 0;
 }
 
 int func_3636(int iParam0, int* iParam1)
@@ -218056,8 +218104,8 @@ int func_3636(int iParam0, int* iParam1)
 	}
 	else if ((iVar0 - iParam1->f_233) < 2000)
 	{
-		func_3641(iParam0, Global_1982586, func_7337(), 0, iParam1);
-		func_3641(iParam0, Global_1982586, func_7337(), 1, iParam1);
+		func_3641(iParam0, Global_1982587, func_7337(), 0, iParam1);
+		func_3641(iParam0, Global_1982587, func_7337(), 1, iParam1);
 		return 0;
 	}
 	else if ((iVar0 - iParam1->f_233) < 3000)
@@ -218066,12 +218114,12 @@ int func_3636(int iParam0, int* iParam1)
 		{
 			if (func_1295(iParam1->f_153[0]))
 			{
-				TASK::TASK_GO_STRAIGHT_TO_COORD(iParam1->f_153[0], func_3637(iParam0, Global_1982586, iVar1, 0f, 3f, 0f), 1f, -1, 40000f, 0.5f);
+				TASK::TASK_GO_STRAIGHT_TO_COORD(iParam1->f_153[0], func_3637(iParam0, Global_1982587, iVar1, 0f, 3f, 0f), 1f, -1, 40000f, 0.5f);
 			}
 			MISC::SET_BIT(iParam1, false);
 		}
-		func_3641(iParam0, Global_1982586, func_7337(), 0, iParam1);
-		func_3641(iParam0, Global_1982586, func_7337(), 1, iParam1);
+		func_3641(iParam0, Global_1982587, func_7337(), 0, iParam1);
+		func_3641(iParam0, Global_1982587, func_7337(), 1, iParam1);
 		return 0;
 	}
 	else if ((iVar0 - iParam1->f_233) < 4200)
@@ -218390,29 +218438,29 @@ int func_3648(int iParam0, int* iParam1)
 	iVar0 = func_7337();
 	if (iVar0 == 0)
 	{
-		if (Global_1982585 == 0)
+		if (Global_1982586 == 0)
 		{
-			Global_1982586 = 0;
+			Global_1982587 = 0;
 		}
 		else
 		{
-			Global_1982586 = 1;
+			Global_1982587 = 1;
 		}
 	}
 	else if (iVar0 == 1)
 	{
-		if (Global_1982585 == 0)
+		if (Global_1982586 == 0)
 		{
-			Global_1982586 = 4;
+			Global_1982587 = 4;
 		}
 		else
 		{
-			Global_1982586 = 5;
+			Global_1982587 = 5;
 		}
 	}
-	Var1 = { func_3643(iParam0, Global_1982586, 0, iVar0, 0f, 0f, 0f) };
+	Var1 = { func_3643(iParam0, Global_1982587, 0, iVar0, 0f, 0f, 0f) };
 	iParam1->f_189[0] = OBJECT::CREATE_OBJECT(joaat("v_ilev_garageliftdoor"), Var1 + Vector(0.001f, 0f, 0f), false, false, true);
-	Var4 = { func_3643(iParam0, Global_1982586, 1, iVar0, 0f, 0f, 0f) };
+	Var4 = { func_3643(iParam0, Global_1982587, 1, iVar0, 0f, 0f, 0f) };
 	iParam1->f_189[1] = OBJECT::CREATE_OBJECT(joaat("v_ilev_garageliftdoor"), Var4 + Vector(0.001f, 0f, 0f), false, false, true);
 	if (ENTITY::DOES_ENTITY_EXIST(iParam1->f_189[0]) && ENTITY::DOES_ENTITY_EXIST(iParam1->f_189[1]))
 	{
@@ -218434,7 +218482,7 @@ int func_3648(int iParam0, int* iParam1)
 		PED::CLONE_PED_TO_TARGET(PLAYER::GET_PLAYER_PED(PLAYER::PLAYER_ID()), iParam1->f_153[0]);
 		WEAPON::SET_CURRENT_PED_WEAPON(iParam1->f_153[0], joaat("weapon_unarmed"), true);
 		PED::SET_FORCE_FOOTSTEP_UPDATE(iParam1->f_153[0], true);
-		ENTITY::SET_ENTITY_COORDS(iParam1->f_153[0], func_3637(iParam0, Global_1982586, iVar0, 0f, -1f, 0f), true, false, false, true);
+		ENTITY::SET_ENTITY_COORDS(iParam1->f_153[0], func_3637(iParam0, Global_1982587, iVar0, 0f, -1f, 0f), true, false, false, true);
 		if (func_7337() == 0)
 		{
 			ENTITY::SET_ENTITY_HEADING(iParam1->f_153[0], func_3639(iParam0, 0));
@@ -218449,12 +218497,12 @@ int func_3648(int iParam0, int* iParam1)
 		CAM::RENDER_SCRIPT_CAMS(true, false, 3000, true, false, 0);
 		if (CAM::DOES_CAM_EXIST(iParam1->f_11))
 		{
-			Var7 = { func_3655(iParam0, Global_1982586, iVar0) };
-			Var10 = { func_3653(iParam0, Global_1982586, iVar0) };
+			Var7 = { func_3655(iParam0, Global_1982587, iVar0) };
+			Var10 = { func_3653(iParam0, Global_1982587, iVar0) };
 			CAM::SET_CAM_PARAMS(iParam1->f_11, Var7, Var10, 50f, 0, 1, 1, 2);
 			CAM::SHAKE_CAM(iParam1->f_11, "HAND_SHAKE", 0.25f);
-			Var7 = { func_3651(iParam0, Global_1982586, iVar0) };
-			Var10 = { func_3649(iParam0, Global_1982586, iVar0) };
+			Var7 = { func_3651(iParam0, Global_1982587, iVar0) };
+			Var10 = { func_3649(iParam0, Global_1982587, iVar0) };
 			CAM::SET_CAM_PARAMS(iParam1->f_11, Var7, Var10, 50f, 3600, 1, 1, 2);
 		}
 		CAM::DO_SCREEN_FADE_IN(500);
@@ -218462,7 +218510,7 @@ int func_3648(int iParam0, int* iParam1)
 		MISC::CLEAR_BIT(iParam1, false);
 		MISC::CLEAR_BIT(iParam1, true);
 		MISC::CLEAR_BIT(iParam1, 2);
-		Global_1982584 = 1;
+		Global_1982585 = 1;
 		return 1;
 	}
 	return 0;
@@ -218653,7 +218701,7 @@ int func_3661(int iParam0)
 	}
 	if (iParam0 == PLAYER::PLAYER_ID())
 	{
-		if (((((BitTest(Global_1982590, 24) && func_3664(iParam0, 4)) && func_3664(iParam0, 7)) && func_3664(iParam0, 10)) && !func_3664(iParam0, 11)) && !func_3663())
+		if (((((BitTest(Global_1982591, 24) && func_3664(iParam0, 4)) && func_3664(iParam0, 7)) && func_3664(iParam0, 10)) && !func_3664(iParam0, 11)) && !func_3663())
 		{
 			return 1;
 		}
@@ -218683,7 +218731,7 @@ int func_3664(int iParam0, int iParam1)
 {
 	if (iParam0 != -1)
 	{
-		return BitTest(Global_1983166[iParam0 /*149*/].f_27.f_3, iParam1);
+		return BitTest(Global_1983167[iParam0 /*149*/].f_27.f_3, iParam1);
 	}
 	return 0;
 }
@@ -218717,7 +218765,7 @@ int func_3666(int iParam0)
 	}
 	if (iParam0 == PLAYER::PLAYER_ID())
 	{
-		if ((func_3669(iParam0) && BitTest(Global_1982590.f_1, 8)) && !func_3668())
+		if ((func_3669(iParam0) && BitTest(Global_1982591.f_1, 8)) && !func_3668())
 		{
 			return 1;
 		}
@@ -218747,7 +218795,7 @@ int func_3669(int iParam0)
 {
 	if (iParam0 != -1)
 	{
-		return BitTest(Global_1983166[iParam0 /*149*/].f_27, 0);
+		return BitTest(Global_1983167[iParam0 /*149*/].f_27, 0);
 	}
 	return 0;
 }
@@ -224087,7 +224135,7 @@ int func_3729(int iParam0, var uParam1, var uParam2, var uParam3)
 
 int func_3730()
 {
-	switch (Global_1982586)
+	switch (Global_1982587)
 	{
 		case 0:
 		case 2:
@@ -227466,380 +227514,380 @@ void func_3815(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1284167;
+			*uParam0 = 1285118;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1284158;
+			uParam0->f_41 = 1285109;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1284078;
+			uParam0->f_34 = 1285029;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1283435;
+			uParam0->f_36 = 1284386;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1283147;
+			uParam0->f_40 = 1284098;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1283134;
+			uParam0->f_15 = 1284085;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1283035;
+			uParam0->f_37 = 1283986;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 1282863;
+			uParam0->f_22 = 1283814;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 1282815;
+			uParam0->f_9 = 1283766;
 			break;
 		
 		case 49:
-			uParam0->f_11 = 1282779;
+			uParam0->f_11 = 1283730;
 			break;
 		
 		case 51:
-			uParam0->f_24 = 1282660;
+			uParam0->f_24 = 1283611;
 			break;
 		
 		case 52:
-			uParam0->f_10 = 1282631;
+			uParam0->f_10 = 1283582;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1282621;
+			uParam0->f_11 = 1283572;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1280470;
+			uParam0->f_39 = 1281421;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1280461;
+			uParam0->f_11 = 1281412;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1277871;
+			uParam0->f_65 = 1278825;
 			break;
 		
 		case 14:
-			uParam0->f_43 = 1277863;
+			uParam0->f_43 = 1278817;
 			break;
 		
 		case 13:
-			uParam0->f_42 = 1277854;
+			uParam0->f_42 = 1278808;
 			break;
 		
 		case 85:
-			*uParam0 = 1277845;
+			*uParam0 = 1278799;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1277783;
+			uParam0->f_2 = 1278737;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1277702;
+			uParam0->f_2 = 1278656;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1277349;
+			uParam0->f_5 = 1278303;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1272983;
+			uParam0->f_64 = 1273935;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1271680;
+			uParam0->f_21 = 1272632;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1271653;
+			uParam0->f_21 = 1272605;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1271644;
+			uParam0->f_3 = 1272596;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1271513;
+			uParam0->f_3 = 1272465;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1271409;
+			uParam0->f_62 = 1272361;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1271393;
+			uParam0->f_4 = 1272345;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1271241;
+			uParam0->f_28 = 1272193;
 			break;
 		
 		case 30:
-			uParam0->f_30 = 1271233;
+			uParam0->f_30 = 1272185;
 			break;
 		
 		case 33:
-			uParam0->f_45 = 1269998;
+			uParam0->f_45 = 1270950;
 			break;
 		
 		case 35:
-			uParam0->f_45 = 1267730;
+			uParam0->f_45 = 1268682;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1266704;
+			uParam0->f_27 = 1267656;
 			break;
 		
 		case 36:
-			uParam0->f_29 = 1266611;
+			uParam0->f_29 = 1267563;
 			break;
 		
 		case 37:
-			uParam0->f_28 = 1266571;
+			uParam0->f_28 = 1267523;
 			break;
 		
 		case 38:
-			uParam0->f_32 = 1266548;
+			uParam0->f_32 = 1267500;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1265499;
+			uParam0->f_8 = 1266451;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1265473;
+			uParam0->f_46 = 1266425;
 			break;
 		
 		case 53:
-			uParam0->f_8 = 1265359;
+			uParam0->f_8 = 1266311;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1265245;
+			uParam0->f_47 = 1266197;
 			break;
 		
 		case 82:
-			uParam0->f_16 = 1265196;
+			uParam0->f_16 = 1266148;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1256227;
+			uParam0->f_48 = 1257308;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1256179;
+			uParam0->f_67 = 1257260;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1245090;
+			uParam0->f_49 = 1246172;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 1245081;
+			uParam0->f_18 = 1246163;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 1245072;
+			uParam0->f_18 = 1246154;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 1244196;
+			uParam0->f_66 = 1245278;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 1244185;
+			uParam0->f_16 = 1245267;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 1244059;
+			uParam0->f_52 = 1245140;
 			break;
 		
 		case 59:
 			uParam0->f_77 = 1;
-			uParam0->f_53 = 1243403;
+			uParam0->f_53 = 1244484;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 1243394;
+			uParam0->f_8 = 1244475;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 1243385;
+			uParam0->f_11 = 1244466;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 1243242;
+			uParam0->f_8 = 1244323;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 1243233;
+			uParam0->f_8 = 1244314;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 1243210;
+			uParam0->f_19 = 1244291;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 1243163;
+			uParam0->f_17 = 1244244;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 1243077;
+			uParam0->f_54 = 1244158;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 1243058;
+			uParam0->f_55 = 1244139;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 1243010;
+			uParam0->f_12 = 1244091;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 1242968;
+			uParam0->f_16 = 1244049;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1242960;
+			uParam0->f_56 = 1244041;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1242952;
+			uParam0->f_25 = 1244033;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1242681;
+			uParam0->f_25 = 1243762;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1242611;
+			uParam0->f_25 = 1243692;
 			break;
 		
 		case 74:
-			*uParam0 = 1241976;
+			*uParam0 = 1243057;
 			break;
 		
 		case 75:
-			*uParam0 = 1241967;
+			*uParam0 = 1243048;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1241955;
+			uParam0->f_57 = 1243036;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1241735;
+			uParam0->f_58 = 1242816;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1241723;
+			uParam0->f_59 = 1242804;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1240852;
+			uParam0->f_7 = 1241933;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 1240809;
+			uParam0->f_1 = 1241890;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 1239905;
+			uParam0->f_1 = 1240986;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 1238301;
+			uParam0->f_1 = 1239382;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 1238292;
+			uParam0->f_1 = 1239373;
 			break;
 		
 		case 111:
-			uParam0->f_63 = 1238284;
+			uParam0->f_63 = 1239365;
 			break;
 		
 		case 92:
-			uParam0->f_23 = 1238254;
+			uParam0->f_23 = 1239335;
 			break;
 		
 		case 118:
-			uParam0->f_1 = 1238245;
+			uParam0->f_1 = 1239326;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 1238236;
+			uParam0->f_1 = 1239317;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 1238227;
+			uParam0->f_1 = 1239308;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 1238219;
+			uParam0->f_26 = 1239300;
 			break;
 		
 		case 123:
-			uParam0->f_26 = 1238211;
+			uParam0->f_26 = 1239292;
 			break;
 		
 		case 134:
-			uParam0->f_16 = 1238176;
+			uParam0->f_16 = 1239257;
 			break;
 		
 		case 135:
-			uParam0->f_3 = 1238167;
+			uParam0->f_3 = 1239248;
 			break;
 		
 		case 136:
-			uParam0->f_20 = 878201;
+			uParam0->f_20 = 879309;
 			break;
 		
 		case 137:
-			uParam0->f_3 = 1238158;
+			uParam0->f_3 = 1239239;
 			break;
 		
 		case 138:
-			*uParam0 = 1238149;
+			*uParam0 = 1239230;
 			break;
 		
 		case 139:
-			uParam0->f_20 = 1236929;
+			uParam0->f_20 = 1238010;
 			break;
 		
 		case 143:
-			*uParam0 = 1236847;
+			*uParam0 = 1237928;
 			break;
 		
 		case 144:
-			*uParam0 = 1236830;
+			*uParam0 = 1237911;
 			break;
 		
 		case 145:
-			uParam0->f_23 = 1236798;
+			uParam0->f_23 = 1237879;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1235979;
+			uParam0->f_68 = 1237060;
 			break;
 		
 		case 146:
-			uParam0->f_1 = 1235970;
+			uParam0->f_1 = 1237051;
 			break;
 		
 		case 147:
-			uParam0->f_23 = 1235962;
+			uParam0->f_23 = 1237043;
 			break;
 	}
 }
@@ -235879,356 +235927,356 @@ void func_4014(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1322509;
+			*uParam0 = 1323460;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1322495;
+			uParam0->f_41 = 1323446;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1322403;
+			uParam0->f_34 = 1323354;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1322179;
+			uParam0->f_36 = 1323130;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1321991;
+			uParam0->f_40 = 1322942;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1321978;
+			uParam0->f_15 = 1322929;
 			break;
 		
 		case 6:
-			uParam0->f_11 = 1321968;
+			uParam0->f_11 = 1322919;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 1321813;
+			uParam0->f_22 = 1322764;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 1321761;
+			uParam0->f_9 = 1322712;
 			break;
 		
 		case 52:
-			uParam0->f_10 = 1321728;
+			uParam0->f_10 = 1322679;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1321640;
+			uParam0->f_37 = 1322591;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1321631;
+			uParam0->f_11 = 1322582;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1319840;
+			uParam0->f_39 = 1320791;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1319831;
+			uParam0->f_11 = 1320782;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1315726;
+			uParam0->f_65 = 1316677;
 			break;
 		
 		case 14:
-			uParam0->f_43 = 1315249;
+			uParam0->f_43 = 1316200;
 			break;
 		
 		case 13:
-			uParam0->f_42 = 1315155;
+			uParam0->f_42 = 1316106;
 			break;
 		
 		case 85:
-			*uParam0 = 1315146;
+			*uParam0 = 1316097;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1315080;
+			uParam0->f_2 = 1316031;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1314993;
+			uParam0->f_2 = 1315944;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1313942;
+			uParam0->f_5 = 1314893;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1310482;
+			uParam0->f_64 = 1311435;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1308912;
+			uParam0->f_21 = 1309864;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1308885;
+			uParam0->f_21 = 1309837;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1308663;
+			uParam0->f_3 = 1309615;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1308599;
+			uParam0->f_3 = 1309551;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1308480;
+			uParam0->f_62 = 1309432;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1308464;
+			uParam0->f_4 = 1309416;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1308353;
+			uParam0->f_28 = 1309305;
 			break;
 		
 		case 30:
-			uParam0->f_30 = 1308345;
+			uParam0->f_30 = 1309297;
 			break;
 		
 		case 33:
-			uParam0->f_45 = 1306253;
+			uParam0->f_45 = 1307205;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1305786;
+			uParam0->f_27 = 1306738;
 			break;
 		
 		case 36:
-			uParam0->f_29 = 1305778;
+			uParam0->f_29 = 1306730;
 			break;
 		
 		case 37:
-			uParam0->f_28 = 1305770;
+			uParam0->f_28 = 1306722;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1305112;
+			uParam0->f_8 = 1306064;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1304982;
+			uParam0->f_46 = 1305934;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1303904;
+			uParam0->f_47 = 1304856;
 			break;
 		
 		case 42:
-			*uParam0 = 1303800;
+			*uParam0 = 1304752;
 			break;
 		
 		case 82:
-			uParam0->f_16 = 1303647;
+			uParam0->f_16 = 1304599;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1302035;
+			uParam0->f_48 = 1302987;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1301990;
+			uParam0->f_67 = 1302942;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1292949;
+			uParam0->f_49 = 1293900;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 1292940;
+			uParam0->f_18 = 1293891;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 1292931;
+			uParam0->f_18 = 1293882;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 1292923;
+			uParam0->f_66 = 1293874;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 1292900;
+			uParam0->f_16 = 1293851;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 1292848;
+			uParam0->f_52 = 1293799;
 			break;
 		
 		case 59:
 			uParam0->f_77 = 1;
-			uParam0->f_53 = 1292711;
+			uParam0->f_53 = 1293662;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 1292693;
+			uParam0->f_8 = 1293644;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 1292684;
+			uParam0->f_11 = 1293635;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 1292026;
+			uParam0->f_8 = 1292977;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 1291916;
+			uParam0->f_8 = 1292867;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 1291905;
+			uParam0->f_19 = 1292856;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 1291752;
+			uParam0->f_17 = 1292703;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 1291509;
+			uParam0->f_54 = 1292460;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 1291500;
+			uParam0->f_55 = 1292451;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 1291120;
+			uParam0->f_12 = 1292071;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 1290967;
+			uParam0->f_16 = 1291918;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1290959;
+			uParam0->f_56 = 1291910;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1289853;
+			uParam0->f_25 = 1290804;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1289588;
+			uParam0->f_25 = 1290539;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1289495;
+			uParam0->f_25 = 1290446;
 			break;
 		
 		case 74:
-			*uParam0 = 1288807;
+			*uParam0 = 1289758;
 			break;
 		
 		case 75:
-			*uParam0 = 1288798;
+			*uParam0 = 1289749;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1288786;
+			uParam0->f_57 = 1289737;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1288694;
+			uParam0->f_58 = 1289645;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1288682;
+			uParam0->f_59 = 1289633;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1288220;
+			uParam0->f_7 = 1289171;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 1288211;
+			uParam0->f_1 = 1289162;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 1287415;
+			uParam0->f_1 = 1288366;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 1286041;
+			uParam0->f_1 = 1286992;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 1286032;
+			uParam0->f_1 = 1286983;
 			break;
 		
 		case 111:
-			uParam0->f_63 = 1286024;
+			uParam0->f_63 = 1286975;
 			break;
 		
 		case 118:
-			uParam0->f_1 = 1286015;
+			uParam0->f_1 = 1286966;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 1286006;
+			uParam0->f_1 = 1286957;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 1285997;
+			uParam0->f_1 = 1286948;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 1285989;
+			uParam0->f_26 = 1286940;
 			break;
 		
 		case 123:
-			uParam0->f_26 = 1285981;
+			uParam0->f_26 = 1286932;
 			break;
 		
 		case 134:
-			uParam0->f_16 = 1285969;
+			uParam0->f_16 = 1286920;
 			break;
 		
 		case 135:
-			uParam0->f_3 = 1285960;
+			uParam0->f_3 = 1286911;
 			break;
 		
 		case 136:
-			uParam0->f_20 = 878201;
+			uParam0->f_20 = 879309;
 			break;
 		
 		case 137:
-			uParam0->f_3 = 1285951;
+			uParam0->f_3 = 1286902;
 			break;
 		
 		case 138:
-			*uParam0 = 1285942;
+			*uParam0 = 1286893;
 			break;
 		
 		case 139:
-			uParam0->f_20 = 762288;
+			uParam0->f_20 = 763413;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1285758;
+			uParam0->f_68 = 1286709;
 			break;
 		
 		case 146:
-			uParam0->f_1 = 1285749;
+			uParam0->f_1 = 1286700;
 			break;
 		
 		case 147:
-			uParam0->f_23 = 1285741;
+			uParam0->f_23 = 1286692;
 			break;
 		
 		case 155:
-			*uParam0 = 1285685;
+			*uParam0 = 1286636;
 			break;
 	}
 }
@@ -242195,356 +242243,356 @@ void func_4172(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1338523;
+			*uParam0 = 1339473;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1338514;
+			uParam0->f_41 = 1339464;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1338446;
+			uParam0->f_34 = 1339396;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1338002;
+			uParam0->f_36 = 1338952;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1337854;
+			uParam0->f_40 = 1338804;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1337841;
+			uParam0->f_15 = 1338791;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 1337597;
+			uParam0->f_22 = 1338547;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 1337507;
+			uParam0->f_9 = 1338457;
 			break;
 		
 		case 49:
-			uParam0->f_11 = 1337487;
+			uParam0->f_11 = 1338437;
 			break;
 		
 		case 50:
-			uParam0->f_6 = 1337382;
+			uParam0->f_6 = 1338332;
 			break;
 		
 		case 51:
-			uParam0->f_24 = 1337357;
+			uParam0->f_24 = 1338307;
 			break;
 		
 		case 52:
-			uParam0->f_10 = 1337344;
+			uParam0->f_10 = 1338294;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1337280;
+			uParam0->f_37 = 1338230;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1337271;
+			uParam0->f_11 = 1338221;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1336734;
+			uParam0->f_39 = 1337684;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1336725;
+			uParam0->f_11 = 1337675;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1335770;
+			uParam0->f_65 = 1336720;
 			break;
 		
 		case 14:
-			uParam0->f_43 = 1335762;
+			uParam0->f_43 = 1336712;
 			break;
 		
 		case 13:
-			uParam0->f_42 = 1335753;
+			uParam0->f_42 = 1336703;
 			break;
 		
 		case 85:
-			*uParam0 = 1335744;
+			*uParam0 = 1336694;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1335682;
+			uParam0->f_2 = 1336632;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1335601;
+			uParam0->f_2 = 1336551;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1335274;
+			uParam0->f_5 = 1336224;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1335265;
+			uParam0->f_64 = 1336215;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1335253;
+			uParam0->f_21 = 1336203;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1335241;
+			uParam0->f_21 = 1336191;
 			break;
 		
 		case 25:
-			uParam0->f_8 = 1335199;
+			uParam0->f_8 = 1336149;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1335190;
+			uParam0->f_3 = 1336140;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1335142;
+			uParam0->f_3 = 1336092;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1335087;
+			uParam0->f_62 = 1336037;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1335078;
+			uParam0->f_4 = 1336028;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1334975;
+			uParam0->f_28 = 1335925;
 			break;
 		
 		case 30:
-			uParam0->f_30 = 1334967;
+			uParam0->f_30 = 1335917;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1334540;
+			uParam0->f_27 = 1335490;
 			break;
 		
 		case 36:
-			uParam0->f_29 = 1334532;
+			uParam0->f_29 = 1335482;
 			break;
 		
 		case 37:
-			uParam0->f_28 = 1334524;
+			uParam0->f_28 = 1335474;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1334493;
+			uParam0->f_8 = 1335443;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1334467;
+			uParam0->f_46 = 1335417;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1334304;
+			uParam0->f_47 = 1335254;
 			break;
 		
 		case 82:
-			uParam0->f_16 = 1334281;
+			uParam0->f_16 = 1335231;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1330667;
+			uParam0->f_48 = 1331617;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1330622;
+			uParam0->f_67 = 1331572;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1327428;
+			uParam0->f_49 = 1328378;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 1327419;
+			uParam0->f_18 = 1328369;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 1327410;
+			uParam0->f_18 = 1328360;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 1327402;
+			uParam0->f_66 = 1328352;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 1327391;
+			uParam0->f_16 = 1328341;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 1327223;
+			uParam0->f_52 = 1328173;
 			break;
 		
 		case 59:
 			uParam0->f_77 = 1;
-			uParam0->f_53 = 1325981;
+			uParam0->f_53 = 1326932;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 1325972;
+			uParam0->f_8 = 1326923;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 1325963;
+			uParam0->f_11 = 1326914;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 1325734;
+			uParam0->f_8 = 1326685;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 1325725;
+			uParam0->f_8 = 1326676;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 1325714;
+			uParam0->f_19 = 1326665;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 1325691;
+			uParam0->f_17 = 1326642;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 1325683;
+			uParam0->f_54 = 1326634;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 1325674;
+			uParam0->f_55 = 1326625;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 1325661;
+			uParam0->f_12 = 1326612;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 1325619;
+			uParam0->f_16 = 1326570;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1325611;
+			uParam0->f_56 = 1326562;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1325603;
+			uParam0->f_25 = 1326554;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1324990;
+			uParam0->f_25 = 1325941;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1324920;
+			uParam0->f_25 = 1325871;
 			break;
 		
 		case 74:
-			*uParam0 = 1324231;
+			*uParam0 = 1325182;
 			break;
 		
 		case 75:
-			*uParam0 = 1324222;
+			*uParam0 = 1325173;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1324210;
+			uParam0->f_57 = 1325161;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1324201;
+			uParam0->f_58 = 1325152;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1324189;
+			uParam0->f_59 = 1325140;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1324180;
+			uParam0->f_7 = 1325131;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 1324171;
+			uParam0->f_1 = 1325122;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 1324162;
+			uParam0->f_1 = 1325113;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 1324153;
+			uParam0->f_1 = 1325104;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 1324144;
+			uParam0->f_1 = 1325095;
 			break;
 		
 		case 111:
-			uParam0->f_63 = 1324136;
+			uParam0->f_63 = 1325087;
 			break;
 		
 		case 118:
-			uParam0->f_1 = 1324127;
+			uParam0->f_1 = 1325078;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 1324118;
+			uParam0->f_1 = 1325069;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 1324109;
+			uParam0->f_1 = 1325060;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 1324101;
+			uParam0->f_26 = 1325052;
 			break;
 		
 		case 123:
-			uParam0->f_26 = 1324093;
+			uParam0->f_26 = 1325044;
 			break;
 		
 		case 134:
-			uParam0->f_16 = 1324081;
+			uParam0->f_16 = 1325032;
 			break;
 		
 		case 135:
-			uParam0->f_3 = 1324072;
+			uParam0->f_3 = 1325023;
 			break;
 		
 		case 136:
-			uParam0->f_20 = 878201;
+			uParam0->f_20 = 879309;
 			break;
 		
 		case 137:
-			uParam0->f_3 = 1324063;
+			uParam0->f_3 = 1325014;
 			break;
 		
 		case 138:
-			*uParam0 = 1324054;
+			*uParam0 = 1325005;
 			break;
 		
 		case 139:
-			uParam0->f_20 = 762288;
+			uParam0->f_20 = 763413;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1324046;
+			uParam0->f_68 = 1324997;
 			break;
 		
 		case 146:
-			uParam0->f_1 = 1324037;
+			uParam0->f_1 = 1324988;
 			break;
 		
 		case 147:
-			uParam0->f_23 = 1324029;
+			uParam0->f_23 = 1324980;
 			break;
 	}
 }
@@ -242906,7 +242954,7 @@ int func_4211(bool bParam0, int iParam1)
 {
 	if (bParam0 != -1)
 	{
-		return BitTest(Global_1983166[bParam0 /*149*/].f_27, func_4212(iParam1));
+		return BitTest(Global_1983167[bParam0 /*149*/].f_27, func_4212(iParam1));
 	}
 	return 0;
 }
@@ -242947,7 +242995,7 @@ int func_4215(bool bParam0)
 {
 	if (bParam0 != -1)
 	{
-		return BitTest(Global_1983166[bParam0 /*149*/].f_27, 2);
+		return BitTest(Global_1983167[bParam0 /*149*/].f_27, 2);
 	}
 	return 0;
 }
@@ -244940,7 +244988,7 @@ void func_4267(int iParam0, int iParam1, var uParam2)
 
 void func_4268(int iParam0, int* iParam1, int* iParam2, int* iParam3, int* iParam4)
 {
-	if (Global_1978598.f_3 > Global_1978598.f_4)
+	if (Global_1978599.f_3 > Global_1978599.f_4)
 	{
 		HUD::GET_HUD_COLOUR(12, iParam1, iParam2, iParam3, iParam4);
 	}
@@ -245269,335 +245317,335 @@ void func_4288(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1387733;
+			*uParam0 = 1388683;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1387677;
+			uParam0->f_34 = 1388627;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1387015;
+			uParam0->f_36 = 1387965;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1386857;
+			uParam0->f_40 = 1387807;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1386823;
+			uParam0->f_15 = 1387773;
 			break;
 		
 		case 6:
-			uParam0->f_11 = 1386812;
+			uParam0->f_11 = 1387762;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1386748;
+			uParam0->f_37 = 1387698;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1386725;
+			uParam0->f_41 = 1387675;
 			break;
 		
 		case 85:
-			*uParam0 = 1386716;
+			*uParam0 = 1387666;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 1386579;
+			uParam0->f_22 = 1387529;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 1386482;
+			uParam0->f_9 = 1387432;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1386473;
+			uParam0->f_11 = 1387423;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1386083;
+			uParam0->f_39 = 1387033;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1385773;
+			uParam0->f_65 = 1386723;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1383970;
+			uParam0->f_2 = 1384920;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1383961;
+			uParam0->f_2 = 1384911;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1383952;
+			uParam0->f_4 = 1384902;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1383495;
+			uParam0->f_5 = 1384445;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1379584;
+			uParam0->f_64 = 1380534;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1378863;
+			uParam0->f_21 = 1379813;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1378836;
+			uParam0->f_21 = 1379786;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1378667;
+			uParam0->f_3 = 1379617;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1378604;
+			uParam0->f_3 = 1379554;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1378452;
+			uParam0->f_62 = 1379402;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1378369;
+			uParam0->f_28 = 1379319;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1377499;
+			uParam0->f_27 = 1378449;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1376205;
+			uParam0->f_8 = 1377157;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1375619;
+			uParam0->f_46 = 1376571;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1374374;
+			uParam0->f_47 = 1375325;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1374365;
+			uParam0->f_11 = 1375316;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1371598;
+			uParam0->f_48 = 1372549;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1371545;
+			uParam0->f_67 = 1372496;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1366081;
+			uParam0->f_49 = 1367032;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 1366072;
+			uParam0->f_18 = 1367023;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 1366063;
+			uParam0->f_18 = 1367014;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 1366055;
+			uParam0->f_66 = 1367006;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 1366032;
+			uParam0->f_16 = 1366983;
 			break;
 		
 		case 158:
-			uParam0->f_23 = 1360657;
+			uParam0->f_23 = 1361608;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 1360605;
+			uParam0->f_52 = 1361556;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 1360580;
+			uParam0->f_8 = 1361531;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 1360571;
+			uParam0->f_11 = 1361522;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 1360562;
+			uParam0->f_8 = 1361513;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 1360538;
+			uParam0->f_8 = 1361489;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 1360527;
+			uParam0->f_19 = 1361478;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 1360448;
+			uParam0->f_17 = 1361399;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 1360440;
+			uParam0->f_54 = 1361391;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 1360431;
+			uParam0->f_55 = 1361382;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 1360421;
+			uParam0->f_12 = 1361372;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 1360174;
+			uParam0->f_16 = 1361125;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1359178;
+			uParam0->f_56 = 1360130;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1358014;
+			uParam0->f_25 = 1358964;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1356853;
+			uParam0->f_25 = 1357803;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1356677;
+			uParam0->f_25 = 1357627;
 			break;
 		
 		case 74:
-			*uParam0 = 1355636;
+			*uParam0 = 1356586;
 			break;
 		
 		case 75:
-			*uParam0 = 1355627;
+			*uParam0 = 1356577;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1355615;
+			uParam0->f_57 = 1356565;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1355606;
+			uParam0->f_58 = 1356556;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1355594;
+			uParam0->f_59 = 1356544;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1355224;
+			uParam0->f_7 = 1356174;
 			break;
 		
 		case 79:
-			uParam0->f_60 = 1355215;
+			uParam0->f_60 = 1356165;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 1354543;
+			uParam0->f_1 = 1355493;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 1353670;
+			uParam0->f_1 = 1354620;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 1352457;
+			uParam0->f_1 = 1353407;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 1352437;
+			uParam0->f_1 = 1353387;
 			break;
 		
 		case 111:
-			uParam0->f_63 = 1352330;
+			uParam0->f_63 = 1353280;
 			break;
 		
 		case 112:
-			uParam0->f_1 = 1352199;
+			uParam0->f_1 = 1353149;
 			break;
 		
 		case 113:
-			uParam0->f_1 = 1351553;
+			uParam0->f_1 = 1352503;
 			break;
 		
 		case 114:
-			uParam0->f_1 = 1350783;
+			uParam0->f_1 = 1351733;
 			break;
 		
 		case 116:
-			uParam0->f_1 = 1350230;
+			uParam0->f_1 = 1351180;
 			break;
 		
 		case 117:
-			uParam0->f_26 = 1349627;
+			uParam0->f_26 = 1350577;
 			break;
 		
 		case 25:
-			uParam0->f_8 = 1349269;
+			uParam0->f_8 = 1350219;
 			break;
 		
 		case 118:
-			uParam0->f_1 = 1348905;
+			uParam0->f_1 = 1349855;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 1348035;
+			uParam0->f_1 = 1348985;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 1345278;
+			uParam0->f_1 = 1346228;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 1342117;
+			uParam0->f_26 = 1343067;
 			break;
 		
 		case 123:
-			uParam0->f_26 = 1340949;
+			uParam0->f_26 = 1341899;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1340741;
+			uParam0->f_68 = 1341691;
 			break;
 		
 		case 126:
-			uParam0->f_1 = 1340301;
+			uParam0->f_1 = 1341251;
 			break;
 		
 		case 124:
-			uParam0->f_1 = 1340292;
+			uParam0->f_1 = 1341242;
 			break;
 		
 		case 125:
-			uParam0->f_26 = 1340180;
+			uParam0->f_26 = 1341130;
 			break;
 		
 		case 89:
-			*uParam0 = 1340137;
+			*uParam0 = 1341087;
 			break;
 		
 		case 155:
-			*uParam0 = 1340083;
+			*uParam0 = 1341033;
 			break;
 		
 		case 157:
-			uParam0->f_74 = 1339952;
+			uParam0->f_74 = 1340902;
 			break;
 	}
 }
@@ -254378,340 +254426,340 @@ void func_4540(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1410184;
+			*uParam0 = 1411134;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1410175;
+			uParam0->f_41 = 1411125;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1410107;
+			uParam0->f_34 = 1411057;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1409777;
+			uParam0->f_36 = 1410727;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1409616;
+			uParam0->f_40 = 1410566;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1409603;
+			uParam0->f_15 = 1410553;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1409539;
+			uParam0->f_37 = 1410489;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1409530;
+			uParam0->f_11 = 1410480;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1409194;
+			uParam0->f_39 = 1410144;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1409185;
+			uParam0->f_11 = 1410135;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1408447;
+			uParam0->f_65 = 1409399;
 			break;
 		
 		case 14:
-			uParam0->f_43 = 1408439;
+			uParam0->f_43 = 1409391;
 			break;
 		
 		case 13:
-			uParam0->f_42 = 1408430;
+			uParam0->f_42 = 1409382;
 			break;
 		
 		case 85:
-			*uParam0 = 1408421;
+			*uParam0 = 1409373;
 			break;
 		
 		case 78:
-			uParam0->f_15 = 1408408;
+			uParam0->f_15 = 1409360;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1408399;
+			uParam0->f_2 = 1409351;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1408320;
+			uParam0->f_2 = 1409272;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1407894;
+			uParam0->f_5 = 1408843;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1407885;
+			uParam0->f_64 = 1408834;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1407325;
+			uParam0->f_21 = 1408274;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1407269;
+			uParam0->f_21 = 1408218;
 			break;
 		
 		case 25:
-			uParam0->f_8 = 1407181;
+			uParam0->f_8 = 1408130;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1407161;
+			uParam0->f_3 = 1408110;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1407134;
+			uParam0->f_3 = 1408083;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1407112;
+			uParam0->f_62 = 1408061;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1407103;
+			uParam0->f_4 = 1408052;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1407000;
+			uParam0->f_28 = 1407949;
 			break;
 		
 		case 30:
-			uParam0->f_30 = 1406992;
+			uParam0->f_30 = 1407941;
 			break;
 		
 		case 33:
-			uParam0->f_45 = 1406984;
+			uParam0->f_45 = 1407933;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1406269;
+			uParam0->f_27 = 1407218;
 			break;
 		
 		case 36:
-			uParam0->f_29 = 1406261;
+			uParam0->f_29 = 1407210;
 			break;
 		
 		case 37:
-			uParam0->f_28 = 1406253;
+			uParam0->f_28 = 1407202;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1406146;
+			uParam0->f_8 = 1407095;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1406100;
+			uParam0->f_46 = 1407049;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1406035;
+			uParam0->f_47 = 1406984;
 			break;
 		
 		case 82:
-			uParam0->f_16 = 1406012;
+			uParam0->f_16 = 1406961;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1401939;
+			uParam0->f_48 = 1402888;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1401882;
+			uParam0->f_67 = 1402831;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1395664;
+			uParam0->f_49 = 1396613;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 1395655;
+			uParam0->f_18 = 1396604;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 1395646;
+			uParam0->f_18 = 1396595;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 1395638;
+			uParam0->f_66 = 1396587;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 1395627;
+			uParam0->f_16 = 1396576;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 1395514;
+			uParam0->f_52 = 1396463;
 			break;
 		
 		case 59:
 			uParam0->f_77 = 1;
-			uParam0->f_53 = 1394494;
+			uParam0->f_53 = 1395443;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 1394485;
+			uParam0->f_8 = 1395434;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 1394476;
+			uParam0->f_11 = 1395425;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 1393981;
+			uParam0->f_8 = 1394930;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 1393972;
+			uParam0->f_8 = 1394921;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 1393962;
+			uParam0->f_19 = 1394911;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 1393939;
+			uParam0->f_17 = 1394888;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 1393434;
+			uParam0->f_54 = 1394383;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 1393425;
+			uParam0->f_55 = 1394374;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 1393416;
+			uParam0->f_12 = 1394365;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 1393374;
+			uParam0->f_16 = 1394323;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1392103;
+			uParam0->f_56 = 1393054;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1392095;
+			uParam0->f_25 = 1393046;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1391785;
+			uParam0->f_25 = 1392736;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1391715;
+			uParam0->f_25 = 1392666;
 			break;
 		
 		case 74:
-			*uParam0 = 1391026;
+			*uParam0 = 1391976;
 			break;
 		
 		case 75:
-			*uParam0 = 1391017;
+			*uParam0 = 1391967;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1391005;
+			uParam0->f_57 = 1391955;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1390996;
+			uParam0->f_58 = 1391946;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1390984;
+			uParam0->f_59 = 1391934;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1390975;
+			uParam0->f_7 = 1391925;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 1390966;
+			uParam0->f_1 = 1391916;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 1390957;
+			uParam0->f_1 = 1391907;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 1390948;
+			uParam0->f_1 = 1391898;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 1390939;
+			uParam0->f_1 = 1391889;
 			break;
 		
 		case 111:
-			uParam0->f_63 = 1390931;
+			uParam0->f_63 = 1391881;
 			break;
 		
 		case 118:
-			uParam0->f_1 = 1390906;
+			uParam0->f_1 = 1391856;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 1390796;
+			uParam0->f_1 = 1391746;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 1390079;
+			uParam0->f_1 = 1391029;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 1389377;
+			uParam0->f_26 = 1390327;
 			break;
 		
 		case 123:
-			uParam0->f_26 = 1389249;
+			uParam0->f_26 = 1390199;
 			break;
 		
 		case 134:
-			uParam0->f_16 = 1389237;
+			uParam0->f_16 = 1390187;
 			break;
 		
 		case 135:
-			uParam0->f_3 = 1389228;
+			uParam0->f_3 = 1390178;
 			break;
 		
 		case 136:
-			uParam0->f_20 = 878201;
+			uParam0->f_20 = 879309;
 			break;
 		
 		case 137:
-			uParam0->f_3 = 1389219;
+			uParam0->f_3 = 1390169;
 			break;
 		
 		case 138:
-			*uParam0 = 1389210;
+			*uParam0 = 1390160;
 			break;
 		
 		case 139:
-			uParam0->f_20 = 762288;
+			uParam0->f_20 = 763413;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1389202;
+			uParam0->f_68 = 1390152;
 			break;
 		
 		case 146:
-			uParam0->f_1 = 1389193;
+			uParam0->f_1 = 1390143;
 			break;
 		
 		case 147:
-			uParam0->f_23 = 1389185;
+			uParam0->f_23 = 1390135;
 			break;
 	}
 }
@@ -255384,7 +255432,7 @@ Vector3 func_4572(int iParam0)
 
 bool func_4573()
 {
-	return BitTest(Global_1982734, 1);
+	return BitTest(Global_1982735, 1);
 }
 
 bool func_4574(int iParam0, bool bParam1)
@@ -255427,19 +255475,19 @@ int func_4575(bool bParam0, int iParam1)
 			case 3:
 			case 6:
 			case 9:
-				return BitTest(Global_1983166[bParam0 /*149*/].f_121, 2);
+				return BitTest(Global_1983167[bParam0 /*149*/].f_121, 2);
 			
 			case 1:
 			case 4:
 			case 7:
 			case 10:
-				return BitTest(Global_1983166[bParam0 /*149*/].f_121, 3);
+				return BitTest(Global_1983167[bParam0 /*149*/].f_121, 3);
 			
 			case 2:
 			case 5:
 			case 8:
 			case 11:
-				return BitTest(Global_1983166[bParam0 /*149*/].f_121, 4);
+				return BitTest(Global_1983167[bParam0 /*149*/].f_121, 4);
 			}
 		
 		default:
@@ -255460,7 +255508,7 @@ int func_4577(bool bParam0)
 {
 	if (func_30(bParam0))
 	{
-		return Global_1983166[bParam0 /*149*/].f_121.f_2;
+		return Global_1983167[bParam0 /*149*/].f_121.f_2;
 	}
 	return -1;
 }
@@ -255478,7 +255526,7 @@ int func_4579(bool bParam0)
 {
 	if (func_30(bParam0))
 	{
-		return BitTest(Global_1983166[bParam0 /*149*/].f_121, 1);
+		return BitTest(Global_1983167[bParam0 /*149*/].f_121, 1);
 	}
 	return 0;
 }
@@ -257629,7 +257677,7 @@ int func_4626(var uParam0, var uParam1)
 	{
 		return 1;
 	}
-	if ((Global_1971554 >= 10 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_go_straight_to_coord")) != 0) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_go_straight_to_coord")) != 1)
+	if ((Global_1971555 >= 10 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_go_straight_to_coord")) != 0) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_go_straight_to_coord")) != 1)
 	{
 		MISC::SET_BIT(&(Global_1950198.f_751), true);
 		func_464(&Global_1576886, 0, 0);
@@ -258095,7 +258143,7 @@ int func_4646(bool bParam0)
 
 var func_4647()
 {
-	return BitTest(Global_1982734, 2);
+	return BitTest(Global_1982735, 2);
 }
 
 int func_4648(var uParam0)
@@ -258428,332 +258476,332 @@ void func_4672(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1418226;
+			*uParam0 = 1419176;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1418217;
+			uParam0->f_41 = 1419167;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1418145;
+			uParam0->f_34 = 1419095;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1417904;
+			uParam0->f_36 = 1418854;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1417853;
+			uParam0->f_40 = 1418803;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1417840;
+			uParam0->f_15 = 1418790;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1417776;
+			uParam0->f_37 = 1418726;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1417767;
+			uParam0->f_11 = 1418717;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1417327;
+			uParam0->f_39 = 1418277;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1417318;
+			uParam0->f_11 = 1418268;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1416640;
+			uParam0->f_65 = 1417590;
 			break;
 		
 		case 14:
-			uParam0->f_43 = 1416632;
+			uParam0->f_43 = 1417582;
 			break;
 		
 		case 13:
-			uParam0->f_42 = 1416623;
+			uParam0->f_42 = 1417573;
 			break;
 		
 		case 85:
-			*uParam0 = 1416614;
+			*uParam0 = 1417564;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1416552;
+			uParam0->f_2 = 1417502;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1416472;
+			uParam0->f_2 = 1417422;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1416103;
+			uParam0->f_5 = 1417053;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1416094;
+			uParam0->f_64 = 1417044;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1416082;
+			uParam0->f_21 = 1417032;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1416070;
+			uParam0->f_21 = 1417020;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1416061;
+			uParam0->f_3 = 1417011;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1416052;
+			uParam0->f_3 = 1417002;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1416030;
+			uParam0->f_62 = 1416980;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1416021;
+			uParam0->f_4 = 1416971;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1416009;
+			uParam0->f_28 = 1416959;
 			break;
 		
 		case 30:
-			uParam0->f_30 = 1416001;
+			uParam0->f_30 = 1416951;
 			break;
 		
 		case 33:
-			uParam0->f_45 = 1415993;
+			uParam0->f_45 = 1416943;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1415985;
+			uParam0->f_27 = 1416935;
 			break;
 		
 		case 36:
-			uParam0->f_29 = 1415977;
+			uParam0->f_29 = 1416927;
 			break;
 		
 		case 37:
-			uParam0->f_28 = 1415969;
+			uParam0->f_28 = 1416919;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1415938;
+			uParam0->f_8 = 1416888;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1415912;
+			uParam0->f_46 = 1416862;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1415846;
+			uParam0->f_47 = 1416796;
 			break;
 		
 		case 82:
-			uParam0->f_16 = 1415823;
+			uParam0->f_16 = 1416773;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1415727;
+			uParam0->f_48 = 1416677;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1415682;
+			uParam0->f_67 = 1416632;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1413169;
+			uParam0->f_49 = 1414119;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 1413160;
+			uParam0->f_18 = 1414110;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 1413151;
+			uParam0->f_18 = 1414101;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 1413143;
+			uParam0->f_66 = 1414093;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 1413132;
+			uParam0->f_16 = 1414082;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 1413090;
+			uParam0->f_52 = 1414040;
 			break;
 		
 		case 59:
 			uParam0->f_77 = 1;
-			uParam0->f_53 = 1412982;
+			uParam0->f_53 = 1413932;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 1412973;
+			uParam0->f_8 = 1413923;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 1412964;
+			uParam0->f_11 = 1413914;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 1412927;
+			uParam0->f_8 = 1413877;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 1412918;
+			uParam0->f_8 = 1413868;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 1412907;
+			uParam0->f_19 = 1413857;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 1412884;
+			uParam0->f_17 = 1413834;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 1412876;
+			uParam0->f_54 = 1413826;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 1412867;
+			uParam0->f_55 = 1413817;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 1412854;
+			uParam0->f_12 = 1413804;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 1412812;
+			uParam0->f_16 = 1413762;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1412804;
+			uParam0->f_56 = 1413754;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1412796;
+			uParam0->f_25 = 1413746;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1412563;
+			uParam0->f_25 = 1413513;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1412493;
+			uParam0->f_25 = 1413443;
 			break;
 		
 		case 74:
-			*uParam0 = 1411804;
+			*uParam0 = 1412754;
 			break;
 		
 		case 75:
-			*uParam0 = 1411795;
+			*uParam0 = 1412745;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1411783;
+			uParam0->f_57 = 1412733;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1411774;
+			uParam0->f_58 = 1412724;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1411762;
+			uParam0->f_59 = 1412712;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1411753;
+			uParam0->f_7 = 1412703;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 1411744;
+			uParam0->f_1 = 1412694;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 1411735;
+			uParam0->f_1 = 1412685;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 1411726;
+			uParam0->f_1 = 1412676;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 1411717;
+			uParam0->f_1 = 1412667;
 			break;
 		
 		case 111:
-			uParam0->f_63 = 1411709;
+			uParam0->f_63 = 1412659;
 			break;
 		
 		case 118:
-			uParam0->f_1 = 1411700;
+			uParam0->f_1 = 1412650;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 1411691;
+			uParam0->f_1 = 1412641;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 1411682;
+			uParam0->f_1 = 1412632;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 1411674;
+			uParam0->f_26 = 1412624;
 			break;
 		
 		case 123:
-			uParam0->f_26 = 1411666;
+			uParam0->f_26 = 1412616;
 			break;
 		
 		case 134:
-			uParam0->f_16 = 1411654;
+			uParam0->f_16 = 1412604;
 			break;
 		
 		case 135:
-			uParam0->f_3 = 1411645;
+			uParam0->f_3 = 1412595;
 			break;
 		
 		case 136:
-			uParam0->f_20 = 878201;
+			uParam0->f_20 = 879309;
 			break;
 		
 		case 137:
-			uParam0->f_3 = 1411636;
+			uParam0->f_3 = 1412586;
 			break;
 		
 		case 138:
-			*uParam0 = 1411627;
+			*uParam0 = 1412577;
 			break;
 		
 		case 139:
-			uParam0->f_20 = 762288;
+			uParam0->f_20 = 763413;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1411619;
+			uParam0->f_68 = 1412569;
 			break;
 		
 		case 146:
-			uParam0->f_1 = 1411610;
+			uParam0->f_1 = 1412560;
 			break;
 		
 		case 147:
-			uParam0->f_23 = 1411602;
+			uParam0->f_23 = 1412552;
 			break;
 	}
 }
@@ -259063,11 +259111,11 @@ int func_4706(var uParam0, var uParam1)
 
 int func_4707(var uParam0, var uParam1)
 {
-	if (HUD::DOES_BLIP_EXIST(Global_1982486.f_23[17]))
+	if (HUD::DOES_BLIP_EXIST(Global_1982487.f_23[17]))
 	{
 		return 0;
 	}
-	return BitTest(Global_1978598.f_2, 2);
+	return BitTest(Global_1978599.f_2, 2);
 }
 
 int func_4708(var uParam0)
@@ -259143,7 +259191,7 @@ int func_4716(var uParam0, int iParam1, var uParam2, var uParam3, var uParam4)
 
 int func_4717(var uParam0, int iParam1, var uParam2, var uParam3)
 {
-	if (BitTest(Global_1978598.f_2, 5))
+	if (BitTest(Global_1978599.f_2, 5))
 	{
 		switch (iParam1)
 		{
@@ -259736,11 +259784,11 @@ int func_4737(bool bParam0, int iParam1, var uParam2)
 			{
 				return 0;
 			}
-			if (!func_4738() && !BitTest(Global_1978598.f_2, 2))
+			if (!func_4738() && !BitTest(Global_1978599.f_2, 2))
 			{
 				return 0;
 			}
-			if (Global_1978598 == 6)
+			if (Global_1978599 == 6)
 			{
 				return 0;
 			}
@@ -259913,7 +259961,7 @@ void func_4747(int iParam0, int iParam1, var uParam2)
 
 void func_4748(int iParam0, int* iParam1, int* iParam2, int* iParam3, int* iParam4)
 {
-	if (Global_1978598.f_3 > Global_1978598.f_4)
+	if (Global_1978599.f_3 > Global_1978599.f_4)
 	{
 		HUD::GET_HUD_COLOUR(12, iParam1, iParam2, iParam3, iParam4);
 	}
@@ -260053,336 +260101,336 @@ void func_4762(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1499190;
+			*uParam0 = 1500262;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1499176;
+			uParam0->f_41 = 1500248;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1499020;
+			uParam0->f_34 = 1500092;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1498545;
+			uParam0->f_36 = 1499617;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1498336;
+			uParam0->f_40 = 1499408;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1498214;
+			uParam0->f_15 = 1499286;
 			break;
 		
 		case 6:
-			uParam0->f_11 = 1498204;
+			uParam0->f_11 = 1499276;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 1498032;
+			uParam0->f_22 = 1499104;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 1497987;
+			uParam0->f_9 = 1499059;
 			break;
 		
 		case 52:
-			uParam0->f_10 = 1497903;
+			uParam0->f_10 = 1498975;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1497809;
+			uParam0->f_37 = 1498881;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1497800;
+			uParam0->f_11 = 1498872;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1496622;
+			uParam0->f_39 = 1497694;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1496613;
+			uParam0->f_11 = 1497685;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1490056;
+			uParam0->f_65 = 1491129;
 			break;
 		
 		case 14:
-			uParam0->f_43 = 1489756;
+			uParam0->f_43 = 1490828;
 			break;
 		
 		case 13:
-			uParam0->f_42 = 1489699;
+			uParam0->f_42 = 1490771;
 			break;
 		
 		case 85:
-			*uParam0 = 1489455;
+			*uParam0 = 1490527;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1489393;
+			uParam0->f_2 = 1490465;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1489313;
+			uParam0->f_2 = 1490385;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1488593;
+			uParam0->f_5 = 1489665;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1485419;
+			uParam0->f_64 = 1486491;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1483060;
+			uParam0->f_21 = 1484132;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1483033;
+			uParam0->f_21 = 1484105;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1482857;
+			uParam0->f_3 = 1483929;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1482793;
+			uParam0->f_3 = 1483865;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1482689;
+			uParam0->f_62 = 1483761;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1482673;
+			uParam0->f_4 = 1483745;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1482570;
+			uParam0->f_28 = 1483642;
 			break;
 		
 		case 30:
-			uParam0->f_30 = 1482523;
+			uParam0->f_30 = 1483595;
 			break;
 		
 		case 31:
-			uParam0->f_30 = 1482486;
+			uParam0->f_30 = 1483558;
 			break;
 		
 		case 33:
-			uParam0->f_45 = 1480444;
+			uParam0->f_45 = 1481516;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1480122;
+			uParam0->f_27 = 1481194;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1479269;
+			uParam0->f_8 = 1480341;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1479139;
+			uParam0->f_46 = 1480211;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1478571;
+			uParam0->f_47 = 1479643;
 			break;
 		
 		case 42:
-			*uParam0 = 1478404;
+			*uParam0 = 1479476;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1475918;
+			uParam0->f_48 = 1476990;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1475861;
+			uParam0->f_67 = 1476933;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1448896;
+			uParam0->f_49 = 1449844;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 1448887;
+			uParam0->f_18 = 1449835;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 1448878;
+			uParam0->f_18 = 1449826;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 1448870;
+			uParam0->f_66 = 1449818;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 1448847;
+			uParam0->f_16 = 1449795;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 1448775;
+			uParam0->f_52 = 1449723;
 			break;
 		
 		case 59:
 			uParam0->f_77 = 1;
-			uParam0->f_53 = 1448647;
+			uParam0->f_53 = 1449595;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 1448621;
+			uParam0->f_8 = 1449569;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 1448612;
+			uParam0->f_11 = 1449560;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 1447672;
+			uParam0->f_8 = 1448620;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 1447393;
+			uParam0->f_8 = 1448341;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 1447370;
+			uParam0->f_19 = 1448318;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 1447042;
+			uParam0->f_17 = 1447990;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 1446332;
+			uParam0->f_54 = 1447280;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 1446313;
+			uParam0->f_55 = 1447261;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 1445880;
+			uParam0->f_12 = 1446828;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 1445718;
+			uParam0->f_16 = 1446666;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1444285;
+			uParam0->f_56 = 1445233;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1442922;
+			uParam0->f_25 = 1443870;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1442563;
+			uParam0->f_25 = 1443511;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1442449;
+			uParam0->f_25 = 1443397;
 			break;
 		
 		case 74:
-			*uParam0 = 1441486;
+			*uParam0 = 1442437;
 			break;
 		
 		case 75:
-			*uParam0 = 1441477;
+			*uParam0 = 1442428;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1441465;
+			uParam0->f_57 = 1442416;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1440921;
+			uParam0->f_58 = 1441872;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1440909;
+			uParam0->f_59 = 1441860;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1440721;
+			uParam0->f_7 = 1441671;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 1440712;
+			uParam0->f_1 = 1441662;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 1439125;
+			uParam0->f_1 = 1440075;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 1437609;
+			uParam0->f_1 = 1438559;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 1437600;
+			uParam0->f_1 = 1438550;
 			break;
 		
 		case 111:
-			uParam0->f_63 = 1437592;
+			uParam0->f_63 = 1438542;
 			break;
 		
 		case 118:
-			uParam0->f_1 = 1437552;
+			uParam0->f_1 = 1438502;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 1437107;
+			uParam0->f_1 = 1438057;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 1430938;
+			uParam0->f_1 = 1431888;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 1420794;
+			uParam0->f_26 = 1421744;
 			break;
 		
 		case 123:
-			uParam0->f_26 = 1419947;
+			uParam0->f_26 = 1420897;
 			break;
 		
 		case 134:
-			uParam0->f_16 = 1419936;
+			uParam0->f_16 = 1420886;
 			break;
 		
 		case 135:
-			uParam0->f_3 = 1419927;
+			uParam0->f_3 = 1420877;
 			break;
 		
 		case 136:
-			uParam0->f_20 = 1419918;
+			uParam0->f_20 = 1420868;
 			break;
 		
 		case 139:
-			uParam0->f_20 = 1419909;
+			uParam0->f_20 = 1420859;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1419737;
+			uParam0->f_68 = 1420687;
 			break;
 		
 		case 82:
-			uParam0->f_16 = 1419714;
+			uParam0->f_16 = 1420664;
 			break;
 		
 		case 155:
-			*uParam0 = 1419660;
+			*uParam0 = 1420610;
 			break;
 	}
 }
@@ -273993,312 +274041,312 @@ void func_5011(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1515377;
+			*uParam0 = 1516449;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1515368;
+			uParam0->f_41 = 1516440;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1515300;
+			uParam0->f_34 = 1516372;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1514860;
+			uParam0->f_36 = 1515932;
 			break;
 		
 		case 10:
-			uParam0->f_76 = 1514820;
+			uParam0->f_76 = 1515892;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1514705;
+			uParam0->f_40 = 1515777;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1514692;
+			uParam0->f_15 = 1515764;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1514628;
+			uParam0->f_37 = 1515700;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1514619;
+			uParam0->f_11 = 1515691;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1514158;
+			uParam0->f_39 = 1515230;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1514149;
+			uParam0->f_11 = 1515221;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1513758;
+			uParam0->f_65 = 1514830;
 			break;
 		
 		case 14:
-			uParam0->f_43 = 1513750;
+			uParam0->f_43 = 1514822;
 			break;
 		
 		case 13:
-			uParam0->f_42 = 1513741;
+			uParam0->f_42 = 1514813;
 			break;
 		
 		case 85:
-			*uParam0 = 1513717;
+			*uParam0 = 1514789;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1513655;
+			uParam0->f_2 = 1514727;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1513576;
+			uParam0->f_2 = 1514648;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1513279;
+			uParam0->f_5 = 1514351;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1513270;
+			uParam0->f_64 = 1514342;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1513258;
+			uParam0->f_21 = 1514330;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1513231;
+			uParam0->f_21 = 1514303;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1513222;
+			uParam0->f_3 = 1514294;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1513213;
+			uParam0->f_3 = 1514285;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1513191;
+			uParam0->f_62 = 1514263;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1513182;
+			uParam0->f_4 = 1514254;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1513174;
+			uParam0->f_28 = 1514246;
 			break;
 		
 		case 30:
-			uParam0->f_30 = 1513166;
+			uParam0->f_30 = 1514238;
 			break;
 		
 		case 33:
-			uParam0->f_45 = 1513158;
+			uParam0->f_45 = 1514230;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1512826;
+			uParam0->f_27 = 1513898;
 			break;
 		
 		case 36:
-			uParam0->f_29 = 1512818;
+			uParam0->f_29 = 1513890;
 			break;
 		
 		case 37:
-			uParam0->f_28 = 1512810;
+			uParam0->f_28 = 1513882;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1512493;
+			uParam0->f_8 = 1513565;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1512467;
+			uParam0->f_46 = 1513539;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1512402;
+			uParam0->f_47 = 1513474;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1508670;
+			uParam0->f_48 = 1509742;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1508625;
+			uParam0->f_67 = 1509697;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1505457;
+			uParam0->f_49 = 1506529;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 1505448;
+			uParam0->f_18 = 1506520;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 1505439;
+			uParam0->f_18 = 1506511;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 1505431;
+			uParam0->f_66 = 1506503;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 1505420;
+			uParam0->f_16 = 1506492;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 1505307;
+			uParam0->f_52 = 1506379;
 			break;
 		
 		case 59:
 			uParam0->f_77 = 1;
-			uParam0->f_53 = 1504170;
+			uParam0->f_53 = 1505242;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 1504161;
+			uParam0->f_8 = 1505233;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 1504152;
+			uParam0->f_11 = 1505224;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 1504143;
+			uParam0->f_8 = 1505215;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 1504134;
+			uParam0->f_8 = 1505206;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 1504123;
+			uParam0->f_19 = 1505195;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 1504112;
+			uParam0->f_17 = 1505184;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 1504104;
+			uParam0->f_54 = 1505176;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 1504095;
+			uParam0->f_55 = 1505167;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 1504086;
+			uParam0->f_12 = 1505158;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 1504044;
+			uParam0->f_16 = 1505116;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1504036;
+			uParam0->f_56 = 1505108;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1504028;
+			uParam0->f_25 = 1505100;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1503725;
+			uParam0->f_25 = 1504797;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1503655;
+			uParam0->f_25 = 1504727;
 			break;
 		
 		case 74:
-			*uParam0 = 1503006;
+			*uParam0 = 1504078;
 			break;
 		
 		case 75:
-			*uParam0 = 1502997;
+			*uParam0 = 1504069;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1502989;
+			uParam0->f_57 = 1504061;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1502980;
+			uParam0->f_58 = 1504052;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1502968;
+			uParam0->f_59 = 1504040;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1502534;
+			uParam0->f_7 = 1503606;
 			break;
 		
 		case 25:
-			uParam0->f_8 = 1502509;
+			uParam0->f_8 = 1503581;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 1502492;
+			uParam0->f_1 = 1503564;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 1501949;
+			uParam0->f_1 = 1503021;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 1500908;
+			uParam0->f_1 = 1501980;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 1500899;
+			uParam0->f_1 = 1501971;
 			break;
 		
 		case 111:
-			uParam0->f_63 = 1500891;
+			uParam0->f_63 = 1501963;
 			break;
 		
 		case 118:
-			uParam0->f_1 = 1500882;
+			uParam0->f_1 = 1501954;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 1500873;
+			uParam0->f_1 = 1501945;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 1500864;
+			uParam0->f_1 = 1501936;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 1500856;
+			uParam0->f_26 = 1501928;
 			break;
 		
 		case 123:
-			uParam0->f_26 = 1500848;
+			uParam0->f_26 = 1501920;
 			break;
 		
 		case 134:
-			uParam0->f_16 = 1500836;
+			uParam0->f_16 = 1501908;
 			break;
 		
 		case 135:
-			uParam0->f_3 = 1500827;
+			uParam0->f_3 = 1501899;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1500524;
+			uParam0->f_68 = 1501596;
 			break;
 	}
 }
@@ -276883,368 +276931,368 @@ void func_5118(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1550433;
+			*uParam0 = 1551670;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1550410;
+			uParam0->f_41 = 1551647;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1550280;
+			uParam0->f_34 = 1551517;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1549640;
+			uParam0->f_36 = 1550877;
 			break;
 		
 		case 10:
-			uParam0->f_76 = 1549593;
+			uParam0->f_76 = 1550830;
 			break;
 		
 		case 12:
-			uParam0->f_8 = 1549545;
+			uParam0->f_8 = 1550782;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1549272;
+			uParam0->f_40 = 1550509;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1549259;
+			uParam0->f_15 = 1550496;
 			break;
 		
 		case 6:
-			uParam0->f_11 = 1549249;
+			uParam0->f_11 = 1550486;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 1549016;
+			uParam0->f_22 = 1550253;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 1548968;
+			uParam0->f_9 = 1550205;
 			break;
 		
 		case 52:
-			uParam0->f_10 = 1548932;
+			uParam0->f_10 = 1550169;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1548817;
+			uParam0->f_37 = 1550054;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1548808;
+			uParam0->f_11 = 1550045;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1547878;
+			uParam0->f_39 = 1549115;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1547869;
+			uParam0->f_11 = 1549106;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1546710;
+			uParam0->f_65 = 1547947;
 			break;
 		
 		case 14:
-			uParam0->f_43 = 1546666;
+			uParam0->f_43 = 1547903;
 			break;
 		
 		case 13:
-			uParam0->f_42 = 1546643;
+			uParam0->f_42 = 1547880;
 			break;
 		
 		case 85:
-			*uParam0 = 1546619;
+			*uParam0 = 1547856;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1546557;
+			uParam0->f_2 = 1547794;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1546478;
+			uParam0->f_2 = 1547715;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1545804;
+			uParam0->f_5 = 1547041;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1542514;
+			uParam0->f_64 = 1543751;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1541519;
+			uParam0->f_21 = 1542756;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1541473;
+			uParam0->f_21 = 1542710;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1541300;
+			uParam0->f_3 = 1542537;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1541213;
+			uParam0->f_3 = 1542450;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1541069;
+			uParam0->f_62 = 1542306;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1541053;
+			uParam0->f_4 = 1542290;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1540950;
+			uParam0->f_28 = 1542187;
 			break;
 		
 		case 30:
-			uParam0->f_30 = 1540903;
+			uParam0->f_30 = 1542140;
 			break;
 		
 		case 31:
-			uParam0->f_30 = 1540866;
+			uParam0->f_30 = 1542103;
 			break;
 		
 		case 33:
-			uParam0->f_45 = 1539453;
+			uParam0->f_45 = 1540691;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1539087;
+			uParam0->f_27 = 1540325;
 			break;
 		
 		case 36:
-			uParam0->f_29 = 1538267;
+			uParam0->f_29 = 1539338;
 			break;
 		
 		case 37:
-			uParam0->f_28 = 1538226;
+			uParam0->f_28 = 1539297;
 			break;
 		
 		case 38:
-			uParam0->f_32 = 1538159;
+			uParam0->f_32 = 1539230;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1537884;
+			uParam0->f_8 = 1538955;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1537692;
+			uParam0->f_46 = 1538763;
 			break;
 		
 		case 53:
-			uParam0->f_8 = 1537584;
+			uParam0->f_8 = 1538655;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1537272;
+			uParam0->f_47 = 1538343;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1532280;
+			uParam0->f_48 = 1533351;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1532223;
+			uParam0->f_67 = 1533294;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1526019;
+			uParam0->f_49 = 1527090;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 1526010;
+			uParam0->f_18 = 1527081;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 1526001;
+			uParam0->f_18 = 1527072;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 1525993;
+			uParam0->f_66 = 1527064;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 1525970;
+			uParam0->f_16 = 1527041;
 			break;
 		
 		case 90:
-			uParam0->f_23 = 1525957;
+			uParam0->f_23 = 1527028;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 1525654;
+			uParam0->f_52 = 1526725;
 			break;
 		
 		case 59:
 			uParam0->f_77 = 1;
-			uParam0->f_53 = 1523489;
+			uParam0->f_53 = 1524562;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 1523441;
+			uParam0->f_8 = 1524514;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 1523432;
+			uParam0->f_11 = 1524505;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 1523253;
+			uParam0->f_8 = 1524326;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 1523244;
+			uParam0->f_8 = 1524317;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 1523233;
+			uParam0->f_19 = 1524306;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 1523191;
+			uParam0->f_17 = 1524264;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 1523183;
+			uParam0->f_54 = 1524256;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 1523174;
+			uParam0->f_55 = 1524247;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 1523165;
+			uParam0->f_12 = 1524238;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 1523123;
+			uParam0->f_16 = 1524196;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1523115;
+			uParam0->f_56 = 1524188;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1521981;
+			uParam0->f_25 = 1523053;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1521640;
+			uParam0->f_25 = 1522712;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1521526;
+			uParam0->f_25 = 1522598;
 			break;
 		
 		case 74:
-			*uParam0 = 1520698;
+			*uParam0 = 1521770;
 			break;
 		
 		case 75:
-			*uParam0 = 1520689;
+			*uParam0 = 1521761;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1520677;
+			uParam0->f_57 = 1521749;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1520585;
+			uParam0->f_58 = 1521657;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1520573;
+			uParam0->f_59 = 1521645;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1520385;
+			uParam0->f_7 = 1521457;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 1520376;
+			uParam0->f_1 = 1521448;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 1520362;
+			uParam0->f_1 = 1521434;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 1520346;
+			uParam0->f_1 = 1521418;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 1520337;
+			uParam0->f_1 = 1521409;
 			break;
 		
 		case 111:
-			uParam0->f_63 = 1520329;
+			uParam0->f_63 = 1521401;
 			break;
 		
 		case 118:
-			uParam0->f_1 = 1520320;
+			uParam0->f_1 = 1521392;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 1519877;
+			uParam0->f_1 = 1520949;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 1518348;
+			uParam0->f_1 = 1519420;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 1517486;
+			uParam0->f_26 = 1518558;
 			break;
 		
 		case 123:
-			uParam0->f_26 = 1517309;
+			uParam0->f_26 = 1518381;
 			break;
 		
 		case 134:
-			uParam0->f_16 = 1517297;
+			uParam0->f_16 = 1518369;
 			break;
 		
 		case 135:
-			uParam0->f_3 = 1517283;
+			uParam0->f_3 = 1518355;
 			break;
 		
 		case 136:
-			uParam0->f_20 = 878201;
+			uParam0->f_20 = 879309;
 			break;
 		
 		case 139:
-			uParam0->f_20 = 762288;
+			uParam0->f_20 = 763413;
 			break;
 		
 		case 140:
-			uParam0->f_11 = 1517274;
+			uParam0->f_11 = 1518346;
 			break;
 		
 		case 141:
-			uParam0->f_31 = 1517173;
+			uParam0->f_31 = 1518245;
 			break;
 		
 		case 142:
-			uParam0->f_23 = 1517148;
+			uParam0->f_23 = 1518220;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1516976;
+			uParam0->f_68 = 1518048;
 			break;
 		
 		case 147:
-			uParam0->f_23 = 1516949;
+			uParam0->f_23 = 1518021;
 			break;
 	}
 }
@@ -283178,348 +283226,348 @@ void func_5288(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1578310;
+			*uParam0 = 1579545;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1578301;
+			uParam0->f_41 = 1579536;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1578233;
+			uParam0->f_34 = 1579468;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1577888;
+			uParam0->f_36 = 1579123;
 			break;
 		
 		case 10:
-			uParam0->f_76 = 1577848;
+			uParam0->f_76 = 1579083;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1577616;
+			uParam0->f_40 = 1578851;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1577603;
+			uParam0->f_15 = 1578838;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1577539;
+			uParam0->f_37 = 1578774;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1577530;
+			uParam0->f_11 = 1578765;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1576780;
+			uParam0->f_39 = 1578015;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1576771;
+			uParam0->f_11 = 1578006;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1575626;
+			uParam0->f_65 = 1576861;
 			break;
 		
 		case 14:
-			uParam0->f_43 = 1575618;
+			uParam0->f_43 = 1576853;
 			break;
 		
 		case 13:
-			uParam0->f_42 = 1575609;
+			uParam0->f_42 = 1576844;
 			break;
 		
 		case 85:
-			*uParam0 = 1575585;
+			*uParam0 = 1576820;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1575513;
+			uParam0->f_2 = 1576748;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1575424;
+			uParam0->f_2 = 1576659;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1575055;
+			uParam0->f_5 = 1576290;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1574986;
+			uParam0->f_64 = 1576221;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1574124;
+			uParam0->f_21 = 1575359;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1574097;
+			uParam0->f_21 = 1575332;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1574088;
+			uParam0->f_3 = 1575323;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1574040;
+			uParam0->f_3 = 1575275;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1573985;
+			uParam0->f_62 = 1575220;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1573872;
+			uParam0->f_4 = 1575107;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1573864;
+			uParam0->f_28 = 1575099;
 			break;
 		
 		case 30:
-			uParam0->f_30 = 1573856;
+			uParam0->f_30 = 1575091;
 			break;
 		
 		case 33:
-			uParam0->f_45 = 1571297;
+			uParam0->f_45 = 1572532;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1571289;
+			uParam0->f_27 = 1572524;
 			break;
 		
 		case 36:
-			uParam0->f_29 = 1571281;
+			uParam0->f_29 = 1572516;
 			break;
 		
 		case 37:
-			uParam0->f_28 = 1571273;
+			uParam0->f_28 = 1572508;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1570996;
+			uParam0->f_8 = 1572231;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1570970;
+			uParam0->f_46 = 1572205;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1570905;
+			uParam0->f_47 = 1572140;
 			break;
 		
 		case 82:
-			uParam0->f_16 = 1570882;
+			uParam0->f_16 = 1572117;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1568328;
+			uParam0->f_48 = 1569563;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1568283;
+			uParam0->f_67 = 1569518;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1568187;
+			uParam0->f_49 = 1569422;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 1568178;
+			uParam0->f_18 = 1569413;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 1568169;
+			uParam0->f_18 = 1569404;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 1568161;
+			uParam0->f_66 = 1569396;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 1568150;
+			uParam0->f_16 = 1569385;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 1568037;
+			uParam0->f_52 = 1569272;
 			break;
 		
 		case 59:
 			uParam0->f_77 = 1;
-			uParam0->f_53 = 1567168;
+			uParam0->f_53 = 1568403;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 1567159;
+			uParam0->f_8 = 1568394;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 1567150;
+			uParam0->f_11 = 1568385;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 1566939;
+			uParam0->f_8 = 1568174;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 1566930;
+			uParam0->f_8 = 1568165;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 1566905;
+			uParam0->f_19 = 1568140;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 1566863;
+			uParam0->f_17 = 1568098;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 1566826;
+			uParam0->f_54 = 1568061;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 1566817;
+			uParam0->f_55 = 1568052;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 1566775;
+			uParam0->f_12 = 1568010;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 1566733;
+			uParam0->f_16 = 1567968;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1566020;
+			uParam0->f_56 = 1567255;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1566012;
+			uParam0->f_25 = 1567247;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1565671;
+			uParam0->f_25 = 1566906;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1565601;
+			uParam0->f_25 = 1566836;
 			break;
 		
 		case 74:
-			*uParam0 = 1564904;
+			*uParam0 = 1566139;
 			break;
 		
 		case 75:
-			*uParam0 = 1564895;
+			*uParam0 = 1566130;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1564822;
+			uParam0->f_57 = 1566057;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1564813;
+			uParam0->f_58 = 1566048;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1564801;
+			uParam0->f_59 = 1566036;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1564792;
+			uParam0->f_7 = 1566027;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 1564265;
+			uParam0->f_1 = 1565500;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 1562707;
+			uParam0->f_1 = 1563942;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 1559907;
+			uParam0->f_1 = 1561142;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 1559892;
+			uParam0->f_1 = 1561127;
 			break;
 		
 		case 111:
-			uParam0->f_63 = 1559530;
+			uParam0->f_63 = 1560765;
 			break;
 		
 		case 118:
-			uParam0->f_1 = 1559237;
+			uParam0->f_1 = 1560472;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 1558728;
+			uParam0->f_1 = 1559963;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 1557094;
+			uParam0->f_1 = 1558329;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 1556815;
+			uParam0->f_26 = 1558050;
 			break;
 		
 		case 123:
-			uParam0->f_26 = 1556285;
+			uParam0->f_26 = 1557524;
 			break;
 		
 		case 134:
-			uParam0->f_16 = 1556273;
+			uParam0->f_16 = 1557512;
 			break;
 		
 		case 135:
-			uParam0->f_3 = 1556264;
+			uParam0->f_3 = 1557503;
 			break;
 		
 		case 136:
-			uParam0->f_20 = 878201;
+			uParam0->f_20 = 879309;
 			break;
 		
 		case 137:
-			uParam0->f_3 = 1556127;
+			uParam0->f_3 = 1557366;
 			break;
 		
 		case 138:
-			*uParam0 = 1556079;
+			*uParam0 = 1557318;
 			break;
 		
 		case 139:
-			uParam0->f_20 = 762288;
+			uParam0->f_20 = 763413;
 			break;
 		
 		case 140:
-			uParam0->f_11 = 1517274;
+			uParam0->f_11 = 1518346;
 			break;
 		
 		case 141:
-			uParam0->f_31 = 1517173;
+			uParam0->f_31 = 1518245;
 			break;
 		
 		case 142:
-			uParam0->f_23 = 1517148;
+			uParam0->f_23 = 1518220;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1556071;
+			uParam0->f_68 = 1557310;
 			break;
 		
 		case 146:
-			uParam0->f_1 = 1551975;
+			uParam0->f_1 = 1553212;
 			break;
 		
 		case 147:
-			uParam0->f_23 = 1551919;
+			uParam0->f_23 = 1553156;
 			break;
 	}
 }
@@ -284209,7 +284257,7 @@ void func_5313(int iParam0, var uParam1)
 		if (!BitTest(Global_1950198.f_6, 21))
 		{
 			func_415(27245, 1, -1);
-			MISC::SET_BIT(&(Global_1971888.f_22), 19);
+			MISC::SET_BIT(&(Global_1971889.f_22), 19);
 			MISC::SET_BIT(&(Global_2733002.f_5840), true);
 			if (func_451(PLAYER::PLAYER_ID(), 0) && func_542(PLAYER::PLAYER_ID()))
 			{
@@ -285913,7 +285961,7 @@ int func_5357(bool bParam0)
 {
 	if (func_30(bParam0))
 	{
-		return BitTest(Global_1983166[bParam0 /*149*/].f_73, 11);
+		return BitTest(Global_1983167[bParam0 /*149*/].f_73, 11);
 	}
 	return 0;
 }
@@ -285931,7 +285979,7 @@ int func_5359(bool bParam0, int iParam1)
 {
 	if (func_30(bParam0) && iParam1 > -1)
 	{
-		return BitTest(Global_1983166[bParam0 /*149*/].f_73.f_4, iParam1);
+		return BitTest(Global_1983167[bParam0 /*149*/].f_73.f_4, iParam1);
 	}
 	return 0;
 }
@@ -285949,7 +285997,7 @@ int func_5361(bool bParam0)
 {
 	if (func_30(bParam0))
 	{
-		return Global_1983166[bParam0 /*149*/].f_73.f_21;
+		return Global_1983167[bParam0 /*149*/].f_73.f_21;
 	}
 	return -1;
 }
@@ -286741,7 +286789,7 @@ int func_5388(var uParam0, var uParam1)
 	{
 		return 0;
 	}
-	if ((Global_1971555 >= 10 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_follow_nav_mesh_to_coord")) != 0) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_follow_nav_mesh_to_coord")) != 1)
+	if ((Global_1971556 >= 10 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_follow_nav_mesh_to_coord")) != 0) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_follow_nav_mesh_to_coord")) != 1)
 	{
 		MISC::SET_BIT(&(Global_1950198.f_751), true);
 		return 1;
@@ -288158,328 +288206,328 @@ void func_5442(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1613929;
+			*uParam0 = 1615161;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1613915;
+			uParam0->f_41 = 1615147;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1613816;
+			uParam0->f_34 = 1615048;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1612779;
+			uParam0->f_36 = 1614011;
 			break;
 		
 		case 10:
-			uParam0->f_76 = 1612732;
+			uParam0->f_76 = 1613964;
 			break;
 		
 		case 12:
-			uParam0->f_8 = 1612684;
+			uParam0->f_8 = 1613916;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1612520;
+			uParam0->f_40 = 1613752;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1612466;
+			uParam0->f_15 = 1613698;
 			break;
 		
 		case 6:
-			uParam0->f_11 = 1612411;
+			uParam0->f_11 = 1613643;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 1612274;
+			uParam0->f_22 = 1613506;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 1612205;
+			uParam0->f_9 = 1613437;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1612090;
+			uParam0->f_37 = 1613322;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1612080;
+			uParam0->f_11 = 1613312;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1610911;
+			uParam0->f_39 = 1612143;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1610902;
+			uParam0->f_11 = 1612134;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1609575;
+			uParam0->f_65 = 1610807;
 			break;
 		
 		case 14:
-			uParam0->f_43 = 1609531;
+			uParam0->f_43 = 1610763;
 			break;
 		
 		case 13:
-			uParam0->f_42 = 1609508;
+			uParam0->f_42 = 1610740;
 			break;
 		
 		case 85:
-			*uParam0 = 1609484;
+			*uParam0 = 1610716;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1609421;
+			uParam0->f_2 = 1610653;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1609341;
+			uParam0->f_2 = 1610573;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1608698;
+			uParam0->f_5 = 1609930;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1605594;
+			uParam0->f_64 = 1606829;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1604822;
+			uParam0->f_21 = 1606057;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1604795;
+			uParam0->f_21 = 1606030;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1604616;
+			uParam0->f_3 = 1605851;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1604552;
+			uParam0->f_3 = 1605787;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1604338;
+			uParam0->f_62 = 1605572;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1604322;
+			uParam0->f_4 = 1605556;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1604219;
+			uParam0->f_28 = 1605453;
 			break;
 		
 		case 30:
-			uParam0->f_30 = 1604172;
+			uParam0->f_30 = 1605406;
 			break;
 		
 		case 31:
-			uParam0->f_30 = 1604135;
+			uParam0->f_30 = 1605369;
 			break;
 		
 		case 33:
-			uParam0->f_45 = 1603307;
+			uParam0->f_45 = 1604541;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1602941;
+			uParam0->f_27 = 1604175;
 			break;
 		
 		case 36:
-			uParam0->f_29 = 1602559;
+			uParam0->f_29 = 1603793;
 			break;
 		
 		case 37:
-			uParam0->f_28 = 1602508;
+			uParam0->f_28 = 1603742;
 			break;
 		
 		case 38:
-			uParam0->f_32 = 1602500;
+			uParam0->f_32 = 1603734;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1602323;
+			uParam0->f_8 = 1603557;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1602207;
+			uParam0->f_46 = 1603441;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1601791;
+			uParam0->f_47 = 1603025;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1590498;
+			uParam0->f_48 = 1591732;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1590453;
+			uParam0->f_67 = 1591687;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1587365;
+			uParam0->f_49 = 1588600;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 1587356;
+			uParam0->f_18 = 1588591;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 1587347;
+			uParam0->f_18 = 1588582;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 1587339;
+			uParam0->f_66 = 1588574;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 1587290;
+			uParam0->f_16 = 1588525;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 1587208;
+			uParam0->f_52 = 1588443;
 			break;
 		
 		case 59:
 			uParam0->f_77 = 1;
-			uParam0->f_53 = 1586412;
+			uParam0->f_53 = 1587647;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 1586365;
+			uParam0->f_8 = 1587600;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 1586356;
+			uParam0->f_11 = 1587591;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 1586216;
+			uParam0->f_8 = 1587451;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 1585984;
+			uParam0->f_8 = 1587219;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 1585973;
+			uParam0->f_19 = 1587208;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 1585891;
+			uParam0->f_17 = 1587126;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 1585883;
+			uParam0->f_54 = 1587118;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 1585874;
+			uParam0->f_55 = 1587109;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 1585865;
+			uParam0->f_12 = 1587100;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 1585823;
+			uParam0->f_16 = 1587058;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1585815;
+			uParam0->f_56 = 1587050;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1584777;
+			uParam0->f_25 = 1586012;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1584474;
+			uParam0->f_25 = 1585709;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1584360;
+			uParam0->f_25 = 1585595;
 			break;
 		
 		case 74:
-			*uParam0 = 1583517;
+			*uParam0 = 1584752;
 			break;
 		
 		case 75:
-			*uParam0 = 1583508;
+			*uParam0 = 1584743;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1583435;
+			uParam0->f_57 = 1584670;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1583426;
+			uParam0->f_58 = 1584661;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1583414;
+			uParam0->f_59 = 1584649;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1583173;
+			uParam0->f_7 = 1584408;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 1583164;
+			uParam0->f_1 = 1584399;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 1581430;
+			uParam0->f_1 = 1582665;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 1579977;
+			uParam0->f_1 = 1581212;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 1579968;
+			uParam0->f_1 = 1581203;
 			break;
 		
 		case 111:
-			uParam0->f_63 = 1579960;
+			uParam0->f_63 = 1581195;
 			break;
 		
 		case 118:
-			uParam0->f_1 = 1579951;
+			uParam0->f_1 = 1581186;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 1579942;
+			uParam0->f_1 = 1581177;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 1579933;
+			uParam0->f_1 = 1581168;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 1579925;
+			uParam0->f_26 = 1581160;
 			break;
 		
 		case 123:
-			uParam0->f_26 = 1579917;
+			uParam0->f_26 = 1581152;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1579745;
+			uParam0->f_68 = 1580980;
 			break;
 		
 		case 147:
-			uParam0->f_23 = 1579712;
+			uParam0->f_23 = 1580947;
 			break;
 	}
 }
@@ -294375,243 +294423,243 @@ void func_5604(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1706625;
+			*uParam0 = 1707853;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1706569;
+			uParam0->f_34 = 1707797;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1706225;
+			uParam0->f_36 = 1707453;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1706186;
+			uParam0->f_40 = 1707414;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1706152;
+			uParam0->f_15 = 1707380;
 			break;
 		
 		case 6:
-			uParam0->f_11 = 1706141;
+			uParam0->f_11 = 1707369;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1706077;
+			uParam0->f_37 = 1707305;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1706054;
+			uParam0->f_41 = 1707282;
 			break;
 		
 		case 85:
-			*uParam0 = 1706030;
+			*uParam0 = 1707258;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 1705893;
+			uParam0->f_22 = 1707121;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 1705814;
+			uParam0->f_9 = 1707042;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1705805;
+			uParam0->f_11 = 1707033;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1705251;
+			uParam0->f_39 = 1706479;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1705243;
+			uParam0->f_65 = 1706471;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1699369;
+			uParam0->f_2 = 1700596;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1699360;
+			uParam0->f_2 = 1700587;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1699345;
+			uParam0->f_4 = 1700572;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1698799;
+			uParam0->f_5 = 1700026;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1694806;
+			uParam0->f_64 = 1696033;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1693964;
+			uParam0->f_21 = 1695191;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1693937;
+			uParam0->f_21 = 1695164;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1693726;
+			uParam0->f_3 = 1694953;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1693563;
+			uParam0->f_3 = 1694790;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1693305;
+			uParam0->f_62 = 1694532;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1693222;
+			uParam0->f_28 = 1694449;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1691888;
+			uParam0->f_27 = 1693115;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1690585;
+			uParam0->f_8 = 1691812;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1689894;
+			uParam0->f_46 = 1691121;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1688989;
+			uParam0->f_47 = 1690216;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1688980;
+			uParam0->f_11 = 1690207;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1688205;
+			uParam0->f_48 = 1689432;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1688152;
+			uParam0->f_67 = 1689379;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1619713;
+			uParam0->f_49 = 1620945;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 1619704;
+			uParam0->f_18 = 1620936;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 1619695;
+			uParam0->f_18 = 1620927;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 1619687;
+			uParam0->f_66 = 1620919;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 1619664;
+			uParam0->f_16 = 1620896;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 1619524;
+			uParam0->f_52 = 1620756;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 1619489;
+			uParam0->f_8 = 1620721;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 1619480;
+			uParam0->f_11 = 1620712;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 1619471;
+			uParam0->f_8 = 1620703;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 1619447;
+			uParam0->f_8 = 1620679;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 1619436;
+			uParam0->f_19 = 1620668;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 1619357;
+			uParam0->f_17 = 1620589;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 1619349;
+			uParam0->f_54 = 1620581;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 1619340;
+			uParam0->f_55 = 1620572;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 1619330;
+			uParam0->f_12 = 1620562;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 1618997;
+			uParam0->f_16 = 1620229;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1617432;
+			uParam0->f_56 = 1618664;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1616498;
+			uParam0->f_25 = 1617730;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1616302;
+			uParam0->f_25 = 1617534;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1616199;
+			uParam0->f_25 = 1617431;
 			break;
 		
 		case 74:
-			*uParam0 = 1615510;
+			*uParam0 = 1616742;
 			break;
 		
 		case 75:
-			*uParam0 = 1615501;
+			*uParam0 = 1616733;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1615489;
+			uParam0->f_57 = 1616721;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1615480;
+			uParam0->f_58 = 1616712;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1615468;
+			uParam0->f_59 = 1616700;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1615095;
+			uParam0->f_7 = 1616327;
 			break;
 		
 		case 79:
-			uParam0->f_60 = 1615086;
+			uParam0->f_60 = 1616318;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1614969;
+			uParam0->f_68 = 1616201;
 			break;
 	}
 }
@@ -308267,316 +308315,316 @@ void func_5742(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1769205;
+			*uParam0 = 1770432;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1768965;
+			uParam0->f_34 = 1770192;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1766660;
+			uParam0->f_36 = 1767882;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1766440;
+			uParam0->f_40 = 1767662;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1766233;
+			uParam0->f_15 = 1767455;
 			break;
 		
 		case 6:
-			uParam0->f_11 = 1766155;
+			uParam0->f_11 = 1767377;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 1765959;
+			uParam0->f_22 = 1767181;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 1765903;
+			uParam0->f_9 = 1767125;
 			break;
 		
 		case 52:
-			uParam0->f_10 = 1765866;
+			uParam0->f_10 = 1767088;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1765630;
+			uParam0->f_37 = 1766852;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1765616;
+			uParam0->f_41 = 1766838;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1765607;
+			uParam0->f_11 = 1766829;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1762205;
+			uParam0->f_39 = 1763427;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1762196;
+			uParam0->f_11 = 1763418;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1748311;
+			uParam0->f_65 = 1749532;
 			break;
 		
 		case 85:
-			*uParam0 = 1748055;
+			*uParam0 = 1749276;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1748006;
+			uParam0->f_2 = 1749227;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1747795;
+			uParam0->f_2 = 1749016;
 			break;
 		
 		case 54:
-			*uParam0 = 1747786;
+			*uParam0 = 1749007;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1747757;
+			uParam0->f_4 = 1748978;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1747034;
+			uParam0->f_5 = 1748255;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1743196;
+			uParam0->f_64 = 1744417;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1741837;
+			uParam0->f_21 = 1743058;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1741791;
+			uParam0->f_21 = 1743012;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1741626;
+			uParam0->f_3 = 1742847;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1741562;
+			uParam0->f_3 = 1742783;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1741335;
+			uParam0->f_62 = 1742556;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1741212;
+			uParam0->f_28 = 1742433;
 			break;
 		
 		case 33:
-			uParam0->f_45 = 1737980;
+			uParam0->f_45 = 1739201;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1737659;
+			uParam0->f_27 = 1738880;
 			break;
 		
 		case 36:
-			uParam0->f_29 = 1736793;
+			uParam0->f_29 = 1738014;
 			break;
 		
 		case 37:
-			uParam0->f_28 = 1736676;
+			uParam0->f_28 = 1737901;
 			break;
 		
 		case 38:
-			uParam0->f_32 = 1736595;
+			uParam0->f_32 = 1737820;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1735709;
+			uParam0->f_8 = 1736934;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1735167;
+			uParam0->f_46 = 1736391;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1734489;
+			uParam0->f_47 = 1735713;
 			break;
 		
 		case 42:
-			*uParam0 = 1734449;
+			*uParam0 = 1735673;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1725183;
+			uParam0->f_48 = 1726407;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1725125;
+			uParam0->f_67 = 1726349;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1620795;
+			uParam0->f_49 = 1622032;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 1725116;
+			uParam0->f_18 = 1726340;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 1725107;
+			uParam0->f_18 = 1726331;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 1725099;
+			uParam0->f_66 = 1726323;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 1725050;
+			uParam0->f_16 = 1726274;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 1724758;
+			uParam0->f_52 = 1725982;
 			break;
 		
 		case 59:
 			uParam0->f_77 = 1;
-			uParam0->f_53 = 1721746;
+			uParam0->f_53 = 1722970;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 1721642;
+			uParam0->f_8 = 1722866;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 1721633;
+			uParam0->f_11 = 1722857;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 1721283;
+			uParam0->f_8 = 1722507;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 1721111;
+			uParam0->f_8 = 1722335;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 1721088;
+			uParam0->f_19 = 1722312;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 1720574;
+			uParam0->f_17 = 1721798;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 1720308;
+			uParam0->f_54 = 1721536;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 1720299;
+			uParam0->f_55 = 1721527;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 1718923;
+			uParam0->f_12 = 1720151;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 1718665;
+			uParam0->f_16 = 1719893;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1718515;
+			uParam0->f_56 = 1719743;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1716832;
+			uParam0->f_25 = 1718060;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1716521;
+			uParam0->f_25 = 1717749;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1716369;
+			uParam0->f_25 = 1717597;
 			break;
 		
 		case 74:
-			*uParam0 = 1715369;
+			*uParam0 = 1716597;
 			break;
 		
 		case 75:
-			*uParam0 = 1715360;
+			*uParam0 = 1716588;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1714911;
+			uParam0->f_57 = 1716139;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1714632;
+			uParam0->f_58 = 1715860;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1714620;
+			uParam0->f_59 = 1715848;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1714387;
+			uParam0->f_7 = 1715615;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 1714378;
+			uParam0->f_1 = 1715606;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 1712282;
+			uParam0->f_1 = 1713510;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 1709381;
+			uParam0->f_1 = 1710609;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 1709372;
+			uParam0->f_1 = 1710600;
 			break;
 		
 		case 111:
-			uParam0->f_63 = 1709364;
+			uParam0->f_63 = 1710592;
 			break;
 		
 		case 118:
-			uParam0->f_1 = 1709338;
+			uParam0->f_1 = 1710566;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 1709228;
+			uParam0->f_1 = 1710456;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 1708511;
+			uParam0->f_1 = 1709739;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 1708347;
+			uParam0->f_26 = 1709575;
 			break;
 		
 		case 123:
-			uParam0->f_26 = 1708219;
+			uParam0->f_26 = 1709447;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1707998;
+			uParam0->f_68 = 1709226;
 			break;
 		
 		case 147:
-			uParam0->f_23 = 1707974;
+			uParam0->f_23 = 1709202;
 			break;
 	}
 }
@@ -318113,235 +318161,235 @@ void func_5953(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1783202;
+			*uParam0 = 1784178;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1783058;
+			uParam0->f_34 = 1784034;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1782761;
+			uParam0->f_36 = 1783737;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1782690;
+			uParam0->f_40 = 1783666;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1782659;
+			uParam0->f_15 = 1783635;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1782536;
+			uParam0->f_37 = 1783512;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1782527;
+			uParam0->f_41 = 1783503;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1782518;
+			uParam0->f_11 = 1783494;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1782509;
+			uParam0->f_11 = 1783485;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1782024;
+			uParam0->f_39 = 1783000;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1782016;
+			uParam0->f_65 = 1782992;
 			break;
 		
 		case 85:
-			*uParam0 = 1781992;
+			*uParam0 = 1782968;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1781983;
+			uParam0->f_2 = 1782959;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1780935;
+			uParam0->f_2 = 1781911;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1780926;
+			uParam0->f_4 = 1781902;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1780901;
+			uParam0->f_5 = 1781877;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1776793;
+			uParam0->f_64 = 1777769;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1776724;
+			uParam0->f_21 = 1777700;
 			break;
 		
 		case 25:
-			uParam0->f_8 = 1776695;
+			uParam0->f_8 = 1777671;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1776683;
+			uParam0->f_21 = 1777659;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1776674;
+			uParam0->f_3 = 1777650;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1776665;
+			uParam0->f_3 = 1777641;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1776122;
+			uParam0->f_62 = 1777098;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1776003;
+			uParam0->f_28 = 1776979;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1775243;
+			uParam0->f_27 = 1776219;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1775101;
+			uParam0->f_8 = 1776077;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1775089;
+			uParam0->f_46 = 1776065;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1774882;
+			uParam0->f_47 = 1775858;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1774385;
+			uParam0->f_48 = 1775361;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1774332;
+			uParam0->f_67 = 1775308;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1773559;
+			uParam0->f_49 = 1774535;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 1773550;
+			uParam0->f_18 = 1774526;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 1773541;
+			uParam0->f_18 = 1774517;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 1773533;
+			uParam0->f_66 = 1774509;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 1773522;
+			uParam0->f_16 = 1774498;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 1773244;
+			uParam0->f_52 = 1774220;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 1773235;
+			uParam0->f_8 = 1774211;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 1773226;
+			uParam0->f_11 = 1774202;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 1773217;
+			uParam0->f_8 = 1774193;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 1773208;
+			uParam0->f_8 = 1774184;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 1773197;
+			uParam0->f_19 = 1774173;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 1773186;
+			uParam0->f_17 = 1774162;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 1773178;
+			uParam0->f_54 = 1774154;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 1773169;
+			uParam0->f_55 = 1774145;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 1773160;
+			uParam0->f_12 = 1774136;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 1772967;
+			uParam0->f_16 = 1773943;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1772343;
+			uParam0->f_56 = 1773319;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1772335;
+			uParam0->f_25 = 1773311;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1772267;
+			uParam0->f_25 = 1773243;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1772127;
+			uParam0->f_25 = 1773103;
 			break;
 		
 		case 74:
-			*uParam0 = 1771683;
+			*uParam0 = 1772659;
 			break;
 		
 		case 75:
-			*uParam0 = 1771674;
+			*uParam0 = 1772650;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1771662;
+			uParam0->f_57 = 1772638;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1771653;
+			uParam0->f_58 = 1772629;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1771641;
+			uParam0->f_59 = 1772617;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1770658;
+			uParam0->f_7 = 1771634;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1770483;
+			uParam0->f_68 = 1771459;
 			break;
 		
 		case 152:
-			*uParam0 = 1770461;
+			*uParam0 = 1771437;
 			break;
 	}
 }
@@ -320667,311 +320715,311 @@ void func_6067(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1879907;
+			*uParam0 = 1880755;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1879803;
+			uParam0->f_34 = 1880651;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1879066;
+			uParam0->f_36 = 1879914;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1878964;
+			uParam0->f_40 = 1879812;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1878821;
+			uParam0->f_15 = 1879669;
 			break;
 		
 		case 6:
-			uParam0->f_11 = 1878811;
+			uParam0->f_11 = 1879659;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 1878640;
+			uParam0->f_22 = 1879488;
 			break;
 		
 		case 52:
-			uParam0->f_10 = 1878573;
+			uParam0->f_10 = 1879421;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1878461;
+			uParam0->f_37 = 1879309;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1878447;
+			uParam0->f_41 = 1879295;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1878438;
+			uParam0->f_11 = 1879286;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1877938;
+			uParam0->f_39 = 1878786;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1877929;
+			uParam0->f_11 = 1878777;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1877921;
+			uParam0->f_65 = 1878769;
 			break;
 		
 		case 85:
-			*uParam0 = 1877897;
+			*uParam0 = 1878745;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 1877817;
+			uParam0->f_9 = 1878665;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1877721;
+			uParam0->f_2 = 1878569;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1877516;
+			uParam0->f_2 = 1878364;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1877500;
+			uParam0->f_4 = 1878348;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1876691;
+			uParam0->f_5 = 1877539;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1871864;
+			uParam0->f_64 = 1872712;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1870983;
+			uParam0->f_21 = 1871831;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1870956;
+			uParam0->f_21 = 1871804;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1870872;
+			uParam0->f_3 = 1871720;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1870808;
+			uParam0->f_3 = 1871656;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1870656;
+			uParam0->f_62 = 1871504;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1870489;
+			uParam0->f_28 = 1871337;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1869416;
+			uParam0->f_27 = 1870264;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1868838;
+			uParam0->f_8 = 1869686;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1868529;
+			uParam0->f_46 = 1869377;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1867577;
+			uParam0->f_47 = 1868429;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1866217;
+			uParam0->f_48 = 1867067;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1866159;
+			uParam0->f_67 = 1867009;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1818317;
+			uParam0->f_49 = 1819289;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 1818308;
+			uParam0->f_18 = 1819280;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 1818299;
+			uParam0->f_18 = 1819271;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 1818291;
+			uParam0->f_66 = 1819263;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 1818268;
+			uParam0->f_16 = 1819240;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 1818140;
+			uParam0->f_52 = 1819112;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 1818099;
+			uParam0->f_8 = 1819071;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 1818090;
+			uParam0->f_11 = 1819062;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 1817986;
+			uParam0->f_8 = 1818958;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 1817917;
+			uParam0->f_8 = 1818889;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 1817906;
+			uParam0->f_19 = 1818878;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 1817672;
+			uParam0->f_17 = 1818644;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 1817321;
+			uParam0->f_54 = 1818293;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 1817312;
+			uParam0->f_55 = 1818284;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 1817241;
+			uParam0->f_12 = 1818213;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 1817007;
+			uParam0->f_16 = 1817979;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1816807;
+			uParam0->f_56 = 1817779;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1815933;
+			uParam0->f_25 = 1816905;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1815315;
+			uParam0->f_25 = 1816287;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1814192;
+			uParam0->f_25 = 1815164;
 			break;
 		
 		case 74:
-			*uParam0 = 1813559;
+			*uParam0 = 1814531;
 			break;
 		
 		case 75:
-			*uParam0 = 1813550;
+			*uParam0 = 1814522;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1813538;
+			uParam0->f_57 = 1814510;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1813529;
+			uParam0->f_58 = 1814501;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1813517;
+			uParam0->f_59 = 1814489;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1812929;
+			uParam0->f_7 = 1813901;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 1812370;
+			uParam0->f_1 = 1813342;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 1808308;
+			uParam0->f_1 = 1809280;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 1804323;
+			uParam0->f_1 = 1805295;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 1803795;
+			uParam0->f_1 = 1804767;
 			break;
 		
 		case 111:
-			uParam0->f_63 = 1803624;
+			uParam0->f_63 = 1804596;
 			break;
 		
 		case 112:
-			uParam0->f_1 = 1803486;
+			uParam0->f_1 = 1804458;
 			break;
 		
 		case 113:
-			uParam0->f_1 = 1803302;
+			uParam0->f_1 = 1804274;
 			break;
 		
 		case 114:
-			uParam0->f_1 = 1801823;
+			uParam0->f_1 = 1802799;
 			break;
 		
 		case 116:
-			uParam0->f_1 = 1797812;
+			uParam0->f_1 = 1798787;
 			break;
 		
 		case 117:
-			uParam0->f_26 = 1797499;
+			uParam0->f_26 = 1798474;
 			break;
 		
 		case 118:
-			uParam0->f_1 = 1797469;
+			uParam0->f_1 = 1798444;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 1796801;
+			uParam0->f_1 = 1797776;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 1794146;
+			uParam0->f_1 = 1795121;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 1786766;
+			uParam0->f_26 = 1787741;
 			break;
 		
 		case 123:
-			uParam0->f_26 = 1784835;
+			uParam0->f_26 = 1785811;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1784598;
+			uParam0->f_68 = 1785574;
 			break;
 		
 		case 147:
-			uParam0->f_23 = 1784574;
+			uParam0->f_23 = 1785550;
 			break;
 		
 		case 155:
-			*uParam0 = 1784530;
+			*uParam0 = 1785506;
 			break;
 	}
 }
@@ -335767,247 +335815,247 @@ void func_6276(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1936441;
+			*uParam0 = 1937265;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1936361;
+			uParam0->f_34 = 1937185;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1936064;
+			uParam0->f_36 = 1936888;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1935984;
+			uParam0->f_40 = 1936808;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1935953;
+			uParam0->f_15 = 1936777;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 1935816;
+			uParam0->f_22 = 1936640;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 1935732;
+			uParam0->f_9 = 1936556;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1935668;
+			uParam0->f_37 = 1936492;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1935645;
+			uParam0->f_41 = 1936469;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1935636;
+			uParam0->f_11 = 1936460;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1935182;
+			uParam0->f_39 = 1936006;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1935173;
+			uParam0->f_11 = 1935997;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1935165;
+			uParam0->f_65 = 1935989;
 			break;
 		
 		case 85:
-			*uParam0 = 1935141;
+			*uParam0 = 1935965;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1935132;
+			uParam0->f_2 = 1935956;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1930258;
+			uParam0->f_2 = 1931135;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1930249;
+			uParam0->f_4 = 1931126;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1929819;
+			uParam0->f_5 = 1930696;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1926925;
+			uParam0->f_64 = 1927802;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1925958;
+			uParam0->f_21 = 1926835;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1925931;
+			uParam0->f_21 = 1926808;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1925834;
+			uParam0->f_3 = 1926711;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1925757;
+			uParam0->f_3 = 1926634;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1925511;
+			uParam0->f_62 = 1926388;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1925392;
+			uParam0->f_28 = 1926269;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1924071;
+			uParam0->f_27 = 1924948;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1923483;
+			uParam0->f_8 = 1924360;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1923304;
+			uParam0->f_46 = 1924181;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1922200;
+			uParam0->f_47 = 1923077;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1921266;
+			uParam0->f_48 = 1922143;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1921213;
+			uParam0->f_67 = 1922090;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1893604;
+			uParam0->f_49 = 1894449;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 1893595;
+			uParam0->f_18 = 1894440;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 1893586;
+			uParam0->f_18 = 1894431;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 1893406;
+			uParam0->f_66 = 1894251;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 1893383;
+			uParam0->f_16 = 1894228;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 1892813;
+			uParam0->f_52 = 1893658;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 1892772;
+			uParam0->f_8 = 1893617;
 			break;
 		
 		case 158:
-			uParam0->f_23 = 1892638;
+			uParam0->f_23 = 1893483;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 1892629;
+			uParam0->f_11 = 1893474;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 1892620;
+			uParam0->f_8 = 1893465;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 1892611;
+			uParam0->f_8 = 1893456;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 1892600;
+			uParam0->f_19 = 1893445;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 1892589;
+			uParam0->f_17 = 1893434;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 1892581;
+			uParam0->f_54 = 1893426;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 1892572;
+			uParam0->f_55 = 1893417;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 1892563;
+			uParam0->f_12 = 1893408;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 1892302;
+			uParam0->f_16 = 1893147;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1885522;
+			uParam0->f_56 = 1886367;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1884393;
+			uParam0->f_25 = 1885238;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1884078;
+			uParam0->f_25 = 1884927;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1883351;
+			uParam0->f_25 = 1884200;
 			break;
 		
 		case 74:
-			*uParam0 = 1882806;
+			*uParam0 = 1883654;
 			break;
 		
 		case 75:
-			*uParam0 = 1882797;
+			*uParam0 = 1883645;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1882785;
+			uParam0->f_57 = 1883633;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1882776;
+			uParam0->f_58 = 1883624;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1882764;
+			uParam0->f_59 = 1883612;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1881226;
+			uParam0->f_7 = 1882074;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1881143;
+			uParam0->f_68 = 1881991;
 			break;
 		
 		case 147:
-			uParam0->f_23 = 1881127;
+			uParam0->f_23 = 1881975;
 			break;
 		
 		case 50:
-			uParam0->f_6 = 1880964;
+			uParam0->f_6 = 1881812;
 			break;
 	}
 }
@@ -344890,279 +344938,279 @@ void func_6440(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1967986;
+			*uParam0 = 1968810;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1967906;
+			uParam0->f_34 = 1968730;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1965667;
+			uParam0->f_36 = 1966492;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1965617;
+			uParam0->f_40 = 1966442;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1965530;
+			uParam0->f_15 = 1966355;
 			break;
 		
 		case 6:
-			uParam0->f_11 = 1965520;
+			uParam0->f_11 = 1966345;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 1965383;
+			uParam0->f_22 = 1966208;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 1965261;
+			uParam0->f_9 = 1966086;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1965173;
+			uParam0->f_37 = 1965997;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1965159;
+			uParam0->f_41 = 1965983;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1965150;
+			uParam0->f_11 = 1965974;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1964771;
+			uParam0->f_39 = 1965595;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1964762;
+			uParam0->f_11 = 1965586;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1964754;
+			uParam0->f_65 = 1965578;
 			break;
 		
 		case 85:
-			*uParam0 = 1964730;
+			*uParam0 = 1965554;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1964563;
+			uParam0->f_2 = 1965387;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1964246;
+			uParam0->f_2 = 1965070;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1964232;
+			uParam0->f_4 = 1965056;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1963714;
+			uParam0->f_5 = 1964538;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1959664;
+			uParam0->f_64 = 1960488;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1959116;
+			uParam0->f_21 = 1959940;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1959089;
+			uParam0->f_21 = 1959913;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1959005;
+			uParam0->f_3 = 1959829;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1958941;
+			uParam0->f_3 = 1959765;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1958761;
+			uParam0->f_62 = 1959585;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1958618;
+			uParam0->f_28 = 1959442;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1957995;
+			uParam0->f_27 = 1958819;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1957488;
+			uParam0->f_8 = 1958312;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1957205;
+			uParam0->f_46 = 1958029;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1956404;
+			uParam0->f_47 = 1957228;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1952455;
+			uParam0->f_48 = 1953279;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1952410;
+			uParam0->f_67 = 1953234;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1894249;
+			uParam0->f_49 = 1895094;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 1952401;
+			uParam0->f_18 = 1953225;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 1952392;
+			uParam0->f_18 = 1953216;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 1952384;
+			uParam0->f_66 = 1953208;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 1952361;
+			uParam0->f_16 = 1953185;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 1952219;
+			uParam0->f_52 = 1953043;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 1952178;
+			uParam0->f_8 = 1953002;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 1952169;
+			uParam0->f_11 = 1952993;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 1952065;
+			uParam0->f_8 = 1952889;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 1951996;
+			uParam0->f_8 = 1952820;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 1951985;
+			uParam0->f_19 = 1952809;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 1951847;
+			uParam0->f_17 = 1952671;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 1951659;
+			uParam0->f_54 = 1952483;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 1951650;
+			uParam0->f_55 = 1952474;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 1951567;
+			uParam0->f_12 = 1952391;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 1951429;
+			uParam0->f_16 = 1952253;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1951421;
+			uParam0->f_56 = 1952245;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1950614;
+			uParam0->f_25 = 1951438;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1950507;
+			uParam0->f_25 = 1951331;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1950113;
+			uParam0->f_25 = 1950937;
 			break;
 		
 		case 74:
-			*uParam0 = 1949623;
+			*uParam0 = 1950449;
 			break;
 		
 		case 75:
-			*uParam0 = 1949614;
+			*uParam0 = 1950440;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1949602;
+			uParam0->f_57 = 1950428;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1949593;
+			uParam0->f_58 = 1950419;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1949581;
+			uParam0->f_59 = 1950407;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1948897;
+			uParam0->f_7 = 1949723;
 			break;
 		
 		case 105:
-			*uParam0 = 1948774;
+			*uParam0 = 1949598;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 1948675;
+			uParam0->f_1 = 1949499;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 1946690;
+			uParam0->f_1 = 1947514;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 1944352;
+			uParam0->f_1 = 1945176;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 1944343;
+			uParam0->f_1 = 1945167;
 			break;
 		
 		case 118:
-			uParam0->f_1 = 1944280;
+			uParam0->f_1 = 1945104;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 1943958;
+			uParam0->f_1 = 1944782;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 1939939;
+			uParam0->f_1 = 1940763;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 1937900;
+			uParam0->f_26 = 1938724;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1937649;
+			uParam0->f_68 = 1938473;
 			break;
 		
 		case 147:
-			uParam0->f_23 = 1937633;
+			uParam0->f_23 = 1938457;
 			break;
 	}
 }
@@ -350398,231 +350446,231 @@ void func_6603(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 1977436;
+			*uParam0 = 1978260;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 1977380;
+			uParam0->f_34 = 1978204;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 1977161;
+			uParam0->f_36 = 1977985;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 1977110;
+			uParam0->f_40 = 1977934;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 1977076;
+			uParam0->f_15 = 1977900;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 1977012;
+			uParam0->f_37 = 1977836;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 1977003;
+			uParam0->f_41 = 1977827;
 			break;
 		
 		case 85:
-			*uParam0 = 1976979;
+			*uParam0 = 1977803;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 1976970;
+			uParam0->f_11 = 1977794;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 1976878;
+			uParam0->f_39 = 1977702;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 1976869;
+			uParam0->f_11 = 1977693;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 1976861;
+			uParam0->f_65 = 1977685;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 1976609;
+			uParam0->f_2 = 1977433;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 1976600;
+			uParam0->f_2 = 1977424;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 1976591;
+			uParam0->f_4 = 1977415;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 1976582;
+			uParam0->f_5 = 1977406;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 1976573;
+			uParam0->f_64 = 1977397;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 1976497;
+			uParam0->f_21 = 1977321;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 1976485;
+			uParam0->f_21 = 1977309;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 1976438;
+			uParam0->f_3 = 1977262;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 1976386;
+			uParam0->f_3 = 1977210;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 1976330;
+			uParam0->f_62 = 1977154;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 1976247;
+			uParam0->f_28 = 1977071;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 1975281;
+			uParam0->f_27 = 1976105;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 1975071;
+			uParam0->f_8 = 1975895;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 1975039;
+			uParam0->f_46 = 1975863;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 1974849;
+			uParam0->f_47 = 1975673;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 1970846;
+			uParam0->f_48 = 1971670;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 1970793;
+			uParam0->f_67 = 1971617;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1969602;
+			uParam0->f_49 = 1970426;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 1969593;
+			uParam0->f_18 = 1970417;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 1969584;
+			uParam0->f_18 = 1970408;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 1969576;
+			uParam0->f_66 = 1970400;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 1969565;
+			uParam0->f_16 = 1970389;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 1969462;
+			uParam0->f_52 = 1970286;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 1969437;
+			uParam0->f_8 = 1970261;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 1969428;
+			uParam0->f_11 = 1970252;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 1969419;
+			uParam0->f_8 = 1970243;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 1969410;
+			uParam0->f_8 = 1970234;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 1969399;
+			uParam0->f_19 = 1970223;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 1969318;
+			uParam0->f_17 = 1970142;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 1969310;
+			uParam0->f_54 = 1970134;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 1969301;
+			uParam0->f_55 = 1970125;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 1969291;
+			uParam0->f_12 = 1970115;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 1969084;
+			uParam0->f_16 = 1969908;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1969076;
+			uParam0->f_56 = 1969900;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1969068;
+			uParam0->f_25 = 1969892;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1969060;
+			uParam0->f_25 = 1969884;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1969052;
+			uParam0->f_25 = 1969876;
 			break;
 		
 		case 74:
-			*uParam0 = 1969043;
+			*uParam0 = 1969867;
 			break;
 		
 		case 75:
-			*uParam0 = 1969034;
+			*uParam0 = 1969858;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1969022;
+			uParam0->f_57 = 1969846;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1969013;
+			uParam0->f_58 = 1969837;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1969001;
+			uParam0->f_59 = 1969825;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1968992;
+			uParam0->f_7 = 1969816;
 			break;
 		
 		case 79:
-			uParam0->f_60 = 1968983;
+			uParam0->f_60 = 1969807;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1968975;
+			uParam0->f_68 = 1969799;
 			break;
 	}
 }
@@ -352229,239 +352277,239 @@ void func_6668(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 2053975;
+			*uParam0 = 2054416;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 2053931;
+			uParam0->f_34 = 2054372;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 2052386;
+			uParam0->f_36 = 2052827;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 2052317;
+			uParam0->f_40 = 2052758;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 2052283;
+			uParam0->f_15 = 2052724;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 2052219;
+			uParam0->f_37 = 2052660;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 2052196;
+			uParam0->f_41 = 2052637;
 			break;
 		
 		case 85:
-			*uParam0 = 2052172;
+			*uParam0 = 2052613;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 2052035;
+			uParam0->f_22 = 2052476;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 2051968;
+			uParam0->f_9 = 2052409;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 2051959;
+			uParam0->f_11 = 2052400;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 2051614;
+			uParam0->f_39 = 2052055;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 2051605;
+			uParam0->f_11 = 2052046;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 2051597;
+			uParam0->f_65 = 2052038;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 2045697;
+			uParam0->f_2 = 2046139;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 2045688;
+			uParam0->f_2 = 2046130;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 2045679;
+			uParam0->f_4 = 2046121;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 2045575;
+			uParam0->f_5 = 2046017;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 2038999;
+			uParam0->f_64 = 2039441;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 2038313;
+			uParam0->f_21 = 2038755;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 2038286;
+			uParam0->f_21 = 2038728;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 2038225;
+			uParam0->f_3 = 2038667;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 2038105;
+			uParam0->f_3 = 2038547;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 2038049;
+			uParam0->f_62 = 2038491;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 2037966;
+			uParam0->f_28 = 2038408;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 2036983;
+			uParam0->f_27 = 2037425;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 2036243;
+			uParam0->f_8 = 2036685;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 2035972;
+			uParam0->f_46 = 2036414;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 2035040;
+			uParam0->f_47 = 2035482;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 2031696;
+			uParam0->f_48 = 2032138;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 2031643;
+			uParam0->f_67 = 2032085;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 2030956;
+			uParam0->f_49 = 2031397;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 2030947;
+			uParam0->f_18 = 2031388;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 2030938;
+			uParam0->f_18 = 2031379;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 2030492;
+			uParam0->f_66 = 2030933;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 2030481;
+			uParam0->f_16 = 2030922;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 2030378;
+			uParam0->f_52 = 2030819;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 2030353;
+			uParam0->f_8 = 2030794;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 2030344;
+			uParam0->f_11 = 2030785;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 2030335;
+			uParam0->f_8 = 2030776;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 2030311;
+			uParam0->f_8 = 2030752;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 2030300;
+			uParam0->f_19 = 2030741;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 2030221;
+			uParam0->f_17 = 2030662;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 2030213;
+			uParam0->f_54 = 2030654;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 2030204;
+			uParam0->f_55 = 2030645;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 2030194;
+			uParam0->f_12 = 2030635;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 2029965;
+			uParam0->f_16 = 2030406;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 1985304;
+			uParam0->f_56 = 1986131;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 1984197;
+			uParam0->f_25 = 1985024;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 1983974;
+			uParam0->f_25 = 1984801;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 1983075;
+			uParam0->f_25 = 1983902;
 			break;
 		
 		case 74:
-			*uParam0 = 1982530;
+			*uParam0 = 1983357;
 			break;
 		
 		case 75:
-			*uParam0 = 1982521;
+			*uParam0 = 1983348;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 1982509;
+			uParam0->f_57 = 1983336;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 1982500;
+			uParam0->f_58 = 1983327;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 1982488;
+			uParam0->f_59 = 1983315;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 1980725;
+			uParam0->f_7 = 1981549;
 			break;
 		
 		case 79:
-			uParam0->f_60 = 1978928;
+			uParam0->f_60 = 1979752;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 1978459;
+			uParam0->f_68 = 1979283;
 			break;
 	}
 }
@@ -364273,299 +364321,299 @@ void func_6816(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 2085809;
+			*uParam0 = 2086249;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 2085693;
+			uParam0->f_34 = 2086133;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 2084460;
+			uParam0->f_36 = 2084900;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 2084380;
+			uParam0->f_40 = 2084820;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 2084206;
+			uParam0->f_15 = 2084646;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 2084082;
+			uParam0->f_37 = 2084522;
 			break;
 		
 		case 128:
-			uParam0->f_61 = 2083859;
+			uParam0->f_61 = 2084299;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 2083845;
+			uParam0->f_41 = 2084285;
 			break;
 		
 		case 85:
-			*uParam0 = 2083821;
+			*uParam0 = 2084261;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 2083684;
+			uParam0->f_22 = 2084124;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 2083446;
+			uParam0->f_9 = 2083886;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 2083437;
+			uParam0->f_11 = 2083877;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 2081733;
+			uParam0->f_39 = 2082173;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 2081724;
+			uParam0->f_11 = 2082164;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 2081716;
+			uParam0->f_65 = 2082156;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 2081269;
+			uParam0->f_2 = 2081709;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 2081230;
+			uParam0->f_2 = 2081670;
 			break;
 		
 		case 54:
-			*uParam0 = 2081221;
+			*uParam0 = 2081661;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 2081212;
+			uParam0->f_4 = 2081652;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 2080731;
+			uParam0->f_5 = 2081172;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 2078694;
+			uParam0->f_64 = 2079132;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 2076486;
+			uParam0->f_21 = 2076924;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 2076459;
+			uParam0->f_21 = 2076897;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 2076375;
+			uParam0->f_3 = 2076813;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 2076275;
+			uParam0->f_3 = 2076713;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 2076108;
+			uParam0->f_62 = 2076546;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 2076005;
+			uParam0->f_28 = 2076443;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 2075354;
+			uParam0->f_27 = 2075792;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 2074755;
+			uParam0->f_8 = 2075193;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 2074464;
+			uParam0->f_46 = 2074902;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 2073470;
+			uParam0->f_47 = 2073908;
 			break;
 		
 		case 42:
-			*uParam0 = 2073366;
+			*uParam0 = 2073804;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 2071221;
+			uParam0->f_48 = 2071659;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 1988696;
+			uParam0->f_49 = 1989523;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 2071161;
+			uParam0->f_67 = 2071599;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 2071152;
+			uParam0->f_18 = 2071590;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 2071143;
+			uParam0->f_18 = 2071581;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 2070877;
+			uParam0->f_66 = 2071315;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 2070866;
+			uParam0->f_16 = 2071304;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 2070726;
+			uParam0->f_52 = 2071164;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 2070685;
+			uParam0->f_8 = 2071123;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 2070676;
+			uParam0->f_11 = 2071114;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 2070508;
+			uParam0->f_8 = 2070946;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 2070424;
+			uParam0->f_8 = 2070862;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 2070413;
+			uParam0->f_19 = 2070851;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 2070131;
+			uParam0->f_17 = 2070569;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 2070123;
+			uParam0->f_54 = 2070561;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 2070114;
+			uParam0->f_55 = 2070552;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 2070053;
+			uParam0->f_12 = 2070491;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 2069771;
+			uParam0->f_16 = 2070209;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 2068159;
+			uParam0->f_56 = 2068597;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 2068116;
+			uParam0->f_25 = 2068554;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 2067413;
+			uParam0->f_25 = 2067851;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 2066329;
+			uParam0->f_25 = 2066767;
 			break;
 		
 		case 74:
-			*uParam0 = 2065777;
+			*uParam0 = 2066215;
 			break;
 		
 		case 75:
-			*uParam0 = 2065768;
+			*uParam0 = 2066206;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 2065756;
+			uParam0->f_57 = 2066194;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 2065747;
+			uParam0->f_58 = 2066185;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 2065735;
+			uParam0->f_59 = 2066173;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 2063159;
+			uParam0->f_7 = 2063600;
 			break;
 		
 		case 106:
-			uParam0->f_1 = 2061900;
+			uParam0->f_1 = 2062341;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 2060347;
+			uParam0->f_1 = 2060788;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 2058709;
+			uParam0->f_1 = 2059150;
 			break;
 		
 		case 110:
-			uParam0->f_1 = 2058700;
+			uParam0->f_1 = 2059141;
 			break;
 		
 		case 92:
-			uParam0->f_23 = 2058615;
+			uParam0->f_23 = 2059056;
 			break;
 		
 		case 112:
-			uParam0->f_1 = 2058572;
+			uParam0->f_1 = 2059013;
 			break;
 		
 		case 113:
-			uParam0->f_1 = 2058269;
+			uParam0->f_1 = 2058710;
 			break;
 		
 		case 114:
-			uParam0->f_1 = 2057504;
+			uParam0->f_1 = 2057945;
 			break;
 		
 		case 116:
-			uParam0->f_1 = 2056004;
+			uParam0->f_1 = 2056445;
 			break;
 		
 		case 124:
-			uParam0->f_1 = 2055432;
+			uParam0->f_1 = 2055873;
 			break;
 		
 		case 125:
-			uParam0->f_26 = 2055424;
+			uParam0->f_26 = 2055865;
 			break;
 		
 		case 126:
-			uParam0->f_1 = 2055349;
+			uParam0->f_1 = 2055790;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 2055275;
+			uParam0->f_68 = 2055716;
 			break;
 		
 		case 147:
-			uParam0->f_23 = 2055251;
+			uParam0->f_23 = 2055692;
 			break;
 	}
 }
@@ -369588,231 +369636,231 @@ void func_6959(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 2127849;
+			*uParam0 = 2128283;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 2125530;
+			uParam0->f_34 = 2125964;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 2125467;
+			uParam0->f_36 = 2125901;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 2125400;
+			uParam0->f_40 = 2125834;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 2124684;
+			uParam0->f_15 = 2125118;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 2124676;
+			uParam0->f_37 = 2125110;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 2124667;
+			uParam0->f_41 = 2125101;
 			break;
 		
 		case 85:
-			*uParam0 = 2124643;
+			*uParam0 = 2125077;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 2124634;
+			uParam0->f_11 = 2125068;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 2122806;
+			uParam0->f_39 = 2123240;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 2122797;
+			uParam0->f_11 = 2123231;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 2122789;
+			uParam0->f_65 = 2123223;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 2122780;
+			uParam0->f_2 = 2123214;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 2122771;
+			uParam0->f_2 = 2123205;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 2122762;
+			uParam0->f_4 = 2123196;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 2122753;
+			uParam0->f_5 = 2123187;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 2122744;
+			uParam0->f_64 = 2123178;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 2122718;
+			uParam0->f_21 = 2123152;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 2122706;
+			uParam0->f_21 = 2123140;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 2122697;
+			uParam0->f_3 = 2123131;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 2122688;
+			uParam0->f_3 = 2123122;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 2122679;
+			uParam0->f_62 = 2123113;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 2122671;
+			uParam0->f_28 = 2123105;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 2122663;
+			uParam0->f_27 = 2123097;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 2121502;
+			uParam0->f_8 = 2121936;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 2121490;
+			uParam0->f_46 = 2121924;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 2121462;
+			uParam0->f_47 = 2121896;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 2121453;
+			uParam0->f_48 = 2121887;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 2121408;
+			uParam0->f_67 = 2121842;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 2087717;
+			uParam0->f_49 = 2088157;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 2087708;
+			uParam0->f_18 = 2088148;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 2087699;
+			uParam0->f_18 = 2088139;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 2087691;
+			uParam0->f_66 = 2088131;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 2087680;
+			uParam0->f_16 = 2088120;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 2087672;
+			uParam0->f_52 = 2088112;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 2087663;
+			uParam0->f_8 = 2088103;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 2087654;
+			uParam0->f_11 = 2088094;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 2087396;
+			uParam0->f_8 = 2087836;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 2087367;
+			uParam0->f_8 = 2087807;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 2087336;
+			uParam0->f_19 = 2087776;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 2087302;
+			uParam0->f_17 = 2087742;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 2087258;
+			uParam0->f_54 = 2087698;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 2087229;
+			uParam0->f_55 = 2087669;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 2087220;
+			uParam0->f_12 = 2087660;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 2087163;
+			uParam0->f_16 = 2087603;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 2087155;
+			uParam0->f_56 = 2087595;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 2087147;
+			uParam0->f_25 = 2087587;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 2087139;
+			uParam0->f_25 = 2087579;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 2087131;
+			uParam0->f_25 = 2087571;
 			break;
 		
 		case 74:
-			*uParam0 = 2087105;
+			*uParam0 = 2087545;
 			break;
 		
 		case 75:
-			*uParam0 = 2087079;
+			*uParam0 = 2087519;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 2087067;
+			uParam0->f_57 = 2087507;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 2087058;
+			uParam0->f_58 = 2087498;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 2087046;
+			uParam0->f_59 = 2087486;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 2087037;
+			uParam0->f_7 = 2087477;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 2087029;
+			uParam0->f_68 = 2087469;
 			break;
 		
 		case 148:
-			*uParam0 = 2086797;
+			*uParam0 = 2087237;
 			break;
 	}
 }
@@ -376985,243 +377033,243 @@ void func_7035(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 2172018;
+			*uParam0 = 2172456;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 2171708;
+			uParam0->f_34 = 2172146;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 2166736;
+			uParam0->f_36 = 2167174;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 2166707;
+			uParam0->f_40 = 2167145;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 2166512;
+			uParam0->f_15 = 2166950;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 2166162;
+			uParam0->f_37 = 2166600;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 2166020;
+			uParam0->f_41 = 2166458;
 			break;
 		
 		case 85:
-			*uParam0 = 2165996;
+			*uParam0 = 2166434;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 2165328;
+			uParam0->f_22 = 2165766;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 2165223;
+			uParam0->f_9 = 2165661;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 2165214;
+			uParam0->f_11 = 2165652;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 2165109;
+			uParam0->f_39 = 2165547;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 2165100;
+			uParam0->f_11 = 2165538;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 2165092;
+			uParam0->f_65 = 2165530;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 2165083;
+			uParam0->f_2 = 2165521;
 			break;
 		
 		case 54:
-			*uParam0 = 2165074;
+			*uParam0 = 2165512;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 2164785;
+			uParam0->f_2 = 2165223;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 2164776;
+			uParam0->f_4 = 2165214;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 2164692;
+			uParam0->f_5 = 2165130;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 2164683;
+			uParam0->f_64 = 2165121;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 2163992;
+			uParam0->f_21 = 2164430;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 2163791;
+			uParam0->f_21 = 2164229;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 2163727;
+			uParam0->f_3 = 2164165;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 2163667;
+			uParam0->f_3 = 2164105;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 2163658;
+			uParam0->f_62 = 2164096;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 2163416;
+			uParam0->f_28 = 2163854;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 2163045;
+			uParam0->f_27 = 2163483;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 2162911;
+			uParam0->f_8 = 2163349;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 2162472;
+			uParam0->f_46 = 2162911;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 2161809;
+			uParam0->f_47 = 2162243;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 2159231;
+			uParam0->f_48 = 2159665;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 2159186;
+			uParam0->f_67 = 2159620;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 2133346;
+			uParam0->f_49 = 2133778;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 2133118;
+			uParam0->f_18 = 2133550;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 2132942;
+			uParam0->f_18 = 2133374;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 2132934;
+			uParam0->f_66 = 2133366;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 2132923;
+			uParam0->f_16 = 2133355;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 2132681;
+			uParam0->f_52 = 2133113;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 2132649;
+			uParam0->f_8 = 2133081;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 2132640;
+			uParam0->f_11 = 2133072;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 2132603;
+			uParam0->f_8 = 2133035;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 2132579;
+			uParam0->f_8 = 2133011;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 2132396;
+			uParam0->f_19 = 2132828;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 2131773;
+			uParam0->f_17 = 2132205;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 2131536;
+			uParam0->f_54 = 2131968;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 2131527;
+			uParam0->f_55 = 2131959;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 2131462;
+			uParam0->f_12 = 2131894;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 2130988;
+			uParam0->f_16 = 2131420;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 2130980;
+			uParam0->f_56 = 2131412;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 2130972;
+			uParam0->f_25 = 2131404;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 2130912;
+			uParam0->f_25 = 2131344;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 2130894;
+			uParam0->f_25 = 2131326;
 			break;
 		
 		case 74:
-			*uParam0 = 2130885;
+			*uParam0 = 2131317;
 			break;
 		
 		case 75:
-			*uParam0 = 2130876;
+			*uParam0 = 2131308;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 2130372;
+			uParam0->f_57 = 2130804;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 2130224;
+			uParam0->f_58 = 2130656;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 2130179;
+			uParam0->f_59 = 2130611;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 2130170;
+			uParam0->f_7 = 2130602;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 2130162;
+			uParam0->f_68 = 2130594;
 			break;
 		
 		case 147:
-			uParam0->f_23 = 2130146;
+			uParam0->f_23 = 2130578;
 			break;
 	}
 }
@@ -383776,235 +383824,235 @@ void func_7113(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 2207131;
+			*uParam0 = 2207575;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 2207021;
+			uParam0->f_34 = 2207465;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 2204559;
+			uParam0->f_36 = 2205003;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 2204530;
+			uParam0->f_40 = 2204974;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 2204370;
+			uParam0->f_15 = 2204814;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 2204252;
+			uParam0->f_37 = 2204696;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 2204191;
+			uParam0->f_41 = 2204635;
 			break;
 		
 		case 85:
-			*uParam0 = 2204167;
+			*uParam0 = 2204611;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 2204030;
+			uParam0->f_22 = 2204474;
 			break;
 		
 		case 48:
-			uParam0->f_9 = 2203879;
+			uParam0->f_9 = 2204323;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 2203870;
+			uParam0->f_11 = 2204314;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 2202867;
+			uParam0->f_39 = 2203311;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 2202858;
+			uParam0->f_11 = 2203302;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 2202850;
+			uParam0->f_65 = 2203294;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 2202841;
+			uParam0->f_2 = 2203285;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 2202687;
+			uParam0->f_2 = 2203131;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 2202678;
+			uParam0->f_4 = 2203122;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 2202590;
+			uParam0->f_5 = 2203034;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 2201806;
+			uParam0->f_64 = 2202250;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 2201200;
+			uParam0->f_21 = 2201644;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 2201173;
+			uParam0->f_21 = 2201617;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 2201134;
+			uParam0->f_3 = 2201578;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 2201074;
+			uParam0->f_3 = 2201518;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 2201065;
+			uParam0->f_62 = 2201509;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 2201012;
+			uParam0->f_28 = 2201456;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 2200710;
+			uParam0->f_27 = 2201154;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 2200591;
+			uParam0->f_8 = 2201035;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 2200374;
+			uParam0->f_46 = 2200818;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 2200089;
+			uParam0->f_47 = 2200533;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 2199683;
+			uParam0->f_48 = 2200127;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 2199638;
+			uParam0->f_67 = 2200082;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 2182108;
+			uParam0->f_49 = 2182549;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 2182099;
+			uParam0->f_18 = 2182540;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 2182015;
+			uParam0->f_18 = 2182456;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 2182007;
+			uParam0->f_66 = 2182448;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 2181984;
+			uParam0->f_16 = 2182425;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 2181932;
+			uParam0->f_52 = 2182373;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 2181900;
+			uParam0->f_8 = 2182341;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 2181891;
+			uParam0->f_11 = 2182332;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 2181729;
+			uParam0->f_8 = 2182170;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 2181632;
+			uParam0->f_8 = 2182073;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 2181621;
+			uParam0->f_19 = 2182062;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 2181306;
+			uParam0->f_17 = 2181747;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 2180172;
+			uParam0->f_54 = 2180613;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 2180163;
+			uParam0->f_55 = 2180604;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 2175369;
+			uParam0->f_12 = 2175807;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 2175354;
+			uParam0->f_16 = 2175792;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 2173879;
+			uParam0->f_56 = 2174317;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 2173871;
+			uParam0->f_25 = 2174309;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 2173820;
+			uParam0->f_25 = 2174258;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 2173792;
+			uParam0->f_25 = 2174230;
 			break;
 		
 		case 74:
-			*uParam0 = 2173783;
+			*uParam0 = 2174221;
 			break;
 		
 		case 75:
-			*uParam0 = 2173774;
+			*uParam0 = 2174212;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 2173490;
+			uParam0->f_57 = 2173928;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 2173394;
+			uParam0->f_58 = 2173832;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 2173382;
+			uParam0->f_59 = 2173820;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 2173196;
+			uParam0->f_7 = 2173634;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 2173024;
+			uParam0->f_68 = 2173462;
 			break;
 	}
 }
@@ -385695,9 +385743,9 @@ int func_7181(var* uParam0)
 	iVar0 = 0;
 	while (iVar0 < 31)
 	{
-		if (func_496(Global_1988664[iVar0 /*13*/]))
+		if (func_496(Global_1988665[iVar0 /*13*/]))
 		{
-			if (NETWORK::NETWORK_ARE_HANDLES_THE_SAME(&(Global_1988664[iVar0 /*13*/]), uParam0))
+			if (NETWORK::NETWORK_ARE_HANDLES_THE_SAME(&(Global_1988665[iVar0 /*13*/]), uParam0))
 			{
 				return 1;
 			}
@@ -390143,231 +390191,231 @@ void func_7245(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 0:
-			*uParam0 = 2235476;
+			*uParam0 = 2235918;
 			break;
 		
 		case 1:
-			uParam0->f_34 = 2235330;
+			uParam0->f_34 = 2235772;
 			break;
 		
 		case 3:
-			uParam0->f_36 = 2230107;
+			uParam0->f_36 = 2230549;
 			break;
 		
 		case 4:
-			uParam0->f_40 = 2230078;
+			uParam0->f_40 = 2230520;
 			break;
 		
 		case 5:
-			uParam0->f_15 = 2229667;
+			uParam0->f_15 = 2230109;
 			break;
 		
 		case 47:
-			uParam0->f_22 = 2229264;
+			uParam0->f_22 = 2229706;
 			break;
 		
 		case 7:
-			uParam0->f_37 = 2229094;
+			uParam0->f_37 = 2229536;
 			break;
 		
 		case 133:
-			uParam0->f_41 = 2228699;
+			uParam0->f_41 = 2229141;
 			break;
 		
 		case 85:
-			*uParam0 = 2228675;
+			*uParam0 = 2229117;
 			break;
 		
 		case 18:
-			uParam0->f_11 = 2228666;
+			uParam0->f_11 = 2229108;
 			break;
 		
 		case 19:
-			uParam0->f_39 = 2228571;
+			uParam0->f_39 = 2229013;
 			break;
 		
 		case 21:
-			uParam0->f_11 = 2228562;
+			uParam0->f_11 = 2229004;
 			break;
 		
 		case 131:
-			uParam0->f_65 = 2228554;
+			uParam0->f_65 = 2228996;
 			break;
 		
 		case 20:
-			uParam0->f_2 = 2228545;
+			uParam0->f_2 = 2228987;
 			break;
 		
 		case 22:
-			uParam0->f_2 = 2228316;
+			uParam0->f_2 = 2228758;
 			break;
 		
 		case 81:
-			uParam0->f_4 = 2228307;
+			uParam0->f_4 = 2228749;
 			break;
 		
 		case 23:
-			uParam0->f_5 = 2228216;
+			uParam0->f_5 = 2228661;
 			break;
 		
 		case 130:
-			uParam0->f_64 = 2228207;
+			uParam0->f_64 = 2228652;
 			break;
 		
 		case 24:
-			uParam0->f_21 = 2227809;
+			uParam0->f_21 = 2228254;
 			break;
 		
 		case 26:
-			uParam0->f_21 = 2227782;
+			uParam0->f_21 = 2228227;
 			break;
 		
 		case 27:
-			uParam0->f_3 = 2227773;
+			uParam0->f_3 = 2228217;
 			break;
 		
 		case 28:
-			uParam0->f_3 = 2227764;
+			uParam0->f_3 = 2228208;
 			break;
 		
 		case 80:
-			uParam0->f_62 = 2227755;
+			uParam0->f_62 = 2228199;
 			break;
 		
 		case 29:
-			uParam0->f_28 = 2227747;
+			uParam0->f_28 = 2228191;
 			break;
 		
 		case 32:
-			uParam0->f_27 = 2227739;
+			uParam0->f_27 = 2228183;
 			break;
 		
 		case 40:
-			uParam0->f_8 = 2227620;
+			uParam0->f_8 = 2228064;
 			break;
 		
 		case 41:
-			uParam0->f_46 = 2227377;
+			uParam0->f_46 = 2227821;
 			break;
 		
 		case 43:
-			uParam0->f_47 = 2227121;
+			uParam0->f_47 = 2227565;
 			break;
 		
 		case 44:
-			uParam0->f_48 = 2224968;
+			uParam0->f_48 = 2225412;
 			break;
 		
 		case 46:
-			uParam0->f_67 = 2224923;
+			uParam0->f_67 = 2225367;
 			break;
 		
 		case 45:
-			uParam0->f_49 = 2210474;
+			uParam0->f_49 = 2210918;
 			break;
 		
 		case 56:
-			uParam0->f_18 = 2210465;
+			uParam0->f_18 = 2210909;
 			break;
 		
 		case 57:
-			uParam0->f_18 = 2210456;
+			uParam0->f_18 = 2210900;
 			break;
 		
 		case 132:
-			uParam0->f_66 = 2210448;
+			uParam0->f_66 = 2210892;
 			break;
 		
 		case 83:
-			uParam0->f_16 = 2210437;
+			uParam0->f_16 = 2210881;
 			break;
 		
 		case 58:
-			uParam0->f_52 = 2210385;
+			uParam0->f_52 = 2210829;
 			break;
 		
 		case 60:
-			uParam0->f_8 = 2210353;
+			uParam0->f_8 = 2210797;
 			break;
 		
 		case 65:
-			uParam0->f_11 = 2210344;
+			uParam0->f_11 = 2210788;
 			break;
 		
 		case 61:
-			uParam0->f_8 = 2210231;
+			uParam0->f_8 = 2210675;
 			break;
 		
 		case 62:
-			uParam0->f_8 = 2210207;
+			uParam0->f_8 = 2210651;
 			break;
 		
 		case 63:
-			uParam0->f_19 = 2210196;
+			uParam0->f_19 = 2210640;
 			break;
 		
 		case 64:
-			uParam0->f_17 = 2209545;
+			uParam0->f_17 = 2209989;
 			break;
 		
 		case 66:
-			uParam0->f_54 = 2208909;
+			uParam0->f_54 = 2209353;
 			break;
 		
 		case 67:
-			uParam0->f_55 = 2208900;
+			uParam0->f_55 = 2209344;
 			break;
 		
 		case 68:
-			uParam0->f_12 = 2208833;
+			uParam0->f_12 = 2209277;
 			break;
 		
 		case 69:
-			uParam0->f_16 = 2208818;
+			uParam0->f_16 = 2209262;
 			break;
 		
 		case 70:
-			uParam0->f_56 = 2208437;
+			uParam0->f_56 = 2208881;
 			break;
 		
 		case 71:
-			uParam0->f_25 = 2208362;
+			uParam0->f_25 = 2208806;
 			break;
 		
 		case 72:
-			uParam0->f_25 = 2208311;
+			uParam0->f_25 = 2208755;
 			break;
 		
 		case 73:
-			uParam0->f_25 = 2208293;
+			uParam0->f_25 = 2208737;
 			break;
 		
 		case 74:
-			*uParam0 = 2208284;
+			*uParam0 = 2208728;
 			break;
 		
 		case 75:
-			*uParam0 = 2208275;
+			*uParam0 = 2208719;
 			break;
 		
 		case 76:
-			uParam0->f_57 = 2208158;
+			uParam0->f_57 = 2208602;
 			break;
 		
 		case 77:
-			uParam0->f_58 = 2208149;
+			uParam0->f_58 = 2208593;
 			break;
 		
 		case 129:
-			uParam0->f_59 = 2208137;
+			uParam0->f_59 = 2208581;
 			break;
 		
 		case 88:
-			uParam0->f_7 = 2208128;
+			uParam0->f_7 = 2208572;
 			break;
 		
 		case 84:
-			uParam0->f_68 = 2208120;
+			uParam0->f_68 = 2208564;
 			break;
 	}
 }
@@ -394689,27 +394737,27 @@ void func_7318(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 118:
-			uParam0->f_1 = 2235943;
+			uParam0->f_1 = 2236385;
 			break;
 		
 		case 119:
-			uParam0->f_1 = 2235934;
+			uParam0->f_1 = 2236376;
 			break;
 		
 		case 120:
-			uParam0->f_1 = 2235925;
+			uParam0->f_1 = 2236367;
 			break;
 		
 		case 121:
-			uParam0->f_1 = 2235765;
+			uParam0->f_1 = 2236207;
 			break;
 		
 		case 122:
-			uParam0->f_26 = 2235757;
+			uParam0->f_26 = 2236199;
 			break;
 		
 		case 123:
-			uParam0->f_26 = 2235602;
+			uParam0->f_26 = 2236044;
 			break;
 	}
 }
@@ -394806,27 +394854,27 @@ void func_7326(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 112:
-			uParam0->f_1 = 2236160;
+			uParam0->f_1 = 2236602;
 			break;
 		
 		case 113:
-			uParam0->f_1 = 2236151;
+			uParam0->f_1 = 2236593;
 			break;
 		
 		case 114:
-			uParam0->f_1 = 2236142;
+			uParam0->f_1 = 2236584;
 			break;
 		
 		case 115:
-			uParam0->f_1 = 2235765;
+			uParam0->f_1 = 2236207;
 			break;
 		
 		case 116:
-			uParam0->f_1 = 2236133;
+			uParam0->f_1 = 2236575;
 			break;
 		
 		case 117:
-			uParam0->f_26 = 2236069;
+			uParam0->f_26 = 2236511;
 			break;
 	}
 }
@@ -394867,23 +394915,23 @@ void func_7332(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 106:
-			uParam0->f_1 = 2236389;
+			uParam0->f_1 = 2236831;
 			break;
 		
 		case 107:
-			uParam0->f_1 = 2236380;
+			uParam0->f_1 = 2236822;
 			break;
 		
 		case 108:
-			uParam0->f_1 = 2235765;
+			uParam0->f_1 = 2236207;
 			break;
 		
 		case 109:
-			uParam0->f_1 = 2236371;
+			uParam0->f_1 = 2236813;
 			break;
 		
 		case 111:
-			uParam0->f_63 = 2236269;
+			uParam0->f_63 = 2236711;
 			break;
 	}
 }

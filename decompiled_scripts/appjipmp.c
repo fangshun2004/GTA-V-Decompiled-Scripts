@@ -346,7 +346,7 @@ void __EntryFunction__()
 		iLocal_244 = 1;
 	}
 	Global_2686090.f_1.f_2802 = 0;
-	func_301(&(Global_1982486.f_13));
+	func_301(&(Global_1982487.f_13));
 	while (true)
 	{
 		SYSTEM::WAIT(0);
@@ -10815,7 +10815,7 @@ void func_309()
 
 int func_310()
 {
-	if (Global_1988076)
+	if (Global_1988077)
 	{
 		return 1;
 	}

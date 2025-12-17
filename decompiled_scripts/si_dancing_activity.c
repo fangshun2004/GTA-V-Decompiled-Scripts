@@ -2367,21 +2367,21 @@ void func_77(int iParam0)
 {
 	int iVar0;
 	
-	Global_1987935.f_2 = (Global_1987935.f_2 + iParam0);
-	if (Global_1987935.f_1 == 0)
+	Global_1987936.f_2 = (Global_1987936.f_2 + iParam0);
+	if (Global_1987936.f_1 == 0)
 	{
-		Global_1987935.f_1 = NETWORK::GET_CLOUD_TIME_AS_INT();
+		Global_1987936.f_1 = NETWORK::GET_CLOUD_TIME_AS_INT();
 	}
-	if (Global_1987935.f_2 >= Global_262145.f_32242 && !BitTest(Global_1987935, 0))
+	if (Global_1987936.f_2 >= Global_262145.f_32242 && !BitTest(Global_1987936, 0))
 	{
-		iVar0 = (((Global_1987935.f_1 % 86400) / 60) / 10);
+		iVar0 = (((Global_1987936.f_1 % 86400) / 60) / 10);
 		func_78(34120, iVar0, -1);
-		MISC::SET_BIT(&Global_1987935, 0);
+		MISC::SET_BIT(&Global_1987936, 0);
 	}
-	if (Global_1987935.f_1 != 0 && (NETWORK::GET_CLOUD_TIME_AS_INT() - Global_1987935.f_1) >= Global_262145.f_32243 * 60)
+	if (Global_1987936.f_1 != 0 && (NETWORK::GET_CLOUD_TIME_AS_INT() - Global_1987936.f_1) >= Global_262145.f_32243 * 60)
 	{
-		Global_1987935.f_1 = NETWORK::GET_CLOUD_TIME_AS_INT();
-		Global_1987935.f_2 = iParam0;
+		Global_1987936.f_1 = NETWORK::GET_CLOUD_TIME_AS_INT();
+		Global_1987936.f_2 = iParam0;
 	}
 }
 
@@ -2466,23 +2466,23 @@ int func_81(var uParam0)
 	int iVar2;
 	int iVar3;
 	
-	if (BitTest(Global_1987935, 0))
+	if (BitTest(Global_1987936, 0))
 	{
-		iVar0 = (NETWORK::GET_CLOUD_TIME_AS_INT() - Global_1987935.f_1);
+		iVar0 = (NETWORK::GET_CLOUD_TIME_AS_INT() - Global_1987936.f_1);
 		if (iVar0 >= Global_262145.f_32243 * 60)
 		{
-			MISC::CLEAR_BIT(&Global_1987935, 0);
+			MISC::CLEAR_BIT(&Global_1987936, 0);
 			func_83(uParam0);
 			func_9(uParam0, 0, 0);
-			Global_1987935.f_1 = 0;
-			Global_1987935.f_2 = 0;
+			Global_1987936.f_1 = 0;
+			Global_1987936.f_2 = 0;
 			return 1;
 		}
 		return 0;
 	}
-	else if (!BitTest(Global_1987935, 1))
+	else if (!BitTest(Global_1987936, 1))
 	{
-		if (Global_1987935.f_1 == 0)
+		if (Global_1987936.f_1 == 0)
 		{
 			iVar1 = func_82(34120, -1) * 10;
 			iVar2 = ((NETWORK::GET_CLOUD_TIME_AS_INT() % 86400) / 60);
@@ -2491,14 +2491,14 @@ int func_81(var uParam0)
 				iVar3 = (iVar2 - iVar1);
 				if (iVar3 < Global_262145.f_32243)
 				{
-					MISC::SET_BIT(&Global_1987935, 0);
-					Global_1987935.f_1 = (NETWORK::GET_CLOUD_TIME_AS_INT() - iVar3 * 60);
-					MISC::SET_BIT(&Global_1987935, 1);
+					MISC::SET_BIT(&Global_1987936, 0);
+					Global_1987936.f_1 = (NETWORK::GET_CLOUD_TIME_AS_INT() - iVar3 * 60);
+					MISC::SET_BIT(&Global_1987936, 1);
 					return 0;
 				}
 			}
 		}
-		MISC::SET_BIT(&Global_1987935, 1);
+		MISC::SET_BIT(&Global_1987936, 1);
 	}
 	return 1;
 }

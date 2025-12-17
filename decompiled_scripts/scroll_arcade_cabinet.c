@@ -12555,7 +12555,7 @@ int func_395()
 
 bool func_396()
 {
-	return BitTest(Global_1978496, 14);
+	return BitTest(Global_1978497, 14);
 }
 
 int func_397(int iParam0)

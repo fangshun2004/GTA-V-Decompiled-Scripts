@@ -1695,7 +1695,7 @@ int func_57(int iParam0)
 	switch (iParam0)
 	{
 		case 0:
-			return Global_1982570 == 0;
+			return Global_1982571 == 0;
 		
 		default:
 	}
