@@ -4908,7 +4908,7 @@ void func_184()
 
 void func_185(struct<21> Param0)
 {
-	func_189(func_190(Param0.f_0), Param0);
+	func_191(func_192(Param0.f_0), Param0);
 	func_187(0, -1, 0);
 	NETWORK::RESERVE_NETWORK_MISSION_PEDS(5);
 	NETWORK::RESERVE_NETWORK_MISSION_VEHICLES(3);
@@ -5062,15 +5062,45 @@ int func_187(int iParam0, int iParam1, bool bParam2)
 	return 1;
 }
 
-bool func_188(bool bParam0)
+int func_188(int iParam0)
 {
-	if (bParam0)
+	if (iParam0 && Global_1575062)
 	{
+		if (func_189())
+		{
+			return 0;
+		}
+		else
+		{
+			return 1;
+		}
 	}
 	return Global_1575062;
 }
 
-void func_189(int iParam0, struct<17> Param1, var uParam18, var uParam19, var uParam20, var uParam21)
+int func_189()
+{
+	if (func_190())
+	{
+		return 1;
+	}
+	return Global_1575065;
+	return 0;
+}
+
+int func_190()
+{
+	if (Global_1575062 || Global_1575068)
+	{
+		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_deathmatch_controler")) != 0)
+		{
+			return 1;
+		}
+	}
+	return 0;
+}
+
+void func_191(int iParam0, struct<17> Param1, var uParam18, var uParam19, var uParam20, var uParam21)
 {
 	if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
@@ -5079,7 +5109,7 @@ void func_189(int iParam0, struct<17> Param1, var uParam18, var uParam19, var uP
 	NETWORK::NETWORK_SET_THIS_SCRIPT_IS_NETWORK_SCRIPT(iParam0, false, Param1.f_16);
 }
 
-int func_190(int iParam0)
+int func_192(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -5613,7 +5643,7 @@ int func_190(int iParam0)
 		
 		default:
 	}
-	switch (func_191(func_192(iParam0, 1)))
+	switch (func_193(func_194(iParam0, 1)))
 	{
 		case 0:
 			return 8;
@@ -5629,7 +5659,7 @@ int func_190(int iParam0)
 	return 0;
 }
 
-int func_191(int iParam0)
+int func_193(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -5917,7 +5947,7 @@ int func_191(int iParam0)
 	return -1;
 }
 
-int func_192(int iParam0, bool bParam1)
+int func_194(int iParam0, bool bParam1)
 {
 	switch (iParam0)
 	{

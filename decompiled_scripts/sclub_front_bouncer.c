@@ -550,10 +550,10 @@ void __EntryFunction__()
 	fLocal_66 = ((0.05f + 0.275f) - 0.01f);
 	if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(99))
 	{
-		func_129();
+		func_131();
 	}
 	bLocal_338 = bScriptParam_0;
-	func_128(&uLocal_342, 4);
+	func_130(&uLocal_342, 4);
 	if (bLocal_338)
 	{
 		NETWORK::NETWORK_SET_THIS_SCRIPT_IS_NETWORK_SCRIPT(32, false, -1);
@@ -582,7 +582,7 @@ void __EntryFunction__()
 		{
 			if (func_110() || func_108(PLAYER::PLAYER_ID()))
 			{
-				func_129();
+				func_131();
 			}
 			if ((MISC::GET_FRAME_COUNT() % 10) == 0)
 			{
@@ -651,7 +651,7 @@ void __EntryFunction__()
 		}
 		if (func_3() || (Global_113927 && !func_1()))
 		{
-			func_129();
+			func_131();
 		}
 		SYSTEM::WAIT(0);
 	}
@@ -3297,7 +3297,7 @@ int func_125(int iParam0, int iParam1, bool bParam2)
 		{
 			if (!bParam2)
 			{
-				func_127();
+				func_129();
 			}
 			else
 			{
@@ -3312,7 +3312,7 @@ int func_125(int iParam0, int iParam1, bool bParam2)
 				{
 					if (!bParam2)
 					{
-						func_127();
+						func_129();
 					}
 					else
 					{
@@ -3323,7 +3323,7 @@ int func_125(int iParam0, int iParam1, bool bParam2)
 				{
 					if (!bParam2)
 					{
-						func_127();
+						func_129();
 					}
 					else
 					{
@@ -3334,7 +3334,7 @@ int func_125(int iParam0, int iParam1, bool bParam2)
 				{
 					if (!bParam2)
 					{
-						func_127();
+						func_129();
 					}
 					else
 					{
@@ -3346,7 +3346,7 @@ int func_125(int iParam0, int iParam1, bool bParam2)
 			{
 				if (!bParam2)
 				{
-					func_127();
+					func_129();
 				}
 				else
 				{
@@ -3367,7 +3367,7 @@ int func_125(int iParam0, int iParam1, bool bParam2)
 		{
 			if (!bParam2)
 			{
-				func_127();
+				func_129();
 			}
 			else
 			{
@@ -3379,7 +3379,7 @@ int func_125(int iParam0, int iParam1, bool bParam2)
 	{
 		if (!bParam2)
 		{
-			func_127();
+			func_129();
 		}
 		else
 		{
@@ -3389,20 +3389,50 @@ int func_125(int iParam0, int iParam1, bool bParam2)
 	return 1;
 }
 
-bool func_126(bool bParam0)
+int func_126(int iParam0)
 {
-	if (bParam0)
+	if (iParam0 && Global_1575062)
 	{
+		if (func_127())
+		{
+			return 0;
+		}
+		else
+		{
+			return 1;
+		}
 	}
 	return Global_1575062;
 }
 
-void func_127()
+int func_127()
+{
+	if (func_128())
+	{
+		return 1;
+	}
+	return Global_1575065;
+	return 0;
+}
+
+int func_128()
+{
+	if (Global_1575062 || Global_1575068)
+	{
+		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_deathmatch_controler")) != 0)
+		{
+			return 1;
+		}
+	}
+	return 0;
+}
+
+void func_129()
 {
 	SCRIPT::TERMINATE_THIS_THREAD();
 }
 
-void func_128(var uParam0, int iParam1)
+void func_130(var uParam0, int iParam1)
 {
 	if (iParam1 > 0)
 	{
@@ -3410,12 +3440,12 @@ void func_128(var uParam0, int iParam1)
 	}
 }
 
-void func_129()
+void func_131()
 {
 	STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(joaat("s_m_m_bouncer_01"));
 	if (ENTITY::DOES_ENTITY_EXIST(iLocal_68))
 	{
-		if (ENTITY::IS_ENTITY_A_MISSION_ENTITY(iLocal_68) && func_133())
+		if (ENTITY::IS_ENTITY_A_MISSION_ENTITY(iLocal_68) && func_135())
 		{
 			ENTITY::SET_PED_AS_NO_LONGER_NEEDED(&iLocal_68);
 		}
@@ -3425,19 +3455,19 @@ void func_129()
 		HUD::REMOVE_BLIP(&iLocal_341);
 	}
 	func_97(0);
-	func_132(0);
+	func_134(0);
 	PED::REMOVE_SCENARIO_BLOCKING_AREA(iLocal_340, false);
-	func_130(&uLocal_342, 0);
+	func_132(&uLocal_342, 0);
 	SCRIPT::TERMINATE_THIS_THREAD();
 }
 
-void func_130(var uParam0, bool bParam1)
+void func_132(var uParam0, bool bParam1)
 {
 	int iVar0;
 	
 	if (!bParam1)
 	{
-		func_131(uParam0);
+		func_133(uParam0);
 	}
 	iVar0 = 0;
 	while (iVar0 < 15)
@@ -3450,7 +3480,7 @@ void func_130(var uParam0, bool bParam1)
 	uParam0->f_273 = 1;
 }
 
-void func_131(var uParam0)
+void func_133(var uParam0)
 {
 	int iVar0;
 	
@@ -3466,7 +3496,7 @@ void func_131(var uParam0)
 	uParam0->f_271 = 1;
 }
 
-void func_132(bool bParam0)
+void func_134(bool bParam0)
 {
 	if (bParam0)
 	{
@@ -3478,7 +3508,7 @@ void func_132(bool bParam0)
 	}
 }
 
-bool func_133()
+bool func_135()
 {
 	if (!bLocal_338)
 	{

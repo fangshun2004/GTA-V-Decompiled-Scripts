@@ -39,7 +39,7 @@ void __EntryFunction__()
 	{
 		if (BitTest(Global_1690394, 1))
 		{
-			func_25();
+			func_27();
 		}
 		else
 		{
@@ -51,7 +51,7 @@ void __EntryFunction__()
 	}
 	else if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(2))
 	{
-		func_25();
+		func_27();
 	}
 	while (true)
 	{
@@ -60,7 +60,7 @@ void __EntryFunction__()
 		{
 			if (func_14())
 			{
-				func_25();
+				func_27();
 			}
 		}
 		if (ENTITY::DOES_ENTITY_EXIST(iScriptParam_0))
@@ -91,12 +91,12 @@ void __EntryFunction__()
 			}
 			else
 			{
-				func_25();
+				func_27();
 			}
 		}
 		else
 		{
-			func_25();
+			func_27();
 		}
 	}
 }
@@ -463,7 +463,7 @@ int func_22(int iParam0, int iParam1, bool bParam2)
 		{
 			if (!bParam2)
 			{
-				func_24();
+				func_26();
 			}
 			else
 			{
@@ -478,7 +478,7 @@ int func_22(int iParam0, int iParam1, bool bParam2)
 				{
 					if (!bParam2)
 					{
-						func_24();
+						func_26();
 					}
 					else
 					{
@@ -489,7 +489,7 @@ int func_22(int iParam0, int iParam1, bool bParam2)
 				{
 					if (!bParam2)
 					{
-						func_24();
+						func_26();
 					}
 					else
 					{
@@ -500,7 +500,7 @@ int func_22(int iParam0, int iParam1, bool bParam2)
 				{
 					if (!bParam2)
 					{
-						func_24();
+						func_26();
 					}
 					else
 					{
@@ -512,7 +512,7 @@ int func_22(int iParam0, int iParam1, bool bParam2)
 			{
 				if (!bParam2)
 				{
-					func_24();
+					func_26();
 				}
 				else
 				{
@@ -533,7 +533,7 @@ int func_22(int iParam0, int iParam1, bool bParam2)
 		{
 			if (!bParam2)
 			{
-				func_24();
+				func_26();
 			}
 			else
 			{
@@ -545,7 +545,7 @@ int func_22(int iParam0, int iParam1, bool bParam2)
 	{
 		if (!bParam2)
 		{
-			func_24();
+			func_26();
 		}
 		else
 		{
@@ -555,20 +555,50 @@ int func_22(int iParam0, int iParam1, bool bParam2)
 	return 1;
 }
 
-bool func_23(bool bParam0)
+int func_23(int iParam0)
 {
-	if (bParam0)
+	if (iParam0 && Global_1575062)
 	{
+		if (func_24())
+		{
+			return 0;
+		}
+		else
+		{
+			return 1;
+		}
 	}
 	return Global_1575062;
 }
 
-void func_24()
+int func_24()
+{
+	if (func_25())
+	{
+		return 1;
+	}
+	return Global_1575065;
+	return 0;
+}
+
+int func_25()
+{
+	if (Global_1575062 || Global_1575068)
+	{
+		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_deathmatch_controler")) != 0)
+		{
+			return 1;
+		}
+	}
+	return 0;
+}
+
+void func_26()
 {
 	SCRIPT::TERMINATE_THIS_THREAD();
 }
 
-void func_25()
+void func_27()
 {
 	SCRIPT::TERMINATE_THIS_THREAD();
 }

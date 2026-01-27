@@ -4823,7 +4823,7 @@ int func_107(int iParam0, int iParam1, bool bParam2)
 		{
 			if (!bParam2)
 			{
-				func_109();
+				func_111();
 			}
 			else
 			{
@@ -4838,7 +4838,7 @@ int func_107(int iParam0, int iParam1, bool bParam2)
 				{
 					if (!bParam2)
 					{
-						func_109();
+						func_111();
 					}
 					else
 					{
@@ -4849,7 +4849,7 @@ int func_107(int iParam0, int iParam1, bool bParam2)
 				{
 					if (!bParam2)
 					{
-						func_109();
+						func_111();
 					}
 					else
 					{
@@ -4860,7 +4860,7 @@ int func_107(int iParam0, int iParam1, bool bParam2)
 				{
 					if (!bParam2)
 					{
-						func_109();
+						func_111();
 					}
 					else
 					{
@@ -4872,7 +4872,7 @@ int func_107(int iParam0, int iParam1, bool bParam2)
 			{
 				if (!bParam2)
 				{
-					func_109();
+					func_111();
 				}
 				else
 				{
@@ -4893,7 +4893,7 @@ int func_107(int iParam0, int iParam1, bool bParam2)
 		{
 			if (!bParam2)
 			{
-				func_109();
+				func_111();
 			}
 			else
 			{
@@ -4905,7 +4905,7 @@ int func_107(int iParam0, int iParam1, bool bParam2)
 	{
 		if (!bParam2)
 		{
-			func_109();
+			func_111();
 		}
 		else
 		{
@@ -4915,15 +4915,45 @@ int func_107(int iParam0, int iParam1, bool bParam2)
 	return 1;
 }
 
-bool func_108(bool bParam0)
+int func_108(int iParam0)
 {
-	if (bParam0)
+	if (iParam0 && Global_1575062)
 	{
+		if (func_109())
+		{
+			return 0;
+		}
+		else
+		{
+			return 1;
+		}
 	}
 	return Global_1575062;
 }
 
-void func_109()
+int func_109()
+{
+	if (func_110())
+	{
+		return 1;
+	}
+	return Global_1575065;
+	return 0;
+}
+
+int func_110()
+{
+	if (Global_1575062 || Global_1575068)
+	{
+		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_deathmatch_controler")) != 0)
+		{
+			return 1;
+		}
+	}
+	return 0;
+}
+
+void func_111()
 {
 	SCRIPT::TERMINATE_THIS_THREAD();
 }

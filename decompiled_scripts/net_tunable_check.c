@@ -46,7 +46,7 @@ void __EntryFunction__()
 		{
 			func_6();
 		}
-		if (func_1(&uLocal_19, &Global_299578))
+		if (func_1(&uLocal_19, &Global_299580))
 		{
 			func_6();
 		}

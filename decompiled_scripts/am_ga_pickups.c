@@ -1018,7 +1018,7 @@ int func_44(struct<41> Param0, var uParam41, var uParam42, var uParam43, var uPa
 	Var0.f_20 = -1;
 	Var0.f_0 = Param0.f_0;
 	Var0.f_16 = Param0.f_1;
-	func_48(func_49(Param0.f_0), Var0);
+	func_50(func_51(Param0.f_0), Var0);
 	func_46(0, -1, 0);
 	NETWORK::NETWORK_REGISTER_HOST_BROADCAST_VARIABLES(&Local_147, 144, 0);
 	NETWORK::NETWORK_REGISTER_PLAYER_BROADCAST_VARIABLES(&Local_291, 65, 0);
@@ -1186,15 +1186,45 @@ int func_46(int iParam0, int iParam1, bool bParam2)
 	return 1;
 }
 
-bool func_47(bool bParam0)
+int func_47(int iParam0)
 {
-	if (bParam0)
+	if (iParam0 && Global_1575062)
 	{
+		if (func_48())
+		{
+			return 0;
+		}
+		else
+		{
+			return 1;
+		}
 	}
 	return Global_1575062;
 }
 
-void func_48(int iParam0, struct<17> Param1, var uParam18, var uParam19, var uParam20, var uParam21)
+int func_48()
+{
+	if (func_49())
+	{
+		return 1;
+	}
+	return Global_1575065;
+	return 0;
+}
+
+int func_49()
+{
+	if (Global_1575062 || Global_1575068)
+	{
+		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_deathmatch_controler")) != 0)
+		{
+			return 1;
+		}
+	}
+	return 0;
+}
+
+void func_50(int iParam0, struct<17> Param1, var uParam18, var uParam19, var uParam20, var uParam21)
 {
 	if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
@@ -1203,7 +1233,7 @@ void func_48(int iParam0, struct<17> Param1, var uParam18, var uParam19, var uPa
 	NETWORK::NETWORK_SET_THIS_SCRIPT_IS_NETWORK_SCRIPT(iParam0, false, Param1.f_16);
 }
 
-int func_49(int iParam0)
+int func_51(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -1737,7 +1767,7 @@ int func_49(int iParam0)
 		
 		default:
 	}
-	switch (func_50(func_51(iParam0, 1)))
+	switch (func_52(func_53(iParam0, 1)))
 	{
 		case 0:
 			return 8;
@@ -1753,7 +1783,7 @@ int func_49(int iParam0)
 	return 0;
 }
 
-int func_50(int iParam0)
+int func_52(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -2041,7 +2071,7 @@ int func_50(int iParam0)
 	return -1;
 }
 
-int func_51(int iParam0, bool bParam1)
+int func_53(int iParam0, bool bParam1)
 {
 	switch (iParam0)
 	{

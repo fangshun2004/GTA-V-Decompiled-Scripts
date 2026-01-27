@@ -132,7 +132,7 @@ void __EntryFunction__()
 	iLocal_41 = 64;
 	fLocal_61 = ((0.05f + 0.275f) - 0.01f);
 	fLocal_63 = 0f;
-	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS() && func_235(PLAYER::PLAYER_ID(), 0, 1))
+	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS() && func_237(PLAYER::PLAYER_ID(), 0, 1))
 	{
 		func_220(ScriptParam_0);
 	}
@@ -368,7 +368,7 @@ int func_6(int iParam0)
 		if (NETWORK::NETWORK_IS_PARTICIPANT_ACTIVE(PLAYER::INT_TO_PARTICIPANTINDEX(iVar1)))
 		{
 			bVar2 = NETWORK::NETWORK_GET_PLAYER_INDEX(PLAYER::INT_TO_PARTICIPANTINDEX(iVar1));
-			if (func_235(bVar2, 0, 0))
+			if (func_237(bVar2, 0, 0))
 			{
 				if (bVar2 != PLAYER::PLAYER_ID() || iParam0)
 				{
@@ -1945,7 +1945,7 @@ void func_63(bool bParam0, int iParam1, int iParam2)
 {
 	struct<9> Var0;
 	
-	if (func_235(bParam0, 0, 1))
+	if (func_237(bParam0, 0, 1))
 	{
 		Var0.f_0 = -1141119736;
 		Var0.f_1 = PLAYER::PLAYER_ID();
@@ -2185,7 +2185,7 @@ int func_76(int iParam0, int iParam1, bool bParam2, bool bParam3, bool bParam4)
 			{
 				if (NETWORK::NETWORK_GET_PLAYER_INDEX_FROM_PED(iVar1) != -1)
 				{
-					if (func_235(NETWORK::NETWORK_GET_PLAYER_INDEX_FROM_PED(iVar1), 0, 1))
+					if (func_237(NETWORK::NETWORK_GET_PLAYER_INDEX_FROM_PED(iVar1), 0, 1))
 					{
 						if ((iParam1 > -1 && NETWORK::NETWORK_IS_ACTIVITY_SESSION()) && iParam1 < 4)
 						{
@@ -2651,7 +2651,7 @@ int func_85(int iParam0, bool bParam1, int iParam2, bool bParam3)
 	while (iVar5 <= 31)
 	{
 		iVar1 = iVar5;
-		if (((!func_235(iVar1, 1, 1) || func_71(iVar1, 0)) || BitTest(Global_2658291[iVar1 /*468*/].f_203, 2)) || func_86(iVar1))
+		if (((!func_237(iVar1, 1, 1) || func_71(iVar1, 0)) || BitTest(Global_2658291[iVar1 /*468*/].f_203, 2)) || func_86(iVar1))
 		{
 		}
 		else if (PLAYER::GET_PLAYER_TEAM(iVar1) != iParam2)
@@ -3780,7 +3780,7 @@ int func_155(int iParam0)
 {
 	if (iParam0 > -1)
 	{
-		if (func_235(iParam0, 0, 1))
+		if (func_237(iParam0, 0, 1))
 		{
 			if (iParam0 == PLAYER::PLAYER_ID())
 			{
@@ -4549,7 +4549,7 @@ void func_176(bool bParam0, int iParam1)
 			if (NETWORK::NETWORK_IS_PARTICIPANT_ACTIVE(iVar3))
 			{
 				iVar4 = NETWORK::NETWORK_GET_PLAYER_INDEX(iVar3);
-				if (func_235(iVar4, 0, 1))
+				if (func_237(iVar4, 0, 1))
 				{
 					if (iVar4 != PLAYER::PLAYER_ID())
 					{
@@ -4570,7 +4570,7 @@ void func_176(bool bParam0, int iParam1)
 		while (iVar0 < 32)
 		{
 			iVar4 = iVar0;
-			if (func_235(iVar4, 1, 1))
+			if (func_237(iVar4, 1, 1))
 			{
 				if (iVar4 != PLAYER::PLAYER_ID())
 				{
@@ -5095,7 +5095,7 @@ int func_205(bool bParam0)
 	iVar0 = 0;
 	while (iVar0 < 32)
 	{
-		if (func_235(PLAYER::INT_TO_PLAYERINDEX(iVar0), 0, 1))
+		if (func_237(PLAYER::INT_TO_PLAYERINDEX(iVar0), 0, 1))
 		{
 			if (BitTest(Global_2658291[iVar0 /*468*/].f_222, bParam0))
 			{
@@ -5267,7 +5267,7 @@ void func_220(struct<21> Param0)
 {
 	int iVar0;
 	
-	func_231(func_232(Param0.f_0), Param0);
+	func_233(func_234(Param0.f_0), Param0);
 	NETWORK::RESERVE_NETWORK_MISSION_PEDS(1);
 	NETWORK::RESERVE_NETWORK_MISSION_VEHICLES(1);
 	func_229(0, -1, 0);
@@ -5695,15 +5695,45 @@ int func_229(int iParam0, int iParam1, bool bParam2)
 	return 1;
 }
 
-bool func_230(bool bParam0)
+int func_230(int iParam0)
 {
-	if (bParam0)
+	if (iParam0 && Global_1575062)
 	{
+		if (func_231())
+		{
+			return 0;
+		}
+		else
+		{
+			return 1;
+		}
 	}
 	return Global_1575062;
 }
 
-void func_231(int iParam0, struct<17> Param1, var uParam18, var uParam19, var uParam20, var uParam21)
+int func_231()
+{
+	if (func_232())
+	{
+		return 1;
+	}
+	return Global_1575065;
+	return 0;
+}
+
+int func_232()
+{
+	if (Global_1575062 || Global_1575068)
+	{
+		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_deathmatch_controler")) != 0)
+		{
+			return 1;
+		}
+	}
+	return 0;
+}
+
+void func_233(int iParam0, struct<17> Param1, var uParam18, var uParam19, var uParam20, var uParam21)
 {
 	if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
@@ -5712,7 +5742,7 @@ void func_231(int iParam0, struct<17> Param1, var uParam18, var uParam19, var uP
 	NETWORK::NETWORK_SET_THIS_SCRIPT_IS_NETWORK_SCRIPT(iParam0, false, Param1.f_16);
 }
 
-int func_232(int iParam0)
+int func_234(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -6246,7 +6276,7 @@ int func_232(int iParam0)
 		
 		default:
 	}
-	switch (func_233(func_234(iParam0, 1)))
+	switch (func_235(func_236(iParam0, 1)))
 	{
 		case 0:
 			return 8;
@@ -6262,7 +6292,7 @@ int func_232(int iParam0)
 	return 0;
 }
 
-int func_233(int iParam0)
+int func_235(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -6550,7 +6580,7 @@ int func_233(int iParam0)
 	return -1;
 }
 
-int func_234(int iParam0, bool bParam1)
+int func_236(int iParam0, bool bParam1)
 {
 	switch (iParam0)
 	{
@@ -7099,7 +7129,7 @@ int func_234(int iParam0, bool bParam1)
 	return 372;
 }
 
-int func_235(int iParam0, bool bParam1, bool bParam2)
+int func_237(int iParam0, bool bParam1, bool bParam2)
 {
 	int iVar0;
 	

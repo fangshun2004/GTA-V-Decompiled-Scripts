@@ -1301,7 +1301,7 @@ int func_52(int iParam0)
 
 void func_53(struct<21> Param0)
 {
-	func_56(func_57(Param0.f_0), Param0);
+	func_58(func_59(Param0.f_0), Param0);
 	func_54(0, -1, 0);
 	NETWORK::NETWORK_REGISTER_PLAYER_BROADCAST_VARIABLES(&Local_56, 97, 0);
 	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
@@ -1418,15 +1418,45 @@ int func_54(int iParam0, int iParam1, bool bParam2)
 	return 1;
 }
 
-bool func_55(bool bParam0)
+int func_55(int iParam0)
 {
-	if (bParam0)
+	if (iParam0 && Global_1575062)
 	{
+		if (func_56())
+		{
+			return 0;
+		}
+		else
+		{
+			return 1;
+		}
 	}
 	return Global_1575062;
 }
 
-void func_56(int iParam0, struct<17> Param1, var uParam18, var uParam19, var uParam20, var uParam21)
+int func_56()
+{
+	if (func_57())
+	{
+		return 1;
+	}
+	return Global_1575065;
+	return 0;
+}
+
+int func_57()
+{
+	if (Global_1575062 || Global_1575068)
+	{
+		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_deathmatch_controler")) != 0)
+		{
+			return 1;
+		}
+	}
+	return 0;
+}
+
+void func_58(int iParam0, struct<17> Param1, var uParam18, var uParam19, var uParam20, var uParam21)
 {
 	if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
@@ -1435,7 +1465,7 @@ void func_56(int iParam0, struct<17> Param1, var uParam18, var uParam19, var uPa
 	NETWORK::NETWORK_SET_THIS_SCRIPT_IS_NETWORK_SCRIPT(iParam0, false, Param1.f_16);
 }
 
-int func_57(int iParam0)
+int func_59(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -1969,7 +1999,7 @@ int func_57(int iParam0)
 		
 		default:
 	}
-	switch (func_58(func_59(iParam0, 1)))
+	switch (func_60(func_61(iParam0, 1)))
 	{
 		case 0:
 			return 8;
@@ -1985,7 +2015,7 @@ int func_57(int iParam0)
 	return 0;
 }
 
-int func_58(int iParam0)
+int func_60(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -2273,7 +2303,7 @@ int func_58(int iParam0)
 	return -1;
 }
 
-int func_59(int iParam0, bool bParam1)
+int func_61(int iParam0, bool bParam1)
 {
 	switch (iParam0)
 	{

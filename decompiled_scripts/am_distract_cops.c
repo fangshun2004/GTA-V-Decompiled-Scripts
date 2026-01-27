@@ -137,7 +137,7 @@ void __EntryFunction__()
 	iLocal_41 = 64;
 	fLocal_61 = ((0.05f + 0.275f) - 0.01f);
 	fLocal_63 = 0f;
-	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS() && func_293(PLAYER::PLAYER_ID(), 0, 1))
+	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS() && func_295(PLAYER::PLAYER_ID(), 0, 1))
 	{
 		func_283(ScriptParam_0);
 	}
@@ -339,7 +339,7 @@ int func_8(int iParam0)
 		if (NETWORK::NETWORK_IS_PARTICIPANT_ACTIVE(PLAYER::INT_TO_PARTICIPANTINDEX(iVar1)))
 		{
 			bVar2 = NETWORK::NETWORK_GET_PLAYER_INDEX(PLAYER::INT_TO_PARTICIPANTINDEX(iVar1));
-			if (func_293(bVar2, 0, 0))
+			if (func_295(bVar2, 0, 0))
 			{
 				if (bVar2 != PLAYER::PLAYER_ID() || iParam0)
 				{
@@ -405,7 +405,7 @@ void func_11()
 		if (NETWORK::NETWORK_IS_PARTICIPANT_ACTIVE(PLAYER::INT_TO_PARTICIPANTINDEX(iLocal_251)))
 		{
 			iVar0 = NETWORK::NETWORK_GET_PLAYER_INDEX(PLAYER::INT_TO_PARTICIPANTINDEX(iLocal_251));
-			if (func_293(iVar0, 1, 1))
+			if (func_295(iVar0, 1, 1))
 			{
 				if (!BitTest(Local_96.f_1, 0))
 				{
@@ -896,7 +896,7 @@ void func_37(var uParam0, int iParam1)
 	{
 		uParam0->f_73 = 1;
 	}
-	if (iParam1 == func_89() || !func_293(iParam1, 0, 1))
+	if (iParam1 == func_89() || !func_295(iParam1, 0, 1))
 	{
 		return;
 	}
@@ -949,7 +949,7 @@ int func_38(int iParam0, int iParam1, bool bParam2, bool bParam3, bool bParam4)
 			{
 				if (NETWORK::NETWORK_GET_PLAYER_INDEX_FROM_PED(iVar1) != -1)
 				{
-					if (func_293(NETWORK::NETWORK_GET_PLAYER_INDEX_FROM_PED(iVar1), 0, 1))
+					if (func_295(NETWORK::NETWORK_GET_PLAYER_INDEX_FROM_PED(iVar1), 0, 1))
 					{
 						if ((iParam1 > -1 && NETWORK::NETWORK_IS_ACTIVITY_SESSION()) && iParam1 < 4)
 						{
@@ -1415,7 +1415,7 @@ int func_47(int iParam0, bool bParam1, int iParam2, bool bParam3)
 	while (iVar5 <= 31)
 	{
 		iVar1 = iVar5;
-		if (((!func_293(iVar1, 1, 1) || func_49(iVar1, 0)) || BitTest(Global_2658291[iVar1 /*468*/].f_203, 2)) || func_48(iVar1))
+		if (((!func_295(iVar1, 1, 1) || func_49(iVar1, 0)) || BitTest(Global_2658291[iVar1 /*468*/].f_203, 2)) || func_48(iVar1))
 		{
 		}
 		else if (PLAYER::GET_PLAYER_TEAM(iVar1) != iParam2)
@@ -3134,7 +3134,7 @@ void func_123(bool bParam0, int iParam1, int iParam2)
 {
 	struct<9> Var0;
 	
-	if (func_293(bParam0, 0, 1))
+	if (func_295(bParam0, 0, 1))
 	{
 		Var0.f_0 = -1141119736;
 		Var0.f_1 = PLAYER::PLAYER_ID();
@@ -3443,7 +3443,7 @@ void func_146()
 				MISC::SET_BIT(&uLocal_245, 5);
 			}
 		}
-		else if (!func_293(PLAYER::PLAYER_ID(), 1, 1))
+		else if (!func_295(PLAYER::PLAYER_ID(), 1, 1))
 		{
 			MISC::SET_BIT(&uLocal_245, 5);
 		}
@@ -3887,7 +3887,7 @@ int func_169(int iParam0)
 {
 	if (iParam0 > -1)
 	{
-		if (func_293(iParam0, 0, 1))
+		if (func_295(iParam0, 0, 1))
 		{
 			if (iParam0 == PLAYER::PLAYER_ID())
 			{
@@ -4663,7 +4663,7 @@ void func_190(bool bParam0, int iParam1)
 			if (NETWORK::NETWORK_IS_PARTICIPANT_ACTIVE(iVar3))
 			{
 				iVar4 = NETWORK::NETWORK_GET_PLAYER_INDEX(iVar3);
-				if (func_293(iVar4, 0, 1))
+				if (func_295(iVar4, 0, 1))
 				{
 					if (iVar4 != PLAYER::PLAYER_ID())
 					{
@@ -4684,7 +4684,7 @@ void func_190(bool bParam0, int iParam1)
 		while (iVar0 < 32)
 		{
 			iVar4 = iVar0;
-			if (func_293(iVar4, 1, 1))
+			if (func_295(iVar4, 1, 1))
 			{
 				if (iVar4 != PLAYER::PLAYER_ID())
 				{
@@ -5357,7 +5357,7 @@ void func_242(struct<12> Param0, int iParam12)
 
 int func_243(int iParam0)
 {
-	if (func_293(iParam0, 0, 1))
+	if (func_295(iParam0, 0, 1))
 	{
 		return Global_2658291[iParam0 /*468*/].f_1;
 	}
@@ -5537,7 +5537,7 @@ int func_250(int iParam0)
 
 int func_251(int iParam0)
 {
-	if (!func_293(iParam0, 0, 1))
+	if (!func_295(iParam0, 0, 1))
 	{
 		return 0;
 	}
@@ -5653,7 +5653,7 @@ void func_263()
 {
 	if (!BitTest(uLocal_245, 6))
 	{
-		if (((((((func_264(60000) && func_266() == 1) && Local_96.f_7 <= 1) && !HUD::IS_HELP_MESSAGE_BEING_DISPLAYED()) && !HUD::IS_PAUSE_MENU_ACTIVE()) && func_293(PLAYER::PLAYER_ID(), 1, 1)) && !func_212()) && Local_96.f_16 != 5)
+		if (((((((func_264(60000) && func_266() == 1) && Local_96.f_7 <= 1) && !HUD::IS_HELP_MESSAGE_BEING_DISPLAYED()) && !HUD::IS_PAUSE_MENU_ACTIVE()) && func_295(PLAYER::PLAYER_ID(), 1, 1)) && !func_212()) && Local_96.f_16 != 5)
 		{
 			if (!func_262())
 			{
@@ -5890,7 +5890,7 @@ int func_270(bool bParam0)
 	iVar0 = 0;
 	while (iVar0 < 32)
 	{
-		if (func_293(PLAYER::INT_TO_PLAYERINDEX(iVar0), 0, 1))
+		if (func_295(PLAYER::INT_TO_PLAYERINDEX(iVar0), 0, 1))
 		{
 			if (BitTest(Global_2658291[iVar0 /*468*/].f_222, bParam0))
 			{
@@ -6047,7 +6047,7 @@ void func_282(bool bParam0, bool bParam1)
 
 void func_283(struct<21> Param0)
 {
-	func_289(func_290(Param0.f_0), Param0);
+	func_291(func_292(Param0.f_0), Param0);
 	func_287(0, -1, 0);
 	NETWORK::NETWORK_REGISTER_HOST_BROADCAST_VARIABLES(&Local_96, 20, 0);
 	NETWORK::NETWORK_REGISTER_PLAYER_BROADCAST_VARIABLES(&Local_116, 129, 0);
@@ -6253,15 +6253,45 @@ int func_287(int iParam0, int iParam1, bool bParam2)
 	return 1;
 }
 
-bool func_288(bool bParam0)
+int func_288(int iParam0)
 {
-	if (bParam0)
+	if (iParam0 && Global_1575062)
 	{
+		if (func_289())
+		{
+			return 0;
+		}
+		else
+		{
+			return 1;
+		}
 	}
 	return Global_1575062;
 }
 
-void func_289(int iParam0, struct<17> Param1, var uParam18, var uParam19, var uParam20, var uParam21)
+int func_289()
+{
+	if (func_290())
+	{
+		return 1;
+	}
+	return Global_1575065;
+	return 0;
+}
+
+int func_290()
+{
+	if (Global_1575062 || Global_1575068)
+	{
+		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_deathmatch_controler")) != 0)
+		{
+			return 1;
+		}
+	}
+	return 0;
+}
+
+void func_291(int iParam0, struct<17> Param1, var uParam18, var uParam19, var uParam20, var uParam21)
 {
 	if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
@@ -6270,7 +6300,7 @@ void func_289(int iParam0, struct<17> Param1, var uParam18, var uParam19, var uP
 	NETWORK::NETWORK_SET_THIS_SCRIPT_IS_NETWORK_SCRIPT(iParam0, false, Param1.f_16);
 }
 
-int func_290(int iParam0)
+int func_292(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -6804,7 +6834,7 @@ int func_290(int iParam0)
 		
 		default:
 	}
-	switch (func_291(func_292(iParam0, 1)))
+	switch (func_293(func_294(iParam0, 1)))
 	{
 		case 0:
 			return 8;
@@ -6820,7 +6850,7 @@ int func_290(int iParam0)
 	return 0;
 }
 
-int func_291(int iParam0)
+int func_293(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -7108,7 +7138,7 @@ int func_291(int iParam0)
 	return -1;
 }
 
-int func_292(int iParam0, bool bParam1)
+int func_294(int iParam0, bool bParam1)
 {
 	switch (iParam0)
 	{
@@ -7657,7 +7687,7 @@ int func_292(int iParam0, bool bParam1)
 	return 372;
 }
 
-int func_293(int iParam0, bool bParam1, bool bParam2)
+int func_295(int iParam0, bool bParam1, bool bParam2)
 {
 	int iVar0;
 	

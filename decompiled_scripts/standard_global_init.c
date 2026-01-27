@@ -4189,6 +4189,7 @@ void func_87()
 	DECORATOR::DECOR_REGISTER("Player_Field_Duster", 3);
 	DECORATOR::DECOR_REGISTER("Player_Mansion_Heli", 3);
 	DECORATOR::DECOR_REGISTER("Mansion_Spawned_Heli", 2);
+	DECORATOR::DECOR_REGISTER("Mansion_Carmod_Vehicle", 2);
 }
 
 void func_88()

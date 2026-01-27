@@ -1625,19 +1625,19 @@ void func_15(var uParam0)
 					{
 						iVar3 += 3;
 					}
-					if (!Global_262145.f_37222)
+					if (!Global_262145.f_37224)
 					{
 						iVar3 += 2;
 					}
-					if (!Global_262145.f_37223)
-					{
-						iVar3++;
-					}
-					if (!Global_262145.f_37224)
-					{
-						iVar3++;
-					}
 					if (!Global_262145.f_37225)
+					{
+						iVar3++;
+					}
+					if (!Global_262145.f_37226)
+					{
+						iVar3++;
+					}
+					if (!Global_262145.f_37227)
 					{
 						iVar3 += 2;
 					}
@@ -1931,19 +1931,19 @@ void func_15(var uParam0)
 				case 21:
 					iLocal_109 = 1;
 					iLocal_110 = 12;
-					if (!Global_262145.f_37222)
+					if (!Global_262145.f_37224)
 					{
 						iLocal_110 = (iLocal_110 - 2);
 					}
-					if (!Global_262145.f_37223)
-					{
-						iLocal_110 = (iLocal_110 - 1);
-					}
-					if (!Global_262145.f_37224)
-					{
-						iLocal_110 = (iLocal_110 - 1);
-					}
 					if (!Global_262145.f_37225)
+					{
+						iLocal_110 = (iLocal_110 - 1);
+					}
+					if (!Global_262145.f_37226)
+					{
+						iLocal_110 = (iLocal_110 - 1);
+					}
+					if (!Global_262145.f_37227)
 					{
 						iLocal_110 = (iLocal_110 - 2);
 					}
@@ -2675,20 +2675,20 @@ void func_15(var uParam0)
 							func_104(223, 8, iVar4, &Local_111);
 							func_118(159, 8, iVar4, &Local_111);
 							func_118(160, 8, iVar4, &Local_111);
-							if (Global_262145.f_37222)
+							if (Global_262145.f_37224)
 							{
 								func_118(161, 8, iVar4, &Local_111);
 								func_104(224, 8, iVar4, &Local_111);
 							}
-							if (Global_262145.f_37223)
+							if (Global_262145.f_37225)
 							{
 								func_118(162, 8, iVar4, &Local_111);
 							}
-							if (Global_262145.f_37224)
+							if (Global_262145.f_37226)
 							{
 								func_118(163, 8, iVar4, &Local_111);
 							}
-							if (Global_262145.f_37225)
+							if (Global_262145.f_37227)
 							{
 								func_118(164, 8, iVar4, &Local_111);
 								func_104(225, 8, iVar4, &Local_111);
@@ -3707,20 +3707,20 @@ void func_15(var uParam0)
 					func_104(223, 8, iVar4, &Local_111);
 					func_118(159, 8, iVar4, &Local_111);
 					func_118(160, 8, iVar4, &Local_111);
-					if (Global_262145.f_37222)
+					if (Global_262145.f_37224)
 					{
 						func_118(161, 8, iVar4, &Local_111);
 						func_104(224, 8, iVar4, &Local_111);
 					}
-					if (Global_262145.f_37223)
+					if (Global_262145.f_37225)
 					{
 						func_118(162, 8, iVar4, &Local_111);
 					}
-					if (Global_262145.f_37224)
+					if (Global_262145.f_37226)
 					{
 						func_118(163, 8, iVar4, &Local_111);
 					}
-					if (Global_262145.f_37225)
+					if (Global_262145.f_37227)
 					{
 						func_118(164, 8, iVar4, &Local_111);
 						func_104(225, 8, iVar4, &Local_111);

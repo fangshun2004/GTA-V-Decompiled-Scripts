@@ -2072,11 +2072,11 @@ int func_24(int iParam0, int iParam1)
 
 int func_25()
 {
-	if (Global_262145.f_37370)
+	if (Global_262145.f_37372)
 	{
 		return 0;
 	}
-	if (((func_35(PLAYER::PLAYER_ID()) || (NETWORK::NETWORK_IS_ACTIVITY_SESSION() && !func_34())) || !func_26()) || Global_262145.f_37369)
+	if (((func_35(PLAYER::PLAYER_ID()) || (NETWORK::NETWORK_IS_ACTIVITY_SESSION() && !func_34())) || !func_26()) || Global_262145.f_37371)
 	{
 		return 1;
 	}

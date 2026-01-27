@@ -210,15 +210,15 @@ void __EntryFunction__()
 	fLocal_67 = ((0.05f + 0.275f) - 0.01f);
 	fLocal_69 = 0f;
 	iLocal_144 = 15;
-	if (func_54())
+	if (func_56())
 	{
-		func_52();
+		func_54();
 	}
 	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
 		if (!func_41(ScriptParam_0))
 		{
-			func_52();
+			func_54();
 		}
 	}
 	if (iLocal_144 == 15)
@@ -229,9 +229,9 @@ void __EntryFunction__()
 	while (true)
 	{
 		func_38();
-		if (func_54())
+		if (func_56())
 		{
-			func_52();
+			func_54();
 		}
 		if (NETWORK::NETWORK_IS_IN_TUTORIAL_SESSION())
 		{
@@ -304,7 +304,7 @@ void __EntryFunction__()
 				break;
 			
 			case 2:
-				func_52();
+				func_54();
 				break;
 		}
 		if (NETWORK::NETWORK_IS_HOST_OF_THIS_SCRIPT())
@@ -4038,7 +4038,7 @@ void func_40(int iParam0, var uParam1)
 
 int func_41(struct<21> Param0)
 {
-	func_48(func_49(Param0.f_0), Param0);
+	func_50(func_51(Param0.f_0), Param0);
 	func_45(0, -1, 0);
 	NETWORK::NETWORK_REGISTER_HOST_BROADCAST_VARIABLES(&Local_208, 24, 0);
 	NETWORK::NETWORK_REGISTER_PLAYER_BROADCAST_VARIABLES(&Local_243, 129, 0);
@@ -4109,7 +4109,7 @@ int func_45(int iParam0, int iParam1, bool bParam2)
 		{
 			if (!bParam2)
 			{
-				func_47();
+				func_49();
 			}
 			else
 			{
@@ -4124,7 +4124,7 @@ int func_45(int iParam0, int iParam1, bool bParam2)
 				{
 					if (!bParam2)
 					{
-						func_47();
+						func_49();
 					}
 					else
 					{
@@ -4135,7 +4135,7 @@ int func_45(int iParam0, int iParam1, bool bParam2)
 				{
 					if (!bParam2)
 					{
-						func_47();
+						func_49();
 					}
 					else
 					{
@@ -4146,7 +4146,7 @@ int func_45(int iParam0, int iParam1, bool bParam2)
 				{
 					if (!bParam2)
 					{
-						func_47();
+						func_49();
 					}
 					else
 					{
@@ -4158,7 +4158,7 @@ int func_45(int iParam0, int iParam1, bool bParam2)
 			{
 				if (!bParam2)
 				{
-					func_47();
+					func_49();
 				}
 				else
 				{
@@ -4179,7 +4179,7 @@ int func_45(int iParam0, int iParam1, bool bParam2)
 		{
 			if (!bParam2)
 			{
-				func_47();
+				func_49();
 			}
 			else
 			{
@@ -4191,7 +4191,7 @@ int func_45(int iParam0, int iParam1, bool bParam2)
 	{
 		if (!bParam2)
 		{
-			func_47();
+			func_49();
 		}
 		else
 		{
@@ -4201,29 +4201,59 @@ int func_45(int iParam0, int iParam1, bool bParam2)
 	return 1;
 }
 
-bool func_46(bool bParam0)
+int func_46(int iParam0)
 {
-	if (bParam0)
+	if (iParam0 && Global_1575062)
 	{
+		if (func_47())
+		{
+			return 0;
+		}
+		else
+		{
+			return 1;
+		}
 	}
 	return Global_1575062;
 }
 
-void func_47()
+int func_47()
+{
+	if (func_48())
+	{
+		return 1;
+	}
+	return Global_1575065;
+	return 0;
+}
+
+int func_48()
+{
+	if (Global_1575062 || Global_1575068)
+	{
+		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_deathmatch_controler")) != 0)
+		{
+			return 1;
+		}
+	}
+	return 0;
+}
+
+void func_49()
 {
 	SCRIPT::TERMINATE_THIS_THREAD();
 }
 
-void func_48(int iParam0, struct<17> Param1, var uParam18, var uParam19, var uParam20, var uParam21)
+void func_50(int iParam0, struct<17> Param1, var uParam18, var uParam19, var uParam20, var uParam21)
 {
 	if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
-		func_47();
+		func_49();
 	}
 	NETWORK::NETWORK_SET_THIS_SCRIPT_IS_NETWORK_SCRIPT(iParam0, false, Param1.f_16);
 }
 
-int func_49(int iParam0)
+int func_51(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -4757,7 +4787,7 @@ int func_49(int iParam0)
 		
 		default:
 	}
-	switch (func_50(func_51(iParam0, 1)))
+	switch (func_52(func_53(iParam0, 1)))
 	{
 		case 0:
 			return 8;
@@ -4773,7 +4803,7 @@ int func_49(int iParam0)
 	return 0;
 }
 
-int func_50(int iParam0)
+int func_52(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -5061,7 +5091,7 @@ int func_50(int iParam0)
 	return -1;
 }
 
-int func_51(int iParam0, bool bParam1)
+int func_53(int iParam0, bool bParam1)
 {
 	switch (iParam0)
 	{
@@ -5610,15 +5640,15 @@ int func_51(int iParam0, bool bParam1)
 	return 372;
 }
 
-void func_52()
+void func_54()
 {
-	func_53(iLocal_151);
+	func_55(iLocal_151);
 	Global_2733002.f_827 = 0;
 	Global_2733002.f_3696 = 0;
-	func_47();
+	func_49();
 }
 
-void func_53(int iParam0)
+void func_55(int iParam0)
 {
 	struct<15> Var0;
 	int iVar15;
@@ -5641,7 +5671,7 @@ void func_53(int iParam0)
 	}
 }
 
-int func_54()
+int func_56()
 {
 	if (Global_1575062 == 0)
 	{
@@ -5658,13 +5688,13 @@ int func_54()
 	{
 		return 1;
 	}
-	if (func_58())
+	if (func_60())
 	{
 		return 1;
 	}
 	if (func_43(159))
 	{
-		if (!func_57())
+		if (!func_59())
 		{
 			return 1;
 		}
@@ -5677,9 +5707,9 @@ int func_54()
 	{
 		return 1;
 	}
-	if (func_55() != 0)
+	if (func_57() != 0)
 	{
-		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(func_55()) == 0)
+		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(func_57()) == 0)
 		{
 			return 1;
 		}
@@ -5687,12 +5717,12 @@ int func_54()
 	return 0;
 }
 
-int func_55()
+int func_57()
 {
 	switch (func_34())
 	{
 		case 0:
-			return func_56();
+			return func_58();
 			break;
 		
 		case 2:
@@ -5702,7 +5732,7 @@ int func_55()
 	return 0;
 }
 
-int func_56()
+int func_58()
 {
 	switch (Global_2699676)
 	{
@@ -5714,12 +5744,12 @@ int func_56()
 	return joaat("freemode");
 }
 
-bool func_57()
+bool func_59()
 {
 	return Global_2685150.f_700;
 }
 
-bool func_58()
+bool func_60()
 {
 	return Global_2696964;
 }

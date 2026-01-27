@@ -14369,7 +14369,7 @@ int func_299(int iParam0, bool bParam1, bool bParam2, bool bParam3)
 			}
 			if (func_301(iVar2))
 			{
-				iVar0 = SYSTEM::ROUND((SYSTEM::TO_FLOAT(iVar0) / Global_262145.f_37015));
+				iVar0 = SYSTEM::ROUND((SYSTEM::TO_FLOAT(iVar0) / Global_262145.f_37017));
 			}
 			break;
 		
@@ -14385,7 +14385,7 @@ int func_299(int iParam0, bool bParam1, bool bParam2, bool bParam3)
 			}
 			if (func_301(iVar2))
 			{
-				iVar0 = SYSTEM::ROUND((SYSTEM::TO_FLOAT(iVar0) / Global_262145.f_37020));
+				iVar0 = SYSTEM::ROUND((SYSTEM::TO_FLOAT(iVar0) / Global_262145.f_37022));
 			}
 			break;
 		
@@ -14405,7 +14405,7 @@ int func_299(int iParam0, bool bParam1, bool bParam2, bool bParam3)
 			}
 			if (func_301(iVar2))
 			{
-				iVar0 = SYSTEM::ROUND((SYSTEM::TO_FLOAT(iVar0) / Global_262145.f_37014));
+				iVar0 = SYSTEM::ROUND((SYSTEM::TO_FLOAT(iVar0) / Global_262145.f_37016));
 			}
 			break;
 		
@@ -14425,7 +14425,7 @@ int func_299(int iParam0, bool bParam1, bool bParam2, bool bParam3)
 			}
 			if (func_301(iVar2))
 			{
-				iVar0 = SYSTEM::ROUND((SYSTEM::TO_FLOAT(iVar0) / Global_262145.f_37016));
+				iVar0 = SYSTEM::ROUND((SYSTEM::TO_FLOAT(iVar0) / Global_262145.f_37018));
 			}
 			break;
 		
@@ -14445,7 +14445,7 @@ int func_299(int iParam0, bool bParam1, bool bParam2, bool bParam3)
 			}
 			if (func_301(iVar2))
 			{
-				iVar0 = SYSTEM::ROUND((SYSTEM::TO_FLOAT(iVar0) / Global_262145.f_37018));
+				iVar0 = SYSTEM::ROUND((SYSTEM::TO_FLOAT(iVar0) / Global_262145.f_37020));
 			}
 			break;
 		
@@ -14465,7 +14465,7 @@ int func_299(int iParam0, bool bParam1, bool bParam2, bool bParam3)
 			}
 			if (func_301(iVar2))
 			{
-				iVar0 = SYSTEM::ROUND((SYSTEM::TO_FLOAT(iVar0) / Global_262145.f_37017));
+				iVar0 = SYSTEM::ROUND((SYSTEM::TO_FLOAT(iVar0) / Global_262145.f_37019));
 			}
 			break;
 		
@@ -14517,7 +14517,7 @@ int func_299(int iParam0, bool bParam1, bool bParam2, bool bParam3)
 			}
 			if (func_301(iVar2))
 			{
-				iVar0 = SYSTEM::ROUND((SYSTEM::TO_FLOAT(iVar0) / Global_262145.f_37019));
+				iVar0 = SYSTEM::ROUND((SYSTEM::TO_FLOAT(iVar0) / Global_262145.f_37021));
 			}
 			break;
 	}

@@ -82,7 +82,7 @@ void __EntryFunction__()
 	iLocal_38 = 65;
 	iLocal_39 = 49;
 	iLocal_40 = 64;
-	func_189();
+	func_191();
 	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
 		func_185();
@@ -6509,15 +6509,45 @@ int func_187(int iParam0, int iParam1, bool bParam2)
 	return 1;
 }
 
-bool func_188(bool bParam0)
+int func_188(int iParam0)
 {
-	if (bParam0)
+	if (iParam0 && Global_1575062)
 	{
+		if (func_189())
+		{
+			return 0;
+		}
+		else
+		{
+			return 1;
+		}
 	}
 	return Global_1575062;
 }
 
-void func_189()
+int func_189()
+{
+	if (func_190())
+	{
+		return 1;
+	}
+	return Global_1575065;
+	return 0;
+}
+
+int func_190()
+{
+	if (Global_1575062 || Global_1575068)
+	{
+		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_deathmatch_controler")) != 0)
+		{
+			return 1;
+		}
+	}
+	return 0;
+}
+
+void func_191()
 {
 	Global_1576965 = 1;
 	Global_1576962 = 0;

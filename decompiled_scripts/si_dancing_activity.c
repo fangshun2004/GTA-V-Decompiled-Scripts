@@ -13486,7 +13486,7 @@ void func_428(var uParam0)
 
 void func_429(var uParam0)
 {
-	if (func_451() == -1)
+	if (func_453() == -1)
 	{
 		func_422();
 	}
@@ -13494,7 +13494,7 @@ void func_429(var uParam0)
 	{
 		func_422();
 	}
-	NETWORK::NETWORK_SET_THIS_SCRIPT_IS_NETWORK_SCRIPT(32, false, func_451());
+	NETWORK::NETWORK_SET_THIS_SCRIPT_IS_NETWORK_SCRIPT(32, false, func_453());
 	func_449(0, -1, 0);
 	NETWORK::NETWORK_REGISTER_HOST_BROADCAST_VARIABLES(&uLocal_1175, 1, 0);
 	func_448(&(Local_142.f_1));
@@ -14016,15 +14016,45 @@ int func_449(int iParam0, int iParam1, bool bParam2)
 	return 1;
 }
 
-bool func_450(bool bParam0)
+int func_450(int iParam0)
 {
-	if (bParam0)
+	if (iParam0 && Global_1575062)
 	{
+		if (func_451())
+		{
+			return 0;
+		}
+		else
+		{
+			return 1;
+		}
 	}
 	return Global_1575062;
 }
 
 int func_451()
+{
+	if (func_452())
+	{
+		return 1;
+	}
+	return Global_1575065;
+	return 0;
+}
+
+int func_452()
+{
+	if (Global_1575062 || Global_1575068)
+	{
+		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_deathmatch_controler")) != 0)
+		{
+			return 1;
+		}
+	}
+	return 0;
+}
+
+int func_453()
 {
 	var uVar0;
 	
