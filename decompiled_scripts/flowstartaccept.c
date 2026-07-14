@@ -11,15 +11,34 @@
 	int iLocal_9 = 0;
 	int iLocal_10 = 0;
 	int iLocal_11 = 0;
-	float fLocal_12 = 0f;
-	var uLocal_13 = 0;
-	var uLocal_14 = 0;
-	int iLocal_15 = 0;
-	var uLocal_16 = 0;
+	var uLocal_12 = 0;
+	var uLocal_13 = -2;
+	var uLocal_14 = -2;
+	var uLocal_15 = -2;
+	var uLocal_16 = 5;
 	var uLocal_17 = 0;
-	int iLocal_18 = 0;
-	int iLocal_19 = 0;
-	int iLocal_20 = 0;
+	var uLocal_18 = 0;
+	var uLocal_19 = 0;
+	var uLocal_20 = 0;
+	var uLocal_21 = 0;
+	var uLocal_22 = 2;
+	var uLocal_23 = 0;
+	var uLocal_24 = 0;
+	var uLocal_25 = 2;
+	var uLocal_26 = 0;
+	var uLocal_27 = 0;
+	var uLocal_28 = 2;
+	var uLocal_29 = 0;
+	var uLocal_30 = 0;
+	float fLocal_31 = 0f;
+	var uLocal_32 = 0;
+	var uLocal_33 = 0;
+	int iLocal_34 = 0;
+	var uLocal_35 = 0;
+	var uLocal_36 = 0;
+	int iLocal_37 = 0;
+	int iLocal_38 = 0;
+	int iLocal_39 = 0;
 #endregion
 
 void __EntryFunction__()
@@ -34,8 +53,8 @@ void __EntryFunction__()
 	iLocal_9 = 1;
 	iLocal_10 = 12;
 	iLocal_11 = 12;
-	fLocal_12 = 0.001f;
-	iLocal_15 = -1;
+	fLocal_31 = 0.001f;
+	iLocal_34 = -1;
 	if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(83))
 	{
 		func_6();
@@ -50,23 +69,23 @@ void __EntryFunction__()
 				CAM::DO_SCREEN_FADE_OUT(800);
 			}
 		}
-		iLocal_18 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MP_BIG_MESSAGE_FREEMODE");
-		iLocal_19 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("INSTRUCTIONAL_BUTTONS");
-		while (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_18) || !GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_19))
+		iLocal_37 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("MP_BIG_MESSAGE_FREEMODE");
+		iLocal_38 = GRAPHICS::REQUEST_SCALEFORM_MOVIE("INSTRUCTIONAL_BUTTONS");
+		while (!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_37) || !GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_38))
 		{
 			SYSTEM::WAIT(0);
 		}
-		GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD(iLocal_18, "SHOW_CENTERED_MP_MESSAGE");
+		GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD(iLocal_37, "SHOW_CENTERED_MP_MESSAGE");
 		func_5("INSTALL_COMP");
 		GRAPHICS::END_SCALEFORM_MOVIE_METHOD();
-		GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD(iLocal_19, "SET_DATA_SLOT_EMPTY");
+		GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD(iLocal_38, "SET_DATA_SLOT_EMPTY");
 		GRAPHICS::END_SCALEFORM_MOVIE_METHOD();
-		GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD(iLocal_19, "SET_DATA_SLOT");
+		GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD(iLocal_38, "SET_DATA_SLOT");
 		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(0);
 		func_4(PAD::GET_CONTROL_INSTRUCTIONAL_BUTTONS_STRING(2, 201, true));
 		func_5("HUD_CONTINUE");
 		GRAPHICS::END_SCALEFORM_MOVIE_METHOD();
-		GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD(iLocal_19, "DRAW_INSTRUCTIONAL_BUTTONS");
+		GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD(iLocal_38, "DRAW_INSTRUCTIONAL_BUTTONS");
 		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_BOOL(false);
 		GRAPHICS::END_SCALEFORM_MOVIE_METHOD();
 		while (!CAM::IS_SCREEN_FADED_OUT())
@@ -74,15 +93,15 @@ void __EntryFunction__()
 			SYSTEM::WAIT(0);
 		}
 		SCRIPT::SHUTDOWN_LOADING_SCREEN();
-		while (!iLocal_20)
+		while (!iLocal_39)
 		{
 			HUD::HIDE_LOADING_ON_FADE_THIS_FRAME();
 			GRAPHICS::SET_SCRIPT_GFX_DRAW_ORDER(7);
-			GRAPHICS::DRAW_SCALEFORM_MOVIE_FULLSCREEN(iLocal_18, 255, 255, 255, 0, 0);
-			GRAPHICS::DRAW_SCALEFORM_MOVIE_FULLSCREEN(iLocal_19, 255, 255, 255, 0, 0);
+			GRAPHICS::DRAW_SCALEFORM_MOVIE_FULLSCREEN(iLocal_37, 255, 255, 255, 0, 0);
+			GRAPHICS::DRAW_SCALEFORM_MOVIE_FULLSCREEN(iLocal_38, 255, 255, 255, 0, 0);
 			if (PAD::IS_CONTROL_PRESSED(2, 201))
 			{
-				iLocal_20 = 1;
+				iLocal_39 = 1;
 			}
 			SYSTEM::WAIT(0);
 		}
@@ -90,8 +109,8 @@ void __EntryFunction__()
 		func_3(1, 1);
 		func_1();
 	}
-	Global_80551.f_1 = 0;
-	MISC::SET_BIT(&(Global_114904.f_10023.f_25), 0);
+	Global_80608.f_1 = 0;
+	MISC::SET_BIT(&(Global_114963.f_10025.f_25), 0);
 	func_6();
 }
 
@@ -101,18 +120,18 @@ int func_1()
 	{
 		return 0;
 	}
-	if (Global_102468.f_8)
+	if (Global_102525.f_8)
 	{
-		if (Global_102468.f_10 > 0)
+		if (Global_102525.f_10 > 0)
 		{
 			return 0;
 		}
 	}
-	else if (Global_102468.f_10 > 1)
+	else if (Global_102525.f_10 > 1)
 	{
 		return 0;
 	}
-	Global_102468.f_10++;
+	Global_102525.f_10++;
 	return 1;
 }
 
@@ -122,13 +141,13 @@ int func_2(bool bParam0)
 	{
 		return 1;
 	}
-	return BitTest(Global_80529, 0);
+	return BitTest(Global_80586, 0);
 }
 
 void func_3(int iParam0, int iParam1)
 {
-	Global_102468.f_7 = iParam0;
-	Global_102468.f_8 = iParam1;
+	Global_102525.f_7 = iParam0;
+	Global_102525.f_8 = iParam1;
 }
 
 void func_4(char* sParam0)
@@ -144,13 +163,13 @@ void func_5(char* sParam0)
 
 void func_6()
 {
-	if (iLocal_18 != 0)
+	if (iLocal_37 != 0)
 	{
-		GRAPHICS::SET_SCALEFORM_MOVIE_AS_NO_LONGER_NEEDED(&iLocal_18);
+		GRAPHICS::SET_SCALEFORM_MOVIE_AS_NO_LONGER_NEEDED(&iLocal_37);
 	}
-	if (iLocal_19 != 0)
+	if (iLocal_38 != 0)
 	{
-		GRAPHICS::SET_SCALEFORM_MOVIE_AS_NO_LONGER_NEEDED(&iLocal_19);
+		GRAPHICS::SET_SCALEFORM_MOVIE_AS_NO_LONGER_NEEDED(&iLocal_38);
 	}
 	GRAPHICS::SET_SCRIPT_GFX_DRAW_ORDER(4);
 	SCRIPT::SET_NO_LOADING_SCREEN(false);

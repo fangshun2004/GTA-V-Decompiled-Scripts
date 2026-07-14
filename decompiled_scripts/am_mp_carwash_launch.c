@@ -11,42 +11,61 @@
 	int iLocal_9 = 0;
 	int iLocal_10 = 0;
 	int iLocal_11 = 0;
-	float fLocal_12 = 0f;
-	var uLocal_13 = 0;
-	var uLocal_14 = 0;
-	int iLocal_15 = 0;
-	var uLocal_16 = 0;
+	var uLocal_12 = 0;
+	var uLocal_13 = -2;
+	var uLocal_14 = -2;
+	var uLocal_15 = -2;
+	var uLocal_16 = 5;
 	var uLocal_17 = 0;
 	var uLocal_18 = 0;
 	var uLocal_19 = 0;
 	var uLocal_20 = 0;
-	char* sLocal_21 = NULL;
-	var uLocal_22 = 0;
+	var uLocal_21 = 0;
+	var uLocal_22 = 2;
 	var uLocal_23 = 0;
-	float fLocal_24 = 0f;
-	float fLocal_25 = 0f;
-	float fLocal_26 = 0f;
+	var uLocal_24 = 0;
+	var uLocal_25 = 2;
+	var uLocal_26 = 0;
 	var uLocal_27 = 0;
-	var uLocal_28 = 0;
-	float fLocal_29 = 0f;
+	var uLocal_28 = 2;
+	var uLocal_29 = 0;
 	var uLocal_30 = 0;
-	var uLocal_31 = 0;
+	float fLocal_31 = 0f;
 	var uLocal_32 = 0;
-	float fLocal_33 = 0f;
-	float fLocal_34 = 0f;
+	var uLocal_33 = 0;
+	int iLocal_34 = 0;
 	var uLocal_35 = 0;
 	var uLocal_36 = 0;
-	int iLocal_37 = 0;
+	var uLocal_37 = 0;
 	var uLocal_38 = 0;
 	var uLocal_39 = 0;
-	var uLocal_40 = 0;
-	int iLocal_41 = 0;
-	int iLocal_42 = 0;
-	int iLocal_43 = 0;
-	int iLocal_44 = 0;
-	var uLocal_45 = 0;
+	char* sLocal_40 = NULL;
+	var uLocal_41 = 0;
+	var uLocal_42 = 0;
+	float fLocal_43 = 0f;
+	float fLocal_44 = 0f;
+	float fLocal_45 = 0f;
 	var uLocal_46 = 0;
 	var uLocal_47 = 0;
+	float fLocal_48 = 0f;
+	var uLocal_49 = 0;
+	var uLocal_50 = 0;
+	var uLocal_51 = 0;
+	float fLocal_52 = 0f;
+	float fLocal_53 = 0f;
+	var uLocal_54 = 0;
+	var uLocal_55 = 0;
+	int iLocal_56 = 0;
+	var uLocal_57 = 0;
+	var uLocal_58 = 0;
+	var uLocal_59 = 0;
+	int iLocal_60 = 0;
+	int iLocal_61 = 0;
+	int iLocal_62 = 0;
+	int iLocal_63 = 0;
+	var uLocal_64 = 0;
+	var uLocal_65 = 0;
+	var uLocal_66 = 0;
 	struct<2> ScriptParam_0 = { 0, 5 } ;
 	var uScriptParam_2 = 0;
 	var uScriptParam_3 = 0;
@@ -89,20 +108,20 @@ void __EntryFunction__()
 	iLocal_9 = 1;
 	iLocal_10 = 12;
 	iLocal_11 = 12;
-	fLocal_12 = 0.001f;
-	iLocal_15 = -1;
-	sLocal_21 = "NULL";
-	fLocal_24 = 80f;
-	fLocal_25 = 140f;
-	fLocal_26 = 180f;
-	fLocal_29 = 0f;
-	fLocal_33 = -0.0375f;
-	fLocal_34 = 0.17f;
-	iLocal_37 = 3;
-	iLocal_41 = 1;
-	iLocal_42 = 65;
-	iLocal_43 = 49;
-	iLocal_44 = 64;
+	fLocal_31 = 0.001f;
+	iLocal_34 = -1;
+	sLocal_40 = "NULL";
+	fLocal_43 = 80f;
+	fLocal_44 = 140f;
+	fLocal_45 = 180f;
+	fLocal_48 = 0f;
+	fLocal_52 = -0.0375f;
+	fLocal_53 = 0.17f;
+	iLocal_56 = 3;
+	iLocal_60 = 1;
+	iLocal_61 = 65;
+	iLocal_62 = 49;
+	iLocal_63 = 64;
 	iVar1 = joaat("carwash1");
 	sVar2 = "carwash1";
 	Var3 = { ScriptParam_0.f_1[0 /*3*/] };
@@ -180,14 +199,14 @@ Vector3 func_1(int iParam0)
 	int iVar0;
 	
 	iVar0 = iParam0;
-	return Global_34155[iVar0 /*23*/][0 /*3*/];
+	return Global_34195[iVar0 /*23*/][0 /*3*/];
 }
 
 int func_2(int iParam0)
 {
 	if (iParam0 != func_3())
 	{
-		return BitTest(Global_2658291[iParam0 /*468*/].f_325.f_5, 4);
+		return BitTest(Global_2658293[iParam0 /*468*/].f_325.f_5, 4);
 	}
 	return 0;
 }
@@ -201,7 +220,7 @@ int func_4(int iParam0)
 {
 	if (iParam0 != func_3())
 	{
-		return BitTest(Global_1845250[iParam0 /*880*/].f_260.f_439.f_2, 16);
+		return BitTest(Global_1845298[iParam0 /*881*/].f_260.f_439.f_2, 16);
 	}
 	return 0;
 }
@@ -210,27 +229,27 @@ int func_5(int iParam0)
 {
 	if (iParam0 != func_3())
 	{
-		return BitTest(Global_1845250[iParam0 /*880*/].f_260.f_376, 29);
+		return BitTest(Global_1845298[iParam0 /*881*/].f_260.f_376, 29);
 	}
 	return 0;
 }
 
 var func_6()
 {
-	return BitTest(Global_1845250[PLAYER::PLAYER_ID() /*880*/].f_36.f_18, 0);
+	return BitTest(Global_1845298[PLAYER::PLAYER_ID() /*881*/].f_36.f_18, 0);
 }
 
 bool func_7(int iParam0)
 {
-	return BitTest(Global_1845250[iParam0 /*880*/].f_140, 6);
+	return BitTest(Global_1845298[iParam0 /*881*/].f_140, 6);
 }
 
 int func_8()
 {
 	int iVar0;
 	
-	iVar0 = Global_2673271;
-	if (BitTest(Global_1882572[iVar0 /*315*/].f_17, 0) && Global_1882572[iVar0 /*315*/].f_27 == 2)
+	iVar0 = Global_2673273;
+	if (BitTest(Global_1882652[iVar0 /*321*/].f_17, 0) && Global_1882652[iVar0 /*321*/].f_27 == 2)
 	{
 		return 1;
 	}
@@ -249,7 +268,7 @@ int func_9(int iParam0, bool bParam1, bool bParam2)
 	if (!bParam2)
 	{
 	}
-	if (Global_1845250[iParam0 /*880*/] == -1)
+	if (Global_1845298[iParam0 /*881*/] == -1)
 	{
 		return 0;
 	}
@@ -263,7 +282,7 @@ bool func_10(int iParam0)
 
 var func_11(int iParam0)
 {
-	return BitTest(Global_1845250[iParam0 /*880*/].f_11.f_1, 0);
+	return BitTest(Global_1845298[iParam0 /*881*/].f_11.f_1, 0);
 }
 
 bool func_12(int iParam0)

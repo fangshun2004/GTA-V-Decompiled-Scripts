@@ -11,18 +11,37 @@
 	int iLocal_9 = 0;
 	int iLocal_10 = 0;
 	int iLocal_11 = 0;
-	float fLocal_12 = 0f;
-	var uLocal_13 = 0;
-	var uLocal_14 = 0;
-	int iLocal_15 = 0;
-	var uLocal_16 = 0;
+	var uLocal_12 = 0;
+	var uLocal_13 = -2;
+	var uLocal_14 = -2;
+	var uLocal_15 = -2;
+	var uLocal_16 = 5;
 	var uLocal_17 = 0;
-	char* sLocal_18 = NULL;
+	var uLocal_18 = 0;
 	var uLocal_19 = 0;
 	var uLocal_20 = 0;
 	var uLocal_21 = 0;
-	var uLocal_22 = 0;
+	var uLocal_22 = 2;
 	var uLocal_23 = 0;
+	var uLocal_24 = 0;
+	var uLocal_25 = 2;
+	var uLocal_26 = 0;
+	var uLocal_27 = 0;
+	var uLocal_28 = 2;
+	var uLocal_29 = 0;
+	var uLocal_30 = 0;
+	float fLocal_31 = 0f;
+	var uLocal_32 = 0;
+	var uLocal_33 = 0;
+	int iLocal_34 = 0;
+	var uLocal_35 = 0;
+	var uLocal_36 = 0;
+	char* sLocal_37 = NULL;
+	var uLocal_38 = 0;
+	var uLocal_39 = 0;
+	var uLocal_40 = 0;
+	var uLocal_41 = 0;
+	var uLocal_42 = 0;
 #endregion
 
 void __EntryFunction__()
@@ -37,16 +56,16 @@ void __EntryFunction__()
 	iLocal_9 = 1;
 	iLocal_10 = 12;
 	iLocal_11 = 12;
-	fLocal_12 = 0.001f;
-	iLocal_15 = -1;
-	sLocal_18 = "NULL";
+	fLocal_31 = 0.001f;
+	iLocal_34 = -1;
+	sLocal_37 = "NULL";
 	while (true)
 	{
-		if (func_7() || Global_1963151 == 1)
+		if (func_7() || Global_1963676 == 1)
 		{
 			func_6();
 		}
-		if (func_1(&uLocal_19, &Global_299580))
+		if (func_1(&uLocal_38, &Global_299937))
 		{
 			func_6();
 		}
@@ -21311,11 +21330,11 @@ void func_2(int iParam0, var uParam1)
 
 int func_3()
 {
-	if (Global_2693290)
+	if (Global_2693398)
 	{
 		return 32;
 	}
-	return (32 - Global_2693291);
+	return (32 - Global_2693399);
 }
 
 int func_4(int iParam0)
@@ -21467,7 +21486,7 @@ void func_6()
 
 int func_7()
 {
-	if (Global_1575062 == 0)
+	if (Global_1575066 == 0)
 	{
 		if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 		{
@@ -21478,7 +21497,7 @@ int func_7()
 	{
 		return 1;
 	}
-	if (Global_2699567)
+	if (Global_2699678)
 	{
 		return 1;
 	}
@@ -21528,7 +21547,7 @@ int func_8()
 
 int func_9()
 {
-	switch (Global_2699676)
+	switch (Global_2699787)
 	{
 		case 0:
 			return joaat("freemode");
@@ -21540,12 +21559,12 @@ int func_9()
 
 int func_10()
 {
-	return Global_33775;
+	return Global_33815;
 }
 
 bool func_11()
 {
-	return Global_2685150.f_700;
+	return Global_2685152.f_726;
 }
 
 int func_12(int iParam0)
@@ -21559,11 +21578,11 @@ int func_12(int iParam0)
 
 bool func_13()
 {
-	return Global_2696964;
+	return Global_2697072;
 }
 
 bool func_14()
 {
-	return Global_2685150.f_695;
+	return Global_2685152.f_721;
 }
 
